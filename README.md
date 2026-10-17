@@ -85,3 +85,9 @@ Then add this second subscription to NetNewsWire:
 `https://raw.githubusercontent.com/dodsondc/lancaster-feeds/main/lancaster_township_meetings.xml`
 
 No change to the existing news subscription is needed. Local test command: `Rscript tests/test-meetings.R`.
+
+## Feed ordering
+
+Both feeds sort by Eastern calendar day of first detection, descending, then by publication date (news) or meeting date (documents), descending. Stable document IDs/URLs break remaining ties deterministically. Since NetNewsWire sorts using RSS pubDate and cannot be told a custom secondary key, the generated pubDate encodes that order using seconds after midnight on the detection day. These seconds are sorting values, not actual publication/detection times. Actual publication estimates, meeting dates, and full first-detection timestamps remain in the item descriptions and saved state. No identifiers or saved detection dates are reset. Existing items' RSS dates will change on the first refresh with this version.
+
+Upload R/news.R, R/meetings.R, tests/test-news.R, tests/test-meetings.R and this README to update sorting. Keep existing state and workflow. NetNewsWire should be set to show newest first; existing cached history may not change until the feed is refreshed and updated entries are accepted by the reader.

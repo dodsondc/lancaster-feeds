@@ -58,3 +58,25 @@ ten <- collect_township_news(root)
 stopifnot(length(ten) == 10L, length(xml_find_all(read_xml(feed_path), "//item")) == 10L, !any(grepl("_R(11|12)\\.php", requested)))
 unlink(root, recursive = TRUE)
 cat("Passed: explicit dates, timezone handling, HTML cleanup, absolute links, stable fallback dates, failure retention, year inference, migration, and page-1 limit.\n")
+
+# Reader-visible RSS dates and XML order must agree on detection day, then
+# publication date. Different detection times on the same day must not dominate.
+make_record <- function(id, seen, date) list(url = paste0("https://example.org/", id),
+  title = id, first_seen = publication_time(seen), date = publication_time(date),
+  date_source = "estimated_listing", body = "<p>Example</p>")
+records <- list(
+  make_record("older-published-later-detected", "2026-10-17T15:00:00-04:00", "2026-08-01"),
+  make_record("newer-published", "2026-10-17T09:00:00-04:00", "2026-09-01"),
+  make_record("new-detection-day", "2026-10-18T09:00:00-04:00", "2025-01-01"))
+sorted <- order_feed_records(records, function(r) r$date)
+stopifnot(identical(vapply(sorted, function(r) r$title, character(1)), c("new-detection-day", "newer-published", "older-published-later-detected")),
+  all(diff(vapply(sorted, function(r) r$feed_sort_time, numeric(1))) < 0),
+  sorted[[2]]$first_seen == records[[2]]$first_seen)
+# A full news RSS file has the same descending pubDate sequence.
+f <- tempfile(fileext = ".xml")
+write_news_rss(records, f)
+written <- read_xml(f)
+stopifnot(identical(xml_text(xml_find_all(written, "//item/title")), vapply(sorted, function(r) r$title, character(1))))
+stopifnot(identical(xml_text(xml_find_all(written, "//item/pubDate")), vapply(sorted, function(r) rss_date(r$feed_sort_time), character(1))))
+unlink(f)
+cat("Passed reader-visible detection-day/publication-date ordering.\n")

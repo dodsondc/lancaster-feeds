@@ -52,12 +52,10 @@ write_meeting_rss <- function(records, path) {
   channel <- xml_add_child(rss, "channel")
   xml_add_child(channel, "title", "Lancaster Township — Meeting Documents")
   xml_add_child(channel, "link", "https://www.twp.lancaster.pa.us/government/agendas___minutes/index.php")
-  xml_add_child(channel, "description", "Agendas, minutes and packets for the Board of Supervisors, Planning Commission, Zoning Hearing Board and Traffic Committee. Item dates indicate first detection, not meeting dates or publication dates.")
+  xml_add_child(channel, "description", "Agendas, minutes and packets for the Board of Supervisors, Planning Commission, Zoning Hearing Board and Traffic Committee. Feed dates sort by detection day, then meeting date. Seconds after midnight are ordering values, not publication times.")
   xml_add_child(channel, "language", "en-us")
   xml_add_child(channel, "ttl", "720")
-  # Bootstrap items share one discovery time; use meeting date to order that batch.
-  records <- records[order(vapply(records, function(r) r$first_seen, numeric(1)),
-                           vapply(records, function(r) r$meeting_date, character(1)), decreasing = TRUE)]
+  records <- order_feed_records(records, function(r) publication_time(r$meeting_date))
   for (r in records) {
     item <- xml_add_child(channel, "item")
     xml_add_child(item, "title", paste(r$type, r$entity, r$meeting_date, sep = " — "))
@@ -65,12 +63,13 @@ write_meeting_rss <- function(records, path) {
     xml_add_child(item, "guid", r$id, isPermaLink = "false")
     xml_add_child(item, "category", r$entity)
     xml_add_child(item, "category", r$type)
-    xml_add_child(item, "pubDate", rss_date(r$first_seen))
+    xml_add_child(item, "pubDate", rss_date(r$feed_sort_time))
     # Construct HTML with xml2 so URLs containing & and other special characters are escaped.
     body <- xml_new_root("div")
     xml_add_child(body, "p", paste0(r$entity, " · ", r$type, " · Meeting date: ", r$meeting_date))
     xml_add_child(body, "p", paste0("Listed as: ", r$row_label))
     xml_add_child(body, "p", paste0("First detected: ", format(as.POSIXct(r$first_seen, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d %H:%M %Z"), ". Publication date unavailable."))
+    xml_add_child(body, "p", "Feed date sorts by detection day, then meeting date; its time of day is an ordering value.")
     p <- xml_add_child(body, "p")
     xml_add_child(p, "a", paste("Open", r$type, "PDF"), href = r$url)
     p <- xml_add_child(body, "p")

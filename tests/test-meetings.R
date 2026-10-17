@@ -47,3 +47,11 @@ failed <- tryCatch({collect_meeting_documents(root); FALSE}, error = function(e)
 stopifnot(failed, identical(before, readBin(path, "raw", n = file.info(path)$size)))
 unlink(root, recursive = TRUE)
 cat("Passed meeting checks: all four page layouts, meeting dates/types, base URLs, PDF filtering, stable IDs/discovery dates, RSS links, failure retention.\n")
+
+# Within a shared detection day the meeting date breaks ties in reader dates.
+r <- list(
+  list(id = "older", first_seen = publication_time("2026-10-17T15:00:00-04:00"), meeting_date = "2026-08-10"),
+  list(id = "newer", first_seen = publication_time("2026-10-17T09:00:00-04:00"), meeting_date = "2026-10-12"))
+r <- order_feed_records(r, function(x) publication_time(x$meeting_date))
+stopifnot(r[[1]]$id == "newer", r[[1]]$feed_sort_time > r[[2]]$feed_sort_time)
+cat("Passed meeting-date tie breaking within detection day.\n")

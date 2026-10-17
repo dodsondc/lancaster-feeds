@@ -130,23 +130,45 @@ atomic_json <- function(x, path) {
   if (!file.rename(tmp, path)) stop("Could not replace ", path)
 }
 
+# RSS readers generally sort by pubDate rather than XML position. Encode the
+# requested two-level order in that single date: Eastern detection DAY, then
+# publication/meeting date. Seconds after midnight are ordering slots, not
+# actual detection/publication times; those are kept separately in the body/state.
+order_feed_records <- function(records, secondary) {
+  if (!length(records)) return(records)
+  days <- vapply(records, function(r) format(as.POSIXct(r$first_seen,
+    origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d"), character(1))
+  dates <- vapply(records, secondary, numeric(1))
+  ids <- vapply(records, function(r) if (!is.null(r$id)) r$id else r$url, character(1))
+  indices <- order(days, dates, ids, decreasing = TRUE)
+  records <- records[indices]
+  days <- days[indices]
+  for (day in unique(days)) {
+    group <- which(days == day)
+    if (length(group) >= 86400L) stop("Too many items for a single feed detection day")
+    start <- as.numeric(as.POSIXct(day, format = "%Y-%m-%d", tz = "America/New_York"))
+    for (j in seq_along(group)) records[[group[j]]]$feed_sort_time <- start + length(group) - j
+  }
+  records
+}
+
 write_news_rss <- function(records, path) {
   if (!length(records)) stop("No articles: refusing to replace the existing feed")
   rss <- xml_new_root("rss", version = "2.0")
   channel <- xml_add_child(rss, "channel")
   xml_add_child(channel, "title", "Lancaster Township News")
   xml_add_child(channel, "link", "https://www.twp.lancaster.pa.us/newslist.php")
-  xml_add_child(channel, "description", "News and announcements from Lancaster Township, Pennsylvania. Dates are verified publication dates, estimates from the listing, or the first collection time, as labeled in each item.")
+  xml_add_child(channel, "description", "News and announcements from Lancaster Township, Pennsylvania. Dates are verified publication dates, estimates from the listing, or the first collection time, as labeled in each item. Feed dates sort by detection day, then publication date; seconds after midnight are ordering values.")
   xml_add_child(channel, "language", "en-us")
   xml_add_child(channel, "ttl", "720")
-  records <- records[order(vapply(records, function(r) r$date, numeric(1)), decreasing = TRUE)]
+  records <- order_feed_records(records, function(r) r$date)
   for (r in records) {
     item <- xml_add_child(channel, "item")
     xml_add_child(item, "title", r$title)
     xml_add_child(item, "link", r$url)
     xml_add_child(item, "guid", r$url, isPermaLink = "true")
     xml_add_child(item, "category", "News")
-    xml_add_child(item, "pubDate", rss_date(r$date))
+    xml_add_child(item, "pubDate", rss_date(r$feed_sort_time))
     label <- switch(r$date_source,
       published = "Published",
       estimated_listing = "Publication date estimated from listing",
@@ -156,6 +178,7 @@ write_news_rss <- function(records, path) {
     first_stamp <- format(as.POSIXct(r$first_seen, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d %H:%M %Z")
     heading <- paste0("<p><em>", label, ": ", stamp, "</em></p>\n")
     if (r$date_source != "first_collected") heading <- paste0(heading, "<p><em>First collected: ", first_stamp, "</em></p>\n")
+    heading <- paste0(heading, "<p><small>Feed date sorts by detection day, then publication date; its time of day is an ordering value.</small></p>\n")
     description <- xml_add_child(item, "description")
     xml_add_child(description, xml_cdata(paste0(heading, r$body)))
   }
