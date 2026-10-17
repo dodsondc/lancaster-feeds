@@ -1,0 +1,586 @@
+{
+  "version": 1,
+  "last_checked": 1792266080.02034,
+  "items": {
+    "Board of Supervisors|2026-10-12|Agenda|https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
+      "id": "Board of Supervisors|2026-10-12|Agenda|https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-10-12",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202610081413080",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 10/12/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-09-14|Agenda|https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
+      "id": "Board of Supervisors|2026-09-14|Agenda|https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-09-14",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202609101150050",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 09/14/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-09-14|Minutes|https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Mtg%20Minutes.pdf": {
+      "id": "Board of Supervisors|2026-09-14|Minutes|https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Mtg%20Minutes.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-09-14",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Mtg%20Minutes.pdf?t=202610141056330",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 09/14/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-08-10|Agenda|https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
+      "id": "Board of Supervisors|2026-08-10|Agenda|https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-08-10",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202608061020240",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 08/10/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-08-10|Minutes|https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Mtg%20Minutes.pdf": {
+      "id": "Board of Supervisors|2026-08-10|Minutes|https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Mtg%20Minutes.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-08-10",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Mtg%20Minutes.pdf?t=202610081414220",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 08/10/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-07-13|Agenda|https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
+      "id": "Board of Supervisors|2026-07-13|Agenda|https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-07-13",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202608121350210",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 07/13/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-07-13|Minutes|https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Mtg%20Minutes.pdf": {
+      "id": "Board of Supervisors|2026-07-13|Minutes|https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Mtg%20Minutes.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-07-13",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Mtg%20Minutes.pdf?t=202608121350400",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 07/13/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-06-08|Agenda|https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
+      "id": "Board of Supervisors|2026-06-08|Agenda|https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-06-08",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202606041106100",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 06/08/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-06-08|Minutes|https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Mtg%20Minutes.pdf": {
+      "id": "Board of Supervisors|2026-06-08|Minutes|https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Mtg%20Minutes.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-06-08",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Mtg%20Minutes.pdf?t=202607141320200",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 06/08/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-05-11|Agenda|https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
+      "id": "Board of Supervisors|2026-05-11|Agenda|https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-05-11",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202605071205310",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 05/11/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-05-11|Minutes|https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Mtg%20Minutes.pdf": {
+      "id": "Board of Supervisors|2026-05-11|Minutes|https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Mtg%20Minutes.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-05-11",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Mtg%20Minutes.pdf?t=202606091348030",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 05/11/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-04-13|Agenda|https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
+      "id": "Board of Supervisors|2026-04-13|Agenda|https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-04-13",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202604091354040",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 04/13/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-04-13|Minutes|https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Mtg%20Minutes.pdf": {
+      "id": "Board of Supervisors|2026-04-13|Minutes|https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Mtg%20Minutes.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-04-13",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Mtg%20Minutes.pdf?t=202605131520320",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 04/13/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-03-09|Agenda|https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
+      "id": "Board of Supervisors|2026-03-09|Agenda|https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-03-09",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202603091126110",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 03/09/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-03-09|Minutes|https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Mtg%20Minutes.pdf": {
+      "id": "Board of Supervisors|2026-03-09|Minutes|https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Mtg%20Minutes.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-03-09",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Mtg%20Minutes.pdf?t=202604160904220",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 03/09/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-02-09|Agenda|https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
+      "id": "Board of Supervisors|2026-02-09|Agenda|https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-02-09",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202602111313470",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 02/09/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-02-09|Minutes|https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Mtg%20Minutes.pdf": {
+      "id": "Board of Supervisors|2026-02-09|Minutes|https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Mtg%20Minutes.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-02-09",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Mtg%20Minutes.pdf?t=202603160857390",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 02/09/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-01-05|Agenda|https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&%20Regular%20Meeting%20Public%20Agenda.pdf": {
+      "id": "Board of Supervisors|2026-01-05|Agenda|https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&%20Regular%20Meeting%20Public%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-01-05",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&%20Regular%20Meeting%20Public%20Agenda.pdf?t=202512311035260",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 01/05/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2026-01-05|Minutes|https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&%20Regular%20Meeting%20Minutes.pdf": {
+      "id": "Board of Supervisors|2026-01-05|Minutes|https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&%20Regular%20Meeting%20Minutes.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-01-05",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&%20Regular%20Meeting%20Minutes.pdf?t=202602111312490",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 01/05/26\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2025-12-08|Agenda|https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&%20Minutes/Board%20Of%20Supervisors/2025/12-08-2025%20BoS%20Public%20Agenda%20.pdf": {
+      "id": "Board of Supervisors|2025-12-08|Agenda|https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&%20Minutes/Board%20Of%20Supervisors/2025/12-08-2025%20BoS%20Public%20Agenda%20.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2025-12-08",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&%20Minutes/Board%20Of%20Supervisors/2025/12-08-2025%20BoS%20Public%20Agenda%20.pdf?t=202512071621290",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 12/08/25\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2025-12-08|Minutes|https://www.twp.lancaster.pa.us/12-08-2025%20BoS%20Mtg%20Minutes.pdf": {
+      "id": "Board of Supervisors|2025-12-08|Minutes|https://www.twp.lancaster.pa.us/12-08-2025%20BoS%20Mtg%20Minutes.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2025-12-08",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/12-08-2025%20BoS%20Mtg%20Minutes.pdf?t=202601071016360",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 12/08/25\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2025-11-10|Agenda|https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&%20Minutes/Board%20Of%20Supervisors/2025/BoS%2011.10.25%20Agenda.pdf": {
+      "id": "Board of Supervisors|2025-11-10|Agenda|https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&%20Minutes/Board%20Of%20Supervisors/2025/BoS%2011.10.25%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2025-11-10",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&%20Minutes/Board%20Of%20Supervisors/2025/BoS%2011.10.25%20Agenda.pdf?t=202511100852030",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 11/10/25\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Board of Supervisors|2025-11-10|Minutes|https://www.twp.lancaster.pa.us/11-10-2025%20BoS%20Mtg%20Minutes.pdf": {
+      "id": "Board of Supervisors|2025-11-10|Minutes|https://www.twp.lancaster.pa.us/11-10-2025%20BoS%20Mtg%20Minutes.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2025-11-10",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/11-10-2025%20BoS%20Mtg%20Minutes.pdf?t=202512220943110",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r 11/10/25\r Board of Supervisors\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-10-20|Agenda|https://www.twp.lancaster.pa.us/10-20-26%20LTPC%20Agenda.pdf": {
+      "id": "Planning Commission|2026-10-20|Agenda|https://www.twp.lancaster.pa.us/10-20-26%20LTPC%20Agenda.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-10-20",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/10-20-26%20LTPC%20Agenda.pdf?t=202610060924530",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 10/20/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-09-15|Agenda|https://www.twp.lancaster.pa.us/9-15-26%20LTPC%20Agenda.pdf": {
+      "id": "Planning Commission|2026-09-15|Agenda|https://www.twp.lancaster.pa.us/9-15-26%20LTPC%20Agenda.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-09-15",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/9-15-26%20LTPC%20Agenda.pdf?t=202609091230080",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 09/15/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-08-18|Agenda|https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Agenda.pdf": {
+      "id": "Planning Commission|2026-08-18|Agenda|https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Agenda.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-08-18",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Agenda.pdf?t=202608060842130",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 08/18/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-08-18|Minutes|https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2026-08-18|Minutes|https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-08-18",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Minutes.pdf?t=202609161015370",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 08/18/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-07-21|Agenda|https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Agenda.pdf": {
+      "id": "Planning Commission|2026-07-21|Agenda|https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Agenda.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-07-21",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Agenda.pdf?t=202607081534340",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 07/21/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-07-21|Minutes|https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2026-07-21|Minutes|https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-07-21",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Minutes.pdf?t=202608190904010",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 07/21/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-06-16|Agenda|https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Agenda.pdf": {
+      "id": "Planning Commission|2026-06-16|Agenda|https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Agenda.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-06-16",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Agenda.pdf?t=202606091002460",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 06/16/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-06-16|Minutes|https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2026-06-16|Minutes|https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-06-16",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Minutes.pdf?t=202608311225030",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 06/16/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-04-21|Agenda|https://www.twp.lancaster.pa.us/4-21-26%20LTPC%20Agenda.pdf": {
+      "id": "Planning Commission|2026-04-21|Agenda|https://www.twp.lancaster.pa.us/4-21-26%20LTPC%20Agenda.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-04-21",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/4-21-26%20LTPC%20Agenda.pdf?t=202604061004330",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 04/21/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-04-21|Minutes|https://www.twp.lancaster.pa.us/April%2021%202026%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2026-04-21|Minutes|https://www.twp.lancaster.pa.us/April%2021%202026%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-04-21",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/April%2021%202026%20LTPC%20Minutes.pdf?t=202606170914530",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 04/21/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-03-17|Agenda|https://www.twp.lancaster.pa.us/3-17-26%20LTPC%20Agenda.pdf": {
+      "id": "Planning Commission|2026-03-17|Agenda|https://www.twp.lancaster.pa.us/3-17-26%20LTPC%20Agenda.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-03-17",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/3-17-26%20LTPC%20Agenda.pdf?t=202603110854450",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 03/17/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-03-17|Minutes|https://www.twp.lancaster.pa.us/March%2017%202026%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2026-03-17|Minutes|https://www.twp.lancaster.pa.us/March%2017%202026%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-03-17",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/March%2017%202026%20LTPC%20Minutes.pdf?t=202606170915200",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 03/17/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-02-17|Agenda|https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Agenda.pdf": {
+      "id": "Planning Commission|2026-02-17|Agenda|https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Agenda.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-02-17",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Agenda.pdf?t=202602110909090",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 02/17/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-02-17|Minutes|https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2026-02-17|Minutes|https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-02-17",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Minutes.pdf?t=202604141327200",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 02/17/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-01-20|Agenda|https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Agenda.pdf": {
+      "id": "Planning Commission|2026-01-20|Agenda|https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Agenda.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-01-20",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Agenda.pdf?t=202601131324170",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 01/20/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-01-20|Packet|https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2026-01-20|Packet|https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-01-20",
+      "type": "Packet",
+      "url": "https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Minutes.pdf?t=202603100943260",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 01/20/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-01-20|Minutes|https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2026-01-20|Minutes|https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-01-20",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Minutes.pdf?t=202603100943260",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 01/20/26\r Planning Commission Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2025-12-16|Agenda|https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Agenda-1.pdf": {
+      "id": "Planning Commission|2025-12-16|Agenda|https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Agenda-1.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2025-12-16",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Agenda-1.pdf?t=202512051210230",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 12/16/25\r Planning Commission\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2025-12-16|Minutes|https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2025-12-16|Minutes|https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2025-12-16",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Minutes.pdf?t=202601211501410",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 12/16/25\r Planning Commission\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2025-11-18|Agenda|https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Agenda.pdf": {
+      "id": "Planning Commission|2025-11-18|Agenda|https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Agenda.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2025-11-18",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Agenda.pdf?t=202511131141090",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 11/18/25\r Planning Commission\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2025-11-18|Minutes|https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2025-11-18|Minutes|https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2025-11-18",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Minutes.pdf?t=202512170841440",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 11/18/25\r Planning Commission\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2025-10-21|Agenda|https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Agenda.pdf": {
+      "id": "Planning Commission|2025-10-21|Agenda|https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Agenda.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2025-10-21",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Agenda.pdf?t=202510141443090",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 10/21/25\r Planning Commission\r",
+      "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2025-10-21|Minutes|https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2025-10-21|Minutes|https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2025-10-21",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Minutes.pdf?t=202512170842090",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 10/21/25\r Planning Commission\r",
+      "first_seen": 1792266080.02034
+    },
+    "Zoning Hearing Board|2026-08-25|Agenda|https://www.twp.lancaster.pa.us/8-25-26%20ZHB%20Agenda.pdf": {
+      "id": "Zoning Hearing Board|2026-08-25|Agenda|https://www.twp.lancaster.pa.us/8-25-26%20ZHB%20Agenda.pdf",
+      "entity": "Zoning Hearing Board",
+      "meeting_date": "2026-08-25",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/8-25-26%20ZHB%20Agenda.pdf?t=202608041328440",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
+      "row_label": "\r 08/25/26\r Zoning Hearing Board Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Zoning Hearing Board|2026-07-28|Agenda|https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Agenda.pdf": {
+      "id": "Zoning Hearing Board|2026-07-28|Agenda|https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Agenda.pdf",
+      "entity": "Zoning Hearing Board",
+      "meeting_date": "2026-07-28",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Agenda.pdf?t=202607081536090",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
+      "row_label": "\r 07/28/26\r Zoning Hearing Board Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Zoning Hearing Board|2026-07-28|Minutes|https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Minutes.pdf": {
+      "id": "Zoning Hearing Board|2026-07-28|Minutes|https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Minutes.pdf",
+      "entity": "Zoning Hearing Board",
+      "meeting_date": "2026-07-28",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Minutes.pdf?t=202608260846210",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
+      "row_label": "\r 07/28/26\r Zoning Hearing Board Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Zoning Hearing Board|2026-06-23|Agenda|https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Agenda.pdf": {
+      "id": "Zoning Hearing Board|2026-06-23|Agenda|https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Agenda.pdf",
+      "entity": "Zoning Hearing Board",
+      "meeting_date": "2026-06-23",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Agenda.pdf?t=202606171211030",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
+      "row_label": "\r 06/23/26\r Zoning Hearing Board Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Zoning Hearing Board|2026-06-23|Minutes|https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Minutes.pdf": {
+      "id": "Zoning Hearing Board|2026-06-23|Minutes|https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Minutes.pdf",
+      "entity": "Zoning Hearing Board",
+      "meeting_date": "2026-06-23",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Minutes.pdf?t=202607290820040",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
+      "row_label": "\r 06/23/26\r Zoning Hearing Board Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Zoning Hearing Board|2026-04-28|Agenda|https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Agenda.pdf": {
+      "id": "Zoning Hearing Board|2026-04-28|Agenda|https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Agenda.pdf",
+      "entity": "Zoning Hearing Board",
+      "meeting_date": "2026-04-28",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Agenda.pdf?t=202603310938450",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
+      "row_label": "\r 04/28/26\r Zoning Hearing Board Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Zoning Hearing Board|2026-04-28|Minutes|https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Minutes.pdf": {
+      "id": "Zoning Hearing Board|2026-04-28|Minutes|https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Minutes.pdf",
+      "entity": "Zoning Hearing Board",
+      "meeting_date": "2026-04-28",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Minutes.pdf?t=202606241051500",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
+      "row_label": "\r 04/28/26\r Zoning Hearing Board Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Zoning Hearing Board|2026-03-24|Agenda|https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Agenda.pdf": {
+      "id": "Zoning Hearing Board|2026-03-24|Agenda|https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Agenda.pdf",
+      "entity": "Zoning Hearing Board",
+      "meeting_date": "2026-03-24",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Agenda.pdf?t=202603061245220",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
+      "row_label": "\r 03/24/26\r Zoning Hearing Board Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Zoning Hearing Board|2026-03-24|Minutes|https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Minutes.pdf": {
+      "id": "Zoning Hearing Board|2026-03-24|Minutes|https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Minutes.pdf",
+      "entity": "Zoning Hearing Board",
+      "meeting_date": "2026-03-24",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Minutes.pdf?t=202604291007560",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
+      "row_label": "\r 03/24/26\r Zoning Hearing Board Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Zoning Hearing Board|2026-02-24|Agenda|https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Agenda.pdf": {
+      "id": "Zoning Hearing Board|2026-02-24|Agenda|https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Agenda.pdf",
+      "entity": "Zoning Hearing Board",
+      "meeting_date": "2026-02-24",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Agenda.pdf?t=202602031431380",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
+      "row_label": "\r 02/24/26\r Zoning Hearing Board Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Zoning Hearing Board|2026-02-24|Minutes|https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Minutes.pdf": {
+      "id": "Zoning Hearing Board|2026-02-24|Minutes|https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Minutes.pdf",
+      "entity": "Zoning Hearing Board",
+      "meeting_date": "2026-02-24",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Minutes.pdf?t=202603250827360",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
+      "row_label": "\r 02/24/26\r Zoning Hearing Board Meeting\r",
+      "first_seen": 1792266080.02034
+    },
+    "Traffic Committee|2026-10-12|Agenda|https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&%20Minutes/Traffic%20Commission/Traffic%20Committee%20Agenda%20October%202026.pdf": {
+      "id": "Traffic Committee|2026-10-12|Agenda|https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&%20Minutes/Traffic%20Commission/Traffic%20Committee%20Agenda%20October%202026.pdf",
+      "entity": "Traffic Committee",
+      "meeting_date": "2026-10-12",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&%20Minutes/Traffic%20Commission/Traffic%20Committee%20Agenda%20October%202026.pdf?t=202610091238400",
+      "page_url": "https://www.twp.lancaster.pa.us/government/agendas___minutes/traffic_committee_agendas_and_minutes.php",
+      "row_label": "\r 10/12/26\r Traffic Committee\r",
+      "first_seen": 1792266080.02034
+    }
+  }
+}
