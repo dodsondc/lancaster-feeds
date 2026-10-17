@@ -15,6 +15,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: township-news
@@ -24,9 +26,14 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
+          # Queued/manual runs may carry an older triggering commit.
+          # The concurrency group serializes runs; fetch current main at job start.
           ref: main
       - uses: r-lib/actions/setup-r@v2
         with:
@@ -43,10 +50,15 @@ jobs:
         run: |
           Rscript tests/test-news.R
           Rscript tests/test-meetings.R
+          Rscript tests/test-conservancy.R
       - name: Collect news and build RSS
         id: collect
+        env:
+          # Set false for Conservancy-only collection (no Eventbrite requests).
+          CONSERVANCY_EVENTBRITE: 'true'
         run: Rscript 'Feed Maker.R'
       - name: Publish feed and preserve collection history
+        id: publish
         if: ${{ !cancelled() && (steps.collect.outcome == 'success' || steps.collect.outcome == 'failure') }}
         shell: bash
         run: |
@@ -56,7 +68,25 @@ jobs:
           if [ -f lancaster_township_meetings.xml ]; then
             git add lancaster_township_meetings.xml
           fi
+          if [ -f lancaster_conservancy_events.xml ]; then
+            git add lancaster_conservancy_events.xml
+          fi
+          if [ -d docs ]; then
+            git add --all -- docs
+          fi
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh township news feed and collection state'
             git push
           fi
+      - name: Configure calendar-file hosting
+        if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/calendar/*.ics') != '' }}
+        uses: actions/configure-pages@v5
+      - name: Upload calendar files
+        if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/calendar/*.ics') != '' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy calendar files
+        id: deployment
+        if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/calendar/*.ics') != '' }}
+        uses: actions/deploy-pages@v4
