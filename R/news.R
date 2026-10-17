@@ -1,4 +1,4 @@
-# Shared news-feed helpers. Only explicit publication dates are trusted.
+# Shared news-feed helpers. Listing years are inferred and explicitly labeled.
 library(httr2)
 library(rvest)
 library(xml2)
@@ -28,6 +28,40 @@ publication_time <- function(x) {
   fmt <- if (grepl(" [0-9]{2}:[0-9]{2}:", x)) "%Y-%m-%d %H:%M:%OS" else "%Y-%m-%d %H:%M"
   if (zoned) fmt <- paste0(fmt, "%z")
   as.numeric(as.POSIXct(strptime(x, fmt, tz = if (zoned) "UTC" else "America/New_York")))
+}
+
+# Infer years down a newest-first listing. Existing estimates anchor later runs,
+# including runs across New Year. Missing/invalid dates leave the bound alone.
+infer_listing_dates <- function(dates, urls, cache = list(), today = Sys.Date()) {
+  old_locale <- Sys.getlocale("LC_TIME")
+  on.exit(Sys.setlocale("LC_TIME", old_locale), add = TRUE)
+  Sys.setlocale("LC_TIME", "C")
+  bound <- as.Date(today)
+  result <- rep(NA_real_, length(dates))
+  for (i in seq_along(dates)) {
+    old <- cache[[urls[i]]]
+    if (!is.null(old) && old$date_source %in% c("published", "estimated_listing")) {
+      result[i] <- old$date
+      # Explicit tz prevents as.Date() from silently using UTC.
+      anchor <- as.Date(format(as.POSIXct(old$date, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d"))
+      bound <- min(bound, anchor)
+      next
+    }
+    text <- dates[i]
+    if (is.na(text) || !grepl("^[A-Za-z]{3} +[0-9]{1,2}$", trimws(text))) next
+    text <- trimws(text)
+    # Try recent years; this also handles Feb 29 in non-leap years.
+    year <- as.integer(format(bound, "%Y"))
+    for (y in seq.int(year, year - 8L)) {
+      candidate <- as.Date(strptime(paste(text, y), "%b %d %Y", tz = "UTC"))
+      if (!is.na(candidate) && candidate <= bound) {
+        result[i] <- publication_time(format(candidate, "%Y-%m-%d"))
+        bound <- candidate
+        break
+      }
+    }
+  }
+  result
 }
 
 published_at <- function(page) {
@@ -102,7 +136,7 @@ write_news_rss <- function(records, path) {
   channel <- xml_add_child(rss, "channel")
   xml_add_child(channel, "title", "Lancaster Township News")
   xml_add_child(channel, "link", "https://www.twp.lancaster.pa.us/newslist.php")
-  xml_add_child(channel, "description", "News and announcements from Lancaster Township, Pennsylvania. Dates are verified publication dates or the first collection time, as labeled in each item.")
+  xml_add_child(channel, "description", "News and announcements from Lancaster Township, Pennsylvania. Dates are verified publication dates, estimates from the listing, or the first collection time, as labeled in each item.")
   xml_add_child(channel, "language", "en-us")
   xml_add_child(channel, "ttl", "720")
   records <- records[order(vapply(records, function(r) r$date, numeric(1)), decreasing = TRUE)]
@@ -113,9 +147,15 @@ write_news_rss <- function(records, path) {
     xml_add_child(item, "guid", r$url, isPermaLink = "true")
     xml_add_child(item, "category", "News")
     xml_add_child(item, "pubDate", rss_date(r$date))
-    label <- if (r$date_source == "published") "Published" else "First collected (publication date unavailable)"
+    label <- switch(r$date_source,
+      published = "Published",
+      estimated_listing = "Publication date estimated from listing",
+      "First collected (publication date unavailable)")
     stamp <- format(as.POSIXct(r$date, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d %H:%M %Z")
+    if (r$date_source == "estimated_listing") stamp <- substr(stamp, 1, 10)
+    first_stamp <- format(as.POSIXct(r$first_seen, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d %H:%M %Z")
     heading <- paste0("<p><em>", label, ": ", stamp, "</em></p>\n")
+    if (r$date_source != "first_collected") heading <- paste0(heading, "<p><em>First collected: ", first_stamp, "</em></p>\n")
     description <- xml_add_child(item, "description")
     xml_add_child(description, xml_cdata(paste0(heading, r$body)))
   }
@@ -135,9 +175,14 @@ collect_township_news <- function(root, refresh_hours = 24) {
   index <- fetch_page("https://www.twp.lancaster.pa.us/_assets_/newslist.json") |>
     resp_body_string() |> fromJSON()
   if (!is.data.frame(index) || !all(c("title", "link") %in% names(index)) || !nrow(index)) stop("Unexpected/empty news index; previous feed retained")
+  # Match page 1 of newslist.php, whose JavaScript uses pageSize: 10.
+  index <- head(index, 10L)
+  if (!"date" %in% names(index)) index$date <- NA_character_
   index$title <- vapply(index$title, function(title) html_text2(read_html(paste0("<p>", title, "</p>"))), character(1))
   index$url <- url_absolute(index$link, "https://www.twp.lancaster.pa.us/")
   index <- index[!duplicated(index$url), , drop = FALSE]
+  today <- as.Date(format(as.POSIXct(now, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d"))
+  listing_dates <- infer_listing_dates(index$date, index$url, cache, today)
   failures <- character()
   records <- list()
   for (i in seq_len(nrow(index))) {
@@ -167,6 +212,13 @@ collect_township_news <- function(root, refresh_hours = 24) {
       Sys.sleep(0.3)
     }
     if (!is.null(record)) {
+      # Migrate old first-collected dates once, even when using cached bodies.
+      # Verified publication dates and previously inferred dates stay stable.
+      if (record$date_source == "first_collected" && !is.na(listing_dates[i])) {
+        record$date <- listing_dates[i]
+        record$date_source <- "estimated_listing"
+      }
+      record$listing_date <- if (is.na(index$date[i])) "" else index$date[i]
       record$title <- index$title[i]
       cache[[url]] <- record
       records[[url]] <- record
@@ -175,7 +227,7 @@ collect_township_news <- function(root, refresh_hours = 24) {
   # A partial retrieval must not publish a partial feed or lose prior content.
   if (length(failures)) stop(length(failures), " article requests failed; previous feed and state retained. Rerun to retry.")
   write_news_rss(records, file.path(root, "lancaster_township_news.xml"))
-  atomic_json(list(version = 1L, last_checked = now, items = cache), state_path)
+  atomic_json(list(version = 2L, last_checked = now, items = cache), state_path)
   message("Wrote ", length(records), " news items to ", file.path(root, "lancaster_township_news.xml"))
   invisible(records)
 }

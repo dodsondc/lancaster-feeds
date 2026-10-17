@@ -22,7 +22,11 @@ Or source `Feed Maker.R` in RStudio. Do not run the helper `R/news.R` by itself.
 
 The collector reads the township's public news index and retrieves the `#post` article content. It removes scripts and administration controls, resolves links/images to absolute URLs, decodes title entities, and keeps a stable URL-based GUID for each story.
 
-Only explicit publication metadata is treated as a publication date. The township's index provides month and day but no year. Image timestamps and dates mentioned in article text are not publication dates. If no verified publication date is available, the RSS date is the first successful collection time and the description says so. That date is preserved in `state/lancaster-township.json`, not regenerated on each run. The first import includes the existing archive; mark that backlog read if desired.
+The collector follows only the first 10 entries of the JSON index: the same stories shown on page 1 of newslist.php. It follows their Read More links for article text.
+
+Explicit publication metadata takes priority for newly collected articles. Otherwise, month/day dates from the newest-first listing receive an estimated year: start with the current Eastern calendar year, step back if the result is in the future, and step back at a December/January rollover while walking down the list. Existing verified/estimated dates anchor the sequence and remain stable across runs. These are estimates: pinned/reordered stories or a listing stale for more than a year can violate the assumptions. Image timestamps and dates in article prose are not used.
+
+Estimated dates appear as “Publication date estimated from listing” with no invented time of day; RSS uses local midnight. If the listing date is missing or invalid, the item uses its first collection time and is labeled accordingly. Every record retains first_seen in state. The update migrates existing first-collected records on page 1 to estimated dates without resetting first_seen or changing URL-based GUIDs. Do not delete or replace GitHub's state file when updating the code. Old imported items may remain in NetNewsWire's own history even after they leave the active feed.
 
 Existing article bodies are cached for 24 hours; newly discovered stories are fetched immediately. A failed index or article request leaves the previous feed and state intact and fails the run visibly. Empty article bodies link back to the original announcement. Stories absent from the current index leave the active RSS feed, while their collection history remains in state. Updated bodies retain the same GUID; whether an update is shown as unread depends on the reader.
 
@@ -54,7 +58,7 @@ From the repository root:
 Rscript tests/test-news.R
 ```
 
-These offline checks cover publication dates, Eastern midnight conversion, HTML cleanup, relative URLs including spaces, first-collected dates across runs, and retention of the last good feed on failure.
+These offline checks cover publication dates, Eastern midnight conversion, HTML cleanup, relative URLs including spaces, first-collected dates across runs, year rollovers and persistent estimates, migration of old state, the 10-item limit, and retention of the last good feed on failure.
 
 ## Future source types
 

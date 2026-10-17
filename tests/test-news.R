@@ -14,7 +14,7 @@ stopifnot(is.na(published_at(other)))
 root <- tempfile("news-check-")
 dir.create(root)
 fixture_response <- httr2::response(200, headers = list(`content-type` = "text/html"), body = charToRaw('<div id="post"><p>Public announcement</p></div>'))
-index_response <- httr2::response(200, body = charToRaw('[{"title":"Test announcement","link":"_T22_R1.php","date":"Sep 16","image":"image.jpg?t=20260916"}]'))
+index_response <- httr2::response(200, body = charToRaw('[{"title":"Test announcement","link":"_T22_R1.php","date":"Unknown","image":"image.jpg?t=20260916"}]'))
 fetch_page <- function(url) if (grepl("newslist.json", url, fixed = TRUE)) index_response else fixture_response
 first <- collect_township_news(root)
 second <- collect_township_news(root)
@@ -27,5 +27,34 @@ fetch_page <- function(url) if (grepl("newslist.json", url, fixed = TRUE)) index
 failed <- tryCatch({suppressWarnings(collect_township_news(root, refresh_hours = 0)); FALSE}, error = function(e) TRUE)
 after <- readBin(feed_path, "raw", n = file.info(feed_path)$size)
 stopifnot(failed, identical(before, after))
+# Year rollover, equal dates, malformed dates, leap days and persistent anchors.
+urls <- paste0("https://example.org/", 1:5)
+inferred <- infer_listing_dates(c("Jan 02", "Dec 30", "Dec 30", "Unknown", "Nov 15"), urls, today = as.Date("2027-01-05"))
+stopifnot(identical(inferred[c(1, 2, 3, 5)], vapply(c("2027-01-02", "2026-12-30", "2026-12-30", "2026-11-15"), publication_time, numeric(1), USE.NAMES = FALSE)), is.na(inferred[4]))
+stopifnot(infer_listing_dates("Feb 29", "u", today = as.Date("2025-03-01")) == publication_time("2024-02-29"))
+anchor <- list(date_source = "estimated_listing", date = publication_time("2026-12-30"))
+stable <- infer_listing_dates(c("Dec 30", "Dec 01"), urls[1:2], setNames(list(anchor), urls[1]), today = as.Date("2028-01-05"))
+stopifnot(stable[1] == anchor$date, stable[2] == publication_time("2026-12-01"))
+
+# Migrate existing fallback records without resetting first_seen or GUIDs.
+old_seen <- first[[1]]$first_seen
+index_response <- httr2::response(200, body = charToRaw('[{"title":"Test announcement","link":"_T22_R1.php","date":"Jan 01"}]'))
+fetch_page <- function(url) if (grepl("newslist.json", url, fixed = TRUE)) index_response else fixture_response
+migrated <- collect_township_news(root)
+stopifnot(migrated[[1]]$date_source == "estimated_listing", abs(migrated[[1]]$first_seen - old_seen) < 0.01, migrated[[1]]$url == first[[1]]$url)
+feed <- read_xml(feed_path)
+stopifnot(grepl("Publication date estimated from listing", xml_text(xml_find_first(feed, "//description[ancestor::item]"))))
+
+# Only page 1's 10 articles may be fetched/published from a larger index.
+index_data <- data.frame(title = paste("Story", 1:12), link = paste0("_T22_R", 1:12, ".php"), date = "Jan 01")
+index_response <- httr2::response(200, body = charToRaw(toJSON(index_data)))
+requested <- character()
+fetch_page <- function(url) {
+  if (grepl("newslist.json", url, fixed = TRUE)) return(index_response)
+  requested <<- c(requested, url)
+  fixture_response
+}
+ten <- collect_township_news(root)
+stopifnot(length(ten) == 10L, length(xml_find_all(read_xml(feed_path), "//item")) == 10L, !any(grepl("_R(11|12)\\.php", requested)))
 unlink(root, recursive = TRUE)
-cat("Passed: explicit dates, timezone handling, HTML cleanup, absolute links, stable fallback dates, failure preserves feed.\n")
+cat("Passed: explicit dates, timezone handling, HTML cleanup, absolute links, stable fallback dates, failure retention, year inference, migration, and page-1 limit.\n")
