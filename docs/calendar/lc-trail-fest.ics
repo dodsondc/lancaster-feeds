@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:lc-trail-fest@lancaster-feeds.dodsondc.github.io
+DTSTAMP:20261017T220004Z
+LAST-MODIFIED:20261017T220004Z
+SEQUENCE:1
+DTSTART:20261017T170000Z
+DTEND:20261017T223000Z
+SUMMARY:Trail Fest
+DESCRIPTION:Gather your family and friends to celebrate the trails that con
+ nect us with nature!\n\nPrice: Not published\; check registration\n\nSched
+ ule listed: Saturday\, October 17\, 1pm-6:30pm\n\n\nYear inferred from lis
+ ting month/day/weekday\n\nTimes converted from America/New_York to UTC for
+  calendar compatibility.\n\nRegistration: https://www.lancasterconservancy
+ .org/trailfest/\n\nAdding this calendar item does not register you. Check 
+ the original listing for changes\; imported events do not automatically st
+ ay in sync.
+LOCATION:Not announced in listing
+URL:https://www.lancasterconservancy.org/trailfest/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

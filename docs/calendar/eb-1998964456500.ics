@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:eb-1998964456500@lancaster-feeds.dodsondc.github.io
+DTSTAMP:20261017T220004Z
+LAST-MODIFIED:20261017T220004Z
+SEQUENCE:1
+DTSTART:20261114T220000Z
+DTEND:20261115T010000Z
+SUMMARY:Night Sensory Hike
+DESCRIPTION:Join us as we explore nature in the dark!\n\nPrice: USD 12.51\n
+ \nSchedule listed: Saturday\, November 14 5pm-8pm\n\n\nDate and time from 
+ public registration data\n\nTimes converted from America/New_York to UTC f
+ or calendar compatibility.\n\nRegistration: https://www.eventbrite.com/e/n
+ ight-sensory-hike-tickets-1998964456500\n\nAdding this calendar item does 
+ not register you. Check the original listing for changes\; imported events
+  do not automatically stay in sync.
+LOCATION:Clark Nature Preserve\, 400 House Rock Road\, Pequea\, PA 17565\, 
+ Pequea\, PA
+URL:https://www.eventbrite.com/e/night-sensory-hike-tickets-1998964456500
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

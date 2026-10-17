@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:lc-save-woods-water-party-during-extragive@lancaster-feeds.dodsondc.git
+ hub.io
+DTSTAMP:20261017T220004Z
+LAST-MODIFIED:20261017T220004Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Save Woods & Water Party during ExtraGive (date reminder\; verify t
+ ime)
+DESCRIPTION:Save the date!\n\nPrice: Not published\; check registration\n\n
+ Schedule listed: Friday\, November 20\n\n\nYear inferred from listing mont
+ h/day/weekday\n\nDate reminder only: time has not been announced. This is 
+ not an all-day activity.\n\nRegistration: https://www.lancasterconservancy
+ .org/events/\n\nAdding this calendar item does not register you. Check the
+  original listing for changes\; imported events do not automatically stay 
+ in sync.
+LOCATION:Not announced in listing
+URL:https://www.lancasterconservancy.org/events/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

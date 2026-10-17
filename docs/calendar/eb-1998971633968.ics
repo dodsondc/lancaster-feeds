@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:eb-1998971633968@lancaster-feeds.dodsondc.github.io
+DTSTAMP:20261017T220004Z
+LAST-MODIFIED:20261017T220004Z
+SEQUENCE:1
+DTSTART:20261121T140000Z
+DTEND:20261121T163000Z
+SUMMARY:Phenology Hike at Mill Creek Falls Nature Preserve
+DESCRIPTION:Contribute to Lancaster Conservancy's phenology project through
+  community-based scientific observations.\n\nPrice: USD 7.18\n\nSchedule l
+ isted: Saturday\, November 21 9am-11:30am\n\n\nDate and time from public r
+ egistration data\n\nTimes converted from America/New_York to UTC for calen
+ dar compatibility.\n\nRegistration: https://www.eventbrite.com/e/phenology
+ -hike-at-mill-creek-falls-nature-preserve-tickets-1998971633968\n\nAdding 
+ this calendar item does not register you. Check the original listing for c
+ hanges\; imported events do not automatically stay in sync.
+LOCATION:Mill Creek Falls Nature Preserve\, 318 East Telegraph Road\, Airvi
+ lle\, PA 17302\, Airville\, PA
+URL:https://www.eventbrite.com/e/phenology-hike-at-mill-creek-falls-nature-
+ preserve-tickets-1998971633968
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

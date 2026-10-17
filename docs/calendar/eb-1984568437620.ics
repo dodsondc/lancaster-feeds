@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:eb-1984568437620@lancaster-feeds.dodsondc.github.io
+DTSTAMP:20261017T220004Z
+LAST-MODIFIED:20261017T220004Z
+SEQUENCE:1
+DTSTART:20261024T130000Z
+DTEND:20261024T150000Z
+SUMMARY:Habitat Advocate: Writing Nature – A Generative Workshop
+DESCRIPTION:Express your ecological perspectives and experiences in this cr
+ eative writing workshop!\n\nPrice: USD 23.18\n\nSchedule listed: Saturday\
+ , October 24\, 9am-11am\n\n\nDate and time from public registration data\n
+ \nTimes converted from America/New_York to UTC for calendar compatibility.
+ \n\nRegistration: https://www.eventbrite.com/e/habitat-advocate-writing-na
+ ture-a-generative-workshop-tickets-1984568437620\n\nAdding this calendar i
+ tem does not register you. Check the original listing for changes\; import
+ ed events do not automatically stay in sync.
+LOCATION:102 Chester St\, 102 Chester Street\, Lancaster\, PA 17602\, Lanca
+ ster\, PA
+URL:https://www.eventbrite.com/e/habitat-advocate-writing-nature-a-generati
+ ve-workshop-tickets-1984568437620
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

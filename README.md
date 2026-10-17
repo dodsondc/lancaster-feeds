@@ -91,3 +91,24 @@ No change to the existing news subscription is needed. Local test command: `Rscr
 Both feeds sort by Eastern calendar day of first detection, descending, then by publication date (news) or meeting date (documents), descending. Stable document IDs/URLs break remaining ties deterministically. Since NetNewsWire sorts using RSS pubDate and cannot be told a custom secondary key, the generated pubDate encodes that order using seconds after midnight on the detection day. These seconds are sorting values, not actual publication/detection times. Actual publication estimates, meeting dates, and full first-detection timestamps remain in the item descriptions and saved state. No identifiers or saved detection dates are reset. Existing items' RSS dates will change on the first refresh with this version.
 
 Upload R/news.R, R/meetings.R, tests/test-news.R, tests/test-meetings.R and this README to update sorting. Keep existing state and workflow. NetNewsWire should be set to show newest first; existing cached history may not change until the feed is refreshed and updated entries are accepted by the reader.
+
+## Lancaster Conservancy events and calendar links
+
+`R/conservancy.R` creates `lancaster_conservancy_events.xml`, `state/conservancy-events.json`, and individual iCalendar files under `docs/calendar/`. Each RSS item links to the event's registration/details page and its own `.ics` file. GitHub Pages serves those files at `https://dodsondc.github.io/lancaster-feeds/calendar/`.
+
+Collection starts from the Conservancy's own event listing. Public Eventbrite JSON-LD supplies complete start/end dates, locations and prices for linked events without signing into an account. The workflow setting `CONSERVANCY_EVENTBRITE: 'true'` controls this: set it to `'false'` to make no requests to Eventbrite. The source-only mode still includes registration links, titles, descriptions, month/day dates and listed times; years are inferred from nearby matching month/day/weekday values, and unavailable addresses/prices are labeled. Clicking registration links still visits the linked service.
+
+The collector lists events on or after today's Eastern date. Registration detail failures leave the previous feed/calendar files in place rather than silently inventing details. Structured dates override estimated years; mismatched month/day dates stop publication. Calendar UIDs and RSS identifiers stay stable for Eventbrite events; meaningful detail changes increment the calendar SEQUENCE and update LAST-MODIFIED. Imported calendar entries are individual copies: they do not automatically stay synchronized or register you. Missing-time events are explicitly labeled tentative date reminders, with a transparent all-day placeholder and an exclusive next-day end date. Listing-only times/years remain tentative and labeled. There are no default alarms or attendee invitations.
+
+Calendar files follow RFC 5545: CRLF line endings, UTF-8 octet-aware folding, text escaping, stable UIDs, UTC start/end times converted from Eastern time, and separate date-only reminders. A review/confirmation step in Calendar is expected. iPhone/Safari handling of a hosted `.ics` link still needs an end-to-end test after deployment; valid calendar files alone do not guarantee every browser opens the same import UI.
+
+### GitHub update for Conservancy
+
+1. Upload the new `Feed Maker.R`, `R`, `tests` (including fixtures), `docs`, and README to the repository root. Do not replace existing GitHub state or township XML files with local copies.
+2. In repository Settings > Pages, choose **GitHub Actions** as Source and save if prompted. This is one-time setup for the calendar-file URLs; the RSS feeds keep using their existing raw URLs.
+3. Replace `.github/workflows/refresh-news.yml` with the supplied updated workflow. It adds the Conservancy tests/collector, commits generated output, and deploys `docs` using official Pages actions. The workflow requests Pages write and OIDC permissions for deployment; no personal token or account credential is needed.
+4. Commit, let the automatic run finish, and check the Deploy calendar files step is green. If the Pages environment prompts for deployment approval, approve it in GitHub. If a run starts before all files/settings are ready, run it again once setup is complete.
+5. Add `https://raw.githubusercontent.com/dodsondc/lancaster-feeds/main/lancaster_conservancy_events.xml` to NetNewsWire.
+6. Test one Add to Calendar link. Verify date, time and location in the import preview before saving. On Mac, a browser may download the `.ics` file; open that file in Calendar. On iPhone, report whether the link opens Calendar or shows/downloads a file so we can verify the delivery behavior.
+
+Offline checks: `Rscript tests/test-conservancy.R`. All scraping and calendar generation remains R; Python's icalendar package was used only as an independent development-time file-format check and is not required by the workflow.
