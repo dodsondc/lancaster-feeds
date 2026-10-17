@@ -3,7 +3,7 @@
   <channel>
     <title>Lancaster Township — Meeting Documents</title>
     <link>https://www.twp.lancaster.pa.us/government/agendas___minutes/index.php</link>
-    <description>Agendas, minutes and packets for the Board of Supervisors, Planning Commission, Zoning Hearing Board and Traffic Committee. Item dates indicate first detection, not meeting dates or publication dates.</description>
+    <description>Agendas, minutes and packets for the Board of Supervisors, Planning Commission, Zoning Hearing Board and Traffic Committee. Feed dates sort by detection day, then meeting date. Seconds after midnight are ordering values, not publication times.</description>
     <language>en-us</language>
     <ttl>720</ttl>
     <item>
@@ -12,12 +12,13 @@
       <guid isPermaLink="false">Planning Commission|2026-10-20|Agenda|https://www.twp.lancaster.pa.us/10-20-26%20LTPC%20Agenda.pdf</guid>
       <category>Planning Commission</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:57 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Agenda · Meeting date: 2026-10-20</p>
   <p>Listed as: &#13; 10/20/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/10-20-26%20LTPC%20Agenda.pdf?t=202610060924530">Open Agenda PDF</a>
   </p>
@@ -28,38 +29,18 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2026-10-12</title>
-      <link>https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202610081413080</link>
-      <guid isPermaLink="false">Board of Supervisors|2026-10-12|Agenda|https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
-      <category>Board of Supervisors</category>
-      <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
-      <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2026-10-12</p>
-  <p>Listed as: &#13; 10/12/26&#13; Board of Supervisors&#13;</p>
-  <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
-  <p>
-    <a href="https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202610081413080">Open Agenda PDF</a>
-  </p>
-  <p>
-    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
-  </p>
-</div>
-]]></description>
-    </item>
-    <item>
       <title>Agenda — Traffic Committee — 2026-10-12</title>
       <link>https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Traffic%20Commission/Traffic%20Committee%20Agenda%20October%202026.pdf?t=202610091238400</link>
       <guid isPermaLink="false">Traffic Committee|2026-10-12|Agenda|https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Traffic%20Commission/Traffic%20Committee%20Agenda%20October%202026.pdf</guid>
       <category>Traffic Committee</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:56 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Traffic Committee · Agenda · Meeting date: 2026-10-12</p>
   <p>Listed as: &#13; 10/12/26&#13; Traffic Committee&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Traffic%20Commission/Traffic%20Committee%20Agenda%20October%202026.pdf?t=202610091238400">Open Agenda PDF</a>
   </p>
@@ -70,17 +51,40 @@
 ]]></description>
     </item>
     <item>
+      <title>Agenda — Board of Supervisors — 2026-10-12</title>
+      <link>https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202610081413080</link>
+      <guid isPermaLink="false">Board of Supervisors|2026-10-12|Agenda|https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
+      <category>Board of Supervisors</category>
+      <category>Agenda</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:55 +0000</pubDate>
+      <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<div>
+  <p>Board of Supervisors · Agenda · Meeting date: 2026-10-12</p>
+  <p>Listed as: &#13; 10/12/26&#13; Board of Supervisors&#13;</p>
+  <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
+  <p>
+    <a href="https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202610081413080">Open Agenda PDF</a>
+  </p>
+  <p>
+    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
+  </p>
+</div>
+]]></description>
+    </item>
+    <item>
       <title>Agenda — Planning Commission — 2026-09-15</title>
       <link>https://www.twp.lancaster.pa.us/9-15-26%20LTPC%20Agenda.pdf?t=202609091230080</link>
       <guid isPermaLink="false">Planning Commission|2026-09-15|Agenda|https://www.twp.lancaster.pa.us/9-15-26%20LTPC%20Agenda.pdf</guid>
       <category>Planning Commission</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:54 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Agenda · Meeting date: 2026-09-15</p>
   <p>Listed as: &#13; 09/15/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/9-15-26%20LTPC%20Agenda.pdf?t=202609091230080">Open Agenda PDF</a>
   </p>
@@ -91,19 +95,20 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2026-09-14</title>
-      <link>https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202609101150050</link>
-      <guid isPermaLink="false">Board of Supervisors|2026-09-14|Agenda|https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
+      <title>Minutes — Board of Supervisors — 2026-09-14</title>
+      <link>https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Mtg%20Minutes.pdf?t=202610141056330</link>
+      <guid isPermaLink="false">Board of Supervisors|2026-09-14|Minutes|https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Mtg%20Minutes.pdf</guid>
       <category>Board of Supervisors</category>
-      <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <category>Minutes</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:53 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2026-09-14</p>
+  <p>Board of Supervisors · Minutes · Meeting date: 2026-09-14</p>
   <p>Listed as: &#13; 09/14/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202609101150050">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Mtg%20Minutes.pdf?t=202610141056330">Open Minutes PDF</a>
   </p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
@@ -112,19 +117,20 @@
 ]]></description>
     </item>
     <item>
-      <title>Minutes — Board of Supervisors — 2026-09-14</title>
-      <link>https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Mtg%20Minutes.pdf?t=202610141056330</link>
-      <guid isPermaLink="false">Board of Supervisors|2026-09-14|Minutes|https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Mtg%20Minutes.pdf</guid>
+      <title>Agenda — Board of Supervisors — 2026-09-14</title>
+      <link>https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202609101150050</link>
+      <guid isPermaLink="false">Board of Supervisors|2026-09-14|Agenda|https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
       <category>Board of Supervisors</category>
-      <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <category>Agenda</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:52 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Minutes · Meeting date: 2026-09-14</p>
+  <p>Board of Supervisors · Agenda · Meeting date: 2026-09-14</p>
   <p>Listed as: &#13; 09/14/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Mtg%20Minutes.pdf?t=202610141056330">Open Minutes PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/09-14-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202609101150050">Open Agenda PDF</a>
   </p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
@@ -138,12 +144,13 @@
       <guid isPermaLink="false">Zoning Hearing Board|2026-08-25|Agenda|https://www.twp.lancaster.pa.us/8-25-26%20ZHB%20Agenda.pdf</guid>
       <category>Zoning Hearing Board</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:51 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Zoning Hearing Board · Agenda · Meeting date: 2026-08-25</p>
   <p>Listed as: &#13; 08/25/26&#13; Zoning Hearing Board Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/8-25-26%20ZHB%20Agenda.pdf?t=202608041328440">Open Agenda PDF</a>
   </p>
@@ -154,38 +161,18 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Planning Commission — 2026-08-18</title>
-      <link>https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Agenda.pdf?t=202608060842130</link>
-      <guid isPermaLink="false">Planning Commission|2026-08-18|Agenda|https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Agenda.pdf</guid>
-      <category>Planning Commission</category>
-      <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
-      <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<div>
-  <p>Planning Commission · Agenda · Meeting date: 2026-08-18</p>
-  <p>Listed as: &#13; 08/18/26&#13; Planning Commission Meeting&#13;</p>
-  <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
-  <p>
-    <a href="https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Agenda.pdf?t=202608060842130">Open Agenda PDF</a>
-  </p>
-  <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
-  </p>
-</div>
-]]></description>
-    </item>
-    <item>
       <title>Minutes — Planning Commission — 2026-08-18</title>
       <link>https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Minutes.pdf?t=202609161015370</link>
       <guid isPermaLink="false">Planning Commission|2026-08-18|Minutes|https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Minutes.pdf</guid>
       <category>Planning Commission</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:50 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Minutes · Meeting date: 2026-08-18</p>
   <p>Listed as: &#13; 08/18/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Minutes.pdf?t=202609161015370">Open Minutes PDF</a>
   </p>
@@ -196,22 +183,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2026-08-10</title>
-      <link>https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202608061020240</link>
-      <guid isPermaLink="false">Board of Supervisors|2026-08-10|Agenda|https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
-      <category>Board of Supervisors</category>
+      <title>Agenda — Planning Commission — 2026-08-18</title>
+      <link>https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Agenda.pdf?t=202608060842130</link>
+      <guid isPermaLink="false">Planning Commission|2026-08-18|Agenda|https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Agenda.pdf</guid>
+      <category>Planning Commission</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:49 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2026-08-10</p>
-  <p>Listed as: &#13; 08/10/26&#13; Board of Supervisors&#13;</p>
+  <p>Planning Commission · Agenda · Meeting date: 2026-08-18</p>
+  <p>Listed as: &#13; 08/18/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202608061020240">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/8-18-26%20LTPC%20Agenda.pdf?t=202608060842130">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -222,12 +210,13 @@
       <guid isPermaLink="false">Board of Supervisors|2026-08-10|Minutes|https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Mtg%20Minutes.pdf</guid>
       <category>Board of Supervisors</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:48 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Board of Supervisors · Minutes · Meeting date: 2026-08-10</p>
   <p>Listed as: &#13; 08/10/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Mtg%20Minutes.pdf?t=202610081414220">Open Minutes PDF</a>
   </p>
@@ -238,22 +227,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Zoning Hearing Board — 2026-07-28</title>
-      <link>https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Agenda.pdf?t=202607081536090</link>
-      <guid isPermaLink="false">Zoning Hearing Board|2026-07-28|Agenda|https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Agenda.pdf</guid>
-      <category>Zoning Hearing Board</category>
+      <title>Agenda — Board of Supervisors — 2026-08-10</title>
+      <link>https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202608061020240</link>
+      <guid isPermaLink="false">Board of Supervisors|2026-08-10|Agenda|https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
+      <category>Board of Supervisors</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:47 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Zoning Hearing Board · Agenda · Meeting date: 2026-07-28</p>
-  <p>Listed as: &#13; 07/28/26&#13; Zoning Hearing Board Meeting&#13;</p>
+  <p>Board of Supervisors · Agenda · Meeting date: 2026-08-10</p>
+  <p>Listed as: &#13; 08/10/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Agenda.pdf?t=202607081536090">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/08-10-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202608061020240">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -264,12 +254,13 @@
       <guid isPermaLink="false">Zoning Hearing Board|2026-07-28|Minutes|https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Minutes.pdf</guid>
       <category>Zoning Hearing Board</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:46 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Zoning Hearing Board · Minutes · Meeting date: 2026-07-28</p>
   <p>Listed as: &#13; 07/28/26&#13; Zoning Hearing Board Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Minutes.pdf?t=202608260846210">Open Minutes PDF</a>
   </p>
@@ -280,22 +271,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Planning Commission — 2026-07-21</title>
-      <link>https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Agenda.pdf?t=202607081534340</link>
-      <guid isPermaLink="false">Planning Commission|2026-07-21|Agenda|https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Agenda.pdf</guid>
-      <category>Planning Commission</category>
+      <title>Agenda — Zoning Hearing Board — 2026-07-28</title>
+      <link>https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Agenda.pdf?t=202607081536090</link>
+      <guid isPermaLink="false">Zoning Hearing Board|2026-07-28|Agenda|https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Agenda.pdf</guid>
+      <category>Zoning Hearing Board</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:45 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Planning Commission · Agenda · Meeting date: 2026-07-21</p>
-  <p>Listed as: &#13; 07/21/26&#13; Planning Commission Meeting&#13;</p>
+  <p>Zoning Hearing Board · Agenda · Meeting date: 2026-07-28</p>
+  <p>Listed as: &#13; 07/28/26&#13; Zoning Hearing Board Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Agenda.pdf?t=202607081534340">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/7-28-26%20ZHB%20Agenda.pdf?t=202607081536090">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -306,12 +298,13 @@
       <guid isPermaLink="false">Planning Commission|2026-07-21|Minutes|https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Minutes.pdf</guid>
       <category>Planning Commission</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:44 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Minutes · Meeting date: 2026-07-21</p>
   <p>Listed as: &#13; 07/21/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Minutes.pdf?t=202608190904010">Open Minutes PDF</a>
   </p>
@@ -322,22 +315,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2026-07-13</title>
-      <link>https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202608121350210</link>
-      <guid isPermaLink="false">Board of Supervisors|2026-07-13|Agenda|https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
-      <category>Board of Supervisors</category>
+      <title>Agenda — Planning Commission — 2026-07-21</title>
+      <link>https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Agenda.pdf?t=202607081534340</link>
+      <guid isPermaLink="false">Planning Commission|2026-07-21|Agenda|https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Agenda.pdf</guid>
+      <category>Planning Commission</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:43 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2026-07-13</p>
-  <p>Listed as: &#13; 07/13/26&#13; Board of Supervisors&#13;</p>
+  <p>Planning Commission · Agenda · Meeting date: 2026-07-21</p>
+  <p>Listed as: &#13; 07/21/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202608121350210">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/7-21-26%20LTPC%20Agenda.pdf?t=202607081534340">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -348,12 +342,13 @@
       <guid isPermaLink="false">Board of Supervisors|2026-07-13|Minutes|https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Mtg%20Minutes.pdf</guid>
       <category>Board of Supervisors</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:42 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Board of Supervisors · Minutes · Meeting date: 2026-07-13</p>
   <p>Listed as: &#13; 07/13/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Mtg%20Minutes.pdf?t=202608121350400">Open Minutes PDF</a>
   </p>
@@ -364,22 +359,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Zoning Hearing Board — 2026-06-23</title>
-      <link>https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Agenda.pdf?t=202606171211030</link>
-      <guid isPermaLink="false">Zoning Hearing Board|2026-06-23|Agenda|https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Agenda.pdf</guid>
-      <category>Zoning Hearing Board</category>
+      <title>Agenda — Board of Supervisors — 2026-07-13</title>
+      <link>https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202608121350210</link>
+      <guid isPermaLink="false">Board of Supervisors|2026-07-13|Agenda|https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
+      <category>Board of Supervisors</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:41 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Zoning Hearing Board · Agenda · Meeting date: 2026-06-23</p>
-  <p>Listed as: &#13; 06/23/26&#13; Zoning Hearing Board Meeting&#13;</p>
+  <p>Board of Supervisors · Agenda · Meeting date: 2026-07-13</p>
+  <p>Listed as: &#13; 07/13/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Agenda.pdf?t=202606171211030">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/07-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202608121350210">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -390,12 +386,13 @@
       <guid isPermaLink="false">Zoning Hearing Board|2026-06-23|Minutes|https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Minutes.pdf</guid>
       <category>Zoning Hearing Board</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:40 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Zoning Hearing Board · Minutes · Meeting date: 2026-06-23</p>
   <p>Listed as: &#13; 06/23/26&#13; Zoning Hearing Board Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Minutes.pdf?t=202607290820040">Open Minutes PDF</a>
   </p>
@@ -406,22 +403,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Planning Commission — 2026-06-16</title>
-      <link>https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Agenda.pdf?t=202606091002460</link>
-      <guid isPermaLink="false">Planning Commission|2026-06-16|Agenda|https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Agenda.pdf</guid>
-      <category>Planning Commission</category>
+      <title>Agenda — Zoning Hearing Board — 2026-06-23</title>
+      <link>https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Agenda.pdf?t=202606171211030</link>
+      <guid isPermaLink="false">Zoning Hearing Board|2026-06-23|Agenda|https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Agenda.pdf</guid>
+      <category>Zoning Hearing Board</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:39 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Planning Commission · Agenda · Meeting date: 2026-06-16</p>
-  <p>Listed as: &#13; 06/16/26&#13; Planning Commission Meeting&#13;</p>
+  <p>Zoning Hearing Board · Agenda · Meeting date: 2026-06-23</p>
+  <p>Listed as: &#13; 06/23/26&#13; Zoning Hearing Board Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Agenda.pdf?t=202606091002460">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/6-23-26%20ZHB%20Agenda.pdf?t=202606171211030">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -432,12 +430,13 @@
       <guid isPermaLink="false">Planning Commission|2026-06-16|Minutes|https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Minutes.pdf</guid>
       <category>Planning Commission</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:38 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Minutes · Meeting date: 2026-06-16</p>
   <p>Listed as: &#13; 06/16/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Minutes.pdf?t=202608311225030">Open Minutes PDF</a>
   </p>
@@ -448,22 +447,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2026-06-08</title>
-      <link>https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202606041106100</link>
-      <guid isPermaLink="false">Board of Supervisors|2026-06-08|Agenda|https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
-      <category>Board of Supervisors</category>
+      <title>Agenda — Planning Commission — 2026-06-16</title>
+      <link>https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Agenda.pdf?t=202606091002460</link>
+      <guid isPermaLink="false">Planning Commission|2026-06-16|Agenda|https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Agenda.pdf</guid>
+      <category>Planning Commission</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:37 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2026-06-08</p>
-  <p>Listed as: &#13; 06/08/26&#13; Board of Supervisors&#13;</p>
+  <p>Planning Commission · Agenda · Meeting date: 2026-06-16</p>
+  <p>Listed as: &#13; 06/16/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202606041106100">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/6-16-26%20LTPC%20Agenda.pdf?t=202606091002460">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -474,12 +474,13 @@
       <guid isPermaLink="false">Board of Supervisors|2026-06-08|Minutes|https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Mtg%20Minutes.pdf</guid>
       <category>Board of Supervisors</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:36 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Board of Supervisors · Minutes · Meeting date: 2026-06-08</p>
   <p>Listed as: &#13; 06/08/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Mtg%20Minutes.pdf?t=202607141320200">Open Minutes PDF</a>
   </p>
@@ -490,19 +491,20 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2026-05-11</title>
-      <link>https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202605071205310</link>
-      <guid isPermaLink="false">Board of Supervisors|2026-05-11|Agenda|https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
+      <title>Agenda — Board of Supervisors — 2026-06-08</title>
+      <link>https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202606041106100</link>
+      <guid isPermaLink="false">Board of Supervisors|2026-06-08|Agenda|https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
       <category>Board of Supervisors</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:35 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2026-05-11</p>
-  <p>Listed as: &#13; 05/11/26&#13; Board of Supervisors&#13;</p>
+  <p>Board of Supervisors · Agenda · Meeting date: 2026-06-08</p>
+  <p>Listed as: &#13; 06/08/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202605071205310">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/06-08-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202606041106100">Open Agenda PDF</a>
   </p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
@@ -516,12 +518,13 @@
       <guid isPermaLink="false">Board of Supervisors|2026-05-11|Minutes|https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Mtg%20Minutes.pdf</guid>
       <category>Board of Supervisors</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:34 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Board of Supervisors · Minutes · Meeting date: 2026-05-11</p>
   <p>Listed as: &#13; 05/11/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Mtg%20Minutes.pdf?t=202606091348030">Open Minutes PDF</a>
   </p>
@@ -532,22 +535,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Zoning Hearing Board — 2026-04-28</title>
-      <link>https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Agenda.pdf?t=202603310938450</link>
-      <guid isPermaLink="false">Zoning Hearing Board|2026-04-28|Agenda|https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Agenda.pdf</guid>
-      <category>Zoning Hearing Board</category>
+      <title>Agenda — Board of Supervisors — 2026-05-11</title>
+      <link>https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202605071205310</link>
+      <guid isPermaLink="false">Board of Supervisors|2026-05-11|Agenda|https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
+      <category>Board of Supervisors</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:33 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Zoning Hearing Board · Agenda · Meeting date: 2026-04-28</p>
-  <p>Listed as: &#13; 04/28/26&#13; Zoning Hearing Board Meeting&#13;</p>
+  <p>Board of Supervisors · Agenda · Meeting date: 2026-05-11</p>
+  <p>Listed as: &#13; 05/11/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Agenda.pdf?t=202603310938450">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/05-11-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202605071205310">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -558,12 +562,13 @@
       <guid isPermaLink="false">Zoning Hearing Board|2026-04-28|Minutes|https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Minutes.pdf</guid>
       <category>Zoning Hearing Board</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:32 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Zoning Hearing Board · Minutes · Meeting date: 2026-04-28</p>
   <p>Listed as: &#13; 04/28/26&#13; Zoning Hearing Board Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Minutes.pdf?t=202606241051500">Open Minutes PDF</a>
   </p>
@@ -574,22 +579,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Planning Commission — 2026-04-21</title>
-      <link>https://www.twp.lancaster.pa.us/4-21-26%20LTPC%20Agenda.pdf?t=202604061004330</link>
-      <guid isPermaLink="false">Planning Commission|2026-04-21|Agenda|https://www.twp.lancaster.pa.us/4-21-26%20LTPC%20Agenda.pdf</guid>
-      <category>Planning Commission</category>
+      <title>Agenda — Zoning Hearing Board — 2026-04-28</title>
+      <link>https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Agenda.pdf?t=202603310938450</link>
+      <guid isPermaLink="false">Zoning Hearing Board|2026-04-28|Agenda|https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Agenda.pdf</guid>
+      <category>Zoning Hearing Board</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:31 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Planning Commission · Agenda · Meeting date: 2026-04-21</p>
-  <p>Listed as: &#13; 04/21/26&#13; Planning Commission Meeting&#13;</p>
+  <p>Zoning Hearing Board · Agenda · Meeting date: 2026-04-28</p>
+  <p>Listed as: &#13; 04/28/26&#13; Zoning Hearing Board Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/4-21-26%20LTPC%20Agenda.pdf?t=202604061004330">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/4-28-26%20ZHB%20Agenda.pdf?t=202603310938450">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -600,12 +606,13 @@
       <guid isPermaLink="false">Planning Commission|2026-04-21|Minutes|https://www.twp.lancaster.pa.us/April%2021%202026%20LTPC%20Minutes.pdf</guid>
       <category>Planning Commission</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:30 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Minutes · Meeting date: 2026-04-21</p>
   <p>Listed as: &#13; 04/21/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/April%2021%202026%20LTPC%20Minutes.pdf?t=202606170914530">Open Minutes PDF</a>
   </p>
@@ -616,22 +623,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2026-04-13</title>
-      <link>https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202604091354040</link>
-      <guid isPermaLink="false">Board of Supervisors|2026-04-13|Agenda|https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
-      <category>Board of Supervisors</category>
+      <title>Agenda — Planning Commission — 2026-04-21</title>
+      <link>https://www.twp.lancaster.pa.us/4-21-26%20LTPC%20Agenda.pdf?t=202604061004330</link>
+      <guid isPermaLink="false">Planning Commission|2026-04-21|Agenda|https://www.twp.lancaster.pa.us/4-21-26%20LTPC%20Agenda.pdf</guid>
+      <category>Planning Commission</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:29 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2026-04-13</p>
-  <p>Listed as: &#13; 04/13/26&#13; Board of Supervisors&#13;</p>
+  <p>Planning Commission · Agenda · Meeting date: 2026-04-21</p>
+  <p>Listed as: &#13; 04/21/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202604091354040">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/4-21-26%20LTPC%20Agenda.pdf?t=202604061004330">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -642,12 +650,13 @@
       <guid isPermaLink="false">Board of Supervisors|2026-04-13|Minutes|https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Mtg%20Minutes.pdf</guid>
       <category>Board of Supervisors</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:28 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Board of Supervisors · Minutes · Meeting date: 2026-04-13</p>
   <p>Listed as: &#13; 04/13/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Mtg%20Minutes.pdf?t=202605131520320">Open Minutes PDF</a>
   </p>
@@ -658,22 +667,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Zoning Hearing Board — 2026-03-24</title>
-      <link>https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Agenda.pdf?t=202603061245220</link>
-      <guid isPermaLink="false">Zoning Hearing Board|2026-03-24|Agenda|https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Agenda.pdf</guid>
-      <category>Zoning Hearing Board</category>
+      <title>Agenda — Board of Supervisors — 2026-04-13</title>
+      <link>https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202604091354040</link>
+      <guid isPermaLink="false">Board of Supervisors|2026-04-13|Agenda|https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
+      <category>Board of Supervisors</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:27 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Zoning Hearing Board · Agenda · Meeting date: 2026-03-24</p>
-  <p>Listed as: &#13; 03/24/26&#13; Zoning Hearing Board Meeting&#13;</p>
+  <p>Board of Supervisors · Agenda · Meeting date: 2026-04-13</p>
+  <p>Listed as: &#13; 04/13/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Agenda.pdf?t=202603061245220">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/04-13-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202604091354040">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -684,12 +694,13 @@
       <guid isPermaLink="false">Zoning Hearing Board|2026-03-24|Minutes|https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Minutes.pdf</guid>
       <category>Zoning Hearing Board</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:26 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Zoning Hearing Board · Minutes · Meeting date: 2026-03-24</p>
   <p>Listed as: &#13; 03/24/26&#13; Zoning Hearing Board Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Minutes.pdf?t=202604291007560">Open Minutes PDF</a>
   </p>
@@ -700,22 +711,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Planning Commission — 2026-03-17</title>
-      <link>https://www.twp.lancaster.pa.us/3-17-26%20LTPC%20Agenda.pdf?t=202603110854450</link>
-      <guid isPermaLink="false">Planning Commission|2026-03-17|Agenda|https://www.twp.lancaster.pa.us/3-17-26%20LTPC%20Agenda.pdf</guid>
-      <category>Planning Commission</category>
+      <title>Agenda — Zoning Hearing Board — 2026-03-24</title>
+      <link>https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Agenda.pdf?t=202603061245220</link>
+      <guid isPermaLink="false">Zoning Hearing Board|2026-03-24|Agenda|https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Agenda.pdf</guid>
+      <category>Zoning Hearing Board</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:25 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Planning Commission · Agenda · Meeting date: 2026-03-17</p>
-  <p>Listed as: &#13; 03/17/26&#13; Planning Commission Meeting&#13;</p>
+  <p>Zoning Hearing Board · Agenda · Meeting date: 2026-03-24</p>
+  <p>Listed as: &#13; 03/24/26&#13; Zoning Hearing Board Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/3-17-26%20LTPC%20Agenda.pdf?t=202603110854450">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/3-24-26%20ZHB%20Agenda.pdf?t=202603061245220">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -726,12 +738,13 @@
       <guid isPermaLink="false">Planning Commission|2026-03-17|Minutes|https://www.twp.lancaster.pa.us/March%2017%202026%20LTPC%20Minutes.pdf</guid>
       <category>Planning Commission</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:24 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Minutes · Meeting date: 2026-03-17</p>
   <p>Listed as: &#13; 03/17/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/March%2017%202026%20LTPC%20Minutes.pdf?t=202606170915200">Open Minutes PDF</a>
   </p>
@@ -742,22 +755,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2026-03-09</title>
-      <link>https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202603091126110</link>
-      <guid isPermaLink="false">Board of Supervisors|2026-03-09|Agenda|https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
-      <category>Board of Supervisors</category>
+      <title>Agenda — Planning Commission — 2026-03-17</title>
+      <link>https://www.twp.lancaster.pa.us/3-17-26%20LTPC%20Agenda.pdf?t=202603110854450</link>
+      <guid isPermaLink="false">Planning Commission|2026-03-17|Agenda|https://www.twp.lancaster.pa.us/3-17-26%20LTPC%20Agenda.pdf</guid>
+      <category>Planning Commission</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:23 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2026-03-09</p>
-  <p>Listed as: &#13; 03/09/26&#13; Board of Supervisors&#13;</p>
+  <p>Planning Commission · Agenda · Meeting date: 2026-03-17</p>
+  <p>Listed as: &#13; 03/17/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202603091126110">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/3-17-26%20LTPC%20Agenda.pdf?t=202603110854450">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -768,12 +782,13 @@
       <guid isPermaLink="false">Board of Supervisors|2026-03-09|Minutes|https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Mtg%20Minutes.pdf</guid>
       <category>Board of Supervisors</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:22 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Board of Supervisors · Minutes · Meeting date: 2026-03-09</p>
   <p>Listed as: &#13; 03/09/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Mtg%20Minutes.pdf?t=202604160904220">Open Minutes PDF</a>
   </p>
@@ -784,22 +799,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Zoning Hearing Board — 2026-02-24</title>
-      <link>https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Agenda.pdf?t=202602031431380</link>
-      <guid isPermaLink="false">Zoning Hearing Board|2026-02-24|Agenda|https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Agenda.pdf</guid>
-      <category>Zoning Hearing Board</category>
+      <title>Agenda — Board of Supervisors — 2026-03-09</title>
+      <link>https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202603091126110</link>
+      <guid isPermaLink="false">Board of Supervisors|2026-03-09|Agenda|https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
+      <category>Board of Supervisors</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:21 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Zoning Hearing Board · Agenda · Meeting date: 2026-02-24</p>
-  <p>Listed as: &#13; 02/24/26&#13; Zoning Hearing Board Meeting&#13;</p>
+  <p>Board of Supervisors · Agenda · Meeting date: 2026-03-09</p>
+  <p>Listed as: &#13; 03/09/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Agenda.pdf?t=202602031431380">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/03-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202603091126110">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -810,12 +826,13 @@
       <guid isPermaLink="false">Zoning Hearing Board|2026-02-24|Minutes|https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Minutes.pdf</guid>
       <category>Zoning Hearing Board</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:20 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Zoning Hearing Board · Minutes · Meeting date: 2026-02-24</p>
   <p>Listed as: &#13; 02/24/26&#13; Zoning Hearing Board Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Minutes.pdf?t=202603250827360">Open Minutes PDF</a>
   </p>
@@ -826,22 +843,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Planning Commission — 2026-02-17</title>
-      <link>https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Agenda.pdf?t=202602110909090</link>
-      <guid isPermaLink="false">Planning Commission|2026-02-17|Agenda|https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Agenda.pdf</guid>
-      <category>Planning Commission</category>
+      <title>Agenda — Zoning Hearing Board — 2026-02-24</title>
+      <link>https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Agenda.pdf?t=202602031431380</link>
+      <guid isPermaLink="false">Zoning Hearing Board|2026-02-24|Agenda|https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Agenda.pdf</guid>
+      <category>Zoning Hearing Board</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:19 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Planning Commission · Agenda · Meeting date: 2026-02-17</p>
-  <p>Listed as: &#13; 02/17/26&#13; Planning Commission Meeting&#13;</p>
+  <p>Zoning Hearing Board · Agenda · Meeting date: 2026-02-24</p>
+  <p>Listed as: &#13; 02/24/26&#13; Zoning Hearing Board Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Agenda.pdf?t=202602110909090">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/2-24-26%20ZHB%20Agenda.pdf?t=202602031431380">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -852,12 +870,13 @@
       <guid isPermaLink="false">Planning Commission|2026-02-17|Minutes|https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Minutes.pdf</guid>
       <category>Planning Commission</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:18 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Minutes · Meeting date: 2026-02-17</p>
   <p>Listed as: &#13; 02/17/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Minutes.pdf?t=202604141327200">Open Minutes PDF</a>
   </p>
@@ -868,22 +887,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2026-02-09</title>
-      <link>https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202602111313470</link>
-      <guid isPermaLink="false">Board of Supervisors|2026-02-09|Agenda|https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
-      <category>Board of Supervisors</category>
+      <title>Agenda — Planning Commission — 2026-02-17</title>
+      <link>https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Agenda.pdf?t=202602110909090</link>
+      <guid isPermaLink="false">Planning Commission|2026-02-17|Agenda|https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Agenda.pdf</guid>
+      <category>Planning Commission</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:17 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2026-02-09</p>
-  <p>Listed as: &#13; 02/09/26&#13; Board of Supervisors&#13;</p>
+  <p>Planning Commission · Agenda · Meeting date: 2026-02-17</p>
+  <p>Listed as: &#13; 02/17/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202602111313470">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/2-17-26%20LTPC%20Agenda.pdf?t=202602110909090">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -894,12 +914,13 @@
       <guid isPermaLink="false">Board of Supervisors|2026-02-09|Minutes|https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Mtg%20Minutes.pdf</guid>
       <category>Board of Supervisors</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:16 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Board of Supervisors · Minutes · Meeting date: 2026-02-09</p>
   <p>Listed as: &#13; 02/09/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Mtg%20Minutes.pdf?t=202603160857390">Open Minutes PDF</a>
   </p>
@@ -910,22 +931,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Planning Commission — 2026-01-20</title>
-      <link>https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Agenda.pdf?t=202601131324170</link>
-      <guid isPermaLink="false">Planning Commission|2026-01-20|Agenda|https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Agenda.pdf</guid>
-      <category>Planning Commission</category>
+      <title>Agenda — Board of Supervisors — 2026-02-09</title>
+      <link>https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202602111313470</link>
+      <guid isPermaLink="false">Board of Supervisors|2026-02-09|Agenda|https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf</guid>
+      <category>Board of Supervisors</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:15 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Planning Commission · Agenda · Meeting date: 2026-01-20</p>
-  <p>Listed as: &#13; 01/20/26&#13; Planning Commission Meeting&#13;</p>
+  <p>Board of Supervisors · Agenda · Meeting date: 2026-02-09</p>
+  <p>Listed as: &#13; 02/09/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Agenda.pdf?t=202601131324170">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/02-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202602111313470">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -936,12 +958,13 @@
       <guid isPermaLink="false">Planning Commission|2026-01-20|Packet|https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Minutes.pdf</guid>
       <category>Planning Commission</category>
       <category>Packet</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:14 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Packet · Meeting date: 2026-01-20</p>
   <p>Listed as: &#13; 01/20/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Minutes.pdf?t=202603100943260">Open Packet PDF</a>
   </p>
@@ -957,12 +980,13 @@
       <guid isPermaLink="false">Planning Commission|2026-01-20|Minutes|https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Minutes.pdf</guid>
       <category>Planning Commission</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:13 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Minutes · Meeting date: 2026-01-20</p>
   <p>Listed as: &#13; 01/20/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Minutes.pdf?t=202603100943260">Open Minutes PDF</a>
   </p>
@@ -973,22 +997,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2026-01-05</title>
-      <link>https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&amp;%20Regular%20Meeting%20Public%20Agenda.pdf?t=202512311035260</link>
-      <guid isPermaLink="false">Board of Supervisors|2026-01-05|Agenda|https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&amp;%20Regular%20Meeting%20Public%20Agenda.pdf</guid>
-      <category>Board of Supervisors</category>
+      <title>Agenda — Planning Commission — 2026-01-20</title>
+      <link>https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Agenda.pdf?t=202601131324170</link>
+      <guid isPermaLink="false">Planning Commission|2026-01-20|Agenda|https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Agenda.pdf</guid>
+      <category>Planning Commission</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:12 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2026-01-05</p>
-  <p>Listed as: &#13; 01/05/26&#13; Board of Supervisors&#13;</p>
+  <p>Planning Commission · Agenda · Meeting date: 2026-01-20</p>
+  <p>Listed as: &#13; 01/20/26&#13; Planning Commission Meeting&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&amp;%20Regular%20Meeting%20Public%20Agenda.pdf?t=202512311035260">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/1-20-26%20LTPC%20Agenda.pdf?t=202601131324170">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -999,12 +1024,13 @@
       <guid isPermaLink="false">Board of Supervisors|2026-01-05|Minutes|https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&amp;%20Regular%20Meeting%20Minutes.pdf</guid>
       <category>Board of Supervisors</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:11 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Board of Supervisors · Minutes · Meeting date: 2026-01-05</p>
   <p>Listed as: &#13; 01/05/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&amp;%20Regular%20Meeting%20Minutes.pdf?t=202602111312490">Open Minutes PDF</a>
   </p>
@@ -1015,22 +1041,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Planning Commission — 2025-12-16</title>
-      <link>https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Agenda-1.pdf?t=202512051210230</link>
-      <guid isPermaLink="false">Planning Commission|2025-12-16|Agenda|https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Agenda-1.pdf</guid>
-      <category>Planning Commission</category>
+      <title>Agenda — Board of Supervisors — 2026-01-05</title>
+      <link>https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&amp;%20Regular%20Meeting%20Public%20Agenda.pdf?t=202512311035260</link>
+      <guid isPermaLink="false">Board of Supervisors|2026-01-05|Agenda|https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&amp;%20Regular%20Meeting%20Public%20Agenda.pdf</guid>
+      <category>Board of Supervisors</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:10 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Planning Commission · Agenda · Meeting date: 2025-12-16</p>
-  <p>Listed as: &#13; 12/16/25&#13; Planning Commission&#13;</p>
+  <p>Board of Supervisors · Agenda · Meeting date: 2026-01-05</p>
+  <p>Listed as: &#13; 01/05/26&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Agenda-1.pdf?t=202512051210230">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/01-05-2026%20BoS%20Reorganization%20&amp;%20Regular%20Meeting%20Public%20Agenda.pdf?t=202512311035260">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -1041,12 +1068,13 @@
       <guid isPermaLink="false">Planning Commission|2025-12-16|Minutes|https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Minutes.pdf</guid>
       <category>Planning Commission</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:09 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Minutes · Meeting date: 2025-12-16</p>
   <p>Listed as: &#13; 12/16/25&#13; Planning Commission&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Minutes.pdf?t=202601211501410">Open Minutes PDF</a>
   </p>
@@ -1057,22 +1085,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2025-12-08</title>
-      <link>https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/12-08-2025%20BoS%20Public%20Agenda%20.pdf?t=202512071621290</link>
-      <guid isPermaLink="false">Board of Supervisors|2025-12-08|Agenda|https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/12-08-2025%20BoS%20Public%20Agenda%20.pdf</guid>
-      <category>Board of Supervisors</category>
+      <title>Agenda — Planning Commission — 2025-12-16</title>
+      <link>https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Agenda-1.pdf?t=202512051210230</link>
+      <guid isPermaLink="false">Planning Commission|2025-12-16|Agenda|https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Agenda-1.pdf</guid>
+      <category>Planning Commission</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:08 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2025-12-08</p>
-  <p>Listed as: &#13; 12/08/25&#13; Board of Supervisors&#13;</p>
+  <p>Planning Commission · Agenda · Meeting date: 2025-12-16</p>
+  <p>Listed as: &#13; 12/16/25&#13; Planning Commission&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/12-08-2025%20BoS%20Public%20Agenda%20.pdf?t=202512071621290">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/12-16-25%20LTPC%20Agenda-1.pdf?t=202512051210230">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -1083,12 +1112,13 @@
       <guid isPermaLink="false">Board of Supervisors|2025-12-08|Minutes|https://www.twp.lancaster.pa.us/12-08-2025%20BoS%20Mtg%20Minutes.pdf</guid>
       <category>Board of Supervisors</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:07 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Board of Supervisors · Minutes · Meeting date: 2025-12-08</p>
   <p>Listed as: &#13; 12/08/25&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/12-08-2025%20BoS%20Mtg%20Minutes.pdf?t=202601071016360">Open Minutes PDF</a>
   </p>
@@ -1099,22 +1129,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Planning Commission — 2025-11-18</title>
-      <link>https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Agenda.pdf?t=202511131141090</link>
-      <guid isPermaLink="false">Planning Commission|2025-11-18|Agenda|https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Agenda.pdf</guid>
-      <category>Planning Commission</category>
+      <title>Agenda — Board of Supervisors — 2025-12-08</title>
+      <link>https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/12-08-2025%20BoS%20Public%20Agenda%20.pdf?t=202512071621290</link>
+      <guid isPermaLink="false">Board of Supervisors|2025-12-08|Agenda|https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/12-08-2025%20BoS%20Public%20Agenda%20.pdf</guid>
+      <category>Board of Supervisors</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:06 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Planning Commission · Agenda · Meeting date: 2025-11-18</p>
-  <p>Listed as: &#13; 11/18/25&#13; Planning Commission&#13;</p>
+  <p>Board of Supervisors · Agenda · Meeting date: 2025-12-08</p>
+  <p>Listed as: &#13; 12/08/25&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Agenda.pdf?t=202511131141090">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/12-08-2025%20BoS%20Public%20Agenda%20.pdf?t=202512071621290">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -1125,12 +1156,13 @@
       <guid isPermaLink="false">Planning Commission|2025-11-18|Minutes|https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Minutes.pdf</guid>
       <category>Planning Commission</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:05 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Minutes · Meeting date: 2025-11-18</p>
   <p>Listed as: &#13; 11/18/25&#13; Planning Commission&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Minutes.pdf?t=202512170841440">Open Minutes PDF</a>
   </p>
@@ -1141,22 +1173,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Board of Supervisors — 2025-11-10</title>
-      <link>https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/BoS%2011.10.25%20Agenda.pdf?t=202511100852030</link>
-      <guid isPermaLink="false">Board of Supervisors|2025-11-10|Agenda|https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/BoS%2011.10.25%20Agenda.pdf</guid>
-      <category>Board of Supervisors</category>
+      <title>Agenda — Planning Commission — 2025-11-18</title>
+      <link>https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Agenda.pdf?t=202511131141090</link>
+      <guid isPermaLink="false">Planning Commission|2025-11-18|Agenda|https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Agenda.pdf</guid>
+      <category>Planning Commission</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:04 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Board of Supervisors · Agenda · Meeting date: 2025-11-10</p>
-  <p>Listed as: &#13; 11/10/25&#13; Board of Supervisors&#13;</p>
+  <p>Planning Commission · Agenda · Meeting date: 2025-11-18</p>
+  <p>Listed as: &#13; 11/18/25&#13; Planning Commission&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/BoS%2011.10.25%20Agenda.pdf?t=202511100852030">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/11-18-25%20LTPC%20Agenda.pdf?t=202511131141090">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -1167,12 +1200,13 @@
       <guid isPermaLink="false">Board of Supervisors|2025-11-10|Minutes|https://www.twp.lancaster.pa.us/11-10-2025%20BoS%20Mtg%20Minutes.pdf</guid>
       <category>Board of Supervisors</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:03 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Board of Supervisors · Minutes · Meeting date: 2025-11-10</p>
   <p>Listed as: &#13; 11/10/25&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/11-10-2025%20BoS%20Mtg%20Minutes.pdf?t=202512220943110">Open Minutes PDF</a>
   </p>
@@ -1183,22 +1217,23 @@
 ]]></description>
     </item>
     <item>
-      <title>Agenda — Planning Commission — 2025-10-21</title>
-      <link>https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Agenda.pdf?t=202510141443090</link>
-      <guid isPermaLink="false">Planning Commission|2025-10-21|Agenda|https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Agenda.pdf</guid>
-      <category>Planning Commission</category>
+      <title>Agenda — Board of Supervisors — 2025-11-10</title>
+      <link>https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/BoS%2011.10.25%20Agenda.pdf?t=202511100852030</link>
+      <guid isPermaLink="false">Board of Supervisors|2025-11-10|Agenda|https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/BoS%2011.10.25%20Agenda.pdf</guid>
+      <category>Board of Supervisors</category>
       <category>Agenda</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:02 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Planning Commission · Agenda · Meeting date: 2025-10-21</p>
-  <p>Listed as: &#13; 10/21/25&#13; Planning Commission&#13;</p>
+  <p>Board of Supervisors · Agenda · Meeting date: 2025-11-10</p>
+  <p>Listed as: &#13; 11/10/25&#13; Board of Supervisors&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Agenda.pdf?t=202510141443090">Open Agenda PDF</a>
+    <a href="https://www.twp.lancaster.pa.us/Document_Center/Agenda%20&amp;%20Minutes/Board%20Of%20Supervisors/2025/BoS%2011.10.25%20Agenda.pdf?t=202511100852030">Open Agenda PDF</a>
   </p>
   <p>
-    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
+    <a href="https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php">View township document listing</a>
   </p>
 </div>
 ]]></description>
@@ -1209,14 +1244,37 @@
       <guid isPermaLink="false">Planning Commission|2025-10-21|Minutes|https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Minutes.pdf</guid>
       <category>Planning Commission</category>
       <category>Minutes</category>
-      <pubDate>Sat, 17 Oct 2026 19:41:20 +0000</pubDate>
+      <pubDate>Sat, 17 Oct 2026 04:00:01 +0000</pubDate>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
   <p>Planning Commission · Minutes · Meeting date: 2025-10-21</p>
   <p>Listed as: &#13; 10/21/25&#13; Planning Commission&#13;</p>
   <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Minutes.pdf?t=202512170842090">Open Minutes PDF</a>
+  </p>
+  <p>
+    <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
+  </p>
+</div>
+]]></description>
+    </item>
+    <item>
+      <title>Agenda — Planning Commission — 2025-10-21</title>
+      <link>https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Agenda.pdf?t=202510141443090</link>
+      <guid isPermaLink="false">Planning Commission|2025-10-21|Agenda|https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Agenda.pdf</guid>
+      <category>Planning Commission</category>
+      <category>Agenda</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<div>
+  <p>Planning Commission · Agenda · Meeting date: 2025-10-21</p>
+  <p>Listed as: &#13; 10/21/25&#13; Planning Commission&#13;</p>
+  <p>First detected: 2026-10-17 15:41 EDT. Publication date unavailable.</p>
+  <p>Feed date sorts by detection day, then meeting date; its time of day is an ordering value.</p>
+  <p>
+    <a href="https://www.twp.lancaster.pa.us/10-21-25%20LTPC%20Agenda.pdf?t=202510141443090">Open Agenda PDF</a>
   </p>
   <p>
     <a href="https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php">View township document listing</a>
