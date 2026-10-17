@@ -67,3 +67,21 @@ These offline checks cover publication dates, Eastern midnight conversion, HTML 
 - Engagement: title, description, start/end dates, location, price; one item per run of a production.
 
 Only news is implemented so far.
+
+## Meeting-document feed
+
+`R/meetings.R` creates a second feed, `lancaster_township_meetings.xml`, with independent state in `state/township-meetings.json`. It covers Board of Supervisors, Planning Commission, Zoning Hearing Board, and Traffic Committee pages. It includes one item per Agenda, Minutes, or Packet PDF for meetings within the past 366 days, plus future meetings listed by the township. There is a one-time backlog on first subscription (58 PDFs in the initial local run). It ignores video links and canceled-meeting rows without PDFs.
+
+Each title includes document type, body and the explicit meeting date. The item date is first detection, because meeting dates are not document publication dates. Links open the township's PDFs; files are not downloaded, archived, or text-extracted. URLs honor each page's HTML base element and encode spaces. Query timestamps do not change document identity; an altered link updates the existing item's target. Revisions to PDF bytes at an unchanged URL are not detected. NetNewsWire controls whether changes to an existing item appear unread.
+
+The existing workflow runs and tests both collectors. If a source fails, its collector preserves its last good output and reports a failed run; successful output from the other collector can still be committed. GitHub failure notifications remain useful.
+
+### Update an existing GitHub repository
+
+Upload the new `Feed Maker.R`, `R` and `tests` folders, and README to the root. Keep the folder hierarchy (including `tests/fixtures`). Do not replace your existing news state with a local copy. Replace `.github/workflows/refresh-news.yml` with the supplied updated workflow, using GitHub's editor; this adds the meeting test and commits the new XML and state automatically. Run the workflow manually after all files are uploaded and confirm a green result.
+
+Then add this second subscription to NetNewsWire:
+
+`https://raw.githubusercontent.com/dodsondc/lancaster-feeds/main/lancaster_township_meetings.xml`
+
+No change to the existing news subscription is needed. Local test command: `Rscript tests/test-meetings.R`.
