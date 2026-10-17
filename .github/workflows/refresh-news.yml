@@ -38,15 +38,22 @@ jobs:
             any::xml2
             any::jsonlite
       - name: Check collector behavior
-        run: Rscript tests/test-news.R
+        run: |
+          Rscript tests/test-news.R
+          Rscript tests/test-meetings.R
       - name: Collect news and build RSS
+        id: collect
         run: Rscript 'Feed Maker.R'
       - name: Publish feed and preserve collection history
+        if: ${{ !cancelled() && (steps.collect.outcome == 'success' || steps.collect.outcome == 'failure') }}
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add lancaster_township_news.xml state/lancaster-township.json
+          git add --all -- lancaster_township_news.xml state
+          if [ -f lancaster_township_meetings.xml ]; then
+            git add lancaster_township_meetings.xml
+          fi
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh township news feed and collection state'
             git push
