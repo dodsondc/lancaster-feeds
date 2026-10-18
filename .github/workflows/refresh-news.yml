@@ -1,4 +1,4 @@
-name: Refresh township news
+name: Refresh Lancaster feeds
 
 on:
   workflow_dispatch:
@@ -51,7 +51,8 @@ jobs:
           Rscript tests/test-news.R
           Rscript tests/test-meetings.R
           Rscript tests/test-conservancy.R
-      - name: Collect news and build RSS
+          Rscript tests/test-discoveries.R
+      - name: Collect sources and build RSS
         id: collect
         env:
           # Set false for Conservancy-only collection (no Eventbrite requests).
@@ -70,6 +71,9 @@ jobs:
           fi
           if [ -f lancaster_conservancy_events.xml ]; then
             git add lancaster_conservancy_events.xml
+          fi
+          if [ -f lancaster_discoveries.xml ]; then
+            git add lancaster_discoveries.xml discovery-review.csv
           fi
           if [ -d docs ]; then
             git add --all -- docs
