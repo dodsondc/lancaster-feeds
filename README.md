@@ -112,3 +112,74 @@ Calendar files follow RFC 5545: CRLF line endings, UTF-8 octet-aware folding, te
 6. Test one Add to Calendar link. Verify date, time and location in the import preview before saving. On Mac, a browser may download the `.ics` file; open that file in Calendar. On iPhone, report whether the link opens Calendar or shows/downloads a file so we can verify the delivery behavior.
 
 Offline checks: `Rscript tests/test-conservancy.R`. All scraping and calendar generation remains R; Python's icalendar package was used only as an independent development-time file-format check and is not required by the workflow.
+
+## Lancaster Discoveries (Visit Lancaster City + LancasterPA)
+
+`lancaster_discoveries.xml` is a separate, personal-interest feed. `R/discoveries.R`
+reads Visit Lancaster City's Tockify RSS schedule and LancasterPA's public Events
+Calendar API. The latter is paginated completely for the next 90 days. Latest RSS
+post IDs supplement that window to find ongoing runs that started earlier. This
+is a discovery aid, not a complete Lancaster calendar: sources omit events, the
+ongoing-event supplement covers only their latest 100 RSS posts, and dates and
+prices can be incomplete or incorrect.
+
+Edit **`R/discovery-preferences.R`** to change the horizon, interest patterns,
+exclusions, preferred/omitted venues, description patterns, title overrides, or venue aliases. Patterns are case-insensitive R
+regular expressions. Titles/categories use `interests`; descriptions use the more
+specific `description_interests`. Both can qualify a listing. Descriptions never
+trigger venue rules or dance exclusions. Preferred venues (Fulton Theatre, Ware
+Center, Demuth Museum, LancasterHistory) bypass ordinary keyword and dance-title
+rules. Omitted venues are listed in `excluded_venues`, including the recurring
+markets/attractions and restaurants David chose to omit. Venue patterns match
+normalized location names or titles, so recognizable venue names can still work
+when the location field is missing. Source misspellings such as "Demuth Musuem"
+and encoded apostrophes in Root's are handled.
+
+Precedence: explicit title exclusion, explicit title inclusion, omitted venue,
+preferred venue, dance-title exclusion, then title/category or description interests.
+Thus a title inclusion can allow a one-off exception at an otherwise omitted venue.
+Use empty strings to disable title overrides. `discovery-review.csv` records every
+source listing's decision, including those outside the date window. Review this
+file before broadening terms. No location/radius or age restrictions are inferred.
+
+Deduplication is conservative: the same source series, or the same normalized title
+at a known matching venue. Cross-source merges also require overlapping dates.
+Verified venue aliases are editable. Different titles and unknown/differently named
+venues can still leave duplicates; fuzzy guesses are deliberately avoided. All
+matched source URLs survive a merge. Identical performance times are collapsed;
+a precise timed occurrence is preferred over a same-day all-day duplicate.
+
+Three or more occurrences, or an explicitly advertised range longer than 24 hours,
+become one **Engagement**. The original known dates and gaps remain visible. The
+range may reflect only dates returned within the 90-day window; a continuous
+multi-day listing does not establish daily performance times. One or two dates
+are listed as **Events**. Each verified timed occurrence lasting at most 24 hours
+has an individual Add to Calendar link; date-only and multi-day spans have source
+links instead of misleading continuous calendar reservations. Imported calendar
+items do not update automatically, and calendar imports do not reserve tickets.
+
+State is kept in `state/discoveries.json`: series membership, stable GUIDs,
+first-detection dates, and revisions. History lasts one year. Existing story GUIDs
+survive rolling occurrences and additional matching sources. RSS ordering follows
+our existing detection-day / event-date convention; displayed schedules are real
+source dates, while RSS seconds after midnight are synthetic ordering values.
+A broken source retains the previous feed and fails visibly; a successful collection
+with zero keyword matches legitimately creates an empty feed.
+
+The scheduled workflow builds this feed and its calendar files alongside the three
+existing feeds. Subscribe after the first successful run:
+
+`https://raw.githubusercontent.com/dodsondc/lancaster-feeds/main/lancaster_discoveries.xml`
+
+Run just this collector locally with:
+
+```r
+source('R/news.R')
+source('R/conservancy.R')
+source('R/discovery-preferences.R')
+source('R/discoveries.R')
+collect_discoveries(getwd())  # working directory must be this project
+```
+
+Run `Rscript tests/test-discoveries.R` from the project root for offline checks.
+Lancaster Libraries is the next source to evaluate; it is not included yet.
