@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-1e5553781e29756cfbb84a35b053b3e6-20261117T180000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261117T180000Z
+DTEND:20261117T190000Z
+SUMMARY:Coterie Book Club
+DESCRIPTION:Join us for engaging discussions and a shared love of reading! 
+ The Coterie Book Club gathers monthly to explore a diverse range of titles
+ \, from historical fiction to gripping true crime. Whether you’re a life
+ long reader or looking to get back into the habit\, all are welcome. Coter
+ ie Book Club meets the third Tuesday of each month from 1-2pm Registration
+  is encouraged September: Daughter of Egypt by Marie Benedict October: The
+  Lion Women of Tehran by Marjan Kamali November: An American Girl by Richa
+ rd Fellinger January: Theo of Golden by Allen Levi February: The Measure b
+ y Nikki Erlick March: The Correspondent by Virginia Evans April: The Beast
+  in the Clouds by Nathalia Holt May: The Lies They Told by Ellen Marie Wis
+ eman\n\nPrice: Free\n\nSchedule listed: Tue\, Nov 17\, 2026 01:00 PM EST 
+ – Tue\, Nov 17\, 2026 02:00 PM EST\n\nSchedule supplied by Lancaster Lib
+ raries\n\nTimes converted from America/New_York to UTC for calendar compat
+ ibility.\n\nRegistration: https://calendar.lancasterlibraries.org/event/co
+ terie-book-club-198029\n\nAdding this calendar item does not register you.
+  Check the original listing for changes\; imported events do not automatic
+ ally stay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center A\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/coterie-book-club-198029
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

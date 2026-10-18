@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-992c2e43fcfe5da8377636bd8c4a1898-20261110T223000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261110T223000Z
+DTEND:20261111T000000Z
+SUMMARY:Felt Home Portraits
+DESCRIPTION:Create an adorable\, custom felt portrait of your home! This pr
+ ogram is open to people of all art skill levels and only requires an idea 
+ or photo of what your home looks like. This craft is a perfect handmade gi
+ ft for the holidays or just a great way to celebrate the home you love. Al
+ l materials will be provided by the library. Ages 18+ Walk-ins welcome!\n\
+ nPrice: Not supplied by this calendar\; check event details\n\nSchedule li
+ sted: Tue\, Nov 10\, 2026 05:30 PM EST – Tue\, Nov 10\, 2026 07:00 PM ES
+ T\n\nSchedule supplied by Lancaster Libraries\n\nTimes converted from Amer
+ ica/New_York to UTC for calendar compatibility.\n\nRegistration: https://c
+ alendar.lancasterlibraries.org/event/felt-home-portraits-198392\n\nAdding 
+ this calendar item does not register you. Check the original listing for c
+ hanges\; imported events do not automatically stay in sync.
+LOCATION:Lancaster Library\, LPL Community Room\, 151 North Queen Street\, 
+ Lancaster\, PA\, 17603
+URL:https://calendar.lancasterlibraries.org/event/felt-home-portraits-19839
+ 2
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

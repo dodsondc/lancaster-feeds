@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-8dd60812f1994e3fea70051727555088-20261204T220000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261204T220000Z
+DTEND:20261205T010000Z
+SUMMARY:LPL Open Late: First Friday
+DESCRIPTION:Make Lancaster Public Library a stop on your First Friday cultu
+ re crawl! Downtown Lancaster springs to life on the First Friday of each m
+ onth. Art galleries\, studios\, museums\, restaurants\, shops\, and attrac
+ tions in downtown Lancaster stay open late while people head out to enjoy 
+ the festive atmosphere\, dining\, art\, and entertainment. Stop by the lib
+ rary to check out some books\, browse the Juliana Bookstore\, or find a qu
+ iet spot to sit and take it all in. We're open until 8PM on the following 
+ First Fridays: May 1 June 5 August 7 September 4 October 2 December 4\n\nP
+ rice: Not supplied by this calendar\; check event details\n\nSchedule list
+ ed: Fri\, Dec 04\, 2026 05:00 PM EST – Fri\, Dec 04\, 2026 08:00 PM EST\
+ n\nSchedule supplied by Lancaster Libraries\n\nTimes converted from Americ
+ a/New_York to UTC for calendar compatibility.\n\nRegistration: https://cal
+ endar.lancasterlibraries.org/event/lpl-open-late-first-friday-152913\n\nAd
+ ding this calendar item does not register you. Check the original listing 
+ for changes\; imported events do not automatically stay in sync.
+LOCATION:Lancaster Library\, 151 North Queen Street\, Lancaster\, PA\, 1760
+ 3
+URL:https://calendar.lancasterlibraries.org/event/lpl-open-late-first-frida
+ y-152913
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-edde8108c168cce9481ac0bcbe2f3c90-20270106T230000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20270106T230000Z
+DTEND:20270107T003000Z
+SUMMARY:Game of Tomes Fantasy Book Club
+DESCRIPTION:Escape into another world with our fantasy book club! This book
+  club is for anyone who enjoys fantasy or is looking to explore the genre 
+ for the first time. Read the book then join us for a lively discussion on 
+ the first Wednesday of every month. 2026 Reading List: November 4: The Bur
+ ied Giant by Kazuo Ishiguro December 2: Nettle & Bone by T. Kingfisher 202
+ 7 Reading List: January 6: The Everlasting by Alix E. Harrow February 3: A
+ ll the Seas of the World by Guy Gavriel Kay March 3: The Water Dancer by T
+ a-Nehisi Coates April 7: The Unicorn Hunters by Katherine Arden May 5: A S
+ hort Walk Through a Wide World by Douglas Westerbeke June 2: The Cloisters
+  by Katy Hays July 7: The Poet Empress by Shen Tao August 4: The Hacienda 
+ by Isabel Canas September 1: No Gods\, No Monsters by Cadwell Turnbull Oct
+ ober 6: The Golem and the Jinni by Helene Wecker November 2027: Songs of t
+ he Dead by Brandon Sanderson and Peter Orullian December 2027: The Elsewhe
+ re Express by Samantha Sotto-Yambao Ages 18+ Walk-ins welcome\n\nPrice: Fr
+ ee\n\nSchedule listed: Wed\, Jan 06\, 2027 06:00 PM EST – Wed\, Jan 06\,
+  2027 07:30 PM EST\n\nSchedule supplied by Lancaster Libraries\n\nTimes co
+ nverted from America/New_York to UTC for calendar compatibility.\n\nRegist
+ ration: https://calendar.lancasterlibraries.org/event/game-tomes-fantasy-b
+ ook-club-198220\n\nAdding this calendar item does not register you. Check 
+ the original listing for changes\; imported events do not automatically st
+ ay in sync.
+LOCATION:Lancaster Library\, LPL Board Room\, 151 North Queen Street\, Lanc
+ aster\, PA\, 17603
+URL:https://calendar.lancasterlibraries.org/event/game-tomes-fantasy-book-c
+ lub-198220
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

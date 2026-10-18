@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-215eb0c201665129588c4ae7d7e41d58-20261026T211500@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261026T211500Z
+DTEND:20261026T220000Z
+SUMMARY:MTPL Plant Swap!
+DESCRIPTION:🌱 MANHEIM TOWNSHIP PUBLIC LIBRARY PLANT SWAP & GARDENING PRO
+ GRAM 🌱 Whether you’re a seasoned plant parent or just looking to grow
+  your collection\, join us at the Manheim Township Public Library for a do
+ uble dose of plant fun! Start by refreshing your garden at our community p
+ lant swap\, and stay right after for an exciting\, free gardening program 
+ to learn the secrets hidden in your landscape. How the Swap Works: Give On
+ e\, Get One: Bring a healthy\, pest-free plant (potted or a rooted cutting
+  in a jar) to the swap table and take home a new green friend! 🌿🪴 Sh
+ are the Knowledge: Feel free to attach care instructions or ID tags so the
+  new owner knows how to help their new sprout thrive. Branch Out: Meet fel
+ low local gardeners and swap expert tips along with your plants! Bonus Pro
+ gram Right After! Stick around immediately following the swap for The Trea
+ chery of Botany: Poisonous Garden Plants\, a free\, eye-opening session on
+  identifying and managing hidden plant hazards in your landscape. Bring a 
+ plant\, pick up a new favorite\, and gain the know-how to keep your botani
+ cal sanctuary thriving and safe!\n\nPrice: Free\n\nSchedule listed: Mon\, 
+ Oct 26\, 2026 05:15 PM EDT – Mon\, Oct 26\, 2026 06:00 PM EDT\n\nSchedul
+ e supplied by Lancaster Libraries\n\nTimes converted from America/New_York
+  to UTC for calendar compatibility.\n\nRegistration: https://calendar.lanc
+ asterlibraries.org/event/mtpl-plant-swap-197076\n\nAdding this calendar it
+ em does not register you. Check the original listing for changes\; importe
+ d events do not automatically stay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center C\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/mtpl-plant-swap-197076
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-4476b5efc9b264ee6859e3e464cf8597-20261215T230000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261215T230000Z
+DTEND:20261216T004500Z
+SUMMARY:Victorian Christmas: Customs & Costumes
+DESCRIPTION:Step back in time and discover how many of our favorite holiday
+  traditions began! Join historian Lynnette Miller from Landis Valley for a
+  fascinating look into the holiday customs\, festive decorations\, and sea
+ sonal fashions of the Victorian era. From decorated evergreen trees and ha
+ ndmade gifts to period-appropriate winter attire\, this presentation explo
+ res how Victorian-era families celebrated the holiday season. The presenta
+ tion will be followed by a Q&A session with the audience. Free and open to
+  the public. Registration is requested.\n\nPrice: Free\n\nSchedule listed:
+  Tue\, Dec 15\, 2026 06:00 PM EST – Tue\, Dec 15\, 2026 07:45 PM EST\n\n
+ Schedule supplied by Lancaster Libraries\n\nTimes converted from America/N
+ ew_York to UTC for calendar compatibility.\n\nRegistration: https://calend
+ ar.lancasterlibraries.org/event/victorian-christmas-customs-costumes-20254
+ 1\n\nAdding this calendar item does not register you. Check the original l
+ isting for changes\; imported events do not automatically stay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center B\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/victorian-christmas-custo
+ ms-costumes-202541
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

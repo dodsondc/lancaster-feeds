@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-2a183b09fe36e9b270d5f153cf727467-20261114T190000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261114T190000Z
+DTEND:20261114T203000Z
+SUMMARY:Book Club
+DESCRIPTION:Book: Such Sharp Teeth by Rachel Harrison Chat\, craft\, and sp
+ end intentional time together! All are welcome! Craft will be provided\, b
+ ut you're welcome to bring your own. Snacks to share are also welcome! Nov
+ ember 14\, 2026 2:00 pm\n\nPrice: Free\n\nSchedule listed: Sat\, Nov 14\, 
+ 2026 02:00 PM EST – Sat\, Nov 14\, 2026 03:30 PM EST\n\nSchedule supplie
+ d by Lancaster Libraries\n\nTimes converted from America/New_York to UTC f
+ or calendar compatibility.\n\nRegistration: https://calendar.lancasterlibr
+ aries.org/event/book-club-205893\n\nAdding this calendar item does not reg
+ ister you. Check the original listing for changes\; imported events do not
+  automatically stay in sync.
+LOCATION:Strasburg-Heisler Library\, 143 Precision Avenue\, Strasburg\, PA\
+ , 17579
+URL:https://calendar.lancasterlibraries.org/event/book-club-205893
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

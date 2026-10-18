@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-74484f84adf74c44578c7efd3ceccb8e-20261212T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261212T150000Z
+DTEND:20261212T180000Z
+SUMMARY:Local Author Fair
+DESCRIPTION:Find new voices and new stories at the Lancaster Public Library
+  Local Author Fair! Authors will be showcasing their books but will also b
+ e available to talk about their writing journey\, process\, and the path t
+ owards publication. Support your local writers and explore stories from yo
+ ur own community. Walk-ins welcome\n\nPrice: Not supplied by this calendar
+ \; check event details\n\nSchedule listed: Sat\, Dec 12\, 2026 10:00 AM ES
+ T – Sat\, Dec 12\, 2026 01:00 PM EST\n\nSchedule supplied by Lancaster L
+ ibraries\n\nTimes converted from America/New_York to UTC for calendar comp
+ atibility.\n\nRegistration: https://calendar.lancasterlibraries.org/event/
+ local-author-fair-206379\n\nAdding this calendar item does not register yo
+ u. Check the original listing for changes\; imported events do not automat
+ ically stay in sync.
+LOCATION:Lancaster Library\, LPL Community + Board Room\, 151 North Queen S
+ treet\, Lancaster\, PA\, 17603
+URL:https://calendar.lancasterlibraries.org/event/local-author-fair-206379
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

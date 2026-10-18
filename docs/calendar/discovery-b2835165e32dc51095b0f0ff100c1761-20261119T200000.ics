@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-b2835165e32dc51095b0f0ff100c1761-20261119T200000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261119T200000Z
+DTEND:20261119T213000Z
+SUMMARY:Well Rooted: Genealogy Drop In
+DESCRIPTION:Are you hitting a "brick wall" in your family tree research? Wh
+ ether you are a seasoned researcher or just starting to wonder about your 
+ heritage\, the library is here to help! Join us on the 3rd Thursday of eve
+ ry month at 3:00 PM for our Genealogy Drop-In Program. Our volunteers will
+  be on hand to help you navigate databases\, interpret census records\, an
+ d organize your findings. If you have a specific research goal or a partic
+ ularly tricky question\, we encourage you to reach out to us ahead of time
+ . Providing details in advance allows us to prepare resources specifically
+  for your search. Send us an email at info@mtpl.info When: 3rd Thursdays a
+ t 3:00 PM Where: Morgan Center B Cost: Free and open to the public\n\nPric
+ e: Free\n\nSchedule listed: Thu\, Nov 19\, 2026 03:00 PM EST – Thu\, Nov
+  19\, 2026 04:30 PM EST\n\nSchedule supplied by Lancaster Libraries\n\nTim
+ es converted from America/New_York to UTC for calendar compatibility.\n\nR
+ egistration: https://calendar.lancasterlibraries.org/event/well-rooted-gen
+ ealogy-drop-157524\n\nAdding this calendar item does not register you. Che
+ ck the original listing for changes\; imported events do not automatically
+  stay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center B\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/well-rooted-genealogy-dro
+ p-157524
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

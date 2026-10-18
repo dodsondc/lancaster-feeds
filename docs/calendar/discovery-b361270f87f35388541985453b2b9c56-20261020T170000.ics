@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-b361270f87f35388541985453b2b9c56-20261020T170000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261020T170000Z
+DTEND:20261020T191500Z
+SUMMARY:Tuesday Matinee: Halloween Classics
+DESCRIPTION:Take a break and get cozy at the library! Join us every Tuesday
+  afternoon at 1pm for a seasonally spooky movie on the big screen Oct 6: T
+ he Haunting (1963) Oct 13: Beetlejuice Oct 20: Addams Family Oct 27: Ghost
+ busters Registration is not required!\n\nPrice: Free\n\nSchedule listed: T
+ ue\, Oct 20\, 2026 01:00 PM EDT – Tue\, Oct 20\, 2026 03:15 PM EDT\n\nSc
+ hedule supplied by Lancaster Libraries\n\nTimes converted from America/New
+ _York to UTC for calendar compatibility.\n\nRegistration: https://calendar
+ .lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194311\n\
+ nAdding this calendar item does not register you. Check the original listi
+ ng for changes\; imported events do not automatically stay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center B\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween
+ -classics-194311
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

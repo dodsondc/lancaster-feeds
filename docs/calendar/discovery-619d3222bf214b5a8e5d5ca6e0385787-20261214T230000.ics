@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-619d3222bf214b5a8e5d5ca6e0385787-20261214T230000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261214T230000Z
+DTEND:20261215T004500Z
+SUMMARY:Coffee & Crossing: Washington's Winter of 1776
+DESCRIPTION:Grab a piping-hot mug of authentic colonial coffee and step rig
+ ht into the high-stakes winter of 1776! Join living historian Samuel Leame
+ r to uncover the bold strategy\, hidden Lancaster County connections\, and
+  dramatic reality behind Washington’s famous crossing of the Delaware an
+ d the epic 1st Battle of Trenton. Separate fact from fiction\, sip histori
+ cal brews\, and discover how coffee and courage helped turn the tide of th
+ e Revolutionary War! Registration is encouraged A Berks County native and 
+ Cairn University history graduate\, Sam Leamer has spent a lifetime bringi
+ ng the past to life through reenactments-- and a decade mastering the art 
+ of modern coffee. By blending historical scholarship with coffee expertise
+ \, Sam offers a richer\, deeper look into Colonial Coffee Culture\, showin
+ g how the humble coffee bean helped fuel America’s fight for independenc
+ e.\n\nPrice: Free\n\nSchedule listed: Mon\, Dec 14\, 2026 06:00 PM EST –
+  Mon\, Dec 14\, 2026 07:45 PM EST\n\nSchedule supplied by Lancaster Librar
+ ies\n\nTimes converted from America/New_York to UTC for calendar compatibi
+ lity.\n\nRegistration: https://calendar.lancasterlibraries.org/event/hold-
+ adult-services-program-200760\n\nAdding this calendar item does not regist
+ er you. Check the original listing for changes\; imported events do not au
+ tomatically stay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center B\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/hold-adult-services-progr
+ am-200760
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

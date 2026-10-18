@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-9a7938a3d8fa05b12f526f7f3fbc18f9-20261209T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261209T150000Z
+DTEND:20261209T160000Z
+SUMMARY:MTPL Book Discussion Group
+DESCRIPTION:Start your Wednesday with a side of storytelling. The MTPL Book
+  Discussion Group meets the 2nd Wednesday of each month at 10am to explore
+  new worlds together. It’s more than just a book club—it’s your mont
+ hly morning retreat for thoughtful talk and local connection. We’ve got 
+ the books\; we just need you! Please register for each meeting\, as it all
+ ows the library to update you if there are any changes to a meeting due to
+  weather delays\, closures\, or other circumstances. January 14: 1984 by G
+ eorge Orwell February 11: Empire of AI by Karen Hao March 11: The Greatest
+  Generation by Tom Brokaw April 8: West with Giraffes by Lynda Rutledge Ma
+ y 13: Klara and the Sun by Kazuo Ishiguro June 10: Everything is Tuberculo
+ sis by John Green July 8: Kindred by Octavia Butler August 12: There Is No
+  Place for Us by Brian Goldstone September 9: The Secret History by Donna 
+ Tartt October 14: On Call by Anthony Fauci November 11: Harlem Shuffle by 
+ Colson Whitehead December 9: The Frozen River by Ariel Lawhon\n\nPrice: Fr
+ ee\n\nSchedule listed: Wed\, Dec 09\, 2026 10:00 AM EST – Wed\, Dec 09\,
+  2026 11:00 AM EST\n\nSchedule supplied by Lancaster Libraries\n\nTimes co
+ nverted from America/New_York to UTC for calendar compatibility.\n\nRegist
+ ration: https://calendar.lancasterlibraries.org/event/mtpl-book-discussion
+ -group-155713\n\nAdding this calendar item does not register you. Check th
+ e original listing for changes\; imported events do not automatically stay
+  in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center A\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/mtpl-book-discussion-grou
+ p-155713
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

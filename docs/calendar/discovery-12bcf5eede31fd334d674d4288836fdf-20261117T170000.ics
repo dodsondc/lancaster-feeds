@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-12bcf5eede31fd334d674d4288836fdf-20261117T170000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261117T170000Z
+DTEND:20261117T200000Z
+SUMMARY:Adult Coloring Program
+DESCRIPTION:Get in touch with your inner child at LPL’s Adult Coloring Pr
+ ogram 🖍 All are welcome to pop in the library for some laid-back adult 
+ coloring! Supplies will be provided including ornate coloring pages and a 
+ stress-free environment.\n\nPrice: Not supplied by this calendar\; check e
+ vent details\n\nSchedule listed: Tue\, Nov 17\, 2026 12:00 PM EST – Tue\
+ , Nov 17\, 2026 03:00 PM EST\n\nSchedule supplied by Lancaster Libraries\n
+ \nTimes converted from America/New_York to UTC for calendar compatibility.
+ \n\nRegistration: https://calendar.lancasterlibraries.org/event/adult-colo
+ ring-program-154634\n\nAdding this calendar item does not register you. Ch
+ eck the original listing for changes\; imported events do not automaticall
+ y stay in sync.
+LOCATION:Lancaster Library\, LPL Community Room\, 151 North Queen Street\, 
+ Lancaster\, PA\, 17603
+URL:https://calendar.lancasterlibraries.org/event/adult-coloring-program-15
+ 4634
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

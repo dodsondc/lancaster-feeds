@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-c55360c1383fa11b0d8b6d19f88fcdb2-20261210T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261210T150000Z
+DTEND:20261210T163000Z
+SUMMARY:Thursday Book Group
+DESCRIPTION:A book club for people who want to read (or re-read) the classi
+ cs! Our Thursday Book Group focuses on literature that has stood the test 
+ of time and continues to be relevant. New members are welcome to join the 
+ discussion. 2026 Reading List January 8: Billy Budd\, Sailor (1962 edition
+ ) by Herman Melville February 12: Our Mutual Friend by Charles Dickens Mar
+ ch 12: The Good Soldier: A Tale of Passion Ford Maddox Ford April 9: Go Do
+ wn Moses by William Faulkner May 14: The Secret History by Donna Tartt Jun
+ e 11: It Can’t Happen Here by Sinclair Lewis July 9: All Quiet on the We
+ stern Front Erich Maria Remarque August 13: The Brothers Karamazov by Fyod
+ or Dostoyevsky September 10: One of Ours by Willa Cather October 8: One Hu
+ ndred Years of Solitude by Gabriel García Márquez November 12: Dead Soul
+ s by Nickolai Gogol December 10: The Innocents Abroad by Mark Twain\n\nPri
+ ce: Free\n\nSchedule listed: Thu\, Dec 10\, 2026 10:00 AM EST – Thu\, De
+ c 10\, 2026 11:30 AM EST\n\nSchedule supplied by Lancaster Libraries\n\nTi
+ mes converted from America/New_York to UTC for calendar compatibility.\n\n
+ Registration: https://calendar.lancasterlibraries.org/event/thursday-book-
+ group-146163\n\nAdding this calendar item does not register you. Check the
+  original listing for changes\; imported events do not automatically stay 
+ in sync.
+LOCATION:Lancaster Library\, LPL Board Room\, 151 North Queen Street\, Lanc
+ aster\, PA\, 17603
+URL:https://calendar.lancasterlibraries.org/event/thursday-book-group-14616
+ 3
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

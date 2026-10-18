@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-53fc2fe1049f57b417cf7123027ff051-20261022T140000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261022T140000Z
+DTEND:20261022T160000Z
+SUMMARY:Color & Chill
+DESCRIPTION:The Sensory Social is getting a low-key summer remix! Drop in f
+ or a relaxing hour of coloring\, lo-fi beats\, and calm lighting. This is 
+ a self-guided\, community-wide lounge where everyone is welcome to relax\,
+  keep their hands busy\, and create at their own pace. Our space is intent
+ ionally designed to be sensory-friendly\, fully accessible\, and inclusive
+  for all adults\, including individuals with IDD\, autism\, and their supp
+ ort people. We provide a variety of intricate coloring pages\, high-qualit
+ y markers\, and pens\, but feel free to bring your own favorite supplies i
+ f you prefer! Come as you are\, bring a friend\, and just zone out and chi
+ ll.\n\nPrice: Free\n\nSchedule listed: Thu\, Oct 22\, 2026 10:00 AM EDT 
+ – Thu\, Oct 22\, 2026 12:00 PM EDT\n\nSchedule supplied by Lancaster Lib
+ raries\n\nTimes converted from America/New_York to UTC for calendar compat
+ ibility.\n\nRegistration: https://calendar.lancasterlibraries.org/event/co
+ lor-chill-180051\n\nAdding this calendar item does not register you. Check
+  the original listing for changes\; imported events do not automatically s
+ tay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center B\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/color-chill-180051
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

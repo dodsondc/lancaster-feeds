@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-75fceb3d86eaece74ecdfa2c3a0e05c7-20261019T220000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261019T220000Z
+DTEND:20261020T000000Z
+SUMMARY:Storytime After Dark: Chilling Tales & Ghost Stories
+DESCRIPTION:Think storytime is just for kids? Think again. Step into the sh
+ adows for Storytime After Dark\, a late-night gathering dedicated to the a
+ rt of the scary story. We’ll dim the lights\, set the mood\, and share c
+ lassic gothic fiction\, modern creepy flash fiction\, and local urban lege
+ nds.\n\nPrice: Free\n\nSchedule listed: Mon\, Oct 19\, 2026 06:00 PM EDT 
+ – Mon\, Oct 19\, 2026 08:00 PM EDT\n\nSchedule supplied by Lancaster Lib
+ raries\n\nTimes converted from America/New_York to UTC for calendar compat
+ ibility.\n\nRegistration: https://calendar.lancasterlibraries.org/event/re
+ served-program-173890\n\nAdding this calendar item does not register you. 
+ Check the original listing for changes\; imported events do not automatica
+ lly stay in sync.
+LOCATION:Manheim Township Library\, MTP Lapp Story Silo\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/reserved-program-173890
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

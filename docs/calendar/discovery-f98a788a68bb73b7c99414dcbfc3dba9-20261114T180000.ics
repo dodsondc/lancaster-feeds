@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-f98a788a68bb73b7c99414dcbfc3dba9-20261114T180000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261114T180000Z
+DTEND:20261114T210000Z
+SUMMARY:Mills of Lancaster County: An Afternoon with Historian Donald Kautz
+DESCRIPTION:Step back in time with author Donald Kautz and the Manheim Town
+ ship Historical Society as we explore the history of Lancaster County’s 
+ water-powered grist mills. From the ingenious engineering of the waterwhee
+ l to the personal stories of the families who kept them running\, this pre
+ sentation brings our local heritage to life. Join us to discover the secre
+ t history of these iconic structures and see how they continue to shape ou
+ r landscape today.\n\nPrice: Free\n\nSchedule listed: Sat\, Nov 14\, 2026 
+ 01:00 PM EST – Sat\, Nov 14\, 2026 04:00 PM EST\n\nSchedule supplied by 
+ Lancaster Libraries\n\nTimes converted from America/New_York to UTC for ca
+ lendar compatibility.\n\nRegistration: https://calendar.lancasterlibraries
+ .org/event/reserved-historical-society-event-161153\n\nAdding this calenda
+ r item does not register you. Check the original listing for changes\; imp
+ orted events do not automatically stay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center AB\, 595 Granite Run 
+ Drive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/reserved-historical-socie
+ ty-event-161153
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

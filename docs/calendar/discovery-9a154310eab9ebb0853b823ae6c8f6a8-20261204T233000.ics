@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-9a154310eab9ebb0853b823ae6c8f6a8-20261204T233000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T175410Z
+LAST-MODIFIED:20261018T175410Z
+SEQUENCE:0
+DTSTART:20261204T233000Z
+DTEND:20261205T003000Z
+SUMMARY:Vince Guaraldi: The Man and Music Behind "A Charlie Brown Christmas
+ "
+DESCRIPTION:Join us for an interactive program of live music\, learning\, a
+ nd even a little dancing! Patrick Kerssen and the band will trace the musi
+ cal career of Vince Guaraldi through in-depth musical analysis\, slideshow
+ s\, audience participation\, and a live musical performance of the entire 
+ Charlie Brown Christmas soundtrack. Come out and listen to some of your fa
+ vorite holiday music and learn about one of jazz’s most listened to musi
+ cians! All ages welcome · Registration is recommended\n\nPrice: Free\n\nS
+ chedule listed: Fri\, Dec 04\, 2026 06:30 PM EST – Fri\, Dec 04\, 2026 0
+ 7:30 PM EST\n\nSchedule supplied by Lancaster Libraries\n\nTimes converted
+  from America/New_York to UTC for calendar compatibility.\n\nRegistration:
+  https://calendar.lancasterlibraries.org/event/vince-guaraldi-man-and-musi
+ c-behind-charlie-brown-christmas-195904\n\nAdding this calendar item does 
+ not register you. Check the original listing for changes\; imported events
+  do not automatically stay in sync.
+LOCATION:Lancaster Library\, LPL Board Room\, 151 North Queen Street\, Lanc
+ aster\, PA\, 17603
+URL:https://calendar.lancasterlibraries.org/event/vince-guaraldi-man-and-mu
+ sic-behind-charlie-brown-christmas-195904
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
