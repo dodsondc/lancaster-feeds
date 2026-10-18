@@ -2,6 +2,28 @@
 # Titles/categories and descriptions have separate patterns; venue rules take priority.
 discovery_preferences <- list(
   horizon_days = 90L,
+  libraries = list(
+    include_everyone = TRUE,
+    on_site_only = TRUE,
+    excluded_age_groups = c("Babies", "Toddlers", "Children", "Tweens", "Teens"),
+    # Empty means all branches/programs are eligible for interest matching.
+    # Shuts is not a branch in this shared calendar; see README coverage note.
+    included_libraries = c("Lancaster", "Manheim Township", "Strasburg-Heisler"),
+    excluded_program_types = character(),
+    # Adult/all-ages music and films qualify even with an opaque title.
+    preferred_program_types = c("Music", "Movie & Film"),
+    # Library descriptions describe programs rather than tourism promotions, so
+    # use broader subject words here than in the general discovery descriptions.
+    interests = list(
+      History = "\\b(history|historical|historian|heritage|archaeology|genealogy|genealogical|victorian|revolutionary war|american revolution|independence|1776|pennsylvania.?s past)\\b",
+      Environment = "\\b(botany|botanical|gardening|gardens?|plants?|nature|wildlife|ecology|conservation|watershed|birding|sustainability)\\b",
+      Arts = "\\b(art|arts|painting|drawing|poetry|poems?|poets?|sculpture|photography|creative writing|author fair|local author|crafting|crafts?)\\b",
+      Concerts = "\\b(concerts?|music|musical|musicians?|jazz|orchestra|symphony)\\b"
+    ),
+    # Title safeguard applies only when no Adults/Seniors tag is present.
+    exclude_youth_title = "\\b(kids|toddlers?|teens?|tweens?|babies|preschool(ers?)?|children)\\b",
+    detail_cache_hours = 12
+  ),
   interests = list(
     Concerts = "\\b(concerts?|orchestra|symphony|chamber music|jazz|recital|choir|choral|marimba|live music|music festival)\\b",
     Arts = "\\b(art walk|artwalk|art exhibits?|art exhibitions?|gallery|galleries|museum|theat(er|re)|plays?|musicals?|shakespeare|improv|poetry|film screening)\\b",

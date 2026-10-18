@@ -113,11 +113,11 @@ Calendar files follow RFC 5545: CRLF line endings, UTF-8 octet-aware folding, te
 
 Offline checks: `Rscript tests/test-conservancy.R`. All scraping and calendar generation remains R; Python's icalendar package was used only as an independent development-time file-format check and is not required by the workflow.
 
-## Lancaster Discoveries (Visit Lancaster City + LancasterPA)
+## Lancaster Discoveries (city, county, and libraries)
 
 `lancaster_discoveries.xml` is a separate, personal-interest feed. `R/discoveries.R`
-reads Visit Lancaster City's Tockify RSS schedule and LancasterPA's public Events
-Calendar API. The latter is paginated completely for the next 90 days. Latest RSS
+reads Visit Lancaster City's Tockify RSS schedule, LancasterPA's public Events
+Calendar API, and the shared Lancaster County Library Calendar through `R/libraries.R`. The latter is paginated completely for the next 90 days. Latest RSS
 post IDs supplement that window to find ongoing runs that started earlier. This
 is a discovery aid, not a complete Lancaster calendar: sources omit events, the
 ongoing-event supplement covers only their latest 100 RSS posts, and dates and
@@ -178,8 +178,58 @@ source('R/news.R')
 source('R/conservancy.R')
 source('R/discovery-preferences.R')
 source('R/discoveries.R')
+source('R/libraries.R')
 collect_discoveries(getwd())  # working directory must be this project
 ```
 
 Run `Rscript tests/test-discoveries.R` from the project root for offline checks.
-Lancaster Libraries is the next source to evaluate; it is not included yet.
+Lancaster County libraries are now included in this same feed; no new subscription
+URL is needed. `R/libraries.R` requests the calendar's Adults (54), Seniors (231),
+and Everyone (55) filters, paginates its chronological upcoming listings through
+our 90-day window, and follows age-eligible entries for full structured descriptions,
+exact timezone-aware dates, addresses, and age/program metadata. The listing date
+icons are used only to bound pagination; published event times come from detail
+pages' JSON-LD. Individual event details and full descriptions are cached
+for 12 hours, so scheduled runs can reuse details without excessive requests.
+
+Edit the `libraries` section of `R/discovery-preferences.R`:
+
+- `include_everyone = TRUE`: all-ages events may qualify through interests.
+- `on_site_only = TRUE`: explicitly marked off-site locations are omitted, even
+  when organized by a selected branch. The source must identify them as off-site;
+  location metadata is not independently geocoded.
+- `excluded_age_groups`: Babies, Toddlers, Children, Tweens, Teens. Any of these
+  tags excludes the listing, even if it is also tagged Adults/Seniors. Age rules
+  take precedence over preferred venues and explicit title inclusions.
+- `included_libraries`: currently Lancaster, Manheim Township, and Strasburg-Heisler.
+  Empty means all county branches; otherwise use exact
+  calendar branch names, e.g. `c("Lancaster", "Lititz")`.
+- `excluded_program_types`: exact calendar program names to omit.
+- `preferred_program_types`: Music and Movie & Film qualify eligible events even
+  if their titles have no recognizable keyword. Other programs use library-specific
+  `interests` against titles, categories, and full descriptions, followed by the
+  shared discovery rules. These broader library topics catch local history talks,
+  genealogy, botany, plants/gardening, arts/crafts, and music without depending on
+  particular phrases such as "history lecture".
+- `exclude_youth_title`: catches obviously youth-oriented Everyone listings;
+  editable because source tagging and titles are imperfect.
+
+Closures and room reservations are not collected (only event cards). Listings with
+missing age tags are excluded. The configured branches are Lancaster (Lancaster Public Library), Manheim
+Township, and Strasburg-Heisler. Shuts Environmental Library is also desired,
+but is not a branch option in this shared calendar and is **not covered** by this
+collector. Its official page https://www.lancastercountyparks.org/252/Shuts-Environmental-Library
+currently reports a temporary closure beginning June 1, 2026; separately organized
+events would require another source. This is a coverage gap, not evidence that no
+events are held there. The branch query and local branch checks both enforce the
+three supported selections. The review CSV now includes
+age groups and program types, alongside keep/reject reasons. Repeated title/branch
+occurrences join the same engagement rules and cross-source deduplication as other
+discoveries. Calendar links are created using our existing individual .ics writer.
+No price is assumed to be free when the source omits it.
+
+The first library collection can take several minutes. `state/library-details.json`
+is a disposable detail cache; `state/discoveries.json` preserves reader identities.
+A library source/parsing failure retains the previous discovery feed and reports a
+failure rather than publishing an incomplete collection. All other independent
+collectors still run. Test with `Rscript tests/test-libraries.R`.

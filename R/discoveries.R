@@ -1,5 +1,5 @@
 # Requires news.R (HTTP/XML helpers), conservancy.R (individual calendar writer),
-# and discovery-preferences.R. No credentials or paid services.
+# discovery-preferences.R, and libraries.R. No credentials or paid services.
 discovery_city_url <- "https://tockify.com/api/feeds/rss/visitlancastercity"
 discovery_pa_api <- "https://lancasterpa.com/wp-json/tribe/events/v1/events"
 
@@ -28,6 +28,10 @@ discovery_venue <- function(x, prefs) {
   if (x %in% names(aliases)) unname(aliases[[x]]) else x
 }
 discovery_match <- function(e, prefs) {
+  if(identical(e$source,"Lancaster Libraries")) {
+    policy<-library_policy(e,prefs)
+    if(!is.null(policy))return(policy)
+  }
   matches <- function(pattern, text) nzchar(pattern) && grepl(pattern, text, ignore.case=TRUE, perl=TRUE)
   if (matches(prefs$always_exclude_title,e$title)) return(list(keep=FALSE,reason="Explicit exclusion"))
   if (matches(prefs$always_include_title,e$title)) return(list(keep=TRUE,reason="Explicit inclusion"))
@@ -38,6 +42,14 @@ discovery_match <- function(e, prefs) {
   preferred <- venue_hits(prefs$preferred_venues)
   if(length(preferred))return(list(keep=TRUE,reason=paste("Preferred venue:",paste(preferred,collapse=", "))))
   if (matches(prefs$exclude_title,e$title)) return(list(keep=FALSE,reason="Excluded title: dance"))
+  if(identical(e$source,"Lancaster Libraries")) {
+    types<-intersect(unlist(e$program_types),prefs$libraries$preferred_program_types)
+    if(length(types))return(list(keep=TRUE,reason=paste("Library program:",paste(types,collapse=", "))))
+    topics<-prefs$libraries$interests
+    text<-paste(e$title,e$categories,e$description)
+    found<-names(topics)[vapply(topics,matches,logical(1),text=text)]
+    if(length(found))return(list(keep=TRUE,reason=paste("Library topic:",paste(found,collapse=", "))))
+  }
   primary <- paste(e$title, e$categories)
   hits <- names(prefs$interests)[vapply(prefs$interests,matches,logical(1),text=primary)]
   description_hits <- names(prefs$description_interests)[vapply(prefs$description_interests,matches,logical(1),text=e$description)]
@@ -150,7 +162,7 @@ build_discoveries <- function(events,prefs,now,old=list()) {
   for(e in events) {
     m<-discovery_match(e,prefs)
     if(e$end<lower||e$start>=upper)m<-list(keep=FALSE,reason="Outside date window")
-    audit[[length(audit)+1L]]<-data.frame(source=e$source,title=e$title,start=format(as.POSIXct(e$start,origin="1970-01-01",tz="America/New_York"),"%Y-%m-%d %H:%M"),location=e$location,kept=m$keep,reason=m$reason,url=e$url,stringsAsFactors=FALSE)
+    audit[[length(audit)+1L]]<-data.frame(source=e$source,title=e$title,start=format(as.POSIXct(e$start,origin="1970-01-01",tz="America/New_York"),"%Y-%m-%d %H:%M"),location=e$location,age_groups=paste(unlist(e$age_groups),collapse=", "),program_types=paste(unlist(e$program_types),collapse=", "),kept=m$keep,reason=m$reason,url=e$url,stringsAsFactors=FALSE)
     if(m$keep) {e$interest<-m$reason;selected[[length(selected)+1L]]<-e}
   }
   groups<-group_discoveries(selected,prefs); result<-list()
@@ -209,7 +221,7 @@ write_discovery_rss <- function(events,path,root) {
   rss<-xml_new_root("rss",version="2.0");channel<-xml_add_child(rss,"channel")
   xml_add_child(channel,"title","Lancaster Discoveries — Events & Engagements")
   xml_add_child(channel,"link","https://visitlancastercity.com/calendar/")
-  xml_add_child(channel,"description","Personal keyword-filtered discoveries from Visit Lancaster City and LancasterPA. Sources overlap and coverage is incomplete. Dates sort by detection day, then event start; RSS seconds are ordering values.")
+  xml_add_child(channel,"description","Personal keyword-filtered discoveries from Visit Lancaster City, LancasterPA, and Lancaster County libraries. Sources overlap and coverage is incomplete. Dates sort by detection day, then event start; RSS seconds are ordering values.")
   xml_add_child(channel,"language","en-us")
   ordered<-order_feed_records(events,function(e)e$start)
   for(e in ordered) {
@@ -220,6 +232,8 @@ write_discovery_rss <- function(events,path,root) {
     xml_add_child(item,"guid",paste0("lancaster:",e$id),isPermaLink="false")
     xml_add_child(item,"pubDate",rss_date(e$feed_sort_time));xml_add_child(item,"category",e$kind)
     for(t in c(paste(e$kind,range,sep=": "),paste("Location:",if(nzchar(e$location))e$location else "Check source"),paste("Price:",e$price),e$description))xml_add_child(body,"p",t)
+    if(all(vapply(e$occurrences,function(o)identical(o$status,"CANCELLED"),logical(1))))xml_add_child(body,"p","CANCELLED — the source lists these dates as cancelled.")
+    if(length(e$age_groups))xml_add_child(body,"p",paste("Library age groups:",paste(unlist(e$age_groups),collapse=", ")))
     if(e$kind=="Engagements")xml_add_child(body,"p","This is an advertised run or a group of repeated dates, not a continuous activity. The range may be clipped to the discovery window. Check the source for the complete performance schedule.")
     for(i in seq_along(e$occurrences)) {
       o<-e$occurrences[[i]];p<-xml_add_child(body,"p",discovery_when(o))
@@ -230,7 +244,7 @@ write_discovery_rss <- function(events,path,root) {
         o$id<-paste0(e$id,"-",stamp);o$first_seen<-e$first_seen;o$updated_at<-e$updated_at;o$sequence<-e$sequence
         o$event_date<-day(o$start);o$raw_date<-discovery_when(o);o$date_source<-paste("Schedule supplied by",o$source)
         write_event_ics(o,file.path(root,"docs","calendar",paste0(o$id,".ics")))
-        xml_add_child(p,"a"," Add this performance to Calendar (.ics)",href=paste0(calendar_base_url,o$id,".ics"))
+        xml_add_child(p,"a"," Add to Calendar (.ics)",href=paste0(calendar_base_url,o$id,".ics"))
       }
     }
     for(s in e$sources) {p<-xml_add_child(body,"p");xml_add_child(p,"a",paste("Details:",s$name),href=s$url)}
@@ -247,17 +261,18 @@ collect_discoveries <- function(root,now=as.numeric(Sys.time())) {
   today<-as.Date(format(as.POSIXct(now,origin="1970-01-01",tz="America/New_York"),"%Y-%m-%d"))
   path<-file.path(root,"state","discoveries.json")
   old<-if(file.exists(path))read_json(path,simplifyVector=FALSE)$items else list()
-  # Fetch both sources successfully before replacing anything. An empty filtered
+  # Fetch all sources successfully before replacing anything. An empty filtered
   # result is legitimate; an empty/broken source is a visible collection failure.
   city<-parse_discovery_city(resp_body_xml(fetch_page(discovery_city_url)))
   pa<-parse_discovery_pa(fetch_discovery_pa(today,today+prefs$horizon_days))
-  built<-build_discoveries(c(city,pa),prefs,now,old)
+  libraries<-fetch_library_events(root,today,today+prefs$horizon_days,prefs,now=now)
+  built<-build_discoveries(c(city,pa,libraries),prefs,now,old)
   write_discovery_rss(built$events,file.path(root,"lancaster_discoveries.xml"),root)
   write.csv(built$audit,file.path(root,"discovery-review.csv"),row.names=FALSE,na="")
   # Retain identity history for a year, including temporarily missing listings.
   cache<-old;for(id in names(built$events))cache[[id]]<-built$events[[id]]
   cache<-Filter(function(e)e$end>=publication_time(as.character(today-365L)),cache)
   atomic_json(list(version=1L,last_checked=now,items=cache),path)
-  message("Discoveries: ",length(city)," city records + ",length(pa)," LancasterPA records → ",length(built$events)," filtered listings")
+  message("Discoveries: ",length(city)," city records + ",length(pa)," LancasterPA records + ",length(libraries)," library records → ",length(built$events)," filtered listings")
   invisible(built)
 }
