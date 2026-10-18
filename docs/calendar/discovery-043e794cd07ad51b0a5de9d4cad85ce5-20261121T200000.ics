@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-043e794cd07ad51b0a5de9d4cad85ce5-20261121T200000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261121T200000Z
+DTEND:20261121T210000Z
+SUMMARY:Layer the Walls: Turn of the Century
+DESCRIPTION:Join us for an educational and inspiring puppet play that explo
+ res the stories of immigrant families in New York City—plus\, free kids'
+  activities and crafts! In one Lower East Side tenement\, forty layers of 
+ wallpaper were found clinging to the walls—each piece applied by a new i
+ mmigrant family. Using puppetry\, masks\, and live action\, Layer the Wall
+ s tells the incredible stories held within each layer—an Irish immigrant
+  helping to build the Brooklyn Bridge\, Italian brothers surviving the Gre
+ at Blizzard of 1888\, and two Russian Jewish garment workers joining the U
+ prising of 20\,000 to fight for safety. Recommended for ages 8 and up. 2 p
+ m • Free kids’ activities and crafts in the lobby!\n\nPrice: Not suppl
+ ied by this calendar\; check event details\n\nSchedule listed: Sat\, Nov 2
+ 1\, 2026 03:00 PM EST – Sat\, Nov 21\, 2026 04:00 PM EST\n\nSchedule sup
+ plied by Visit Lancaster City\n\nTimes converted from America/New_York to 
+ UTC for calendar compatibility.\n\nRegistration: https://calendar.visitlan
+ castercity.com/visitlancastercity/detail/1082/1795291200000\n\nAdding this
+  calendar item does not register you. Check the original listing for chang
+ es\; imported events do not automatically stay in sync.
+LOCATION:Ware Center for the Arts\,42 North Prince Street\, Lancaster\, PA 
+ 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1082/
+ 1795291200000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

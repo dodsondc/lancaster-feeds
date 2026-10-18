@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-3eb93a0ec8e65226ae20dd2832612bb4-20261018T180000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261018T180000Z
+DTEND:20261018T200000Z
+SUMMARY:History\, Lore & Trivia with Adam Zurn and Benton Webbber
+DESCRIPTION:Join Historic Rock Ford as we welcome Adam Zurn and Benton Webb
+ er for a fun afternoon of "History\, Lore & Trivia" in the Rock Ford Barn.
+  First\, Adam Zurn of Uncharted Lancaster will present "Legendary Tales fr
+ om the Mighty Susquehanna River." After Adam's presentation\, Benton Webbe
+ r will host his "Revolutionary Lancaster Quiz Bowl." Questions and answers
+  will be in a Quiz Bowl format with teams of four being created. The Rock 
+ Ford barn will be set up so that guests will pick a table to sit at upon a
+ rrival for Adam's presentation and then those tables of four will become t
+ eams for the Quiz Bowl. Meet up with your friends and make a team or join 
+ a group at a table and make some new friends! Adam Zurn's presentation wil
+ l be from 2 PM to 3 PM followed by Benton Webber's Quiz Bowl from 3 PM to 
+ 4 PM. This event will be held in the Langmuir Education Room located on th
+ e first floor of the Rock Ford Barn. This event is free but registration i
+ s required and seating is limited!\n\nPrice: Not supplied by this calendar
+ \; check event details\n\nSchedule listed: Sun\, Oct 18\, 2026 02:00 PM ED
+ T – Sun\, Oct 18\, 2026 04:00 PM EDT\n\nSchedule supplied by Visit Lanca
+ ster City\n\nTimes converted from America/New_York to UTC for calendar com
+ patibility.\n\nRegistration: https://calendar.visitlancastercity.com/visit
+ lancastercity/detail/743/1792346400000\n\nAdding this calendar item does n
+ ot register you. Check the original listing for changes\; imported events 
+ do not automatically stay in sync.
+LOCATION:Historic Rock Ford\,881 Rockford Road\, Lancaster\, PA 17602\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/743/1
+ 792346400000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

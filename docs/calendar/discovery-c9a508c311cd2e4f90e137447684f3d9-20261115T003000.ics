@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-c9a508c311cd2e4f90e137447684f3d9-20261115T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261115T003000Z
+DTEND:20261115T023000Z
+SUMMARY:Pianist Jiarui Li
+DESCRIPTION:The winner of the Hershey Symphony Annual Young Artist Competit
+ ion will perform Beethoven’s “Piano Concerto No. 4 in G Major\, Op. 58
+ ” with the Hershey Symphony Orchestra this fall. Born into a musical fam
+ ily\, she began piano studies at age 5 and has earned numerous prizes in b
+ oth China and the U.S. The student at Lancaster Mennonite High School stud
+ ies with Dr. Xun Pan.\n\nPrice: Not supplied by this calendar\; check even
+ t details\n\nSchedule listed: Sat\, Nov 14\, 2026 07:30 PM EST – Sat\, N
+ ov 14\, 2026 09:30 PM EST\n\nSchedule supplied by Visit Lancaster City\n\n
+ Times converted from America/New_York to UTC for calendar compatibility.\n
+ \nRegistration: https://calendar.visitlancastercity.com/visitlancastercity
+ /detail/717/1794702600000\n\nAdding this calendar item does not register y
+ ou. Check the original listing for changes\; imported events do not automa
+ tically stay in sync.
+LOCATION:The Trust Performing Arts Center\,37 North Market Street\, Lancast
+ er\, PA 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/717/1
+ 794702600000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

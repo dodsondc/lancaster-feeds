@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-bd33ed8e8a21e565d4e7af763557fc2e-20261204T050000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261204T050000Z
+DTEND:20261205T050000Z
+SUMMARY:First Friday
+DESCRIPTION:Lancaster City’s monthly celebration of arts and culture! Dis
+ cover innovative exhibitions\, performances and perhaps a few surprises as
+  you walk our attractive streets lined with trees and distinctive architec
+ ture. Unique boutiques and excellent restaurants complement the art galler
+ ies\, artisan studios\, museums\, performing groups\, professional theater
+ \, symphony orchestra\, and art college that comprise Lancaster’s arts c
+ ommunity.\n\nPrice: Not supplied by this calendar\; check event details\n\
+ nSchedule listed: Fri\, Dec 04\, 2026 12:00 AM EST – Sat\, Dec 05\, 2026
+  12:00 AM EST\n\nSchedule supplied by Visit Lancaster City\n\nTimes conver
+ ted from America/New_York to UTC for calendar compatibility.\n\nRegistrati
+ on: https://calendar.visitlancastercity.com/visitlancastercity/detail/477/
+ 1796360400000\n\nAdding this calendar item does not register you. Check th
+ e original listing for changes\; imported events do not automatically stay
+  in sync.
+LOCATION:PA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/477/1
+ 796360400000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

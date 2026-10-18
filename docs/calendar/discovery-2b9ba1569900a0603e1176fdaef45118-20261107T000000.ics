@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-2b9ba1569900a0603e1176fdaef45118-20261107T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261107T000000Z
+DTEND:20261107T020000Z
+SUMMARY:We the People First Friday: Heartland Marimba Festival
+DESCRIPTION:Make the Ware Center for the Arts part of your Lancaster City F
+ irst Friday route! Join us in November as Heartland Marimba presents a han
+ ds-on\, behind-the-scenes look at the marimba\, and a new art exhibit open
+ s in the Regitz Gallery. At 7 pm in the lobby\, join the members of Heartl
+ and Marimba as they reveal all the insider goodies about their fascinating
+  instrument. Listen\, touch\, and learn as you explore the science of its 
+ acoustics\, trace its history from Africa to Central America to the classi
+ cal music stage\, and hear the untold stories of the marimba’s Pennsylva
+ nia roots—including tales of the “godfather” of classical marimba\, 
+ Clair Musser\, who hailed from Manheim\, PA. From 5-8 in the Regitz Galler
+ y\, explore a new gallery exhibit by Lancaster artist Shauna L. Yorty\, "O
+ vershare: I Did This for Me." Through cardboard collages\, mixed media pie
+ ces\, and bright\, bold works of art\, Yorty invites viewers to witness vu
+ lnerability\, embrace their own stories\, and find connection to themselve
+ s and to others through artistic expression. Free and open to all!\n\nPric
+ e: Not supplied by this calendar\; check event details\n\nSchedule listed:
+  Fri\, Nov 06\, 2026 07:00 PM EST – Fri\, Nov 06\, 2026 09:00 PM EST\n\n
+ Schedule supplied by Visit Lancaster City\n\nTimes converted from America/
+ New_York to UTC for calendar compatibility.\n\nRegistration: https://calen
+ dar.visitlancastercity.com/visitlancastercity/detail/1075/1794009600000\n\
+ nAdding this calendar item does not register you. Check the original listi
+ ng for changes\; imported events do not automatically stay in sync.
+LOCATION:Ware Center for the Arts\,42 N. Prince St.
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1075/
+ 1794009600000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

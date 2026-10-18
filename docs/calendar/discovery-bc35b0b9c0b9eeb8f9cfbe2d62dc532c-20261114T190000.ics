@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-bc35b0b9c0b9eeb8f9cfbe2d62dc532c-20261114T190000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261114T190000Z
+DTEND:20261114T210000Z
+SUMMARY:An Afternoon with Laura Singing at Thorn Hill Vineyards
+DESCRIPTION:Join Us for two hours of country heartache and timeless soft ro
+ ck classics\, performed A Capella\, by a local ingenue. Laura is also sing
+ ing at Thorn Hill on these dates: Saturday\, October 17th Saturday\, Novem
+ ber 14th Saturday\, December 12th Other Things To Do in Lancaster\, PA for
+  Adults Art Galleries Distilleries Escape Rooms Breweries Factory Tours In
+ door Things To Do Massage and Spas Outdoor Things To Do Shooting Ranges Th
+ eaters Wineries All Things To Do in Lancaster\n\nPrice: Not supplied by th
+ is calendar\; check event details\n\nSchedule listed: Sat\, Nov 14\, 2026 
+ 02:00 PM EST – Sat\, Nov 14\, 2026 04:00 PM EST\n\nSchedule supplied by 
+ LancasterPA\n\nTimes converted from America/New_York to UTC for calendar c
+ ompatibility.\n\nRegistration: https://lancasterpa.com/events-calendar/lau
+ ra-singing-thorn-hill-vineyards/2026-11-14/\n\nAdding this calendar item d
+ oes not register you. Check the original listing for changes\; imported ev
+ ents do not automatically stay in sync.
+LOCATION:Thorn Hill Vineyard\, 1945 Fruitville Pike\, Lancaster\, PA\, 1760
+ 1
+URL:https://lancasterpa.com/events-calendar/laura-singing-thorn-hill-vineya
+ rds/2026-11-14/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-7a84427948900bb187198a663a27ebfa-20261114T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261114T003000Z
+DTEND:20261114T020000Z
+SUMMARY:Flamenco y Sol: Flamenco at Its Essence
+DESCRIPTION:Flamenco y Sol\, in collaboration with Rebeca Tomas and A Palo 
+ Seco Flamenco Company\, presents an evening of traditional flamenco in its
+  most authentic form\, featuring live music\, improvisation\, and the dyna
+ mic interplay between dancer\, singer\, and guitarist. Rooted in the tabla
+ o tradition\, the performance highlights the raw emotional power of flamen
+ co through cante (song)\, baile (dance)\, and toque (guitar playing). Each
+  moment unfolds organically\, offering audiences a direct and immersive ex
+ perience of this living art form. Through group choreography and solo mome
+ nts\, each artist’s unique voice emerges\, creating a powerful and elect
+ rifying theatrical experience. 6:30 PM • Pre-show flamenco lecture by Dr
+ . Ana Börger-Greco Presented in partnership with the Skrodinsky Family Fo
+ undation.\n\nPrice: Not supplied by this calendar\; check event details\n\
+ nSchedule listed: Fri\, Nov 13\, 2026 07:30 PM EST – Fri\, Nov 13\, 2026
+  09:00 PM EST\n\nSchedule supplied by Visit Lancaster City\n\nTimes conver
+ ted from America/New_York to UTC for calendar compatibility.\n\nRegistrati
+ on: https://calendar.visitlancastercity.com/visitlancastercity/detail/1079
+ /1794616200000\n\nAdding this calendar item does not register you. Check t
+ he original listing for changes\; imported events do not automatically sta
+ y in sync.
+LOCATION:Ware Center for the Arts\,42 North Prince Street\, Lancaster\, PA 
+ 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1079/
+ 1794616200000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

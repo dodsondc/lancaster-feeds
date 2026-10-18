@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-866d34cb62fdc319be79453546e4bcdb-20261231T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261231T003000Z
+DTEND:20261231T033000Z
+SUMMARY:Annie
+DESCRIPTION:Based on the popular comic strip by Harold Gray\, Annie has bec
+ ome a worldwide phenomenon and was the winner of seven Tony Awards\, inclu
+ ding Best Musical. The beloved book and score by Tony Award winners\, Thom
+ as Meehan\, Charles Strouse and Martin Charnin\, features some of the grea
+ test musical theatre hits ever written\, including “Tomorrow.”\n\nPric
+ e: Not supplied by this calendar\; check event details\n\nSchedule listed:
+  Wed\, Dec 30\, 2026 07:30 PM EST – Wed\, Dec 30\, 2026 10:30 PM EST\n\n
+ Schedule supplied by Visit Lancaster City\n\nTimes converted from America/
+ New_York to UTC for calendar compatibility.\n\nRegistration: https://calen
+ dar.visitlancastercity.com/visitlancastercity/detail/843/1798677000000\n\n
+ Adding this calendar item does not register you. Check the original listin
+ g for changes\; imported events do not automatically stay in sync.
+LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
+ A
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/843/1
+ 798677000000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

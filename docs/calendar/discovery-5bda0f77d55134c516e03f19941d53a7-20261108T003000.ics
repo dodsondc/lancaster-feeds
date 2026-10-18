@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-5bda0f77d55134c516e03f19941d53a7-20261108T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261108T003000Z
+DTEND:20261108T020000Z
+SUMMARY:Heartland Marimba Jukebox Night with Friends
+DESCRIPTION:Join the electrifying artists of Heartland Marimba and their fa
+ bulous guest performers as they fill the evening with the zippy and melodi
+ ous sounds of marimbas and xylophones! The music will span decades\, incor
+ porating modern pop inspirations\, early 1900s ragtime and dance music\, A
+ rgentine tango\, and impressive grooves in between.\n\nPrice: Not supplied
+  by this calendar\; check event details\n\nSchedule listed: Sat\, Nov 07\,
+  2026 07:30 PM EST – Sat\, Nov 07\, 2026 09:00 PM EST\n\nSchedule suppli
+ ed by Visit Lancaster City\n\nTimes converted from America/New_York to UTC
+  for calendar compatibility.\n\nRegistration: https://calendar.visitlancas
+ tercity.com/visitlancastercity/detail/1076/1794097800000\n\nAdding this ca
+ lendar item does not register you. Check the original listing for changes\
+ ; imported events do not automatically stay in sync.
+LOCATION:Ware Center for the Arts\,42 North Prince Street\, Lancaster\, PA 
+ 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1076/
+ 1794097800000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

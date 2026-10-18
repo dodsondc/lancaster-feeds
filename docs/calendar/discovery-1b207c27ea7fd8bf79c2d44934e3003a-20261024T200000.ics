@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-1b207c27ea7fd8bf79c2d44934e3003a-20261024T200000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261024T200000Z
+DTEND:20261024T230000Z
+SUMMARY:Live Music with Steven Courtney Band at Cherry Crest Adventure Farm
+DESCRIPTION:Check out our amazing lineup of musicians that will be performi
+ ng live right here at the farm! Join us on select Friday evenings and Satu
+ rdays for toe-tapping tunes from our favorite bands. Steven Courtney Band 
+ is an American heartland folk-rock band from Manheim\, PA\, fronted by sin
+ ger/songwriter/producer Steven Courtney. Across 30+ years of writing\, per
+ forming\, and recording\, Courtney has delivered a steady stream of roots\
+ , folk\, rock\, and blues—becoming a beloved public figure and respected
+  musician throughout Central Pennsylvania and beyond. Additional Fun Thing
+ s To Do in Lancaster? Kids’ Attractions Family Attractions Amish Attract
+ ions Things To Do for Adults Historical & Educational Indoor Things To Do 
+ Theater\, Music\, & The Arts Mud Sales Events Calendar Take a look at many
+  more Things To Do throughout Lancaster County!\n\nPrice: Not supplied by 
+ this calendar\; check event details\n\nSchedule listed: Sat\, Oct 24\, 202
+ 6 04:00 PM EDT – Sat\, Oct 24\, 2026 07:00 PM EDT\n\nSchedule supplied b
+ y LancasterPA\n\nTimes converted from America/New_York to UTC for calendar
+  compatibility.\n\nRegistration: https://lancasterpa.com/events-calendar/c
+ herry-crest-live-music-steven-courtney-band/\n\nAdding this calendar item 
+ does not register you. Check the original listing for changes\; imported e
+ vents do not automatically stay in sync.
+LOCATION:Cherry Crest Adventure Farm\, 150 Cherry Hill Road\, Ronks\, PA\, 
+ 17572
+URL:https://lancasterpa.com/events-calendar/cherry-crest-live-music-steven-
+ courtney-band/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-95d0eeb2cc9ef204f910e912fb254ab7-20261107T160000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261107T160000Z
+DTEND:20261107T180000Z
+SUMMARY:African American Heritage Walking Tour Downtown Lancaster
+DESCRIPTION:This tour is focused on the Underground Railroad and includes f
+ our authenticated Underground Railroad sites. Because the Underground Rail
+ road was by necessity secret\, uncovering the details of its existence has
+  required a great deal of detective work. This tour includes the latest re
+ search and recent discoveries which further reveal the rich fabric of Afri
+ can American history in Lancaster before and after the Civil War.\n\nPrice
+ : Not supplied by this calendar\; check event details\n\nSchedule listed: 
+ Sat\, Nov 07\, 2026 11:00 AM EST – Sat\, Nov 07\, 2026 01:00 PM EST\n\nS
+ chedule supplied by Visit Lancaster City\n\nTimes converted from America/N
+ ew_York to UTC for calendar compatibility.\n\nRegistration: https://calend
+ ar.visitlancastercity.com/visitlancastercity/detail/620/1794067200000\n\nA
+ dding this calendar item does not register you. Check the original listing
+  for changes\; imported events do not automatically stay in sync.
+LOCATION:Lancaster Marriott at Penn Square\, 25 South Queen Street\, Lancas
+ ter\, PA\, 17602\, United States
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/620/1
+ 794067200000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

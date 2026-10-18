@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-756e9351113abef3cab72bc704bb37fc-20261127T220000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261127T220000Z
+DTEND:20261128T010000Z
+SUMMARY:Mayor Tree Lighting Lancaster City
+DESCRIPTION:Help us kick off the holiday season! Revel in the magic of the 
+ season as the Mayor’s Tree Lighting returns! Delight in the enchantment 
+ of the tree lighting\, the arrival of Santa\, and savor the captivating li
+ ve entertainment of this festive occasion. Plus\, Central Market will be o
+ pen late! Santa’s Arrival Escorted by the Lancaster City Bureau of Fire\
+ , Santa Claus himself will arrive in Lancaster City on the back of a fire 
+ truck. Tree Lighting Join the Mayor in counting down the time-honored trad
+ ition of lighting a Christmas tree in Penn Square with a community sing-al
+ ong. Festive Music Experience the joy of the season with live performances
+  and a DJ dance party playing all the holiday hits. Plus\, more surprises 
+ are in store! Celebrate the Season: Christmas in Lancaster County All Chri
+ stmas Events Christmas on Stage Christmas Meals Christmas Visit Santa Chri
+ stmas Tours Christmas Tree Lightings Christmas Light Displays New Years Ev
+ ents New Years Meals\n\nPrice: Not supplied by this calendar\; check event
+  details\n\nSchedule listed: Fri\, Nov 27\, 2026 05:00 PM EST – Fri\, No
+ v 27\, 2026 08:00 PM EST\n\nSchedule supplied by LancasterPA\n\nTimes conv
+ erted from America/New_York to UTC for calendar compatibility.\n\nRegistra
+ tion: https://lancasterpa.com/events-calendar/mayor-tree-lighting/\n\nAddi
+ ng this calendar item does not register you. Check the original listing fo
+ r changes\; imported events do not automatically stay in sync.
+LOCATION:Lancaster Penn Square\, 38 Penn Square\, Lancaster\, PA\, 17603
+URL:https://lancasterpa.com/events-calendar/mayor-tree-lighting/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-4450bebfd8cad7bb830ff6465220dde7-20261018T180000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261018T180000Z
+DTEND:20261018T213000Z
+SUMMARY:Ragtime the Musical
+DESCRIPTION:A sweeping musical adaptation of E.L. Doctorow’s novel that f
+ ollows three fictional families in pursuit of the American Dream at the da
+ wn of the 20th Century: Black pianist Coalhouse Walker\, Jr. and his belov
+ ed Sarah\, Jewish immigrant Tateh and his little girl\, and a wealthy whit
+ e family led by matriarch Mother. All grasping for the same dream\, if onl
+ y they can hold on to it.\n\nPrice: Not supplied by this calendar\; check 
+ event details\n\nSchedule listed: Sun\, Oct 18\, 2026 02:00 PM EDT – Sun
+ \, Oct 18\, 2026 05:30 PM EDT\n\nSchedule supplied by Visit Lancaster City
+ \n\nTimes converted from America/New_York to UTC for calendar compatibilit
+ y.\n\nRegistration: https://calendar.visitlancastercity.com/visitlancaster
+ city/detail/794/1792346400000\n\nAdding this calendar item does not regist
+ er you. Check the original listing for changes\; imported events do not au
+ tomatically stay in sync.
+LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
+ A
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/794/1
+ 792346400000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

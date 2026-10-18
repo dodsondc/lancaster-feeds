@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-29549f2bca2c8bb482a45f297e6bf722-20261119T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261119T003000Z
+DTEND:20261119T033000Z
+SUMMARY:Annie Community Preview Night
+DESCRIPTION:Community Preview Nights include a pre-show reception and an op
+ portunity to connect with Lancaster vendors\, businesses\, and organizatio
+ ns. Based on the popular comic strip by Harold Gray\, Annie has become a w
+ orldwide phenomenon and was the winner of seven Tony Awards\, including Be
+ st Musical. The beloved book and score by Tony Award winners\, Thomas Meeh
+ an\, Charles Strouse and Martin Charnin\, features some of the greatest mu
+ sical theatre hits ever written\, including “Tomorrow.”\n\nPrice: Not 
+ supplied by this calendar\; check event details\n\nSchedule listed: Wed\, 
+ Nov 18\, 2026 07:30 PM EST – Wed\, Nov 18\, 2026 10:30 PM EST\n\nSchedul
+ e supplied by Visit Lancaster City\n\nTimes converted from America/New_Yor
+ k to UTC for calendar compatibility.\n\nRegistration: https://calendar.vis
+ itlancastercity.com/visitlancastercity/detail/796/1795048200000\n\nAdding 
+ this calendar item does not register you. Check the original listing for c
+ hanges\; imported events do not automatically stay in sync.
+LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
+ A
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/796/1
+ 795048200000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

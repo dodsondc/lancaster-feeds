@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-68bb3e4551f68e3a502893397f343a62-20261107T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261107T150000Z
+DTEND:20261107T200000Z
+SUMMARY:The Foolbright Scholars' Play Lab with Angie Foster
+DESCRIPTION:How can we liberate ourselves from the "shoulds" and "should no
+ ts" that can constrain our natural capacity to be authentic\, playful and 
+ creative? We'll explore through movement\, games\, and improvisation\, and
+  use the clown's ability to take risks and put logic aside to make way for
+  the imagination. What is important is not "getting it right" but rather f
+ inding the magic of being surprised by what reveals itself when all else f
+ alls away. No experience required\, only a willingness to play. We encoura
+ ge the beginner-est of beginners! For more information and to register: ac
+ tsofjennius.com/event-list\n\nPrice: Not supplied by this calendar\; check
+  event details\n\nSchedule listed: Sat\, Nov 07\, 2026 10:00 AM EST – Sa
+ t\, Nov 07\, 2026 03:00 PM EST\n\nSchedule supplied by Visit Lancaster Cit
+ y\n\nTimes converted from America/New_York to UTC for calendar compatibili
+ ty.\n\nRegistration: https://calendar.visitlancastercity.com/visitlancaste
+ rcity/detail/703/1794063600000\n\nAdding this calendar item does not regis
+ ter you. Check the original listing for changes\; imported events do not a
+ utomatically stay in sync.
+LOCATION:Tenfold\,308 East King Street\, Lancaster\, PA 17602\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/703/1
+ 794063600000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

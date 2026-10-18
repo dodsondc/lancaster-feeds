@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-f637359af6f2921835c9bfeccfc3fdf0-20261121T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261121T003000Z
+DTEND:20261121T033000Z
+SUMMARY:Annie Opening Night
+DESCRIPTION:Celebrate Opening Night with us! Based on the popular comic str
+ ip by Harold Gray\, Annie has become a worldwide phenomenon and was the wi
+ nner of seven Tony Awards\, including Best Musical. The beloved book and s
+ core by Tony Award winners\, Thomas Meehan\, Charles Strouse and Martin Ch
+ arnin\, features some of the greatest musical theatre hits ever written\, 
+ including “Tomorrow.”\n\nPrice: Not supplied by this calendar\; check 
+ event details\n\nSchedule listed: Fri\, Nov 20\, 2026 07:30 PM EST – Fri
+ \, Nov 20\, 2026 10:30 PM EST\n\nSchedule supplied by Visit Lancaster City
+ \n\nTimes converted from America/New_York to UTC for calendar compatibilit
+ y.\n\nRegistration: https://calendar.visitlancastercity.com/visitlancaster
+ city/detail/798/1795221000000\n\nAdding this calendar item does not regist
+ er you. Check the original listing for changes\; imported events do not au
+ tomatically stay in sync.
+LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
+ A
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/798/1
+ 795221000000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

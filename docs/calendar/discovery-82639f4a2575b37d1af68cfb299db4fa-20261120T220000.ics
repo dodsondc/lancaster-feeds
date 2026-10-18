@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-82639f4a2575b37d1af68cfb299db4fa-20261120T220000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261120T220000Z
+DTEND:20261121T010000Z
+SUMMARY:ExtraGive Junior
+DESCRIPTION:Why should adults have all the fun during the ExtraGive? Help u
+ s celebrate the Lancaster County Community Foundation's annual Extraordina
+ ry Give with a fun event designed for kids of all ages! Our young guests w
+ ill experience a variety of free entertainment and creative table activiti
+ es developed just for them by community benefit organizations\, including:
+  • Church World Service • Imani Edu-tainers • Lancaster Shakespeare 
+ Theatre • Lone Oak Animal Assisted Therapeutic Services • Music for Ev
+ eryone • New School Montessori • Pennsylvania Dutch Council\, Scouting
+  America • SWAN • Touchstone Foundation ...and more! Plus\, a puppetry
+  workshop from the performers of Grand Pistachio (including a sneak peek a
+ t their show Layer the Walls) at 6:30 pm! Immerse your kids in the joy of 
+ giving back! This is a free event\, and all are welcome.\n\nPrice: Not sup
+ plied by this calendar\; check event details\n\nSchedule listed: Fri\, Nov
+  20\, 2026 05:00 PM EST – Fri\, Nov 20\, 2026 08:00 PM EST\n\nSchedule s
+ upplied by Visit Lancaster City\n\nTimes converted from America/New_York t
+ o UTC for calendar compatibility.\n\nRegistration: https://calendar.visitl
+ ancastercity.com/visitlancastercity/detail/1081/1795212000000\n\nAdding th
+ is calendar item does not register you. Check the original listing for cha
+ nges\; imported events do not automatically stay in sync.
+LOCATION:Ware Center for the Arts\,42 North Prince Street\, Lancaster\, PA 
+ 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1081/
+ 1795212000000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

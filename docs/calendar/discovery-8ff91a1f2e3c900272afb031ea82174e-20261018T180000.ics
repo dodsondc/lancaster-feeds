@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-8ff91a1f2e3c900272afb031ea82174e-20261018T180000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261018T180000Z
+DTEND:20261018T200000Z
+SUMMARY:Sandeep Das: Raga\, Rhythm\, & Rasa
+DESCRIPTION:Experience the healing power of music with Grammy-winning Tabla
+  maestro and Guggenheim Fellow Sandeep Das. This intimate chamber music co
+ ncert explores the emotional sentiments of Indian Classical Music known as
+  the Navarasa. Fully relax onstage on a cushion or comfortable chair\, or 
+ in our spaced-out auditorium seating\, as you immerse yourself in the mesm
+ erizing dialogue of exotic instruments\, intricate compositions\, expressi
+ ve phrasing\, spontaneous improvisations\, and joyful folk melodies. Adult
+ s $25 | Students $17\n\nPrice: Not supplied by this calendar\; check event
+  details\n\nSchedule listed: Sun\, Oct 18\, 2026 02:00 PM EDT – Sun\, Oc
+ t 18\, 2026 04:00 PM EDT\n\nSchedule supplied by Visit Lancaster City\n\nT
+ imes converted from America/New_York to UTC for calendar compatibility.\n\
+ nRegistration: https://calendar.visitlancastercity.com/visitlancastercity/
+ detail/1022/1792346400000\n\nAdding this calendar item does not register y
+ ou. Check the original listing for changes\; imported events do not automa
+ tically stay in sync.
+LOCATION:Ware Center for the Arts\,42 North Prince Street\, Lancaster\, PA 
+ 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1022/
+ 1792346400000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-212c3d8704acecbaea618d493dd0f2c9-20261106T230000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261106T230000Z
+DTEND:20261107T020000Z
+SUMMARY:Live Music at South County
+DESCRIPTION:Join us every first & third Friday here at South County Brewing
+  Co. for Live Music featuring local artists. Warmer weather months shows w
+ ill be held in The SC Park Bar.\n\nPrice: Not supplied by this calendar\; 
+ check event details\n\nSchedule listed: Fri\, Nov 06\, 2026 06:00 PM EST 
+ – Fri\, Nov 06\, 2026 09:00 PM EST\n\nSchedule supplied by Visit Lancast
+ er City\n\nTimes converted from America/New_York to UTC for calendar compa
+ tibility.\n\nRegistration: https://calendar.visitlancastercity.com/visitla
+ ncastercity/detail/619/1794006000000\n\nAdding this calendar item does not
+  register you. Check the original listing for changes\; imported events do
+  not automatically stay in sync.
+LOCATION:South County Brewing Co.\, 26 W King St\, Lancaster\, 17603\, Unit
+ ed States
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/619/1
+ 794006000000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

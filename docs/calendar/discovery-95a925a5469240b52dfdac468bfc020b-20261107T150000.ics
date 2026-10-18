@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-95a925a5469240b52dfdac468bfc020b-20261107T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261107T150000Z
+DTEND:20261107T210000Z
+SUMMARY:2026 Fall Fest\, Supporting North Museum & Millport Conservancy
+DESCRIPTION:Thank you to all who came out for Fall Fest this year. North Mu
+ seum and Millport Conservancy are grateful for your contribution to STEM e
+ ducation and environmental conservation in 2026! Fall Fest is an ongoing c
+ ollaboration between two outstanding non-profits and is a fundraising even
+ t to support both STEM education programming at North Museum\, and Millpor
+ t Conservancy’s efforts to restore the Lititz Run through soil erosion c
+ ontrol and stream management. VENUE Millport Conservancy 737 E Millport Rd
+ \, Lititz\, PA 17543\n\nPrice: Not supplied by this calendar\; check event
+  details\n\nSchedule listed: Sat\, Nov 07\, 2026 10:00 AM EST – Sat\, No
+ v 07\, 2026 04:00 PM EST\n\nSchedule supplied by LancasterPA\n\nTimes conv
+ erted from America/New_York to UTC for calendar compatibility.\n\nRegistra
+ tion: https://lancasterpa.com/events-calendar/fall-fest-north-museum/\n\nA
+ dding this calendar item does not register you. Check the original listing
+  for changes\; imported events do not automatically stay in sync.
+LOCATION:North Museum of Nature and Science\, 400 College Avenue\, Lancaste
+ r\, PA\, 17603
+URL:https://lancasterpa.com/events-calendar/fall-fest-north-museum/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

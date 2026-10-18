@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-678a97a73e88d987b84b48a4da2dd331-20261118T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20261118T000000Z
+DTEND:20261118T030000Z
+SUMMARY:Disposable Humanity
+DESCRIPTION:Join us at the Ware Center for a free screening of the film Dis
+ posable Humanity—plus a community discussion panel and a Q&A with the fi
+ lmmakers. The Mitchell family—esteemed Disability Studies scholars and f
+ ilmmakers—delve into the chilling legacy of the Nazi Aktion T4 program. 
+ This investigative documentary recounts the long-obscured history of how o
+ ver 300\,000 disabled individuals became the initial victims of the Third 
+ Reich. Targeted by the T4 program as having a “life unworthy of living\,
+ ” their murders laid the groundwork for the Holocaust that followed. 6:1
+ 5 PM • Pre-show community panel discussion Post-show • Q&A with direct
+ or Cameron S. Mitchell Co-presented by the MU Disability Film Festival and
+  Congregation Shaarai Shomayim.\n\nPrice: Not supplied by this calendar\; 
+ check event details\n\nSchedule listed: Tue\, Nov 17\, 2026 07:00 PM EST 
+ – Tue\, Nov 17\, 2026 10:00 PM EST\n\nSchedule supplied by Visit Lancast
+ er City\n\nTimes converted from America/New_York to UTC for calendar compa
+ tibility.\n\nRegistration: https://calendar.visitlancastercity.com/visitla
+ ncastercity/detail/1080/1794960000000\n\nAdding this calendar item does no
+ t register you. Check the original listing for changes\; imported events d
+ o not automatically stay in sync.
+LOCATION:Ware Center for the Arts\,42 North Prince Street\, Lancaster\, PA 
+ 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1080/
+ 1794960000000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

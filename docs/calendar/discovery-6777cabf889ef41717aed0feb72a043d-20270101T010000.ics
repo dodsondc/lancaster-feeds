@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-6777cabf889ef41717aed0feb72a043d-20270101T010000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261018T171704Z
+LAST-MODIFIED:20261018T171704Z
+SEQUENCE:0
+DTSTART:20270101T010000Z
+DTEND:20270101T050000Z
+SUMMARY:New Year’s Eve at Penn Medicine Park
+DESCRIPTION:Ring in the New Year the Lancaster City way! Join the City of L
+ ancaster and the Lancaster Stormers for a vibrant family friendly New Year
+ ’s Eve celebration filled with music\, delicious food\, and festive ente
+ rtainment including the iconic Red Rose Drop. The event culminates with a 
+ dazzling fireworks display\, lighting up the sky as the community rings in
+  the new year together. Celebrate the Season: Christmas in Lancaster Count
+ y All Christmas Events Christmas on Stage Christmas Meals Christmas Visit 
+ Santa Christmas Tours Christmas Tree Lightings Christmas Light Displays Ne
+ w Years Events New Years Meals\n\nPrice: Not supplied by this calendar\; c
+ heck event details\n\nSchedule listed: Thu\, Dec 31\, 2026 08:00 PM EST 
+ – Fri\, Jan 01\, 2027 12:00 AM EST\n\nSchedule supplied by LancasterPA\n
+ \nTimes converted from America/New_York to UTC for calendar compatibility.
+ \n\nRegistration: https://lancasterpa.com/events-calendar/new-years-eve-pe
+ nn-medicine-park/\n\nAdding this calendar item does not register you. Chec
+ k the original listing for changes\; imported events do not automatically 
+ stay in sync.
+LOCATION:Penn Medicine Park\, 650 North Prince Street\, Lancaster\, PA\, 17
+ 603
+URL:https://lancasterpa.com/events-calendar/new-years-eve-penn-medicine-par
+ k/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
