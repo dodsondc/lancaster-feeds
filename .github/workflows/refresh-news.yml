@@ -52,6 +52,7 @@ jobs:
           Rscript tests/test-meetings.R
           Rscript tests/test-conservancy.R
           Rscript tests/test-discoveries.R
+          Rscript tests/test-libraries.R
       - name: Collect sources and build RSS
         id: collect
         env:
