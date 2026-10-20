@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-c55360c1383fa11b0d8b6d19f88fcdb2-20270114T150000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261019T172914Z
-LAST-MODIFIED:20261019T172914Z
-SEQUENCE:1
+DTSTAMP:20261020T154041Z
+LAST-MODIFIED:20261020T154041Z
+SEQUENCE:2
 DTSTART:20270114T150000Z
 DTEND:20270114T163000Z
 SUMMARY:Thursday Book Group
@@ -20,15 +20,16 @@ DESCRIPTION:A book club for people who want to read (or re-read) the classi
  lizabeth Bowen May 13: Bel-Ami by Guy de Maupassant June 10: Blood Meridia
  n by Cormac McCarthy July 8: Blindness by Jose Saramago August 12: The Kin
  gdom and the Power by Gay Talese September 9: The Quiet American by Graham
-  Greene October 14: A Tale of Two Cities by Charles Dickens November 11: T
- he Song of the Lark by Willa Cather December 9: Jayber Crow by Wendell Ber
- ry\n\nPrice: Free\n\nSchedule listed: Thu\, Jan 14\, 2027 10:00 AM EST –
-  Thu\, Jan 14\, 2027 11:30 AM EST\n\nSchedule supplied by Lancaster Librar
- ies\n\nTimes converted from America/New_York to UTC for calendar compatibi
- lity.\n\nRegistration: https://calendar.lancasterlibraries.org/event/thurs
- day-book-group-208553\n\nAdding this calendar item does not register you. 
- Check the original listing for changes\; imported events do not automatica
- lly stay in sync.
+  Greene October 14: A Tale of Two Cities by Charles Dickens November 18*: 
+ The Song of the Lark by Willa Cather December 9: Jayber Crow by Wendell Be
+ rry *Meeting a week later due to LPL's closure on Thursday\, November 11.\
+ n\nPrice: Free\n\nSchedule listed: Thu\, Jan 14\, 2027 10:00 AM EST – Th
+ u\, Jan 14\, 2027 11:30 AM EST\n\nSchedule supplied by Lancaster Libraries
+ \n\nTimes converted from America/New_York to UTC for calendar compatibilit
+ y.\n\nRegistration: https://calendar.lancasterlibraries.org/event/thursday
+ -book-group-208553\n\nAdding this calendar item does not register you. Che
+ ck the original listing for changes\; imported events do not automatically
+  stay in sync.
 LOCATION:Lancaster Library\, LPL Board Room\, 151 North Queen Street\, Lanc
  aster\, PA\, 17603
 URL:https://calendar.lancasterlibraries.org/event/thursday-book-group-20855
