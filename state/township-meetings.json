@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked": 1792546501.25249,
+  "last_checked": 1792598261.4109,
   "items": {
     "Board of Supervisors|2026-10-12|Agenda|https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
       "id": "Board of Supervisors|2026-10-12|Agenda|https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
@@ -581,6 +581,16 @@
       "page_url": "https://www.twp.lancaster.pa.us/government/agendas___minutes/traffic_committee_agendas_and_minutes.php",
       "row_label": "\r 10/12/26\r Traffic Committee\r",
       "first_seen": 1792266080.02034
+    },
+    "Planning Commission|2026-09-15|Minutes|https://www.twp.lancaster.pa.us/9-15-26%20LTPC%20Minutes.pdf": {
+      "id": "Planning Commission|2026-09-15|Minutes|https://www.twp.lancaster.pa.us/9-15-26%20LTPC%20Minutes.pdf",
+      "entity": "Planning Commission",
+      "meeting_date": "2026-09-15",
+      "type": "Minutes",
+      "url": "https://www.twp.lancaster.pa.us/9-15-26%20LTPC%20Minutes.pdf?t=202610210933070",
+      "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/planning_commission/agendas___minutes.php",
+      "row_label": "\r 09/15/26\r Planning Commission Meeting\r",
+      "first_seen": 1792598261.4109
     }
   }
 }
