@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked": 1792510841.69308,
+  "last_checked": 1792546505.82536,
   "items": {
     "discovery-d7d3d348c930d55eef132c86a246e5a6": {
       "source": "Visit Lancaster City",
@@ -5811,15 +5811,15 @@
     },
     "discovery-12bcf5eede31fd334d674d4288836fdf": {
       "source": "Lancaster Libraries",
-      "source_id": "154633",
+      "source_id": "154634",
       "series": "https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster",
       "title": "Adult Coloring Program",
       "description": "Get in touch with your inner child at LPL’s Adult Coloring Program 🖍 All are welcome to pop in the library for some laid-back adult coloring! Supplies will be provided including ornate coloring pages and a stress-free environment.",
       "categories": "Arts & Crafts",
-      "url": "https://calendar.lancasterlibraries.org/event/adult-coloring-program-154633",
+      "url": "https://calendar.lancasterlibraries.org/event/adult-coloring-program-154634",
       "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
       "price": "Not supplied by this calendar; check event details",
-      "start": 1792512000,
+      "start": 1794934800,
       "end": 1797364800,
       "all_day": false,
       "status": "CONFIRMED",
@@ -5837,33 +5837,8 @@
       "member_keys": [
         "Lancaster Libraries|https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster"
       ],
-      "kind": "Engagements",
+      "kind": "Events",
       "occurrences": [
-        {
-          "source": "Lancaster Libraries",
-          "source_id": "154633",
-          "series": "https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster",
-          "title": "Adult Coloring Program",
-          "description": "Get in touch with your inner child at LPL’s Adult Coloring Program 🖍 All are welcome to pop in the library for some laid-back adult coloring! Supplies will be provided including ornate coloring pages and a stress-free environment.",
-          "categories": "Arts & Crafts",
-          "url": "https://calendar.lancasterlibraries.org/event/adult-coloring-program-154633",
-          "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
-          "price": "Not supplied by this calendar; check event details",
-          "start": 1792512000,
-          "end": 1792522800,
-          "all_day": false,
-          "status": "CONFIRMED",
-          "age_groups": [
-            "Adults",
-            "Seniors"
-          ],
-          "program_types": [
-            "Arts & Crafts"
-          ],
-          "branch": "Lancaster",
-          "interest": "Library topic: Arts",
-          "venue_key": "lancaster library"
-        },
         {
           "source": "Lancaster Libraries",
           "source_id": "154634",
@@ -5918,10 +5893,6 @@
       "sources": [
         {
           "name": "Lancaster Libraries",
-          "url": "https://calendar.lancasterlibraries.org/event/adult-coloring-program-154633"
-        },
-        {
-          "name": "Lancaster Libraries",
           "url": "https://calendar.lancasterlibraries.org/event/adult-coloring-program-154634"
         },
         {
@@ -5930,21 +5901,21 @@
         }
       ],
       "first_seen": 1792346050.36616,
-      "updated_at": 1792346050.36616,
-      "sequence": 0,
-      "signature": "{\"title\":\"Adult Coloring Program\",\"description\":\"Get in touch with your inner child at LPL’s Adult Coloring Program 🖍 All are welcome to pop in the library for some laid-back adult coloring! Supplies will be provided including ornate coloring pages and a stress-free environment.\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"154633\",\"series\":\"https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster\",\"title\":\"Adult Coloring Program\",\"description\":\"Get in touch with your inner child at LPL’s Adult Coloring Program 🖍 All are welcome to pop in the library for some laid-back adult coloring! Supplies will be provided including ornate coloring pages and a stress-free environment.\",\"categories\":\"Arts & Crafts\",\"url\":\"https://calendar.lancasterlibraries.org/event/adult-coloring-program-154633\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1792512000,\"end\":1792522800,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Arts\",\"venue_key\":\"lancaster library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"154634\",\"series\":\"https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster\",\"title\":\"Adult Coloring Program\",\"description\":\"Get in touch with your inner child at LPL’s Adult Coloring Program 🖍 All are welcome to pop in the library for some laid-back adult coloring! Supplies will be provided including ornate coloring pages and a stress-free environment.\",\"categories\":\"Arts & Crafts\",\"url\":\"https://calendar.lancasterlibraries.org/event/adult-coloring-program-154634\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1794934800,\"end\":1794945600,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Arts\",\"venue_key\":\"lancaster library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"154635\",\"series\":\"https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster\",\"title\":\"Adult Coloring Program\",\"description\":\"Get in touch with your inner child at LPL’s Adult Coloring Program 🖍 All are welcome to pop in the library for some laid-back adult coloring! Supplies will be provided including ornate coloring pages and a stress-free environment.\",\"categories\":\"Arts & Crafts\",\"url\":\"https://calendar.lancasterlibraries.org/event/adult-coloring-program-154635\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1797354000,\"end\":1797364800,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Arts\",\"venue_key\":\"lancaster library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/adult-coloring-program-154633\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/adult-coloring-program-154634\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/adult-coloring-program-154635\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
+      "updated_at": 1792546505.82536,
+      "sequence": 1,
+      "signature": "{\"title\":\"Adult Coloring Program\",\"description\":\"Get in touch with your inner child at LPL’s Adult Coloring Program 🖍 All are welcome to pop in the library for some laid-back adult coloring! Supplies will be provided including ornate coloring pages and a stress-free environment.\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"154634\",\"series\":\"https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster\",\"title\":\"Adult Coloring Program\",\"description\":\"Get in touch with your inner child at LPL’s Adult Coloring Program 🖍 All are welcome to pop in the library for some laid-back adult coloring! Supplies will be provided including ornate coloring pages and a stress-free environment.\",\"categories\":\"Arts & Crafts\",\"url\":\"https://calendar.lancasterlibraries.org/event/adult-coloring-program-154634\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1794934800,\"end\":1794945600,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Arts\",\"venue_key\":\"lancaster library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"154635\",\"series\":\"https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster\",\"title\":\"Adult Coloring Program\",\"description\":\"Get in touch with your inner child at LPL’s Adult Coloring Program 🖍 All are welcome to pop in the library for some laid-back adult coloring! Supplies will be provided including ornate coloring pages and a stress-free environment.\",\"categories\":\"Arts & Crafts\",\"url\":\"https://calendar.lancasterlibraries.org/event/adult-coloring-program-154635\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1797354000,\"end\":1797364800,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Arts\",\"venue_key\":\"lancaster library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/adult-coloring-program-154634\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/adult-coloring-program-154635\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
     },
     "discovery-1e5553781e29756cfbb84a35b053b3e6": {
       "source": "Lancaster Libraries",
-      "source_id": "198028",
+      "source_id": "198029",
       "series": "https://calendar.lancasterlibraries.org/series/coterie-book-club-manheim-township",
       "title": "Coterie Book Club",
       "description": "Join us for engaging discussions and a shared love of reading! The Coterie Book Club gathers monthly to explore a diverse range of titles, from historical fiction to gripping true crime. Whether you’re a lifelong reader or looking to get back into the habit, all are welcome. Coterie Book Club meets the third Tuesday of each month from 1-2pm Registration is encouraged September: Daughter of Egypt by Marie Benedict October: The Lion Women of Tehran by Marjan Kamali November: An American Girl by Richard Fellinger January: Theo of Golden by Allen Levi February: The Measure by Nikki Erlick March: The Correspondent by Virginia Evans April: The Beast in the Clouds by Nathalia Holt May: The Lies They Told by Ellen Marie Wiseman",
       "categories": "Book Club",
-      "url": "https://calendar.lancasterlibraries.org/event/coterie-book-club-198028",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "url": "https://calendar.lancasterlibraries.org/event/coterie-book-club-198029",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
       "price": "Free",
-      "start": 1792515600,
+      "start": 1794938400,
       "end": 1794942000,
       "all_day": false,
       "status": "CONFIRMED",
@@ -5964,31 +5935,6 @@
       ],
       "kind": "Events",
       "occurrences": [
-        {
-          "source": "Lancaster Libraries",
-          "source_id": "198028",
-          "series": "https://calendar.lancasterlibraries.org/series/coterie-book-club-manheim-township",
-          "title": "Coterie Book Club",
-          "description": "Join us for engaging discussions and a shared love of reading! The Coterie Book Club gathers monthly to explore a diverse range of titles, from historical fiction to gripping true crime. Whether you’re a lifelong reader or looking to get back into the habit, all are welcome. Coterie Book Club meets the third Tuesday of each month from 1-2pm Registration is encouraged September: Daughter of Egypt by Marie Benedict October: The Lion Women of Tehran by Marjan Kamali November: An American Girl by Richard Fellinger January: Theo of Golden by Allen Levi February: The Measure by Nikki Erlick March: The Correspondent by Virginia Evans April: The Beast in the Clouds by Nathalia Holt May: The Lies They Told by Ellen Marie Wiseman",
-          "categories": "Book Club",
-          "url": "https://calendar.lancasterlibraries.org/event/coterie-book-club-198028",
-          "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-          "price": "Free",
-          "start": 1792515600,
-          "end": 1792519200,
-          "all_day": false,
-          "status": "CONFIRMED",
-          "age_groups": [
-            "Adults",
-            "Seniors"
-          ],
-          "program_types": [
-            "Book Club"
-          ],
-          "branch": "Manheim Township",
-          "interest": "Library topic: History",
-          "venue_key": "manheim township library"
-        },
         {
           "source": "Lancaster Libraries",
           "source_id": "198029",
@@ -6018,29 +5964,25 @@
       "sources": [
         {
           "name": "Lancaster Libraries",
-          "url": "https://calendar.lancasterlibraries.org/event/coterie-book-club-198028"
-        },
-        {
-          "name": "Lancaster Libraries",
           "url": "https://calendar.lancasterlibraries.org/event/coterie-book-club-198029"
         }
       ],
       "first_seen": 1792346050.36616,
-      "updated_at": 1792346050.36616,
-      "sequence": 0,
-      "signature": "{\"title\":\"Coterie Book Club\",\"description\":\"Join us for engaging discussions and a shared love of reading! The Coterie Book Club gathers monthly to explore a diverse range of titles, from historical fiction to gripping true crime. Whether you’re a lifelong reader or looking to get back into the habit, all are welcome. Coterie Book Club meets the third Tuesday of each month from 1-2pm Registration is encouraged September: Daughter of Egypt by Marie Benedict October: The Lion Women of Tehran by Marjan Kamali November: An American Girl by Richard Fellinger January: Theo of Golden by Allen Levi February: The Measure by Nikki Erlick March: The Correspondent by Virginia Evans April: The Beast in the Clouds by Nathalia Holt May: The Lies They Told by Ellen Marie Wiseman\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"198028\",\"series\":\"https://calendar.lancasterlibraries.org/series/coterie-book-club-manheim-township\",\"title\":\"Coterie Book Club\",\"description\":\"Join us for engaging discussions and a shared love of reading! The Coterie Book Club gathers monthly to explore a diverse range of titles, from historical fiction to gripping true crime. Whether you’re a lifelong reader or looking to get back into the habit, all are welcome. Coterie Book Club meets the third Tuesday of each month from 1-2pm Registration is encouraged September: Daughter of Egypt by Marie Benedict October: The Lion Women of Tehran by Marjan Kamali November: An American Girl by Richard Fellinger January: Theo of Golden by Allen Levi February: The Measure by Nikki Erlick March: The Correspondent by Virginia Evans April: The Beast in the Clouds by Nathalia Holt May: The Lies They Told by Ellen Marie Wiseman\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/coterie-book-club-198028\",\"location\":\"Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1792515600,\"end\":1792519200,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"198029\",\"series\":\"https://calendar.lancasterlibraries.org/series/coterie-book-club-manheim-township\",\"title\":\"Coterie Book Club\",\"description\":\"Join us for engaging discussions and a shared love of reading! The Coterie Book Club gathers monthly to explore a diverse range of titles, from historical fiction to gripping true crime. Whether you’re a lifelong reader or looking to get back into the habit, all are welcome. Coterie Book Club meets the third Tuesday of each month from 1-2pm Registration is encouraged September: Daughter of Egypt by Marie Benedict October: The Lion Women of Tehran by Marjan Kamali November: An American Girl by Richard Fellinger January: Theo of Golden by Allen Levi February: The Measure by Nikki Erlick March: The Correspondent by Virginia Evans April: The Beast in the Clouds by Nathalia Holt May: The Lies They Told by Ellen Marie Wiseman\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/coterie-book-club-198029\",\"location\":\"Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1794938400,\"end\":1794942000,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/coterie-book-club-198028\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/coterie-book-club-198029\"}],\"price\":\"Free\"}"
+      "updated_at": 1792546505.82536,
+      "sequence": 1,
+      "signature": "{\"title\":\"Coterie Book Club\",\"description\":\"Join us for engaging discussions and a shared love of reading! The Coterie Book Club gathers monthly to explore a diverse range of titles, from historical fiction to gripping true crime. Whether you’re a lifelong reader or looking to get back into the habit, all are welcome. Coterie Book Club meets the third Tuesday of each month from 1-2pm Registration is encouraged September: Daughter of Egypt by Marie Benedict October: The Lion Women of Tehran by Marjan Kamali November: An American Girl by Richard Fellinger January: Theo of Golden by Allen Levi February: The Measure by Nikki Erlick March: The Correspondent by Virginia Evans April: The Beast in the Clouds by Nathalia Holt May: The Lies They Told by Ellen Marie Wiseman\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"198029\",\"series\":\"https://calendar.lancasterlibraries.org/series/coterie-book-club-manheim-township\",\"title\":\"Coterie Book Club\",\"description\":\"Join us for engaging discussions and a shared love of reading! The Coterie Book Club gathers monthly to explore a diverse range of titles, from historical fiction to gripping true crime. Whether you’re a lifelong reader or looking to get back into the habit, all are welcome. Coterie Book Club meets the third Tuesday of each month from 1-2pm Registration is encouraged September: Daughter of Egypt by Marie Benedict October: The Lion Women of Tehran by Marjan Kamali November: An American Girl by Richard Fellinger January: Theo of Golden by Allen Levi February: The Measure by Nikki Erlick March: The Correspondent by Virginia Evans April: The Beast in the Clouds by Nathalia Holt May: The Lies They Told by Ellen Marie Wiseman\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/coterie-book-club-198029\",\"location\":\"Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1794938400,\"end\":1794942000,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/coterie-book-club-198029\"}],\"price\":\"Free\"}"
     },
     "discovery-b361270f87f35388541985453b2b9c56": {
       "source": "Lancaster Libraries",
-      "source_id": "194311",
+      "source_id": "194312",
       "series": "https://calendar.lancasterlibraries.org/series/tuesday-matinee-halloween-classics-manheim-township",
       "title": "Tuesday Matinee: Halloween Classics",
       "description": "Take a break and get cozy at the library! Join us every Tuesday afternoon at 1pm for a seasonally spooky movie on the big screen Oct 6: The Haunting (1963) Oct 13: Beetlejuice Oct 20: Addams Family Oct 27: Ghostbusters Registration is not required!",
       "categories": "Movie & Film",
-      "url": "https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194311",
+      "url": "https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194312",
       "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
       "price": "Free",
-      "start": 1792515600,
+      "start": 1793120400,
       "end": 1793128500,
       "all_day": false,
       "status": "CONFIRMED",
@@ -6060,31 +6002,6 @@
       ],
       "kind": "Events",
       "occurrences": [
-        {
-          "source": "Lancaster Libraries",
-          "source_id": "194311",
-          "series": "https://calendar.lancasterlibraries.org/series/tuesday-matinee-halloween-classics-manheim-township",
-          "title": "Tuesday Matinee: Halloween Classics",
-          "description": "Take a break and get cozy at the library! Join us every Tuesday afternoon at 1pm for a seasonally spooky movie on the big screen Oct 6: The Haunting (1963) Oct 13: Beetlejuice Oct 20: Addams Family Oct 27: Ghostbusters Registration is not required!",
-          "categories": "Movie & Film",
-          "url": "https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194311",
-          "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
-          "price": "Free",
-          "start": 1792515600,
-          "end": 1792523700,
-          "all_day": false,
-          "status": "CONFIRMED",
-          "age_groups": [
-            "Adults",
-            "Seniors"
-          ],
-          "program_types": [
-            "Movie & Film"
-          ],
-          "branch": "Manheim Township",
-          "interest": "Library program: Movie & Film",
-          "venue_key": "manheim township library"
-        },
         {
           "source": "Lancaster Libraries",
           "source_id": "194312",
@@ -6114,29 +6031,25 @@
       "sources": [
         {
           "name": "Lancaster Libraries",
-          "url": "https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194311"
-        },
-        {
-          "name": "Lancaster Libraries",
           "url": "https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194312"
         }
       ],
       "first_seen": 1792346050.36616,
-      "updated_at": 1792346050.36616,
-      "sequence": 0,
-      "signature": "{\"title\":\"Tuesday Matinee: Halloween Classics\",\"description\":\"Take a break and get cozy at the library! Join us every Tuesday afternoon at 1pm for a seasonally spooky movie on the big screen Oct 6: The Haunting (1963) Oct 13: Beetlejuice Oct 20: Addams Family Oct 27: Ghostbusters Registration is not required!\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"194311\",\"series\":\"https://calendar.lancasterlibraries.org/series/tuesday-matinee-halloween-classics-manheim-township\",\"title\":\"Tuesday Matinee: Halloween Classics\",\"description\":\"Take a break and get cozy at the library! Join us every Tuesday afternoon at 1pm for a seasonally spooky movie on the big screen Oct 6: The Haunting (1963) Oct 13: Beetlejuice Oct 20: Addams Family Oct 27: Ghostbusters Registration is not required!\",\"categories\":\"Movie & Film\",\"url\":\"https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194311\",\"location\":\"Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1792515600,\"end\":1792523700,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Movie & Film\"],\"branch\":\"Manheim Township\",\"interest\":\"Library program: Movie & Film\",\"venue_key\":\"manheim township library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"194312\",\"series\":\"https://calendar.lancasterlibraries.org/series/tuesday-matinee-halloween-classics-manheim-township\",\"title\":\"Tuesday Matinee: Halloween Classics\",\"description\":\"Take a break and get cozy at the library! Join us every Tuesday afternoon at 1pm for a seasonally spooky movie on the big screen Oct 6: The Haunting (1963) Oct 13: Beetlejuice Oct 20: Addams Family Oct 27: Ghostbusters Registration is not required!\",\"categories\":\"Movie & Film\",\"url\":\"https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194312\",\"location\":\"Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1793120400,\"end\":1793128500,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Movie & Film\"],\"branch\":\"Manheim Township\",\"interest\":\"Library program: Movie & Film\",\"venue_key\":\"manheim township library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194311\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194312\"}],\"price\":\"Free\"}"
+      "updated_at": 1792546505.82536,
+      "sequence": 1,
+      "signature": "{\"title\":\"Tuesday Matinee: Halloween Classics\",\"description\":\"Take a break and get cozy at the library! Join us every Tuesday afternoon at 1pm for a seasonally spooky movie on the big screen Oct 6: The Haunting (1963) Oct 13: Beetlejuice Oct 20: Addams Family Oct 27: Ghostbusters Registration is not required!\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"194312\",\"series\":\"https://calendar.lancasterlibraries.org/series/tuesday-matinee-halloween-classics-manheim-township\",\"title\":\"Tuesday Matinee: Halloween Classics\",\"description\":\"Take a break and get cozy at the library! Join us every Tuesday afternoon at 1pm for a seasonally spooky movie on the big screen Oct 6: The Haunting (1963) Oct 13: Beetlejuice Oct 20: Addams Family Oct 27: Ghostbusters Registration is not required!\",\"categories\":\"Movie & Film\",\"url\":\"https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194312\",\"location\":\"Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1793120400,\"end\":1793128500,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Movie & Film\"],\"branch\":\"Manheim Township\",\"interest\":\"Library program: Movie & Film\",\"venue_key\":\"manheim township library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194312\"}],\"price\":\"Free\"}"
     },
     "discovery-f50ad8b6bb75f535a2beae7fe736ab01": {
       "source": "Lancaster Libraries",
-      "source_id": "203079",
+      "source_id": "203080",
       "series": "https://calendar.lancasterlibraries.org/series/chills-thrills-and-that-spooky-stuff-horror-of-the-early-60s-with-kevin-stairiker-manheim-township",
       "title": "Chills, Thrills and that Spooky Stuff: Horror of the Early '60s with Kevin Stairiker!",
       "description": "What keeps you up at night? 🌙 Horror movies have been trying to crack that spooky code for over a century! Styles may change, but a classic jump-scare can still creep out a fresh generation of moviegoers. 🎬 This October, test your brave side with us! 🎃 Every Tuesday night starting at 6pm, we’re screening legendary fright flicks that have given movie lovers the wiggles, the willies, and full-blown goosebumps for decades. 🍿 Hosted by Kevin Stairiker (LNP | LancasterOnline), each evening packs in creepy cinema, post-movie chats, light snacks, and maximum eerie vibes. 🕷️ Bring your courage (and a friend to hide behind)! 👀✨ October 5th: City of the Dead, 1960, 78 minutes October 20th: Black Sabbath, 1963, 93 minutes October 28th: The Innocents, 1961, 100 minutes Registration is encouraged!",
       "categories": "Discussion, Movie & Film",
-      "url": "https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203079",
+      "url": "https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203080",
       "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
       "price": "Free",
-      "start": 1792535400,
+      "start": 1793226600,
       "end": 1793232000,
       "all_day": false,
       "status": "CONFIRMED",
@@ -6157,32 +6070,6 @@
       ],
       "kind": "Events",
       "occurrences": [
-        {
-          "source": "Lancaster Libraries",
-          "source_id": "203079",
-          "series": "https://calendar.lancasterlibraries.org/series/chills-thrills-and-that-spooky-stuff-horror-of-the-early-60s-with-kevin-stairiker-manheim-township",
-          "title": "Chills, Thrills and that Spooky Stuff: Horror of the Early '60s with Kevin Stairiker!",
-          "description": "What keeps you up at night? 🌙 Horror movies have been trying to crack that spooky code for over a century! Styles may change, but a classic jump-scare can still creep out a fresh generation of moviegoers. 🎬 This October, test your brave side with us! 🎃 Every Tuesday night starting at 6pm, we’re screening legendary fright flicks that have given movie lovers the wiggles, the willies, and full-blown goosebumps for decades. 🍿 Hosted by Kevin Stairiker (LNP | LancasterOnline), each evening packs in creepy cinema, post-movie chats, light snacks, and maximum eerie vibes. 🕷️ Bring your courage (and a friend to hide behind)! 👀✨ October 5th: City of the Dead, 1960, 78 minutes October 20th: Black Sabbath, 1963, 93 minutes October 28th: The Innocents, 1961, 100 minutes Registration is encouraged!",
-          "categories": "Discussion, Movie & Film",
-          "url": "https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203079",
-          "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
-          "price": "Free",
-          "start": 1792535400,
-          "end": 1792540800,
-          "all_day": false,
-          "status": "CONFIRMED",
-          "age_groups": [
-            "Adults",
-            "Seniors"
-          ],
-          "program_types": [
-            "Discussion",
-            "Movie & Film"
-          ],
-          "branch": "Manheim Township",
-          "interest": "Library program: Movie & Film",
-          "venue_key": "manheim township library"
-        },
         {
           "source": "Lancaster Libraries",
           "source_id": "203080",
@@ -6213,17 +6100,13 @@
       "sources": [
         {
           "name": "Lancaster Libraries",
-          "url": "https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203079"
-        },
-        {
-          "name": "Lancaster Libraries",
           "url": "https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203080"
         }
       ],
       "first_seen": 1792346050.36616,
-      "updated_at": 1792346050.36616,
-      "sequence": 0,
-      "signature": "{\"title\":\"Chills, Thrills and that Spooky Stuff: Horror of the Early '60s with Kevin Stairiker!\",\"description\":\"What keeps you up at night? 🌙 Horror movies have been trying to crack that spooky code for over a century! Styles may change, but a classic jump-scare can still creep out a fresh generation of moviegoers. 🎬 This October, test your brave side with us! 🎃 Every Tuesday night starting at 6pm, we’re screening legendary fright flicks that have given movie lovers the wiggles, the willies, and full-blown goosebumps for decades. 🍿 Hosted by Kevin Stairiker (LNP | LancasterOnline), each evening packs in creepy cinema, post-movie chats, light snacks, and maximum eerie vibes. 🕷️ Bring your courage (and a friend to hide behind)! 👀✨ October 5th: City of the Dead, 1960, 78 minutes October 20th: Black Sabbath, 1963, 93 minutes October 28th: The Innocents, 1961, 100 minutes Registration is encouraged!\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"203079\",\"series\":\"https://calendar.lancasterlibraries.org/series/chills-thrills-and-that-spooky-stuff-horror-of-the-early-60s-with-kevin-stairiker-manheim-township\",\"title\":\"Chills, Thrills and that Spooky Stuff: Horror of the Early '60s with Kevin Stairiker!\",\"description\":\"What keeps you up at night? 🌙 Horror movies have been trying to crack that spooky code for over a century! Styles may change, but a classic jump-scare can still creep out a fresh generation of moviegoers. 🎬 This October, test your brave side with us! 🎃 Every Tuesday night starting at 6pm, we’re screening legendary fright flicks that have given movie lovers the wiggles, the willies, and full-blown goosebumps for decades. 🍿 Hosted by Kevin Stairiker (LNP | LancasterOnline), each evening packs in creepy cinema, post-movie chats, light snacks, and maximum eerie vibes. 🕷️ Bring your courage (and a friend to hide behind)! 👀✨ October 5th: City of the Dead, 1960, 78 minutes October 20th: Black Sabbath, 1963, 93 minutes October 28th: The Innocents, 1961, 100 minutes Registration is encouraged!\",\"categories\":\"Discussion, Movie & Film\",\"url\":\"https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203079\",\"location\":\"Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1792535400,\"end\":1792540800,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Discussion\",\"Movie & Film\"],\"branch\":\"Manheim Township\",\"interest\":\"Library program: Movie & Film\",\"venue_key\":\"manheim township library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"203080\",\"series\":\"https://calendar.lancasterlibraries.org/series/chills-thrills-and-that-spooky-stuff-horror-of-the-early-60s-with-kevin-stairiker-manheim-township\",\"title\":\"Chills, Thrills and that Spooky Stuff: Horror of the Early '60s with Kevin Stairiker!\",\"description\":\"What keeps you up at night? 🌙 Horror movies have been trying to crack that spooky code for over a century! Styles may change, but a classic jump-scare can still creep out a fresh generation of moviegoers. 🎬 This October, test your brave side with us! 🎃 Every Tuesday night starting at 6pm, we’re screening legendary fright flicks that have given movie lovers the wiggles, the willies, and full-blown goosebumps for decades. 🍿 Hosted by Kevin Stairiker (LNP | LancasterOnline), each evening packs in creepy cinema, post-movie chats, light snacks, and maximum eerie vibes. 🕷️ Bring your courage (and a friend to hide behind)! 👀✨ October 5th: City of the Dead, 1960, 78 minutes October 20th: Black Sabbath, 1963, 93 minutes October 28th: The Innocents, 1961, 100 minutes Registration is encouraged!\",\"categories\":\"Discussion, Movie & Film\",\"url\":\"https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203080\",\"location\":\"Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1793226600,\"end\":1793232000,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Discussion\",\"Movie & Film\"],\"branch\":\"Manheim Township\",\"interest\":\"Library program: Movie & Film\",\"venue_key\":\"manheim township library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203079\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203080\"}],\"price\":\"Free\"}"
+      "updated_at": 1792546505.82536,
+      "sequence": 1,
+      "signature": "{\"title\":\"Chills, Thrills and that Spooky Stuff: Horror of the Early '60s with Kevin Stairiker!\",\"description\":\"What keeps you up at night? 🌙 Horror movies have been trying to crack that spooky code for over a century! Styles may change, but a classic jump-scare can still creep out a fresh generation of moviegoers. 🎬 This October, test your brave side with us! 🎃 Every Tuesday night starting at 6pm, we’re screening legendary fright flicks that have given movie lovers the wiggles, the willies, and full-blown goosebumps for decades. 🍿 Hosted by Kevin Stairiker (LNP | LancasterOnline), each evening packs in creepy cinema, post-movie chats, light snacks, and maximum eerie vibes. 🕷️ Bring your courage (and a friend to hide behind)! 👀✨ October 5th: City of the Dead, 1960, 78 minutes October 20th: Black Sabbath, 1963, 93 minutes October 28th: The Innocents, 1961, 100 minutes Registration is encouraged!\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"203080\",\"series\":\"https://calendar.lancasterlibraries.org/series/chills-thrills-and-that-spooky-stuff-horror-of-the-early-60s-with-kevin-stairiker-manheim-township\",\"title\":\"Chills, Thrills and that Spooky Stuff: Horror of the Early '60s with Kevin Stairiker!\",\"description\":\"What keeps you up at night? 🌙 Horror movies have been trying to crack that spooky code for over a century! Styles may change, but a classic jump-scare can still creep out a fresh generation of moviegoers. 🎬 This October, test your brave side with us! 🎃 Every Tuesday night starting at 6pm, we’re screening legendary fright flicks that have given movie lovers the wiggles, the willies, and full-blown goosebumps for decades. 🍿 Hosted by Kevin Stairiker (LNP | LancasterOnline), each evening packs in creepy cinema, post-movie chats, light snacks, and maximum eerie vibes. 🕷️ Bring your courage (and a friend to hide behind)! 👀✨ October 5th: City of the Dead, 1960, 78 minutes October 20th: Black Sabbath, 1963, 93 minutes October 28th: The Innocents, 1961, 100 minutes Registration is encouraged!\",\"categories\":\"Discussion, Movie & Film\",\"url\":\"https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203080\",\"location\":\"Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1793226600,\"end\":1793232000,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Discussion\",\"Movie & Film\"],\"branch\":\"Manheim Township\",\"interest\":\"Library program: Movie & Film\",\"venue_key\":\"manheim township library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203080\"}],\"price\":\"Free\"}"
     },
     "discovery-a99aefc9876e00db4af545394ab351b5": {
       "source": "Lancaster Libraries",
