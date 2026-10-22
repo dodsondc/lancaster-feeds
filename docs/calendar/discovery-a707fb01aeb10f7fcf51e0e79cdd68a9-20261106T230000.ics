@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-a707fb01aeb10f7fcf51e0e79cdd68a9-20261106T230000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261022T013059Z
+LAST-MODIFIED:20261022T013059Z
+SEQUENCE:0
+DTSTART:20261106T230000Z
+DTEND:20261107T000000Z
+SUMMARY:Covenant Chocolate Chip Cookie Concert
+DESCRIPTION:Covenant will host Midst the Noise on first Friday in November.
+  Midst the Noise is a 5-piece semi-acoustic band local to the Lancaster\, 
+ PA area. Music styles include everything from 60s Motown to modern rock an
+ d pop. Join us for a free concert\, free parking and free chocolate chip c
+ ookies. Local artist on display are Sandy Leonard and Joanne McIlvaney.\n\
+ nPrice: Not supplied by this calendar\; check event details\n\nSchedule li
+ sted: Fri\, Nov 06\, 2026 06:00 PM EST – Fri\, Nov 06\, 2026 07:00 PM ES
+ T\n\nSchedule supplied by Visit Lancaster City\n\nTimes converted from Ame
+ rica/New_York to UTC for calendar compatibility.\n\nRegistration: https://
+ calendar.visitlancastercity.com/visitlancastercity/detail/1094/17940060000
+ 00\n\nAdding this calendar item does not register you. Check the original 
+ listing for changes\; imported events do not automatically stay in sync.
+LOCATION:Covenant UMC\,305 W Orange St
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1094/
+ 1794006000000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

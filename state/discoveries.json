@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked": 1792598268.64549,
+  "last_checked": 1792632659.31598,
   "items": {
     "discovery-d7d3d348c930d55eef132c86a246e5a6": {
       "source": "Visit Lancaster City",
@@ -6206,15 +6206,15 @@
     },
     "discovery-da38552aeae679f9c26e2182051771ba": {
       "source": "Lancaster Libraries",
-      "source_id": "153031",
+      "source_id": "153032",
       "series": "https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster",
       "title": "Bad Art Club",
       "description": "Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards",
       "categories": "Arts & Crafts",
-      "url": "https://calendar.lancasterlibraries.org/event/bad-art-club-153031",
+      "url": "https://calendar.lancasterlibraries.org/event/bad-art-club-153032",
       "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
       "price": "Free",
-      "start": 1792620000,
+      "start": 1795042800,
       "end": 1795050000,
       "all_day": false,
       "status": "CONFIRMED",
@@ -6234,31 +6234,6 @@
       ],
       "kind": "Events",
       "occurrences": [
-        {
-          "source": "Lancaster Libraries",
-          "source_id": "153031",
-          "series": "https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster",
-          "title": "Bad Art Club",
-          "description": "Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards",
-          "categories": "Arts & Crafts",
-          "url": "https://calendar.lancasterlibraries.org/event/bad-art-club-153031",
-          "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
-          "price": "Free",
-          "start": 1792620000,
-          "end": 1792627200,
-          "all_day": false,
-          "status": "CONFIRMED",
-          "age_groups": [
-            "Adults",
-            "Seniors"
-          ],
-          "program_types": [
-            "Arts & Crafts"
-          ],
-          "branch": "Lancaster",
-          "interest": "Library topic: Environment, Arts",
-          "venue_key": "lancaster library"
-        },
         {
           "source": "Lancaster Libraries",
           "source_id": "153032",
@@ -6288,17 +6263,13 @@
       "sources": [
         {
           "name": "Lancaster Libraries",
-          "url": "https://calendar.lancasterlibraries.org/event/bad-art-club-153031"
-        },
-        {
-          "name": "Lancaster Libraries",
           "url": "https://calendar.lancasterlibraries.org/event/bad-art-club-153032"
         }
       ],
       "first_seen": 1792346050.36616,
-      "updated_at": 1792346050.36616,
-      "sequence": 0,
-      "signature": "{\"title\":\"Bad Art Club\",\"description\":\"Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"153031\",\"series\":\"https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster\",\"title\":\"Bad Art Club\",\"description\":\"Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards\",\"categories\":\"Arts & Crafts\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-153031\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Free\",\"start\":1792620000,\"end\":1792627200,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Environment, Arts\",\"venue_key\":\"lancaster library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"153032\",\"series\":\"https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster\",\"title\":\"Bad Art Club\",\"description\":\"Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards\",\"categories\":\"Arts & Crafts\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-153032\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Free\",\"start\":1795042800,\"end\":1795050000,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Environment, Arts\",\"venue_key\":\"lancaster library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-153031\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-153032\"}],\"price\":\"Free\"}"
+      "updated_at": 1792632659.31598,
+      "sequence": 1,
+      "signature": "{\"title\":\"Bad Art Club\",\"description\":\"Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"153032\",\"series\":\"https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster\",\"title\":\"Bad Art Club\",\"description\":\"Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards\",\"categories\":\"Arts & Crafts\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-153032\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Free\",\"start\":1795042800,\"end\":1795050000,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Environment, Arts\",\"venue_key\":\"lancaster library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-153032\"}],\"price\":\"Free\"}"
     },
     "discovery-53fc2fe1049f57b417cf7123027ff051": {
       "source": "Lancaster Libraries",
@@ -8333,6 +8304,108 @@
       "updated_at": 1792346050.36616,
       "sequence": 0,
       "signature": "{\"title\":\"Envisioning 2027\",\"description\":\"Start the new year off right with Envisioning 2027. Join us at the library and create an inspiring and cute vision board for your new year. Vision boards help us picture our goals, feel motivated and focused throughout the year, and are simply a joy to create. Ages 18+ Walk-ins welcome\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"204690\",\"series\":\"https://calendar.lancasterlibraries.org/series/envisioning-2027-lancaster\",\"title\":\"Envisioning 2027\",\"description\":\"Start the new year off right with Envisioning 2027. Join us at the library and create an inspiring and cute vision board for your new year. Vision boards help us picture our goals, feel motivated and focused throughout the year, and are simply a joy to create. Ages 18+ Walk-ins welcome\",\"categories\":\"Arts & Crafts, Community\",\"url\":\"https://calendar.lancasterlibraries.org/event/envisioning-2027-204690\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Free\",\"start\":1799521200,\"end\":1799528400,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\",\"Community\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Arts\",\"venue_key\":\"lancaster library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/envisioning-2027-204690\"}],\"price\":\"Free\"}"
+    },
+    "discovery-a707fb01aeb10f7fcf51e0e79cdd68a9": {
+      "source": "Visit Lancaster City",
+      "source_id": "TKF/6a345ad0afff871fa5d6af75/1094/29900100/0/0",
+      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1094",
+      "title": "Covenant Chocolate Chip Cookie Concert",
+      "description": "Covenant will host Midst the Noise on first Friday in November. Midst the Noise is a 5-piece semi-acoustic band local to the Lancaster, PA area. Music styles include everything from 60s Motown to modern rock and pop. Join us for a free concert, free parking and free chocolate chip cookies. Local artist on display are Sandy Leonard and Joanne McIlvaney.",
+      "categories": "",
+      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1094/1794006000000",
+      "location": "Covenant UMC,305 W Orange St",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1794006000,
+      "end": 1794009600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "interest": "Title/category: Concerts",
+      "venue_key": "covenant umc",
+      "id": "discovery-a707fb01aeb10f7fcf51e0e79cdd68a9",
+      "member_keys": [
+        "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/1094"
+      ],
+      "kind": "Events",
+      "occurrences": [
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1094/29900100/0/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1094",
+          "title": "Covenant Chocolate Chip Cookie Concert",
+          "description": "Covenant will host Midst the Noise on first Friday in November. Midst the Noise is a 5-piece semi-acoustic band local to the Lancaster, PA area. Music styles include everything from 60s Motown to modern rock and pop. Join us for a free concert, free parking and free chocolate chip cookies. Local artist on display are Sandy Leonard and Joanne McIlvaney.",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1094/1794006000000",
+          "location": "Covenant UMC,305 W Orange St",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1794006000,
+          "end": 1794009600,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "Title/category: Concerts",
+          "venue_key": "covenant umc"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1094/1794006000000"
+        }
+      ],
+      "first_seen": 1792632659.31598,
+      "updated_at": 1792632659.31598,
+      "sequence": 0,
+      "signature": "{\"title\":\"Covenant Chocolate Chip Cookie Concert\",\"description\":\"Covenant will host Midst the Noise on first Friday in November. Midst the Noise is a 5-piece semi-acoustic band local to the Lancaster, PA area. Music styles include everything from 60s Motown to modern rock and pop. Join us for a free concert, free parking and free chocolate chip cookies. Local artist on display are Sandy Leonard and Joanne McIlvaney.\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1094/29900100/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1094\",\"title\":\"Covenant Chocolate Chip Cookie Concert\",\"description\":\"Covenant will host Midst the Noise on first Friday in November. Midst the Noise is a 5-piece semi-acoustic band local to the Lancaster, PA area. Music styles include everything from 60s Motown to modern rock and pop. Join us for a free concert, free parking and free chocolate chip cookies. Local artist on display are Sandy Leonard and Joanne McIlvaney.\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1094/1794006000000\",\"location\":\"Covenant UMC,305 W Orange St\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1794006000,\"end\":1794009600,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Concerts\",\"venue_key\":\"covenant umc\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1094/1794006000000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
+    },
+    "discovery-4cbca0703fe9ea4878ba9ed0d2149e9f": {
+      "source": "Visit Lancaster City",
+      "source_id": "TKF/6a345ad0afff871fa5d6af75/1095/29910240/0/0",
+      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1095",
+      "title": "An Introduction to Poetry (For those who don’t like poetry)",
+      "description": "Caroline Covington will give us a jump start on appreciating poems. Even those who already love poetry will “literally” enjoy an inspiring evening of ideas, tea, and finger foods. Ms. Covington (nee Nixon) is a Lancaster native, now living on Maryland's Eastern Shore. As an undergraduate she studied nursing, Bible, and music, and in graduate school, history. Along with a keen interest in the intellectual history of the Church Caroline also was introduced to the power of poetry during extended visits to English L'Abri, a residential study center in southern England. She currently fills her days gardening, knitting, cooking, talking on the phone with family and friends, and working alongside her husband, Will, caring for their 1790s home. And enjoying poetry, of course.",
+      "categories": "",
+      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1095/1794614400000",
+      "location": "The Square Halo Gallery,37 North Market Street, Lancaster, PA 17603, USA",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1794614400,
+      "end": 1794619800,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "interest": "Title/category: Arts",
+      "venue_key": "the square halo gallery",
+      "id": "discovery-4cbca0703fe9ea4878ba9ed0d2149e9f",
+      "member_keys": [
+        "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/1095"
+      ],
+      "kind": "Events",
+      "occurrences": [
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1095/29910240/0/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1095",
+          "title": "An Introduction to Poetry (For those who don’t like poetry)",
+          "description": "Caroline Covington will give us a jump start on appreciating poems. Even those who already love poetry will “literally” enjoy an inspiring evening of ideas, tea, and finger foods. Ms. Covington (nee Nixon) is a Lancaster native, now living on Maryland's Eastern Shore. As an undergraduate she studied nursing, Bible, and music, and in graduate school, history. Along with a keen interest in the intellectual history of the Church Caroline also was introduced to the power of poetry during extended visits to English L'Abri, a residential study center in southern England. She currently fills her days gardening, knitting, cooking, talking on the phone with family and friends, and working alongside her husband, Will, caring for their 1790s home. And enjoying poetry, of course.",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1095/1794614400000",
+          "location": "The Square Halo Gallery,37 North Market Street, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1794614400,
+          "end": 1794619800,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "Title/category: Arts",
+          "venue_key": "the square halo gallery"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1095/1794614400000"
+        }
+      ],
+      "first_seen": 1792632659.31598,
+      "updated_at": 1792632659.31598,
+      "sequence": 0,
+      "signature": "{\"title\":\"An Introduction to Poetry (For those who don’t like poetry)\",\"description\":\"Caroline Covington will give us a jump start on appreciating poems. Even those who already love poetry will “literally” enjoy an inspiring evening of ideas, tea, and finger foods. Ms. Covington (nee Nixon) is a Lancaster native, now living on Maryland's Eastern Shore. As an undergraduate she studied nursing, Bible, and music, and in graduate school, history. Along with a keen interest in the intellectual history of the Church Caroline also was introduced to the power of poetry during extended visits to English L'Abri, a residential study center in southern England. She currently fills her days gardening, knitting, cooking, talking on the phone with family and friends, and working alongside her husband, Will, caring for their 1790s home. And enjoying poetry, of course.\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1095/29910240/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1095\",\"title\":\"An Introduction to Poetry (For those who don’t like poetry)\",\"description\":\"Caroline Covington will give us a jump start on appreciating poems. Even those who already love poetry will “literally” enjoy an inspiring evening of ideas, tea, and finger foods. Ms. Covington (nee Nixon) is a Lancaster native, now living on Maryland's Eastern Shore. As an undergraduate she studied nursing, Bible, and music, and in graduate school, history. Along with a keen interest in the intellectual history of the Church Caroline also was introduced to the power of poetry during extended visits to English L'Abri, a residential study center in southern England. She currently fills her days gardening, knitting, cooking, talking on the phone with family and friends, and working alongside her husband, Will, caring for their 1790s home. And enjoying poetry, of course.\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1095/1794614400000\",\"location\":\"The Square Halo Gallery,37 North Market Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1794614400,\"end\":1794619800,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"the square halo gallery\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1095/1794614400000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
     }
   }
 }

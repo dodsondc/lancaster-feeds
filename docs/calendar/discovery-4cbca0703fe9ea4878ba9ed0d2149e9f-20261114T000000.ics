@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-4cbca0703fe9ea4878ba9ed0d2149e9f-20261114T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261022T013059Z
+LAST-MODIFIED:20261022T013059Z
+SEQUENCE:0
+DTSTART:20261114T000000Z
+DTEND:20261114T013000Z
+SUMMARY:An Introduction to Poetry (For those who don’t like poetry)
+DESCRIPTION:Caroline Covington will give us a jump start on appreciating po
+ ems. Even those who already love poetry will “literally” enjoy an insp
+ iring evening of ideas\, tea\, and finger foods. Ms. Covington (nee Nixon)
+  is a Lancaster native\, now living on Maryland's Eastern Shore. As an und
+ ergraduate she studied nursing\, Bible\, and music\, and in graduate schoo
+ l\, history. Along with a keen interest in the intellectual history of the
+  Church Caroline also was introduced to the power of poetry during extende
+ d visits to English L'Abri\, a residential study center in southern Englan
+ d. She currently fills her days gardening\, knitting\, cooking\, talking o
+ n the phone with family and friends\, and working alongside her husband\, 
+ Will\, caring for their 1790s home. And enjoying poetry\, of course.\n\nPr
+ ice: Not supplied by this calendar\; check event details\n\nSchedule liste
+ d: Fri\, Nov 13\, 2026 07:00 PM EST – Fri\, Nov 13\, 2026 08:30 PM EST\n
+ \nSchedule supplied by Visit Lancaster City\n\nTimes converted from Americ
+ a/New_York to UTC for calendar compatibility.\n\nRegistration: https://cal
+ endar.visitlancastercity.com/visitlancastercity/detail/1095/1794614400000\
+ n\nAdding this calendar item does not register you. Check the original lis
+ ting for changes\; imported events do not automatically stay in sync.
+LOCATION:The Square Halo Gallery\,37 North Market Street\, Lancaster\, PA 1
+ 7603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1095/
+ 1794614400000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
