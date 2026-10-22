@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked": 1792632659.31598,
+  "last_checked": 1792684430.92389,
   "items": {
     "discovery-d7d3d348c930d55eef132c86a246e5a6": {
       "source": "Visit Lancaster City",
@@ -6215,7 +6215,7 @@
       "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
       "price": "Free",
       "start": 1795042800,
-      "end": 1795050000,
+      "end": 1800493200,
       "all_day": false,
       "status": "CONFIRMED",
       "age_groups": [
@@ -6226,7 +6226,7 @@
         "Arts & Crafts"
       ],
       "branch": "Lancaster",
-      "interest": "Library topic: Environment, Arts",
+      "interest": "Library topic: Environment, Arts; Library topic: Arts",
       "venue_key": "lancaster library",
       "id": "discovery-da38552aeae679f9c26e2182051771ba",
       "member_keys": [
@@ -6258,18 +6258,47 @@
           "branch": "Lancaster",
           "interest": "Library topic: Environment, Arts",
           "venue_key": "lancaster library"
+        },
+        {
+          "source": "Lancaster Libraries",
+          "source_id": "185535",
+          "series": "https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster",
+          "title": "Bad Art Club",
+          "description": "Give yourself permission to play, make mistakes, have fun, and just make bad art. Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil, Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: Vision Bingo Cards",
+          "categories": "Arts & Crafts",
+          "url": "https://calendar.lancasterlibraries.org/event/bad-art-club-185535",
+          "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
+          "price": "Free",
+          "start": 1800486000,
+          "end": 1800493200,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "age_groups": [
+            "Adults",
+            "Seniors"
+          ],
+          "program_types": [
+            "Arts & Crafts"
+          ],
+          "branch": "Lancaster",
+          "interest": "Library topic: Arts",
+          "venue_key": "lancaster library"
         }
       ],
       "sources": [
         {
           "name": "Lancaster Libraries",
           "url": "https://calendar.lancasterlibraries.org/event/bad-art-club-153032"
+        },
+        {
+          "name": "Lancaster Libraries",
+          "url": "https://calendar.lancasterlibraries.org/event/bad-art-club-185535"
         }
       ],
       "first_seen": 1792346050.36616,
-      "updated_at": 1792632659.31598,
-      "sequence": 1,
-      "signature": "{\"title\":\"Bad Art Club\",\"description\":\"Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"153032\",\"series\":\"https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster\",\"title\":\"Bad Art Club\",\"description\":\"Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards\",\"categories\":\"Arts & Crafts\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-153032\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Free\",\"start\":1795042800,\"end\":1795050000,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Environment, Arts\",\"venue_key\":\"lancaster library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-153032\"}],\"price\":\"Free\"}"
+      "updated_at": 1792684430.92389,
+      "sequence": 2,
+      "signature": "{\"title\":\"Bad Art Club\",\"description\":\"Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"153032\",\"series\":\"https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster\",\"title\":\"Bad Art Club\",\"description\":\"Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards\",\"categories\":\"Arts & Crafts\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-153032\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Free\",\"start\":1795042800,\"end\":1795050000,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Environment, Arts\",\"venue_key\":\"lancaster library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"185535\",\"series\":\"https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster\",\"title\":\"Bad Art Club\",\"description\":\"Give yourself permission to play, make mistakes, have fun, and just make bad art. Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil, Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: Vision Bingo Cards\",\"categories\":\"Arts & Crafts\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-185535\",\"location\":\"Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603\",\"price\":\"Free\",\"start\":1800486000,\"end\":1800493200,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Arts & Crafts\"],\"branch\":\"Lancaster\",\"interest\":\"Library topic: Arts\",\"venue_key\":\"lancaster library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-153032\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/bad-art-club-185535\"}],\"price\":\"Free\"}"
     },
     "discovery-53fc2fe1049f57b417cf7123027ff051": {
       "source": "Lancaster Libraries",
@@ -6349,7 +6378,7 @@
       "categories": "Gaming",
       "url": "https://calendar.lancasterlibraries.org/event/library-after-dark-halloween-trivia-194297",
       "location": "Manheim Township Library, MTP Morgan Center ABC, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
+      "price": "Not supplied by this calendar; check event details",
       "start": 1792707300,
       "end": 1792715400,
       "all_day": false,
@@ -6379,7 +6408,7 @@
           "categories": "Gaming",
           "url": "https://calendar.lancasterlibraries.org/event/library-after-dark-halloween-trivia-194297",
           "location": "Manheim Township Library, MTP Morgan Center ABC, 595 Granite Run Drive,  Lancaster, PA, 17601",
-          "price": "Free",
+          "price": "Not supplied by this calendar; check event details",
           "start": 1792707300,
           "end": 1792715400,
           "all_day": false,
@@ -6403,9 +6432,9 @@
         }
       ],
       "first_seen": 1792346050.36616,
-      "updated_at": 1792346050.36616,
-      "sequence": 0,
-      "signature": "{\"title\":\"Library After Dark: Halloween Trivia\",\"description\":\"Looking for a spook-tacular night out? Join us at the library after hours for a festive evening of adult trivia! Gather a team of up to six to test your knowledge on everything from classic horror literature and iconic spooky movies to haunted history and urban legends. We’ll supply the hot apple cider, seasonal treats, and prizes for the winning team-- plus bonus points if your team wears costumes! 🎃☕ Registration is required per team. Doors open at 6:15pm for an exclusive after-dark library experience you won't want to miss! Please include your team's name in the Special Notes Field when signing up!\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"194297\",\"series\":\"https://calendar.lancasterlibraries.org/series/library-after-dark-halloween-trivia-manheim-township\",\"title\":\"Library After Dark: Halloween Trivia\",\"description\":\"Looking for a spook-tacular night out? Join us at the library after hours for a festive evening of adult trivia! Gather a team of up to six to test your knowledge on everything from classic horror literature and iconic spooky movies to haunted history and urban legends. We’ll supply the hot apple cider, seasonal treats, and prizes for the winning team-- plus bonus points if your team wears costumes! 🎃☕ Registration is required per team. Doors open at 6:15pm for an exclusive after-dark library experience you won't want to miss! Please include your team's name in the Special Notes Field when signing up!\",\"categories\":\"Gaming\",\"url\":\"https://calendar.lancasterlibraries.org/event/library-after-dark-halloween-trivia-194297\",\"location\":\"Manheim Township Library, MTP Morgan Center ABC, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1792707300,\"end\":1792715400,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Gaming\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/library-after-dark-halloween-trivia-194297\"}],\"price\":\"Free\"}"
+      "updated_at": 1792684430.92389,
+      "sequence": 1,
+      "signature": "{\"title\":\"Library After Dark: Halloween Trivia\",\"description\":\"Looking for a spook-tacular night out? Join us at the library after hours for a festive evening of adult trivia! Gather a team of up to six to test your knowledge on everything from classic horror literature and iconic spooky movies to haunted history and urban legends. We’ll supply the hot apple cider, seasonal treats, and prizes for the winning team-- plus bonus points if your team wears costumes! 🎃☕ Registration is required per team. Doors open at 6:15pm for an exclusive after-dark library experience you won't want to miss! Please include your team's name in the Special Notes Field when signing up!\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"194297\",\"series\":\"https://calendar.lancasterlibraries.org/series/library-after-dark-halloween-trivia-manheim-township\",\"title\":\"Library After Dark: Halloween Trivia\",\"description\":\"Looking for a spook-tacular night out? Join us at the library after hours for a festive evening of adult trivia! Gather a team of up to six to test your knowledge on everything from classic horror literature and iconic spooky movies to haunted history and urban legends. We’ll supply the hot apple cider, seasonal treats, and prizes for the winning team-- plus bonus points if your team wears costumes! 🎃☕ Registration is required per team. Doors open at 6:15pm for an exclusive after-dark library experience you won't want to miss! Please include your team's name in the Special Notes Field when signing up!\",\"categories\":\"Gaming\",\"url\":\"https://calendar.lancasterlibraries.org/event/library-after-dark-halloween-trivia-194297\",\"location\":\"Manheim Township Library, MTP Morgan Center ABC, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1792707300,\"end\":1792715400,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Gaming\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/library-after-dark-halloween-trivia-194297\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
     },
     "discovery-776e7cd8e417288ad258723e57589458": {
       "source": "Lancaster Libraries",
@@ -8406,6 +8435,57 @@
       "updated_at": 1792632659.31598,
       "sequence": 0,
       "signature": "{\"title\":\"An Introduction to Poetry (For those who don’t like poetry)\",\"description\":\"Caroline Covington will give us a jump start on appreciating poems. Even those who already love poetry will “literally” enjoy an inspiring evening of ideas, tea, and finger foods. Ms. Covington (nee Nixon) is a Lancaster native, now living on Maryland's Eastern Shore. As an undergraduate she studied nursing, Bible, and music, and in graduate school, history. Along with a keen interest in the intellectual history of the Church Caroline also was introduced to the power of poetry during extended visits to English L'Abri, a residential study center in southern England. She currently fills her days gardening, knitting, cooking, talking on the phone with family and friends, and working alongside her husband, Will, caring for their 1790s home. And enjoying poetry, of course.\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1095/29910240/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1095\",\"title\":\"An Introduction to Poetry (For those who don’t like poetry)\",\"description\":\"Caroline Covington will give us a jump start on appreciating poems. Even those who already love poetry will “literally” enjoy an inspiring evening of ideas, tea, and finger foods. Ms. Covington (nee Nixon) is a Lancaster native, now living on Maryland's Eastern Shore. As an undergraduate she studied nursing, Bible, and music, and in graduate school, history. Along with a keen interest in the intellectual history of the Church Caroline also was introduced to the power of poetry during extended visits to English L'Abri, a residential study center in southern England. She currently fills her days gardening, knitting, cooking, talking on the phone with family and friends, and working alongside her husband, Will, caring for their 1790s home. And enjoying poetry, of course.\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1095/1794614400000\",\"location\":\"The Square Halo Gallery,37 North Market Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1794614400,\"end\":1794619800,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"the square halo gallery\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1095/1794614400000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
+    },
+    "discovery-ddd319ad1e6f9f5c3562cc1ecb12b2e2": {
+      "source": "Visit Lancaster City",
+      "source_id": "TKF/6a345ad0afff871fa5d6af75/846/30008130/0/0",
+      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/846",
+      "title": "Peter Pan Goes Wrong Community Night",
+      "description": "Community Preview Nights include a pre-show reception and an opportunity to connect with Lancaster vendors, businesses, and organizations. Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.",
+      "categories": "",
+      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/846/1800487800000",
+      "location": "Fulton Theatre,12 North Prince Street, Lancaster, PA 17603, USA",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1800487800,
+      "end": 1800502200,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "interest": "Preferred venue: Fulton Theatre",
+      "venue_key": "fulton theatre",
+      "id": "discovery-ddd319ad1e6f9f5c3562cc1ecb12b2e2",
+      "member_keys": [
+        "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/846"
+      ],
+      "kind": "Events",
+      "occurrences": [
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/846/30008130/0/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/846",
+          "title": "Peter Pan Goes Wrong Community Night",
+          "description": "Community Preview Nights include a pre-show reception and an opportunity to connect with Lancaster vendors, businesses, and organizations. Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/846/1800487800000",
+          "location": "Fulton Theatre,12 North Prince Street, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1800487800,
+          "end": 1800502200,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "Preferred venue: Fulton Theatre",
+          "venue_key": "fulton theatre"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/846/1800487800000"
+        }
+      ],
+      "first_seen": 1792684430.92389,
+      "updated_at": 1792684430.92389,
+      "sequence": 0,
+      "signature": "{\"title\":\"Peter Pan Goes Wrong Community Night\",\"description\":\"Community Preview Nights include a pre-show reception and an opportunity to connect with Lancaster vendors, businesses, and organizations. Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/846/30008130/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/846\",\"title\":\"Peter Pan Goes Wrong Community Night\",\"description\":\"Community Preview Nights include a pre-show reception and an opportunity to connect with Lancaster vendors, businesses, and organizations. Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/846/1800487800000\",\"location\":\"Fulton Theatre,12 North Prince Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1800487800,\"end\":1800502200,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Preferred venue: Fulton Theatre\",\"venue_key\":\"fulton theatre\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/846/1800487800000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
     }
   }
 }

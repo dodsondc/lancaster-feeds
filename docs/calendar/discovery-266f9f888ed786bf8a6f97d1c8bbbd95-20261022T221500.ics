@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-266f9f888ed786bf8a6f97d1c8bbbd95-20261022T221500@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261018T175410Z
-LAST-MODIFIED:20261018T175410Z
-SEQUENCE:0
+DTSTAMP:20261022T155350Z
+LAST-MODIFIED:20261022T155350Z
+SEQUENCE:1
 DTSTART:20261022T221500Z
 DTEND:20261023T003000Z
 SUMMARY:Library After Dark: Halloween Trivia
@@ -19,13 +19,14 @@ DESCRIPTION:Looking for a spook-tacular night out? Join us at the library a
   plus bonus points if your team wears costumes! 🎃☕ Registration is re
  quired per team. Doors open at 6:15pm for an exclusive after-dark library 
  experience you won't want to miss! Please include your team's name in the 
- Special Notes Field when signing up!\n\nPrice: Free\n\nSchedule listed: Th
- u\, Oct 22\, 2026 06:15 PM EDT – Thu\, Oct 22\, 2026 08:30 PM EDT\n\nSch
- edule supplied by Lancaster Libraries\n\nTimes converted from America/New_
- York to UTC for calendar compatibility.\n\nRegistration: https://calendar.
- lancasterlibraries.org/event/library-after-dark-halloween-trivia-194297\n\
- nAdding this calendar item does not register you. Check the original listi
- ng for changes\; imported events do not automatically stay in sync.
+ Special Notes Field when signing up!\n\nPrice: Not supplied by this calend
+ ar\; check event details\n\nSchedule listed: Thu\, Oct 22\, 2026 06:15 PM 
+ EDT – Thu\, Oct 22\, 2026 08:30 PM EDT\n\nSchedule supplied by Lancaster
+  Libraries\n\nTimes converted from America/New_York to UTC for calendar co
+ mpatibility.\n\nRegistration: https://calendar.lancasterlibraries.org/even
+ t/library-after-dark-halloween-trivia-194297\n\nAdding this calendar item 
+ does not register you. Check the original listing for changes\; imported e
+ vents do not automatically stay in sync.
 LOCATION:Manheim Township Library\, MTP Morgan Center ABC\, 595 Granite Run
   Drive\,  Lancaster\, PA\, 17601
 URL:https://calendar.lancasterlibraries.org/event/library-after-dark-hallow
