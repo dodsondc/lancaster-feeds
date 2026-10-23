@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-f9bbd567adb31829655746f4616ed07c-20270122T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261023T154519Z
+LAST-MODIFIED:20261023T154519Z
+SEQUENCE:0
+DTSTART:20270122T003000Z
+DTEND:20270122T033000Z
+SUMMARY:Peter Pan Goes Wrong Pay-What-You-Want Night
+DESCRIPTION:For these special performances of each production\, you may set
+  your own ticket price. A limited number of seats are set aside for this e
+ ffort as full-price tickets are also sold for these performances. Sales ar
+ e in person only\, no phone calls. Sales start on the day of the Pay-What-
+ You-Want for Mainstage performances at 4 p.m. Note that a line often forms
+  early and must remain outside of the building. We advise checking the wea
+ ther prior to arrival so that you are prepared to queue outside. Tickets a
+ re sold first come – first served on the day of the performance. Limit o
+ f 4 tickets per person in line. (Note that full price tickets may be reser
+ ved in advance in any quantity.) These policies are subject to change at a
+ ny time. Be sure to check this page before you arrive at the theatre. Brac
+ e yourselves for an awfully big adventure as the accident-prone Cornley Dr
+ ama Society sets out to present their most audacious production to date. A
+ s hilarious as their award-winning The Play That Goes Wrong\, Mischief The
+ atre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so
+  wrong has never been so right.\n\nPrice: Not supplied by this calendar\; 
+ check event details\n\nSchedule listed: Thu\, Jan 21\, 2027 07:30 PM EST 
+ – Thu\, Jan 21\, 2027 10:30 PM EST\n\nSchedule supplied by Visit Lancast
+ er City\n\nTimes converted from America/New_York to UTC for calendar compa
+ tibility.\n\nRegistration: https://calendar.visitlancastercity.com/visitla
+ ncastercity/detail/847/1800577800000\n\nAdding this calendar item does not
+  register you. Check the original listing for changes\; imported events do
+  not automatically stay in sync.
+LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
+ A
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/847/1
+ 800577800000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

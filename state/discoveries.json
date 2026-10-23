@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked": 1792719016.94941,
+  "last_checked": 1792770319.72037,
   "items": {
     "discovery-d7d3d348c930d55eef132c86a246e5a6": {
       "source": "Visit Lancaster City",
@@ -8486,6 +8486,57 @@
       "updated_at": 1792684430.92389,
       "sequence": 0,
       "signature": "{\"title\":\"Peter Pan Goes Wrong Community Night\",\"description\":\"Community Preview Nights include a pre-show reception and an opportunity to connect with Lancaster vendors, businesses, and organizations. Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/846/30008130/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/846\",\"title\":\"Peter Pan Goes Wrong Community Night\",\"description\":\"Community Preview Nights include a pre-show reception and an opportunity to connect with Lancaster vendors, businesses, and organizations. Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/846/1800487800000\",\"location\":\"Fulton Theatre,12 North Prince Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1800487800,\"end\":1800502200,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Preferred venue: Fulton Theatre\",\"venue_key\":\"fulton theatre\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/846/1800487800000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
+    },
+    "discovery-f9bbd567adb31829655746f4616ed07c": {
+      "source": "Visit Lancaster City",
+      "source_id": "TKF/6a345ad0afff871fa5d6af75/847/30009630/0/0",
+      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/847",
+      "title": "Peter Pan Goes Wrong Pay-What-You-Want Night",
+      "description": "For these special performances of each production, you may set your own ticket price. A limited number of seats are set aside for this effort as full-price tickets are also sold for these performances. Sales are in person only, no phone calls. Sales start on the day of the Pay-What-You-Want for Mainstage performances at 4 p.m. Note that a line often forms early and must remain outside of the building. We advise checking the weather prior to arrival so that you are prepared to queue outside. Tickets are sold first come – first served on the day of the performance. Limit of 4 tickets per person in line. (Note that full price tickets may be reserved in advance in any quantity.) These policies are subject to change at any time. Be sure to check this page before you arrive at the theatre. Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.",
+      "categories": "",
+      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/847/1800577800000",
+      "location": "Fulton Theatre,12 North Prince Street, Lancaster, PA 17603, USA",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1800577800,
+      "end": 1800588600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "interest": "Preferred venue: Fulton Theatre",
+      "venue_key": "fulton theatre",
+      "id": "discovery-f9bbd567adb31829655746f4616ed07c",
+      "member_keys": [
+        "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/847"
+      ],
+      "kind": "Events",
+      "occurrences": [
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/847/30009630/0/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/847",
+          "title": "Peter Pan Goes Wrong Pay-What-You-Want Night",
+          "description": "For these special performances of each production, you may set your own ticket price. A limited number of seats are set aside for this effort as full-price tickets are also sold for these performances. Sales are in person only, no phone calls. Sales start on the day of the Pay-What-You-Want for Mainstage performances at 4 p.m. Note that a line often forms early and must remain outside of the building. We advise checking the weather prior to arrival so that you are prepared to queue outside. Tickets are sold first come – first served on the day of the performance. Limit of 4 tickets per person in line. (Note that full price tickets may be reserved in advance in any quantity.) These policies are subject to change at any time. Be sure to check this page before you arrive at the theatre. Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/847/1800577800000",
+          "location": "Fulton Theatre,12 North Prince Street, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1800577800,
+          "end": 1800588600,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "Preferred venue: Fulton Theatre",
+          "venue_key": "fulton theatre"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/847/1800577800000"
+        }
+      ],
+      "first_seen": 1792770319.72037,
+      "updated_at": 1792770319.72037,
+      "sequence": 0,
+      "signature": "{\"title\":\"Peter Pan Goes Wrong Pay-What-You-Want Night\",\"description\":\"For these special performances of each production, you may set your own ticket price. A limited number of seats are set aside for this effort as full-price tickets are also sold for these performances. Sales are in person only, no phone calls. Sales start on the day of the Pay-What-You-Want for Mainstage performances at 4 p.m. Note that a line often forms early and must remain outside of the building. We advise checking the weather prior to arrival so that you are prepared to queue outside. Tickets are sold first come – first served on the day of the performance. Limit of 4 tickets per person in line. (Note that full price tickets may be reserved in advance in any quantity.) These policies are subject to change at any time. Be sure to check this page before you arrive at the theatre. Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/847/30009630/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/847\",\"title\":\"Peter Pan Goes Wrong Pay-What-You-Want Night\",\"description\":\"For these special performances of each production, you may set your own ticket price. A limited number of seats are set aside for this effort as full-price tickets are also sold for these performances. Sales are in person only, no phone calls. Sales start on the day of the Pay-What-You-Want for Mainstage performances at 4 p.m. Note that a line often forms early and must remain outside of the building. We advise checking the weather prior to arrival so that you are prepared to queue outside. Tickets are sold first come – first served on the day of the performance. Limit of 4 tickets per person in line. (Note that full price tickets may be reserved in advance in any quantity.) These policies are subject to change at any time. Be sure to check this page before you arrive at the theatre. Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/847/1800577800000\",\"location\":\"Fulton Theatre,12 North Prince Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1800577800,\"end\":1800588600,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Preferred venue: Fulton Theatre\",\"venue_key\":\"fulton theatre\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/847/1800577800000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
     }
   }
 }
