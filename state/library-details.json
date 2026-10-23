@@ -4788,6 +4788,34 @@
         ],
         "branch": "Lancaster"
       }
+    },
+    "209239": {
+      "checked_at": 1792719016.94941,
+      "event": {
+        "source": "Lancaster Libraries",
+        "source_id": "209239",
+        "series": "https://calendar.lancasterlibraries.org/series/grave-concern-the-preservation-of-historic-cemeteries-in-lancaster-county-manheim-township",
+        "title": "Grave Concern: The Preservation of Historic Cemeteries in Lancaster County",
+        "description": "",
+        "categories": "Community, Discussion, Presentation",
+        "url": "https://calendar.lancasterlibraries.org/event/grave-concern-preservation-historic-cemeteries-lancaster-county-209239",
+        "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+        "price": "Free",
+        "start": 1796166000,
+        "end": 1796173200,
+        "all_day": false,
+        "status": "CONFIRMED",
+        "age_groups": [
+          "Adults",
+          "Seniors"
+        ],
+        "program_types": [
+          "Community",
+          "Discussion",
+          "Presentation"
+        ],
+        "branch": "Manheim Township"
+      }
     }
   }
 }
