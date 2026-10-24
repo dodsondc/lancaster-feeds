@@ -6,6 +6,27 @@
     <description>Personal keyword-filtered discoveries from Visit Lancaster City, LancasterPA, and Lancaster County libraries. Sources overlap and coverage is incomplete. Dates sort by detection day, then event start; RSS seconds are ordering values.</description>
     <language>en-us</language>
     <item>
+      <title>2027-01-22 — Peter Pan Goes Wrong Opening Night</title>
+      <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/849/1800664200000</link>
+      <guid isPermaLink="false">lancaster:discovery-ee7ea2e7a56825f0afc54533466c8003</guid>
+      <pubDate>Sat, 24 Oct 2026 04:00:00 +0000</pubDate>
+      <category>Events</category>
+      <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<div>
+  <p>Events: 2027-01-22</p>
+  <p>Location: Fulton Theatre,12 North Prince Street, Lancaster, PA 17603, USA</p>
+  <p>Price: Not supplied by this calendar; check event details</p>
+  <p>Celebrate Opening Night with us! Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.</p>
+  <p>Fri, Jan 22, 2027 07:30 PM EST – Fri, Jan 22, 2027 10:30 PM EST<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-ee7ea2e7a56825f0afc54533466c8003-20270123T003000.ics"> Add to Calendar (.ics)</a></p>
+  <p>
+    <a href="https://calendar.visitlancastercity.com/visitlancastercity/detail/849/1800664200000">Details: Visit Lancaster City</a>
+  </p>
+  <p>Matched interests: Preferred venue: Fulton Theatre</p>
+  <p>First detected: 2026-10-24 · Adding a calendar item does not book a ticket. Imported calendar items do not automatically update.</p>
+</div>
+]]></description>
+    </item>
+    <item>
       <title>2027-01-21 — Peter Pan Goes Wrong Pay-What-You-Want Night</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/847/1800577800000</link>
       <guid isPermaLink="false">lancaster:discovery-f9bbd567adb31829655746f4616ed07c</guid>
@@ -93,7 +114,7 @@
       <title>2027-01-15 to 2027-01-17 — Tales &amp; Legends with the Lancaster Symphony Orchestra</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/733/1800059400000</link>
       <guid isPermaLink="false">lancaster:discovery-d9646085e32ef0bce7851747818d2712</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:34 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:31 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -115,7 +136,7 @@
       <title>2027-01-09 — Envisioning 2027</title>
       <link>https://calendar.lancasterlibraries.org/event/envisioning-2027-204690</link>
       <guid isPermaLink="false">lancaster:discovery-28858a824a4aaaa012672ac5aef9e00b</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:33 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:30 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -137,7 +158,7 @@
       <title>2027-01-08 to 2027-01-10 — Mixtape: Ali Murphy &amp; Joshua William Green at Prima</title>
       <link>https://lancasterpa.com/events-calendar/mixtape-ali-joshua-prima/</link>
       <guid isPermaLink="false">lancaster:discovery-928ce639ed00fd56c355561b6595b47e</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:32 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:29 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -159,7 +180,7 @@
       <title>2027-01-07 — The Neverland Book Club</title>
       <link>https://calendar.lancasterlibraries.org/event/neverland-book-club-204694</link>
       <guid isPermaLink="false">lancaster:discovery-0b74cae0507258597a6fead09bb9c13b</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:31 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:28 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -181,7 +202,7 @@
       <title>2026-12-31 to 2027-01-01 — New Year’s Eve at Penn Medicine Park</title>
       <link>https://lancasterpa.com/events-calendar/new-years-eve-penn-medicine-park/</link>
       <guid isPermaLink="false">lancaster:discovery-6777cabf889ef41717aed0feb72a043d</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:30 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:27 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -202,7 +223,7 @@
       <title>2026-12-30 to 2026-12-31 — A Broadway New Year with LSO and the Fulton Theatre</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/734/1798660800000</link>
       <guid isPermaLink="false">lancaster:discovery-cfed877e44bd9c1cf7051c0b0abab5d5</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:29 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:26 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -224,7 +245,7 @@
       <title>2026-12-26 to 2026-12-27 — Yuletide at Historic Rock Ford</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/1030/1798311600000</link>
       <guid isPermaLink="false">lancaster:discovery-3221a385a3212cd3b741ee6d407b0285</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:28 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:25 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -249,7 +270,7 @@
       <title>2026-12-15 — Victorian Christmas: Customs &amp; Costumes</title>
       <link>https://calendar.lancasterlibraries.org/event/victorian-christmas-customs-costumes-202541</link>
       <guid isPermaLink="false">lancaster:discovery-4476b5efc9b264ee6859e3e464cf8597</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:27 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:24 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -271,7 +292,7 @@
       <title>2026-12-14 — Coffee &amp; Crossing: Washington's Winter of 1776</title>
       <link>https://calendar.lancasterlibraries.org/event/hold-adult-services-program-200760</link>
       <guid isPermaLink="false">lancaster:discovery-619d3222bf214b5a8e5d5ca6e0385787</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:26 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:23 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -293,7 +314,7 @@
       <title>2026-12-13 to 2027-04-16 — Lancaster Art Song Society Concert</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/719/1797192000000</link>
       <guid isPermaLink="false">lancaster:discovery-db834146e8e4794aa31dc81951bf4f5f</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:25 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:22 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -315,7 +336,7 @@
       <title>2026-12-12 — Local Author Fair</title>
       <link>https://calendar.lancasterlibraries.org/event/local-author-fair-206379</link>
       <guid isPermaLink="false">lancaster:discovery-74484f84adf74c44578c7efd3ceccb8e</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:24 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:21 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -334,10 +355,31 @@
 ]]></description>
     </item>
     <item>
+      <title>2026-12-11 — Octavia Blues LIVE at Thorn Hill Vineyards</title>
+      <link>https://lancasterpa.com/events-calendar/octavia-blues-live-at-thorn-hill-vineyards/2026-12-11/</link>
+      <guid isPermaLink="false">lancaster:discovery-e7300f1c55aa3e3147124e6473b61eb3</guid>
+      <pubDate>Sun, 18 Oct 2026 04:01:20 +0000</pubDate>
+      <category>Events</category>
+      <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<div>
+  <p>Events: 2026-12-11</p>
+  <p>Location: Thorn Hill Vineyard, 1945 Fruitville Pike, Lancaster, PA, 17601</p>
+  <p>Price: Not supplied by this calendar; check event details</p>
+  <p>Join Us for a live performance with Octavia Blues! Octavia ~ World Class Harmonica At the Thorn Hill Lancaster, PA Tasting Room on Friday, October 23rd from 7 PM to 10 PM Suzuki Music USA​ and Godin Guitars endorsed Octavia is a quadruple threat! This multi-talented woman has a unique harp style coupled with powerful sultry vocals, expressive guitar playing and strong songwriting skills! Other Things To Do in Lancaster, PA for Adults Art Galleries Distilleries Escape Rooms Breweries Factory Tours Indoor Things To Do Massage and Spas Outdoor Things To Do Shooting Ranges Theaters Wineries All Things To Do in Lancaster</p>
+  <p>Fri, Dec 11, 2026 07:00 PM EST – Fri, Dec 11, 2026 10:00 PM EST<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-e7300f1c55aa3e3147124e6473b61eb3-20261212T000000.ics"> Add to Calendar (.ics)</a></p>
+  <p>
+    <a href="https://lancasterpa.com/events-calendar/octavia-blues-live-at-thorn-hill-vineyards/2026-12-11/">Details: LancasterPA</a>
+  </p>
+  <p>Matched interests: Title/category: Concerts, Arts</p>
+  <p>First detected: 2026-10-18 · Adding a calendar item does not book a ticket. Imported calendar items do not automatically update.</p>
+</div>
+]]></description>
+    </item>
+    <item>
       <title>2026-12-04 — Vince Guaraldi: The Man and Music Behind "A Charlie Brown Christmas"</title>
       <link>https://calendar.lancasterlibraries.org/event/vince-guaraldi-man-and-music-behind-charlie-brown-christmas-195904</link>
       <guid isPermaLink="false">lancaster:discovery-9a154310eab9ebb0853b823ae6c8f6a8</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:23 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:19 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -359,7 +401,7 @@
       <title>2026-12-04 — LPL Open Late: First Friday</title>
       <link>https://calendar.lancasterlibraries.org/event/lpl-open-late-first-friday-152913</link>
       <guid isPermaLink="false">lancaster:discovery-8dd60812f1994e3fea70051727555088</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:22 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:18 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -381,7 +423,7 @@
       <title>2026-12-04 to 2026-12-20 — Cinderella at Ephrata Performing Arts Center</title>
       <link>https://lancasterpa.com/events-calendar/cinderella-ephrata-performing-arts-center/</link>
       <guid isPermaLink="false">lancaster:discovery-dc66e1a28c296584a33cad74b1271c91</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:21 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:17 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -403,7 +445,7 @@
       <title>2026-12-04 to 2027-01-02 — Cinderella – Dutch Apple Dinner Theatre</title>
       <link>https://lancasterpa.com/events-calendar/cinderella-dutch-apple/</link>
       <guid isPermaLink="false">lancaster:discovery-ba365d1f9c854c4326af3ba8f01e111f</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:20 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:16 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -425,7 +467,7 @@
       <title>2026-12-04 to 2026-12-05 — Jingle Bell Tour in Ephrata</title>
       <link>https://lancasterpa.com/events-calendar/jingle-bell-tour-in-ephrata/</link>
       <guid isPermaLink="false">lancaster:discovery-08f05309c14f9498a113acf69ce9a300</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:19 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:15 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -447,7 +489,7 @@
       <title>2026-12-03 to 2026-12-05 — Messiah by Candelight with Lancaster Symphony Orchestra &amp; Choir</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/735/1796342400000</link>
       <guid isPermaLink="false">lancaster:discovery-eebb7515af71559d7e8e0120e4ce2213</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:18 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:14 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -469,7 +511,7 @@
       <title>2026-12-03 — Annie Teen Lounge</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/813/1796335200000</link>
       <guid isPermaLink="false">lancaster:discovery-5c8a9583be5493776e0559b7bce6d212</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:17 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:13 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -490,7 +532,7 @@
       <title>2026-11-28 to 2026-12-02 — Annie Accessibility Performance</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/808/1795892400000</link>
       <guid isPermaLink="false">lancaster:discovery-54b01842c752b29208562dc1b5392cc6</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:16 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:12 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -515,7 +557,7 @@
       <title>2026-11-27 — Mayor Tree Lighting Lancaster City</title>
       <link>https://lancasterpa.com/events-calendar/mayor-tree-lighting/</link>
       <guid isPermaLink="false">lancaster:discovery-756e9351113abef3cab72bc704bb37fc</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:15 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:11 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -536,7 +578,7 @@
       <title>2026-11-27 — Holiday Tasting Tour – Kitchen Kettle Village</title>
       <link>https://lancasterpa.com/events-calendar/holiday-tasting-tour-kitchen-kettle-village/</link>
       <guid isPermaLink="false">lancaster:discovery-431a127829edc5f4cf757b9e0a98b213</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:14 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:10 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -557,7 +599,7 @@
       <title>2026-11-26 — Thanksgiving Day Tour with Strasburg Scooter Tours</title>
       <link>https://lancasterpa.com/events-calendar/thanksgiving-day-tour-with-strasburg-scooter-tours/2026-11-26/</link>
       <guid isPermaLink="false">lancaster:discovery-b66df746894184cecdc6d0d25c525f23</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:13 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:09 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -578,7 +620,7 @@
       <title>2026-11-21 — Layer the Walls: Turn of the Century</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/1082/1795291200000</link>
       <guid isPermaLink="false">lancaster:discovery-043e794cd07ad51b0a5de9d4cad85ce5</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:12 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:08 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -599,7 +641,7 @@
       <title>2026-11-21 to 2026-12-31 — Annie</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/799/1795287600000</link>
       <guid isPermaLink="false">lancaster:discovery-866d34cb62fdc319be79453546e4bcdb</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:11 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:07 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -788,7 +830,7 @@
       <title>2026-11-20 — Annie Opening Night</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/798/1795221000000</link>
       <guid isPermaLink="false">lancaster:discovery-f637359af6f2921835c9bfeccfc3fdf0</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:10 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:06 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -809,7 +851,7 @@
       <title>2026-11-20 to 2026-11-22 — From Solitude to Triumph with Lancaster Symphony Orchestra</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/736/1795221000000</link>
       <guid isPermaLink="false">lancaster:discovery-50fc69fd9badac2b31b5f23c3b604032</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:09 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:05 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -831,7 +873,7 @@
       <title>2026-11-20 to 2026-12-23 — Illumination</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/718/1795221000000</link>
       <guid isPermaLink="false">lancaster:discovery-4973630e93ea820ca3ef70be12e20101</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:08 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:04 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -853,7 +895,7 @@
       <title>2026-11-20 — ExtraGive Junior</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/1081/1795212000000</link>
       <guid isPermaLink="false">lancaster:discovery-82639f4a2575b37d1af68cfb299db4fa</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:07 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:03 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -874,7 +916,7 @@
       <title>2026-11-20 to 2026-12-23 — Illumination at Prima Theatre</title>
       <link>https://lancasterpa.com/events-calendar/illumination-prima-theatre/</link>
       <guid isPermaLink="false">lancaster:discovery-5214aac526b9462930b1f526140a1f92</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:06 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:02 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -896,7 +938,7 @@
       <title>2026-11-19 — Annie Community Pay-What-You-Want</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/797/1795134600000</link>
       <guid isPermaLink="false">lancaster:discovery-9177d7c7a8209be3f0c6aacc81d1a293</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:05 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:01 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -917,7 +959,7 @@
       <title>2026-11-19 to 2026-12-17 — Well Rooted: Genealogy Drop In</title>
       <link>https://calendar.lancasterlibraries.org/event/well-rooted-genealogy-drop-157524</link>
       <guid isPermaLink="false">lancaster:discovery-b2835165e32dc51095b0f0ff100c1761</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:04 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:01:00 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -943,7 +985,7 @@
       <title>2026-11-18 — Annie Community Preview Night</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/796/1795048200000</link>
       <guid isPermaLink="false">lancaster:discovery-29549f2bca2c8bb482a45f297e6bf722</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:03 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:59 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -964,7 +1006,7 @@
       <title>2026-11-18 to 2027-01-20 — Bad Art Club</title>
       <link>https://calendar.lancasterlibraries.org/event/bad-art-club-153032</link>
       <guid isPermaLink="false">lancaster:discovery-da38552aeae679f9c26e2182051771ba</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:02 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:58 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -990,7 +1032,7 @@
       <title>2026-11-17 — Disposable Humanity</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/1080/1794960000000</link>
       <guid isPermaLink="false">lancaster:discovery-678a97a73e88d987b84b48a4da2dd331</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:01 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:57 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1011,7 +1053,7 @@
       <title>2026-11-17 to 2027-01-19 — Coterie Book Club</title>
       <link>https://calendar.lancasterlibraries.org/event/coterie-book-club-198029</link>
       <guid isPermaLink="false">lancaster:discovery-1e5553781e29756cfbb84a35b053b3e6</guid>
-      <pubDate>Sun, 18 Oct 2026 04:01:00 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:56 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1037,7 +1079,7 @@
       <title>2026-11-17 to 2026-12-15 — Adult Coloring Program</title>
       <link>https://calendar.lancasterlibraries.org/event/adult-coloring-program-154634</link>
       <guid isPermaLink="false">lancaster:discovery-12bcf5eede31fd334d674d4288836fdf</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:59 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:55 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1063,7 +1105,7 @@
       <title>2026-11-16 — Marching to Independence: Lancaster Soldiers at the Battle of Fort Lee</title>
       <link>https://calendar.lancasterlibraries.org/event/hold-adult-services-program-200759</link>
       <guid isPermaLink="false">lancaster:discovery-9f193cf71a3b301fd8abed978abd6b60</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:58 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:54 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1085,7 +1127,7 @@
       <title>2026-11-14 — Pianist Jiarui Li</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/717/1794702600000</link>
       <guid isPermaLink="false">lancaster:discovery-c9a508c311cd2e4f90e137447684f3d9</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:57 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:53 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1106,7 +1148,7 @@
       <title>2026-11-14 to 2026-12-12 — An Afternoon with Laura Singing at Thorn Hill Vineyards</title>
       <link>https://lancasterpa.com/events-calendar/laura-singing-thorn-hill-vineyards/2026-11-14/</link>
       <guid isPermaLink="false">lancaster:discovery-bc35b0b9c0b9eeb8f9cfbe2d62dc532c</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:56 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:52 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1131,7 +1173,7 @@
       <title>2026-11-14 — Book Club</title>
       <link>https://calendar.lancasterlibraries.org/event/book-club-205893</link>
       <guid isPermaLink="false">lancaster:discovery-2a183b09fe36e9b270d5f153cf727467</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:55 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:51 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1153,7 +1195,7 @@
       <title>2026-11-14 — Mills of Lancaster County: An Afternoon with Historian Donald Kautz</title>
       <link>https://calendar.lancasterlibraries.org/event/reserved-historical-society-event-161153</link>
       <guid isPermaLink="false">lancaster:discovery-f98a788a68bb73b7c99414dcbfc3dba9</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:54 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:50 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1175,7 +1217,7 @@
       <title>2026-11-14 — People of Pennsylvania's Past</title>
       <link>https://calendar.lancasterlibraries.org/event/people-pennsylvanias-past-166358</link>
       <guid isPermaLink="false">lancaster:discovery-9bb866f09aa6372d56cbcf1eef1b3d6b</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:53 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:49 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1197,7 +1239,7 @@
       <title>2026-11-14 — African American Heritage Walking Tour of Historic Southeast Lancaster</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/623/1794672000000</link>
       <guid isPermaLink="false">lancaster:discovery-edca2602cc4ddb77cb8d25d0609809d2</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:52 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:48 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1222,7 +1264,7 @@
       <title>2026-11-13 — Flamenco y Sol: Flamenco at Its Essence</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/1079/1794616200000</link>
       <guid isPermaLink="false">lancaster:discovery-7a84427948900bb187198a663a27ebfa</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:51 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:47 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1243,7 +1285,7 @@
       <title>2026-11-13 to 2027-01-03 — Holly Jolly Holiday – Dutch Apple Dinner Theatre</title>
       <link>https://lancasterpa.com/events-calendar/holly-jolly-holiday-dutch-apple/</link>
       <guid isPermaLink="false">lancaster:discovery-b34acef4006d18d8813df97bb155785a</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:50 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:46 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1265,7 +1307,7 @@
       <title>2026-11-12 to 2027-01-14 — Thursday Book Group</title>
       <link>https://calendar.lancasterlibraries.org/event/thursday-book-group-208553</link>
       <guid isPermaLink="false">lancaster:discovery-c55360c1383fa11b0d8b6d19f88fcdb2</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:49 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:45 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1296,7 +1338,7 @@
       <title>2026-11-11 to 2026-12-09 — MTPL Book Discussion Group</title>
       <link>https://calendar.lancasterlibraries.org/event/mtpl-book-discussion-group-155712</link>
       <guid isPermaLink="false">lancaster:discovery-9a7938a3d8fa05b12f526f7f3fbc18f9</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:48 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:44 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1322,7 +1364,7 @@
       <title>2026-11-10 — Felt Home Portraits</title>
       <link>https://calendar.lancasterlibraries.org/event/felt-home-portraits-198392</link>
       <guid isPermaLink="false">lancaster:discovery-992c2e43fcfe5da8377636bd8c4a1898</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:47 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:43 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1344,7 +1386,7 @@
       <title>2026-11-09 — Coaching Inclusion</title>
       <link>https://calendar.lancasterlibraries.org/event/coaching-inclusion-204688</link>
       <guid isPermaLink="false">lancaster:discovery-1bece5119be7a5e919858c5bb6f0ab89</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:46 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:42 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1366,7 +1408,7 @@
       <title>2026-11-07 — Heartland Marimba Jukebox Night with Friends</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/1076/1794097800000</link>
       <guid isPermaLink="false">lancaster:discovery-5bda0f77d55134c516e03f19941d53a7</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:45 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:41 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1387,7 +1429,7 @@
       <title>2026-11-07 — Live Music with Intentional Walk at Cherry Crest Adventure Farm</title>
       <link>https://lancasterpa.com/events-calendar/cherry-crest-live-music-intentional-walk/</link>
       <guid isPermaLink="false">lancaster:discovery-928404f5b435480466d483ac6d67f49e</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:44 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:40 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1408,7 +1450,7 @@
       <title>2026-11-07 to 2027-01-02 — Preschool Picassos at North Museum</title>
       <link>https://lancasterpa.com/events-calendar/preschool-picassos-at-north-museum/2026-11-07/</link>
       <guid isPermaLink="false">lancaster:discovery-61761c44d771ebe6d3bd0bafd3dd8ac8</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:43 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:39 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1438,7 +1480,7 @@
       <title>2026-11-07 — African American Heritage Walking Tour Downtown Lancaster</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/620/1794067200000</link>
       <guid isPermaLink="false">lancaster:discovery-95d0eeb2cc9ef204f910e912fb254ab7</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:42 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:38 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1463,7 +1505,7 @@
       <title>2026-11-07 — Live Music with Mackenzie Paige at Cherry Crest Adventure Farm</title>
       <link>https://lancasterpa.com/events-calendar/cherry-crest-live-music-mackenzie-paige/</link>
       <guid isPermaLink="false">lancaster:discovery-3b775ede19d07d48e679ad258605d5ce</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:41 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:37 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1484,7 +1526,7 @@
       <title>2026-11-07 — Pumpkin Madness Festival – Cherry-Crest Adventure Farm</title>
       <link>https://lancasterpa.com/events-calendar/pumpkin-madness-festival-cherry-crest-adventure-farm/</link>
       <guid isPermaLink="false">lancaster:discovery-c33e1b1907f34423b62bcc86261fc826</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:40 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:36 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1505,7 +1547,7 @@
       <title>2026-11-07 — 2026 Fall Fest, Supporting North Museum &amp; Millport Conservancy</title>
       <link>https://lancasterpa.com/events-calendar/fall-fest-north-museum/</link>
       <guid isPermaLink="false">lancaster:discovery-95a925a5469240b52dfdac468bfc020b</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:39 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:35 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1526,7 +1568,7 @@
       <title>2026-11-07 — The Foolbright Scholars' Play Lab with Angie Foster</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/703/1794063600000</link>
       <guid isPermaLink="false">lancaster:discovery-68bb3e4551f68e3a502893397f343a62</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:38 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:34 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1547,7 +1589,7 @@
       <title>2026-11-06 to 2026-11-22 — "Persuasion" - A One Act Play Inspired by Jane Austen</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/995/1794009600000</link>
       <guid isPermaLink="false">lancaster:discovery-31f45cd0f6f9645c0f81d680ba46fda4</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:37 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:33 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1569,7 +1611,7 @@
       <title>2026-11-06 — We the People First Friday: Heartland Marimba Festival</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/1075/1794009600000</link>
       <guid isPermaLink="false">lancaster:discovery-2b9ba1569900a0603e1176fdaef45118</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:36 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:32 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1590,7 +1632,7 @@
       <title>2026-11-06 — Jordan and Mark Rast Duo - Bluegrass Concert to benefit Affordable Housing</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/1086/1794009600000</link>
       <guid isPermaLink="false">lancaster:discovery-21f93e394dc13d6aab84b989098b4583</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:35 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:31 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1611,7 +1653,7 @@
       <title>2026-11-06 — Live Music with Greg Grasa at Cherry Crest Adventure Farm</title>
       <link>https://lancasterpa.com/events-calendar/greg-grasa-cherry-crest-live-music/</link>
       <guid isPermaLink="false">lancaster:discovery-8f6df156331e7ff171b90eb26548d12f</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:34 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:30 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1632,7 +1674,7 @@
       <title>2026-11-06 to 2026-12-04 — Live Music at South County</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/619/1794006000000</link>
       <guid isPermaLink="false">lancaster:discovery-212c3d8704acecbaea618d493dd0f2c9</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:33 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:29 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1657,7 +1699,7 @@
       <title>2026-11-06 — Quartet Harriet plays A Walk in the Woods at Urban Arts House</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/994/1794002400000</link>
       <guid isPermaLink="false">lancaster:discovery-19723b5efde1e72cacfde37070e1c8fb</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:32 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:28 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1678,7 +1720,7 @@
       <title>2026-11-06 to 2026-12-05 — First Friday</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/477/1793941200000</link>
       <guid isPermaLink="false">lancaster:discovery-bd33ed8e8a21e565d4e7af763557fc2e</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:31 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:27 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1703,7 +1745,7 @@
       <title>2026-11-05 to 2027-01-02 — Winter Wonderland at Magic &amp; Wonder</title>
       <link>https://lancasterpa.com/events-calendar/magic-wonder-winter-wonderland/</link>
       <guid isPermaLink="false">lancaster:discovery-d2dd77f333480129589308540469a742</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:30 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:26 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1725,7 +1767,7 @@
       <title>2026-11-04 to 2027-01-06 — Game of Tomes Fantasy Book Club</title>
       <link>https://calendar.lancasterlibraries.org/event/game-tomes-fantasy-book-club-198219</link>
       <guid isPermaLink="false">lancaster:discovery-edde8108c168cce9481ac0bcbe2f3c90</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:29 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:25 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1756,7 +1798,7 @@
       <title>2026-11-03 to 2026-12-30 — The 2026 Christmas Show: Deck the Halls at American Music Theatre</title>
       <link>https://lancasterpa.com/events-calendar/american-music-theatre-christmas-show/</link>
       <guid isPermaLink="false">lancaster:discovery-96f76f849b6586099aa5d3a1e4e38a21</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:28 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:24 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1778,7 +1820,7 @@
       <title>2026-11-02 — Cooks &amp; Books: Baking Techniques &amp; Equipment Swap</title>
       <link>https://calendar.lancasterlibraries.org/event/hold-cooks-books-146704</link>
       <guid isPermaLink="false">lancaster:discovery-14d3ee835b2ea95cdec2687a03183311</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:27 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:23 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1800,7 +1842,7 @@
       <title>2026-10-31 — Live Music with The Stu Huggens Band at Cherry Crest Adventure Farm</title>
       <link>https://lancasterpa.com/events-calendar/cherry-crest-live-music-stu-huggens-band/</link>
       <guid isPermaLink="false">lancaster:discovery-4b8cdc2173236fbc2d89fdf3f3fbc226</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:26 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:22 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1821,7 +1863,7 @@
       <title>2026-10-31 — Live Music with Kevin Raubenstine at Cherry Crest Adventure Farm</title>
       <link>https://lancasterpa.com/events-calendar/cherry-crest-live-music-kevin-raubenstine/</link>
       <guid isPermaLink="false">lancaster:discovery-3edeb1eac95c45b461e9783cfcd583fa</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:25 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:21 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1842,7 +1884,7 @@
       <title>2026-10-30 — Live Music with Mark &amp; Jordan Rast at Cherry Crest Adventure Farm</title>
       <link>https://lancasterpa.com/events-calendar/cherry-crest-live-music-mark-jordan-rast/</link>
       <guid isPermaLink="false">lancaster:discovery-0b65d58821034e322fe0429429cf04af</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:24 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:20 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1863,7 +1905,7 @@
       <title>2026-10-30 to 2026-12-18 — Common Thread Crafting Club</title>
       <link>https://calendar.lancasterlibraries.org/event/knitting-club-155440</link>
       <guid isPermaLink="false">lancaster:discovery-5a9a9b2bc0c697d68940aa2fd1b41e9b</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:23 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:19 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1902,7 +1944,7 @@
       <title>2026-10-30 to 2026-12-31 — The Christmas Rush at Bird-in-Hand Stage</title>
       <link>https://lancasterpa.com/events-calendar/christmas-rush-bird-in-hand-stage/</link>
       <guid isPermaLink="false">lancaster:discovery-f36a914c644152ff0a9819e62d1e331e</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:22 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:18 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1924,7 +1966,7 @@
       <title>2026-10-28 — Chills, Thrills and that Spooky Stuff: Horror of the Early '60s with Kevin Stairiker!</title>
       <link>https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203080</link>
       <guid isPermaLink="false">lancaster:discovery-f50ad8b6bb75f535a2beae7fe736ab01</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:21 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:17 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1933,7 +1975,7 @@
   <p>Price: Free</p>
   <p>What keeps you up at night? 🌙 Horror movies have been trying to crack that spooky code for over a century! Styles may change, but a classic jump-scare can still creep out a fresh generation of moviegoers. 🎬 This October, test your brave side with us! 🎃 Every Tuesday night starting at 6pm, we’re screening legendary fright flicks that have given movie lovers the wiggles, the willies, and full-blown goosebumps for decades. 🍿 Hosted by Kevin Stairiker (LNP | LancasterOnline), each evening packs in creepy cinema, post-movie chats, light snacks, and maximum eerie vibes. 🕷️ Bring your courage (and a friend to hide behind)! 👀✨ October 5th: City of the Dead, 1960, 78 minutes October 20th: Black Sabbath, 1963, 93 minutes October 28th: The Innocents, 1961, 100 minutes Registration is encouraged!</p>
   <p>Library age groups: Adults, Seniors</p>
-  <p>Wed, Oct 28, 2026 06:30 PM EDT – Wed, Oct 28, 2026 08:00 PM EDT<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-f50ad8b6bb75f535a2beae7fe736ab01-20261028T223000.ics"> Add to Calendar (.ics)</a></p>
+  <p>Wed, Oct 28, 2026 06:15 PM EDT – Wed, Oct 28, 2026 08:00 PM EDT<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-f50ad8b6bb75f535a2beae7fe736ab01-20261028T221500.ics"> Add to Calendar (.ics)</a></p>
   <p>
     <a href="https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203080">Details: Lancaster Libraries</a>
   </p>
@@ -1946,7 +1988,7 @@
       <title>2026-10-28 to 2026-12-20 — Holly Jolly Jukebox at Magic &amp; Wonder</title>
       <link>https://lancasterpa.com/events-calendar/magic-wonder-holly-jolly-jukebox/</link>
       <guid isPermaLink="false">lancaster:discovery-664deb929e9a98dc4d47f5eace44da4f</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:20 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:16 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -1968,7 +2010,7 @@
       <title>2026-10-28 to 2026-12-30 — Little Explorer and Me at North Museum</title>
       <link>https://lancasterpa.com/events-calendar/little-explorer-and-me-at-north-museum/2026-10-28/</link>
       <guid isPermaLink="false">lancaster:discovery-1d22887630f338f341c9c92844a7f0b1</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:19 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:15 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -2010,7 +2052,7 @@
       <title>2026-10-27 — Tuesday Matinee: Halloween Classics</title>
       <link>https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194312</link>
       <guid isPermaLink="false">lancaster:discovery-b361270f87f35388541985453b2b9c56</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:18 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:14 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -2032,7 +2074,7 @@
       <title>2026-10-26 to 2026-12-28 — Swoon Squad: A Romance TBR Book Club</title>
       <link>https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-176855</link>
       <guid isPermaLink="false">lancaster:discovery-41603b66d27b5fe37cae1f6a65091571</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:17 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:13 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -2063,7 +2105,7 @@
       <title>2026-10-26 — The Treachery of Botany: Poisonous Garden Plants</title>
       <link>https://calendar.lancasterlibraries.org/event/reserved-program-195825</link>
       <guid isPermaLink="false">lancaster:discovery-0aa99567cfb116d334389617344afe15</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:16 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:12 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -2085,7 +2127,7 @@
       <title>2026-10-26 — MTPL Plant Swap!</title>
       <link>https://calendar.lancasterlibraries.org/event/mtpl-plant-swap-197076</link>
       <guid isPermaLink="false">lancaster:discovery-215eb0c201665129588c4ae7d7e41d58</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:15 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:11 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -2107,7 +2149,7 @@
       <title>2026-10-24 — Stephen Schwartz: A Benefit Concert for Prima</title>
       <link>https://lancasterpa.com/events-calendar/stephen-schwartz-prima/</link>
       <guid isPermaLink="false">lancaster:discovery-67be8fb743cac453996192a58b7f1c48</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:14 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:10 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -2128,7 +2170,7 @@
       <title>2026-10-24 — Live Music with Steven Courtney Band at Cherry Crest Adventure Farm</title>
       <link>https://lancasterpa.com/events-calendar/cherry-crest-live-music-steven-courtney-band/</link>
       <guid isPermaLink="false">lancaster:discovery-1b207c27ea7fd8bf79c2d44934e3003a</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:13 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:09 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -2149,7 +2191,7 @@
       <title>2026-10-24 to 2026-12-13 — Improv 101 with Mike!</title>
       <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/1051/1792861200000</link>
       <guid isPermaLink="false">lancaster:discovery-4657f9d8b0aaf02ad56127cf922f01fd</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:12 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:08 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -2171,7 +2213,7 @@
       <title>2026-10-24 — DNA &amp; Dead Ends: Cracking Family Mysteries</title>
       <link>https://calendar.lancasterlibraries.org/event/dna-dead-ends-cracking-family-mysteries-180888</link>
       <guid isPermaLink="false">lancaster:discovery-776e7cd8e417288ad258723e57589458</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:11 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:07 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -2193,7 +2235,7 @@
       <title>2026-10-24 — Live Music with Songsmith at Cherry Crest Adventure Farm</title>
       <link>https://lancasterpa.com/events-calendar/cherry-crest-live-music-songsmith/</link>
       <guid isPermaLink="false">lancaster:discovery-b90d981642b3d2e7b5360e3173d5a29e</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:10 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 04:00:06 +0000</pubDate>
       <category>Events</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
@@ -2211,116 +2253,18 @@
 ]]></description>
     </item>
     <item>
-      <title>2026-10-24 to 2026-11-28 — Demuth on King Guided Tours</title>
-      <link>https://lancasterpa.com/events-calendar/demuth-on-king-guided-tours/2026-10-24/</link>
-      <guid isPermaLink="false">lancaster:discovery-9ab730b0a41094ab17677199b40498f7</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:09 +0000</pubDate>
-      <category>Engagements</category>
-      <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<div>
-  <p>Engagements: 2026-10-24 to 2026-11-28</p>
-  <p>Location: Demuth Musuem, 120 E. King Street, Lancaster, PA, 17602</p>
-  <p>Price: Not supplied by this calendar; check event details</p>
-  <p>Visit the Demuth Museum of Art on King second and fourth Saturdays at 1 pm for a guided tour! Our Demuth docents will guide you through the home and studio of Charles Demuth and talk about his life and work as they relate to each room of the house. Tours are by donation – recommended donation is $10.</p>
-  <p>This is an advertised run or a group of repeated dates, not a continuous activity. The range may be clipped to the discovery window. Check the source for the complete performance schedule.</p>
-  <p>Sat, Oct 24, 2026 — date listed; check opening/performance times</p>
-  <p>Sat, Nov 14, 2026 — date listed; check opening/performance times</p>
-  <p>Sat, Nov 28, 2026 — date listed; check opening/performance times</p>
-  <p>
-    <a href="https://lancasterpa.com/events-calendar/demuth-on-king-guided-tours/2026-10-24/">Details: LancasterPA</a>
-  </p>
-  <p>
-    <a href="https://lancasterpa.com/events-calendar/demuth-on-king-guided-tours/2026-11-14/">Details: LancasterPA</a>
-  </p>
-  <p>
-    <a href="https://lancasterpa.com/events-calendar/demuth-on-king-guided-tours/2026-11-28/">Details: LancasterPA</a>
-  </p>
-  <p>Matched interests: Preferred venue: Demuth Museum</p>
-  <p>First detected: 2026-10-18 · Adding a calendar item does not book a ticket. Imported calendar items do not automatically update.</p>
-</div>
-]]></description>
-    </item>
-    <item>
-      <title>2026-10-23 to 2026-12-11 — Octavia Blues LIVE at Thorn Hill Vineyards</title>
-      <link>https://lancasterpa.com/events-calendar/octavia-blues-live-at-thorn-hill-vineyards/2026-10-23/</link>
-      <guid isPermaLink="false">lancaster:discovery-e7300f1c55aa3e3147124e6473b61eb3</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:08 +0000</pubDate>
-      <category>Events</category>
-      <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<div>
-  <p>Events: 2026-10-23 to 2026-12-11</p>
-  <p>Location: Thorn Hill Vineyard, 1945 Fruitville Pike, Lancaster, PA, 17601</p>
-  <p>Price: Not supplied by this calendar; check event details</p>
-  <p>Join Us for a live performance with Octavia Blues! Octavia ~ World Class Harmonica At the Thorn Hill Lancaster, PA Tasting Room on Friday, October 23rd from 7 PM to 10 PM Suzuki Music USA​ and Godin Guitars endorsed Octavia is a quadruple threat! This multi-talented woman has a unique harp style coupled with powerful sultry vocals, expressive guitar playing and strong songwriting skills! Other Things To Do in Lancaster, PA for Adults Art Galleries Distilleries Escape Rooms Breweries Factory Tours Indoor Things To Do Massage and Spas Outdoor Things To Do Shooting Ranges Theaters Wineries All Things To Do in Lancaster</p>
-  <p>Fri, Oct 23, 2026 07:00 PM EDT – Fri, Oct 23, 2026 10:00 PM EDT<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-e7300f1c55aa3e3147124e6473b61eb3-20261023T230000.ics"> Add to Calendar (.ics)</a></p>
-  <p>Fri, Dec 11, 2026 07:00 PM EST – Fri, Dec 11, 2026 10:00 PM EST<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-e7300f1c55aa3e3147124e6473b61eb3-20261212T000000.ics"> Add to Calendar (.ics)</a></p>
-  <p>
-    <a href="https://lancasterpa.com/events-calendar/octavia-blues-live-at-thorn-hill-vineyards/2026-10-23/">Details: LancasterPA</a>
-  </p>
-  <p>
-    <a href="https://lancasterpa.com/events-calendar/octavia-blues-live-at-thorn-hill-vineyards/2026-12-11/">Details: LancasterPA</a>
-  </p>
-  <p>Matched interests: Title/category: Concerts, Arts</p>
-  <p>First detected: 2026-10-18 · Adding a calendar item does not book a ticket. Imported calendar items do not automatically update.</p>
-</div>
-]]></description>
-    </item>
-    <item>
-      <title>2026-10-23 — Jeffrey Gaines with Special Guest Meaghan Farrell</title>
-      <link>https://calendar.visitlancastercity.com/visitlancastercity/detail/1049/1792796400000</link>
-      <guid isPermaLink="false">lancaster:discovery-c759219131cd09fb694d7f0b784a20be</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:07 +0000</pubDate>
-      <category>Events</category>
-      <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<div>
-  <p>Events: 2026-10-23</p>
-  <p>Location: Ware Center for the Arts,42 North Prince Street, Lancaster, PA 17603, USA</p>
-  <p>Price: Not supplied by this calendar; check event details</p>
-  <p>Celebrate the best of local music with two acclaimed singer-songwriters who have deep roots in the midstate. Harrisburg native Jeffrey Gaines, revered worldwide for his soul-searching lyrics and powerful live performances, brings his decades-spanning catalog to the stage. Since bursting on the scene with his self-titled 1992 debut album, the charismatic singer-songwriter-guitarist has built a beloved body of recordings that’s won him a large and deeply devoted international fan base and earned him a place on the stage as a supporting act for Tom Petty &amp; The Heartbreakers, Tracy Chapman, and Stevie Nicks with Sheryl Crow, among others. Hailed as "the voice of a generation" by Rolling Stone, Gaines has become one of the most treasured songwriters, vocalists, and inspirations in music today. Harrisburg-born Meaghan Farrell, a singer-songwriter whose compelling voice and dynamic stage presence encourage listeners to “keep it weird,” delivers a vibrant independent sound. A match made for the atrium! Tickets: $25 Presented in partnership with WITF Music, with support from the High Foundation.</p>
-  <p>Fri, Oct 23, 2026 07:00 PM EDT – Fri, Oct 23, 2026 10:00 PM EDT<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-c759219131cd09fb694d7f0b784a20be-20261023T230000.ics"> Add to Calendar (.ics)</a></p>
-  <p>
-    <a href="https://calendar.visitlancastercity.com/visitlancastercity/detail/1049/1792796400000">Details: Visit Lancaster City</a>
-  </p>
-  <p>Matched interests: Preferred venue: Ware Center</p>
-  <p>First detected: 2026-10-18 · Adding a calendar item does not book a ticket. Imported calendar items do not automatically update.</p>
-</div>
-]]></description>
-    </item>
-    <item>
-      <title>2026-10-23 — Live Music with Mitch Gregory at Cherry Crest Adventure Farm</title>
-      <link>https://lancasterpa.com/events-calendar/cherry-crest-live-music-mitch-gregory-2/</link>
-      <guid isPermaLink="false">lancaster:discovery-6d5c73fb5c6482534dae161cb4676169</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:06 +0000</pubDate>
-      <category>Events</category>
-      <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<div>
-  <p>Events: 2026-10-23</p>
-  <p>Location: Cherry Crest Adventure Farm, 150 Cherry Hill Road, Ronks, PA, 17572</p>
-  <p>Price: Not supplied by this calendar; check event details</p>
-  <p>Check out our amazing lineup of musicians that will be performing live right here at the farm! Join us on select Friday evenings and Saturdays for toe-tapping tunes from our favorite bands. Mitch is a multi-instrumentalist playing guitar, slide guitar, the Wazinator, and is an accomplished harmonica player, and vocalist. Since the 80’s Mitch has performed through out Pennsylvania – Jazz, Blues and Rock collaborations in 2019, Mitch began entertaining as a solo performer. Mitch embarked on an eighteen month residency at the Boomerang/Harrisburg Comedy Zone focused on the blues and assembling material for his current project MITCH GREGORY BLUES. Mitch is performing Texas blues, New Orleans blues, Chicago blues, British and country blues in the styles of: Stevie Ray Vaughan, ZZ Top, BB King, Dr. John, Stray Cats, Rolling Stones, The music of Louis Jordan and much more. Additional Fun Things To Do in Lancaster? Kids’ Attractions Family Attractions Amish Attractions Things To Do for Adults Historical &amp; Educational Indoor Things To Do Theater, Music, &amp; The Arts Mud Sales Events Calendar Take a look at many more Things To Do throughout Lancaster County!</p>
-  <p>Fri, Oct 23, 2026 06:00 PM EDT – Fri, Oct 23, 2026 09:00 PM EDT<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-6d5c73fb5c6482534dae161cb4676169-20261023T220000.ics"> Add to Calendar (.ics)</a></p>
-  <p>
-    <a href="https://lancasterpa.com/events-calendar/cherry-crest-live-music-mitch-gregory-2/">Details: LancasterPA</a>
-  </p>
-  <p>Matched interests: Title/category: Concerts, Arts</p>
-  <p>First detected: 2026-10-18 · Adding a calendar item does not book a ticket. Imported calendar items do not automatically update.</p>
-</div>
-]]></description>
-    </item>
-    <item>
-      <title>2026-10-23 to 2027-01-19 — Lancaster Breakfast and History Walking Tour</title>
-      <link>https://lancasterpa.com/events-calendar/lancaster-breakfast-and-history-walking-tour/2026-10-23/</link>
+      <title>2026-10-24 to 2027-01-22 — Lancaster Breakfast and History Walking Tour</title>
+      <link>https://lancasterpa.com/events-calendar/lancaster-breakfast-and-history-walking-tour/2026-10-24/</link>
       <guid isPermaLink="false">lancaster:discovery-c1cd5d999baaaedf3167c70264d1bb50</guid>
       <pubDate>Sun, 18 Oct 2026 04:00:05 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Engagements: 2026-10-23 to 2027-01-19</p>
+  <p>Engagements: 2026-10-24 to 2027-01-22</p>
   <p>Location: Unique Lancaster, 23 N Walnut Street, Lancaster, 17603</p>
   <p>Price: Not supplied by this calendar; check event details</p>
   <p>Searching for a walking history tour in Lancaster? You’re in for a flavorful experience—literally! Introducing the Lancaster History &amp; Breakfast Walking Tour—a dynamic two-hour adventure that blends the rich heritage of one of America’s oldest inland cities with a delicious morning meal. Explore Lancaster’s vibrant streets with a professionally trained local guide and journey through time from the early 1700s through the transformative decades of the 20th century. Brought to you by Unique Lancaster Experiences, this guided walk kicks off with your choice of hot or iced coffee or tea to energize your morning. Along the way, you’ll hear engaging stories about Lancaster’s evolution as a bustling Market City and its transition from trolleys to automobiles after WWI. But this isn’t your standard history tour. You’ll dive into interactive discussions and uncover captivating insights about colonial life, architectural landmarks, and the impact of prohibition on the region. As you explore, you’ll stop at five handpicked local spots to enjoy a curated tasting menu featuring hearty breakfast sandwiches, fresh fruits, sweet pastries, and other morning favorites. Please note: This tour offers vegetarian-friendly options only. If you have other dietary needs, we recommend our International Food Tour for a better fit. Whether you’re passionate about history, love discovering new flavors, or just want a memorable way to see the city, the Lancaster History &amp; Breakfast Tour is a great choice for solo explorers, couples, and groups alike.</p>
   <p>This is an advertised run or a group of repeated dates, not a continuous activity. The range may be clipped to the discovery window. Check the source for the complete performance schedule.</p>
-  <p>Fri, Oct 23, 2026 09:00 AM EDT – Fri, Oct 23, 2026 11:00 AM EDT<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-c1cd5d999baaaedf3167c70264d1bb50-20261023T130000.ics"> Add to Calendar (.ics)</a></p>
   <p>Sat, Oct 24, 2026 09:00 AM EDT – Sat, Oct 24, 2026 11:00 AM EDT<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-c1cd5d999baaaedf3167c70264d1bb50-20261024T130000.ics"> Add to Calendar (.ics)</a></p>
   <p>Tue, Oct 27, 2026 09:00 AM EDT – Tue, Oct 27, 2026 11:00 AM EDT<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-c1cd5d999baaaedf3167c70264d1bb50-20261027T130000.ics"> Add to Calendar (.ics)</a></p>
   <p>Fri, Oct 30, 2026 09:00 AM EDT – Fri, Oct 30, 2026 11:00 AM EDT<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-c1cd5d999baaaedf3167c70264d1bb50-20261030T130000.ics"> Add to Calendar (.ics)</a></p>
@@ -2359,9 +2303,7 @@
   <p>Fri, Jan 15, 2027 09:00 AM EST – Fri, Jan 15, 2027 11:00 AM EST<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-c1cd5d999baaaedf3167c70264d1bb50-20270115T140000.ics"> Add to Calendar (.ics)</a></p>
   <p>Sat, Jan 16, 2027 09:00 AM EST – Sat, Jan 16, 2027 11:00 AM EST<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-c1cd5d999baaaedf3167c70264d1bb50-20270116T140000.ics"> Add to Calendar (.ics)</a></p>
   <p>Tue, Jan 19, 2027 09:00 AM EST – Tue, Jan 19, 2027 11:00 AM EST<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-c1cd5d999baaaedf3167c70264d1bb50-20270119T140000.ics"> Add to Calendar (.ics)</a></p>
-  <p>
-    <a href="https://lancasterpa.com/events-calendar/lancaster-breakfast-and-history-walking-tour/2026-10-23/">Details: LancasterPA</a>
-  </p>
+  <p>Fri, Jan 22, 2027 09:00 AM EST – Fri, Jan 22, 2027 11:00 AM EST<a href="https://dodsondc.github.io/lancaster-feeds/calendar/discovery-c1cd5d999baaaedf3167c70264d1bb50-20270122T140000.ics"> Add to Calendar (.ics)</a></p>
   <p>
     <a href="https://lancasterpa.com/events-calendar/lancaster-breakfast-and-history-walking-tour/2026-10-24/">Details: LancasterPA</a>
   </p>
@@ -2476,29 +2418,40 @@
   <p>
     <a href="https://lancasterpa.com/events-calendar/lancaster-breakfast-and-history-walking-tour/2027-01-19/">Details: LancasterPA</a>
   </p>
+  <p>
+    <a href="https://lancasterpa.com/events-calendar/lancaster-breakfast-and-history-walking-tour/2027-01-22/">Details: LancasterPA</a>
+  </p>
   <p>Matched interests: Title/category: Tours, History; Description: Tours</p>
   <p>First detected: 2026-10-18 · Adding a calendar item does not book a ticket. Imported calendar items do not automatically update.</p>
 </div>
 ]]></description>
     </item>
     <item>
-      <title>2026-10-23 to 2026-10-24 — Ephrata Shadows</title>
-      <link>https://lancasterpa.com/events-calendar/ephrata-shadows/</link>
-      <guid isPermaLink="false">lancaster:discovery-1ac9294231fcbb0472620462ae6a75e8</guid>
+      <title>2026-10-24 to 2026-11-28 — Demuth on King Guided Tours</title>
+      <link>https://lancasterpa.com/events-calendar/demuth-on-king-guided-tours/2026-10-24/</link>
+      <guid isPermaLink="false">lancaster:discovery-9ab730b0a41094ab17677199b40498f7</guid>
       <pubDate>Sun, 18 Oct 2026 04:00:04 +0000</pubDate>
       <category>Engagements</category>
       <description><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <div>
-  <p>Engagements: 2026-10-23 to 2026-10-24</p>
-  <p>Location: Downtown Ephrata, Ephrata, PA</p>
+  <p>Engagements: 2026-10-24 to 2026-11-28</p>
+  <p>Location: Demuth Musuem, 120 E. King Street, Lancaster, PA, 17602</p>
   <p>Price: Not supplied by this calendar; check event details</p>
-  <p>Downtown Ephrata has a few stories it has never quite finished telling. Join Mainspring of Ephrata, and the Historical Society of the Cocalico Valley, for Ephrata Shadows – a guided historical ghost tour through our downtown streets, where cloaked guides share spine-tingling tales of local legends, unexplained phenomena, and the restless spirits said to still roam the area. Along the way, your guides will share the historical facts about our buildings and the stories behind the folklore. It’s a walking tour for ages 16 and up that blends real history with the ghost stories passed down through generations – and you’ll come away knowing downtown Ephrata a little better, and maybe looking over your shoulder a little more. Two Tours to Choose from, each last about an hour and has two departures (6:30 and 8:00 PM): West End – departs from the Historical Society of the Cocalico Valley, 237-249 W. Main St., Ephrata East End – departs from Hampton Inn &amp; Suites, Ephrata Mountain Springs, 380 E. Main St., Ephrata NEW THIS YEAR – GHOST HUNT EPHRATAA real paranormal investigation experience conducted by our friends at the Paranormal Nut Podcast. Join them on site and see what turns up. Locations to be announced — watch this event for details and tickets. NOTE: This is an add-on experience that runs from 9:30-11:00 PM. PRO TIPS This is an outdoor walking tour. Wear comfortable shoes. The route includes some inclines, so please come prepared. East End tours start at the Hampton Inn, head down the hill along E. Main St. and finish back at the top of the hill at the Hampton Inn. West End tours start and end at the Historical Society. Rain or shine – please dress for the weather. Costumes? Please leave them at home. Our guides will be in black cloaks, and we’d like them easy to spot. The walking tour is a family friendly event, please use your digression for the walking tour. The Ghost Hunt is limited to ages 16 and up. Tickets: Tickets on Sale! Walking Tour Tickets $15 each Ghost Hunt tickets are $25 each. Note this is an add-on event. The tour is not included with the Ghost Hunt ticket. A limited number of tickets are available for guests without online access. Call Mainspring of Ephrata at (717) 721-6196 to reserve.Note: Groups are small and tickets are limited so that we can ensure a great experience for all of our guests.</p>
+  <p>Visit the Demuth Museum of Art on King second and fourth Saturdays at 1 pm for a guided tour! Our Demuth docents will guide you through the home and studio of Charles Demuth and talk about his life and work as they relate to each room of the house. Tours are by donation – recommended donation is $10.</p>
   <p>This is an advertised run or a group of repeated dates, not a continuous activity. The range may be clipped to the discovery window. Check the source for the complete performance schedule.</p>
-  <p>Fri, Oct 23, 2026 — date listed; check opening/performance times</p>
+  <p>Sat, Oct 24, 2026 — date listed; check opening/performance times</p>
+  <p>Sat, Nov 14, 2026 — date listed; check opening/performance times</p>
+  <p>Sat, Nov 28, 2026 — date listed; check opening/performance times</p>
   <p>
-    <a href="https://lancasterpa.com/events-calendar/ephrata-shadows/">Details: LancasterPA</a>
+    <a href="https://lancasterpa.com/events-calendar/demuth-on-king-guided-tours/2026-10-24/">Details: LancasterPA</a>
   </p>
-  <p>Matched interests: Description: Tours</p>
+  <p>
+    <a href="https://lancasterpa.com/events-calendar/demuth-on-king-guided-tours/2026-11-14/">Details: LancasterPA</a>
+  </p>
+  <p>
+    <a href="https://lancasterpa.com/events-calendar/demuth-on-king-guided-tours/2026-11-28/">Details: LancasterPA</a>
+  </p>
+  <p>Matched interests: Preferred venue: Demuth Museum</p>
   <p>First detected: 2026-10-18 · Adding a calendar item does not book a ticket. Imported calendar items do not automatically update.</p>
 </div>
 ]]></description>
