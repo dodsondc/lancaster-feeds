@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Twice daily, at 11:17 and 23:17 UTC (7:17 AM/PM EDT; 6:17 AM/PM EST).
-    - cron: '17 11,23 * * *'
+    - cron: '17 11 * * *'
   push:
     branches: [main]
     paths:
