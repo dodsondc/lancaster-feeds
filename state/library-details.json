@@ -4816,6 +4816,32 @@
         ],
         "branch": "Manheim Township"
       }
+    },
+    "209432": {
+      "checked_at": 1792890579.02072,
+      "event": {
+        "source": "Lancaster Libraries",
+        "source_id": "209432",
+        "series": "https://calendar.lancasterlibraries.org/series/game-day-reads-face-off-by-chelsea-curto-manheim-township",
+        "title": "Game Day Reads: Face Off by Chelsea Curto",
+        "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. This November, we’re kicking off the DC Stars series with Face Off by Chelsea Curto. When a fiery sports PR specialist and a brooding professional hockey player are forced to work together, sparks fly both on and off the ice. Sparks quickly turn to heat in this laugh-out-loud, rivals-to-lovers story filled with plenty of banter. Grab a copy, jump into the lineup, and join us for the discussion! Copies are available for checkout digitally on Hoopla!",
+        "categories": "Book Club",
+        "url": "https://calendar.lancasterlibraries.org/event/game-day-reads-face-chelsea-curto-209432",
+        "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+        "price": "Free",
+        "start": 1795044600,
+        "end": 1795050000,
+        "all_day": false,
+        "status": "CONFIRMED",
+        "age_groups": [
+          "Adults",
+          "Seniors"
+        ],
+        "program_types": [
+          "Book Club"
+        ],
+        "branch": "Manheim Township"
+      }
     }
   }
 }
