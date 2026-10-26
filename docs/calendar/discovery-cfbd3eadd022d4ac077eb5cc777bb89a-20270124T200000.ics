@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-cfbd3eadd022d4ac077eb5cc777bb89a-20270124T200000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20270124T200000Z
+DTEND:20270124T223000Z
+SUMMARY:Mike Albert’s Gospel Show at American Music Theatre
+DESCRIPTION:Mike Albert’s Gospel Show featuring The Stamps Quartet It’s
+  no secret “The King” loved Gospel music. In fact\, the three wins of 
+ Elvis’ 14 Grammy nominations were for Gospel recordings\, including the 
+ album How Great Thou Art. In his own special way\, the one and only Mike A
+ lbert reveals Elvis’ Gospel side. His renditions of these sacred songs a
+ re so realistic you’ll think Elvis himself has returned! Joining Mike Al
+ bert will be Gospel music legends The Stamps Quartet. Come Explore Our Lan
+ caster Theaters and the Arts Live Theater Live Entertainment Live Music Di
+ nner Theaters Murder Mysteries Things To Do Artisan Collectives Art Galler
+ ies Events Calendar\n\nPrice: Not supplied by this calendar\; check event 
+ details\n\nSchedule listed: Sun\, Jan 24\, 2027 03:00 PM EST – Sun\, Jan
+  24\, 2027 05:30 PM EST\n\nSchedule supplied by LancasterPA\n\nTimes conve
+ rted from America/New_York to UTC for calendar compatibility.\n\n\n\nRegis
+ tration: https://lancasterpa.com/events-calendar/elvis-gospel-show-america
+ n-music-theatre/\n\nAdding this calendar item does not register you. Check
+  the original listing for changes\; imported events do not automatically s
+ tay in sync.
+LOCATION:American Music Theatre\, 2425 Lincoln Highway East\, Lancaster\, P
+ A\, 17602
+URL:https://lancasterpa.com/events-calendar/elvis-gospel-show-american-musi
+ c-theatre/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

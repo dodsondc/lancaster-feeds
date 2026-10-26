@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-e160bd2229528bce192062421258bbc6-20261108T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261108T003000Z
+SUMMARY:Fall Choral Concert
+DESCRIPTION:MU Students can receive up to one (1) free ticket with a valid 
+ MU ID. MU discounts are NOT available online and must be made in-person or
+  by calling any box office location. Advanced ticket reservations are stro
+ ngly encouraged. MU discount tickets are subject to availability on the da
+ y of the event.\n\nPrice: 10.00\n\nSchedule listed: Sat\, Nov 07\, 2026 07
+ :30 PM EST — end time not published\n\nSchedule supplied by Ware / Mille
+ rsville\n\nTimes converted from America/New_York to UTC for calendar compa
+ tibility.\n\nNo ending time is published\; your calendar may apply its own
+  default duration.\n\nRegistration: https://artsmu.com/event/fall-choral-c
+ oncert-2/winter-visual-performing-arts-center/\n\nAdding this calendar ite
+ m does not register you. Check the original listing for changes\; imported
+  events do not automatically stay in sync.
+LOCATION:Winter Visual & Performing Arts Center
+URL:https://artsmu.com/event/fall-choral-concert-2/winter-visual-performing
+ -arts-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

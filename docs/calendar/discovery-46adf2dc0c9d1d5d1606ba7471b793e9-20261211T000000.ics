@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-46adf2dc0c9d1d5d1606ba7471b793e9-20261211T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261211T000000Z
+DTEND:20261211T013000Z
+SUMMARY:Monthly Club Meeting – “Wearables for Wildlife: Behind the Scen
+ es with the Evolution of Wildlife Telemetry Technologies”
+DESCRIPTION:Club Meeting – North Museum of Nature and Science\, 400 Colle
+ ge Ave\, Lancaster\, PA 17603 Presented by Club President Andy McGann Andy
+  McGann grew up birding in Southcentral Pennsylvania and his early experie
+ nces ultimately led to a career in the field of Movement Ecology. His time
+  in academia\, non-profits\, consulting\, and ultimately to a wildlife tel
+ emetry tech company spanned a timeframe that saw the science advance from 
+ analog radio telemetry to “smart devices” with GPS\, accelerometers\, 
+ and global Internet connectivity. In his career\, Andy combined his experi
+ ences in ornithology with his love of technology and appreciation for geog
+ raphy in order to help wildlife researchers and organizations around the w
+ orld obtain the scientific information needed to help conserve some of the
+  rarest birds we have left. Andy will discuss the evolution of the technol
+ ogy\, the current state-of-the-art\, and paint a picture of where we are g
+ oing.\n\nPrice: Not supplied by this calendar\; check event details\n\nSch
+ edule listed: Thu\, Dec 10\, 2026 07:00 PM EST – Thu\, Dec 10\, 2026 08:
+ 30 PM EST\n\nSchedule supplied by Lancaster County Bird Club\n\nTimes conv
+ erted from America/New_York to UTC for calendar compatibility.\n\n\n\nRegi
+ stration: https://lancasterbirdclub.org/event/monthly-club-meeting-andy-mc
+ gann/\n\nAdding this calendar item does not register you. Check the origin
+ al listing for changes\; imported events do not automatically stay in sync
+ .
+LOCATION:North Museum of Nature and Science\, 400 College Ave\, Lancaster\,
+  PA\, 17603
+URL:https://lancasterbirdclub.org/event/monthly-club-meeting-andy-mcgann/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

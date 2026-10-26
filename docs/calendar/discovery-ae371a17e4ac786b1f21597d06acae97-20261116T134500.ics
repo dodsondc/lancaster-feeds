@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-ae371a17e4ac786b1f21597d06acae97-20261116T134500@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261116T134500Z
+DTEND:20261116T223000Z
+SUMMARY:Bus Trip Excursion: Calder Gardens + Marcel Duchamp
+DESCRIPTION:Join us for a day of modern art in Philadelphia! We will explor
+ e the new Calder Gardens with a guided tour\, followed by a visit to the r
+ etrospective Marcel Duchamp exhibition at the Philadelphia Museum of Art. 
+ Price: $140 members\, $150 non-members. Very limited seating available - e
+ mail skeim@demuth.org or call (717) 299-9940 to check availability. Image:
+  Calder Gardens. Photo by Iwan Baan\n\nPrice: Not supplied by this source\
+ ; check event details\n\nSchedule listed: Mon\, Nov 16\, 2026 08:45 AM EST
+  – Mon\, Nov 16\, 2026 05:30 PM EST\n\nSchedule supplied by Demuth Museu
+ m\n\nTimes converted from America/New_York to UTC for calendar compatibili
+ ty.\n\n\n\nRegistration: https://www.demuth.org/events/bus-trip-calder-duc
+ hamp\n\nAdding this calendar item does not register you. Check the origina
+ l listing for changes\; imported events do not automatically stay in sync.
+LOCATION:Calder Gardens & Philadelphia Museum of Art\, Philadelphia\, PA
+URL:https://www.demuth.org/events/bus-trip-calder-duchamp
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

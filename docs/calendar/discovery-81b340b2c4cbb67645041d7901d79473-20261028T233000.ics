@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-81b340b2c4cbb67645041d7901d79473-20261028T233000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261028T233000Z
+SUMMARY:Octubaween!
+DESCRIPTION:Octubafest 2026 – Featuring an evening of solo and ensemble p
+ erformances by the Millersville Tuba and Euphonium Studio in addition to O
+ ctubaween music and costumes. MU Students can receive up to one (1) free t
+ icket with a valid MU ID. MU discounts are NOT available online and must b
+ e made in-person or by calling any box office location. Advanced ticket re
+ servations are strongly encouraged. MU discount tickets are subject to ava
+ ilability on the day of the event.\n\nPrice: Not supplied by this source\;
+  check event details\n\nSchedule listed: Wed\, Oct 28\, 2026 07:30 PM EDT 
+ — end time not published\n\nSchedule supplied by Ware / Millersville\n\n
+ Times converted from America/New_York to UTC for calendar compatibility.\n
+ \nNo ending time is published\; your calendar may apply its own default du
+ ration.\n\nRegistration: https://artsmu.com/event/octubaween-4/winter-visu
+ al-performing-arts-center/\n\nAdding this calendar item does not register 
+ you. Check the original listing for changes\; imported events do not autom
+ atically stay in sync.
+LOCATION:Winter Visual & Performing Arts Center
+URL:https://artsmu.com/event/octubaween-4/winter-visual-performing-arts-cen
+ ter/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

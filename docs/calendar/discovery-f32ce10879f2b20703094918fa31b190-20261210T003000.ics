@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-f32ce10879f2b20703094918fa31b190-20261210T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261210T003000Z
+SUMMARY:The Hot Sardines – Holiday Stomp
+DESCRIPTION:Wednesday\, December 9\, 2026 • 7:30 PM • Steinman Hall Jaz
+ z revivalists the Hot Sardines throw a raucous yuletide extravaganza inspi
+ red by classic holiday films (such as White Christmas and It’s a Wonderf
+ ul Life) and timeless classics\, with hat-tips to Louis Armstrong\, Edith 
+ Piaf\, Duke Ellington\, and beyond. Get your season swinging with fresh ta
+ kes on “Mistletoe and Holly\,” “Le Noël de la Rue\,” “Dance of 
+ the Sugar Plum Fairy\,” “Blue Christmas\,” “Christmas Blues\,” 
+ “White Christmas\,” “Please Come Home for Christmas\,” and more. T
+ ickets: Adults $35 • Students: $25\n\nPrice: $25 to $35\n\nSchedule list
+ ed: Wed\, Dec 09\, 2026 07:30 PM EST — end time not published\n\nSchedul
+ e supplied by Ware / Millersville\n\nTimes converted from America/New_York
+  to UTC for calendar compatibility.\n\nNo ending time is published\; your 
+ calendar may apply its own default duration.\n\nRegistration: https://arts
+ mu.com/event/the-hot-sardines-holiday-stomp/the-ware-center/\n\nAdding thi
+ s calendar item does not register you. Check the original listing for chan
+ ges\; imported events do not automatically stay in sync.
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/the-hot-sardines-holiday-stomp/the-ware-center
+ /
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

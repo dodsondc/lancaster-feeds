@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-9059b8df522a165ef606b9cd8995aad2-20261204T233000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261204T233000Z
+SUMMARY:McCaskey Combined Choirs – FREE
+DESCRIPTION:6:30 pm • Steinman Hall Celebrate the vibrant sound of the J.
+ P. McCaskey High School Combined Choirs in this free concert at the Ware C
+ enter in Lancaster. The ensemble\, made up of the McCaskey Vocal Ensemble 
+ and McCaskey Voices of Freedom\, will present a diverse program featuring 
+ both accompanied and a cappella choral music. To complement the evening’
+ s art exhibit\, the choirs will perform music from African culture\, showc
+ asing the students’ versatility and the range of musical styles they stu
+ dy throughout the school year\, including both sacred and secular music. A
+ s J.P. McCaskey High School approaches its celebration of 90 years of chor
+ al music in Lancaster\, come support these talented student singers and ex
+ perience an evening of music\, culture\, and community. Admission: Free an
+ d open to the public! Accessibility: Sensory-friendly accommodations will 
+ be available. Please get in touch with Barry Kornhauser to learn more.\n\n
+ Price: Not supplied by this source\; check event details\n\nSchedule liste
+ d: Fri\, Dec 04\, 2026 06:30 PM EST — end time not published\n\nSchedule
+  supplied by Ware / Millersville\n\nTimes converted from America/New_York 
+ to UTC for calendar compatibility.\n\nNo ending time is published\; your c
+ alendar may apply its own default duration.\n\nRegistration: https://artsm
+ u.com/event/mccaskey-combined-choirs/the-ware-center/\n\nAdding this calen
+ dar item does not register you. Check the original listing for changes\; i
+ mported events do not automatically stay in sync.
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/mccaskey-combined-choirs/the-ware-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

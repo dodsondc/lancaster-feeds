@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-ab9f4d4993e75abbe68da6a386feee76-20270120T231500@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20270120T231500Z
+SUMMARY:A Long Way to Go – FREE
+DESCRIPTION:Wednesday\, January 20\, 2027 • 7 PM • Steinman Hall Follow
+ ing three nurses from India\, the Philippines\, and Ghana who migrated to 
+ the United States\, this moving film explores the real human stories of mi
+ grant nurses who strengthen our communities with their skills while pursui
+ ng better lives for themselves and their families. 6:15 PM • Pre-show co
+ mmunity panel discussion Post-show • Q&A with director Carolyn Jones\n\n
+ Price: Not supplied by this source\; check event details\n\nSchedule liste
+ d: Wed\, Jan 20\, 2027 06:15 PM EST — end time not published\n\nSchedule
+  supplied by Ware / Millersville\n\nTimes converted from America/New_York 
+ to UTC for calendar compatibility.\n\nNo ending time is published\; your c
+ alendar may apply its own default duration.\n\nRegistration: https://artsm
+ u.com/event/a-long-way-to-go-free/the-ware-center/\n\nAdding this calendar
+  item does not register you. Check the original listing for changes\; impo
+ rted events do not automatically stay in sync.
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/a-long-way-to-go-free/the-ware-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

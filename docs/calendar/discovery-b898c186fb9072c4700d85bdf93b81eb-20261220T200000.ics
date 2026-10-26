@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-b898c186fb9072c4700d85bdf93b81eb-20261220T200000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261220T200000Z
+SUMMARY:LBBB presents “Our Best Brass Christmas”
+DESCRIPTION:Sunday\, December 20 • 3:00 PM • Steinman Hall Lancaster Br
+ itish Brass Band consists of 31 players. It draws its personnel from the f
+ our state regions of Pennsylvania\, Maryland\, Delaware and New Jersey. Or
+ iginally conceived as a top-level\, professional quality ensemble\, it inc
+ ludes among its membership professional solo and ensemble players and musi
+ c teacher/performers. The band members bring years of playing and teaching
+  experience to the organization from such diverse institutions as The Unit
+ ed States Marine Band\, and the Lancaster\, Harrisburg\, Reading and York 
+ Symphony Orchestras. Many players are currently engaged as teachers in var
+ ious public and private school venues and in such institutions of higher l
+ earning as West Chester\, Millersville and Kutztown Universities\, Lebanon
+  Valley College\, and The University of Delaware. Tickets: $25\n\nPrice: $
+ 25\n\nSchedule listed: Sun\, Dec 20\, 2026 03:00 PM EST — end time not p
+ ublished\n\nSchedule supplied by Ware / Millersville\n\nTimes converted fr
+ om America/New_York to UTC for calendar compatibility.\n\nNo ending time i
+ s published\; your calendar may apply its own default duration.\n\nRegistr
+ ation: https://artsmu.com/event/lbbb-presents-our-best-brass-christmas/the
+ -ware-center/\n\nAdding this calendar item does not register you. Check th
+ e original listing for changes\; imported events do not automatically stay
+  in sync.
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/lbbb-presents-our-best-brass-christmas/the-war
+ e-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

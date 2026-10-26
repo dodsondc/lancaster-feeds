@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-bc1622fe3e56c89e777bb5f3353358ab-20261121T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261121T150000Z
+DTEND:20261121T163000Z
+SUMMARY:Intro to Watercolor
+DESCRIPTION:Learn about Charles Demuth’s watercolors\, the basic techniqu
+ es of watercolors\, and enjoy time to make your own work of art! All mater
+ ials will be provided and all ages are welcome. Price: $20 per adult (16+)
+ \, $10 per child. Register→\n\nPrice: Not supplied by this source\; chec
+ k event details\n\nSchedule listed: Sat\, Nov 21\, 2026 10:00 AM EST – S
+ at\, Nov 21\, 2026 11:30 AM EST\n\nSchedule supplied by Demuth Museum\n\nT
+ imes converted from America/New_York to UTC for calendar compatibility.\n\
+ n\n\nRegistration: https://www.demuth.org/events/intergenerational-intro-w
+ atercolor-2026-nov\n\nAdding this calendar item does not register you. Che
+ ck the original listing for changes\; imported events do not automatically
+  stay in sync.
+LOCATION:Demuth Program Center | 116 East King Street\, 116 East King Stree
+ t\, Lancaster\, PA\, 17602
+URL:https://www.demuth.org/events/intergenerational-intro-watercolor-2026-n
+ ov
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

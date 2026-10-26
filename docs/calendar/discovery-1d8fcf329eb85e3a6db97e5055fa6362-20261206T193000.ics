@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-1d8fcf329eb85e3a6db97e5055fa6362-20261206T193000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261206T193000Z
+SUMMARY:Glorious Sounds of the Season
+DESCRIPTION:This is the 21st annual performance of Glorious Sounds of the S
+ eason\, a festive fundraiser presented by over 250 students and faculty fr
+ om MU’s Tell School of Music. Proceeds support student scholarships and 
+ program development. Traditional holiday favorites are presented alongside
+  a diverse and varied selection of world music. To create musical momentum
+  and excitement\, the concert is presented in a unique kaleidoscopic forma
+ t. Performers are placed throughout the hall — with no applause between 
+ selections — creating seamless transitions and continuous music-making. 
+ This Millersville tradition is the perfect way to get into the holiday spi
+ rit! Be sure to purchase your tickets early\, as performances often sell o
+ ut. Ticket PricesAdvanced: $30.00 Day Of: $34.00 MU Student w/ID: $5.00* *
+ MU Students will receive up to one (1) discounted ticket with a valid MU I
+ D. MU discounts are NOT available online and must be made in-person or by 
+ calling any box office location. MU discount tickets are subject to availa
+ bility on the day of the event.Advanced ticket reservations are strongly e
+ ncouraged.\n\nPrice: $30 / Day Of : $34\n\nSchedule listed: Sun\, Dec 06\,
+  2026 02:30 PM EST — end time not published\n\nSchedule supplied by Ware
+  / Millersville\n\nTimes converted from America/New_York to UTC for calend
+ ar compatibility.\n\nNo ending time is published\; your calendar may apply
+  its own default duration.\n\nRegistration: https://artsmu.com/event/glori
+ ous-sounds-of-the-season-15/winter-visual-performing-arts-center/\n\nAddin
+ g this calendar item does not register you. Check the original listing for
+  changes\; imported events do not automatically stay in sync.
+LOCATION:Winter Visual & Performing Arts Center
+URL:https://artsmu.com/event/glorious-sounds-of-the-season-15/winter-visual
+ -performing-arts-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

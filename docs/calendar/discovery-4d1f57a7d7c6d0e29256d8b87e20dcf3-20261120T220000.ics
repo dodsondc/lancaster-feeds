@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-4d1f57a7d7c6d0e29256d8b87e20dcf3-20261120T220000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261120T220000Z
+DTEND:20261121T010000Z
+SUMMARY:Deem Day + ExtraGive Celebration
+DESCRIPTION:Join us in commemoration of Charles Demuth’s Birthday during 
+ the ExtraGive! “Deem” was an affectionate nickname of Demuth’s and w
+ e’re marking this day with fun\, food\, & art for all. We are also partn
+ ering with Lancaster County Chooses Love at our Program Center (116 East K
+ ing Street) to present screenings of Amish Country Queer and a presentatio
+ n of Brady Pappas’ Tulle Queer series. Space may be limited - register o
+ nline for a spot!\n\nPrice: Not supplied by this source\; check event deta
+ ils\n\nSchedule listed: Fri\, Nov 20\, 2026 05:00 PM EST – Fri\, Nov 20\
+ , 2026 08:00 PM EST\n\nSchedule supplied by Demuth Museum\n\nTimes convert
+ ed from America/New_York to UTC for calendar compatibility.\n\n\n\nRegistr
+ ation: https://www.demuth.org/events/deem-day-2026\n\nAdding this calendar
+  item does not register you. Check the original listing for changes\; impo
+ rted events do not automatically stay in sync.
+LOCATION:Demuth on King | 120 East King Street\, 120 East King Street\, Lan
+ caster\, PA\, 17602
+URL:https://www.demuth.org/events/deem-day-2026
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-f734c4626c2e9afd329e79c7ced70815-20270108T230000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20270108T230000Z
+SUMMARY:Vision Board Workshop
+DESCRIPTION:Friday\, January 8\, 2027 • 6 pm • Atrium • All ages Set 
+ your intentions for the new year with this self-guided vision board worksh
+ op! Fire up your imagination\, grab your closest friends\, and set a cours
+ e for a year filled with purpose\, connection\, and creativity. A complime
+ ntary beverage is included with each ticket. Registration: $20 All materia
+ ls included.\n\nPrice: $20\n\nSchedule listed: Fri\, Jan 08\, 2027 06:00 P
+ M EST — end time not published\n\nSchedule supplied by Ware / Millersvil
+ le\n\nTimes converted from America/New_York to UTC for calendar compatibil
+ ity.\n\nNo ending time is published\; your calendar may apply its own defa
+ ult duration.\n\nRegistration: https://artsmu.com/event/vision-board-works
+ hop/the-ware-center/\n\nAdding this calendar item does not register you. C
+ heck the original listing for changes\; imported events do not automatical
+ ly stay in sync.
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/vision-board-workshop/the-ware-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

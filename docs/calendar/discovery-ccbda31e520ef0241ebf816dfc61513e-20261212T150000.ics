@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-ccbda31e520ef0241ebf816dfc61513e-20261212T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261212T150000Z
+DTEND:20261212T170000Z
+SUMMARY:Crafts + Cocoa
+DESCRIPTION:Join us for some holiday crafts and hot cocoa! We'll have diffe
+ rent ornament stations set up for kids to create while they sip hot cocoa 
+ and enjoy some holiday snacks & movies! Price: $10 per chlid. Children mus
+ t be accompanied by an adult. Register→ Image: Eva Stina Bender\, Still 
+ Life - White Tea Cup\, 1991\, Demuth Museum of Art\, gift of Mildred H. Mc
+ Queen\n\nPrice: Not supplied by this source\; check event details\n\nSched
+ ule listed: Sat\, Dec 12\, 2026 10:00 AM EST – Sat\, Dec 12\, 2026 12:00
+  PM EST\n\nSchedule supplied by Demuth Museum\n\nTimes converted from Amer
+ ica/New_York to UTC for calendar compatibility.\n\n\n\nRegistration: https
+ ://www.demuth.org/events/crafts-and-cocoa\n\nAdding this calendar item doe
+ s not register you. Check the original listing for changes\; imported even
+ ts do not automatically stay in sync.
+LOCATION:Demuth Program Center | 116 East King Street\, 116 East King Stree
+ t\, Lancaster
+URL:https://www.demuth.org/events/crafts-and-cocoa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

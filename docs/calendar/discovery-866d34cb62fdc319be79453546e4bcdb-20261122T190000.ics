@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-866d34cb62fdc319be79453546e4bcdb-20261122T190000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261018T171704Z
-LAST-MODIFIED:20261018T171704Z
-SEQUENCE:0
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:1
 DTSTART:20261122T190000Z
 DTEND:20261122T220000Z
 SUMMARY:Annie
@@ -19,10 +19,10 @@ DESCRIPTION:Based on the popular comic strip by Harold Gray\, Annie has bec
  e: Not supplied by this calendar\; check event details\n\nSchedule listed:
   Sun\, Nov 22\, 2026 02:00 PM EST – Sun\, Nov 22\, 2026 05:00 PM EST\n\n
  Schedule supplied by Visit Lancaster City\n\nTimes converted from America/
- New_York to UTC for calendar compatibility.\n\nRegistration: https://calen
- dar.visitlancastercity.com/visitlancastercity/detail/801/1795374000000\n\n
- Adding this calendar item does not register you. Check the original listin
- g for changes\; imported events do not automatically stay in sync.
+ New_York to UTC for calendar compatibility.\n\n\n\nRegistration: https://c
+ alendar.visitlancastercity.com/visitlancastercity/detail/801/1795374000000
+ \n\nAdding this calendar item does not register you. Check the original li
+ sting for changes\; imported events do not automatically stay in sync.
 LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
  A
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/801/1

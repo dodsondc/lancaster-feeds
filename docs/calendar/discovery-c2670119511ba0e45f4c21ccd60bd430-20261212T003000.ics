@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-c2670119511ba0e45f4c21ccd60bd430-20261212T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261212T003000Z
+SUMMARY:Rivers & Big Sky Quartet
+DESCRIPTION:Friday\, December 11\, 2026 • 7:30 PM • Atrium Treat yourse
+ lf to an evening of local folk music that feels like a cozy night around t
+ he bonfire. Born out of the simple idea to be able to play anywhere and at
+  any time\, Rivers delivers an electrifying indie-folk sound that blends a
+ coustic instrumentation with heart-thumping rhythms. Award-winning folk & 
+ roots band Big Sky Quartet weaves an uplifting live show from joyful melod
+ ies\, glowing three-part harmonies\, and truly uplifting energy. Tickets: 
+ Adults $15 • Students $15 Accessibility: There will be a pre-show touch 
+ tour for blind and low-vision patrons. Please get in touch with Barry Korn
+ hauser to learn more. Presented in partnership with WITF Music.\n\nPrice: 
+ 15.00\n\nSchedule listed: Fri\, Dec 11\, 2026 07:30 PM EST — end time no
+ t published\n\nSchedule supplied by Ware / Millersville\n\nTimes converted
+  from America/New_York to UTC for calendar compatibility.\n\nNo ending tim
+ e is published\; your calendar may apply its own default duration.\n\nRegi
+ stration: https://artsmu.com/event/rivers-big-sky-quartet/the-ware-center/
+ \n\nAdding this calendar item does not register you. Check the original li
+ sting for changes\; imported events do not automatically stay in sync.
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/rivers-big-sky-quartet/the-ware-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

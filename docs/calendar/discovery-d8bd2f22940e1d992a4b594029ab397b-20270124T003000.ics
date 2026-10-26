@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-d8bd2f22940e1d992a4b594029ab397b-20270124T003000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261025T145847Z
-LAST-MODIFIED:20261025T145847Z
-SEQUENCE:0
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:1
 DTSTART:20270124T003000Z
 DTEND:20270124T033000Z
 SUMMARY:Peter Pan Goes Wrong
@@ -19,10 +19,10 @@ DESCRIPTION:Brace yourselves for an awfully big adventure as the accident-p
  his calendar\; check event details\n\nSchedule listed: Sat\, Jan 23\, 2027
   07:30 PM EST – Sat\, Jan 23\, 2027 10:30 PM EST\n\nSchedule supplied by
   Visit Lancaster City\n\nTimes converted from America/New_York to UTC for 
- calendar compatibility.\n\nRegistration: https://calendar.visitlancasterci
- ty.com/visitlancastercity/detail/851/1800750600000\n\nAdding this calendar
-  item does not register you. Check the original listing for changes\; impo
- rted events do not automatically stay in sync.
+ calendar compatibility.\n\n\n\nRegistration: https://calendar.visitlancast
+ ercity.com/visitlancastercity/detail/851/1800750600000\n\nAdding this cale
+ ndar item does not register you. Check the original listing for changes\; 
+ imported events do not automatically stay in sync.
 LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
  A
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/851/1

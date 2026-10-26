@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-744369cc5c8e1c6310a215a223561c2a-20261108T130000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261108T130000Z
+DTEND:20261108T153000Z
+SUMMARY:Conewago Rec Trail Field Trip
+DESCRIPTION:Carl Groff will lead this easy walking field trip west along th
+ e trail with a stop at the Hershey Trust Wetlands overlook\, and then cont
+ inue west with views of open fields\, woodland\, and creeks. The walk will
+  be out and back\, probably a distance of 2-3 miles\, depending on the wis
+ hes of the group. You may turn around at any time to go back to the parkin
+ g lot. Note: You can no longer park along Rt. 743. From Lancaster take Rt.
+  283 west to the Elizabethtown Rt. 743 exit. Turn right onto Rt. 743 towar
+ ds Hershey. Go about 1/4 mile and turn right on Beverly Road. A parking ar
+ ea for the Conewago Trail is on the left side of the road at Old Trolley L
+ ine Park. There is a porta-john in the parking lot. Meet Carl at 8 a.m. in
+  the parking lot and bring water and snacks. Contact Carl at (717-471-9969
+  or fledge19@verizon.net) by 6 p.m. the day before if you have questions o
+ r would like to attend. Meeting Location: Old Trolley Line Park\, 475 Beve
+ rly Rd.\, Elizabethtown\, PA 17022 Contact: Carl Groff (717) 471-9969 or f
+ ledge19@verizon.net\n\nPrice: Not supplied by this calendar\; check event 
+ details\n\nSchedule listed: Sun\, Nov 08\, 2026 08:00 AM EST – Sun\, Nov
+  08\, 2026 10:30 AM EST\n\nSchedule supplied by Lancaster County Bird Club
+ \n\nTimes converted from America/New_York to UTC for calendar compatibilit
+ y.\n\n\n\nRegistration: https://lancasterbirdclub.org/event/conewago-rec-t
+ rail-field-trip/\n\nAdding this calendar item does not register you. Check
+  the original listing for changes\; imported events do not automatically s
+ tay in sync.
+LOCATION:Old Trolley Line Park (Meetup Location)\, 475 Beverly Rd.\, Elizab
+ ethtown\, PA\, 17022
+URL:https://lancasterbirdclub.org/event/conewago-rec-trail-field-trip/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-bd218f07c8a10f719f3d8803a117f320-20261219T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261219T003000Z
+SUMMARY:Tommy Dorsey Orchestra – Sentimental for the Season
+DESCRIPTION:Friday\, December 18\, 2026 • 7:30 PM • Steinman Hall In Bi
+ g Band history\, the Tommy Dorsey Orchestra is recognized as one of the be
+ st all-around dance bands—it could swing with the best of them\, and no 
+ other band could come close to Tommy’s when it came to creating warm\, s
+ entimental ballads. Today’s one and only Tommy Dorsey Orchestra continue
+ s this great tradition. Experience explosive Big Band entertainment at its
+  finest with this swinging show featuring holiday tunes and traditional fa
+ vorites. Tickets: Adults $27 • Students: $19\n\nPrice: $19 to $27\n\nSch
+ edule listed: Fri\, Dec 18\, 2026 07:30 PM EST — end time not published\
+ n\nSchedule supplied by Ware / Millersville\n\nTimes converted from Americ
+ a/New_York to UTC for calendar compatibility.\n\nNo ending time is publish
+ ed\; your calendar may apply its own default duration.\n\nRegistration: ht
+ tps://artsmu.com/event/tommy-dorsey-orchestra-sentimental-for-the-season/t
+ he-ware-center/\n\nAdding this calendar item does not register you. Check 
+ the original listing for changes\; imported events do not automatically st
+ ay in sync.
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/tommy-dorsey-orchestra-sentimental-for-the-sea
+ son/the-ware-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

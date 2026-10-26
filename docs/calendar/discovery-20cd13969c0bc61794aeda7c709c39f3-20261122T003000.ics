@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-20cd13969c0bc61794aeda7c709c39f3-20261122T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261122T003000Z
+SUMMARY:Fall Orchestra Concert
+DESCRIPTION:MU Students can receive up to one (1) free ticket with a valid 
+ MU ID. MU discounts are NOT available online and must be made in-person or
+  by calling any box office location. Advanced ticket reservations are stro
+ ngly encouraged. MU discount tickets are subject to availability on the da
+ y of the event.\n\nPrice: $10\n\nSchedule listed: Sat\, Nov 21\, 2026 07:3
+ 0 PM EST — end time not published\n\nSchedule supplied by Ware / Millers
+ ville\n\nTimes converted from America/New_York to UTC for calendar compati
+ bility.\n\nNo ending time is published\; your calendar may apply its own d
+ efault duration.\n\nRegistration: https://artsmu.com/event/fall-orchestra-
+ concert/winter-visual-performing-arts-center/\n\nAdding this calendar item
+  does not register you. Check the original listing for changes\; imported 
+ events do not automatically stay in sync.
+LOCATION:Winter Visual & Performing Arts Center
+URL:https://artsmu.com/event/fall-orchestra-concert/winter-visual-performin
+ g-arts-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

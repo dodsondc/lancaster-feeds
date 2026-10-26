@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-544412c2f9dcfef8d9aa0560904b8ea6-20261107T190000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261107T190000Z
+SUMMARY:Rock of Ages
+DESCRIPTION:University Theatre presents Rock of Ages\, the hit musical feat
+ uring live music and classic songs by Styx\, Journey\, Bon Jovi\, Whitesna
+ ke\, Twisted Sister\, and more. It is the tail end of the 1980s on Hollywo
+ od’s Sunset Strip\, where aspiring rock star Drew dreams of taking the s
+ tage and falling in love with Sherrie\, a small-town girl newly arrived in
+  Los Angeles. When developers threaten to replace the Strip’s legendary 
+ rock venues with a shopping complex\, Drew\, Sherrie\, and an unforgettabl
+ e group of musicians\, dreamers\, and devoted rock fans must come together
+  to save their beloved neighborhood. Packed with iconic songs\, big person
+ alities\, and plenty of 1980s energy\, Rock of Ages is a celebration of dr
+ eams\, determination\, and the music that defined a generation. MU Student
+ s can purchase up to one (1) discounted ticket for $5.00 with a valid MU I
+ D. MU Discounts are NOT available online and must be purchased in-person o
+ r by calling any box office location. Venue has limited seating capacity. 
+ Advanced ticket reservations are strongly encouraged. MU Discount tickets 
+ are subject to availability at the door.\n\nPrice: $12 to $15\n\nSchedule 
+ listed: Sat\, Nov 07\, 2026 02:00 PM EST — end time not published\n\nSch
+ edule supplied by Ware / Millersville\n\nTimes converted from America/New_
+ York to UTC for calendar compatibility.\n\nNo ending time is published\; y
+ our calendar may apply its own default duration.\n\nRegistration: https://
+ artsmu.com/event/rock-of-ages-6/winter-visual-performing-arts-center/\n\nA
+ dding this calendar item does not register you. Check the original listing
+  for changes\; imported events do not automatically stay in sync.
+LOCATION:Winter Visual & Performing Arts Center
+URL:https://artsmu.com/event/rock-of-ages-6/winter-visual-performing-arts-c
+ enter/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-51522b2a07faf51037a15eadc0ae868d-20261204T223000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261204T223000Z
+DTEND:20261205T010000Z
+SUMMARY:First Friday Caroling
+DESCRIPTION:Join us at the Demuth Museum of Art on Lime for caroling by loc
+ al students! Stop by at 5:30 pm to enjoy the Penn Manor High School Chorus
+ \, and 7 pm for the Manheim Township Troubadours. Explore the artwork on v
+ iew in our special exhibition\, John David Wissler: I Often Find Myself Th
+ ere.\n\nPrice: Not supplied by this source\; check event details\n\nSchedu
+ le listed: Fri\, Dec 04\, 2026 05:30 PM EST – Fri\, Dec 04\, 2026 08:00 
+ PM EST\n\nSchedule supplied by Demuth Museum\n\nTimes converted from Ameri
+ ca/New_York to UTC for calendar compatibility.\n\n\n\nRegistration: https:
+ //www.demuth.org/events/first-friday-caroling\n\nAdding this calendar item
+  does not register you. Check the original listing for changes\; imported 
+ events do not automatically stay in sync.
+LOCATION:Demuth on Lime | 135 North Lime Street\, 135 North Lime Street\, L
+ ancaster
+URL:https://www.demuth.org/events/first-friday-caroling
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

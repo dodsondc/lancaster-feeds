@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-6531005867cd12d5d111ef10e208d502-20261029T223000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261029T223000Z
+DTEND:20261030T000000Z
+SUMMARY:Lancaster Art History Panel
+DESCRIPTION:Lancaster has a rich and dynamic visual arts community. For cen
+ turies\, artists have found inspiration and community here. Join us for a 
+ panel discussion that explores the artists\, patrons\, and businesses that
+  have helped shape today's arts scene. This event is free and open to all 
+ through generous support from Art Bridges. RSVPs appreciated - please fill
+  out your information through the form below. Thank you! Image: William Ea
+ rly\, Lancaster Landscape II\, 1969\, Demuth Museum of Art\, gift of the a
+ rtist\n\nPrice: Not supplied by this source\; check event details\n\nSched
+ ule listed: Thu\, Oct 29\, 2026 06:30 PM EDT – Thu\, Oct 29\, 2026 08:00
+  PM EDT\n\nSchedule supplied by Demuth Museum\n\nTimes converted from Amer
+ ica/New_York to UTC for calendar compatibility.\n\n\n\nRegistration: https
+ ://www.demuth.org/events/art-history-panel\n\nAdding this calendar item do
+ es not register you. Check the original listing for changes\; imported eve
+ nts do not automatically stay in sync.
+LOCATION:West Art Sanctuary\, 816 Buchanan Avenue\, Lancaster\, PA\, 17603
+URL:https://www.demuth.org/events/art-history-panel
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

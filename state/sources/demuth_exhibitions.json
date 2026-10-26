@@ -1,0 +1,73 @@
+{
+  "checked_at": 1793023660.25101,
+  "events": [
+    {
+      "source": "Demuth Exhibitions",
+      "source_id": "6a63740e399644364f9398b9",
+      "series": "https://www.demuth.org/exhibitions/sfpn-2026",
+      "title": "Strictly Functional Pottery National",
+      "url": "https://www.demuth.org/exhibitions/sfpn-2026",
+      "description": "Since its founding in 1993, Strictly Functional Pottery National (SFPN) has been recognized as one of the top ceramic exhibitions in the country. The first of its kind, SFPN provides an opportunity for functional pots to receive a much deserved spotlight. Every year, SFPN proudly features some of the most talented ceramic artists from across the United States. More information and artwork sales can be found on the SFPN website. Image: Pascal Chmelar, Group of Sugar Pots",
+      "categories": "",
+      "start": 1789826400,
+      "end": 1793476800,
+      "location": "Demuth on Lime | 135 North Lime Street, 135 North Lime Street, Lancaster, PA, 17602",
+      "price": "Not supplied by this source; check event details",
+      "all_day": true,
+      "end_known": true,
+      "status": "CONFIRMED",
+      "direct": true
+    },
+    {
+      "source": "Demuth Exhibitions",
+      "source_id": "6ab2b22cb3e5de0e5b658f5b",
+      "series": "https://www.demuth.org/exhibitions/permanent-collection-2026",
+      "title": "Permanent Collection Highlights",
+      "url": "https://www.demuth.org/exhibitions/permanent-collection-2026",
+      "description": "Explore a selection of works from the Demuth’s full permanent collection, on view in our special exhibition gallery at the Demuth Museum of Art on King. Selections of artwork by Charles Demuth will also be on view throughout the museum, focusing on queer culture highlighted in works such as Village of Provincetown and Two Sailors.",
+      "categories": "",
+      "start": 1791036000,
+      "end": 1797800400,
+      "location": "Demuth on King | 120 East King Street, 120 East King Street, Lancaster, PA, 17602",
+      "price": "Not supplied by this source; check event details",
+      "all_day": true,
+      "end_known": true,
+      "status": "CONFIRMED",
+      "direct": true
+    },
+    {
+      "source": "Demuth Exhibitions",
+      "source_id": "6ac919ad4e57800fa913c959",
+      "series": "https://www.demuth.org/exhibitions/jd-wissler",
+      "title": "John David Wissler: I Often Find Myself There",
+      "url": "https://www.demuth.org/exhibitions/jd-wissler",
+      "description": "Honoring the life of artist John David (JD) Wissler, this special exhibition will highlight the artist’s evocative landscape paintings, including those inspired by his final trip to Maine. Join us for the opening reception on Friday, November 13 from 5 - 8 pm! Image: JD Wissler, Untitled, n.d., oil on panel",
+      "categories": "",
+      "start": 1794668400,
+      "end": 1797800400,
+      "location": "Demuth on Lime | 135 North Lime Street, 135 North Lime Street, Lancaster",
+      "price": "Not supplied by this source; check event details",
+      "all_day": true,
+      "end_known": true,
+      "status": "CONFIRMED",
+      "direct": true
+    },
+    {
+      "source": "Demuth Exhibitions",
+      "source_id": "6ac91ae0dfd0892516a4c5c6",
+      "series": "https://www.demuth.org/exhibitions/pcad-2026",
+      "title": "Fine Art Seniors of PCA&D",
+      "url": "https://www.demuth.org/exhibitions/pcad-2026",
+      "description": "This special one-weekend exhibition at the Demuth Program Center features a collection of work by Fine Art seniors at the Pennsylvania College of Art & Design. Join us for the opening reception on Friday, December 4 from 5 - 8 pm! Hours for this exhibition are Friday, December 4, 5 - 8 pm; Saturday, December 5, 10 am - 4 pm; and Sunday, December 6, 12 pm - 4 pm.",
+      "categories": "",
+      "start": 1796421600,
+      "end": 1796590800,
+      "location": "Demuth Program Center | 116 East King Street, 116 East King Street, Lancaster, PA, 17602",
+      "price": "Not supplied by this source; check event details",
+      "all_day": true,
+      "end_known": true,
+      "status": "CONFIRMED",
+      "direct": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-cba913b71419df30b14fa2d9fab94bcb-20261121T190000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261026T140740Z
+LAST-MODIFIED:20261026T140740Z
+SEQUENCE:0
+DTSTART:20261121T190000Z
+SUMMARY:Les Misérables In Concert
+DESCRIPTION:The All-Campus Musical Organization (ACMO) presents Les Miséra
+ bles In Concert. MU Students can purchase up to one (1) discounted ticket 
+ for $5.00 with a valid MU ID. MU Discounts are NOT available online and mu
+ st be purchased in-person or by calling any box office location. Venue has
+  limited seating capacity. Advanced ticket reservations are strongly encou
+ raged. MU Discount tickets are subject to availability at the door.\n\nPri
+ ce: Not supplied by this source\; check event details\n\nSchedule listed: 
+ Sat\, Nov 21\, 2026 02:00 PM EST — end time not published\n\nSchedule su
+ pplied by Ware / Millersville\n\nTimes converted from America/New_York to 
+ UTC for calendar compatibility.\n\nNo ending time is published\; your cale
+ ndar may apply its own default duration.\n\nRegistration: https://artsmu.c
+ om/event/les-mis%c3%a9rables-in-concert/winter-visual-performing-arts-cent
+ er/\n\nAdding this calendar item does not register you. Check the original
+  listing for changes\; imported events do not automatically stay in sync.
+LOCATION:Winter Visual & Performing Arts Center
+URL:https://artsmu.com/event/les-mis%c3%a9rables-in-concert/winter-visual-p
+ erforming-arts-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
