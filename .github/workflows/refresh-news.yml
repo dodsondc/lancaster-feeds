@@ -3,7 +3,7 @@ name: Refresh Lancaster feeds
 on:
   workflow_dispatch:
   schedule:
-    # Twice daily, at 11:17 and 23:17 UTC (7:17 AM/PM EDT; 6:17 AM/PM EST).
+    # Daily at 11:17 UTC (7:17 AM EDT; 6:17 AM EST).
     - cron: '17 11 * * *'
   push:
     branches: [main]
@@ -53,6 +53,7 @@ jobs:
           Rscript tests/test-conservancy.R
           Rscript tests/test-discoveries.R
           Rscript tests/test-libraries.R
+          Rscript tests/test-direct-sources.R
       - name: Collect sources and build RSS
         id: collect
         env:
@@ -75,6 +76,9 @@ jobs:
           fi
           if [ -f lancaster_discoveries.xml ]; then
             git add lancaster_discoveries.xml discovery-review.csv
+          fi
+          if [ -f source-health.csv ]; then
+            git add source-health.csv
           fi
           if [ -d docs ]; then
             git add --all -- docs
