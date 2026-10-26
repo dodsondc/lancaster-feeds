@@ -9,7 +9,9 @@ discovery_text <- function(x) {
   # Some source fields are double-encoded (e.g. Root&amp;#8217;s).
   x <- x[1]
   for (i in seq_len(3L)) {
-    decoded <- html_text2(read_html(paste0("<div>", x, "</div>")))
+    doc <- read_html(paste0("<div>", x, "</div>"))
+    xml_remove(html_elements(doc,"script, style, noscript"))
+    decoded <- html_text2(doc)
     if (identical(decoded,x)) break
     x <- decoded
     if (!grepl("&(#?[a-zA-Z0-9]+);",x)) break
@@ -33,6 +35,7 @@ discovery_match <- function(e, prefs) {
     if(!is.null(policy))return(policy)
   }
   matches <- function(pattern, text) nzchar(pattern) && grepl(pattern, text, ignore.case=TRUE, perl=TRUE)
+  if(isTRUE(e$direct)&&matches("^private event$|^closed (to the public|event)$",trimws(e$title)))return(list(keep=FALSE,reason="Private event"))
   if (matches(prefs$always_exclude_title,e$title)) return(list(keep=FALSE,reason="Explicit exclusion"))
   if (matches(prefs$always_include_title,e$title)) return(list(keep=TRUE,reason="Explicit inclusion"))
   venue_text <- paste(discovery_key(e$location), discovery_key(e$title))
@@ -50,6 +53,7 @@ discovery_match <- function(e, prefs) {
     found<-names(topics)[vapply(topics,matches,logical(1),text=text)]
     if(length(found))return(list(keep=TRUE,reason=paste("Library topic:",paste(found,collapse=", "))))
   }
+  if(isTRUE(e$direct))return(list(keep=TRUE,reason=paste("Selected direct source:",e$source)))
   primary <- paste(e$title, e$categories)
   hits <- names(prefs$interests)[vapply(prefs$interests,matches,logical(1),text=primary)]
   description_hits <- names(prefs$description_interests)[vapply(prefs$description_interests,matches,logical(1),text=e$description)]
@@ -135,13 +139,23 @@ fetch_discovery_pa <- function(today, through, get_json=function(url) resp_body_
 
 # Merge only exact normalized titles at a known matching venue. A single-source
 # series ID also joins occurrences. No fuzzy title or geographic inference.
+discovery_title_key <- function(e,prefs) {
+  title<-discovery_key(e$title)
+  title<-sub("^we the people first friday +","",title)
+  title<-sub(" +free$","",title)
+  venue<-discovery_venue(e$location,prefs)
+  suffix<-paste0(" at ",venue)
+  if(nzchar(venue)&&endsWith(title,suffix))title<-substr(title,1,nchar(title)-nchar(suffix))
+  title
+}
 group_discoveries <- function(events,prefs) {
   groups <- list()
   for(e in events) {
     e$venue_key <- discovery_venue(e$location,prefs)
+    e$group_title_key <- discovery_title_key(e,prefs)
     candidates <- which(vapply(groups,function(g) {
       same_series <- any(vapply(g,function(x) identical(x$source,e$source)&&identical(x$series,e$series),logical(1)))
-      same_named <- nzchar(e$venue_key)&&identical(discovery_key(g[[1]]$title),discovery_key(e$title))&&identical(g[[1]]$venue_key,e$venue_key)
+      same_named <- nzchar(e$venue_key)&&identical(g[[1]]$group_title_key,e$group_title_key)&&identical(g[[1]]$venue_key,e$venue_key)
       # Different sources must have overlapping advertised dates to merge.
       overlap <- any(vapply(g,function(x)x$start<=e$end&&e$start<=x$end,logical(1)))
       same_series || (same_named && (overlap || all(vapply(g,function(x)identical(x$source,e$source),logical(1)))))
@@ -167,10 +181,14 @@ build_discoveries <- function(events,prefs,now,old=list()) {
   }
   groups<-group_discoveries(selected,prefs); result<-list()
   for(g in groups) {
+    g<-lapply(g,function(e){e$group_title_key<-NULL;e})
     # Stable key for a source series. Preserve prior identity when an additional
     # source appears or a source's current occurrence rolls forward.
     member_keys<-unique(vapply(g,function(e)paste(e$source,e$series,sep="|"),character(1)))
     previous<-Filter(function(e)length(intersect(unlist(e$member_keys),member_keys))>0L,old)
+    # A production run may match several older occurrence groups. Reuse the
+    # earliest existing story rather than create another identity.
+    if(length(previous)>1L)previous<-previous[order(vapply(previous,`[[`,numeric(1),"first_seen"),names(previous))]
     id<-if(length(previous))previous[[1]]$id else {
       key<-sort(member_keys)[1]
       # Base R's MD5 utility avoids another dependency and has stable UTF-8 input.
@@ -178,9 +196,9 @@ build_discoveries <- function(events,prefs,now,old=list()) {
     }
     starts<-vapply(g,`[[`,numeric(1),"start");ends<-vapply(g,`[[`,numeric(1),"end")
     # Prefer the richer source for description, but retain all original links.
-    rank<-order(vapply(g,function(e)nchar(e$description),integer(1)),decreasing=TRUE);e<-g[[rank[1]]]
+    rank<-order(vapply(g,function(e)isTRUE(e$direct),logical(1)),vapply(g,function(e)nchar(e$description),integer(1)),decreasing=TRUE);e<-g[[rank[1]]]
     # Deduplicate identical performances reported by two sources.
-    ordered_g<-g[order(vapply(g,`[[`,logical(1),"all_day"),-vapply(g,function(x)nchar(x$description),integer(1)))]
+    ordered_g<-g[order(vapply(g,`[[`,logical(1),"all_day"),-as.integer(vapply(g,function(x)isTRUE(x$direct),logical(1))),-vapply(g,function(x)nchar(x$description),integer(1)))]
     occurrences<-list()
     for(o in ordered_g) {
       duplicate<-any(vapply(occurrences,function(x) {
@@ -192,7 +210,7 @@ build_discoveries <- function(events,prefs,now,old=list()) {
     }
     occurrences<-occurrences[order(vapply(occurrences,`[[`,numeric(1),"start"))]
     prices<-unique(vapply(g,`[[`,character(1),"price"));known<-prices[!startsWith(prices,"Not supplied")]
-    if(length(known))e$price<-paste(known,collapse="; ")
+    if(length(known)&&(!isTRUE(e$direct)||startsWith(e$price,"Not supplied")))e$price<-paste(known,collapse="; ")
     span<-any(ends-starts>24*3600)
     kind<-if(span||length(occurrences)>=3L)"Engagements" else "Events"
     # Two performances stay separate selectable dates within one short listing.
@@ -214,7 +232,7 @@ build_discoveries <- function(events,prefs,now,old=list()) {
 
 discovery_when <- function(e) {
   local<-function(t)format(as.POSIXct(t,origin="1970-01-01",tz="America/New_York"),"%a, %b %d, %Y %I:%M %p %Z")
-  if(e$all_day) paste(format(as.POSIXct(e$start,origin="1970-01-01",tz="America/New_York"),"%a, %b %d, %Y"),"— date listed; check opening/performance times") else paste(local(e$start),"–",local(e$end))
+  if(e$all_day) paste(format(as.POSIXct(e$start,origin="1970-01-01",tz="America/New_York"),"%a, %b %d, %Y"),"— date listed; check opening/performance times") else if(identical(e$end_known,FALSE))paste(local(e$start),"— end time not published") else paste(local(e$start),"–",local(e$end))
 }
 
 write_discovery_rss <- function(events,path,root) {
@@ -225,7 +243,7 @@ write_discovery_rss <- function(events,path,root) {
   rss<-xml_new_root("rss",version="2.0");channel<-xml_add_child(rss,"channel")
   xml_add_child(channel,"title","Lancaster Discoveries — Events & Engagements")
   xml_add_child(channel,"link","https://visitlancastercity.com/calendar/")
-  xml_add_child(channel,"description","Personal keyword-filtered discoveries from Visit Lancaster City, LancasterPA, and Lancaster County libraries. Sources overlap and coverage is incomplete. Dates sort by detection day, then event start; RSS seconds are ordering values.")
+  xml_add_child(channel,"description","Personal keyword-filtered discoveries from official arts/nature organizations, Visit Lancaster City, LancasterPA, and Lancaster County libraries. Sources overlap and coverage is incomplete. Dates sort by detection day, then event start; RSS seconds are ordering values.")
   xml_add_child(channel,"language","en-us")
   ordered<-order_feed_records(events,function(e)e$start)
   for(e in ordered) {
@@ -244,7 +262,7 @@ write_discovery_rss <- function(events,path,root) {
       o<-e$occurrences[[i]];p<-xml_add_child(body,"p",discovery_when(o))
       # Never offer a multi-week calendar block, nor interpret 'all day' as a
       # verified performance time. Only explicit, <=24h timings get calendar links.
-      if(!o$all_day && o$end>o$start && o$end-o$start<=24*3600) {
+      if(!o$all_day && (o$end>o$start||identical(o$end_known,FALSE)) && o$end-o$start<=24*3600) {
         stamp<-format(as.POSIXct(o$start,origin="1970-01-01",tz="UTC"),"%Y%m%dT%H%M%S")
         o$id<-paste0(e$id,"-",stamp);o$first_seen<-e$first_seen;o$updated_at<-e$updated_at;o$sequence<-e$sequence
         o$event_date<-day(o$start);o$raw_date<-discovery_when(o);o$date_source<-paste("Schedule supplied by",o$source)
@@ -265,19 +283,31 @@ collect_discoveries <- function(root,now=as.numeric(Sys.time())) {
   prefs<-discovery_preferences
   today<-as.Date(format(as.POSIXct(now,origin="1970-01-01",tz="America/New_York"),"%Y-%m-%d"))
   path<-file.path(root,"state","discoveries.json")
-  old<-if(file.exists(path))read_json(path,simplifyVector=FALSE)$items else list()
-  # Fetch all sources successfully before replacing anything. An empty filtered
-  # result is legitimate; an empty/broken source is a visible collection failure.
-  city<-parse_discovery_city(resp_body_xml(fetch_page(discovery_city_url)))
-  pa<-parse_discovery_pa(fetch_discovery_pa(today,today+prefs$horizon_days))
-  libraries<-fetch_library_events(root,today,today+prefs$horizon_days,prefs,now=now)
-  built<-build_discoveries(c(city,pa,libraries),prefs,now,old)
+  history<-if(file.exists(path))read_json(path,simplifyVector=FALSE) else list()
+  old<-if(is.null(history$items))list() else history$items
+  checked_at<-if(is.null(history$last_checked))now else history$last_checked
+  for(pair in list(c("city","Visit Lancaster City"),c("pa","LancasterPA"),c("libraries","Lancaster Libraries")))seed_source_cache(pair[1],pair[2],root,old,checked_at)
+  # Each source keeps its own last successful records. A failed source cannot
+  # freeze healthy sources or silently erase its previously known upcoming items.
+  safe<-function(id,name,fn)collect_source_safely(id,name,root,now,fn)
+  source_results<-list(
+    city=safe("city","Visit Lancaster City",function()parse_discovery_city(resp_body_xml(fetch_page(discovery_city_url)))),
+    pa=safe("pa","LancasterPA",function()parse_discovery_pa(fetch_discovery_pa(today,today+prefs$horizon_days))),
+    libraries=safe("libraries","Lancaster Libraries",function()fetch_library_events(root,today,today+prefs$horizon_days,prefs,now=now)))
+  source_results<-c(source_results,collect_direct_sources(root,today,today+prefs$horizon_days,now))
+  records<-unlist(lapply(source_results,`[[`,"events"),recursive=FALSE)
+  health<-do.call(rbind,lapply(source_results,`[[`,"health"))
+  write.csv(health,file.path(root,"source-health.csv"),row.names=FALSE,na="")
+  if(!length(records))stop("No source data available; previous feed retained")
+  built<-build_discoveries(records,prefs,now,old)
   write_discovery_rss(built$events,file.path(root,"lancaster_discoveries.xml"),root)
   write.csv(built$audit,file.path(root,"discovery-review.csv"),row.names=FALSE,na="")
   # Retain identity history for a year, including temporarily missing listings.
   cache<-old;for(id in names(built$events))cache[[id]]<-built$events[[id]]
   cache<-Filter(function(e)e$end>=publication_time(as.character(today-365L)),cache)
   atomic_json(list(version=1L,last_checked=now,items=cache),path)
-  message("Discoveries: ",length(city)," city records + ",length(pa)," LancasterPA records + ",length(libraries)," library records → ",length(built$events)," filtered listings")
+  message("Discoveries: ",length(records)," source records → ",length(built$events)," filtered listings")
+  failed<-health$source[health$status!="ok"]
+  if(length(failed))stop("Feed published with source failures (see source-health.csv): ",paste(failed,collapse=", "))
   invisible(built)
 }

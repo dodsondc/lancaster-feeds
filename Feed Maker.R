@@ -12,6 +12,7 @@ source(file.path(root, "R", "conservancy.R"))
 source(file.path(root, "R", "discovery-preferences.R"))
 source(file.path(root, "R", "discoveries.R"))
 source(file.path(root, "R", "libraries.R"))
+source(file.path(root, "R", "direct-sources.R"))
 # Independent collectors: a document-page failure should not prevent news updates.
 failures <- character()
 for (collector in c("collect_township_news", "collect_meeting_documents", "collect_conservancy_events", "collect_discoveries")) {

@@ -2,6 +2,7 @@
 # Titles/categories and descriptions have separate patterns; venue rules take priority.
 discovery_preferences <- list(
   horizon_days = 90L,
+  direct_sources = c("ware", "prima", "demuth", "demuth_exhibitions", "fulton", "epac", "servant", "mickey", "birdclub"),
   libraries = list(
     include_everyone = TRUE,
     on_site_only = TRUE,
@@ -64,6 +65,8 @@ discovery_preferences <- list(
   always_include_title = "",
   always_exclude_title = "",
   # Verified aliases only, for matching differently named venues across sources.
-  venue_aliases = c("ware center for the arts" = "ware center", "the ware center" = "ware center",
+  venue_aliases = c("prima" = "prima theatre", "epac" = "ephrata performing arts center",
+    "demuth musuem" = "demuth on king", "demuth museum" = "demuth on king",
+    "demuth on king 120 east king street" = "demuth on king", "demuth on lime 135 north lime street" = "demuth on lime","ware center for the arts" = "ware center", "the ware center" = "ware center",
     "historic rock ford plantation" = "historic rock ford", "rock ford plantation" = "historic rock ford")
 )

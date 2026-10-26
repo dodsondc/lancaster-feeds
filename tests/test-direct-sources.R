@@ -1,0 +1,46 @@
+source('R/news.R');source('R/conservancy.R');source('R/discovery-preferences.R');source('R/discoveries.R');source('R/direct-sources.R')
+local_day<-function(t)format(as.POSIXct(t,origin='1970-01-01',tz='America/New_York'),'%Y-%m-%d %H:%M:%S')
+r<-direct_date_range('October 30–November 1, 2026')
+stopifnot(local_day(r$start)=='2026-10-30 00:00:00',local_day(r$end)=='2026-11-01 23:59:59')
+r<-direct_date_range('December 28 - January 3, 2027')
+stopifnot(substr(local_day(r$start),1,10)=='2026-12-28',substr(local_day(r$end),1,10)=='2027-01-03')
+stopifnot(inherits(try(direct_date_range('November 20'),silent=TRUE),'try-error'))
+stopifnot(direct_performance_excerpt('Ages 10-16\nJanuary 3-21 (Rehearsals)\nJanuary 22-24 (Performances)')=='January 22-24',direct_performance_excerpt('Rehearsals: January 3-28\nPerformances: January 29 - February 7')=='January 29 - February 7')
+ware<-function(title='Heartland Marimba Festival – FREE',date='Friday, November 6, 2026',category='Performing Arts',body='A concert.',timing='Doors: 6pm | Begins: 7pm')read_html(paste0('<div id="RhpEventsSingle"><div id="eventTitle"><h1>',title,'</h1></div><div class="eventStDate">',date,'</div><div class="eventTagLine">',category,'</div><div class="singleEventDescription">',body,'</div><div class="eventDoorStartDate">',timing,'</div><a class="venueLink">The Ware Center</a><div class="eventCost">Free</div></div>'))
+e<-parse_direct_ware(ware(),'https://example.org/marimba')
+stopifnot(!e$all_day,!e$end_known,e$start==e$end,local_day(e$start)=='2026-11-06 19:00:00')
+ex<-parse_direct_ware(ware('Prison Portrait Project','Friday, October 2, 2026','Gallery Exhibit','October 2–30: Portraits.'),'https://example.org/gallery')
+stopifnot(ex$all_day,substr(local_day(ex$end),1,10)=='2026-10-30')
+# The direct event enriches an existing aggregator story without changing its GUID.
+now<-publication_time('2026-10-26T12:00:00-04:00')
+a<-e;a$direct<-FALSE;a$source<-'Visit Lancaster City';a$series<-'city-marimba';a$url<-'https://example.org/city';a$title<-'We the People First Friday: Heartland Marimba Festival';a$location<-'Ware Center for the Arts';a$end<-a$start+3600;a$price<-'$99'
+before<-build_discoveries(list(a),discovery_preferences,now-86400)
+after<-build_discoveries(list(a,e),discovery_preferences,now,before$events)
+stopifnot(length(after$events)==1L,identical(names(before$events),names(after$events)),after$events[[1]]$first_seen==now-86400,after$events[[1]]$price=='Free',!after$events[[1]]$occurrences[[1]]$end_known)
+root<-tempfile();dir.create(root)
+write_discovery_rss(after$events,file.path(root,'feed.xml'),root)
+ics<-readLines(list.files(file.path(root,'docs','calendar'),full.names=TRUE)[1])
+stopifnot(any(grepl('DTSTART:20261107T000000Z',ics,fixed=TRUE)),!any(startsWith(ics,'DTEND')),grepl('end time not published',discovery_when(e),fixed=TRUE))
+# A source failure retains its own last good records without blocking others.
+z<-collect_source_safely('ware','Ware',root,now,function()list(e))
+z2<-collect_source_safely('ware','Ware',root,now+1,function()stop('Fixture failure'))
+stopifnot(z$health$status=='ok',z2$health$status=='stale',length(z2$events)==1L,z2$events[[1]]$title==e$title)
+z3<-collect_source_safely('new','New',root,now,function()stop('Fixture failure'))
+stopifnot(z3$health$status=='failed',length(z3$events)==0L)
+seed_source_cache('city','Visit Lancaster City',root,before$events,now-86400)
+migrated<-collect_source_safely('city','Visit Lancaster City',root,now,function()stop('Upgrade fixture failure'))
+stopifnot(migrated$health$status=='stale',length(migrated$events)==1L,migrated$events[[1]]$series=='city-marimba')
+private<-e;private$title<-'Private Event';stopifnot(!discovery_match(private,discovery_preferences)$keep)
+stopifnot(discovery_text('<style>bad css</style><p>Good text</p><script>bad script</script>')=='Good text')
+# Explicit season years place January in the next year, regardless of run date.
+cfg<-direct_source_registry()$fulton
+page<-read_html('<body><h1>2026/2027 Season</h1><div class="show-tile"><span class="ft-screen-reader">Annie</span><div class="show-tile__dates">November 20 - December 31</div><a href="https://example.org/shows/annie/">More Info</a></div><div class="show-tile"><span class="ft-screen-reader">Peter Pan</span><div class="show-tile__dates">January 22 - February 14</div><a href="https://example.org/shows/pan/">More Info</a></div></body>')
+shows<-parse_direct_fulton(page,cfg,function(url)read_html('<div class="basic-text__text_rich">A musical production.</div>'))
+stopifnot(substr(local_day(shows[[1]]$start),1,10)=='2026-11-20',substr(local_day(shows[[2]]$start),1,10)=='2027-01-22')
+# Both parenthetical and prefix performance labels survive nested strong/br HTML.
+cfg<-direct_source_registry()$servant
+card<-'<div class="summary-item"><a class="summary-title-link" href="/shows/2027/honk">Honk! JR</a><div class="summary-excerpt"><p><strong>Ages 10-16</strong><br><strong>January 3-21 (Rehearsals)<br>January 22-24 (Performances)</strong></p></div></div>'
+shows<-fetch_direct_servant(cfg,function(url)if(identical(url,cfg$url))list(mainContent=card) else list(item=list(id='honk',body='Public performances.')))
+stopifnot(substr(local_day(shows[[1]]$start),1,10)=='2027-01-22',substr(local_day(shows[[1]]$end),1,10)=='2027-01-24')
+unlink(root,recursive=TRUE)
+cat('Direct-source tests passed: date ranges/DST, rehearsal exclusion, start-only calendars, enrichment/deduplication, stable identity, source failure fallback, and season years.\n')

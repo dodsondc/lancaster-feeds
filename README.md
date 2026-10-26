@@ -46,7 +46,7 @@ Keep the state file when moving to GitHub. Removing it resets fallback collectio
    This is the subscription URL. GitHub Pages is not needed.
 7. On your iPhone, open NetNewsWire, choose Add Feed, and paste the raw URL. Verify that it shows Lancaster Township News and opens article/document links correctly.
 
-The workflow checks at 11:17 and 23:17 UTC daily: 7:17 AM/PM Eastern daylight time, or 6:17 AM/PM Eastern standard time. GitHub scheduling and reader refreshes can be delayed. It can also be run manually. Each successful run commits collection state, recording activity even when there is no new story. GitHub can disable schedules in public repositories after 60 days without repository activity; re-enable under Actions if needed.
+The workflow checks once daily at 11:17 UTC: 7:17 AM Eastern daylight time, or 6:17 AM Eastern standard time. GitHub scheduling and reader refreshes can be delayed. It can also be run manually. Each successful run commits collection state, recording activity even when there is no new story. GitHub can disable schedules in public repositories after 60 days without repository activity; re-enable under Actions if needed.
 
 Keep GitHub failure notifications enabled. No failure emails are sent by this code itself. A green local test does not prove that the GitHub workflow has run; verify the first cloud run and the public URL.
 
@@ -179,6 +179,7 @@ source('R/conservancy.R')
 source('R/discovery-preferences.R')
 source('R/discoveries.R')
 source('R/libraries.R')
+source('R/direct-sources.R')
 collect_discoveries(getwd())  # working directory must be this project
 ```
 
@@ -230,6 +231,59 @@ No price is assumed to be free when the source omits it.
 
 The first library collection can take several minutes. `state/library-details.json`
 is a disposable detail cache; `state/discoveries.json` preserves reader identities.
-A library source/parsing failure retains the previous discovery feed and reports a
-failure rather than publishing an incomplete collection. All other independent
+A source/parsing failure uses that source’s last successful records and reports a
+failure, while healthy sources continue to update. All other independent
 collectors still run. Test with `Rscript tests/test-libraries.R`.
+
+
+Direct arts and nature sources
+-----------------------------
+
+`R/direct-sources.R` adds Ware/Millersville (including Winter Center campus
+performances), Prima Theatre, Fulton Theatre, Mickey’s Black Box, Demuth events
+and exhibitions, Ephrata Performing Arts Center, Servant Stage, and Lancaster
+County Bird Club to the same Discoveries feed. These are the first direct-source
+batch; the regional venue shortlist and other nature organizations are not yet
+implemented. CRC/Facebook remains outside this collector.
+
+Choose sources using `direct_sources` in `R/discovery-preferences.R`. Direct
+sources are eligible without a keyword match, subject to explicit exclusions,
+venue exclusions, and the dance-title rule (preferred venues still override that
+rule). Private-event listings are omitted. Youth performances are public theatre
+productions; library youth audience restrictions apply only to library programs.
+The existing 90-day window remains in effect and includes ongoing engagements.
+
+Ware RSS supplies discovery links; each event page supplies its actual date,
+start time, description, venue, and price. Announcements beyond the window are
+excluded. Ware’s gallery description can supply an exhibition range instead of
+only opening night. Prima/Demuth use public Squarespace calendar JSON;
+Mickey’s/Bird Club use their public Events Calendar API. Fulton uses its explicit
+season years; EPAC uses advertised season/special-event ranges. Servant Stage
+uses performance dates, excluding rehearsal and camp-only notices. Touring
+locations and individual show times remain in the description/source when a
+single reliable structured itinerary is unavailable. No ticket purchase platform
+account is needed. Prices omitted by a source remain unknown.
+
+Matching titles and known venue aliases with overlapping dates merge across
+sources. A few documented title variations (FREE suffix, First Friday prefix,
+and a matching venue suffix) are normalized; there is no general fuzzy matching.
+Direct source details take priority, all source links remain, and an existing
+story’s GUID/detection date is retained when it gains a new source. Deduplication
+cannot resolve every differently named event. Repeated dates/runs become one
+engagement, with discrete calendar links only for published timed occurrences.
+Ware often publishes a start time without an end; those .ics files omit DTEND,
+and the reader is told their calendar may apply a default duration. Multiweek
+runs never become continuous calendar blocks. Calendar files imported earlier
+do not automatically update.
+
+`state/sources/*.json` preserves each source’s last successful parsed records;
+`source-health.csv` reports ok/stale/failed and collection errors. A failed source
+uses its last good records, while healthy sources still publish; the workflow
+reports failure so the problem is visible. On a first run without any source
+history, an unavailable new source contributes no items. Public HTTP responses
+are cached for 18 hours under ignored `.cache/direct-http/`; this disposable
+cache is not uploaded. The daily workflow runs at 11:17 UTC. Do not replace
+GitHub’s `state/` directory with an older local copy when uploading this update.
+
+Run all six scripts under `tests/test-*.R`, including
+`Rscript tests/test-direct-sources.R`, for offline regression checks.

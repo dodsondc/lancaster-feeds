@@ -137,11 +137,12 @@ write_event_ics <- function(event, path) {
   description <- paste(event$description, paste("Price:",event$price),
     paste("Schedule listed:",event$raw_date), event$date_source,
     if (!timed) "Date reminder only: time has not been announced. This is not an all-day activity." else "Times converted from America/New_York to UTC for calendar compatibility.",
+    if(identical(event$end_known,FALSE))"No ending time is published; your calendar may apply its own default duration." else NULL,
     paste("Registration:",event$url), "Adding this calendar item does not register you. Check the original listing for changes; imported events do not automatically stay in sync.",sep="\n\n")
   lines <- c("BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Lancaster Community Feeds//Conservancy Events//EN", "CALSCALE:GREGORIAN",
     "BEGIN:VEVENT",paste0("UID:",event$id,"@lancaster-feeds.dodsondc.github.io"),
     paste0("DTSTAMP:",utc(event$updated_at)),paste0("LAST-MODIFIED:",utc(event$updated_at)),paste0("SEQUENCE:",event$sequence),
-    if(timed) c(paste0("DTSTART:",utc(event$start)),paste0("DTEND:",utc(event$end))) else c(paste0("DTSTART;VALUE=DATE:",gsub("-","",event$event_date)),paste0("DTEND;VALUE=DATE:",format(as.Date(event$event_date)+1,"%Y%m%d"))),
+    if(timed) c(paste0("DTSTART:",utc(event$start)),if(!identical(event$end_known,FALSE))paste0("DTEND:",utc(event$end))) else c(paste0("DTSTART;VALUE=DATE:",gsub("-","",event$event_date)),paste0("DTEND;VALUE=DATE:",format(as.Date(event$event_date)+1,"%Y%m%d"))),
     paste0("SUMMARY:",ics_escape(summary)),paste0("DESCRIPTION:",ics_escape(description)),
     paste0("LOCATION:",ics_escape(event$location)),paste0("URL:",event$url),
     paste0("STATUS:",event$status),"TRANSP:TRANSPARENT","END:VEVENT","END:VCALENDAR")
