@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793023660.25101,
+  "checked_at": 1793119244.4945,
   "events": [
     {
       "source": "LancasterPA",
@@ -11058,6 +11058,21 @@
     },
     {
       "source": "LancasterPA",
+      "source_id": "10049356",
+      "series": "https://lancasterpa.com/events-calendar/lancaster-central-market/",
+      "title": "Lancaster Central Market",
+      "description": "For almost 300 years people have been coming together to meet at Market to enjoy the freshest local food, ready-made unique dishes and flavors from all over, and special finds you can only get at Lancaster Central Market. Our building is a historic structure with history and beauty around every corner located in the heart of downtown Lancaster. Additional Shopping & Fun Things To Do in Lancaster? Amish Products Consignment and Thrift Shops Farmers Markets Furniture Quilt Supplies and Fabrics Gifts & Collectibles Theater, Music, & the Arts Kids’ Attractions Adults & Couples Railroad Attractions Historical & Educational Zip-Lines Events Calendar",
+      "categories": "Farmers Markets, Food & Beverage Events, Lancaster City, Shopping",
+      "url": "https://lancasterpa.com/events-calendar/lancaster-central-market/2028-10-27/",
+      "location": "Lancaster Central Market, 23 North Market St, Lancaster, 17603",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1856257200,
+      "end": 1856286000,
+      "all_day": false,
+      "status": "CONFIRMED"
+    },
+    {
+      "source": "LancasterPA",
       "source_id": "10046335",
       "series": "https://lancasterpa.com/events-calendar/roots-country-market-and-auction/",
       "title": "Roots Country Market and Auction",
@@ -16528,6 +16543,21 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1855605600,
       "end": 1855612800,
+      "all_day": false,
+      "status": "CONFIRMED"
+    },
+    {
+      "source": "LancasterPA",
+      "source_id": "10050788",
+      "series": "https://lancasterpa.com/events-calendar/plough-restaurant-live-music/",
+      "title": "Live Jazz at Plough Restaurant",
+      "description": "Live jazz and a smooth cocktail – sounds like a vibe ???????? Live music 6PM-8PM. Join us at the bar or reserve a table via OpenTable!",
+      "categories": "Food & Beverage Events, Lancaster City, Live Music, Musical Events",
+      "url": "https://lancasterpa.com/events-calendar/plough-restaurant-live-music/2028-10-26/",
+      "location": "Plough Restaurant, 25 S Queen St, Lancaster City",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1856210400,
+      "end": 1856217600,
       "all_day": false,
       "status": "CONFIRMED"
     },

@@ -1,146 +1,6 @@
 {
-  "checked_at": 1793023660.25101,
+  "checked_at": 1793119244.4945,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "187731",
-      "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
-      "title": "PA 211 Resource Table",
-      "description": "PA 211 staff will provide easily accessible walk-up assistance in the library's front lobby. Assistance includes information and referrals for a broad range of services: childcare, after-school programs, food banks, elder care, basic needs, health services, and more. PA 211 staff can also provide housing and homelessness intake screenings for residents of Berks and Lancaster counties. Monday, Wednesday, Thursday: 9am-5pm First Thursday: 9am-3:30pm",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/pa-211-resource-table-187731",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793019600,
-      "end": 1793048400,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "206497",
-      "series": "https://calendar.lancasterlibraries.org/series/vote-yes-for-libraries-just-the-facts-lancaster",
-      "title": "Vote Yes for Libraries: Just the Facts",
-      "description": "On November 3, Lancaster County voters will decide whether to enact a countywide Library tax. There is a lot of misinformation circulating about the proposed Library tax. At this information session, you’ll receive accurate information about the proposed Library tax, including what it means for library services, taxes, and more. Each of the four events will present the same information. 📅 Saturday, October 17 at 10AM 📅 Thursday, October 22 at 6PM 📅 Monday, October 26 at 12PM 📅 Friday, October 30 at 9:30AM Additionally, we will host three information sessions at the Mountville Branch. 📅 Friday, October 16 at 10:30AM 📅 Saturday, October 24 at 12PM 📅 Thursday, October 29 at 6PM",
-      "categories": "Community, Presentation",
-      "url": "https://calendar.lancasterlibraries.org/event/vote-yes-libraries-just-facts-206497",
-      "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793030400,
-      "end": 1793034000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Presentation"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "197076",
-      "series": "https://calendar.lancasterlibraries.org/series/mtpl-plant-swap-manheim-township",
-      "title": "MTPL Plant Swap!",
-      "description": "🌱 MANHEIM TOWNSHIP PUBLIC LIBRARY PLANT SWAP & GARDENING PROGRAM 🌱 Whether you’re a seasoned plant parent or just looking to grow your collection, join us at the Manheim Township Public Library for a double dose of plant fun! Start by refreshing your garden at our community plant swap, and stay right after for an exciting, free gardening program to learn the secrets hidden in your landscape. How the Swap Works: Give One, Get One: Bring a healthy, pest-free plant (potted or a rooted cutting in a jar) to the swap table and take home a new green friend! 🌿🪴 Share the Knowledge: Feel free to attach care instructions or ID tags so the new owner knows how to help their new sprout thrive. Branch Out: Meet fellow local gardeners and swap expert tips along with your plants! Bonus Program Right After! Stick around immediately following the swap for The Treachery of Botany: Poisonous Garden Plants, a free, eye-opening session on identifying and managing hidden plant hazards in your landscape. Bring a plant, pick up a new favorite, and gain the know-how to keep your botanical sanctuary thriving and safe!",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/mtpl-plant-swap-197076",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793049300,
-      "end": 1793052000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "195825",
-      "series": "https://calendar.lancasterlibraries.org/series/the-treachery-of-botany-poisonous-garden-plants-manheim-township",
-      "title": "The Treachery of Botany: Poisonous Garden Plants",
-      "description": "🌿 BEAUTY OR BANE? THE SECRET LIFE OF YOUR GARDEN 💀 Vibrant lavender and mauve blossoms sway in the breeze while butterflies dip and dance above. With every rustle of foliage, delicate white buds flash in the sunlight. It’s the ultimate dream landscape—an idyllic, peaceful sanctuary designed for pure relaxation. But look closer. Hidden within this botanical paradise, unexpected danger might be lurking right in plain sight. Is that vivid red berry harmless or a hazard? What secret is that unusual violet flower stalk hiding? Could your pet's favorite sunbathing spot be surrounded by toxic greenery? Uncover the truth behind the beauty! Join speakers Cynthia Trussell, Indigo Bowser, and Kathy Vu of the Penn State Master Gardeners for The Treachery of Botany: Poisonous Garden Plants. In this eye-opening 45-minute presentation (followed by a Q&A session), you'll learn how to identify ordinary, uncommon, cultivated, and wild poisonous plants in your landscape-- discover what makes them tick, and master easy, practical ways to manage them safely. Keep your loved ones safe while keeping your sanctuary gorgeous. Don't miss it-- turn your garden into a true, worry-free paradise!",
-      "categories": "Community, Discussion, Presentation",
-      "url": "https://calendar.lancasterlibraries.org/event/reserved-program-195825",
-      "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793052000,
-      "end": 1793058300,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Discussion",
-        "Presentation"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "176855",
-      "series": "https://calendar.lancasterlibraries.org/series/swoon-squad-a-romance-tbr-book-club-manheim-township",
-      "title": "Swoon Squad: A Romance TBR Book Club",
-      "description": "Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ June 29 - ⚔️Enemies to Lovers ⚔️ July 27 - 🥰😠Grumpy/Sunshine😠🥰 August 31 - 🏆Sports Romance🏆 September 28 - 📖Academic Romance📖 October 26 - 🧛Paranormal Romance🧛 November 30 - 🛏️Forced Proximity🛏️ December 28 - 🎁Holiday Romance🎁",
-      "categories": "Book Club",
-      "url": "https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-176855",
-      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793052000,
-      "end": 1793059200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Book Club"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "176803",
-      "series": "https://calendar.lancasterlibraries.org/series/modern-monsters-a-horror-book-club-manheim-township",
-      "title": "Modern Monsters: A Horror Book Club",
-      "description": "Join us third Mondays of the month to dive into the most talked-about, chilling, and boundary-pushing books in the genre today. From haunted houses with a twist to supernatural slashers and cultural folk horror, we’re exploring the new classics that are keeping readers up at night. Come for the scares, stay for the survival strategies. June 15 - How to Sell a Haunted House by Grady Hendrix July 20 - My Heart is a Chainsaw by Stephen Grahm Jones August 17 - Bad Cree by Jessica Johns September 21 - We Used to Live Here by Marcus Kliewer October 19 - The Last House on Needless Street by Catriona Ward November 16 - The Reformatory by Tananarive Due December 21 - The Eyes are the Best Part by Monika Kim",
-      "categories": "Book Club",
-      "url": "https://calendar.lancasterlibraries.org/event/modern-monsters-horror-book-club-176803",
-      "location": "Manheim Township Library, MTP Study Room #119, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793053800,
-      "end": 1793059200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Book Club"
-      ],
-      "branch": "Manheim Township"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "152985",
@@ -162,30 +22,6 @@
       ],
       "program_types": [],
       "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "201158",
-      "series": "https://calendar.lancasterlibraries.org/event/read-therapy-dog-201158",
-      "title": "Read with a Therapy Dog",
-      "description": "All ages are welcome to read, relax, or simply sit and chat with a certified therapy dog. Register for a 15-minute session with Carly or Lily and their trainer, Madison.",
-      "categories": "",
-      "url": "https://calendar.lancasterlibraries.org/event/read-therapy-dog-201158",
-      "location": "Strasburg-Heisler Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793073600,
-      "end": 1793159999,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Toddlers",
-        "Children",
-        "Tweens",
-        "Teens",
-        "Everyone"
-      ],
-      "program_types": [],
-      "branch": "Strasburg-Heisler"
     },
     {
       "source": "Lancaster Libraries",
@@ -3058,6 +2894,29 @@
       ],
       "program_types": [],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "209792",
+      "series": "https://calendar.lancasterlibraries.org/series/reserved-for-as-program-manheim-township",
+      "title": "*reserved for AS program*",
+      "description": "mental health program !",
+      "categories": "Health & Wellness",
+      "url": "https://calendar.lancasterlibraries.org/event/reserved-program-209792",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1796770800,
+      "end": 1796777100,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Health & Wellness"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
