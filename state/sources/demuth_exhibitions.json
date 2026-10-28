@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793119244.4945,
+  "checked_at": 1793207475.10791,
   "events": [
     {
       "source": "Demuth Exhibitions",
@@ -29,6 +29,23 @@
       "start": 1791036000,
       "end": 1797800400,
       "location": "Demuth on King | 120 East King Street, 120 East King Street, Lancaster, PA, 17602",
+      "price": "Not supplied by this source; check event details",
+      "all_day": true,
+      "end_known": true,
+      "status": "CONFIRMED",
+      "direct": true
+    },
+    {
+      "source": "Demuth Exhibitions",
+      "source_id": "6ae0e183abcef827622015c1",
+      "series": "https://www.demuth.org/exhibitions/closed-nov-2026",
+      "title": "Demuth on Lime - Closed for Installation",
+      "url": "https://www.demuth.org/exhibitions/closed-nov-2026",
+      "description": "The Demuth Museum of Art on Lime is closed for installation from November 1 - 12, 2026. We will reopen with a reception for John David Wissler: I Often Find Myself There on Friday, November 13 from 5 - 8 pm. All are welcome to attend!",
+      "categories": "",
+      "start": 1793545200,
+      "end": 1794520800,
+      "location": "Demuth on Lime | 135 North Lime Street, 135 North Lime Street, Lancaster, PA, 17602",
       "price": "Not supplied by this source; check event details",
       "all_day": true,
       "end_known": true,

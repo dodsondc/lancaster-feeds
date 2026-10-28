@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-fc7b275ebb68ea8e7e740bf5562794f0-20261123T233000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261028T171115Z
+LAST-MODIFIED:20261028T171115Z
+SEQUENCE:0
+DTSTART:20261123T233000Z
+DTEND:20261124T010000Z
+SUMMARY:BYOB (Bring Your Own Book) Bedazzling Workshop
+DESCRIPTION:Give your favorite read a glow-up! Join us at the library for a
+ n evening of turning ordinary book covers into bedazzled masterpieces. Bri
+ ng a friend\, swap design ideas\, and leave with a one-of-a-kind statement
+  piece that will make your bookshelf pop! You bring the book\; we'll provi
+ de the supplies. ✨Space is limited! Register today!✨\n\nPrice: Free\n\
+ nSchedule listed: Mon\, Nov 23\, 2026 06:30 PM EST – Mon\, Nov 23\, 2026
+  08:00 PM EST\n\nSchedule supplied by Lancaster Libraries\n\nTimes convert
+ ed from America/New_York to UTC for calendar compatibility.\n\n\n\nRegistr
+ ation: https://calendar.lancasterlibraries.org/event/byob-bring-your-own-b
+ ook-bedazzling-workshop-210108\n\nAdding this calendar item does not regis
+ ter you. Check the original listing for changes\; imported events do not a
+ utomatically stay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center C\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/byob-bring-your-own-book-
+ bedazzling-workshop-210108
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

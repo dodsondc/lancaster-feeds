@@ -1,75 +1,6 @@
 {
-  "checked_at": 1793119244.4945,
+  "checked_at": 1793207475.10791,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "152985",
-      "series": "https://calendar.lancasterlibraries.org/event/careerlink-qa-table-152985",
-      "title": "CareerLink Q&A Table",
-      "description": "Get help with your job search by visiting the CareerLink table in the library lobby every Tuesday between 10AM and 5PM. A CareerLink representative will be on site to help patrons with their career and job search n",
-      "categories": "",
-      "url": "https://calendar.lancasterlibraries.org/event/careerlink-qa-table-152985",
-      "location": "Lancaster Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793073600,
-      "end": 1793159999,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Teens",
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "194312",
-      "series": "https://calendar.lancasterlibraries.org/series/tuesday-matinee-halloween-classics-manheim-township",
-      "title": "Tuesday Matinee: Halloween Classics",
-      "description": "Take a break and get cozy at the library! Join us every Tuesday afternoon at 1pm for a seasonally spooky movie on the big screen Oct 6: The Haunting (1963) Oct 13: Beetlejuice Oct 20: Addams Family Oct 27: Ghostbusters Registration is not required!",
-      "categories": "Movie & Film",
-      "url": "https://calendar.lancasterlibraries.org/event/tuesday-matinee-halloween-classics-194312",
-      "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793120400,
-      "end": 1793128500,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Movie & Film"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "194340",
-      "series": "https://calendar.lancasterlibraries.org/series/survive-the-outbreak-zombie-emergency-preparedness-manheim-township",
-      "title": "Survive the Outbreak: Zombie Emergency Preparedness!",
-      "description": "The sirens sound, the news breaks, and there’s a zombie at the door... 🚨🧟‍♂️ What’s your next move?! Survive the Outbreak: Zombie Emergency Preparedness! ⚡ Think you have what it takes to survive the undead? Join Fire Chief Scott Little & the Lancaster County Emergency Management Service to test your wits against a zombie apocalypse while mastering real-world emergency skills! Learn how a trusty flashlight protects you from lurking walkers and sudden power outages, build the ultimate disaster go-bag for hordes or hurricanes, and master off-grid communication. Gear up for interactive survival scenarios and leave with an airtight plan to keep your family safe no matter what strikes! Registration is Encouraged",
-      "categories": "Community, Presentation",
-      "url": "https://calendar.lancasterlibraries.org/event/survive-outbreak-zombie-emergency-preparedness-194340",
-      "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793138400,
-      "end": 1793144700,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Presentation"
-      ],
-      "branch": "Manheim Township"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "187732",
@@ -91,30 +22,6 @@
         "Community"
       ],
       "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "165068",
-      "series": "https://calendar.lancasterlibraries.org/series/morning-mahjong-manheim-township",
-      "title": "Morning Mahjong",
-      "description": "🀄️✨Join us for a morning of strategy, skill, and socializing! 🀄️✨ Whether you are a seasoned pro or a newcomer looking to practice, come enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 10-1 in Morgan Center C. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event! This program is for adults ages +18",
-      "categories": "Community, Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/morning-mahjong-165068",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793196000,
-      "end": 1793206800,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -587,6 +494,29 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "205569",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-205569",
+      "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1793831400,
+      "end": 1793839500,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "198218",
       "series": "https://calendar.lancasterlibraries.org/series/game-of-tomes-fantasy-book-club-lancaster",
       "title": "Game of Tomes Fantasy Book Club",
@@ -967,7 +897,30 @@
       "description": "Are you a fan of Dungeons & Dragons, murder mysteries, or social deduction games like Mafia and Werewolf? Join us in the Morgan Center for an evening of deception, logic, and strategy as we play Blood on the Clocktower! In this highly interactive, community-oriented game, players are divided into secret teams of good villagers and evil demons. You must use your wits, converse in secret huddles, and deduce who to trust- and who is lying to your face- before evil takes over the village. Whether you are a seasoned tabletop gamer or completely new to social deduction games, all skill levels are welcome! Experienced local players will act as the \"Storytellers\" to guide everyone through the rules and run the game. Registration is required as player slots are strictly limited to ensure a smooth game. Please register to secure your spot in the circle! This program is for ages 18+",
       "categories": "Gaming",
       "url": "https://calendar.lancasterlibraries.org/event/adult-game-night-blood-clocktower-206597",
-      "location": "Manheim Township Library, MTP Morgan Center BC, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1794436200,
+      "end": 1794444300,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "210028",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-210028",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
       "price": "Free",
       "start": 1794436200,
       "end": 1794444300,
@@ -1516,6 +1469,29 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "210029",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-210029",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1795041000,
+      "end": 1795049100,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "153032",
       "series": "https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster",
       "title": "Bad Art Club",
@@ -1569,7 +1545,7 @@
       "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. This November, we’re kicking off the DC Stars series with Face Off by Chelsea Curto. When a fiery sports PR specialist and a brooding professional hockey player are forced to work together, sparks fly both on and off the ice. Sparks quickly turn to heat in this laugh-out-loud, rivals-to-lovers story filled with plenty of banter. Grab a copy, jump into the lineup, and join us for the discussion! Copies are available for checkout digitally on Hoopla!",
       "categories": "Book Club",
       "url": "https://calendar.lancasterlibraries.org/event/game-day-reads-face-chelsea-curto-209432",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "location": "Manheim Township Library, MTP Lapp Story Silo, 595 Granite Run Drive,  Lancaster, PA, 17601",
       "price": "Free",
       "start": 1795044600,
       "end": 1795050000,
@@ -1914,6 +1890,29 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "210108",
+      "series": "https://calendar.lancasterlibraries.org/series/byob-bring-your-own-book-bedazzling-workshop-manheim-township",
+      "title": "BYOB (Bring Your Own Book) Bedazzling Workshop",
+      "description": "Give your favorite read a glow-up! Join us at the library for an evening of turning ordinary book covers into bedazzled masterpieces. Bring a friend, swap design ideas, and leave with a one-of-a-kind statement piece that will make your bookshelf pop! You bring the book; we'll provide the supplies. ✨Space is limited! Register today!✨",
+      "categories": "Arts & Crafts",
+      "url": "https://calendar.lancasterlibraries.org/event/byob-bring-your-own-book-bedazzling-workshop-210108",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1795476600,
+      "end": 1795482000,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Arts & Crafts"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "152989",
       "series": "https://calendar.lancasterlibraries.org/event/careerlink-qa-table-152989",
       "title": "CareerLink Q&A Table",
@@ -2051,9 +2050,9 @@
     {
       "source": "Lancaster Libraries",
       "source_id": "181456",
-      "series": "https://calendar.lancasterlibraries.org/series/boost-your-public-speaking-with-conestoga-toastmasters-manheim-township",
-      "title": "Boost Your Public Speaking with Conestoga Toastmasters",
-      "description": "Ready to conquer your fear of public speaking? Join us for a four-week Speechcraft workshop presented by Conestoga Toastmasters. Designed for adults of all experience levels, this hands-on course will help you build confidence, improve your presentation skills, and master effective communication in a supportive environment! Registration is required as space is limited; please plan to attend all four sessions.",
+      "series": "https://calendar.lancasterlibraries.org/series/find-your-voice-4-weeks-to-fearless-public-speaking-manheim-township",
+      "title": "Find Your Voice: 4 Weeks to Fearless Public Speaking",
+      "description": "Fear of public speaking holding you back? Change that in just four weeks! Presented by Conestoga Toastmasters, this hands-on workshop gives you the tools, practice, and practical feedback you need to speak with clarity and confidence-- in meetings, presentations, and everyday life. Workshop Schedule: Session 1: Nov 28 Session 2: Dec 5 Session 3: Dec 12 Session 4: Dec 19 Space is strictly limited. Registration is required, and participants must commit to all four sessions. Grab your spot today and take the first step toward effortless communication!",
       "categories": "Business & Career",
       "url": "https://calendar.lancasterlibraries.org/event/boost-your-public-speaking-conestoga-toastmasters-181456",
       "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
@@ -2380,6 +2379,29 @@
       "categories": "Gaming",
       "url": "https://calendar.lancasterlibraries.org/event/adult-game-night-blood-clocktower-206598",
       "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1796250600,
+      "end": 1796258700,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "210030",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-210030",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
       "price": "Free",
       "start": 1796250600,
       "end": 1796258700,
@@ -2737,9 +2759,9 @@
     {
       "source": "Lancaster Libraries",
       "source_id": "181457",
-      "series": "https://calendar.lancasterlibraries.org/series/boost-your-public-speaking-with-conestoga-toastmasters-manheim-township",
-      "title": "Boost Your Public Speaking with Conestoga Toastmasters",
-      "description": "Ready to conquer your fear of public speaking? Join us for a four-week Speechcraft workshop presented by Conestoga Toastmasters. Designed for adults of all experience levels, this hands-on course will help you build confidence, improve your presentation skills, and master effective communication in a supportive environment! Registration is required as space is limited; please plan to attend all four sessions.",
+      "series": "https://calendar.lancasterlibraries.org/series/find-your-voice-4-weeks-to-fearless-public-speaking-manheim-township",
+      "title": "Find Your Voice: 4 Weeks to Fearless Public Speaking",
+      "description": "Fear of public speaking holding you back? Change that in just four weeks! Presented by Conestoga Toastmasters, this hands-on workshop gives you the tools, practice, and practical feedback you need to speak with clarity and confidence-- in meetings, presentations, and everyday life. Workshop Schedule: Session 1: Nov 28 Session 2: Dec 5 Session 3: Dec 12 Session 4: Dec 19 Space is strictly limited. Registration is required, and participants must commit to all four sessions. Grab your spot today and take the first step toward effortless communication!",
       "categories": "Business & Career",
       "url": "https://calendar.lancasterlibraries.org/event/boost-your-public-speaking-conestoga-toastmasters-181457",
       "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
@@ -3189,6 +3211,29 @@
         "Community"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "181458",
+      "series": "https://calendar.lancasterlibraries.org/series/find-your-voice-4-weeks-to-fearless-public-speaking-manheim-township",
+      "title": "Find Your Voice: 4 Weeks to Fearless Public Speaking",
+      "description": "Fear of public speaking holding you back? Change that in just four weeks! Presented by Conestoga Toastmasters, this hands-on workshop gives you the tools, practice, and practical feedback you need to speak with clarity and confidence-- in meetings, presentations, and everyday life. Workshop Schedule: Session 1: Nov 28 Session 2: Dec 5 Session 3: Dec 12 Session 4: Dec 19 Space is strictly limited. Registration is required, and participants must commit to all four sessions. Grab your spot today and take the first step toward effortless communication!",
+      "categories": "Business & Career",
+      "url": "https://calendar.lancasterlibraries.org/event/boost-your-public-speaking-conestoga-toastmasters-181458",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1797087600,
+      "end": 1797094800,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Business & Career"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3704,6 +3749,29 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "181459",
+      "series": "https://calendar.lancasterlibraries.org/series/find-your-voice-4-weeks-to-fearless-public-speaking-manheim-township",
+      "title": "Find Your Voice: 4 Weeks to Fearless Public Speaking",
+      "description": "Fear of public speaking holding you back? Change that in just four weeks! Presented by Conestoga Toastmasters, this hands-on workshop gives you the tools, practice, and practical feedback you need to speak with clarity and confidence-- in meetings, presentations, and everyday life. Workshop Schedule: Session 1: Nov 28 Session 2: Dec 5 Session 3: Dec 12 Session 4: Dec 19 Space is strictly limited. Registration is required, and participants must commit to all four sessions. Grab your spot today and take the first step toward effortless communication!",
+      "categories": "Business & Career",
+      "url": "https://calendar.lancasterlibraries.org/event/boost-your-public-speaking-conestoga-toastmasters-181459",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1797692400,
+      "end": 1797699600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Business & Career"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "154637",
       "series": "https://calendar.lancasterlibraries.org/event/no-preschool-programs-getting-ready-winter-154637",
       "title": "No Preschool Programs: Getting Ready for Winter!!!",
@@ -4043,6 +4111,30 @@
         "Community"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "179918",
+      "series": "https://calendar.lancasterlibraries.org/series/midday-mahjong-manheim-township",
+      "title": "Midday Mahjong",
+      "description": "🀄️✨Join us for an afternoon of strategy, skill, and socializing! 🀄️✨ Can't make it to our morning session? Pull up a chair for an afternoon of Mahjong fun! Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event This program is for adults aged +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/midday-mahjong-179918",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1798740000,
+      "end": 1798750800,
+      "all_day": false,
+      "status": "CANCELLED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
