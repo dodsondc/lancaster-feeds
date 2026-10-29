@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793207475.10791,
+  "checked_at": 1793294782.7065,
   "events": [
     {
       "source": "Demuth Museum",
@@ -99,6 +99,23 @@
       "location": "Demuth Program Center | 116 East King Street, 116 East King Street, Lancaster, PA, 17602",
       "price": "Not supplied by this source; check event details",
       "all_day": false,
+      "end_known": true,
+      "status": "CONFIRMED",
+      "direct": true
+    },
+    {
+      "source": "Demuth Museum",
+      "source_id": "6ae34e3dbafb3c6f7ada0417",
+      "series": "https://www.demuth.org/events/demuth-101-2026",
+      "title": "Demuth 101",
+      "url": "https://www.demuth.org/events/demuth-101-2026",
+      "description": "November 30 & December 7, 6 - 7:30 pm | Ages 16+ This art history course will provide students with an introduction to Charles Demuth-- his life and his artwork. We will begin with exploring Demuth’s roots and early life in Lancaster, and follow his travels as he moved through the Modern Art world - forging famous friendships and pioneering the Precisionism movement. The class will take an in-depth look at examples of Demuth’s artwork and discuss how they fit within the scope of American Modernism and the impact he had on art history. Some out of class work will be required. Co-teachers are Abby Baer, Executive Director, and Greta Rymar, Exhibitions & Collections Manager. Combined they have over 10 years of experience working at the museum and studying Demuth. Price: $60 members, $75 non-members. Register→",
+      "categories": "",
+      "start": 1796079600,
+      "end": 1796689800,
+      "location": "Demuth Program Center, 116 East King Street, Lancaster, PA, 17602",
+      "price": "Not supplied by this source; check event details",
+      "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true

@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793207475.10791,
+  "checked_at": 1793294782.7065,
   "events": [
     {
       "source": "Ware / Millersville",
@@ -7,7 +7,7 @@
       "series": "https://artsmu.com/event/extragive-junior-2026/the-ware-center/",
       "title": "ExtraGive Junior",
       "url": "https://artsmu.com/event/extragive-junior-2026/the-ware-center/",
-      "description": "Friday, November 20, 2026 • 5-8 pm • Lobby Why should adults have all the fun during the ExtraGive? Help us celebrate the Lancaster County Community Foundation’s annual Extraordinary Give with a fun event designed for kids of all ages! Our young guests will experience a variety of free entertainment and creative table activities developed just for them by community benefit organizations, including: • Church World Service • Imani Edu-tainers • Lancaster Shakespeare Theatre • Lone Oak Animal Assisted Therapeutic Services • Music for Everyone • New School Montessori • Pennsylvania Dutch Council, Scouting America • SWAN • The Edible Classroom • Touchstone Foundation …and more! Plus, a puppetry workshop from the performers of Grand Pistachio (including a sneak peek at their show Layer the Walls) at 6:30 pm! Immerse your kids in the joy of giving back! This is a free event, and all are welcome.",
+      "description": "Friday, November 20, 2026 • 5-8 pm • Lobby Why should adults have all the fun during the ExtraGive? Help us celebrate the Lancaster County Community Foundation’s annual Extraordinary Give with a fun event designed for kids of all ages! Our young guests will experience a variety of free entertainment and creative table activities developed just for them by community benefit organizations, including: • Church World Service • Circle Legacy Center • Edible Classroom • Imani Edu-tainers • Janus School • Lancaster Shakespeare Theatre • Lone Oak Animal Assisted Therapeutic Services • Music for Everyone • New School Montessori • Pennsylvania Dutch Council, Scouting America • SWAN • Touchstone Foundation …and more! Plus, a puppetry workshop from the performers of Grand Pistachio (including a sneak peek at their show Layer the Walls) at 6:30 pm! Immerse your kids in the joy of giving back! This is a free event, and all are welcome.",
       "categories": "",
       "start": 1795212000,
       "end": 1795212000,
@@ -666,23 +666,6 @@
     },
     {
       "source": "Ware / Millersville",
-      "source_id": "https://artsmu.com/event/octubaween-4/winter-visual-performing-arts-center/",
-      "series": "https://artsmu.com/event/octubaween-4/winter-visual-performing-arts-center/",
-      "title": "Octubaween!",
-      "url": "https://artsmu.com/event/octubaween-4/winter-visual-performing-arts-center/",
-      "description": "Octubafest 2026 – Featuring an evening of solo and ensemble performances by the Millersville Tuba and Euphonium Studio in addition to Octubaween music and costumes. MU Students can receive up to one (1) free ticket with a valid MU ID. MU discounts are NOT available online and must be made in-person or by calling any box office location. Advanced ticket reservations are strongly encouraged. MU discount tickets are subject to availability on the day of the event.",
-      "categories": "",
-      "start": 1793230200,
-      "end": 1793230200,
-      "location": "Winter Visual & Performing Arts Center",
-      "price": "Not supplied by this source; check event details",
-      "all_day": false,
-      "end_known": false,
-      "status": "CONFIRMED",
-      "direct": true
-    },
-    {
-      "source": "Ware / Millersville",
       "source_id": "https://artsmu.com/event/glorious-sounds-of-the-season-15/winter-visual-performing-arts-center/",
       "series": "https://artsmu.com/event/glorious-sounds-of-the-season-15/winter-visual-performing-arts-center/",
       "title": "Glorious Sounds of the Season",
@@ -789,7 +772,7 @@
       "series": "https://artsmu.com/event/disposable-humanity-free/the-ware-center/",
       "title": "Disposable Humanity – FREE",
       "url": "https://artsmu.com/event/disposable-humanity-free/the-ware-center/",
-      "description": "Tuesday, November 17, 2026 • 7 PM • Steinman Hall In Disposable Humanity, the Mitchell family—esteemed Disability Studies scholars and filmmakers—delve into the chilling legacy of the Nazi Aktion T4 program. This investigative documentary recounts the long-obscured history of how over 300,000 disabled individuals became the initial victims of the Third Reich. Targeted by the T4 program as having a “life unworthy of living,” their murders laid the groundwork for the Holocaust that followed. 6:15 PM • Pre-show community panel discussion Post-show • Q&A with director Cameron Mitchell Accessibility: The film is captioned, and live captioning (CART) and ASL interpreting will be provided for the panel discussion. Please get in touch with Barry Kornhauser to learn more. Co-presented by the MU Disability Film Festival and Congregation Shaarai Shomayim. Live captioning (CART) supported by the MU Office of Learning Services.",
+      "description": "Tuesday, November 17, 2026 • 7 PM • Steinman Hall In Disposable Humanity, the Mitchell family—esteemed Disability Studies scholars and filmmakers—delve into the chilling legacy of the Nazi Aktion T4 program. This investigative documentary recounts the long-obscured history of how over 300,000 disabled individuals became the initial victims of the Third Reich. Targeted by the T4 program as having a “life unworthy of living,” their murders laid the groundwork for the Holocaust that followed. 6:15 PM • Pre-show community panel discussion with Dr. Emily Baldys, Chair of the MU Disability Film Festival; Mr. Theo Braddy, Executive Director of the National Council on Independent Living; Dr. Dennis Downey, Disability Scholar & MU History Professor Emeritus; Dr. Stacey Irwin, Chair of the MU Holocaust & Genocide Conference Committee; and Mr. Bob Tortora, Member of the Word of Life Deaf Church. Post-show • Q&A with director Cameron Mitchell Accessibility: The film is captioned, and live captioning (CART) and ASL interpreting will be provided for the panel discussion. Please get in touch with Barry Kornhauser to learn more. Co-presented by the MU Disability Film Festival and Congregation Shaarai Shomayim. Live captioning (CART) supported by the MU Office of Learning Services.",
       "categories": "On Screen/In Person",
       "start": 1794957300,
       "end": 1794957300,
@@ -1044,7 +1027,7 @@
       "series": "https://artsmu.com/event/flamenco-y-sol-flamenco-at-its-essence/the-ware-center/",
       "title": "Flamenco y Sol: Flamenco at Its Essence",
       "url": "https://artsmu.com/event/flamenco-y-sol-flamenco-at-its-essence/the-ware-center/",
-      "description": "Friday, November 13, 2026 • 7:30 PM • Steinman Hall An evening of traditional flamenco in its most authentic form, featuring live music, improvisation, and the dynamic interplay between dancer, singer, and guitarist. Rooted in the tablao tradition, the performance highlights the raw emotional power of flamenco, delivering an electrifying theatrical experience. Tickets: Adults $29 • Students: $21 Accessibility: ASL interpretation will be available. Please get in touch with Barry Kornhauser to learn more. 6:30 PM • Pre-show flamenco lecture by Dr. Ana Börger-Greco Presented in partnership with the Skrodinsky Family Foundation.",
+      "description": "Friday, November 13, 2026 • 7:30 PM • Steinman Hall An evening of traditional flamenco in its most authentic form, featuring live music, improvisation, and the dynamic interplay between dancer, singer, and guitarist. Rooted in the tablao tradition, the performance highlights the raw emotional power of flamenco, delivering an electrifying theatrical experience. Tickets: Adults $29 • Students: $21 6:30 PM • Pre-show flamenco lecture by Dr. Ana Börger-Greco Presented in partnership with the Skrodinsky Family Foundation.",
       "categories": "Performing Arts Series",
       "start": 1794616200,
       "end": 1794616200,

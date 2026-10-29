@@ -1,97 +1,6 @@
 {
-  "checked_at": 1793207475.10791,
+  "checked_at": 1793294782.7065,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "187732",
-      "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
-      "title": "PA 211 Resource Table",
-      "description": "PA 211 staff will provide easily accessible walk-up assistance in the library's front lobby. Assistance includes information and referrals for a broad range of services: childcare, after-school programs, food banks, elder care, basic needs, health services, and more. PA 211 staff can also provide housing and homelessness intake screenings for residents of Berks and Lancaster counties. Monday, Wednesday, Thursday: 9am-5pm First Thursday: 9am-3:30pm",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/pa-211-resource-table-187732",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793192400,
-      "end": 1793221200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "160328",
-      "series": "https://calendar.lancasterlibraries.org/series/mtpl-board-meeting-manheim-township",
-      "title": "MTPL Board Meeting",
-      "description": "Manheim Township Public Library Foundation Board Meeting The meeting will be held in person in Morgan C. If you have questions about the meeting please Contact Us with any questions. Click here to view all Manheim Township Board Minutes and Agendas",
-      "categories": "Community, Discussion",
-      "url": "https://calendar.lancasterlibraries.org/event/copy-mtplf-board-meeting-160328",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793223000,
-      "end": 1793226600,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Community",
-        "Discussion"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "203080",
-      "series": "https://calendar.lancasterlibraries.org/series/chills-thrills-and-that-spooky-stuff-horror-of-the-early-60s-with-kevin-stairiker-manheim-township",
-      "title": "Chills, Thrills and that Spooky Stuff: Horror of the Early '60s with Kevin Stairiker!",
-      "description": "What keeps you up at night? 🌙 Horror movies have been trying to crack that spooky code for over a century! Styles may change, but a classic jump-scare can still creep out a fresh generation of moviegoers. 🎬 This October, test your brave side with us! 🎃 Every Tuesday night starting at 6pm, we’re screening legendary fright flicks that have given movie lovers the wiggles, the willies, and full-blown goosebumps for decades. 🍿 Hosted by Kevin Stairiker (LNP | LancasterOnline), each evening packs in creepy cinema, post-movie chats, light snacks, and maximum eerie vibes. 🕷️ Bring your courage (and a friend to hide behind)! 👀✨ October 5th: City of the Dead, 1960, 78 minutes October 20th: Black Sabbath, 1963, 93 minutes October 28th: The Innocents, 1961, 100 minutes Registration is encouraged!",
-      "categories": "Discussion, Movie & Film",
-      "url": "https://calendar.lancasterlibraries.org/event/chills-thrills-and-spooky-stuff-horror-early-60s-kevin-stairiker-203080",
-      "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793225700,
-      "end": 1793232000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Discussion",
-        "Movie & Film"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "187733",
-      "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
-      "title": "PA 211 Resource Table",
-      "description": "PA 211 staff will provide easily accessible walk-up assistance in the library's front lobby. Assistance includes information and referrals for a broad range of services: childcare, after-school programs, food banks, elder care, basic needs, health services, and more. PA 211 staff can also provide housing and homelessness intake screenings for residents of Berks and Lancaster counties. Monday, Wednesday, Thursday: 9am-5pm First Thursday: 9am-3:30pm",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/pa-211-resource-table-187733",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793278800,
-      "end": 1793284200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "158309",
@@ -1329,6 +1238,30 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "210131",
+      "series": "https://calendar.lancasterlibraries.org/event/read-therapy-dog-210131",
+      "title": "Read with a Therapy Dog",
+      "description": "All ages are welcome to read, relax, or simply sit and chat with a certified therapy dog. Register for a 15-minute session with Carly or Lily and their trainer, Madison.",
+      "categories": "",
+      "url": "https://calendar.lancasterlibraries.org/event/read-therapy-dog-210131",
+      "location": "Strasburg-Heisler Library",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1794891600,
+      "end": 1794977999,
+      "all_day": true,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Toddlers",
+        "Children",
+        "Tweens",
+        "Teens",
+        "Everyone"
+      ],
+      "program_types": [],
+      "branch": "Strasburg-Heisler"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "154634",
       "series": "https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster",
       "title": "Adult Coloring Program",
@@ -1893,7 +1826,7 @@
       "source_id": "210108",
       "series": "https://calendar.lancasterlibraries.org/series/byob-bring-your-own-book-bedazzling-workshop-manheim-township",
       "title": "BYOB (Bring Your Own Book) Bedazzling Workshop",
-      "description": "Give your favorite read a glow-up! Join us at the library for an evening of turning ordinary book covers into bedazzled masterpieces. Bring a friend, swap design ideas, and leave with a one-of-a-kind statement piece that will make your bookshelf pop! You bring the book; we'll provide the supplies. ✨Space is limited! Register today!✨",
+      "description": "Give your favorite book a total glow-up! 💎✨ Head to the library for an epic craft night where we’re taking ordinary book covers and turning them into bedazzled masterpieces! 🎨📚 Grab a friend, share design ideas, and create a show-stopping statement piece that’ll make your bookshelf shine. You bring the book—we’ve got all the sparkliest supplies covered! 🚨 Seats are filling up fast! Grab your spot today!",
       "categories": "Arts & Crafts",
       "url": "https://calendar.lancasterlibraries.org/event/byob-bring-your-own-book-bedazzling-workshop-210108",
       "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
@@ -3397,6 +3330,30 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "210132",
+      "series": "https://calendar.lancasterlibraries.org/event/read-therapy-dog-210132",
+      "title": "Read with a Therapy Dog",
+      "description": "All ages are welcome to read, relax, or simply sit and chat with a certified therapy dog. Register for a 15-minute session with Carly or Lily and their trainer, Madison.",
+      "categories": "",
+      "url": "https://calendar.lancasterlibraries.org/event/read-therapy-dog-210132",
+      "location": "Strasburg-Heisler Library",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1797310800,
+      "end": 1797397199,
+      "all_day": true,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Toddlers",
+        "Children",
+        "Tweens",
+        "Teens",
+        "Everyone"
+      ],
+      "program_types": [],
+      "branch": "Strasburg-Heisler"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "154635",
       "series": "https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster",
       "title": "Adult Coloring Program",
@@ -4318,6 +4275,30 @@
       ],
       "program_types": [
         "Arts & Crafts"
+      ],
+      "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "206933",
+      "series": "https://calendar.lancasterlibraries.org/series/upcycling-library-books-lancaster",
+      "title": "Upcycling Library Books",
+      "description": "Give our old books a new life by creating beautiful paper flowers and a vase. Attend this guided craft session to make something beautiful and literary. This program is perfect for anyone who loves home decorations and books. Ages 18+ Space is limited · Registration is required",
+      "categories": "Arts & Crafts, Community",
+      "url": "https://calendar.lancasterlibraries.org/event/upcycling-library-books-206933",
+      "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
+      "price": "Free",
+      "start": 1801089000,
+      "end": 1801094400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Arts & Crafts",
+        "Community"
       ],
       "branch": "Lancaster"
     }

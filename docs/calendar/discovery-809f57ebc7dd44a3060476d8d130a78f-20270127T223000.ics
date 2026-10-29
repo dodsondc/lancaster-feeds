@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-809f57ebc7dd44a3060476d8d130a78f-20270127T223000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261029T172622Z
+LAST-MODIFIED:20261029T172622Z
+SEQUENCE:0
+DTSTART:20270127T223000Z
+DTEND:20270128T000000Z
+SUMMARY:Upcycling Library Books
+DESCRIPTION:Give our old books a new life by creating beautiful paper flowe
+ rs and a vase. Attend this guided craft session to make something beautifu
+ l and literary. This program is perfect for anyone who loves home decorati
+ ons and books. Ages 18+ Space is limited · Registration is required\n\nPr
+ ice: Free\n\nSchedule listed: Wed\, Jan 27\, 2027 05:30 PM EST – Wed\, J
+ an 27\, 2027 07:00 PM EST\n\nSchedule supplied by Lancaster Libraries\n\nT
+ imes converted from America/New_York to UTC for calendar compatibility.\n\
+ n\n\nRegistration: https://calendar.lancasterlibraries.org/event/upcycling
+ -library-books-206933\n\nAdding this calendar item does not register you. 
+ Check the original listing for changes\; imported events do not automatica
+ lly stay in sync.
+LOCATION:Lancaster Library\, LPL Community Room\, 151 North Queen Street\, 
+ Lancaster\, PA\, 17603
+URL:https://calendar.lancasterlibraries.org/event/upcycling-library-books-2
+ 06933
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793207475.10791,
+  "checked_at": 1793294782.7065,
   "events": [
     {
       "source": "Demuth Exhibitions",
@@ -80,6 +80,23 @@
       "start": 1796421600,
       "end": 1796590800,
       "location": "Demuth Program Center | 116 East King Street, 116 East King Street, Lancaster, PA, 17602",
+      "price": "Not supplied by this source; check event details",
+      "all_day": true,
+      "end_known": true,
+      "status": "CONFIRMED",
+      "direct": true
+    },
+    {
+      "source": "Demuth Exhibitions",
+      "source_id": "6ae24dbc9ee17d3d9bb6bddd",
+      "series": "https://www.demuth.org/exhibitions/seen-reseen",
+      "title": "Seen / Reseen: Recursive Photographs by Richard K Kent",
+      "url": "https://www.demuth.org/exhibitions/seen-reseen",
+      "description": "Recursion, whether in mathematics or in visual phenomena, relies on a function or an image that is repeated to yield a new iteration, which then in turn is repeated. Subsequent iterations build on one another, but always yield something new that reflects what has come before. By undergoing this recursive process, Kent’s photographic iterations capture both rural and urban landscapes, visually documenting the passage of time. Image: Richard K Kent, New Holland & Franklin, 1st Series, 5X, archival pigment print",
+      "categories": "",
+      "start": 1799506800,
+      "end": 1803243600,
+      "location": "Demuth on Lime | 135 North Lime Street, 135 North Lime Street, Lancaster, PA, 17602",
       "price": "Not supplied by this source; check event details",
       "all_day": true,
       "end_known": true,

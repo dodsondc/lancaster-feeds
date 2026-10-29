@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-3676946b14a03019f63534d2f02317ec-20261031T230000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261029T172622Z
+LAST-MODIFIED:20261029T172622Z
+SEQUENCE:0
+DTSTART:20261031T230000Z
+DTEND:20261101T023000Z
+SUMMARY:Halloween at West Art!
+DESCRIPTION:With The Nielsen Family Band\, Health Club\, and Jon from Jon S
+ mith’s Voyages West Art and the Nielsen Family Band continue their holid
+ ay tradition in 2026 with a very special Halloween show. Come spin the whe
+ el of covers with the Nielsen Family Band and help to determine their setl
+ ist live in real-time. That’s right\, the Nielsens are bringing a carniv
+ al wheel to the stage in West Art’s Sanctuary for an interactive Hallowe
+ en show like no other. As if this weren’t enough of a spooky spectacle\,
+  NFB will be joined by their and your favorite avant-garde\, performance a
+ rt rockers Health Club. Opening the show is a special solo performance fro
+ m Jon Smith of Jon Smith’s Voyages. And of course\, we’ll be hosting o
+ ur annual costume contest\, so come dressed for success!\n\nPrice: Not sup
+ plied by this calendar\; check event details\n\nSchedule listed: Sat\, Oct
+  31\, 2026 07:00 PM EDT – Sat\, Oct 31\, 2026 10:30 PM EDT\n\nSchedule s
+ upplied by LancasterPA\n\nTimes converted from America/New_York to UTC for
+  calendar compatibility.\n\n\n\nRegistration: https://lancasterpa.com/even
+ ts-calendar/halloween-at-west-art/\n\nAdding this calendar item does not r
+ egister you. Check the original listing for changes\; imported events do n
+ ot automatically stay in sync.
+LOCATION:West Art\, 816 Buchanan Ave\, Lancaster\, 17603
+URL:https://lancasterpa.com/events-calendar/halloween-at-west-art/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
