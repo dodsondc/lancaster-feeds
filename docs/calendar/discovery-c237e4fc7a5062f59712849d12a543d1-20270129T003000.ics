@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-c237e4fc7a5062f59712849d12a543d1-20270129T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261030T170132Z
+LAST-MODIFIED:20261030T170132Z
+SEQUENCE:0
+DTSTART:20270129T003000Z
+DTEND:20270129T030000Z
+SUMMARY:You’ve Still Got a Friend: A Musical Tribute at American Music Th
+ eatre
+DESCRIPTION:You’ve Still Got a Friend: A Musical Tribute to the Friendshi
+ p of Carole King & James Taylor This intimate tribute brings to life the e
+ nduring bond between Carole King and James Taylor through the songs that d
+ efined a generation. Inspired by their legendary Live at the Troubadour pe
+ rformances and album\, this concert weaves together the iconic songs and l
+ ived-in performances with the emotional history behind the music. Featured
+  songs include classics like “So Far Away\,” “Something in the Way S
+ he Moves\,” “Sweet Baby James” and “I Feel the Earth Move.” Audi
+ ences are invited to step into an evening of timeless songwriting that cap
+ tures the joy\, warmth\, and soul of a friendship between two legendary ar
+ tists who changed music forever. Come Explore Our Lancaster Theaters and t
+ he Arts Live Theater Live Entertainment Live Music Dinner Theaters Murder 
+ Mysteries Things To Do Artisan Collectives Art Galleries Events Calendar\n
+ \nPrice: Not supplied by this calendar\; check event details\n\nSchedule l
+ isted: Thu\, Jan 28\, 2027 07:30 PM EST – Thu\, Jan 28\, 2027 10:00 PM E
+ ST\n\nSchedule supplied by LancasterPA\n\nTimes converted from America/New
+ _York to UTC for calendar compatibility.\n\n\n\nRegistration: https://lanc
+ asterpa.com/events-calendar/youve-still-got-a-friend-american-music-theatr
+ e/\n\nAdding this calendar item does not register you. Check the original 
+ listing for changes\; imported events do not automatically stay in sync.
+LOCATION:American Music Theatre\, 2425 Lincoln Highway East\, Lancaster\, P
+ A\, 17602
+URL:https://lancasterpa.com/events-calendar/youve-still-got-a-friend-americ
+ an-music-theatre/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

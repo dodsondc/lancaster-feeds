@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793294782.7065,
+  "checked_at": 1793379692.85053,
   "events": [
     {
       "source": "Demuth Museum",
@@ -14,23 +14,6 @@
       "location": "Demuth on King | 120 East King Street, 120 East King Street, Lancaster, PA, 17602",
       "price": "Not supplied by this source; check event details",
       "all_day": true,
-      "end_known": true,
-      "status": "CONFIRMED",
-      "direct": true
-    },
-    {
-      "source": "Demuth Museum",
-      "source_id": "6ad0e026425e85712874a871",
-      "series": "https://www.demuth.org/events/art-history-panel",
-      "title": "Lancaster Art History Panel",
-      "url": "https://www.demuth.org/events/art-history-panel",
-      "description": "Lancaster has a rich and dynamic visual arts community. For centuries, artists have found inspiration and community here. Join us for a panel discussion that explores the artists, patrons, and businesses that have helped shape today's arts scene. This event is free and open to all through generous support from Art Bridges. RSVPs appreciated - please fill out your information through the form below. Thank you! Image: William Early, Lancaster Landscape II, 1969, Demuth Museum of Art, gift of the artist",
-      "categories": "",
-      "start": 1793313000,
-      "end": 1793318400,
-      "location": "West Art Sanctuary, 816 Buchanan Avenue, Lancaster, PA, 17603",
-      "price": "Not supplied by this source; check event details",
-      "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true
@@ -109,7 +92,7 @@
       "series": "https://www.demuth.org/events/demuth-101-2026",
       "title": "Demuth 101",
       "url": "https://www.demuth.org/events/demuth-101-2026",
-      "description": "November 30 & December 7, 6 - 7:30 pm | Ages 16+ This art history course will provide students with an introduction to Charles Demuth-- his life and his artwork. We will begin with exploring Demuth’s roots and early life in Lancaster, and follow his travels as he moved through the Modern Art world - forging famous friendships and pioneering the Precisionism movement. The class will take an in-depth look at examples of Demuth’s artwork and discuss how they fit within the scope of American Modernism and the impact he had on art history. Some out of class work will be required. Co-teachers are Abby Baer, Executive Director, and Greta Rymar, Exhibitions & Collections Manager. Combined they have over 10 years of experience working at the museum and studying Demuth. Price: $60 members, $75 non-members. Register→",
+      "description": "November 30 & December 7, 6 - 7:30 pm | Ages 16+ This art history course will provide students with an introduction to Charles Demuth-- his life and his artwork. We will begin with exploring Demuth’s roots and early life in Lancaster, and follow his travels as he moved through the Modern Art world - forging famous friendships and pioneering the Precisionism movement. The class will take an in-depth look at examples of Demuth’s artwork and discuss how they fit within the scope of American Modernism and the impact he had on art history. Some out of class work will be required. Co-teachers are Abby Baer, Executive Director, and Greta Rymar, Exhibitions & Collections Manager. Combined they have over 18 years of experience working at the museum and studying Demuth. Price: $60 members, $75 non-members. Register→",
       "categories": "",
       "start": 1796079600,
       "end": 1796689800,
@@ -148,6 +131,23 @@
       "start": 1797087600,
       "end": 1797094800,
       "location": "Demuth Program Center | 116 East King Street, 116 East King Street, Lancaster",
+      "price": "Not supplied by this source; check event details",
+      "all_day": false,
+      "end_known": true,
+      "status": "CONFIRMED",
+      "direct": true
+    },
+    {
+      "source": "Demuth Museum",
+      "source_id": "6ad0e026425e85712874a871",
+      "series": "https://www.demuth.org/events/art-history-panel",
+      "title": "Lancaster Art History Panel",
+      "url": "https://www.demuth.org/events/art-history-panel",
+      "description": "Lancaster has a rich and dynamic visual arts community. For centuries, artists have found inspiration and community here. Join us for a panel discussion that explores the artists, patrons, and businesses that have helped shape today's arts scene. This event is free and open to all through generous support from Art Bridges. RSVPs appreciated - please fill out your information through the form below. Thank you! Image: William Early, Lancaster Landscape II, 1969, Demuth Museum of Art, gift of the artist",
+      "categories": "",
+      "start": 1793313000,
+      "end": 1793318400,
+      "location": "West Art Sanctuary, 816 Buchanan Avenue, Lancaster, PA, 17603",
       "price": "Not supplied by this source; check event details",
       "all_day": false,
       "end_known": true,

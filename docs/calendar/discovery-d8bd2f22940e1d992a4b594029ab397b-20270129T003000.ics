@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-d8bd2f22940e1d992a4b594029ab397b-20270129T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261030T170132Z
+LAST-MODIFIED:20261030T170132Z
+SEQUENCE:3
+DTSTART:20270129T003000Z
+DTEND:20270129T033000Z
+SUMMARY:Peter Pan Goes Wrong
+DESCRIPTION:Brace yourselves for an awfully big adventure as the accident-p
+ rone Cornley Drama Society sets out to present their most audacious produc
+ tion to date. As hilarious as their award-winning The Play That Goes Wrong
+ \, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettabl
+ e. Something so wrong has never been so right.\n\nPrice: Not supplied by t
+ his calendar\; check event details\n\nSchedule listed: Thu\, Jan 28\, 2027
+  07:30 PM EST – Thu\, Jan 28\, 2027 10:30 PM EST\n\nSchedule supplied by
+  Visit Lancaster City\n\nTimes converted from America/New_York to UTC for 
+ calendar compatibility.\n\n\n\nRegistration: https://calendar.visitlancast
+ ercity.com/visitlancastercity/detail/856/1801182600000\n\nAdding this cale
+ ndar item does not register you. Check the original listing for changes\; 
+ imported events do not automatically stay in sync.
+LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
+ A
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/856/1
+ 801182600000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

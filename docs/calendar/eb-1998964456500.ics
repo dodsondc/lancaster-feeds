@@ -4,21 +4,20 @@ PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:eb-1998964456500@lancaster-feeds.dodsondc.github.io
-DTSTAMP:20261017T221055Z
-LAST-MODIFIED:20261017T221055Z
-SEQUENCE:0
+DTSTAMP:20261030T170131Z
+LAST-MODIFIED:20261030T170131Z
+SEQUENCE:1
 DTSTART:20261114T220000Z
 DTEND:20261115T010000Z
 SUMMARY:Night Sensory Hike
-DESCRIPTION:Join us as we explore nature in the dark!\n\nPrice: USD 12.51\n
- \nSchedule listed: Saturday\, November 14 5pm-8pm\n\n\nDate and time from 
- public registration data\n\nTimes converted from America/New_York to UTC f
- or calendar compatibility.\n\n\n\nRegistration: https://www.eventbrite.com
- /e/night-sensory-hike-tickets-1998964456500\n\nAdding this calendar item d
- oes not register you. Check the original listing for changes\; imported ev
- ents do not automatically stay in sync.
-LOCATION:Clark Nature Preserve\, 400 House Rock Road\, Pequea\, PA 17565\, 
- Pequea\, PA
+DESCRIPTION:Join us as we explore nature in the dark!\n\nPrice: Not publish
+ ed\; check registration\n\nSchedule listed: Saturday\, November 14 5pm-8pm
+ \n\n\nDate and time from public registration data\n\nTimes converted from 
+ America/New_York to UTC for calendar compatibility.\n\n\n\nRegistration: h
+ ttps://www.eventbrite.com/e/night-sensory-hike-tickets-1998964456500\n\nAd
+ ding this calendar item does not register you. Check the original listing 
+ for changes\; imported events do not automatically stay in sync.
+LOCATION:TBD
 URL:https://www.eventbrite.com/e/night-sensory-hike-tickets-1998964456500
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
