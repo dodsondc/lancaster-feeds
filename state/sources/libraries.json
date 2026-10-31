@@ -1,29 +1,6 @@
 {
-  "checked_at": 1793379692.85053,
+  "checked_at": 1793462739.90114,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "197185",
-      "series": "https://calendar.lancasterlibraries.org/event/rise-above-collective-young-adults-197185",
-      "title": "Rise Above Collective for Young Adults",
-      "description": "Discover Who You Are. Connect With Others.",
-      "categories": "Discussion",
-      "url": "https://calendar.lancasterlibraries.org/event/rise-above-collective-young-adults-197185",
-      "location": "Lancaster Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793419200,
-      "end": 1793505599,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Teens",
-        "Adults"
-      ],
-      "program_types": [
-        "Discussion"
-      ],
-      "branch": "Lancaster"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "187734",

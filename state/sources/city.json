@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793379692.85053,
+  "checked_at": 1793462739.90114,
   "events": [
     {
       "source": "Visit Lancaster City",
@@ -13,51 +13,6 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1790897400,
       "end": 1794789000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1106/29889900/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1106",
-      "title": "Community Costume Party",
-      "description": "The West Lancaster Jewels neighborhood invites you to a FREE Community Costume Party this Friday night at the newly-opened Pearl Cafe! Prizes for best costumes, free crafts and activities and games with prizes, delicious treats, dance floor! Come mingle and boogie in your costume! All ages welcome.",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1106/1793394000000",
-      "location": "The Pearl Cafe,420 Pearl Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793394000,
-      "end": 1793404800,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1041/29889960/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1041",
-      "title": "Boos and Brews Beer Fest",
-      "description": "Kick off your Halloween weekend with us at Boos and Brews Beer Fest at Penn Medicine Park! Come dressed to impress in your favorite halloween costume as you sip on the variety of seasonal brews provided by local breweries. The stadium will also be wearing its spookiest attire... Early Bird VIP: $50 plus fees - includes a t-shirt + early entry (5-6PM) General Admission: $40 plus fees Designated Driver: $10 plus fees MUST BE 21+",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1041/1793397600000",
-      "location": "Penn Medicine Park,650 North Prince Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793397600,
-      "end": 1793412000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1023/29890860/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1023",
-      "title": "Shadows of Lancaster Adventure Race",
-      "description": "Join us for this fun filled scavenger hunt race through Historic Downtown Lancaster starting and ending at Rachel's Cafe and Creperie! Creperie gift cards to the top 3 teams. Come for the adventure, stay for the fresh crepes!",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1023/1793451600000",
-      "location": "Outside of Rachel's Cafe and Creperie,201 West Walnut Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793451600,
-      "end": 1793462400,
       "all_day": false,
       "status": "CONFIRMED"
     },

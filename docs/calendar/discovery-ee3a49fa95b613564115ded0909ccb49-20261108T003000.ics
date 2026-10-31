@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-ee3a49fa95b613564115ded0909ccb49-20261108T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261031T160539Z
+LAST-MODIFIED:20261031T160539Z
+SEQUENCE:0
+DTSTART:20261108T003000Z
+SUMMARY:SOLD OUT – Fall Choral Concert
+DESCRIPTION:This performance is sold out. MU Students can receive up to one
+  (1) free ticket with a valid MU ID. MU discounts are NOT available online
+  and must be made in-person or by calling any box office location. Advance
+ d ticket reservations are strongly encouraged. MU discount tickets are sub
+ ject to availability on the day of the event.\n\nPrice: 10.00\n\nSchedule 
+ listed: Sat\, Nov 07\, 2026 07:30 PM EST — end time not published\n\nSch
+ edule supplied by Ware / Millersville\n\nTimes converted from America/New_
+ York to UTC for calendar compatibility.\n\nNo ending time is published\; y
+ our calendar may apply its own default duration.\n\nRegistration: https://
+ artsmu.com/event/sold-out-fall-choral-concert-2/winter-visual-performing-a
+ rts-center/\n\nAdding this calendar item does not register you. Check the 
+ original listing for changes\; imported events do not automatically stay i
+ n sync.
+LOCATION:Winter Visual & Performing Arts Center
+URL:https://artsmu.com/event/sold-out-fall-choral-concert-2/winter-visual-p
+ erforming-arts-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

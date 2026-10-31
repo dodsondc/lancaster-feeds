@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-9bd89a809b1fe2660fecd78954170169-20261103T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261031T160539Z
+LAST-MODIFIED:20261031T160539Z
+SEQUENCE:0
+DTSTART:20261103T000000Z
+SUMMARY:SOLD OUT – Art as Seen Through the Eyes of Georgia O’Keeffe
+DESCRIPTION:This event is sold out. Monday\, November 2\, 9\, and 16\, 2026
+  • 7 pm • Library • Ages 16+ Explore the beauty of natural forms wit
+ h a class inspired by one of America’s most iconic artists. This three-w
+ eek adult drawing class\, taught by artist Fred Swarr\, leads you on a jou
+ rney of observation\, composition\, and expressive use of color\, drawing 
+ inspiration from Georgia O’Keeffe’s unique approach to shape and scale
+ . Experiment with ways to transform everyday subjects into striking works 
+ of art! Registration: $45 All materials included.\n\nPrice: 45.00\n\nSched
+ ule listed: Mon\, Nov 02\, 2026 07:00 PM EST — end time not published\n\
+ nSchedule supplied by Ware / Millersville\n\nTimes converted from America/
+ New_York to UTC for calendar compatibility.\n\nNo ending time is published
+ \; your calendar may apply its own default duration.\n\nRegistration: http
+ s://artsmu.com/event/sold-out-art-as-seen-through-the-eyes-of-georgia-okee
+ ffe/the-ware-center/\n\nAdding this calendar item does not register you. C
+ heck the original listing for changes\; imported events do not automatical
+ ly stay in sync.
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/sold-out-art-as-seen-through-the-eyes-of-georg
+ ia-okeeffe/the-ware-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

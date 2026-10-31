@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked": 1793379691.20668,
+  "last_checked": 1793462737.02196,
   "items": {
     "lc-trail-fest": {
       "id": "lc-trail-fest",
@@ -63,16 +63,16 @@
       "raw_date": "Saturday, November 14 5pm-8pm\n",
       "description": "Join us as we explore nature in the dark!",
       "url": "https://www.eventbrite.com/e/night-sensory-hike-tickets-1998964456500",
-      "location": "TBD",
-      "price": "Not published; check registration",
+      "location": "Clark Nature Preserve, 400 House Rock Road, Pequea, PA 17565, Pequea, PA",
+      "price": "USD 12.51",
       "start": 1794693600,
       "end": 1794704400,
       "date_source": "Date and time from public registration data",
       "status": "CONFIRMED",
       "first_seen": 1792275055.2832,
-      "updated_at": 1793379691.20668,
-      "sequence": 1,
-      "signature": "{\"id\":\"eb-1998964456500\",\"title\":\"Night Sensory Hike\",\"event_date\":\"2026-11-14\",\"raw_date\":\"Saturday, November 14 5pm-8pm\\n\",\"description\":\"Join us as we explore nature in the dark!\",\"url\":\"https://www.eventbrite.com/e/night-sensory-hike-tickets-1998964456500\",\"location\":\"TBD\",\"price\":\"Not published; check registration\",\"start\":1794693600,\"end\":1794704400,\"date_source\":\"Date and time from public registration data\",\"status\":\"CONFIRMED\",\"first_seen\":1792275055.2832}"
+      "updated_at": 1793462737.02196,
+      "sequence": 2,
+      "signature": "{\"id\":\"eb-1998964456500\",\"title\":\"Night Sensory Hike\",\"event_date\":\"2026-11-14\",\"raw_date\":\"Saturday, November 14 5pm-8pm\\n\",\"description\":\"Join us as we explore nature in the dark!\",\"url\":\"https://www.eventbrite.com/e/night-sensory-hike-tickets-1998964456500\",\"location\":\"Clark Nature Preserve, 400 House Rock Road, Pequea, PA 17565, Pequea, PA\",\"price\":\"USD 12.51\",\"start\":1794693600,\"end\":1794704400,\"date_source\":\"Date and time from public registration data\",\"status\":\"CONFIRMED\",\"first_seen\":1792275055.2832}"
     },
     "lc-save-woods-water-party-during-extragive": {
       "id": "lc-save-woods-water-party-during-extragive",
