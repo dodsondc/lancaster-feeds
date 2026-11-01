@@ -1,23 +1,6 @@
 {
-  "checked_at": 1793462739.90114,
+  "checked_at": 1793552870.35837,
   "events": [
-    {
-      "source": "Demuth Exhibitions",
-      "source_id": "6a63740e399644364f9398b9",
-      "series": "https://www.demuth.org/exhibitions/sfpn-2026",
-      "title": "Strictly Functional Pottery National",
-      "url": "https://www.demuth.org/exhibitions/sfpn-2026",
-      "description": "Since its founding in 1993, Strictly Functional Pottery National (SFPN) has been recognized as one of the top ceramic exhibitions in the country. The first of its kind, SFPN provides an opportunity for functional pots to receive a much deserved spotlight. Every year, SFPN proudly features some of the most talented ceramic artists from across the United States. More information and artwork sales can be found on the SFPN website. Image: Pascal Chmelar, Group of Sugar Pots",
-      "categories": "",
-      "start": 1789826400,
-      "end": 1793476800,
-      "location": "Demuth on Lime | 135 North Lime Street, 135 North Lime Street, Lancaster, PA, 17602",
-      "price": "Not supplied by this source; check event details",
-      "all_day": true,
-      "end_known": true,
-      "status": "CONFIRMED",
-      "direct": true
-    },
     {
       "source": "Demuth Exhibitions",
       "source_id": "6ab2b22cb3e5de0e5b658f5b",
@@ -96,6 +79,23 @@
       "categories": "",
       "start": 1799506800,
       "end": 1803243600,
+      "location": "Demuth on Lime | 135 North Lime Street, 135 North Lime Street, Lancaster, PA, 17602",
+      "price": "Not supplied by this source; check event details",
+      "all_day": true,
+      "end_known": true,
+      "status": "CONFIRMED",
+      "direct": true
+    },
+    {
+      "source": "Demuth Exhibitions",
+      "source_id": "6a63740e399644364f9398b9",
+      "series": "https://www.demuth.org/exhibitions/sfpn-2026",
+      "title": "Strictly Functional Pottery National",
+      "url": "https://www.demuth.org/exhibitions/sfpn-2026",
+      "description": "Since its founding in 1993, Strictly Functional Pottery National (SFPN) has been recognized as one of the top ceramic exhibitions in the country. The first of its kind, SFPN provides an opportunity for functional pots to receive a much deserved spotlight. Every year, SFPN proudly features some of the most talented ceramic artists from across the United States. More information and artwork sales can be found on the SFPN website. Image: Pascal Chmelar, Group of Sugar Pots",
+      "categories": "",
+      "start": 1789826400,
+      "end": 1793476800,
       "location": "Demuth on Lime | 135 North Lime Street, 135 North Lime Street, Lancaster, PA, 17602",
       "price": "Not supplied by this source; check event details",
       "all_day": true,
