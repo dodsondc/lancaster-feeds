@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793552870.35837,
+  "checked_at": 1793652381.79121,
   "events": [
     {
       "source": "Lancaster Libraries",
@@ -1115,6 +1115,8 @@
         "Children",
         "Tweens",
         "Teens",
+        "Adults",
+        "Seniors",
         "Everyone"
       ],
       "program_types": [],
@@ -3207,6 +3209,8 @@
         "Children",
         "Tweens",
         "Teens",
+        "Adults",
+        "Seniors",
         "Everyone"
       ],
       "program_types": [],

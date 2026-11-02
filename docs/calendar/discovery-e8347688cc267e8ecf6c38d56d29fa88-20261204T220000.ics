@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-e8347688cc267e8ecf6c38d56d29fa88-20261204T220000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261102T204621Z
+LAST-MODIFIED:20261102T204621Z
+SEQUENCE:0
+DTSTART:20261204T220000Z
+DTEND:20261205T210000Z
+SUMMARY:Handmade Holiday Market at Gallery Grow
+DESCRIPTION:Shop local artists\, one-of-a-kind handmade gifts\, and unique 
+ vintage finds at our Handmade Holiday Market! Join us for a very special h
+ oliday weekend at Gallery Grow! Shop a thoughtfully curated selection of l
+ ocal artists\, one-of-a-kind handmade gifts\, and unique vintage finds. Di
+ scover something unexpected\, support local creatives\, and find a few spe
+ cial treasures for your holiday giving. Friday\, December 4 | 5–8 PM Sat
+ urday\, December 5 | 12–4 PM Celebrate the season\, shop small\, and dis
+ cover something special at Gallery Grow!\n\nPrice: Not supplied by this ca
+ lendar\; check event details\n\nSchedule listed: Fri\, Dec 04\, 2026 05:00
+  PM EST – Sat\, Dec 05\, 2026 04:00 PM EST\n\nSchedule supplied by Visit
+  Lancaster City\n\nTimes converted from America/New_York to UTC for calend
+ ar compatibility.\n\n\n\nRegistration: https://calendar.visitlancastercity
+ .com/visitlancastercity/detail/1120/1796421600000\n\nAdding this calendar 
+ item does not register you. Check the original listing for changes\; impor
+ ted events do not automatically stay in sync.
+LOCATION:Gallery Grow\,320 North Queen Street\, Lancaster\, PA 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1120/
+ 1796421600000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

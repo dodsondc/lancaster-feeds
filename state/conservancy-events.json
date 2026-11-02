@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked": 1793552867.22014,
+  "last_checked": 1793652378.31707,
   "items": {
     "lc-trail-fest": {
       "id": "lc-trail-fest",
@@ -79,18 +79,18 @@
       "title": "Save Woods & Water Party during ExtraGive",
       "event_date": "2026-11-20",
       "raw_date": "Friday, November 20\n",
-      "description": "Save the date!",
-      "url": "https://www.lancasterconservancy.org/events/",
-      "location": "Not announced in listing",
-      "price": "Not published; check registration",
-      "start": null,
-      "end": null,
-      "date_source": "Year inferred from listing month/day/weekday",
-      "status": "TENTATIVE",
+      "description": "Join the Lancaster Conservancy at LUCA as we raise money during the ExtraGive to save our local woods and water!",
+      "url": "https://www.eventbrite.com/e/2002081846698",
+      "location": "LUCA, 436 West James Street, ##101, Lancaster, PA 17603, Lancaster, PA",
+      "price": "Free",
+      "start": 1795212000,
+      "end": 1795226400,
+      "date_source": "Date and time from public registration data",
+      "status": "CONFIRMED",
       "first_seen": 1792275055.2832,
-      "updated_at": 1792275055.2832,
-      "sequence": 0,
-      "signature": "{\"id\":\"lc-save-woods-water-party-during-extragive\",\"title\":\"Save Woods & Water Party during ExtraGive\",\"event_date\":\"2026-11-20\",\"raw_date\":\"Friday, November 20\\n\",\"description\":\"Save the date!\",\"url\":\"https://www.lancasterconservancy.org/events/\",\"location\":\"Not announced in listing\",\"price\":\"Not published; check registration\",\"start\":null,\"end\":null,\"date_source\":\"Year inferred from listing month/day/weekday\",\"status\":\"TENTATIVE\",\"first_seen\":1792275055.2832}"
+      "updated_at": 1793652378.31707,
+      "sequence": 1,
+      "signature": "{\"id\":\"lc-save-woods-water-party-during-extragive\",\"title\":\"Save Woods & Water Party during ExtraGive\",\"event_date\":\"2026-11-20\",\"raw_date\":\"Friday, November 20\\n\",\"description\":\"Join the Lancaster Conservancy at LUCA as we raise money during the ExtraGive to save our local woods and water!\",\"url\":\"https://www.eventbrite.com/e/2002081846698\",\"location\":\"LUCA, 436 West James Street, ##101, Lancaster, PA 17603, Lancaster, PA\",\"price\":\"Free\",\"start\":1795212000,\"end\":1795226400,\"date_source\":\"Date and time from public registration data\",\"status\":\"CONFIRMED\",\"first_seen\":1792275055.2832}"
     },
     "eb-1998971633968": {
       "id": "eb-1998971633968",

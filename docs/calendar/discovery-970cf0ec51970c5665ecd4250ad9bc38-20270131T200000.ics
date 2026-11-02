@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-970cf0ec51970c5665ecd4250ad9bc38-20270131T200000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261102T204621Z
+LAST-MODIFIED:20261102T204621Z
+SEQUENCE:0
+DTSTART:20270131T200000Z
+DTEND:20270131T223000Z
+SUMMARY:Temple Grandin at American Music Theatre
+DESCRIPTION:Dr. Temple Grandin is a world-renowned animal scientist\, bests
+ elling author\, autism advocate\, and one of TIME magazine’s 100 Most In
+ fluential People. A professor of animal science at Colorado State Universi
+ ty\, she revolutionized humane livestock handling and designed systems use
+ d throughout the United States and Canada. Diagnosed with severe autism as
+  a child\, Dr. Grandin overcame significant challenges to become an influe
+ ntial scientist\, educator\, and inspirational speaker. Through acclaimed 
+ books such as Thinking in Pictures\, Animals in Translation\, and The Auti
+ stic Brain\, she has helped millions better understand autism\, animal beh
+ avior\, and the power of thinking differently. Hear the remarkable story\,
+  insights\, and experiences of a trailblazer whose work continues to trans
+ form animal welfare and inspire more inclusive ways of seeing the world. C
+ ome Explore Our Lancaster Theaters and the Arts Live Theater Live Entertai
+ nment Live Music Dinner Theaters Murder Mysteries Things To Do Artisan Col
+ lectives Art Galleries Events Calendar\n\nPrice: Not supplied by this cale
+ ndar\; check event details\n\nSchedule listed: Sun\, Jan 31\, 2027 03:00 P
+ M EST – Sun\, Jan 31\, 2027 05:30 PM EST\n\nSchedule supplied by Lancast
+ erPA\n\nTimes converted from America/New_York to UTC for calendar compatib
+ ility.\n\n\n\nRegistration: https://lancasterpa.com/events-calendar/temple
+ -grandin-american-music-theatre/\n\nAdding this calendar item does not reg
+ ister you. Check the original listing for changes\; imported events do not
+  automatically stay in sync.
+LOCATION:American Music Theatre\, 2425 Lincoln Highway East\, Lancaster\, P
+ A\, 17602
+URL:https://lancasterpa.com/events-calendar/temple-grandin-american-music-t
+ heatre/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
