@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793652381.79121,
+  "checked_at": 1793730349.66,
   "events": [
     {
       "source": "Visit Lancaster City",
@@ -13,36 +13,6 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1790897400,
       "end": 1794789000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1050/29894400/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1050",
-      "title": "Improv 101 with Emily!",
-      "description": "Your Journey to the Stage Starts Here! About the Class: This is an 8 week long class that will teach the fundamentals of long form Improv Comedy. Topics covered include agreement with a scene partner, character creation, listening as a character and an actor, and exploring the worlds created in scenes. The class ends with a graduation show where the students can show their friends and family the skills learned. Students must be 18 or older for this class! This Class will run Mondays from 7pm-9pm on the following dates: 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7 . This class has a class show on Saturday 12/12 at 3pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until 11:59pm of Friday 10/16!",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1793664000000",
-      "location": "Lancaster Improv Players,8 West King Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793664000,
-      "end": 1793671200,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1047/29894400/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1047",
-      "title": "Improv 201 With Scott!",
-      "description": "Learned the Basics? Let's Learn How to do a Show! About the Class: Welcome to Lancaster Improv Players' 201 class! This 8-week long course focuses on the more advanced skills of long-form Improv. Students will learn skills which include game of a scene, second beats, heightening, and advanced character work. This class focuses on teaching a ton of scene work skills and will help improvisers think beyond the scene they are in. The class ends with a graduation show where the students can show their friends and family the skills learned. This class does require Improv 101 as a prerequisite or director approval. Class Schedule: This class runs for two and a half (2.5) hours for eight (8) sessions on Mondays from 7pm-9:30pm. Those dates are 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7. The Class Show is on Saturday 12/12 at 4pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until end of day Friday 10/16!",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1793664000000",
-      "location": "Lancaster Improv Players,8 West King Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793664000,
-      "end": 1793673000,
       "all_day": false,
       "status": "CONFIRMED"
     },

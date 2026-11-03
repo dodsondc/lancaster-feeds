@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-716b4a7ba82e0df3e45379c1a400f065-20261219T180000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261103T182549Z
+LAST-MODIFIED:20261103T182549Z
+SEQUENCE:0
+DTSTART:20261219T180000Z
+DTEND:20261219T200000Z
+SUMMARY:Crafternoon at MTPL: Traditional German Paper Stars⭐
+DESCRIPTION:Unwind and embrace a classic holiday crafting tradition! Join u
+ s at the library to learn the art of weaving and folding 3D German paper s
+ tars (also known as Fröbelsterne). Using four paper strips and a series o
+ f clever folds\, you'll transform flat paper into intricate\, eye-catching
+  stars perfect for holiday tree ornaments\, gift toppers\, or festive wind
+ ow decorations. Whether you are an experienced paper crafter or completely
+  new to the fold\, step-by-step guidance will be provided. All paper and s
+ upplies are included-- just bring your patience and creativity!\n\nPrice: 
+ Not supplied by this calendar\; check event details\n\nSchedule listed: Sa
+ t\, Dec 19\, 2026 01:00 PM EST – Sat\, Dec 19\, 2026 03:00 PM EST\n\nSch
+ edule supplied by Lancaster Libraries\n\nTimes converted from America/New_
+ York to UTC for calendar compatibility.\n\n\n\nRegistration: https://calen
+ dar.lancasterlibraries.org/event/reserved-program-210891\n\nAdding this ca
+ lendar item does not register you. Check the original listing for changes\
+ ; imported events do not automatically stay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center A\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/reserved-program-210891
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

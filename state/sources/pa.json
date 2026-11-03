@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793652381.79121,
+  "checked_at": 1793730349.66,
   "events": [
     {
       "source": "LancasterPA",
@@ -10888,6 +10888,21 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1856602800,
       "end": 1856631600,
+      "all_day": false,
+      "status": "CONFIRMED"
+    },
+    {
+      "source": "LancasterPA",
+      "source_id": "10049359",
+      "series": "https://lancasterpa.com/events-calendar/lancaster-central-market/",
+      "title": "Lancaster Central Market",
+      "description": "For almost 300 years people have been coming together to meet at Market to enjoy the freshest local food, ready-made unique dishes and flavors from all over, and special finds you can only get at Lancaster Central Market. Our building is a historic structure with history and beauty around every corner located in the heart of downtown Lancaster. Additional Shopping & Fun Things To Do in Lancaster? Amish Products Consignment and Thrift Shops Farmers Markets Furniture Quilt Supplies and Fabrics Gifts & Collectibles Theater, Music, & the Arts Kids’ Attractions Adults & Couples Railroad Attractions Historical & Educational Zip-Lines Events Calendar",
+      "categories": "Farmers Markets, Food & Beverage Events, Lancaster City, Shopping",
+      "url": "https://lancasterpa.com/events-calendar/lancaster-central-market/2028-11-03/",
+      "location": "Lancaster Central Market, 23 North Market St, Lancaster, 17603",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1856862000,
+      "end": 1856890800,
       "all_day": false,
       "status": "CONFIRMED"
     },

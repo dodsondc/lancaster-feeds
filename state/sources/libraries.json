@@ -1,77 +1,6 @@
 {
-  "checked_at": 1793652381.79121,
+  "checked_at": 1793730349.66,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "187734",
-      "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
-      "title": "PA 211 Resource Table",
-      "description": "PA 211 staff will provide easily accessible walk-up assistance in the library's front lobby. Assistance includes information and referrals for a broad range of services: childcare, after-school programs, food banks, elder care, basic needs, health services, and more. PA 211 staff can also provide housing and homelessness intake screenings for residents of Berks and Lancaster counties. Monday, Wednesday, Thursday: 9am-5pm First Thursday: 9am-3:30pm",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/pa-211-resource-table-187734",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793628000,
-      "end": 1793656800,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "208282",
-      "series": "https://calendar.lancasterlibraries.org/series/mahjong-101-manheim-township",
-      "title": "Mahjong 101",
-      "description": "Master the basics of American Mahjong! This series covers tile identification, reading the National Mah Jongg League card, and fundamental game strategies in a friendly, supportive setting. By the end of the course, you'll be playing full games with total confidence. Schedule: Mondays & Tuesdays | 6pm - 7:55pm Nov 2, Nov 3, Nov 9, Nov 10, Nov 16, & Nov 17 (6 sessions total) Registration Guidelines: Full Series Commitment: Attendance at every class is required to keep pace with the curriculum. First-Time Players Only: Open exclusively to attendees who have not previously taken a library Mahjong workshop in our county network. Ages +18 older only, please",
-      "categories": "Community, Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/mahjong-101-208282",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793660400,
-      "end": 1793666700,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "146704",
-      "series": "https://calendar.lancasterlibraries.org/series/cooks-books-baking-techniques-equipment-swap-manheim-township",
-      "title": "Cooks & Books: Baking Techniques & Equipment Swap",
-      "description": "Get your rolling pins ready! This month, Cooks & Books is getting a head start on the festive season by focusing on baking techniques to help level up your holiday spread. To inspire your baking, we’re drawing from two fantastic resources: Billy Parisi’s Website: Perfect for those who love detailed, chef-driven techniques and classic methods. Chasing Flavors by Dan Kluger: A deep dive into how flavor profiles work to make your bakes truly stand out. Bonus Special Event: We’ll also be hosting a Baking Tools & Equipment Swap! Bring any new or gently used kitchen gadgets, tools, or baking supplies (like rolling pins, specialty pans, or decorative sprinkles) you'd like to trade with fellow home cooks. Cooks & Books is a welcoming space for anyone who loves food and cooking. Bring a dish inspired by holiday baking techniques, your own place setting/to-go container, and a friend to join the conversation! Requirements: Attendees should be 14 years of age or older. Vegan and vegetarian recipes are always welcome. Supplies: Please bring your own serving utensils, place setting, to-go container, and beverage. Cost: The event is free, but reservations are required!",
-      "categories": "Community, Discussion, Health & Wellness",
-      "url": "https://calendar.lancasterlibraries.org/event/hold-cooks-books-146704",
-      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793661300,
-      "end": 1793666700,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Discussion",
-        "Health & Wellness"
-      ],
-      "branch": "Manheim Township"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "152986",
@@ -3588,6 +3517,29 @@
       ],
       "program_types": [
         "Business & Career"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "210891",
+      "series": "https://calendar.lancasterlibraries.org/series/crafternoon-at-mtpl-traditional-german-paper-stars-manheim-township",
+      "title": "Crafternoon at MTPL: Traditional German Paper Stars⭐",
+      "description": "Unwind and embrace a classic holiday crafting tradition! Join us at the library to learn the art of weaving and folding 3D German paper stars (also known as Fröbelsterne). Using four paper strips and a series of clever folds, you'll transform flat paper into intricate, eye-catching stars perfect for holiday tree ornaments, gift toppers, or festive window decorations. Whether you are an experienced paper crafter or completely new to the fold, step-by-step guidance will be provided. All paper and supplies are included-- just bring your patience and creativity!",
+      "categories": "Arts & Crafts",
+      "url": "https://calendar.lancasterlibraries.org/event/reserved-program-210891",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1797703200,
+      "end": 1797710400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Arts & Crafts"
       ],
       "branch": "Manheim Township"
     },
