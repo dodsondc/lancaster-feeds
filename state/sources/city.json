@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793730349.66,
+  "checked_at": 1793817564.7192,
   "events": [
     {
       "source": "Visit Lancaster City",
@@ -13,21 +13,6 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1790897400,
       "end": 1794789000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1098/29896740/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1098",
-      "title": "Coffee and Connections",
-      "description": "Coffee & Connections | FREE Main Street Connections Class at Tiny Town Join us for Coffee & Connections, part of Main Street Connections, Tiny Town’s FREE community programming for young children and their caregivers. A cozy gathering created especially for our littlest learners and their grown-ups. Enjoy gentle play, songs, simple activities, and plenty of opportunities to connect with other families in the same season of life. Main Street Connections was created to give local families a welcoming place to connect, learn, and grow together. Classes are designed for babies, toddlers, and preschoolers with a caregiver and include a rotating mix of music, movement, stories, crafts, sensory experiences, early learning activities, and opportunities to connect with other families. The class is completely FREE. No Tiny Town admission or membership is required to attend the class. Caregivers stay and participate with their children. Registration: Advance registration is required. Space is limited. Please note: Main Street Connections takes place in Tiny Town’s Neighborhood Nook. Registration for the free class does not include admission to Tiny Town’s 12-playhouse indoor play area. Families who would also like to play may purchase Open Play admission separately. Location: Tiny Town, 533 Janet Ave., Lancaster, PA 17601Time: Wednesday, October 4, 10:00–10:45 AM Cost: FREE Connect. Learn. Play for Free.",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1098/1793804400000",
-      "location": "",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793804400,
-      "end": 1793807100,
       "all_day": false,
       "status": "CONFIRMED"
     },

@@ -1,102 +1,6 @@
 {
-  "checked_at": 1793730349.66,
+  "checked_at": 1793817564.7192,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "152986",
-      "series": "https://calendar.lancasterlibraries.org/event/careerlink-qa-table-152986",
-      "title": "CareerLink Q&A Table",
-      "description": "Get help with your job search by visiting the CareerLink table in the library lobby every Tuesday between 10AM and 5PM. A CareerLink representative will be on site to help patrons with their career and job search n",
-      "categories": "",
-      "url": "https://calendar.lancasterlibraries.org/event/careerlink-qa-table-152986",
-      "location": "Lancaster Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793682000,
-      "end": 1793768399,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Teens",
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "147887",
-      "series": "https://calendar.lancasterlibraries.org/series/short-story-discussion-group-lancaster",
-      "title": "Short Story Discussion Group",
-      "description": "Join us on the first Tuesday of each month as we read and discuss works in the Short Story genre! From classic to contemporary, we’ll cover a variety of authors and stories to help us explore well-known works and introduce us to new favorites. 2026 Reading List: January 6: “A Very Old Man with Enormous Wings” by Gabriel García Márquez February 3: “A Sound of Thunder” by Ray Bradbury March 3: “A Biography” by Penelope Lively April 7: “Better Living Through Algorithms” by Naomi Kritzer May 5: “A Temporary Matter” and “Mrs. Sen’s” by Jhumpa Lahiri June 2: “The Harvest” by Amy Hempel July 7: “Mr. Death” by Alix E. Harrow August 4: “The Sniper” by Liam O’Flaherty September 1: “How to Pronounce Knife,” “Chick-A-Chee,” and “Edge of the World” by Souvankham Thammavongsa November 3: “The Lottery Ticket” by Anton Chekhov and “Contents of the Dead Man’s Pocket” by Jack Finney December 1: “The Burglar’s Christmas” by Willa Cather (under the pseudonym “Elizabeth L. Seymour”) For assistance finding copies of each story, please contact the library at 717-394-2651 ext. 1350 or askus@lancasterpubliclibrary.org. Registration is encouraged but not required!",
-      "categories": "Book Club, Discussion",
-      "url": "https://calendar.lancasterlibraries.org/event/short-story-discussion-group-147887",
-      "location": "Lancaster Library, LPL Board Room, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Free",
-      "start": 1793732400,
-      "end": 1793736000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Book Club",
-        "Discussion"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "179802",
-      "series": "https://calendar.lancasterlibraries.org/event/yarn-circle-179802",
-      "title": "Yarn Circle",
-      "description": "Bring your knitting and crocheting to the library for a relaxed time of idea-sharing, friendly conversation, and helping one another along the way. All ages and all skill levels are invited!",
-      "categories": "Arts & Crafts, Community",
-      "url": "https://calendar.lancasterlibraries.org/event/yarn-circle-179802",
-      "location": "Strasburg-Heisler Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793682000,
-      "end": 1793768399,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Teens",
-        "Adults",
-        "Seniors",
-        "Everyone"
-      ],
-      "program_types": [
-        "Arts & Crafts",
-        "Community"
-      ],
-      "branch": "Strasburg-Heisler"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "208283",
-      "series": "https://calendar.lancasterlibraries.org/series/mahjong-101-manheim-township",
-      "title": "Mahjong 101",
-      "description": "Go from \"What's a Bam?\" to \"Mahjong!\" in this five-week intensive designed for true beginners. We’ll dive into the tiles, the National Mah Jongg League card, and the fast-paced strategy that makes the game a total blast. By the final week, you’ll be playing with confidence and style! The Full-Table Commitment: Because each lesson builds directly on the last, signing up for the first session means you are committed to the full journey. Please ensure you can attend every class before registering! Schedule: Mondays & Tuesdays, 6-8pm Monday, November 2 Tuesday, November 3 Monday, November 9 Tuesday, November 10 Monday, November 16 Tuesday, November 17 New Players Only, Please!: To keep things fair and give everyone a shot at the tiles, this course is strictly for true beginners. If you've already taken a Mahjong class at any library branch in the county, we ask that you leave this spot open for someone who hasn't had the chance to learn yet. We love your enthusiasm, but this specific table is reserved for those who are brand new to the game!",
-      "categories": "Community, Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/mahjong-101-208283",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793746800,
-      "end": 1793753100,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "187735",
@@ -118,53 +22,6 @@
         "Community"
       ],
       "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "148297",
-      "series": "https://calendar.lancasterlibraries.org/event/literary-council-qa-table-148297",
-      "title": "Literary Council Q&A Table",
-      "description": "The Literacy Council of Lancaster-Lebanon is here to answer your questions about the programs they offer, including reading/writing/math classes for adults, English Language Acquisition classes, GED/HiSET prep, and more. Consultati",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/literary-council-qa-table-148297",
-      "location": "Lancaster Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793768400,
-      "end": 1793854799,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Teens",
-        "Adults"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "165069",
-      "series": "https://calendar.lancasterlibraries.org/series/morning-mahjong-manheim-township",
-      "title": "Morning Mahjong",
-      "description": "🀄️✨Join us for a morning of strategy, skill, and socializing! 🀄️✨ Whether you are a seasoned pro or a newcomer looking to practice, come enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 10-1 in Morgan Center C. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event! This program is for adults ages +18",
-      "categories": "Community, Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/morning-mahjong-165069",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1793804400,
-      "end": 1793815200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -1266,7 +1123,7 @@
       "source_id": "209432",
       "series": "https://calendar.lancasterlibraries.org/series/game-day-reads-face-off-by-chelsea-curto-manheim-township",
       "title": "Game Day Reads: Face Off by Chelsea Curto",
-      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. This November, we’re kicking off the DC Stars series with Face Off by Chelsea Curto. When a fiery sports PR specialist and a brooding professional hockey player are forced to work together, sparks fly both on and off the ice. Sparks quickly turn to heat in this laugh-out-loud, rivals-to-lovers story filled with plenty of banter. Grab a copy, jump into the lineup, and join us for the discussion! Copies are available for checkout digitally on Hoopla!",
+      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. This November, we’re kicking off the DC Stars series with Face Off by Chelsea Curto. A historic female NHL rookie and the team's hopeless golden-retriever captain agree to keep their fierce chemistry behind closed doors-- an arrangement that immediately backfires when feelings get involved. He falls first, loses his mind over her, and becomes utterly obsessed while she tries to keep her \"black cat\" walls up. It is pure high-spice hockey fluff with zero third-act breakup nonsense! Grab a copy, jump into the lineup, and join us for the discussion! Copies are available for checkout digitally on Hoopla!",
       "categories": "Book Club",
       "url": "https://calendar.lancasterlibraries.org/event/game-day-reads-face-chelsea-curto-209432",
       "location": "Manheim Township Library, MTP Lapp Story Silo, 595 Granite Run Drive,  Lancaster, PA, 17601",
