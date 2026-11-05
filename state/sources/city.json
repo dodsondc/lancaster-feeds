@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793817564.7192,
+  "checked_at": 1793904262.62167,
   "events": [
     {
       "source": "Visit Lancaster City",
@@ -13,36 +13,6 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1790897400,
       "end": 1794789000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1099/29897220/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1099",
-      "title": "Study Hall: Spirits & Signatures",
-      "description": "You know the names. You know the drinks. But do you know the stories behind them? Join us at The Conway Room for Spirits & Signatures, a playful, interactive evening exploring the trademarks, iconic cocktails, and recognizable brands that have shaped drinking culture through the years. From signature drinks to the stories behind some of the world's best-known spirits brands, this Study Hall takes a closer look at how cocktails and trademarks become icons. Discover the history, branding, and culture behind familiar names while putting your own knowledge to the test along the way. Expect an engaging mix of cocktail education, surprising stories, and interactive fun—all in the welcoming atmosphere of The Conway Room. Whether you're a cocktail enthusiast, a curious sipper, or simply interested in the stories behind the brands you know, there's something new to discover. 📅 November 4 🕡 6:30 PM 📍 The Conway Room Come curious and leave with a new appreciation for the names behind your favorite drinks. Reservations are required. Reserve your seat and join us for Study Hall.",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1099/1793833200000",
-      "location": "The Conway Room,28 East King Street, Lancaster, PA 17602, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793833200,
-      "end": 1793844000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1044/29897280/2/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1044",
-      "title": "Improvised Shakespeare 101 With Renee!",
-      "description": "Discover how to improvise in Shakespeare’s style in this advanced improv class. About the Class: Love. Jealousy. Betrayal. Ambition. Shakespeare used powerful emotions to tell timeless stories that still captivate audiences today–and you can too! Learn the building blocks of improvised Shakespeare including language patterns, narrative devices, and character archetypes to create a larger-than-life Shakespearean comedy on the spot. This class will add techniques to your improv toolkit to use in improvised Shakespeare and beyond. This class requires students to have completed LIP's Improv 201 or Artistic Director approval. Students must be 18 or older for this class. This Class will run Wednesdays from 7pm-9:30pm on the following dates: 10/7, 10/14, 10/21, 10/28, 11/4, 11/11, 11/18, [no class 11/25], and 12/2. This class has a class show on Thursday 12/3 at 7:00pm! Ticket sale close at the end of the day on Sunday 10/4/26. Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Tickets are on sale until end of day Sunday 10/4!",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1044/1793836800000/2",
-      "location": "Lancaster Improv Players,8 West King Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1793836800,
-      "end": 1793845800,
       "all_day": false,
       "status": "CONFIRMED"
     },

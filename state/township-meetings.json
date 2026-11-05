@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked": 1793817559.03945,
+  "last_checked": 1793904257.32779,
   "items": {
     "Board of Supervisors|2026-10-12|Agenda|https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
       "id": "Board of Supervisors|2026-10-12|Agenda|https://www.twp.lancaster.pa.us/10-12-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
@@ -601,6 +601,16 @@
       "page_url": "https://www.twp.lancaster.pa.us/government/boards___commissions/zoning_hearing_board/agendas___minutes.php",
       "row_label": "\r 11/24/26\r Zoning Hearing Board Meeting\r",
       "first_seen": 1793294775.17131
+    },
+    "Board of Supervisors|2026-11-09|Agenda|https://www.twp.lancaster.pa.us/11-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf": {
+      "id": "Board of Supervisors|2026-11-09|Agenda|https://www.twp.lancaster.pa.us/11-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf",
+      "entity": "Board of Supervisors",
+      "meeting_date": "2026-11-09",
+      "type": "Agenda",
+      "url": "https://www.twp.lancaster.pa.us/11-09-2026%20BoS%20Public%20Mtg%20Agenda.pdf?t=202611051131230",
+      "page_url": "https://www.twp.lancaster.pa.us/government/elected_officials/board_of_supervisors/agendas___minutes.php",
+      "row_label": "\r \r 11/09/26 Board of Supervisors\r",
+      "first_seen": 1793904257.32779
     }
   }
 }
