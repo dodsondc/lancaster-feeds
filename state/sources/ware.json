@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793904262.62167,
+  "checked_at": 1793987854.32791,
   "events": [
     {
       "source": "Ware / Millersville",
@@ -385,23 +385,6 @@
       "categories": "University Theatre",
       "start": 1794009600,
       "end": 1794009600,
-      "location": "Winter Visual & Performing Arts Center",
-      "price": "$12 to $15",
-      "all_day": false,
-      "end_known": false,
-      "status": "CONFIRMED",
-      "direct": true
-    },
-    {
-      "source": "Ware / Millersville",
-      "source_id": "https://artsmu.com/event/rock-of-ages-4/winter-visual-performing-arts-center/",
-      "series": "https://artsmu.com/event/rock-of-ages-4/winter-visual-performing-arts-center/",
-      "title": "Rock of Ages",
-      "url": "https://artsmu.com/event/rock-of-ages-4/winter-visual-performing-arts-center/",
-      "description": "University Theatre presents Rock of Ages, the hit musical featuring live music and classic songs by Styx, Journey, Bon Jovi, Whitesnake, Twisted Sister, and more. It is the tail end of the 1980s on Hollywood’s Sunset Strip, where aspiring rock star Drew dreams of taking the stage and falling in love with Sherrie, a small-town girl newly arrived in Los Angeles. When developers threaten to replace the Strip’s legendary rock venues with a shopping complex, Drew, Sherrie, and an unforgettable group of musicians, dreamers, and devoted rock fans must come together to save their beloved neighborhood. Packed with iconic songs, big personalities, and plenty of 1980s energy, Rock of Ages is a celebration of dreams, determination, and the music that defined a generation. MU Students can purchase up to one (1) discounted ticket for $5.00 with a valid MU ID. MU Discounts are NOT available online and must be purchased in-person or by calling any box office location. Venue has limited seating capacity. Advanced ticket reservations are strongly encouraged. MU Discount tickets are subject to availability at the door.",
-      "categories": "",
-      "start": 1793923200,
-      "end": 1793923200,
       "location": "Winter Visual & Performing Arts Center",
       "price": "$12 to $15",
       "all_day": false,
