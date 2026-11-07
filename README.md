@@ -20,17 +20,11 @@ Or source `Feed Maker.R` in RStudio. Do not run the helper `R/news.R` by itself.
 
 ## What the feed contains
 
-The collector reads the township's public news index and retrieves the `#post` article content. It removes scripts and administration controls, resolves links/images to absolute URLs, decodes title entities, and keeps a stable URL-based GUID for each story.
+The township’s [News Listings](https://www.twp.lancaster.pa.us/newslist.php) builds its cards from a public JSON file. The collector reads the page’s configuration, uses the same data for page one (currently 10 cards), and follows each Read More link on that page. It uses the article page’s title and body, keeps document and image links usable, and removes scripts and administration controls.
 
-The collector follows only the first 10 entries of the JSON index: the same stories shown on page 1 of newslist.php. It follows their Read More links for article text.
+The listing’s month and day are authoritative for this feed. Each date independently gets the most recent year in which that date is on or before today in Lancaster. The date appears immediately under the headline (for example, **Oct 09, 2026**) and is used as the RSS publication date, at local midnight. The feed lists newest dates first; articles sharing a date retain their page-one order in the XML.
 
-Explicit publication metadata takes priority for newly collected articles. Otherwise, month/day dates from the newest-first listing receive an estimated year: start with the current Eastern calendar year, step back if the result is in the future, and step back at a December/January rollover while walking down the list. Existing verified/estimated dates anchor the sequence and remain stable across runs. These are estimates: pinned/reordered stories or a listing stale for more than a year can violate the assumptions. Image timestamps and dates in article prose are not used.
-
-Estimated dates appear as “Publication date estimated from listing” with no invented time of day; RSS uses local midnight. If the listing date is missing or invalid, the item uses its first collection time and is labeled accordingly. Every record retains first_seen in state. The update migrates existing first-collected records on page 1 to estimated dates without resetting first_seen or changing URL-based GUIDs. Do not delete or replace GitHub's state file when updating the code. Old imported items may remain in NetNewsWire's own history even after they leave the active feed.
-
-Existing article bodies are cached for 24 hours; newly discovered stories are fetched immediately. A failed index or article request leaves the previous feed and state intact and fails the run visibly. Empty article bodies link back to the original announcement. Stories absent from the current index leave the active RSS feed, while their collection history remains in state. Updated bodies retain the same GUID; whether an update is shown as unread depends on the reader.
-
-Keep the state file when moving to GitHub. Removing it resets fallback collection dates.
+Every successful refresh replaces the feed with the current page-one articles. URLs remain the story GUIDs, so existing stories retain their identities. NetNewsWire may keep its own copies of items that have already left the feed. If a date or an article cannot be retrieved, the previous XML stays in place. The township news collector no longer needs its old collection state; leave the repository’s state directory in place for the other collectors.
 
 ## Publish through GitHub, using your browser
 
@@ -58,7 +52,7 @@ From the repository root:
 Rscript tests/test-news.R
 ```
 
-These offline checks cover publication dates, Eastern midnight conversion, HTML cleanup, relative URLs including spaces, first-collected dates across runs, year rollovers and persistent estimates, migration of old state, the 10-item limit, and retention of the last good feed on failure.
+These offline checks cover page-one requests and removal, article titles and content, independent year inference, Eastern midnight and RSS sort dates, stable URLs, and retention of the last good feed on failure.
 
 ## Future source types
 
@@ -88,9 +82,7 @@ No change to the existing news subscription is needed. Local test command: `Rscr
 
 ## Feed ordering
 
-Both feeds sort by Eastern calendar day of first detection, descending, then by publication date (news) or meeting date (documents), descending. Stable document IDs/URLs break remaining ties deterministically. Since NetNewsWire sorts using RSS pubDate and cannot be told a custom secondary key, the generated pubDate encodes that order using seconds after midnight on the detection day. These seconds are sorting values, not actual publication/detection times. Actual publication estimates, meeting dates, and full first-detection timestamps remain in the item descriptions and saved state. No identifiers or saved detection dates are reset. Existing items' RSS dates will change on the first refresh with this version.
-
-Upload R/news.R, R/meetings.R, tests/test-news.R, tests/test-meetings.R and this README to update sorting. Keep existing state and workflow. NetNewsWire should be set to show newest first; existing cached history may not change until the feed is refreshed and updated entries are accepted by the reader.
+The meeting-document feed sorts by Eastern day of first detection, then meeting date, both descending. Its RSS publication time encodes that order; the actual meeting date and detection timestamp are in the item and saved state. The township news feed instead uses the listing date directly. Set NetNewsWire to show newest first.
 
 ## Lancaster Conservancy events and calendar links
 
