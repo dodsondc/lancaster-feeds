@@ -18,6 +18,8 @@ bos <- parsed[["Board of Supervisors"]][[1]]
 stopifnot(startsWith(bos$url, "https://www.twp.lancaster.pa.us/10-12-2026"))
 # Canceled ZHB rows without PDFs should not become items.
 stopifnot(!any(vapply(parsed[["Zoning Hearing Board"]], function(r) r$meeting_date == "2026-10-27", logical(1))))
+stopifnot(meeting_cutoff(as.Date("2026-11-07")) == as.Date("2026-05-07"),
+  meeting_cutoff(as.Date("2026-08-31")) == as.Date("2026-02-28"))
 # A changed cache-busting timestamp is still the same document identity.
 p1 <- read_html('<base href="https://www.twp.lancaster.pa.us/"><table><tr><td>10/12/26 Board</td><td><a href="a.pdf?t=1">Agenda</a><a href="https://youtube.com/example">Video</a></td></tr></table>')
 p2 <- read_html(gsub("t=1", "t=2", as.character(p1), fixed = TRUE))
@@ -41,6 +43,16 @@ for (d in xml_text(xml_find_all(feed, "//item/description"))) {
   html <- read_html(d)
   stopifnot(length(html_elements(html, 'a[href]')) == 2L, grepl("First detected", html_text2(html)))
 }
+stopifnot(any(grepl(" — Oct 12, 2026$", xml_text(xml_find_all(feed, "//item/title")))))
+# A meeting on the inclusive cutoff stays; the preceding day falls out.
+fetch_page <- function(url) httr2::response(200, headers = list(`content-type` = "text/html"),
+  body = charToRaw(paste0('<base href="https://www.twp.lancaster.pa.us/"><table>',
+    '<tr><td>5/6/26</td><td><a href="old.pdf">Agenda</a></td></tr>',
+    '<tr><td>5/7/26</td><td><a href="cutoff.pdf">Agenda</a></td></tr>',
+    '<tr><td>12/9/26</td><td><a href="future.pdf">Agenda</a></td></tr></table>')))
+boundary <- collect_meeting_documents(root, now = publication_time("2026-11-07"))
+stopifnot(length(boundary) == 8L,
+  setequal(vapply(boundary, function(r) r$meeting_date, character(1)), c("2026-05-07", "2026-12-09")))
 before <- readBin(path, "raw", n = file.info(path)$size)
 fetch_page <- function(url) stop("Simulated page failure")
 failed <- tryCatch({collect_meeting_documents(root); FALSE}, error = function(e) TRUE)

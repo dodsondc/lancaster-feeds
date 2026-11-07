@@ -38,7 +38,8 @@ reminder<-Filter(function(e)is.null(e$start),first)[[1]]
 t<-paste(readLines(file.path(root,"docs","calendar",paste0(reminder$id,".ics")),warn=FALSE),collapse="\n")
 stopifnot(grepl("DTSTART;VALUE=DATE:20261120",t,fixed=TRUE),grepl("DTEND;VALUE=DATE:20261121",t,fixed=TRUE),grepl("STATUS:TENTATIVE",t,fixed=TRUE))
 feed<-read_xml(file.path(root,"lancaster_conservancy_events.xml"))
-stopifnot(length(xml_find_all(feed,"//item"))==6L)
+stopifnot(length(xml_find_all(feed,"//item"))==6L,
+  any(startsWith(xml_text(xml_find_all(feed,"//item/title")), "Nov 20, 2026 — ")))
 for(d in xml_text(xml_find_all(feed,"//item/description")))stopifnot(any(grepl("\\.ics$",html_elements(read_html(d),"a")|>html_attr("href"))))
 # Failed detail extraction must leave the last feed unchanged.
 p<-file.path(root,"lancaster_conservancy_events.xml")

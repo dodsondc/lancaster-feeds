@@ -52,6 +52,8 @@ tmp<-tempfile();dir.create(tmp);write_discovery_rss(b$events,file.path(tmp,'feed
 stopifnot(!length(list.files(file.path(tmp,'docs','calendar'))))
 # Timed occurrences get discrete calendar entries, correct Eastern->UTC conversion.
 b<-build_discoveries(repeaters,p,now);write_discovery_rss(b$events,file.path(tmp,'feed.xml'),tmp)
+headline<-xml_text(xml_find_first(read_xml(file.path(tmp,'feed.xml')), '//item/title'))
+stopifnot(startsWith(headline, 'Nov 06, 2026 to Nov 20, 2026 — '))
 ics<-list.files(file.path(tmp,'docs','calendar'),full.names=TRUE);stopifnot(length(ics)==3L)
 stopifnot(any(grepl('DTSTART:20261107T000000Z',readLines(ics[1]),fixed=TRUE)))
 # Validate actual source shapes, HTML entity decoding and explicit UTC dates.
