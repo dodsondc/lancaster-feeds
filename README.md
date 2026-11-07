@@ -64,7 +64,7 @@ Only news is implemented so far.
 
 ## Meeting-document feed
 
-`R/meetings.R` creates a second feed, `lancaster_township_meetings.xml`, with independent state in `state/township-meetings.json`. It covers Board of Supervisors, Planning Commission, Zoning Hearing Board, and Traffic Committee pages. It includes one item per Agenda, Minutes, or Packet PDF for meetings within the past 366 days, plus future meetings listed by the township. There is a one-time backlog on first subscription (58 PDFs in the initial local run). It ignores video links and canceled-meeting rows without PDFs.
+`R/meetings.R` creates a second feed, `lancaster_township_meetings.xml`, with independent state in `state/township-meetings.json`. It covers Board of Supervisors, Planning Commission, Zoning Hearing Board, and Traffic Committee pages. It includes one item per Agenda, Minutes, or Packet PDF for meetings within the past six calendar months, including the cutoff date, plus future meetings listed by the township. There is a one-time backlog on first subscription (58 PDFs in the initial local run). It ignores video links and canceled-meeting rows without PDFs.
 
 Each title includes document type, body and the explicit meeting date. The item date is first detection, because meeting dates are not document publication dates. Links open the township's PDFs; files are not downloaded, archived, or text-extracted. URLs honor each page's HTML base element and encode spaces. Query timestamps do not change document identity; an altered link updates the existing item's target. Revisions to PDF bytes at an unchanged URL are not detected. NetNewsWire controls whether changes to an existing item appear unread.
 
@@ -79,6 +79,10 @@ Then add this second subscription to NetNewsWire:
 `https://raw.githubusercontent.com/dodsondc/lancaster-feeds/main/lancaster_township_meetings.xml`
 
 No change to the existing news subscription is needed. Local test command: `Rscript tests/test-meetings.R`.
+
+## Display dates
+
+Feed titles and article date labels use English abbreviated months, two-digit days and four-digit years, for example **Oct 09, 2026**. Times remain Eastern where shown. The machine-readable RSS dates and calendar fields retain their standard formats; NetNewsWire controls how it displays RSS dates in its own interface.
 
 ## Feed ordering
 
