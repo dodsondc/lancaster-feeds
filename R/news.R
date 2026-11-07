@@ -12,6 +12,29 @@ rss_date <- function(x) {
          "%a, %d %b %Y %H:%M:%S +0000", tz = "UTC")
 }
 
+# Human-readable feed labels; machine dates, identifiers and RSS pubDate
+# keep their own formats.
+feed_display_date <- function(x, include_time = FALSE) {
+  if (is.character(x)) x <- publication_time(x)
+  local <- as.POSIXct(x, origin = "1970-01-01", tz = "America/New_York")
+  stamp <- paste0(month.abb[as.integer(format(local, "%m"))], format(local, " %d, %Y"))
+  if (include_time) paste(stamp, format(local, "%H:%M %Z")) else stamp
+}
+
+feed_display_clock <- function(x) {
+  local <- as.POSIXct(x, origin = "1970-01-01", tz = "America/New_York")
+  hour <- as.integer(format(local, "%H"))
+  paste0(sprintf("%02d", (hour + 11L) %% 12L + 1L), format(local, ":%M "),
+         if (hour < 12L) "AM " else "PM ", format(local, "%Z"))
+}
+
+feed_display_interval <- function(start, end) {
+  first <- feed_display_date(start)
+  last <- feed_display_date(end)
+  paste0(first, " · ", feed_display_clock(start), " – ",
+         if (first != last) paste0(last, " · ") else "", feed_display_clock(end))
+}
+
 # Date-only values mean local midnight, not midnight UTC converted to local time.
 publication_time <- function(x) {
   if (is.null(x) || length(x) != 1L || is.na(x)) return(NA_real_)
@@ -167,9 +190,7 @@ write_news_rss <- function(records, path) {
     xml_add_child(item, "guid", r$url, isPermaLink = "true")
     xml_add_child(item, "category", "News")
     xml_add_child(item, "pubDate", rss_date(r$date))
-    day <- format(as.POSIXct(r$date, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d")
-    stamp <- sprintf("%s %s, %s", month.abb[as.integer(substr(day, 6, 7))], substr(day, 9, 10), substr(day, 1, 4))
-    heading <- paste0("<p><em>", stamp, "</em></p>\n")
+    heading <- paste0("<p><em>", feed_display_date(r$date), "</em></p>\n")
     description <- xml_add_child(item, "description")
     xml_add_child(description, xml_cdata(paste0(heading, r$body)))
   }

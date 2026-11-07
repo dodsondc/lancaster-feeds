@@ -231,15 +231,15 @@ build_discoveries <- function(events,prefs,now,old=list()) {
 }
 
 discovery_when <- function(e) {
-  local<-function(t)format(as.POSIXct(t,origin="1970-01-01",tz="America/New_York"),"%a, %b %d, %Y %I:%M %p %Z")
-  if(e$all_day) paste(format(as.POSIXct(e$start,origin="1970-01-01",tz="America/New_York"),"%a, %b %d, %Y"),"— date listed; check opening/performance times") else if(identical(e$end_known,FALSE))paste(local(e$start),"— end time not published") else paste(local(e$start),"–",local(e$end))
+  if (e$all_day) paste(feed_display_date(e$start), "— date listed; check opening/performance times")
+  else if (identical(e$end_known, FALSE)) paste(feed_display_date(e$start), "·", feed_display_clock(e$start), "— end time not published")
+  else feed_display_interval(e$start, e$end)
 }
 
 write_discovery_rss <- function(events,path,root) {
   old_locale<-Sys.getlocale("LC_TIME")
   on.exit(Sys.setlocale("LC_TIME",old_locale),add=TRUE)
   Sys.setlocale("LC_TIME","C")
-  headline_day<-function(t)sub(" 0([1-9])$"," \\1",format(as.POSIXct(t,origin="1970-01-01",tz="America/New_York"),"%a %b %d"))
   rss<-xml_new_root("rss",version="2.0");channel<-xml_add_child(rss,"channel")
   xml_add_child(channel,"title","Lancaster Discoveries — Events & Engagements")
   xml_add_child(channel,"link","https://visitlancastercity.com/calendar/")
@@ -249,9 +249,9 @@ write_discovery_rss <- function(events,path,root) {
   for(e in ordered) {
     item<-xml_add_child(channel,"item");body<-xml_new_root("div")
     day<-function(t)format(as.POSIXct(t,origin="1970-01-01",tz="America/New_York"),"%Y-%m-%d")
-    range<-if(day(e$start)==day(e$end))day(e$start) else paste(day(e$start),day(e$end),sep=" to ")
-    headline_range<-if(day(e$start)==day(e$end))headline_day(e$start) else paste(headline_day(e$start),headline_day(e$end),sep=" to ")
-    xml_add_child(item,"title",paste(headline_range,e$title,sep=" — "));xml_add_child(item,"link",e$url)
+    first<-feed_display_date(e$start);last<-feed_display_date(e$end)
+    range<-if(first==last)first else paste(first,last,sep=" to ")
+    xml_add_child(item,"title",paste(range,e$title,sep=" — "));xml_add_child(item,"link",e$url)
     xml_add_child(item,"guid",paste0("lancaster:",e$id),isPermaLink="false")
     xml_add_child(item,"pubDate",rss_date(e$feed_sort_time));xml_add_child(item,"category",e$kind)
     for(t in c(paste(e$kind,range,sep=": "),paste("Location:",if(nzchar(e$location))e$location else "Check source"),paste("Price:",e$price),e$description))xml_add_child(body,"p",t)
@@ -272,7 +272,7 @@ write_discovery_rss <- function(events,path,root) {
     }
     for(s in e$sources) {p<-xml_add_child(body,"p");xml_add_child(p,"a",paste("Details:",s$name),href=s$url)}
     xml_add_child(body,"p",paste("Matched interests:",e$interest))
-    xml_add_child(body,"p",paste("First detected:",day(e$first_seen),"· Adding a calendar item does not book a ticket. Imported calendar items do not automatically update."))
+    xml_add_child(body,"p",paste("First detected:",feed_display_date(e$first_seen),"· Adding a calendar item does not book a ticket. Imported calendar items do not automatically update."))
     xml_add_child(xml_add_child(item,"description"),xml_cdata(as.character(body)))
   }
   tmp<-tempfile(tmpdir=dirname(path));on.exit(unlink(tmp),add=TRUE);write_xml(rss,tmp,options="format");read_xml(tmp)

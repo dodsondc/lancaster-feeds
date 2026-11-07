@@ -6,6 +6,16 @@ meeting_sources <- c(
   "Traffic Committee" = "https://www.twp.lancaster.pa.us/government/agendas___minutes/traffic_committee_agendas_and_minutes.php"
 )
 
+meeting_date_pattern <- "\\b[0-9]{1,2}/[0-9]{1,2}/([0-9]{4}|[0-9]{2})\\b"
+
+# Use calendar months, clamping to the last day for shorter target months.
+meeting_cutoff <- function(today, months = 6L) {
+  month <- as.Date(format(today, "%Y-%m-01"))
+  target <- seq(month, by = paste(-months, "months"), length.out = 2L)[2]
+  next_month <- seq(target, by = "month", length.out = 2L)[2]
+  min(target + as.integer(format(today, "%d")) - 1L, next_month - 1L)
+}
+
 parse_meeting_documents <- function(page, entity, page_url) {
   base <- html_element(page, "base[href]") |> html_attr("href")
   if (is.na(base)) base <- page_url
@@ -19,7 +29,7 @@ parse_meeting_documents <- function(page, entity, page_url) {
     cells <- xml_find_all(row, "./td")
     if (!length(cells)) next
     text <- html_text2(cells[[1]])
-    match <- regexpr("\\b[0-9]{1,2}/[0-9]{1,2}/([0-9]{4}|[0-9]{2})\\b", text, perl = TRUE)
+    match <- regexpr(meeting_date_pattern, text, perl = TRUE)
     if (match[1] < 0L) next
     raw_date <- regmatches(text, match)
     bits <- strsplit(raw_date, "/", fixed = TRUE)[[1]]
@@ -47,18 +57,18 @@ parse_meeting_documents <- function(page, entity, page_url) {
 }
 
 write_meeting_rss <- function(records, path) {
-  if (!length(records)) stop("No meeting PDFs; previous feed retained")
   rss <- xml_new_root("rss", version = "2.0")
   channel <- xml_add_child(rss, "channel")
   xml_add_child(channel, "title", "Lancaster Township — Meeting Documents")
   xml_add_child(channel, "link", "https://www.twp.lancaster.pa.us/government/agendas___minutes/index.php")
-  xml_add_child(channel, "description", "Agendas, minutes and packets for the Board of Supervisors, Planning Commission, Zoning Hearing Board and Traffic Committee. Feed dates sort by detection day, then meeting date. Seconds after midnight are ordering values, not publication times.")
+  xml_add_child(channel, "description", "Agendas, minutes and packets for the Board of Supervisors, Planning Commission, Zoning Hearing Board and Traffic Committee. Covers the last six calendar months and listed future meetings. Feed dates sort by detection day, then meeting date. Seconds after midnight are ordering values, not publication times.")
   xml_add_child(channel, "language", "en-us")
   xml_add_child(channel, "ttl", "720")
   records <- order_feed_records(records, function(r) publication_time(r$meeting_date))
   for (r in records) {
     item <- xml_add_child(channel, "item")
-    xml_add_child(item, "title", paste(r$type, r$entity, r$meeting_date, sep = " — "))
+    label <- feed_display_date(r$meeting_date)
+    xml_add_child(item, "title", paste(r$type, r$entity, label, sep = " — "))
     xml_add_child(item, "link", r$url)
     xml_add_child(item, "guid", r$id, isPermaLink = "false")
     xml_add_child(item, "category", r$entity)
@@ -66,9 +76,9 @@ write_meeting_rss <- function(records, path) {
     xml_add_child(item, "pubDate", rss_date(r$feed_sort_time))
     # Construct HTML with xml2 so URLs containing & and other special characters are escaped.
     body <- xml_new_root("div")
-    xml_add_child(body, "p", paste0(r$entity, " · ", r$type, " · Meeting date: ", r$meeting_date))
-    xml_add_child(body, "p", paste0("Listed as: ", r$row_label))
-    xml_add_child(body, "p", paste0("First detected: ", format(as.POSIXct(r$first_seen, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d %H:%M %Z"), ". Publication date unavailable."))
+    xml_add_child(body, "p", paste0(r$entity, " · ", r$type, " · Meeting date: ", label))
+    xml_add_child(body, "p", paste0("Listed as: ", sub(meeting_date_pattern, label, r$row_label, perl = TRUE)))
+    xml_add_child(body, "p", paste0("First detected: ", feed_display_date(r$first_seen, include_time = TRUE), ". Publication date unavailable."))
     xml_add_child(body, "p", "Feed date sorts by detection day, then meeting date; its time of day is an ordering value.")
     p <- xml_add_child(body, "p")
     xml_add_child(p, "a", paste("Open", r$type, "PDF"), href = r$url)
@@ -84,11 +94,12 @@ write_meeting_rss <- function(records, path) {
   if (!file.rename(tmp, path)) stop("Could not replace ", path)
 }
 
-collect_meeting_documents <- function(root, now = as.numeric(Sys.time()), lookback_days = 366L) {
+collect_meeting_documents <- function(root, now = as.numeric(Sys.time())) {
   path <- file.path(root, "state", "township-meetings.json")
   state <- if (file.exists(path)) read_json(path, simplifyVector = FALSE) else list(items = list())
   cache <- if (is.list(state$items)) state$items else list()
   today <- as.Date(format(as.POSIXct(now, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d"))
+  cutoff <- meeting_cutoff(today)
   records <- list()
   for (entity in names(meeting_sources)) {
     url <- unname(meeting_sources[entity])
@@ -97,8 +108,7 @@ collect_meeting_documents <- function(root, now = as.numeric(Sys.time()), lookba
     message(entity, ": ", length(parsed), " PDF links found")
     for (id in names(parsed)) {
       r <- parsed[[id]]
-      # Monitor a rolling year so late-posted minutes are still detected.
-      if (as.Date(r$meeting_date) < today - lookback_days) next
+      if (as.Date(r$meeting_date) < cutoff) next
       old <- cache[[id]]
       r$first_seen <- if (is.null(old)) now else old$first_seen
       cache[[id]] <- r
