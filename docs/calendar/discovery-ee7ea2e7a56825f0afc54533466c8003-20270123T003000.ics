@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-ee7ea2e7a56825f0afc54533466c8003-20270123T003000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261024T143204Z
-LAST-MODIFIED:20261024T143204Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20270123T003000Z
 DTEND:20270123T033000Z
 SUMMARY:Peter Pan Goes Wrong Opening Night
@@ -24,8 +24,8 @@ DESCRIPTION:Celebrate Opening Night with us! Brace yourselves for an awfull
  1800664200000\n\nAdding this calendar item does not register you. Check th
  e original listing for changes\; imported events do not automatically stay
   in sync.
-LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
- A
+LOCATION:Fulton Theatre\, 12 North Prince Street\, Lancaster\, PA 17603\, U
+ SA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/849/1
  800664200000
 STATUS:CONFIRMED

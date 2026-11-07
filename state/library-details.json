@@ -1,59 +1,6 @@
 {
   "version": 1,
   "items": {
-    "206498": {
-      "checked_at": 1793294782.7065,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "206498",
-        "series": "https://calendar.lancasterlibraries.org/series/vote-yes-for-libraries-just-the-facts-lancaster",
-        "title": "Vote Yes for Libraries: Just the Facts",
-        "description": "On November 3, Lancaster County voters will decide whether to enact a countywide Library tax. There is a lot of misinformation circulating about the proposed Library tax. At this information session, you’ll receive accurate information about the proposed Library tax, including what it means for library services, taxes, and more. Each of the four events will present the same information. 📅 Saturday, October 17 at 10AM 📅 Thursday, October 22 at 6PM 📅 Monday, October 26 at 12PM 📅 Friday, October 30 at 9:30AM Additionally, we will host three information sessions at the Mountville Branch. 📅 Friday, October 16 at 10:30AM 📅 Saturday, October 24 at 12PM 📅 Thursday, October 29 at 6PM",
-        "categories": "Community, Presentation",
-        "url": "https://calendar.lancasterlibraries.org/event/vote-yes-libraries-just-facts-206498",
-        "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1793367000,
-        "end": 1793370600,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [
-          "Community",
-          "Presentation"
-        ],
-        "branch": "Lancaster"
-      }
-    },
-    "155440": {
-      "checked_at": 1793294782.7065,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "155440",
-        "series": "https://calendar.lancasterlibraries.org/series/common-thread-crafting-club-manheim-township",
-        "title": "Common Thread Crafting Club",
-        "description": "Unravel your creativity and connect at Common Thread Crafting Club! Whether you’re a master of the needles or just starting your first row, join our bimonthly gathering for all things fiber. From knitting and crochet to felting and cross-stitch, bring your current project and enjoy an afternoon of shared patterns, helpful tips, and great conversation. No matter your craft, we’re all tied together by a love for making. Registration is not required",
-        "categories": "Arts & Crafts",
-        "url": "https://calendar.lancasterlibraries.org/event/knitting-club-155440",
-        "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1793368800,
-        "end": 1793374200,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [
-          "Arts & Crafts"
-        ],
-        "branch": "Manheim Township"
-      }
-    },
     "187734": {
       "checked_at": 1793652381.79121,
       "event": {
@@ -399,7 +346,7 @@
       }
     },
     "187736": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187736",
@@ -424,7 +371,7 @@
       }
     },
     "153012": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "153012",
@@ -451,7 +398,7 @@
       }
     },
     "204688": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "204688",
@@ -476,7 +423,7 @@
       }
     },
     "208284": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "208284",
@@ -503,7 +450,7 @@
       }
     },
     "155476": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "155476",
@@ -529,7 +476,7 @@
       }
     },
     "198392": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198392",
@@ -556,7 +503,7 @@
       }
     },
     "208285": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "208285",
@@ -583,7 +530,7 @@
       }
     },
     "155712": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "155712",
@@ -609,7 +556,7 @@
       }
     },
     "165070": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165070",
@@ -636,7 +583,7 @@
       }
     },
     "206597": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "206597",
@@ -662,7 +609,7 @@
       }
     },
     "187738": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187738",
@@ -687,7 +634,7 @@
       }
     },
     "146162": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "146162",
@@ -712,7 +659,7 @@
       }
     },
     "158311": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "158311",
@@ -739,7 +686,7 @@
       }
     },
     "165792": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165792",
@@ -765,7 +712,7 @@
       }
     },
     "179911": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179911",
@@ -792,7 +739,7 @@
       }
     },
     "156593": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "156593",
@@ -817,7 +764,7 @@
       }
     },
     "166358": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "166358",
@@ -842,7 +789,7 @@
       }
     },
     "161153": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "161153",
@@ -869,7 +816,7 @@
       }
     },
     "205893": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "205893",
@@ -895,7 +842,7 @@
       }
     },
     "187739": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187739",
@@ -920,7 +867,7 @@
       }
     },
     "208286": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "208286",
@@ -947,7 +894,7 @@
       }
     },
     "200759": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "200759",
@@ -974,7 +921,7 @@
       }
     },
     "154555": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "154555",
@@ -1001,7 +948,7 @@
       }
     },
     "176804": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "176804",
@@ -1027,7 +974,7 @@
       }
     },
     "154634": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "154634",
@@ -1053,7 +1000,7 @@
       }
     },
     "198029": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198029",
@@ -1079,7 +1026,7 @@
       }
     },
     "187740": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187740",
@@ -1104,7 +1051,7 @@
       }
     },
     "165071": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165071",
@@ -1131,7 +1078,7 @@
       }
     },
     "165131": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165131",
@@ -1156,7 +1103,7 @@
       }
     },
     "153032": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "153032",
@@ -1182,7 +1129,7 @@
       }
     },
     "157247": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "157247",
@@ -1209,7 +1156,7 @@
       }
     },
     "187741": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187741",
@@ -1234,7 +1181,7 @@
       }
     },
     "148311": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "148311",
@@ -1259,7 +1206,7 @@
       }
     },
     "158312": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "158312",
@@ -1286,7 +1233,7 @@
       }
     },
     "179912": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179912",
@@ -1313,7 +1260,7 @@
       }
     },
     "157524": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "157524",
@@ -1340,7 +1287,7 @@
       }
     },
     "155442": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "155442",
@@ -1366,7 +1313,7 @@
       }
     },
     "173923": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "173923",
@@ -1394,7 +1341,7 @@
       }
     },
     "208063": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "208063",
@@ -1447,7 +1394,7 @@
       }
     },
     "204689": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "204689",
@@ -1473,7 +1420,7 @@
       }
     },
     "187742": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187742",
@@ -1498,7 +1445,7 @@
       }
     },
     "199453": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199453",
@@ -1523,7 +1470,7 @@
       }
     },
     "199454": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199454",
@@ -1573,7 +1520,7 @@
       }
     },
     "165072": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165072",
@@ -1600,7 +1547,7 @@
       }
     },
     "199468": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199468",
@@ -1625,7 +1572,7 @@
       }
     },
     "179913": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179913",
@@ -1652,7 +1599,7 @@
       }
     },
     "199469": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199469",
@@ -1677,7 +1624,7 @@
       }
     },
     "181456": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "181456",
@@ -1703,7 +1650,7 @@
       }
     },
     "176666": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "176666",
@@ -1729,7 +1676,7 @@
       }
     },
     "187745": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187745",
@@ -1754,7 +1701,7 @@
       }
     },
     "199471": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199471",
@@ -1779,7 +1726,7 @@
       }
     },
     "176856": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "176856",
@@ -1805,7 +1752,7 @@
       }
     },
     "199472": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199472",
@@ -1830,7 +1777,7 @@
       }
     },
     "147888": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "147888",
@@ -1857,7 +1804,7 @@
       }
     },
     "187746": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187746",
@@ -1882,7 +1829,7 @@
       }
     },
     "165073": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165073",
@@ -1909,7 +1856,7 @@
       }
     },
     "199473": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199473",
@@ -1934,7 +1881,7 @@
       }
     },
     "206598": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "206598",
@@ -1960,7 +1907,7 @@
       }
     },
     "198219": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198219",
@@ -1986,7 +1933,7 @@
       }
     },
     "157248": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "157248",
@@ -2013,7 +1960,7 @@
       }
     },
     "187672": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187672",
@@ -2038,7 +1985,7 @@
       }
     },
     "199474": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199474",
@@ -2063,7 +2010,7 @@
       }
     },
     "179914": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179914",
@@ -2090,7 +2037,7 @@
       }
     },
     "155443": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "155443",
@@ -2116,7 +2063,7 @@
       }
     },
     "199477": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199477",
@@ -2141,7 +2088,7 @@
       }
     },
     "198216": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198216",
@@ -2167,7 +2114,7 @@
       }
     },
     "189392": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "189392",
@@ -2192,7 +2139,7 @@
       }
     },
     "152913": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "152913",
@@ -2217,7 +2164,7 @@
       }
     },
     "195904": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "195904",
@@ -2243,7 +2190,7 @@
       }
     },
     "154849": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "154849",
@@ -2266,7 +2213,7 @@
       }
     },
     "199478": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199478",
@@ -2291,7 +2238,7 @@
       }
     },
     "186343": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "186343",
@@ -2316,7 +2263,7 @@
       }
     },
     "181457": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "181457",
@@ -2342,7 +2289,7 @@
       }
     },
     "153584": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "153584",
@@ -2369,7 +2316,7 @@
       }
     },
     "198217": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198217",
@@ -2395,7 +2342,7 @@
       }
     },
     "187747": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187747",
@@ -2420,7 +2367,7 @@
       }
     },
     "206409": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "206409",
@@ -2446,7 +2393,7 @@
       }
     },
     "160165": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "160165",
@@ -2473,7 +2420,7 @@
       }
     },
     "187748": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187748",
@@ -2498,7 +2445,7 @@
       }
     },
     "155713": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "155713",
@@ -2524,7 +2471,7 @@
       }
     },
     "165074": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165074",
@@ -2551,7 +2498,7 @@
       }
     },
     "152939": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "152939",
@@ -2576,7 +2523,7 @@
       }
     },
     "207277": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "207277",
@@ -2599,7 +2546,7 @@
       }
     },
     "187749": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187749",
@@ -2624,7 +2571,7 @@
       }
     },
     "146163": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "146163",
@@ -2649,7 +2596,7 @@
       }
     },
     "158313": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "158313",
@@ -2676,7 +2623,7 @@
       }
     },
     "165793": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165793",
@@ -2702,7 +2649,7 @@
       }
     },
     "179915": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179915",
@@ -2729,7 +2676,7 @@
       }
     },
     "156594": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "156594",
@@ -2754,13 +2701,13 @@
       }
     },
     "206379": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "206379",
-        "series": "https://calendar.lancasterlibraries.org/series/local-author-fair-lancaster",
-        "title": "Local Author Fair",
-        "description": "Find new voices and new stories at the Lancaster Public Library Local Author Fair! Authors will be showcasing their books but will also be available to talk about their writing journey, process, and the path towards publication. Support your local writers and explore stories from your own community. Walk-ins welcome",
+        "series": "https://calendar.lancasterlibraries.org/series/local-author-book-fair-lancaster",
+        "title": "Local Author Book Fair",
+        "description": "Support local writers and explore stories from your own community at the Library's 2nd annual Local Author Book Fair! Just in time for the holiday season, Lancaster Public Library will host the Local Author Book Fair on Saturday, December 12, from 10AM - 1PM in the library's 1st floor combined Community Room and Boardroom. Stop by the library to meet local authors and hear about the books they have written. Books will be available for sale and signing by the authors. Are you a local author? Authors from the Lancaster-area who have either traditionally or self-published books for adults, teens, or children in any genre are eligible to register for the Book Fair. Space is limited, but preference will be given to the first 10 authors to complete the registration form. https://bit.ly/3WrONyc",
         "categories": "Community",
         "url": "https://calendar.lancasterlibraries.org/event/local-author-fair-206379",
         "location": "Lancaster Library, LPL Community + Board Room, 151 North Queen Street, Lancaster, PA, 17603",
@@ -2779,7 +2726,7 @@
       }
     },
     "176667": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "176667",
@@ -2805,7 +2752,7 @@
       }
     },
     "187750": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187750",
@@ -2830,7 +2777,7 @@
       }
     },
     "153013": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "153013",
@@ -2857,7 +2804,7 @@
       }
     },
     "200760": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "200760",
@@ -2884,7 +2831,7 @@
       }
     },
     "155477": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "155477",
@@ -2910,7 +2857,7 @@
       }
     },
     "154635": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "154635",
@@ -2936,7 +2883,7 @@
       }
     },
     "202541": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "202541",
@@ -2962,7 +2909,7 @@
       }
     },
     "187751": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187751",
@@ -2987,7 +2934,7 @@
       }
     },
     "165075": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165075",
@@ -3014,7 +2961,7 @@
       }
     },
     "165132": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165132",
@@ -3039,7 +2986,7 @@
       }
     },
     "160330": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "160330",
@@ -3065,7 +3012,7 @@
       }
     },
     "157249": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "157249",
@@ -3092,7 +3039,7 @@
       }
     },
     "187752": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187752",
@@ -3117,7 +3064,7 @@
       }
     },
     "148312": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "148312",
@@ -3142,7 +3089,7 @@
       }
     },
     "179916": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179916",
@@ -3169,7 +3116,7 @@
       }
     },
     "157525": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "157525",
@@ -3196,7 +3143,7 @@
       }
     },
     "155444": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "155444",
@@ -3222,7 +3169,7 @@
       }
     },
     "187753": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187753",
@@ -3247,7 +3194,7 @@
       }
     },
     "154556": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "154556",
@@ -3274,7 +3221,7 @@
       }
     },
     "176805": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "176805",
@@ -3300,7 +3247,7 @@
       }
     },
     "187754": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187754",
@@ -3325,7 +3272,7 @@
       }
     },
     "165076": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165076",
@@ -3352,7 +3299,7 @@
       }
     },
     "187756": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187756",
@@ -3377,7 +3324,7 @@
       }
     },
     "176857": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "176857",
@@ -3403,7 +3350,7 @@
       }
     },
     "187757": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187757",
@@ -3428,7 +3375,7 @@
       }
     },
     "165077": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165077",
@@ -3455,7 +3402,7 @@
       }
     },
     "157250": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "157250",
@@ -3482,7 +3429,7 @@
       }
     },
     "187758": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187758",
@@ -3507,7 +3454,7 @@
       }
     },
     "206535": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "206535",
@@ -3533,7 +3480,7 @@
       }
     },
     "165078": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165078",
@@ -3560,7 +3507,7 @@
       }
     },
     "198220": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198220",
@@ -3586,7 +3533,7 @@
       }
     },
     "204694": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "204694",
@@ -3612,7 +3559,7 @@
       }
     },
     "204690": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "204690",
@@ -3639,7 +3586,7 @@
       }
     },
     "208553": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "208553",
@@ -3664,7 +3611,7 @@
       }
     },
     "198030": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198030",
@@ -3690,7 +3637,7 @@
       }
     },
     "185535": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "185535",
@@ -3716,7 +3663,7 @@
       }
     },
     "209239": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "209239",
@@ -3744,7 +3691,7 @@
       }
     },
     "209432": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "209432",
@@ -3770,7 +3717,7 @@
       }
     },
     "209792": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "209792",
@@ -3822,7 +3769,7 @@
       }
     },
     "210028": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "210028",
@@ -3848,7 +3795,7 @@
       }
     },
     "210029": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "210029",
@@ -3874,7 +3821,7 @@
       }
     },
     "210108": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "210108",
@@ -3900,7 +3847,7 @@
       }
     },
     "210030": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "210030",
@@ -3926,7 +3873,7 @@
       }
     },
     "181458": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "181458",
@@ -3952,7 +3899,7 @@
       }
     },
     "181459": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "181459",
@@ -3978,7 +3925,7 @@
       }
     },
     "179918": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179918",
@@ -4005,7 +3952,7 @@
       }
     },
     "206933": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "206933",
@@ -4032,7 +3979,7 @@
       }
     },
     "210891": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "210891",
@@ -4058,7 +4005,7 @@
       }
     },
     "198221": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198221",
@@ -4084,7 +4031,7 @@
       }
     },
     "211270": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "211270",
@@ -4110,7 +4057,7 @@
       }
     },
     "211271": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "211271",
@@ -4136,7 +4083,7 @@
       }
     },
     "204695": {
-      "checked_at": 1793987854.32791,
+      "checked_at": 1794070259.63064,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "204695",

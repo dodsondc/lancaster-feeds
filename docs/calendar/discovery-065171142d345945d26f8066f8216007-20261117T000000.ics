@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-065171142d345945d26f8066f8216007-20261117T000000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261103T182549Z
-LAST-MODIFIED:20261103T182549Z
-SEQUENCE:2
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:3
 DTSTART:20261117T000000Z
 DTEND:20261117T020000Z
 SUMMARY:Improv 101 with Emily!
@@ -35,8 +35,8 @@ DESCRIPTION:Your Journey to the Stage Starts Here! About the Class: This is
  94873600000\n\nAdding this calendar item does not register you. Check the 
  original listing for changes\; imported events do not automatically stay i
  n sync.
-LOCATION:Lancaster Improv Players\,8 West King Street\, Lancaster\, PA 1760
- 3\, USA
+LOCATION:Lancaster Improv Players\, 8 West King Street\, Lancaster\, PA 176
+ 03\, USA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/
  1794873600000
 STATUS:CONFIRMED

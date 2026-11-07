@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-866d34cb62fdc319be79453546e4bcdb-20261206T003000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261026T140740Z
-LAST-MODIFIED:20261026T140740Z
-SEQUENCE:1
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:2
 DTSTART:20261206T003000Z
 DTEND:20261206T033000Z
 SUMMARY:Annie
@@ -23,8 +23,8 @@ DESCRIPTION:Based on the popular comic strip by Harold Gray\, Annie has bec
  alendar.visitlancastercity.com/visitlancastercity/detail/816/1796517000000
  \n\nAdding this calendar item does not register you. Check the original li
  sting for changes\; imported events do not automatically stay in sync.
-LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
- A
+LOCATION:Fulton Theatre\, 12 North Prince Street\, Lancaster\, PA 17603\, U
+ SA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/816/1
  796517000000
 STATUS:CONFIRMED

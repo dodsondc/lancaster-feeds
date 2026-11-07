@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-6b9188293c8c696157d9933de96a13ac-20270130T190000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261105T184422Z
-LAST-MODIFIED:20261105T184422Z
-SEQUENCE:1
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:2
 DTSTART:20270130T190000Z
 DTEND:20270130T220000Z
 SUMMARY:Peter Pan Goes Wrong Accessibility Performance
@@ -50,8 +50,8 @@ DESCRIPTION:Brace yourselves for an awfully big adventure as the accident-p
  ity.com/visitlancastercity/detail/858/1801335600000\n\nAdding this calenda
  r item does not register you. Check the original listing for changes\; imp
  orted events do not automatically stay in sync.
-LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
- A
+LOCATION:Fulton Theatre\, 12 North Prince Street\, Lancaster\, PA 17603\, U
+ SA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/858/1
  801335600000
 STATUS:CONFIRMED

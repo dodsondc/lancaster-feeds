@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-678a97a73e88d987b84b48a4da2dd331-20261118T000000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261018T171704Z
-LAST-MODIFIED:20261018T171704Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20261118T000000Z
 DTEND:20261118T030000Z
 SUMMARY:Disposable Humanity
@@ -29,8 +29,8 @@ DESCRIPTION:Join us at the Ware Center for a free screening of the film Dis
  itlancastercity/detail/1080/1794960000000\n\nAdding this calendar item doe
  s not register you. Check the original listing for changes\; imported even
  ts do not automatically stay in sync.
-LOCATION:Ware Center for the Arts\,42 North Prince Street\, Lancaster\, PA 
- 17603\, USA
+LOCATION:Ware Center for the Arts\, 42 North Prince Street\, Lancaster\, PA
+  17603\, USA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1080/
  1794960000000
 STATUS:CONFIRMED

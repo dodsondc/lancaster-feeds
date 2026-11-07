@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-4b1b648274ee7364aa4e3c2d534f31f9-20261119T000000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261105T184422Z
-LAST-MODIFIED:20261105T184422Z
-SEQUENCE:3
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:4
 DTSTART:20261119T000000Z
 DTEND:20261119T023000Z
 SUMMARY:Improvised Shakespeare 101 With Renee!
@@ -36,8 +36,8 @@ DESCRIPTION:Discover how to improvise in Shakespeare’s style in this adva
  /1044/1795046400000/4\n\nAdding this calendar item does not register you. 
  Check the original listing for changes\; imported events do not automatica
  lly stay in sync.
-LOCATION:Lancaster Improv Players\,8 West King Street\, Lancaster\, PA 1760
- 3\, USA
+LOCATION:Lancaster Improv Players\, 8 West King Street\, Lancaster\, PA 176
+ 03\, USA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1044/
  1795046400000/4
 STATUS:CONFIRMED

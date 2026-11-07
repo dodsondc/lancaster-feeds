@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-f9bbd567adb31829655746f4616ed07c-20270122T003000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261023T154519Z
-LAST-MODIFIED:20261023T154519Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20270122T003000Z
 DTEND:20270122T033000Z
 SUMMARY:Peter Pan Goes Wrong Pay-What-You-Want Night
@@ -34,8 +34,8 @@ DESCRIPTION:For these special performances of each production\, you may set
  itlancastercity/detail/847/1800577800000\n\nAdding this calendar item does
   not register you. Check the original listing for changes\; imported event
  s do not automatically stay in sync.
-LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
- A
+LOCATION:Fulton Theatre\, 12 North Prince Street\, Lancaster\, PA 17603\, U
+ SA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/847/1
  800577800000
 STATUS:CONFIRMED

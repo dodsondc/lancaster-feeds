@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-54b01842c752b29208562dc1b5392cc6-20261128T190000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261018T171704Z
-LAST-MODIFIED:20261018T171704Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20261128T190000Z
 DTEND:20261128T220000Z
 SUMMARY:Annie Accessibility Performance
@@ -50,8 +50,8 @@ DESCRIPTION:ASL Interpretation: Certified interpreters for select performan
  //calendar.visitlancastercity.com/visitlancastercity/detail/808/1795892400
  000\n\nAdding this calendar item does not register you. Check the original
   listing for changes\; imported events do not automatically stay in sync.
-LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
- A
+LOCATION:Fulton Theatre\, 12 North Prince Street\, Lancaster\, PA 17603\, U
+ SA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/808/1
  795892400000
 STATUS:CONFIRMED

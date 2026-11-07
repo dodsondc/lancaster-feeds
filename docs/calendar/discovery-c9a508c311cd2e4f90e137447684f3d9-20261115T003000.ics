@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-c9a508c311cd2e4f90e137447684f3d9-20261115T003000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261018T171704Z
-LAST-MODIFIED:20261018T171704Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20261115T003000Z
 DTEND:20261115T023000Z
 SUMMARY:Pianist Jiarui Li
@@ -24,8 +24,8 @@ DESCRIPTION:The winner of the Hershey Symphony Annual Young Artist Competit
  city/detail/717/1794702600000\n\nAdding this calendar item does not regist
  er you. Check the original listing for changes\; imported events do not au
  tomatically stay in sync.
-LOCATION:The Trust Performing Arts Center\,37 North Market Street\, Lancast
- er\, PA 17603\, USA
+LOCATION:The Trust Performing Arts Center\, 37 North Market Street\, Lancas
+ ter\, PA 17603\, USA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/717/1
  794702600000
 STATUS:CONFIRMED

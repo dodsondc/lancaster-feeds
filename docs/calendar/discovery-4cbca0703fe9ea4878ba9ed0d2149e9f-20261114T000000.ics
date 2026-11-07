@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-4cbca0703fe9ea4878ba9ed0d2149e9f-20261114T000000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261022T013059Z
-LAST-MODIFIED:20261022T013059Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20261114T000000Z
 DTEND:20261114T013000Z
 SUMMARY:An Introduction to Poetry (For those who don’t like poetry)
@@ -29,8 +29,8 @@ DESCRIPTION:Caroline Covington will give us a jump start on appreciating po
  /calendar.visitlancastercity.com/visitlancastercity/detail/1095/1794614400
  000\n\nAdding this calendar item does not register you. Check the original
   listing for changes\; imported events do not automatically stay in sync.
-LOCATION:The Square Halo Gallery\,37 North Market Street\, Lancaster\, PA 1
- 7603\, USA
+LOCATION:The Square Halo Gallery\, 37 North Market Street\, Lancaster\, PA 
+ 17603\, USA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1095/
  1794614400000
 STATUS:CONFIRMED

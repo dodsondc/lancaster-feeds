@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-ddd319ad1e6f9f5c3562cc1ecb12b2e2-20270120T233000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261022T155350Z
-LAST-MODIFIED:20261022T155350Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20270120T233000Z
 DTEND:20270121T033000Z
 SUMMARY:Peter Pan Goes Wrong Community Night
@@ -25,8 +25,8 @@ DESCRIPTION:Community Preview Nights include a pre-show reception and an op
  com/visitlancastercity/detail/846/1800487800000\n\nAdding this calendar it
  em does not register you. Check the original listing for changes\; importe
  d events do not automatically stay in sync.
-LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
- A
+LOCATION:Fulton Theatre\, 12 North Prince Street\, Lancaster\, PA 17603\, U
+ SA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/846/1
  800487800000
 STATUS:CONFIRMED

@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-9177d7c7a8209be3f0c6aacc81d1a293-20261120T003000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261018T171704Z
-LAST-MODIFIED:20261018T171704Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20261120T003000Z
 DTEND:20261120T033000Z
 SUMMARY:Annie Community Pay-What-You-Want
@@ -35,8 +35,8 @@ DESCRIPTION:For these special performances of each production\, you may set
  4600000\n\nAdding this calendar item does not register you. Check the orig
  inal listing for changes\; imported events do not automatically stay in sy
  nc.
-LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
- A
+LOCATION:Fulton Theatre\, 12 North Prince Street\, Lancaster\, PA 17603\, U
+ SA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/797/1
  795134600000
 STATUS:CONFIRMED

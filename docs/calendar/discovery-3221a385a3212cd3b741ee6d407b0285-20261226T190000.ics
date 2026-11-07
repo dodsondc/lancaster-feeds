@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-3221a385a3212cd3b741ee6d407b0285-20261226T190000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261018T171704Z
-LAST-MODIFIED:20261018T171704Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20261226T190000Z
 DTEND:20261227T010000Z
 SUMMARY:Yuletide at Historic Rock Ford
@@ -36,7 +36,8 @@ DESCRIPTION:Celebrate the Yuletide season in 1790s style as the Hand Mansio
  /calendar.visitlancastercity.com/visitlancastercity/detail/1030/1798311600
  000\n\nAdding this calendar item does not register you. Check the original
   listing for changes\; imported events do not automatically stay in sync.
-LOCATION:Historic Rock Ford\,881 Rockford Road\, Lancaster\, PA 17602\, USA
+LOCATION:Historic Rock Ford\, 881 Rockford Road\, Lancaster\, PA 17602\, US
+ A
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1030/
  1798311600000
 STATUS:CONFIRMED

@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-4657f9d8b0aaf02ad56127cf922f01fd-20261128T180000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261101T170750Z
-LAST-MODIFIED:20261101T170750Z
-SEQUENCE:2
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:3
 DTSTART:20261128T180000Z
 DTEND:20261128T200000Z
 SUMMARY:Improv 101 with Mike!
@@ -35,8 +35,8 @@ DESCRIPTION:Your Journey to the Stage Starts Here! About the Class: This is
  88800000\n\nAdding this calendar item does not register you. Check the ori
  ginal listing for changes\; imported events do not automatically stay in s
  ync.
-LOCATION:Lancaster Improv Players\,8 West King Street\, Lancaster\, PA 1760
- 3\, USA
+LOCATION:Lancaster Improv Players\, 8 West King Street\, Lancaster\, PA 176
+ 03\, USA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1051/
  1795888800000
 STATUS:CONFIRMED

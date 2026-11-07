@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-5c8a9583be5493776e0559b7bce6d212-20261203T220000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261018T171704Z
-LAST-MODIFIED:20261018T171704Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20261203T220000Z
 DTEND:20261204T033000Z
 SUMMARY:Annie Teen Lounge
@@ -23,8 +23,8 @@ DESCRIPTION:Based on the popular comic strip by Harold Gray\, Annie has bec
  alendar.visitlancastercity.com/visitlancastercity/detail/813/1796335200000
  \n\nAdding this calendar item does not register you. Check the original li
  sting for changes\; imported events do not automatically stay in sync.
-LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
- A
+LOCATION:Fulton Theatre\, 12 North Prince Street\, Lancaster\, PA 17603\, U
+ SA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/813/1
  796335200000
 STATUS:CONFIRMED

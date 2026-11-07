@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-e8347688cc267e8ecf6c38d56d29fa88-20261204T220000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261102T204621Z
-LAST-MODIFIED:20261102T204621Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20261204T220000Z
 DTEND:20261205T210000Z
 SUMMARY:Handmade Holiday Market at Gallery Grow
@@ -26,7 +26,7 @@ DESCRIPTION:Shop local artists\, one-of-a-kind handmade gifts\, and unique
  .com/visitlancastercity/detail/1120/1796421600000\n\nAdding this calendar 
  item does not register you. Check the original listing for changes\; impor
  ted events do not automatically stay in sync.
-LOCATION:Gallery Grow\,320 North Queen Street\, Lancaster\, PA 17603\, USA
+LOCATION:Gallery Grow\, 320 North Queen Street\, Lancaster\, PA 17603\, USA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1120/
  1796421600000
 STATUS:CONFIRMED

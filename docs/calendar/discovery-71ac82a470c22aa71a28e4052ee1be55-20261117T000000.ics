@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-71ac82a470c22aa71a28e4052ee1be55-20261117T000000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261103T182549Z
-LAST-MODIFIED:20261103T182549Z
-SEQUENCE:2
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:3
 DTSTART:20261117T000000Z
 DTEND:20261117T023000Z
 SUMMARY:Improv 201 With Scott!
@@ -37,8 +37,8 @@ DESCRIPTION:Learned the Basics? Let's Learn How to do a Show! About the Cla
  endar.visitlancastercity.com/visitlancastercity/detail/1047/1794873600000\
  n\nAdding this calendar item does not register you. Check the original lis
  ting for changes\; imported events do not automatically stay in sync.
-LOCATION:Lancaster Improv Players\,8 West King Street\, Lancaster\, PA 1760
- 3\, USA
+LOCATION:Lancaster Improv Players\, 8 West King Street\, Lancaster\, PA 176
+ 03\, USA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/
  1794873600000
 STATUS:CONFIRMED

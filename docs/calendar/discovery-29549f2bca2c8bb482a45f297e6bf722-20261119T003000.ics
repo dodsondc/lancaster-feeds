@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-29549f2bca2c8bb482a45f297e6bf722-20261119T003000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261018T171704Z
-LAST-MODIFIED:20261018T171704Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20261119T003000Z
 DTEND:20261119T033000Z
 SUMMARY:Annie Community Preview Night
@@ -25,8 +25,8 @@ DESCRIPTION:Community Preview Nights include a pre-show reception and an op
  .visitlancastercity.com/visitlancastercity/detail/796/1795048200000\n\nAdd
  ing this calendar item does not register you. Check the original listing f
  or changes\; imported events do not automatically stay in sync.
-LOCATION:Fulton Theatre\,12 North Prince Street\, Lancaster\, PA 17603\, US
- A
+LOCATION:Fulton Theatre\, 12 North Prince Street\, Lancaster\, PA 17603\, U
+ SA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/796/1
  795048200000
 STATUS:CONFIRMED

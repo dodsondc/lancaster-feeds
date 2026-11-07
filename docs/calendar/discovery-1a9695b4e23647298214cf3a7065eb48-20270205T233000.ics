@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-1a9695b4e23647298214cf3a7065eb48-20270205T233000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:0
+DTSTART:20270205T233000Z
+SUMMARY:The Sun Will Rise Again – FREE
+DESCRIPTION:Make the Ware Center part of your Lancaster First Friday route!
+  6:30 pm • Steinman Hall Experience an evening of original music from De
+ Lisle and Jeanius\, brothers united by faith and artistry. Through powerfu
+ l\, honest lyrics\, this performance speaks directly to anyone facing hard
+ ship\, tragedy\, or struggle. The message is simple but powerful: no matte
+ r what you’re going through\, the sun will rise again. Admission: Free a
+ nd open to the public!\n\nPrice: Not supplied by this source\; check event
+  details\n\nSchedule listed: Fri\, Feb 05\, 2027 06:30 PM EST — end time
+  not published\n\nSchedule supplied by Ware / Millersville\n\nTimes conver
+ ted from America/New_York to UTC for calendar compatibility.\n\nNo ending 
+ time is published\; your calendar may apply its own default duration.\n\nR
+ egistration: https://artsmu.com/event/the-sun-will-rise-again/the-ware-cen
+ ter/\n\nAdding this calendar item does not register you. Check the origina
+ l listing for changes\; imported events do not automatically stay in sync.
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/the-sun-will-rise-again/the-ware-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

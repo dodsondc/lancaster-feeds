@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:discovery-86c86fe4673f8f3457a81280772381a8-20261114T220000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261029T172622Z
-LAST-MODIFIED:20261029T172622Z
-SEQUENCE:0
+DTSTAMP:20261107T165059Z
+LAST-MODIFIED:20261107T165059Z
+SEQUENCE:1
 DTSTART:20261114T220000Z
 DTEND:20261115T000000Z
 SUMMARY:BLACK EXPRESSIONS FUNDRAISING RECEPTION
@@ -33,8 +33,8 @@ DESCRIPTION:The Annual Black Expressions Fundraising Reception\, a Centenni
  .com/visitlancastercity/detail/1108/1794693600000\n\nAdding this calendar 
  item does not register you. Check the original listing for changes\; impor
  ted events do not automatically stay in sync.
-LOCATION:Commons on Vine in the Lancaster Marriott at Penn Square\,19 East 
- Vine Street\, Lancaster\, PA 17602\, USA
+LOCATION:Commons on Vine in the Lancaster Marriott at Penn Square\, 19 East
+  Vine Street\, Lancaster\, PA 17602\, USA
 URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1108/
  1794693600000
 STATUS:CONFIRMED

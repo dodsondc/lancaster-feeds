@@ -1,5 +1,5 @@
 {
-  "checked_at": 1793987854.32791,
+  "checked_at": 1794070259.63064,
   "events": [
     {
       "source": "Demuth Museum",
@@ -14,23 +14,6 @@
       "location": "Demuth on King | 120 East King Street, 120 East King Street, Lancaster, PA, 17602",
       "price": "Not supplied by this source; check event details",
       "all_day": true,
-      "end_known": true,
-      "status": "CONFIRMED",
-      "direct": true
-    },
-    {
-      "source": "Demuth Museum",
-      "source_id": "6ad106529abf8161bf327a43",
-      "series": "https://www.demuth.org/events/color-mix",
-      "title": "Two Dudes Color Mix",
-      "url": "https://www.demuth.org/events/color-mix",
-      "description": "Two Dudes and Sherwin-Williams present Color Mix, an immersive color experience at the Demuth Museum of Art on Lime. For one night only, join local and regional interior designers, architects, contractors, and painters for an interactive exploration of Sherwin-Williams' 2027 colors of the year. What To Expect: Immersive Color Experience, courtesy of Lancaster-based interior design firms Cash Bar Cotton Candy by Little Cotton Candy Cart Live Music Networking with local home renovation experts Featured Designers: Henrietta Heisler Interiors Beers + Hoffman Architecture AK Interiors Ville & Rue TONO Group David Lyall This event is organized by Two Dudes and Sherwin-Williams. Learn more and reserve your spot on Eventbrite.",
-      "categories": "",
-      "start": 1794002400,
-      "end": 1794016800,
-      "location": "Demuth on Lime | 135 North Lime Street, 135 North Lime Street, Lancaster, PA, 17602",
-      "price": "Not supplied by this source; check event details",
-      "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true
@@ -131,6 +114,23 @@
       "start": 1797087600,
       "end": 1797094800,
       "location": "Demuth Program Center | 116 East King Street, 116 East King Street, Lancaster",
+      "price": "Not supplied by this source; check event details",
+      "all_day": false,
+      "end_known": true,
+      "status": "CONFIRMED",
+      "direct": true
+    },
+    {
+      "source": "Demuth Museum",
+      "source_id": "6ad106529abf8161bf327a43",
+      "series": "https://www.demuth.org/events/color-mix",
+      "title": "Two Dudes Color Mix",
+      "url": "https://www.demuth.org/events/color-mix",
+      "description": "Two Dudes and Sherwin-Williams present Color Mix, an immersive color experience at the Demuth Museum of Art on Lime. For one night only, join local and regional interior designers, architects, contractors, and painters for an interactive exploration of Sherwin-Williams' 2027 colors of the year. What To Expect: Immersive Color Experience, courtesy of Lancaster-based interior design firms Cash Bar Cotton Candy by Little Cotton Candy Cart Live Music Networking with local home renovation experts Featured Designers: Henrietta Heisler Interiors Beers + Hoffman Architecture AK Interiors Ville & Rue TONO Group David Lyall This event is organized by Two Dudes and Sherwin-Williams. Learn more and reserve your spot on Eventbrite.",
+      "categories": "",
+      "start": 1794002400,
+      "end": 1794016800,
+      "location": "Demuth on Lime | 135 North Lime Street, 135 North Lime Street, Lancaster, PA, 17602",
       "price": "Not supplied by this source; check event details",
       "all_day": false,
       "end_known": true,
