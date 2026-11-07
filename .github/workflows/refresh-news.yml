@@ -50,6 +50,7 @@ jobs:
         run: |
           Rscript tests/test-news.R
           Rscript tests/test-meetings.R
+          Rscript tests/test-county-commissioners.R
           Rscript tests/test-conservancy.R
           Rscript tests/test-discoveries.R
           Rscript tests/test-libraries.R
@@ -70,6 +71,9 @@ jobs:
           git add --all -- lancaster_township_news.xml state
           if [ -f lancaster_township_meetings.xml ]; then
             git add lancaster_township_meetings.xml
+          fi
+          if [ -f lancaster_county_commissioners.xml ]; then
+            git add lancaster_county_commissioners.xml
           fi
           if [ -f lancaster_conservancy_events.xml ]; then
             git add lancaster_conservancy_events.xml
