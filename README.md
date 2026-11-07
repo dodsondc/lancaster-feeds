@@ -80,6 +80,14 @@ Then add this second subscription to NetNewsWire:
 
 No change to the existing news subscription is needed. Local test command: `Rscript tests/test-meetings.R`.
 
+## County Commissioners’ meeting documents
+
+`R/county-commissioners.R` follows the county’s [Public Meetings and Work Sessions](https://www.co.lancaster.pa.us/agendacenter) on the hostname that serves direct document links. It writes `lancaster_county_commissioners.xml`, separate from the township feed, with one entry per agenda or minutes PDF. Minutes appear as new entries when the county links them. An amended agenda keeps its ID and moves forward when its listed amendment changes; whether it appears unread is up to the reader. Documents from the past six calendar months and future meetings with links are included. Both categories must succeed before the feed is replaced. No PDFs are rehosted.
+
+After the workflow publishes the file, subscribe to:
+
+`https://raw.githubusercontent.com/dodsondc/lancaster-feeds/main/lancaster_county_commissioners.xml`
+
 ## Display dates
 
 Feed titles and article date labels use English abbreviated months, two-digit days and four-digit years, for example **Oct 09, 2026**. Times remain Eastern where shown. The machine-readable RSS dates and calendar fields retain their standard formats; NetNewsWire controls how it displays RSS dates in its own interface.

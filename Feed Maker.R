@@ -8,6 +8,7 @@ script <- gsub("~+~", " ", script, fixed = TRUE)
 root <- dirname(normalizePath(script, mustWork = TRUE))
 source(file.path(root, "R", "news.R"))
 source(file.path(root, "R", "meetings.R"))
+source(file.path(root, "R", "county-commissioners.R"))
 source(file.path(root, "R", "conservancy.R"))
 source(file.path(root, "R", "discovery-preferences.R"))
 source(file.path(root, "R", "discoveries.R"))
@@ -15,7 +16,7 @@ source(file.path(root, "R", "libraries.R"))
 source(file.path(root, "R", "direct-sources.R"))
 # Independent collectors: a document-page failure should not prevent news updates.
 failures <- character()
-for (collector in c("collect_township_news", "collect_meeting_documents", "collect_conservancy_events", "collect_discoveries")) {
+for (collector in c("collect_township_news", "collect_meeting_documents", "collect_county_commissioner_documents", "collect_conservancy_events", "collect_discoveries")) {
   tryCatch(get(collector)(root), error = function(e) {
     failures <<- c(failures, paste(collector, conditionMessage(e), sep = ": "))
   })
