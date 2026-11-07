@@ -30,60 +30,57 @@ publication_time <- function(x) {
   as.numeric(as.POSIXct(strptime(x, fmt, tz = if (zoned) "UTC" else "America/New_York")))
 }
 
-# Infer years down a newest-first listing. Existing estimates anchor later runs,
-# including runs across New Year. Missing/invalid dates leave the bound alone.
-infer_listing_dates <- function(dates, urls, cache = list(), today = Sys.Date()) {
-  old_locale <- Sys.getlocale("LC_TIME")
-  on.exit(Sys.setlocale("LC_TIME", old_locale), add = TRUE)
-  Sys.setlocale("LC_TIME", "C")
-  bound <- as.Date(today)
-  result <- rep(NA_real_, length(dates))
-  for (i in seq_along(dates)) {
-    old <- cache[[urls[i]]]
-    if (!is.null(old) && old$date_source %in% c("published", "estimated_listing")) {
-      result[i] <- old$date
-      # Explicit tz prevents as.Date() from silently using UTC.
-      anchor <- as.Date(format(as.POSIXct(old$date, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d"))
-      bound <- min(bound, anchor)
-      next
-    }
-    text <- dates[i]
-    if (is.na(text) || !grepl("^[A-Za-z]{3} +[0-9]{1,2}$", trimws(text))) next
-    text <- trimws(text)
-    # Try recent years; this also handles Feb 29 in non-leap years.
-    year <- as.integer(format(bound, "%Y"))
+# Each listing date is independent: a pinned or reordered card cannot
+# make a later card appear a year older.
+infer_listing_dates <- function(dates, today) {
+  today <- as.Date(today)
+  month_day <- regmatches(trimws(dates), regexec("^([A-Za-z]{3}) +([0-9]{1,2})$", trimws(dates)))
+  vapply(month_day, function(parts) {
+    if (!length(parts)) return(NA_real_)
+    month <- match(tolower(parts[2]), tolower(month.abb))
+    if (is.na(month)) return(NA_real_)
+    year <- as.integer(format(today, "%Y"))
     for (y in seq.int(year, year - 8L)) {
-      candidate <- as.Date(strptime(paste(text, y), "%b %d %Y", tz = "UTC"))
-      if (!is.na(candidate) && candidate <= bound) {
-        result[i] <- publication_time(format(candidate, "%Y-%m-%d"))
-        bound <- candidate
-        break
-      }
+      candidate <- sprintf("%04d-%02d-%02d", y, month, as.integer(parts[3]))
+      value <- publication_time(candidate)
+      if (!is.na(value) && candidate <= format(today, "%Y-%m-%d")) return(value)
     }
-  }
-  result
+    NA_real_
+  }, numeric(1))
 }
 
-published_at <- function(page) {
-  candidates <- html_elements(page, 'meta[property="article:published_time"], meta[itemprop="datePublished"], meta[name="datePublished"]') |>
-    html_attr("content")
-  candidates <- c(candidates, html_elements(page, 'time[itemprop="datePublished"]') |> html_attr("datetime"))
-  # Read datePublished only from article/news objects, never an event or dateModified.
-  visit <- function(x) {
-    if (!is.list(x)) return(character())
-    type <- unlist(x[["@type"]], use.names = FALSE)
-    own <- if (any(type %in% c("NewsArticle", "Article", "BlogPosting"))) x[["datePublished"]] else NULL
-    c(if (is.character(own)) own else character(), unlist(lapply(x[vapply(x, is.list, logical(1))], visit), use.names = FALSE))
+township_news_url <- "https://www.twp.lancaster.pa.us/newslist.php"
+
+# The township renders its cards with JavaScript. Read the page's data source
+# and page size without running JavaScript or visiting a second listing page.
+township_news_index <- function(fetch) {
+  page <- resp_body_html(fetch(township_news_url))
+  scripts <- html_text(html_elements(page, "script"))
+  config <- scripts[grepl("dataSource: newslistItems", scripts, fixed = TRUE)]
+  if (length(config) != 1L) stop("Township news pagination configuration not found")
+  capture <- function(pattern) {
+    m <- regmatches(config, regexec(pattern, config, perl = TRUE))[[1]]
+    if (length(m) != 2L) stop("Unexpected township news page configuration")
+    m[2]
   }
-  for (s in html_elements(page, 'script[type="application/ld+json"]') |> html_text()) {
-    obj <- tryCatch(fromJSON(s, simplifyVector = FALSE), error = function(e) NULL)
-    candidates <- c(candidates, visit(obj))
+  asset <- capture("url[[:space:]]*:[[:space:]]*['\"]([^'\"]+)['\"]")
+  page_size <- as.integer(capture("pageSize[[:space:]]*:[[:space:]]*([0-9]+)"))
+  asset_url <- xml2::url_absolute(asset, township_news_url)
+  if (!startsWith(asset_url, "https://www.twp.lancaster.pa.us/") ||
+      is.na(page_size) || page_size < 1L || page_size > 100L) stop("Invalid township news page configuration")
+  index <- fromJSON(resp_body_string(fetch(asset_url)))
+  if (!is.data.frame(index) || !all(c("date", "link") %in% names(index))) {
+    stop("Unexpected township news index")
   }
-  for (x in candidates) {
-    t <- publication_time(x)
-    if (!is.na(t)) return(t)
+  # Take the site's first page before filtering; cards without Read More links
+  # must not pull articles forward from page two.
+  index <- head(index, page_size)
+  index <- index[!is.na(index$link) & nzchar(index$link) & index$link != "#", , drop = FALSE]
+  index$url <- xml2::url_absolute(index$link, township_news_url)
+  if (anyNA(index$url) || any(!startsWith(index$url, "https://www.twp.lancaster.pa.us/"))) {
+    stop("Unexpected township news article URL")
   }
-  NA_real_
+  index[!duplicated(index$url), , drop = FALSE]
 }
 
 clean_article <- function(page, url) {
@@ -95,6 +92,7 @@ clean_article <- function(page, url) {
     for (a in attrs[grepl("^on", attrs, ignore.case = TRUE)]) xml_set_attr(node, a, NULL)
     # srcset can otherwise leave relative images behind; use the ordinary src.
     xml_set_attr(node, "srcset", NULL)
+    xml_set_attr(node, "style", NULL)
     for (a in c("href", "src", "poster")) {
       value <- xml_attr(node, a)
       if (is.na(value) || !nzchar(value)) next
@@ -116,7 +114,7 @@ clean_article <- function(page, url) {
 
 fetch_page <- function(url) {
   request(url) |>
-    req_user_agent("LancasterCommunityRSS/0.2 (personal news feed; twice-daily checks)") |>
+    req_user_agent("LancasterCommunityRSS/0.2 (personal community feeds)") |>
     req_timeout(30) |>
     req_retry(max_tries = 3) |>
     req_perform()
@@ -153,32 +151,25 @@ order_feed_records <- function(records, secondary) {
 }
 
 write_news_rss <- function(records, path) {
-  if (!length(records)) stop("No articles: refusing to replace the existing feed")
   rss <- xml_new_root("rss", version = "2.0")
   channel <- xml_add_child(rss, "channel")
   xml_add_child(channel, "title", "Lancaster Township News")
   xml_add_child(channel, "link", "https://www.twp.lancaster.pa.us/newslist.php")
-  xml_add_child(channel, "description", "News and announcements from Lancaster Township, Pennsylvania. Dates are verified publication dates, estimates from the listing, or the first collection time, as labeled in each item. Feed dates sort by detection day, then publication date; seconds after midnight are ordering values.")
+  xml_add_child(channel, "description", "Articles from page one of Lancaster Township’s news listing, newest first by the township’s listed date. Years are inferred.")
   xml_add_child(channel, "language", "en-us")
   xml_add_child(channel, "ttl", "720")
-  records <- order_feed_records(records, function(r) r$date)
+  dates <- vapply(records, function(r) r$date, numeric(1))
+  records <- records[order(-dates, seq_along(dates))]
   for (r in records) {
     item <- xml_add_child(channel, "item")
     xml_add_child(item, "title", r$title)
     xml_add_child(item, "link", r$url)
     xml_add_child(item, "guid", r$url, isPermaLink = "true")
     xml_add_child(item, "category", "News")
-    xml_add_child(item, "pubDate", rss_date(r$feed_sort_time))
-    label <- switch(r$date_source,
-      published = "Published",
-      estimated_listing = "Publication date estimated from listing",
-      "First collected (publication date unavailable)")
-    stamp <- format(as.POSIXct(r$date, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d %H:%M %Z")
-    if (r$date_source == "estimated_listing") stamp <- substr(stamp, 1, 10)
-    first_stamp <- format(as.POSIXct(r$first_seen, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d %H:%M %Z")
-    heading <- paste0("<p><em>", label, ": ", stamp, "</em></p>\n")
-    if (r$date_source != "first_collected") heading <- paste0(heading, "<p><em>First collected: ", first_stamp, "</em></p>\n")
-    heading <- paste0(heading, "<p><small>Feed date sorts by detection day, then publication date; its time of day is an ordering value.</small></p>\n")
+    xml_add_child(item, "pubDate", rss_date(r$date))
+    day <- format(as.POSIXct(r$date, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d")
+    stamp <- sprintf("%s %s, %s", month.abb[as.integer(substr(day, 6, 7))], substr(day, 9, 10), substr(day, 1, 4))
+    heading <- paste0("<p><em>", stamp, "</em></p>\n")
     description <- xml_add_child(item, "description")
     xml_add_child(description, xml_cdata(paste0(heading, r$body)))
   }
@@ -190,67 +181,22 @@ write_news_rss <- function(records, path) {
   if (!file.rename(tmp, path)) stop("Could not replace feed: ", path)
 }
 
-collect_township_news <- function(root, refresh_hours = 24) {
-  state_path <- file.path(root, "state", "lancaster-township.json")
-  state <- if (file.exists(state_path)) read_json(state_path, simplifyVector = FALSE) else list(items = list())
-  cache <- if (is.list(state$items)) state$items else list()
-  now <- as.numeric(Sys.time())
-  index <- fetch_page("https://www.twp.lancaster.pa.us/_assets_/newslist.json") |>
-    resp_body_string() |> fromJSON()
-  if (!is.data.frame(index) || !all(c("title", "link") %in% names(index)) || !nrow(index)) stop("Unexpected/empty news index; previous feed retained")
-  # Match page 1 of newslist.php, whose JavaScript uses pageSize: 10.
-  index <- head(index, 10L)
-  if (!"date" %in% names(index)) index$date <- NA_character_
-  index$title <- vapply(index$title, function(title) html_text2(read_html(paste0("<p>", title, "</p>"))), character(1))
-  index$url <- url_absolute(index$link, "https://www.twp.lancaster.pa.us/")
-  index <- index[!duplicated(index$url), , drop = FALSE]
-  today <- as.Date(format(as.POSIXct(now, origin = "1970-01-01", tz = "America/New_York"), "%Y-%m-%d"))
-  listing_dates <- infer_listing_dates(index$date, index$url, cache, today)
-  failures <- character()
-  records <- list()
-  for (i in seq_len(nrow(index))) {
+collect_township_news <- function(root, now = Sys.time(), fetch = fetch_page) {
+  index <- township_news_index(fetch)
+  today <- as.Date(as.POSIXct(now, origin = "1970-01-01", tz = "America/New_York"), tz = "America/New_York")
+  dates <- infer_listing_dates(index$date, today)
+  if (anyNA(dates)) stop("Unrecognized listing date for: ", paste(index$url[is.na(dates)], collapse = ", "))
+  records <- setNames(lapply(seq_len(nrow(index)), function(i) {
     url <- index$url[i]
-    if (!startsWith(url, "https://www.twp.lancaster.pa.us/")) stop("Unexpected article host: ", url)
-    old <- cache[[url]]
-    fresh <- !is.null(old) && now - old$fetched_at < refresh_hours * 3600
-    if (fresh) {
-      record <- old
-    } else {
-      message(sprintf("[%d/%d] %s", i, nrow(index), index$title[i]))
-      record <- tryCatch({
-        page <- fetch_page(url) |> resp_body_html()
-        body <- clean_article(page, url)
-        published <- published_at(page)
-        first_seen <- if (is.null(old)) now else old$first_seen
-        # Preserve the first chosen item date even if metadata later disappears.
-        date <- if (!is.null(old)) old$date else if (!is.na(published)) published else first_seen
-        source <- if (!is.null(old)) old$date_source else if (!is.na(published)) "published" else "first_collected"
-        list(url = url, title = index$title[i], body = body, date = date,
-             date_source = source, first_seen = first_seen, fetched_at = now)
-      }, error = function(e) {
-        warning(url, ": ", conditionMessage(e))
-        failures <<- c(failures, url)
-        old
-      })
-      Sys.sleep(0.3)
-    }
-    if (!is.null(record)) {
-      # Migrate old first-collected dates once, even when using cached bodies.
-      # Verified publication dates and previously inferred dates stay stable.
-      if (record$date_source == "first_collected" && !is.na(listing_dates[i])) {
-        record$date <- listing_dates[i]
-        record$date_source <- "estimated_listing"
-      }
-      record$listing_date <- if (is.na(index$date[i])) "" else index$date[i]
-      record$title <- index$title[i]
-      cache[[url]] <- record
-      records[[url]] <- record
-    }
-  }
-  # A partial retrieval must not publish a partial feed or lose prior content.
-  if (length(failures)) stop(length(failures), " article requests failed; previous feed and state retained. Rerun to retry.")
-  write_news_rss(records, file.path(root, "lancaster_township_news.xml"))
-  atomic_json(list(version = 2L, last_checked = now, items = cache), state_path)
-  message("Wrote ", length(records), " news items to ", file.path(root, "lancaster_township_news.xml"))
+    page <- resp_body_html(fetch(url))
+    title <- trimws(html_text2(html_element(page, "h1#page-title")))
+    if (is.na(title) || !nzchar(title)) stop("Article title not found: ", url)
+    list(url = url, title = title, body = clean_article(page, url), date = dates[i])
+  }), index$url)
+  # Publish only after the entire current page has been retrieved. There is
+  # no carryover from earlier runs; the URL GUID keeps each story's identity.
+  path <- file.path(root, "lancaster_township_news.xml")
+  write_news_rss(records, path)
+  message("Wrote ", length(records), " news items to ", path)
   invisible(records)
 }
