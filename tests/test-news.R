@@ -1,82 +1,61 @@
-# Offline behavioral checks. Run from the repository root.
+# Run from the repository root.
 source("R/news.R")
 stopifnot(rss_date(publication_time("2026-09-16")) == "Wed, 16 Sep 2026 04:00:00 +0000")
 stopifnot(rss_date(publication_time("2026-09-16T10:30:00-04:00")) == "Wed, 16 Sep 2026 14:30:00 +0000")
 stopifnot(is.na(publication_time("Sep 16")), is.na(publication_time("2026-02-30")))
-fixture <- read_html('<html><head><script type="application/ld+json">{"@type":"NewsArticle","datePublished":"2026-09-16"}</script></head><body><div id="post"><script>bad()</script><p onclick="bad()">News <a href="docs/a file.pdf">document</a></p><img src="images/a.jpg"></div></body></html>')
-stopifnot(published_at(fixture) == publication_time("2026-09-16"))
-body <- clean_article(fixture, "https://example.org/news/story.html")
-stopifnot(!grepl("<script|onclick", body), grepl('https://example.org/news/docs/a%20file.pdf', body, fixed = TRUE), grepl('https://example.org/news/images/a.jpg', body, fixed = TRUE))
-# Event dates and modified timestamps must not become news publication dates.
-other <- read_html('<script type="application/ld+json">{"@type":"Event","datePublished":"2020-01-01"}</script><meta property="article:modified_time" content="2026-01-01">')
-stopifnot(is.na(published_at(other)))
+now <- publication_time("2026-11-08T02:00:00Z") # Still Nov 7 in the township.
+dates <- infer_listing_dates(c("Sep 16", "Oct 09", "Nov 08", "Feb 29", "Feb 30", NA), as.Date("2026-11-07"))
+expected <- vapply(c("2026-09-16", "2026-10-09", "2025-11-08", "2024-02-29"), publication_time, numeric(1), USE.NAMES = FALSE)
+stopifnot(identical(dates[1:4], expected), all(is.na(dates[5:6])))
 
 root <- tempfile("news-check-")
 dir.create(root)
-fixture_response <- httr2::response(200, headers = list(`content-type` = "text/html"), body = charToRaw('<div id="post"><p>Public announcement</p></div>'))
-index_response <- httr2::response(200, body = charToRaw('[{"title":"Test announcement","link":"_T22_R1.php","date":"Unknown","image":"image.jpg?t=20260916"}]'))
-fetch_page <- function(url) if (grepl("newslist.json", url, fixed = TRUE)) index_response else fixture_response
-first <- collect_township_news(root)
-second <- collect_township_news(root)
-stopifnot(identical(rss_date(first[[1]]$date), rss_date(second[[1]]$date)), first[[1]]$date_source == "first_collected")
 feed_path <- file.path(root, "lancaster_township_news.xml")
-feed <- read_xml(feed_path)
-stopifnot(length(xml_find_all(feed, "//item")) == 1L, grepl("First collected", xml_text(xml_find_first(feed, "//description[ancestor::item]"))))
-before <- readBin(feed_path, "raw", n = file.info(feed_path)$size)
-fetch_page <- function(url) if (grepl("newslist.json", url, fixed = TRUE)) index_response else stop("Simulated network failure")
-failed <- tryCatch({suppressWarnings(collect_township_news(root, refresh_hours = 0)); FALSE}, error = function(e) TRUE)
-after <- readBin(feed_path, "raw", n = file.info(feed_path)$size)
-stopifnot(failed, identical(before, after))
-# Year rollover, equal dates, malformed dates, leap days and persistent anchors.
-urls <- paste0("https://example.org/", 1:5)
-inferred <- infer_listing_dates(c("Jan 02", "Dec 30", "Dec 30", "Unknown", "Nov 15"), urls, today = as.Date("2027-01-05"))
-stopifnot(identical(inferred[c(1, 2, 3, 5)], vapply(c("2027-01-02", "2026-12-30", "2026-12-30", "2026-11-15"), publication_time, numeric(1), USE.NAMES = FALSE)), is.na(inferred[4]))
-stopifnot(infer_listing_dates("Feb 29", "u", today = as.Date("2025-03-01")) == publication_time("2024-02-29"))
-anchor <- list(date_source = "estimated_listing", date = publication_time("2026-12-30"))
-stable <- infer_listing_dates(c("Dec 30", "Dec 01"), urls[1:2], setNames(list(anchor), urls[1]), today = as.Date("2028-01-05"))
-stopifnot(stable[1] == anchor$date, stable[2] == publication_time("2026-12-01"))
-
-# Migrate existing fallback records without resetting first_seen or GUIDs.
-old_seen <- first[[1]]$first_seen
-index_response <- httr2::response(200, body = charToRaw('[{"title":"Test announcement","link":"_T22_R1.php","date":"Jan 01"}]'))
-fetch_page <- function(url) if (grepl("newslist.json", url, fixed = TRUE)) index_response else fixture_response
-migrated <- collect_township_news(root)
-stopifnot(migrated[[1]]$date_source == "estimated_listing", abs(migrated[[1]]$first_seen - old_seen) < 0.01, migrated[[1]]$url == first[[1]]$url)
-feed <- read_xml(feed_path)
-stopifnot(grepl("Publication date estimated from listing", xml_text(xml_find_first(feed, "//description[ancestor::item]"))))
-
-# Only page 1's 10 articles may be fetched/published from a larger index.
-index_data <- data.frame(title = paste("Story", 1:12), link = paste0("_T22_R", 1:12, ".php"), date = "Jan 01")
-index_response <- httr2::response(200, body = charToRaw(toJSON(index_data)))
-requested <- character()
-fetch_page <- function(url) {
-  if (grepl("newslist.json", url, fixed = TRUE)) return(index_response)
-  requested <<- c(requested, url)
-  fixture_response
+base <- "https://www.twp.lancaster.pa.us/"
+asset <- paste0(base, "_assets_/newslist.json")
+links <- paste0("_T22_R", 1:4, ".php")
+index <- data.frame(link = links, date = c("Sep 16", "Oct 09", "Nov 08", "Nov 07"), title = "Stale listing title")
+response <- function(body) httr2::response(200, headers = list(`content-type` = "text/html; charset=UTF-8"), body = charToRaw(body))
+requests <- character()
+fetch <- function(url) {
+  requests <<- c(requests, url)
+  if (url == township_news_url) return(response('<div id="newslist-container"></div><script>
+    $.ajax({url: "_assets_/newslist.json", success: function(response) {
+      newsPager.pagination({dataSource: newslistItems, pageSize: 3});
+    }});
+  </script>'))
+  if (url == asset) return(response(toJSON(index)))
+  id <- match(url, paste0(base, links))
+  if (is.na(id)) stop("Unexpected article URL: ", url)
+  response(paste0('<meta property="article:published_time" content="2020-01-01">',
+    '<h1 id="page-title">Article ', id, '</h1>',
+    '<p>Outside article</p><div id="post"><script>bad()</script>',
+    '<p onclick="bad()" style="color:red">Full article <a href="docs/a file.pdf">document</a></p>',
+    '<img src="images/a.jpg"></div>'))
 }
-ten <- collect_township_news(root)
-stopifnot(length(ten) == 10L, length(xml_find_all(read_xml(feed_path), "//item")) == 10L, !any(grepl("_R(11|12)\\.php", requested)))
+collect_township_news(root, now, fetch)
+stopifnot(identical(requests, c(township_news_url, asset, paste0(base, links[1:3]))))
+feed <- read_xml(feed_path)
+field <- function(doc, name) xml_text(xml_find_all(doc, paste0("/rss/channel/item/", name)))
+stopifnot(identical(field(feed, "title"), paste("Article", c(2, 1, 3))),
+  identical(field(feed, "guid"), paste0(base, links[c(2, 1, 3)])),
+  identical(field(feed, "pubDate"), vapply(expected[c(2, 1, 3)], rss_date, character(1))))
+body <- field(feed, "description")[1]
+stopifnot(startsWith(body, "<p><em>Oct 09, 2026</em></p>"),
+  grepl("Full article", body, fixed = TRUE),
+  grepl(paste0(base, "docs/a%20file.pdf"), body, fixed = TRUE),
+  grepl(paste0(base, "images/a.jpg"), body, fixed = TRUE),
+  !grepl("<script|onclick|style=|Outside article|First collected", body))
+# A different front page replaces the old set; placeholder cards don't pull
+# page-two items forward. Surviving stories keep the same GUID.
+index <- rbind(index[c(2, 4), ], data.frame(link = "#", date = "Oct 08", title = "No Read More"), index[1, ])
+requests <- character()
+collect_township_news(root, now, fetch)
+stopifnot(identical(requests, c(township_news_url, asset, paste0(base, links[c(2, 4)]))),
+  identical(field(read_xml(feed_path), "guid"), paste0(base, links[c(4, 2)])))
+before <- readLines(feed_path)
+broken <- function(url) if (url == paste0(base, links[4])) stop("Simulated article failure") else fetch(url)
+stopifnot(inherits(try(collect_township_news(root, now, broken), silent = TRUE), "try-error"),
+  identical(readLines(feed_path), before))
 unlink(root, recursive = TRUE)
-cat("Passed: explicit dates, timezone handling, HTML cleanup, absolute links, stable fallback dates, failure retention, year inference, migration, and page-1 limit.\n")
-
-# Reader-visible RSS dates and XML order must agree on detection day, then
-# publication date. Different detection times on the same day must not dominate.
-make_record <- function(id, seen, date) list(url = paste0("https://example.org/", id),
-  title = id, first_seen = publication_time(seen), date = publication_time(date),
-  date_source = "estimated_listing", body = "<p>Example</p>")
-records <- list(
-  make_record("older-published-later-detected", "2026-10-17T15:00:00-04:00", "2026-08-01"),
-  make_record("newer-published", "2026-10-17T09:00:00-04:00", "2026-09-01"),
-  make_record("new-detection-day", "2026-10-18T09:00:00-04:00", "2025-01-01"))
-sorted <- order_feed_records(records, function(r) r$date)
-stopifnot(identical(vapply(sorted, function(r) r$title, character(1)), c("new-detection-day", "newer-published", "older-published-later-detected")),
-  all(diff(vapply(sorted, function(r) r$feed_sort_time, numeric(1))) < 0),
-  sorted[[2]]$first_seen == records[[2]]$first_seen)
-# A full news RSS file has the same descending pubDate sequence.
-f <- tempfile(fileext = ".xml")
-write_news_rss(records, f)
-written <- read_xml(f)
-stopifnot(identical(xml_text(xml_find_all(written, "//item/title")), vapply(sorted, function(r) r$title, character(1))))
-stopifnot(identical(xml_text(xml_find_all(written, "//item/pubDate")), vapply(sorted, function(r) rss_date(r$feed_sort_time), character(1))))
-unlink(f)
-cat("Passed reader-visible detection-day/publication-date ordering.\n")
+cat("Township news checks passed: page-one requests and removal, article titles and content, independent date inference, RSS sort dates, stable GUIDs, and failure retention.\n")
