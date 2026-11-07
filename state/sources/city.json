@@ -1,5 +1,5 @@
 {
-  "checked_at": 1794070259.63064,
+  "checked_at": 1794088987.58606,
   "events": [
     {
       "source": "Visit Lancaster City",
@@ -28,66 +28,6 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1794009600,
       "end": 1795383000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/703/29901060/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/703",
-      "title": "The Foolbright Scholars' Play Lab with Angie Foster",
-      "description": "How can we liberate ourselves from the \"shoulds\" and \"should nots\" that can constrain our natural capacity to be authentic, playful and creative? We'll explore through movement, games, and improvisation, and use the clown's ability to take risks and put logic aside to make way for the imagination. What is important is not \"getting it right\" but rather finding the magic of being surprised by what reveals itself when all else falls away. No experience required, only a willingness to play. We encourage the beginner-est of beginners! For more information and to register: actsofjennius.com/event-list",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/703/1794063600000",
-      "location": "Tenfold, 308 East King Street, Lancaster, PA 17602, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794063600,
-      "end": 1794081600,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/620/29901120/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/620",
-      "title": "African American Heritage Walking Tour Downtown Lancaster",
-      "description": "This tour is focused on the Underground Railroad and includes four authenticated Underground Railroad sites. Because the Underground Railroad was by necessity secret, uncovering the details of its existence has required a great deal of detective work. This tour includes the latest research and recent discoveries which further reveal the rich fabric of African American history in Lancaster before and after the Civil War.",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/620/1794067200000",
-      "location": "Lancaster Marriott at Penn Square, 25 South Queen Street, Lancaster, PA, 17602, United States",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794067200,
-      "end": 1794074400,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1051/29901240/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1051",
-      "title": "Improv 101 with Mike!",
-      "description": "Your Journey to the Stage Starts Here! About the Class: This is an 8 week long class that will teach the fundamentals of long form Improv Comedy. Topics covered include agreement with a scene partner, character creation, listening as a character and an actor, and exploring the worlds created in scenes. The class ends with a graduation show where the students can show their friends and family the skills learned. Students must be 18 or older for this class! This Class will run Saturdays from 1pm-3pm on the following dates: 10/24, 10/31, 11/7, 11/14, 11/21, 11/28, 12/5, and 12/12. This class has a class show on Sunday 12/13 at 3pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Ticket sale ends at 11:59pm on Wednesday 10/21!",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1051/1794074400000",
-      "location": "Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794074400,
-      "end": 1794081600,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/621/29901300/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/621",
-      "title": "African American Heritage Walking Tour Downtown Lancaster",
-      "description": "This tour is focused on the Underground Railroad and includes four authenticated Underground Railroad sites. Because the Underground Railroad was by necessity secret, uncovering the details of its existence has required a great deal of detective work. This tour includes the latest research and recent discoveries which further reveal the rich fabric of African American history in Lancaster before and after the Civil War.",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/621/1794078000000",
-      "location": "Lancaster Marriott at Penn Square, 25 South Queen Street, Lancaster, PA, 17602, United States",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794078000,
-      "end": 1794085200,
       "all_day": false,
       "status": "CONFIRMED"
     },

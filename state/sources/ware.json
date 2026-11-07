@@ -1,5 +1,5 @@
 {
-  "checked_at": 1794070259.63064,
+  "checked_at": 1794088987.58606,
   "events": [
     {
       "source": "Ware / Millersville",
@@ -352,7 +352,7 @@
       "start": 1794078000,
       "end": 1794078000,
       "location": "Winter Visual & Performing Arts Center",
-      "price": "$12 to $15",
+      "price": "Not supplied by this source; check event details",
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",

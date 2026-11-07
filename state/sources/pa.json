@@ -1,5 +1,5 @@
 {
-  "checked_at": 1794070259.63064,
+  "checked_at": 1794088987.58606,
   "events": [
     {
       "source": "LancasterPA",
@@ -11803,6 +11803,21 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1856610000,
       "end": 1856649600,
+      "all_day": false,
+      "status": "CONFIRMED"
+    },
+    {
+      "source": "LancasterPA",
+      "source_id": "10050025",
+      "series": "https://lancasterpa.com/events-calendar/roots-country-market-and-auction/",
+      "title": "Roots Country Market and Auction",
+      "description": "Make Root’s Country Market Your Family’s Destination for Food, Fun, Handcrafted Items, and Much More. A Variety of Fresh Foods Fresh-picked, local produce. Farm-raised meats. Mouthwatering, homemade baked goods. Prepared foods for any meal. These are just some of the food choices you’ll enjoy when you visit Root’s Country Market. Stock your pantry for the week or meet friends for a hot lunch. The choice is yours—and the options are virtually endless. We are open every Tuesday, year-round. Our hours are 9 a.m. to 9 p.m. April through October and 9 a.m. to 8 p.m. November through March. Additional Shopping & Fun Things To Do in Lancaster? Amish Products Consignment and Thrift Shops Farmers Markets Furniture Quilt Supplies and Fabrics Gifts & Collectibles Theater, Music, & the Arts Kids’ Attractions Adults & Couples Railroad Attractions Historical & Educational Zip-Lines Events Calendar",
+      "categories": "Community Interest, Farmers Markets, Manheim, Shopping",
+      "url": "https://lancasterpa.com/events-calendar/roots-country-market-and-auction/2028-11-07/",
+      "location": "Root’s Country Market and Auction, 705 Graystone Road, Manheim, PA, 17545",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1857218400,
+      "end": 1857258000,
       "all_day": false,
       "status": "CONFIRMED"
     },
