@@ -1,23 +1,6 @@
 {
-  "checked_at": 1794090811.77008,
+  "checked_at": 1794157382.25085,
   "events": [
-    {
-      "source": "Mickey's Black Box",
-      "source_id": "5358",
-      "series": "https://mickeysblackbox.com/event/private-event/",
-      "title": "Private Event",
-      "description": "Did you know we book our room for private events? Book a Special Event First Name Last Name Email Phone Date Requested Event Type Message Send",
-      "categories": "Private Event",
-      "url": "https://mickeysblackbox.com/event/private-event/",
-      "location": "Mickey’s Black Box, 101 Rock Lititz Boulevard, Lititz, PA, 17543",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794056400,
-      "end": 1794088800,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "direct": true,
-      "end_known": true
-    },
     {
       "source": "Mickey's Black Box",
       "source_id": "5268",
@@ -268,6 +251,23 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1800662400,
       "end": 1800675000,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "direct": true,
+      "end_known": true
+    },
+    {
+      "source": "Mickey's Black Box",
+      "source_id": "5365",
+      "series": "https://mickeysblackbox.com/event/dance-fantasy-2027/",
+      "title": "Dance Fantasy 2027",
+      "description": "Saturday February 6th, 2027 Doors | 3:00 PM Show | 4:00 PM Reserved Orchestra, Riser, & Balcony Seating | $52.60 + Fees This event is all ages – 21+ With Valid ID to Drink Come hungry! Snacks and light bites will be available at the canteen. ————————————————— Presented by Fred Astaire Dance Studios of Pennsylvania ————————————————— Join Fred Astaire Dance Studios of Pennsylvania for the -Dance Fantasy- Showcase 2027! Experience an unforgettable evening with over 50 captivating student performances and mesmerizing professional shows. Everyone is invited to immerse themselves in the enchanting world of ballroom dance. Don’t miss this magical celebration! Check out Fred Astaire Dance Studios here! ————————————————— *Ticket Alert* Tickets for Mickey’s Black Box are sold through TicketMaster, via our website, or in person at our Box Office. Any tickets purchased elsewhere will not be honored and we are not responsible for tickets purchased from any 3rd party sellers. Do not google the name of the band to search for tickets. Go to Mickeysblackbox.com ONLY. Mickeysblackbox.com will never direct you anywhere but the official TicketMaster event site. All bags are subject are to search upon entry. Tickets are non-refundable, save for instances in which performances are cancelled by Mickey’s Black Box. For more information about our venue or to make an ADA request, please visit the FAQ page of our website: https://mickeysblackbox.com/faq/ or call our box office line at (717) 723 – 8463.",
+      "categories": "",
+      "url": "https://mickeysblackbox.com/event/dance-fantasy-2027/",
+      "location": "Mickey’s Black Box, 101 Rock Lititz Boulevard, Lititz, PA, 17543",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1801944000,
+      "end": 1801962000,
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,

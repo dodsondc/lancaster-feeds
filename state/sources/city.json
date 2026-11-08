@@ -1,5 +1,5 @@
 {
-  "checked_at": 1794090811.77008,
+  "checked_at": 1794157382.25085,
   "events": [
     {
       "source": "Visit Lancaster City",
@@ -28,21 +28,6 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1794009600,
       "end": 1795383000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1076/29901630/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1076",
-      "title": "Heartland Marimba Jukebox Night with Friends",
-      "description": "Join the electrifying artists of Heartland Marimba and their fabulous guest performers as they fill the evening with the zippy and melodious sounds of marimbas and xylophones! The music will span decades, incorporating modern pop inspirations, early 1900s ragtime and dance music, Argentine tango, and impressive grooves in between.",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1076/1794097800000",
-      "location": "Ware Center for the Arts, 42 North Prince Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794097800,
-      "end": 1794103200,
       "all_day": false,
       "status": "CONFIRMED"
     },
