@@ -1,5 +1,5 @@
 {
-  "checked_at": 1794157382.25085,
+  "checked_at": 1794259582.87452,
   "events": [
     {
       "source": "Lancaster Libraries",
@@ -20,30 +20,6 @@
       ],
       "program_types": [
         "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "153012",
-      "series": "https://calendar.lancasterlibraries.org/series/health-insurance-q-a-table-lancaster",
-      "title": "Health Insurance Q&A Table",
-      "description": "Do you have questions about health insurance? Stop by the library to speak with an expert from RN Insurance Navigators. Their representatives can steer you through the confusing world of health insurance plans, Medicare, Medicaid, and Pennie to help you find the right coverage to meet your health and financial needs. Consultations are FREE - Walk-ins are welcome!",
-      "categories": "Community, Health & Wellness",
-      "url": "https://calendar.lancasterlibraries.org/event/health-insurance-qa-table-153012",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794247200,
-      "end": 1794258000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Health & Wellness"
       ],
       "branch": "Lancaster"
     },

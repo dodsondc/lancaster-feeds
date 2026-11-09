@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-eac30d4e87c440d8419813ee5bcdf064-20261114T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261109T212622Z
+LAST-MODIFIED:20261109T212622Z
+SEQUENCE:0
+DTSTART:20261114T000000Z
+DTEND:20261114T020000Z
+SUMMARY:Red Rose Film Festival - 'No Dogs or Italians Allowed'
+DESCRIPTION:Allowed' at the Red Rose Film Festival in collaboration with Pe
+ nn Cinema & Zoetropolis\, as well as Reckoning with Lancaster at Franklin 
+ & Marshall College. West Art serves as the festival lounge throughout all 
+ four days of the Red Rose Film Festival\, November 12–15\, 2026 — a pl
+ ace to gather\, connect\, and relax between screenings. The Art Bar moves 
+ from espresso in the morning to cocktails and live music at night. About t
+ he film — An Italian family crosses the Alps in search of a better life.
+  Join us at West Art for Alain Ughetto's story of migration\, memory\, and
+  belonging. This is free and open to the public\, please RSVP as seating i
+ s limited. For more information and to register click the link below. http
+ s://www.westartlanc.com/event/red-rose-film-festival?date=2026-11-13\n\nPr
+ ice: Not supplied by this calendar\; check event details\n\nSchedule liste
+ d: Nov 13\, 2026 · 07:00 PM EST – 09:00 PM EST\n\nSchedule supplied by 
+ Visit Lancaster City\n\nTimes converted from America/New_York to UTC for c
+ alendar compatibility.\n\n\n\nRegistration: https://calendar.visitlancaste
+ rcity.com/visitlancastercity/detail/1123/1794614400000\n\nAdding this cale
+ ndar item does not register you. Check the original listing for changes\; 
+ imported events do not automatically stay in sync.
+LOCATION:West Art\, 816 Buchanan Avenue\, Lancaster\, PA 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1123/
+ 1794614400000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
