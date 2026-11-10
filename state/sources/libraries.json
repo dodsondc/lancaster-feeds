@@ -1,97 +1,6 @@
 {
-  "checked_at": 1794259582.87452,
+  "checked_at": 1794336064.31825,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "187736",
-      "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
-      "title": "PA 211 Resource Table",
-      "description": "PA 211 staff will provide easily accessible walk-up assistance in the library's front lobby. Assistance includes information and referrals for a broad range of services: childcare, after-school programs, food banks, elder care, basic needs, health services, and more. PA 211 staff can also provide housing and homelessness intake screenings for residents of Berks and Lancaster counties. Monday, Wednesday, Thursday: 9am-5pm First Thursday: 9am-3:30pm",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/pa-211-resource-table-187736",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794232800,
-      "end": 1794261600,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "204688",
-      "series": "https://calendar.lancasterlibraries.org/series/coaching-inclusion-lancaster",
-      "title": "Coaching Inclusion",
-      "description": "Why Inclusion is Good Business with Jane Horan Most leaders believe their team is inclusive, but their team often see it differently. Drawing on case studies and coaching stories from Coaching Inclusion, this talk makes the business case for inclusion in plain terms: better decisions, stronger retention, and helping leaders access the full range of expertise in the room. The book and talk reframe inclusion as a daily leadership practice, and participants experience one of the key elements of inclusion through a short listening and questioning exercise developed through years of coaching leaders across industries and cultures. Walk-ins welcome Ages 18+",
-      "categories": "Business & Career",
-      "url": "https://calendar.lancasterlibraries.org/event/coaching-inclusion-204688",
-      "location": "Lancaster Library, LPL Board Room, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794263400,
-      "end": 1794268800,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults"
-      ],
-      "program_types": [
-        "Business & Career"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "208284",
-      "series": "https://calendar.lancasterlibraries.org/series/mahjong-101-manheim-township",
-      "title": "Mahjong 101",
-      "description": "Go from \"What's a Bam?\" to \"Mahjong!\" in this five-week intensive designed for true beginners. We’ll dive into the tiles, the National Mah Jongg League card, and the fast-paced strategy that makes the game a total blast. By the final week, you’ll be playing with confidence and style! The Full-Table Commitment: Because each lesson builds directly on the last, signing up for the first session means you are committed to the full journey. Please ensure you can attend every class before registering! Schedule: Mondays & Tuesdays, 6-8pm Monday, November 2 Tuesday, November 3 Monday, November 9 Tuesday, November 10 Monday, November 16 Tuesday, November 17 New Players Only, Please!: To keep things fair and give everyone a shot at the tiles, this course is strictly for true beginners. If you've already taken a Mahjong class at any library branch in the county, we ask that you leave this spot open for someone who hasn't had the chance to learn yet. We love your enthusiasm, but this specific table is reserved for those who are brand new to the game!",
-      "categories": "Community, Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/mahjong-101-208284",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1794265200,
-      "end": 1794271500,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "155476",
-      "series": "https://calendar.lancasterlibraries.org/series/mystery-book-club-manheim-township",
-      "title": "Mystery Book Club",
-      "description": "Love a good whodunit? Whether you’re a fan of gritty noir, cozy mysteries, or psychological thrillers, the Mystery Book Club is looking for new investigators to join our ranks for the 2026 season. Join us on the 2nd Monday of each month from 7-8pm as we dive into a new page-turner, dissect the clues, and see if anyone managed to crack the case before the final chapter. It’s a year of suspense, great conversation, and maybe a few red herrings along the way. Registration is encouraged January 12: The Puzzle Box by Danielle Trussoni February 9: The New Girl by Daniel Silva March 9: The Stolen Queen by Fiona Davis April 13: Crime Scene by Jonathan & Jesse Kellerman May 11: Quiet Librarian by Allen Eskens June 8: Footprints of God by Greg Iiles July 13: The 7½ Deaths of Evelyn Hardcastle by Stuart Turton August 10: Death & Judgement by Donna Leon September 14: How to Solve Your Own Murder by Kristin Perrin October 12: The Secret of Secrets by Dan Brown November 9: All the Colors of the Dark by Christ Whitaker December 14: The Twelve Books of Christmas by Kate Carlisle",
-      "categories": "Book Club",
-      "url": "https://calendar.lancasterlibraries.org/event/mystery-book-club-155476",
-      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1794268800,
-      "end": 1794272400,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Book Club"
-      ],
-      "branch": "Manheim Township"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "152987",
@@ -2175,11 +2084,11 @@
       "source_id": "206409",
       "series": "https://calendar.lancasterlibraries.org/series/a-century-of-winnie-the-pooh-lancaster",
       "title": "A Century of Winnie-the-Pooh",
-      "description": "Winnie-the-Pooh is celebrating its 100th birthday this year! The stories A.A. Milne created have become classics that are as beloved now as they were when they were first published in October 1926. In celebration of the centennial of Milne’s timeless tales, join Dr. Sarah Jackson, Assistant Professor from the Department of Early, Middle, and Elementary Education at Millersville University to learn about how these beloved children’s stories have endured as they have been translated and adapted countless times since their publication 100 years ago. Dr. Jackson will focus on the influence of colonialism in the stories and consider how the animal characters try on—and resist—colonial language. All ages welcome, but this will be a lecture-style program geared toward the young at heart 😉",
+      "description": "Winnie-the-Pooh is celebrating its 100th birthday this year! The stories A.A. Milne created have become classics that are as beloved now as they were when they were first published in October 1926. In celebration of the centennial of Milne’s timeless tales, join Dr. Sarah Jackson, Assistant Professor from the Department of Early, Middle, and Elementary Education at Millersville University to learn about how these beloved children’s stories have endured as they have been translated and adapted countless times since their publication 100 years ago. Dr. Jackson will focus on the influence of colonialism in the stories and consider how the animal characters try on—and resist—colonial language. All ages welcome, but this will be a lecture-style program geared toward the young at heart 😉 Registration is helpful, but walk-ins will not be turned away.",
       "categories": "Community, Presentation",
       "url": "https://calendar.lancasterlibraries.org/event/century-winnie-pooh-206409",
       "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
+      "price": "Free",
       "start": 1796680800,
       "end": 1796688000,
       "all_day": false,
@@ -3185,6 +3094,33 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "211850",
+      "series": "https://calendar.lancasterlibraries.org/event/celebrate-season-movie-screening-polar-express-211850",
+      "title": "Celebrate the Season with a Movie Screening of The Polar Express",
+      "description": "Join us for a magical morning as we celebrate the season with The Polar Express movie! Get cozy in your pajamas, bring your favorite blanket and pillow, and step into the holiday spirit. Event Highlights:",
+      "categories": "Movie & Film",
+      "url": "https://calendar.lancasterlibraries.org/event/celebrate-season-movie-screening-polar-express-211850",
+      "location": "Manheim Township Library",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1797829200,
+      "end": 1797915599,
+      "all_day": true,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Babies",
+        "Toddlers",
+        "Children",
+        "Tweens",
+        "Teens",
+        "Adults"
+      ],
+      "program_types": [
+        "Movie & Film"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "154556",
       "series": "https://calendar.lancasterlibraries.org/series/silent-book-club-at-our-town-brewery-lancaster",
       "title": "Silent Book Club at Our Town Brewery!",
@@ -3643,6 +3579,29 @@
       ],
       "program_types": [
         "Arts & Crafts",
+        "Community"
+      ],
+      "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "211864",
+      "series": "https://calendar.lancasterlibraries.org/series/staying-warm-and-going-green-lancaster",
+      "title": "Staying Warm and Going Green",
+      "description": "Energy Efficiency and Electrification Basics Does your home feel cold this winter? Is your heating bill higher than it should be? Are you looking for ways to live in ways that are gentler on Planet Earth? Join Andrew Pauls-Thomas, Director of Energy Solutions at RegenAll for an overview of energy efficiency basics as well as ideas for reducing or eliminating fossil fuel use in your home. Andrew will touch on solutions to match every budget and every home – from simple DIY caulking to full replacement of your heating system. This program is in partnership with RegenAll, an organization that is committed to resilience and climate work done with communities, not for them. Registration is helpful, but walk-ins will not be turned away. Ages 18+",
+      "categories": "Community",
+      "url": "https://calendar.lancasterlibraries.org/event/staying-warm-and-going-green-211864",
+      "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
+      "price": "Free",
+      "start": 1799794800,
+      "end": 1799798400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
         "Community"
       ],
       "branch": "Lancaster"
