@@ -1,52 +1,6 @@
 {
-  "checked_at": 1794422496.29072,
+  "checked_at": 1794509677.83962,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "206597",
-      "series": "https://calendar.lancasterlibraries.org/series/adult-game-night-blood-on-the-clocktower-manheim-township",
-      "title": "Adult Game Night: Blood on the Clocktower",
-      "description": "Are you a fan of Dungeons & Dragons, murder mysteries, or social deduction games like Mafia and Werewolf? Join us in the Morgan Center for an evening of deception, logic, and strategy as we play Blood on the Clocktower! In this highly interactive, community-oriented game, players are divided into secret teams of good villagers and evil demons. You must use your wits, converse in secret huddles, and deduce who to trust- and who is lying to your face- before evil takes over the village. Whether you are a seasoned tabletop gamer or completely new to social deduction games, all skill levels are welcome! Experienced local players will act as the \"Storytellers\" to guide everyone through the rules and run the game. Registration is required as player slots are strictly limited to ensure a smooth game. Please register to secure your spot in the circle! This program is for ages 18+",
-      "categories": "Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/adult-game-night-blood-clocktower-206597",
-      "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1794436200,
-      "end": 1794444300,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "210028",
-      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
-      "title": "Mahjong After Dark",
-      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
-      "categories": "Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-210028",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1794436200,
-      "end": 1794444300,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "187738",
@@ -66,28 +20,6 @@
       ],
       "program_types": [
         "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "146162",
-      "series": "https://calendar.lancasterlibraries.org/series/thursday-book-group-lancaster",
-      "title": "Thursday Book Group",
-      "description": "A book club for people who want to read (or re-read) the classics! Our Thursday Book Group focuses on literature that has stood the test of time and continues to be relevant. New members are welcome to join the discussion. 2026 Reading List January 8: Billy Budd, Sailor (1962 edition) by Herman Melville February 12: Our Mutual Friend by Charles Dickens March 12: The Good Soldier: A Tale of Passion Ford Maddox Ford April 9: Go Down Moses by William Faulkner May 14: The Secret History by Donna Tartt June 11: It Can’t Happen Here by Sinclair Lewis July 9: All Quiet on the Western Front Erich Maria Remarque August 13: The Brothers Karamazov by Fyodor Dostoyevsky September 10: One of Ours by Willa Cather October 8: One Hundred Years of Solitude by Gabriel García Márquez November 12: Dead Souls by Nickolai Gogol December 10: The Innocents Abroad by Mark Twain",
-      "categories": "Book Club",
-      "url": "https://calendar.lancasterlibraries.org/event/thursday-book-group-146162",
-      "location": "Lancaster Library, LPL Board Room, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Free",
-      "start": 1794495600,
-      "end": 1794501000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults"
-      ],
-      "program_types": [
-        "Book Club"
       ],
       "branch": "Lancaster"
     },
@@ -3647,6 +3579,32 @@
       ],
       "program_types": [
         "Book Club"
+      ],
+      "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "209068",
+      "series": "https://calendar.lancasterlibraries.org/event/break-ai-209068",
+      "title": "Break Up with AI",
+      "description": "Generative AI seems to be everywhere right now, including your devices whether you opted in or not. This workshop will cover how AI works, the dangers and privacy concerns posed by AI, and how to disable these technologies on your de",
+      "categories": "Community, Presentation, Technology Class",
+      "url": "https://calendar.lancasterlibraries.org/event/break-ai-209068",
+      "location": "Lancaster Library",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1802235600,
+      "end": 1802321999,
+      "all_day": true,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Teens",
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Presentation",
+        "Technology Class"
       ],
       "branch": "Lancaster"
     }
