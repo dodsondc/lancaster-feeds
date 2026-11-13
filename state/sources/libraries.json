@@ -1,145 +1,6 @@
 {
-  "checked_at": 1794509677.83962,
+  "checked_at": 1794594692.68118,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "187738",
-      "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
-      "title": "PA 211 Resource Table",
-      "description": "PA 211 staff will provide easily accessible walk-up assistance in the library's front lobby. Assistance includes information and referrals for a broad range of services: childcare, after-school programs, food banks, elder care, basic needs, health services, and more. PA 211 staff can also provide housing and homelessness intake screenings for residents of Berks and Lancaster counties. Monday, Wednesday, Thursday: 9am-5pm First Thursday: 9am-3:30pm",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/pa-211-resource-table-187738",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794492000,
-      "end": 1794520800,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "158311",
-      "series": "https://calendar.lancasterlibraries.org/series/medicare-review-with-office-of-aging-pa-medi-manheim-township",
-      "title": "Medicare Review with Office of Aging PA-MEDI",
-      "description": "Understanding Medicare can be difficult. PA-MEDI is here to help! We provide free, unbiased help to Medicare beneficiaries in Pennsylvania. We can assist individuals with: Eligibility & Enrollment Notices of Cost Original Medicare Medigap Medicare Advantage Prescription Drug (Part D) Benefits Switching & Comparing Plans Appeals Medicare Savings Programs Please call 717-299-7979 to set up an appointment. We will meet with you individually & confidentially to go over your Medicare questions.",
-      "categories": "Community, Health & Wellness",
-      "url": "https://calendar.lancasterlibraries.org/event/medicare-review-office-aging-pa-medi-158311",
-      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794495600,
-      "end": 1794517200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Health & Wellness"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "165792",
-      "series": "https://calendar.lancasterlibraries.org/series/voter-registration-q-a-table-lancaster",
-      "title": "Voter Registration Q&A Table",
-      "description": "CC Blueprint wants to see communities thrive, and that starts by making sure everyone's voice is heard. Stop by their information table to get help registering to vote, learn more about how your vote can make a difference, and hear about the other ways CC Blueprint supports and empowers families in Lancaster.",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/voter-registration-qa-table-165792",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794502800,
-      "end": 1794517200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "179911",
-      "series": "https://calendar.lancasterlibraries.org/series/midday-mahjong-manheim-township",
-      "title": "Midday Mahjong",
-      "description": "🀄️✨Join us for an afternoon of strategy, skill, and socializing! 🀄️✨ Can't make it to our morning session? Pull up a chair for an afternoon of Mahjong fun! Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event This program is for adults aged +18",
-      "categories": "Community, Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/midday-mahjong-179911",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1794506400,
-      "end": 1794517200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "172874",
-      "series": "https://calendar.lancasterlibraries.org/event/chat-where-real-conversations-happen-172874",
-      "title": "The Chat: Where Real Conversations Happen",
-      "description": "Talk. Listen. Connect. Join CAP in the Brave Place at Lancaster Public Library to build community, have honest discussions, encourage self-growth, and ask your burning questions on mental health and belonging.",
-      "categories": "Community, Discussion",
-      "url": "https://calendar.lancasterlibraries.org/event/chat-where-real-conversations-happen-172874",
-      "location": "Lancaster Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794459600,
-      "end": 1794545999,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Teens",
-        "Adults"
-      ],
-      "program_types": [
-        "Community",
-        "Discussion"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "156593",
-      "series": "https://calendar.lancasterlibraries.org/series/write-now-lancaster-lancaster",
-      "title": "Write Now Lancaster",
-      "description": "Write Now Lancaster is for anyone who is writing with the goal of having their work seen by a public audience. We are not a critique group, we are a writing group, kind of like an adult study hall with potluck food and soft drinks. Write Now Lancaster is space, time, and community; the writers do the work. Walk-ins are welcome!",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/write-now-lancaster-156593",
-      "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794524400,
-      "end": 1794531600,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "197186",
@@ -3423,6 +3284,28 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "212145",
+      "series": "https://calendar.lancasterlibraries.org/series/read-it-and-eat-a-cookbook-club-lancaster",
+      "title": "Read It and Eat: A Cookbook Club",
+      "description": "Bring your appetite and a dish to share to Read It and Eat: A Cookbook Club! Each month, we will display the chosen cookbook at the Lancaster City Branch circulation desk Register by adding yourname and chosen recipe to the signup sheet(also located at the circulation desk) A staff member will make one (1) free photocopy of your chosen recipe, or you can take a picture. Prepare the recipe for the Cookbook Club potluck style meeting Participants should follow all food safety precautions when preparing their dish, and all allergens should be clearly stated. At the meeting, enjoy a potluck dinner while we discuss our experiences with the recipes Discussion will center around baking/cooking techniques, recipe clarity, skill level, and accuracy, as well as ways to improve or change the recipe.",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/read-it-and-eat-cookbook-club-212145",
+      "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1799881200,
+      "end": 1799886600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "208553",
       "series": "https://calendar.lancasterlibraries.org/series/thursday-book-group-lancaster",
       "title": "Thursday Book Group",
@@ -3486,6 +3369,30 @@
       ],
       "program_types": [
         "Arts & Crafts"
+      ],
+      "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "212160",
+      "series": "https://calendar.lancasterlibraries.org/event/miniature-paint-night-212160",
+      "title": "Miniature Paint Night",
+      "description": "Join Lancaster Public Library and Chris Medalis as he shows you the techniques for painting your favorite characters, but in 1:56 scale! Have you never heard the terms \"dry brush,\" \"layering,\" or \"glazing?\" Then this program is for you!",
+      "categories": "Arts & Crafts, Community",
+      "url": "https://calendar.lancasterlibraries.org/event/miniature-paint-night-212160",
+      "location": "Lancaster Library",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1800507600,
+      "end": 1800593999,
+      "all_day": true,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Teens",
+        "Adults"
+      ],
+      "program_types": [
+        "Arts & Crafts",
+        "Community"
       ],
       "branch": "Lancaster"
     },
@@ -3605,6 +3512,50 @@
         "Community",
         "Presentation",
         "Technology Class"
+      ],
+      "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "212146",
+      "series": "https://calendar.lancasterlibraries.org/series/read-it-and-eat-a-cookbook-club-lancaster",
+      "title": "Read It and Eat: A Cookbook Club",
+      "description": "Bring your appetite and a dish to share to Read It and Eat: A Cookbook Club! Each month, we will display the chosen cookbook at the Lancaster City Branch circulation desk Register by adding yourname and chosen recipe to the signup sheet(also located at the circulation desk) A staff member will make one (1) free photocopy of your chosen recipe, or you can take a picture. Prepare the recipe for the Cookbook Club potluck style meeting Participants should follow all food safety precautions when preparing their dish, and all allergens should be clearly stated. At the meeting, enjoy a potluck dinner while we discuss our experiences with the recipes Discussion will center around baking/cooking techniques, recipe clarity, skill level, and accuracy, as well as ways to improve or change the recipe.",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/read-it-and-eat-cookbook-club-212146",
+      "location": "Lancaster Library, LPL Board Room, 151 North Queen Street, Lancaster, PA, 17603",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1802300400,
+      "end": 1802305800,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "208554",
+      "series": "https://calendar.lancasterlibraries.org/series/thursday-book-group-lancaster",
+      "title": "Thursday Book Group",
+      "description": "A book club for people who want to read (or re-read) the classics! Our Thursday Book Group focuses on literature that has stood the test of time and continues to be relevant. New members are welcome to join the discussion. 2027 Reading List January 14: Love in the Time of Cholera by Gabriel Garcia Marquez February 11: Jazz by Toni Morrison March 11: One Flew Over the Cuckoo's Nest by Ken Kesey April 8: The Death of the Heart by Elizabeth Bowen May 13: Bel-Ami by Guy de Maupassant June 10: Blood Meridian by Cormac McCarthy July 8: Blindness by Jose Saramago August 12: The Kingdom and the Power by Gay Talese September 9: The Quiet American by Graham Greene October 14: A Tale of Two Cities by Charles Dickens November 18*: The Song of the Lark by Willa Cather December 9: Jayber Crow by Wendell Berry *Meeting a week later due to LPL's closure on Thursday, November 11.",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/thursday-book-group-208554",
+      "location": "Lancaster Library, LPL Board Room, 151 North Queen Street, Lancaster, PA, 17603",
+      "price": "Free",
+      "start": 1802358000,
+      "end": 1802363400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults"
+      ],
+      "program_types": [
+        "Book Club"
       ],
       "branch": "Lancaster"
     }

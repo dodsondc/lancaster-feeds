@@ -1,5 +1,5 @@
 {
-  "checked_at": 1794509677.83962,
+  "checked_at": 1794594692.68118,
   "events": [
     {
       "source": "Visit Lancaster City",
@@ -28,21 +28,6 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1794009600,
       "end": 1795383000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1025/29909700/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1025",
-      "title": "Little Music Makers | FREE Main Street Connections Class at Tiny Town",
-      "description": "Little Music Makers | FREE Main Street Connections Class at Tiny Town Join us for Little Music Makers, part of Main Street Connections, Tiny Town’s FREE community programming for young children and their caregivers. Shake, tap, sing, and move! Little ones will explore rhythm, sound, and music through instruments, movement, and playful songs while building confidence and early listening skills. Main Street Connections was created to give local families a welcoming place to connect, learn, and grow together. Classes are designed for babies, toddlers, and preschoolers with a caregiver and include a rotating mix of music, movement, stories, crafts, sensory experiences, early learning activities, and opportunities to connect with other families. The class is completely FREE. No Tiny Town admission or membership is required to attend the class. Caregivers stay and participate with their children. Registration: Advance registration is required. Space is limited. Please note: Main Street Connections takes place in Tiny Town’s Neighborhood Nook. Registration for the free class does not include admission to Tiny Town’s 12-playhouse indoor play area. Families who would also like to play may purchase Open Play admission separately. Location: Tiny Town, 533 Janet Ave., Lancaster, PA 17601 Time: Friday, November 13, 10:00–10:45 AM Cost: FREE Connect. Learn. Play for Free.",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1025/1794582000000",
-      "location": "Tiny Town, 533 Janet Avenue, Lancaster, PA 17601",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794582000,
-      "end": 1794584700,
       "all_day": false,
       "status": "CONFIRMED"
     },

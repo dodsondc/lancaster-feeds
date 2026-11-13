@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-c55360c1383fa11b0d8b6d19f88fcdb2-20270211T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261113T183132Z
+LAST-MODIFIED:20261113T183132Z
+SEQUENCE:4
+DTSTART:20270211T150000Z
+DTEND:20270211T163000Z
+SUMMARY:Thursday Book Group
+DESCRIPTION:A book club for people who want to read (or re-read) the classi
+ cs! Our Thursday Book Group focuses on literature that has stood the test 
+ of time and continues to be relevant. New members are welcome to join the 
+ discussion. 2027 Reading List January 14: Love in the Time of Cholera by G
+ abriel Garcia Marquez February 11: Jazz by Toni Morrison March 11: One Fle
+ w Over the Cuckoo's Nest by Ken Kesey April 8: The Death of the Heart by E
+ lizabeth Bowen May 13: Bel-Ami by Guy de Maupassant June 10: Blood Meridia
+ n by Cormac McCarthy July 8: Blindness by Jose Saramago August 12: The Kin
+ gdom and the Power by Gay Talese September 9: The Quiet American by Graham
+  Greene October 14: A Tale of Two Cities by Charles Dickens November 18*: 
+ The Song of the Lark by Willa Cather December 9: Jayber Crow by Wendell Be
+ rry *Meeting a week later due to LPL's closure on Thursday\, November 11.\
+ n\nPrice: Free\n\nSchedule listed: Feb 11\, 2027 · 10:00 AM EST – 11:30
+  AM EST\n\nSchedule supplied by Lancaster Libraries\n\nTimes converted fro
+ m America/New_York to UTC for calendar compatibility.\n\n\n\nRegistration:
+  https://calendar.lancasterlibraries.org/event/thursday-book-group-208554\
+ n\nAdding this calendar item does not register you. Check the original lis
+ ting for changes\; imported events do not automatically stay in sync.
+LOCATION:Lancaster Library\, LPL Board Room\, 151 North Queen Street\, Lanc
+ aster\, PA\, 17603
+URL:https://calendar.lancasterlibraries.org/event/thursday-book-group-20855
+ 4
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

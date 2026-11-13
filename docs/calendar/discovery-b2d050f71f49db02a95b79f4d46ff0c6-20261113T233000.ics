@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-b2d050f71f49db02a95b79f4d46ff0c6-20261113T233000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261113T183132Z
+LAST-MODIFIED:20261113T183132Z
+SEQUENCE:0
+DTSTART:20261113T233000Z
+DTEND:20261114T013000Z
+SUMMARY:Driver’s Seat playing at Happy Hour
+DESCRIPTION:Enjoy the band Driver’s Seat playing LIVE along with a Thorn 
+ Hill Happy Hour Menu from 6:30pm to 8:30pm! Check out our unique cheese an
+ d wine glass happy hour menu over this time period. Climb in and cruise to
+  the beat with Driver Seat playing live! Friday\, November 13 from 6:30pm 
+ to 8:30pm Enjoy a wide selection of popular and recognizable Classic Rock\
+ , Soft Rock\, and Country-cross over songs from the 60’s to today from a
+  wide variety of artists! This event is open to the public with no cover c
+ harge. You may bring in your own food\; we will also be offering a cheese 
+ menu.\n\nPrice: Not supplied by this calendar\; check event details\n\nSch
+ edule listed: Nov 13\, 2026 · 06:30 PM EST – 08:30 PM EST\n\nSchedule s
+ upplied by LancasterPA\n\nTimes converted from America/New_York to UTC for
+  calendar compatibility.\n\n\n\nRegistration: https://lancasterpa.com/even
+ ts-calendar/drivers-seat-playing-at-happy-hour/\n\nAdding this calendar it
+ em does not register you. Check the original listing for changes\; importe
+ d events do not automatically stay in sync.
+LOCATION:Thorn Hill Vineyard\, 1945 Fruitville Pike\, Lancaster\, PA\, 1760
+ 1
+URL:https://lancasterpa.com/events-calendar/drivers-seat-playing-at-happy-h
+ our/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
