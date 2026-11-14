@@ -1,6 +1,16 @@
 {
   "version": 1,
   "items": {
+    "lancaster-county-commissioners:3:3734:agenda": {
+      "id": "lancaster-county-commissioners:3:3734:agenda",
+      "category": "3",
+      "kind": "Agenda",
+      "date": "2026-11-18",
+      "url": "https://www.co.lancaster.pa.us/AgendaCenter/ViewFile/Agenda/_11182026-3734",
+      "notice": "Posted by county: Nov 13, 2026 · 2:09 PM ET",
+      "first_seen": 1794675858.40584,
+      "activity_at": 1794675858.40584
+    },
     "lancaster-county-commissioners:3:3717:agenda": {
       "id": "lancaster-county-commissioners:3:3717:agenda",
       "category": "3",
@@ -431,25 +441,15 @@
       "first_seen": 1794090807.8891,
       "activity_at": 1794090807.8891
     },
-    "lancaster-county-commissioners:3:3607:agenda": {
-      "id": "lancaster-county-commissioners:3:3607:agenda",
-      "category": "3",
+    "lancaster-county-commissioners:4:3732:agenda": {
+      "id": "lancaster-county-commissioners:4:3732:agenda",
+      "category": "4",
       "kind": "Agenda",
-      "date": "2026-05-13",
-      "url": "https://www.co.lancaster.pa.us/AgendaCenter/ViewFile/Agenda/_05132026-3607",
-      "notice": "Amended by county: May 12, 2026 · 10:44 AM ET",
-      "first_seen": 1794090807.8891,
-      "activity_at": 1794090807.8891
-    },
-    "lancaster-county-commissioners:3:3607:minutes": {
-      "id": "lancaster-county-commissioners:3:3607:minutes",
-      "category": "3",
-      "kind": "Minutes",
-      "date": "2026-05-13",
-      "url": "https://www.co.lancaster.pa.us/AgendaCenter/ViewFile/Minutes/_05132026-3607",
-      "notice": "",
-      "first_seen": 1794090807.8891,
-      "activity_at": 1794090807.8891
+      "date": "2026-11-17",
+      "url": "https://www.co.lancaster.pa.us/AgendaCenter/ViewFile/Agenda/_11172026-3732",
+      "notice": "Posted by county: Nov 13, 2026 · 2:06 PM ET",
+      "first_seen": 1794675858.40584,
+      "activity_at": 1794675858.40584
     },
     "lancaster-county-commissioners:4:3727:agenda": {
       "id": "lancaster-county-commissioners:4:3727:agenda",

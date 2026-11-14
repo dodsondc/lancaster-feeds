@@ -1,29 +1,6 @@
 {
-  "checked_at": 1794594692.68118,
+  "checked_at": 1794675861.31704,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "197186",
-      "series": "https://calendar.lancasterlibraries.org/event/rise-above-collective-young-adults-197186",
-      "title": "Rise Above Collective for Young Adults",
-      "description": "Discover Who You Are. Connect With Others.",
-      "categories": "Discussion",
-      "url": "https://calendar.lancasterlibraries.org/event/rise-above-collective-young-adults-197186",
-      "location": "Lancaster Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794632400,
-      "end": 1794718799,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Teens",
-        "Adults"
-      ],
-      "program_types": [
-        "Discussion"
-      ],
-      "branch": "Lancaster"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "166358",
@@ -3556,6 +3533,29 @@
       ],
       "program_types": [
         "Book Club"
+      ],
+      "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "204661",
+      "series": "https://calendar.lancasterlibraries.org/series/winter-resort-book-sale-lancaster",
+      "title": "Winter ReSort Book Sale",
+      "description": "People who love books and people who love bargains will find a lot in common at the Winter ReSort Book Sale! 📅 Sale Days & Times Friday, February 12 · 9AM-5PM Saturday, February 13 · 9AM-5PM Sunday, February 14 · 9AM-3PM 📚 Library Lover tip: Sunday is half price day! 🛍️ From books & DVDs to audiobooks & vinyl records, there are thousands of items available at exceptional values! This year, we have a HUGE selection of audiobooks on CD. Additionally, we have MANY Great Courses on CD and DVD! 📍 Sale held at the Book ReSort, located at 225 N. Marshall Street in Lancaster. 💥 Over half the items priced between 50¢ and $2! 💥 Free parking! The parking lot fills up fast on Day 1 💥 Marshall Street Bookstore OPEN during the Book Sale! GOOD TO KNOW INFO: Cash, checks, and all major credit cards accepted. Due to an increase in counterfeit currency, we regret we cannot accept bills over $20. 6% PA sales tax charged unless tax exempt # provided. All proceeds directly benefit Lancaster Public Library 💙",
+      "categories": "Community, Fundraiser",
+      "url": "https://calendar.lancasterlibraries.org/event/winter-resort-book-sale-204661",
+      "location": "Lancaster Library, LPL Book ReSort, 225 N. Marshall Street, Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1802440800,
+      "end": 1802469600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Everyone"
+      ],
+      "program_types": [
+        "Community",
+        "Fundraiser"
       ],
       "branch": "Lancaster"
     }

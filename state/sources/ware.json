@@ -1,5 +1,5 @@
 {
-  "checked_at": 1794594692.68118,
+  "checked_at": 1794675861.31704,
   "events": [
     {
       "source": "Ware / Millersville",
@@ -829,23 +829,6 @@
       "end": 1795291200,
       "location": "The Ware Center",
       "price": "$10 to $15",
-      "all_day": false,
-      "end_known": false,
-      "status": "CONFIRMED",
-      "direct": true
-    },
-    {
-      "source": "Ware / Millersville",
-      "source_id": "https://artsmu.com/event/flamenco-y-sol-flamenco-at-its-essence/the-ware-center/",
-      "series": "https://artsmu.com/event/flamenco-y-sol-flamenco-at-its-essence/the-ware-center/",
-      "title": "Flamenco y Sol: Flamenco at Its Essence",
-      "url": "https://artsmu.com/event/flamenco-y-sol-flamenco-at-its-essence/the-ware-center/",
-      "description": "Friday, November 13, 2026 • 7:30 PM • Steinman Hall An evening of traditional flamenco in its most authentic form, featuring live music, improvisation, and the dynamic interplay between dancer, singer, and guitarist. Rooted in the tablao tradition, the performance highlights the raw emotional power of flamenco, delivering an electrifying theatrical experience. Tickets: Adults $29 • Students: $21 Make it a learning experience! At 6:30 PM, Dr. Ana Börger-Greco, former associate professor of Spanish at Millersville and the widow of flamenco artist José Greco, will give a free talk on flamenco. Presented in partnership with the Skrodinsky Family Foundation.",
-      "categories": "Performing Arts Series",
-      "start": 1794616200,
-      "end": 1794616200,
-      "location": "The Ware Center",
-      "price": "$21 to $29",
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
