@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-ade3dbd563d7564d3acf21ff7b066abd-20270214T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261115T174317Z
+LAST-MODIFIED:20261115T174317Z
+SEQUENCE:0
+DTSTART:20270214T003000Z
+SUMMARY:Electric Root: Let Love Lead\, A Celebration of Black Music
+DESCRIPTION:Saturday\, February 13\, 2027 • 7:30 PM • Steinman Hall Cel
+ ebrate Valentine’s Day with an immersive\, emotionally rich concert fuel
+ ed by the musical traditions that have shaped our cultural soundscape. Led
+  by acclaimed vocalists Brianna Thomas\, C. Anthony Bryant\, and Charenee 
+ Wade\, Let Love Lead uplifts the contributions of Black musical excellence
+ —including legends Donny Hathaway\, Aretha Franklin\, Nina Simone\, and 
+ many more—illuminating its continued relevance in today’s world. Ticke
+ ts: Adults $27 • Students: $19\n\nPrice: $19 to $27\n\nSchedule listed: 
+ Feb 13\, 2027 · 07:30 PM EST — end time not published\n\nSchedule suppl
+ ied by Ware / Millersville\n\nTimes converted from America/New_York to UTC
+  for calendar compatibility.\n\nNo ending time is published\; your calenda
+ r may apply its own default duration.\n\nRegistration: https://artsmu.com/
+ event/electric-root-let-love-lead-a-celebration-of-black-music/the-ware-ce
+ nter/\n\nAdding this calendar item does not register you. Check the origin
+ al listing for changes\; imported events do not automatically stay in sync
+ .
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/electric-root-let-love-lead-a-celebration-of-b
+ lack-music/the-ware-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
