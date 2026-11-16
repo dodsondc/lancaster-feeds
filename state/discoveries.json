@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked": 1794764597.33953,
+  "last_checked": 1794862874.39133,
   "items": {
     "discovery-d7d3d348c930d55eef132c86a246e5a6": {
       "source": "Visit Lancaster City",
@@ -14916,6 +14916,57 @@
       "updated_at": 1794764597.33953,
       "sequence": 0,
       "signature": "{\"title\":\"Electric Root: Let Love Lead, A Celebration of Black Music\",\"description\":\"Saturday, February 13, 2027 • 7:30 PM • Steinman Hall Celebrate Valentine’s Day with an immersive, emotionally rich concert fueled by the musical traditions that have shaped our cultural soundscape. Led by acclaimed vocalists Brianna Thomas, C. Anthony Bryant, and Charenee Wade, Let Love Lead uplifts the contributions of Black musical excellence—including legends Donny Hathaway, Aretha Franklin, Nina Simone, and many more—illuminating its continued relevance in today’s world. Tickets: Adults $27 • Students: $19\",\"occurrences\":[{\"source\":\"Ware / Millersville\",\"source_id\":\"https://artsmu.com/event/electric-root-let-love-lead-a-celebration-of-black-music/the-ware-center/\",\"series\":\"https://artsmu.com/event/electric-root-let-love-lead-a-celebration-of-black-music/the-ware-center/\",\"title\":\"Electric Root: Let Love Lead, A Celebration of Black Music\",\"url\":\"https://artsmu.com/event/electric-root-let-love-lead-a-celebration-of-black-music/the-ware-center/\",\"description\":\"Saturday, February 13, 2027 • 7:30 PM • Steinman Hall Celebrate Valentine’s Day with an immersive, emotionally rich concert fueled by the musical traditions that have shaped our cultural soundscape. Led by acclaimed vocalists Brianna Thomas, C. Anthony Bryant, and Charenee Wade, Let Love Lead uplifts the contributions of Black musical excellence—including legends Donny Hathaway, Aretha Franklin, Nina Simone, and many more—illuminating its continued relevance in today’s world. Tickets: Adults $27 • Students: $19\",\"categories\":\"Performing Arts Series\",\"start\":1802565000,\"end\":1802565000,\"location\":\"The Ware Center\",\"price\":\"$19 to $27\",\"all_day\":false,\"end_known\":false,\"status\":\"CONFIRMED\",\"direct\":true,\"interest\":\"Preferred venue: Ware Center\",\"venue_key\":\"ware center\"}],\"sources\":[{\"name\":\"Ware / Millersville\",\"url\":\"https://artsmu.com/event/electric-root-let-love-lead-a-celebration-of-black-music/the-ware-center/\"}],\"price\":\"$19 to $27\"}"
+    },
+    "discovery-5d10bbd2a1b2fa9ac4c00c8806e30e6f": {
+      "source": "Visit Lancaster City",
+      "source_id": "TKF/6a345ad0afff871fa5d6af75/876/30043860/0/0",
+      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/876",
+      "title": "Peter Pan Goes Wrong Closing Performance",
+      "description": "Celebrate Closing with us on Valentines Day! Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.",
+      "categories": "",
+      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/876/1802631600000",
+      "location": "Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1802631600,
+      "end": 1802642400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "interest": "Preferred venue: Fulton Theatre",
+      "venue_key": "fulton theatre",
+      "id": "discovery-5d10bbd2a1b2fa9ac4c00c8806e30e6f",
+      "member_keys": [
+        "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/876"
+      ],
+      "kind": "Events",
+      "occurrences": [
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/876/30043860/0/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/876",
+          "title": "Peter Pan Goes Wrong Closing Performance",
+          "description": "Celebrate Closing with us on Valentines Day! Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/876/1802631600000",
+          "location": "Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1802631600,
+          "end": 1802642400,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "Preferred venue: Fulton Theatre",
+          "venue_key": "fulton theatre"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/876/1802631600000"
+        }
+      ],
+      "first_seen": 1794862874.39133,
+      "updated_at": 1794862874.39133,
+      "sequence": 0,
+      "signature": "{\"title\":\"Peter Pan Goes Wrong Closing Performance\",\"description\":\"Celebrate Closing with us on Valentines Day! Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/876/30043860/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/876\",\"title\":\"Peter Pan Goes Wrong Closing Performance\",\"description\":\"Celebrate Closing with us on Valentines Day! Brace yourselves for an awfully big adventure as the accident-prone Cornley Drama Society sets out to present their most audacious production to date. As hilarious as their award-winning The Play That Goes Wrong, Mischief Theatre’s take on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has never been so right.\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/876/1802631600000\",\"location\":\"Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1802631600,\"end\":1802642400,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Preferred venue: Fulton Theatre\",\"venue_key\":\"fulton theatre\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/876/1802631600000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
     }
   }
 }

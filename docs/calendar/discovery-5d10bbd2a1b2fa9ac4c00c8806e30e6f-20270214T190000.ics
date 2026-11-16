@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-5d10bbd2a1b2fa9ac4c00c8806e30e6f-20270214T190000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261116T210114Z
+LAST-MODIFIED:20261116T210114Z
+SEQUENCE:0
+DTSTART:20270214T190000Z
+DTEND:20270214T220000Z
+SUMMARY:Peter Pan Goes Wrong Closing Performance
+DESCRIPTION:Celebrate Closing with us on Valentines Day! Brace yourselves f
+ or an awfully big adventure as the accident-prone Cornley Drama Society se
+ ts out to present their most audacious production to date. As hilarious as
+  their award-winning The Play That Goes Wrong\, Mischief Theatre’s take 
+ on J. M. Barrie’s Peter Pan is unforgettable. Something so wrong has nev
+ er been so right.\n\nPrice: Not supplied by this calendar\; check event de
+ tails\n\nSchedule listed: Feb 14\, 2027 · 02:00 PM EST – 05:00 PM EST\n
+ \nSchedule supplied by Visit Lancaster City\n\nTimes converted from Americ
+ a/New_York to UTC for calendar compatibility.\n\n\n\nRegistration: https:/
+ /calendar.visitlancastercity.com/visitlancastercity/detail/876/18026316000
+ 00\n\nAdding this calendar item does not register you. Check the original 
+ listing for changes\; imported events do not automatically stay in sync.
+LOCATION:Fulton Theatre\, 12 North Prince Street\, Lancaster\, PA 17603\, U
+ SA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/876/1
+ 802631600000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

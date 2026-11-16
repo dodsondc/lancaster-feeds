@@ -1,5 +1,5 @@
 {
-  "checked_at": 1794764597.33953,
+  "checked_at": 1794862874.39133,
   "events": [
     {
       "source": "Lancaster Libraries",
@@ -76,7 +76,7 @@
       "source_id": "154555",
       "series": "https://calendar.lancasterlibraries.org/series/silent-book-club-at-our-town-brewery-lancaster",
       "title": "Silent Book Club at Our Town Brewery!",
-      "description": "All the perks of a book club, but none of the stress! Join us at Our Town Brewery this month for our meeting of the Silent Book Club, a program which gives you uninterrupted reading time and the chance to chat with fellow booklovers but leaves behind the headaches of reading deadlines and the pressure to sound insightful. Find us on the Brewery's 1st floor—we'll be the ones with the books! With no assigned title and no list of discussion questions, all you need to bring is your current read and your enthusiasm for literature! · Free and open to the public · Bring whatever you are currently reading · Come alone or with friends!",
+      "description": "Tonight's session of Silent Book Club will not include representation from LPL due to illness, but don't let that stop you from meeting up at Our Town without us! All the perks of a book club, but none of the stress! Join us at Our Town Brewery this month for our meeting of the Silent Book Club, a program which gives you uninterrupted reading time and the chance to chat with fellow booklovers but leaves behind the headaches of reading deadlines and the pressure to sound insightful. Find us on the Brewery's 1st floor—we'll be the ones with the books! With no assigned title and no list of discussion questions, all you need to bring is your current read and your enthusiasm for literature! · Free and open to the public · Bring whatever you are currently reading · Come alone or with friends!",
       "categories": "Book Club, Community",
       "url": "https://calendar.lancasterlibraries.org/event/silent-book-club-our-town-brewery-154555",
       "location": "Lancaster Library, LPL Offsite Location, 252 N. Prince Street, Lancaster, PA, 17603",
@@ -84,7 +84,7 @@
       "start": 1794870000,
       "end": 1794877200,
       "all_day": false,
-      "status": "CONFIRMED",
+      "status": "CANCELLED",
       "age_groups": [
         "Adults",
         "Seniors"
@@ -1735,13 +1735,13 @@
     {
       "source": "Lancaster Libraries",
       "source_id": "209792",
-      "series": "https://calendar.lancasterlibraries.org/series/reserved-for-as-program-manheim-township",
-      "title": "*reserved for AS program*",
-      "description": "mental health program !",
+      "series": "https://calendar.lancasterlibraries.org/series/handling-the-holidays-keep-your-glow-on-manheim-township",
+      "title": "Handling the Holidays: Keep Your Glow On ✨",
+      "description": "The holidays bring joy, but they can also bring overwhelm, busy schedules, and unexpected curveballs. Join us for an empowering session focused on staying grounded, protecting your peace, and navigating the season with confidence. We’ll cover practical boundary-setting, stress reduction, and thoughtful budget-friendly standby gift ideas ($25 and under!) so you’re prepared for whatever comes your way. Walk away with tactical tools, recommended reading, and a game plan to keep glowing all month long.✨",
       "categories": "Health & Wellness",
       "url": "https://calendar.lancasterlibraries.org/event/reserved-program-209792",
       "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Not supplied by this calendar; check event details",
+      "price": "Free",
       "start": 1796770800,
       "end": 1796777100,
       "all_day": false,
@@ -3169,29 +3169,6 @@
     },
     {
       "source": "Lancaster Libraries",
-      "source_id": "211864",
-      "series": "https://calendar.lancasterlibraries.org/series/staying-warm-and-going-green-lancaster",
-      "title": "Staying Warm and Going Green",
-      "description": "Energy Efficiency and Electrification Basics Does your home feel cold this winter? Is your heating bill higher than it should be? Are you looking for ways to live in ways that are gentler on Planet Earth? Join Andrew Pauls-Thomas, Director of Energy Solutions at RegenAll for an overview of energy efficiency basics as well as ideas for reducing or eliminating fossil fuel use in your home. Andrew will touch on solutions to match every budget and every home – from simple DIY caulking to full replacement of your heating system. This program is in partnership with RegenAll, an organization that is committed to resilience and climate work done with communities, not for them. Registration is helpful, but walk-ins will not be turned away. Ages 18+",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/staying-warm-and-going-green-211864",
-      "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Free",
-      "start": 1799794800,
-      "end": 1799798400,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
       "source_id": "212145",
       "series": "https://calendar.lancasterlibraries.org/series/read-it-and-eat-a-cookbook-club-lancaster",
       "title": "Read It and Eat: A Cookbook Club",
@@ -3231,6 +3208,29 @@
       ],
       "program_types": [
         "Book Club"
+      ],
+      "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "211864",
+      "series": "https://calendar.lancasterlibraries.org/series/staying-warm-and-going-green-lancaster",
+      "title": "Staying Warm and Going Green",
+      "description": "Energy Efficiency and Electrification Basics Does your home feel cold this winter? Is your heating bill higher than it should be? Are you looking for ways to live in ways that are gentler on Planet Earth? Join Andrew Pauls-Thomas, Director of Energy Solutions at RegenAll for an overview of energy efficiency basics as well as ideas for reducing or eliminating fossil fuel use in your home. Andrew will touch on solutions to match every budget and every home – from simple DIY caulking to full replacement of your heating system. This program is in partnership with RegenAll, an organization that is committed to resilience and climate work done with communities, not for them. Registration is helpful, but walk-ins will not be turned away. Ages 18+",
+      "categories": "Community",
+      "url": "https://calendar.lancasterlibraries.org/event/staying-warm-and-going-green-211864",
+      "location": "Lancaster Library, LPL Board Room, 151 North Queen Street, Lancaster, PA, 17603",
+      "price": "Free",
+      "start": 1799969400,
+      "end": 1799973000,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community"
       ],
       "branch": "Lancaster"
     },
@@ -3502,6 +3502,29 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1802527200,
       "end": 1802556000,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Everyone"
+      ],
+      "program_types": [
+        "Community",
+        "Fundraiser"
+      ],
+      "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "204663",
+      "series": "https://calendar.lancasterlibraries.org/series/winter-resort-book-sale-lancaster",
+      "title": "Winter ReSort Book Sale",
+      "description": "People who love books and people who love bargains will find a lot in common at the Winter ReSort Book Sale! 📅 Sale Days & Times Friday, February 12 · 9AM-5PM Saturday, February 13 · 9AM-5PM Sunday, February 14 · 9AM-3PM 📚 Library Lover tip: Sunday is half price day! 🛍️ From books & DVDs to audiobooks & vinyl records, there are thousands of items available at exceptional values! This year, we have a HUGE selection of audiobooks on CD. Additionally, we have MANY Great Courses on CD and DVD! 📍 Sale held at the Book ReSort, located at 225 N. Marshall Street in Lancaster. 💥 Over half the items priced between 50¢ and $2! 💥 Free parking! The parking lot fills up fast on Day 1 💥 Marshall Street Bookstore OPEN during the Book Sale! GOOD TO KNOW INFO: Cash, checks, and all major credit cards accepted. Due to an increase in counterfeit currency, we regret we cannot accept bills over $20. 6% PA sales tax charged unless tax exempt # provided. All proceeds directly benefit Lancaster Public Library 💙",
+      "categories": "Community, Fundraiser",
+      "url": "https://calendar.lancasterlibraries.org/event/winter-resort-book-sale-204663",
+      "location": "Lancaster Library, LPL Book ReSort, 225 N. Marshall Street, Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1802613600,
+      "end": 1802642400,
       "all_day": false,
       "status": "CONFIRMED",
       "age_groups": [
