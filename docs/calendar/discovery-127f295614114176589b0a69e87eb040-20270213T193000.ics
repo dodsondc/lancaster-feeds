@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-127f295614114176589b0a69e87eb040-20270213T193000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261117T195124Z
+LAST-MODIFIED:20261117T195124Z
+SEQUENCE:0
+DTSTART:20270213T193000Z
+DTEND:20270213T203000Z
+SUMMARY:Small Talk: A Novella Book Club
+DESCRIPTION:Small books. Big conversations. 2nd Saturdays from 2:30-3:30. M
+ ost book clubs are a marathon-- this is a sprint! We exclusively read book
+ s under 300 pages: perfect for the busy reader who wants all the discussio
+ n without the 500-page commitment. Join us for sharp conversation that's s
+ hort\, sweet\, and gets straight to the point! January 9: Cinder House by 
+ Freya Marske February 13: Vinegar Girl by Anne Tyler March 13: The Art Thi
+ ef by Michael Finkel April 10: A New New Me by Helen Oyeyemi May 8: Absent
+  in the Spring by Agatha Christie (as Mary Westmacott) June 12: Northanger
+  Abbey by Jane Austen July 10: Double Indemnity by James M. Cain August 14
+ : Automatic Noodle by Annalee Newitz September 11: Glaciers by Alexis M. S
+ mith October 9: Ring Shout by P. Djèlí Clark November 13: The Four Wives
+  and Five Deaths of Richard Milford by Nafissa Thompson-Spires December 11
+ : The Winter Guest by Sarah Moss\n\nPrice: Free\n\nSchedule listed: Feb 13
+ \, 2027 · 02:30 PM EST – 03:30 PM EST\n\nSchedule supplied by Lancaster
+  Libraries\n\nTimes converted from America/New_York to UTC for calendar co
+ mpatibility.\n\n\n\nRegistration: https://calendar.lancasterlibraries.org/
+ event/small-talk-novella-book-club-213211\n\nAdding this calendar item doe
+ s not register you. Check the original listing for changes\; imported even
+ ts do not automatically stay in sync.
+LOCATION:Manheim Township Library\, MTP Study Room #119\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/small-talk-novella-book-c
+ lub-213211
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

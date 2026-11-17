@@ -1,123 +1,6 @@
 {
-  "checked_at": 1794862874.39133,
+  "checked_at": 1794945084.70467,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "187739",
-      "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
-      "title": "PA 211 Resource Table",
-      "description": "PA 211 staff will provide easily accessible walk-up assistance in the library's front lobby. Assistance includes information and referrals for a broad range of services: childcare, after-school programs, food banks, elder care, basic needs, health services, and more. PA 211 staff can also provide housing and homelessness intake screenings for residents of Berks and Lancaster counties. Monday, Wednesday, Thursday: 9am-5pm First Thursday: 9am-3:30pm",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/pa-211-resource-table-187739",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794837600,
-      "end": 1794866400,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "208286",
-      "series": "https://calendar.lancasterlibraries.org/series/mahjong-101-manheim-township",
-      "title": "Mahjong 101",
-      "description": "Go from \"What's a Bam?\" to \"Mahjong!\" in this five-week intensive designed for true beginners. We’ll dive into the tiles, the National Mah Jongg League card, and the fast-paced strategy that makes the game a total blast. By the final week, you’ll be playing with confidence and style! The Full-Table Commitment: Because each lesson builds directly on the last, signing up for the first session means you are committed to the full journey. Please ensure you can attend every class before registering! Schedule: Mondays & Tuesdays, 6-8pm Monday, November 2 Tuesday, November 3 Monday, November 9 Tuesday, November 10 Monday, November 16 Tuesday, November 17 New Players Only, Please!: To keep things fair and give everyone a shot at the tiles, this course is strictly for true beginners. If you've already taken a Mahjong class at any library branch in the county, we ask that you leave this spot open for someone who hasn't had the chance to learn yet. We love your enthusiasm, but this specific table is reserved for those who are brand new to the game!",
-      "categories": "Community, Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/mahjong-101-208286",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1794870000,
-      "end": 1794876300,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "200759",
-      "series": "https://calendar.lancasterlibraries.org/series/marching-to-independence-lancaster-soldiers-at-the-battle-of-fort-lee-manheim-township",
-      "title": "Marching to Independence: Lancaster Soldiers at the Battle of Fort Lee",
-      "description": "How did ordinary men from Lancaster County end up on the front lines of the American Revolution? Step back in time with living historian Samuel Leamer to uncover the harrowing story of Clotz's Battalion-- part of the legendary \"Flying Camp\" mobile reserve. Relive the tension of November 1776 at the Battle of Fort Lee, discover the courageous stories of local soldiers fighting for a brand-new nation, and see how modern historians uncover the past to keep their legacy alive. Don't miss this immersive journey into the fight for independence! Registration is encouraged! A Berks County native and Cairn University history graduate, Presenter Sam Leamer has spent a lifetime bringing the past to life through reenactments-- and a decade mastering the art of modern coffee. By blending historical scholarship with coffee expertise, Sam offers a richer, deeper look into Colonial Coffee Culture, showing how the humble coffee bean helped fuel America’s fight for independence.",
-      "categories": "Community, Presentation",
-      "url": "https://calendar.lancasterlibraries.org/event/hold-adult-services-program-200759",
-      "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1794870000,
-      "end": 1794876300,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Presentation"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "154555",
-      "series": "https://calendar.lancasterlibraries.org/series/silent-book-club-at-our-town-brewery-lancaster",
-      "title": "Silent Book Club at Our Town Brewery!",
-      "description": "Tonight's session of Silent Book Club will not include representation from LPL due to illness, but don't let that stop you from meeting up at Our Town without us! All the perks of a book club, but none of the stress! Join us at Our Town Brewery this month for our meeting of the Silent Book Club, a program which gives you uninterrupted reading time and the chance to chat with fellow booklovers but leaves behind the headaches of reading deadlines and the pressure to sound insightful. Find us on the Brewery's 1st floor—we'll be the ones with the books! With no assigned title and no list of discussion questions, all you need to bring is your current read and your enthusiasm for literature! · Free and open to the public · Bring whatever you are currently reading · Come alone or with friends!",
-      "categories": "Book Club, Community",
-      "url": "https://calendar.lancasterlibraries.org/event/silent-book-club-our-town-brewery-154555",
-      "location": "Lancaster Library, LPL Offsite Location, 252 N. Prince Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794870000,
-      "end": 1794877200,
-      "all_day": false,
-      "status": "CANCELLED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Book Club",
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "176804",
-      "series": "https://calendar.lancasterlibraries.org/series/modern-monsters-a-horror-book-club-manheim-township",
-      "title": "Modern Monsters: A Horror Book Club",
-      "description": "Join us third Mondays of the month to dive into the most talked-about, chilling, and boundary-pushing books in the genre today. From haunted houses with a twist to supernatural slashers and cultural folk horror, we’re exploring the new classics that are keeping readers up at night. Come for the scares, stay for the survival strategies. June 15 - How to Sell a Haunted House by Grady Hendrix July 20 - My Heart is a Chainsaw by Stephen Grahm Jones August 17 - Bad Cree by Jessica Johns September 21 - We Used to Live Here by Marcus Kliewer October 19 - The Last House on Needless Street by Catriona Ward November 16 - The Reformatory by Tananarive Due December 21 - The Eyes are the Best Part by Monika Kim",
-      "categories": "Book Club",
-      "url": "https://calendar.lancasterlibraries.org/event/modern-monsters-horror-book-club-176804",
-      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1794871800,
-      "end": 1794877200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Book Club"
-      ],
-      "branch": "Manheim Township"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "152988",
@@ -142,32 +25,6 @@
     },
     {
       "source": "Lancaster Libraries",
-      "source_id": "210131",
-      "series": "https://calendar.lancasterlibraries.org/event/read-therapy-dog-210131",
-      "title": "Read with a Therapy Dog",
-      "description": "All ages are welcome to read, relax, or simply sit and chat with a certified therapy dog. Register for a 15-minute session with Carly or Lily and their trainer, Madison.",
-      "categories": "",
-      "url": "https://calendar.lancasterlibraries.org/event/read-therapy-dog-210131",
-      "location": "Strasburg-Heisler Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794891600,
-      "end": 1794977999,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Toddlers",
-        "Children",
-        "Tweens",
-        "Teens",
-        "Adults",
-        "Seniors",
-        "Everyone"
-      ],
-      "program_types": [],
-      "branch": "Strasburg-Heisler"
-    },
-    {
-      "source": "Lancaster Libraries",
       "source_id": "154634",
       "series": "https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster",
       "title": "Adult Coloring Program",
@@ -188,29 +45,6 @@
         "Arts & Crafts"
       ],
       "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "198029",
-      "series": "https://calendar.lancasterlibraries.org/series/coterie-book-club-manheim-township",
-      "title": "Coterie Book Club",
-      "description": "Join us for engaging discussions and a shared love of reading! The Coterie Book Club gathers monthly to explore a diverse range of titles, from historical fiction to gripping true crime. Whether you’re a lifelong reader or looking to get back into the habit, all are welcome. Coterie Book Club meets the third Tuesday of each month from 1-2pm Registration is encouraged September: Daughter of Egypt by Marie Benedict October: The Lion Women of Tehran by Marjan Kamali November: An American Girl by Richard Fellinger January: Theo of Golden by Allen Levi February: The Measure by Nikki Erlick March: The Correspondent by Virginia Evans April: The Beast in the Clouds by Nathalia Holt May: The Lies They Told by Ellen Marie Wiseman",
-      "categories": "Book Club",
-      "url": "https://calendar.lancasterlibraries.org/event/coterie-book-club-198029",
-      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1794938400,
-      "end": 1794942000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Book Club"
-      ],
-      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -2992,7 +2826,7 @@
       "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
       "price": "Not supplied by this calendar; check event details",
       "start": 1798725600,
-      "end": 1798754400,
+      "end": 1798747200,
       "all_day": false,
       "status": "CONFIRMED",
       "age_groups": [
@@ -3166,6 +3000,29 @@
         "Community"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213210",
+      "series": "https://calendar.lancasterlibraries.org/series/small-talk-a-novella-book-club-manheim-township",
+      "title": "Small Talk: A Novella Book Club",
+      "description": "Small books. Big conversations. 2nd Saturdays from 2:30-3:30. Most book clubs are a marathon-- this is a sprint! We exclusively read books under 300 pages: perfect for the busy reader who wants all the discussion without the 500-page commitment. Join us for sharp conversation that's short, sweet, and gets straight to the point! January 9: Cinder House by Freya Marske February 13: Vinegar Girl by Anne Tyler March 13: The Art Thief by Michael Finkel April 10: A New New Me by Helen Oyeyemi May 8: Absent in the Spring by Agatha Christie (as Mary Westmacott) June 12: Northanger Abbey by Jane Austen July 10: Double Indemnity by James M. Cain August 14: Automatic Noodle by Annalee Newitz September 11: Glaciers by Alexis M. Smith October 9: Ring Shout by P. Djèlí Clark November 13: The Four Wives and Five Deaths of Richard Milford by Nafissa Thompson-Spires December 11: The Winter Guest by Sarah Moss",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/small-talk-novella-book-club-213210",
+      "location": "Manheim Township Library, MTP Study Room #119, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1799523000,
+      "end": 1799526600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3399,6 +3256,29 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "213183",
+      "series": "https://calendar.lancasterlibraries.org/series/mtpl-book-discussion-group-manheim-township",
+      "title": "MTPL Book Discussion Group",
+      "description": "Start your Wednesday with a side of storytelling. The MTPL Book Discussion Group meets the 2nd Wednesday of each month at 10am to explore new worlds together. It’s more than just a book club-- it’s your monthly morning retreat for thoughtful talk and local connection. We’ve got the books; we just need you! Please register for each meeting, as it allows the library to update you if there are any changes to a meeting due to weather delays, closures, or other circumstances. January 13: Age of Innocence by Edith Wharton February 10: Becoming Madam Secretary by Stephanie Dray March 10: Remarkably Bright Creatures by Shelby Van Pelt April 14: My Ántonia by Willa Cather May 12: Land by Maggie O’Farrell June 9: American Ramble by Neil King Jr. July 14: The God of the Woods by Liz Moore August 11: American Way of Killing by Malcolm Gladwell September 8: John of John by Douglas Stuart October 13: A Woman I Know by Mary Haverstick November 10: Theo of Golden by Allen Levi December 8: How to Read a Book by Monica Wood",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/mtpl-book-discussion-group-213183",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802271600,
+      "end": 1802275200,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "209068",
       "series": "https://calendar.lancasterlibraries.org/event/break-ai-209068",
       "title": "Break Up with AI",
@@ -3512,6 +3392,29 @@
         "Fundraiser"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213211",
+      "series": "https://calendar.lancasterlibraries.org/series/small-talk-a-novella-book-club-manheim-township",
+      "title": "Small Talk: A Novella Book Club",
+      "description": "Small books. Big conversations. 2nd Saturdays from 2:30-3:30. Most book clubs are a marathon-- this is a sprint! We exclusively read books under 300 pages: perfect for the busy reader who wants all the discussion without the 500-page commitment. Join us for sharp conversation that's short, sweet, and gets straight to the point! January 9: Cinder House by Freya Marske February 13: Vinegar Girl by Anne Tyler March 13: The Art Thief by Michael Finkel April 10: A New New Me by Helen Oyeyemi May 8: Absent in the Spring by Agatha Christie (as Mary Westmacott) June 12: Northanger Abbey by Jane Austen July 10: Double Indemnity by James M. Cain August 14: Automatic Noodle by Annalee Newitz September 11: Glaciers by Alexis M. Smith October 9: Ring Shout by P. Djèlí Clark November 13: The Four Wives and Five Deaths of Richard Milford by Nafissa Thompson-Spires December 11: The Winter Guest by Sarah Moss",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/small-talk-novella-book-club-213211",
+      "location": "Manheim Township Library, MTP Study Room #119, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802547000,
+      "end": 1802550600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",

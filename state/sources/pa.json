@@ -1,21 +1,6 @@
 {
-  "checked_at": 1794862874.39133,
+  "checked_at": 1794945084.70467,
   "events": [
-    {
-      "source": "LancasterPA",
-      "source_id": "10054016",
-      "series": "https://lancasterpa.com/events-calendar/christmas-in-perfect-harmony-joy-has-come-at-the-barn-at-paradise-station/",
-      "title": "Christmas in Perfect Harmony: Joy Has Come! at The Barn at Paradise Station",
-      "description": "All new for 2026! This original concert experience is sure to be an unforgettable part of your holiday season and become a new tradition! Half-part musical theater nostalgia, half-part worship concert, Perfect Harmony sings stunning original arrangements of favorite holiday classics in (of course) three-part PERFECT HARMONY. Complete with beautiful costumes, theatrical sets, lighting, sound, and a live band, this fully immersive experience will have you feeling the true Spirit of the Season! Playing at The Barn at Paradise Station in Lancaster County, PA, select dates November 11-December 30, 2026 and to select touring locations. Run time is approximately 1 hour and 45 minutes with one 15 minute intermission. Hot chocolate and light concessions, as well as Perfect Harmony merchandise will be available for sale during the performance. ​The Barn at Paradise Station is fully climate-controlled, ADA with elevator available and restrooms. Ample bus parking. Special group pricing available. Call to inquire. Come Explore Our Lancaster Theaters and the Arts Live Theater Live Entertainment Live Music Dinner Theaters Murder Mysteries Things To Do Artisan Collectives Art Galleries Events Calendar",
-      "categories": "Children & Family Events, Christmas Events in Lancaster County, Christmas Shows in Lancaster PA, Entertainment, Holiday, Live Music, Musical Events, Paradise, Strasburg, PA, Thanksgiving, Theatrical Events, Winter",
-      "url": "https://lancasterpa.com/events-calendar/christmas-in-perfect-harmony-joy-has-come-at-the-barn-at-paradise-station/2026-11-16/",
-      "location": "The Barn at Paradise Station, 312 Paradise Lane, Ronks, PA, 17572",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794853800,
-      "end": 1794861000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
     {
       "source": "LancasterPA",
       "source_id": "10045316",
@@ -10033,6 +10018,21 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1857816000,
       "end": 1857844800,
+      "all_day": false,
+      "status": "CONFIRMED"
+    },
+    {
+      "source": "LancasterPA",
+      "source_id": "10049365",
+      "series": "https://lancasterpa.com/events-calendar/lancaster-central-market/",
+      "title": "Lancaster Central Market",
+      "description": "For almost 300 years people have been coming together to meet at Market to enjoy the freshest local food, ready-made unique dishes and flavors from all over, and special finds you can only get at Lancaster Central Market. Our building is a historic structure with history and beauty around every corner located in the heart of downtown Lancaster. Additional Shopping & Fun Things To Do in Lancaster? Amish Products Consignment and Thrift Shops Farmers Markets Furniture Quilt Supplies and Fabrics Gifts & Collectibles Theater, Music, & the Arts Kids’ Attractions Adults & Couples Railroad Attractions Historical & Educational Zip-Lines Events Calendar",
+      "categories": "Farmers Markets, Food & Beverage Events, Lancaster City, Shopping",
+      "url": "https://lancasterpa.com/events-calendar/lancaster-central-market/2028-11-17/",
+      "location": "Lancaster Central Market, 23 North Market St, Lancaster, 17603",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1858075200,
+      "end": 1858104000,
       "all_day": false,
       "status": "CONFIRMED"
     },
@@ -22843,6 +22843,21 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1857790800,
       "end": 1857877199,
+      "all_day": true,
+      "status": "CONFIRMED"
+    },
+    {
+      "source": "LancasterPA",
+      "source_id": "10056486",
+      "series": "https://lancasterpa.com/events-calendar/lancaster-city-scavenger-hunt/",
+      "title": "Lancaster City Scavenger Hunt",
+      "description": "The Ultimate Lancaster Scavenger Hunt – Adventure, History & Hidden Gems! This is the best way to explore Lancaster City – hands down! Grab your friends or family, join our app, and get ready for a really fun time. The start time of this event is between 12:00 PM and 1:15 pm. You can complete all 3 hours of hands-on activities or stop whenever you are ready. The longer you stay in the game, the more freebies and local treats you earn from small businesses in downtown. Children under 6 years old are free with an adult ticket",
+      "categories": "Children & Family Events, Lancaster City, Tour",
+      "url": "https://lancasterpa.com/events-calendar/lancaster-city-scavenger-hunt/2028-11-16/",
+      "location": "Unique Lancaster, 23 N Walnut Street, Lancaster, 17603",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1857963600,
+      "end": 1858049999,
       "all_day": true,
       "status": "CONFIRMED"
     },

@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-31962593c3cd2d2a693d559993e45a02-20261122T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261117T195124Z
+LAST-MODIFIED:20261117T195124Z
+SEQUENCE:0
+DTSTART:20261122T000000Z
+DTEND:20261122T023000Z
+SUMMARY:Jesse Cook: Forever Live Tour
+DESCRIPTION:Join us for an intimate evening of live music with world renown
+ ed Grammy-nominated rumba flamenco guitarist\, Jesse Cook. Tickets are lim
+ ited and are available for purchase here. "A global artist in every sense 
+ of the word\, Jesse Cook redefines music’s power to connect people acros
+ s cultures and continents. Over the last three decades\, the Paris-born\, 
+ Toronto-raised master of the Spanish guitar has built a devoted following 
+ for his spellbinding rumba flamenco\, routinely selling out performance ha
+ lls from London to Los Angeles\, Milan to Montreal. On stage\, Cook radiat
+ es infectious energy\, collaborating with his band and guest instrumentali
+ sts to craft immersive\, unforgettable experiences. His concerts are celeb
+ rated for their warmth\, precision\, and emotional depth. Throughout his d
+ ecades-long career\, Jesse Cook has remained devoted to musicalexploration
+ . His boundary-defying artistry has introduced flamenco and world music to
+  wider audiences while maintaining a signature style that is both technica
+ lly masterful and soulfully expressive. That authenticity has clearly reso
+ nated—with over a billion streams and views across platforms to date—p
+ roving his sound remains as relevant as it is revered."\n\nPrice: Not supp
+ lied by this calendar\; check event details\n\nSchedule listed: Nov 21\, 2
+ 026 · 07:00 PM EST – 09:30 PM EST\n\nSchedule supplied by Visit Lancast
+ er City\n\nTimes converted from America/New_York to UTC for calendar compa
+ tibility.\n\n\n\nRegistration: https://calendar.visitlancastercity.com/vis
+ itlancastercity/detail/1143/1795305600000\n\nAdding this calendar item doe
+ s not register you. Check the original listing for changes\; imported even
+ ts do not automatically stay in sync.
+LOCATION:Tellus 360 - The Temple (Seated)\, 24 East King Street\, Lancaster
+ \, PA 17602\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1143/
+ 1795305600000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
