@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-400b504e08f976ac17a39e8c30613c07-20270216T231500@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261118T192509Z
+LAST-MODIFIED:20261118T192509Z
+SEQUENCE:0
+DTSTART:20270216T231500Z
+SUMMARY:Signs of Humanity – FREE
+DESCRIPTION:Tuesday\, February 16\, 2027 • 7 PM • Steinman Hall For yea
+ rs\, artist Willie Baronet has collected signs from people experiencing ho
+ melessness\, seeing in them not just a plea for help\, but expressions of 
+ life\, creativity\, and humanity. In this moving film\, he drives cross-co
+ untry\, “buying” signs and connecting with the people behind them. 6:1
+ 5 PM • Pre-show community panel discussion Post-show • Q&A with direct
+ or Willie Baronet\n\nPrice: Not supplied by this source\; check event deta
+ ils\n\nSchedule listed: Feb 16\, 2027 · 06:15 PM EST — end time not pub
+ lished\n\nSchedule supplied by Ware / Millersville\n\nTimes converted from
+  America/New_York to UTC for calendar compatibility.\n\nNo ending time is 
+ published\; your calendar may apply its own default duration.\n\nRegistrat
+ ion: https://artsmu.com/event/signs-of-humanity-free/the-ware-center/\n\nA
+ dding this calendar item does not register you. Check the original listing
+  for changes\; imported events do not automatically stay in sync.
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/signs-of-humanity-free/the-ware-center/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

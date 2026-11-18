@@ -1,77 +1,6 @@
 {
-  "checked_at": 1794945084.70467,
+  "checked_at": 1795029909.48148,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "152988",
-      "series": "https://calendar.lancasterlibraries.org/event/careerlink-qa-table-152988",
-      "title": "CareerLink Q&A Table",
-      "description": "Get help with your job search by visiting the CareerLink table in the library lobby every Tuesday between 10AM and 5PM. A CareerLink representative will be on site to help patrons with their career and job search n",
-      "categories": "",
-      "url": "https://calendar.lancasterlibraries.org/event/careerlink-qa-table-152988",
-      "location": "Lancaster Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794891600,
-      "end": 1794977999,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Teens",
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "154634",
-      "series": "https://calendar.lancasterlibraries.org/series/adult-coloring-program-lancaster",
-      "title": "Adult Coloring Program",
-      "description": "Get in touch with your inner child at LPL’s Adult Coloring Program 🖍 All are welcome to pop in the library for some laid-back adult coloring! Supplies will be provided including ornate coloring pages and a stress-free environment.",
-      "categories": "Arts & Crafts",
-      "url": "https://calendar.lancasterlibraries.org/event/adult-coloring-program-154634",
-      "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794934800,
-      "end": 1794945600,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Arts & Crafts"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "179803",
-      "series": "https://calendar.lancasterlibraries.org/event/yarn-circle-179803",
-      "title": "Yarn Circle",
-      "description": "Bring your knitting and crocheting to the library for a relaxed time of idea-sharing, friendly conversation, and helping one another along the way. All ages and all skill levels are invited!",
-      "categories": "Arts & Crafts, Community",
-      "url": "https://calendar.lancasterlibraries.org/event/yarn-circle-179803",
-      "location": "Strasburg-Heisler Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794891600,
-      "end": 1794977999,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Teens",
-        "Adults",
-        "Seniors",
-        "Everyone"
-      ],
-      "program_types": [
-        "Arts & Crafts",
-        "Community"
-      ],
-      "branch": "Strasburg-Heisler"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "187740",
@@ -93,30 +22,6 @@
         "Community"
       ],
       "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "165071",
-      "series": "https://calendar.lancasterlibraries.org/series/morning-mahjong-manheim-township",
-      "title": "Morning Mahjong",
-      "description": "🀄️✨Join us for a morning of strategy, skill, and socializing! 🀄️✨ Whether you are a seasoned pro or a newcomer looking to practice, come enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 10-1 in Morgan Center C. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event! This program is for adults ages +18",
-      "categories": "Community, Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/morning-mahjong-165071",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1795014000,
-      "end": 1795024800,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -2654,6 +2559,53 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "213636",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-213636",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1798065000,
+      "end": 1798073100,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "179917",
+      "series": "https://calendar.lancasterlibraries.org/series/midday-mahjong-manheim-township",
+      "title": "Midday Mahjong",
+      "description": "🀄️✨Join us for an afternoon of strategy, skill, and socializing! 🀄️✨ Can't make it to our morning session? Pull up a chair for an afternoon of Mahjong fun! Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event This program is for adults aged +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/midday-mahjong-179917",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1798135200,
+      "end": 1798146000,
+      "all_day": false,
+      "status": "CANCELLED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "187756",
       "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
       "title": "PA 211 Resource Table",
@@ -2787,6 +2739,29 @@
       ],
       "program_types": [
         "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213637",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-213637",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1798669800,
+      "end": 1798677900,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
         "Gaming"
       ],
       "branch": "Manheim Township"
@@ -2933,6 +2908,29 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "213638",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-213638",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1799274600,
+      "end": 1799282700,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "198220",
       "series": "https://calendar.lancasterlibraries.org/series/game-of-tomes-fantasy-book-club-lancaster",
       "title": "Game of Tomes Fantasy Book Club",
@@ -2953,6 +2951,30 @@
         "Book Club"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213690",
+      "series": "https://calendar.lancasterlibraries.org/series/midday-mahjong-manheim-township",
+      "title": "Midday Mahjong",
+      "description": "🀄️✨Join us for an afternoon of strategy, skill, and socializing! 🀄️✨ Can't make it to our morning or evening session? Pull up a chair for an afternoon of Mahjong fun! Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event This program is for adults aged +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/midday-mahjong-213690",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1799344800,
+      "end": 1799355600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3026,6 +3048,76 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "213761",
+      "series": "https://calendar.lancasterlibraries.org/series/mtpl-book-discussion-group-manheim-township",
+      "title": "MTPL Book Discussion Group",
+      "description": "Start your Wednesday with a side of storytelling. The MTPL Book Discussion Group meets the 2nd Wednesday of each month at 10am to explore new worlds together. It’s more than just a book club-- it’s your monthly morning retreat for thoughtful talk and local connection. We’ve got the books; we just need you! Please register for each meeting, as it allows the library to update you if there are any changes to a meeting due to weather delays, closures, or other circumstances. January 13: Age of Innocence by Edith Wharton February 10: Becoming Madam Secretary by Stephanie Dray March 10: Remarkably Bright Creatures by Shelby Van Pelt April 14: My Ántonia by Willa Cather May 12: Land by Maggie O’Farrell June 9: American Ramble by Neil King Jr. July 14: The God of the Woods by Liz Moore August 11: American Way of Killing by Malcolm Gladwell September 8: John of John by Douglas Stuart October 13: A Woman I Know by Mary Haverstick November 10: Theo of Golden by Allen Levi December 8: How to Read a Book by Monica Wood",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/mtpl-book-discussion-group-213761",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1799852400,
+      "end": 1799856000,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213580",
+      "series": "https://calendar.lancasterlibraries.org/series/morning-mahjong-manheim-township",
+      "title": "Morning Mahjong",
+      "description": "🀄️✨Join us for a morning of strategy, skill, and socializing! 🀄️✨ Whether you are a seasoned pro or a newcomer looking to practice, come enjoy the classic game of tiles in a friendly atmosphere, every Wednesday from 10-1. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event! This program is for adults ages +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/morning-mahjong-213580",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1799852400,
+      "end": 1799863200,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213639",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-213639",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1799879400,
+      "end": 1799887500,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "212145",
       "series": "https://calendar.lancasterlibraries.org/series/read-it-and-eat-a-cookbook-club-lancaster",
       "title": "Read It and Eat: A Cookbook Club",
@@ -3067,6 +3159,30 @@
         "Book Club"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213691",
+      "series": "https://calendar.lancasterlibraries.org/series/midday-mahjong-manheim-township",
+      "title": "Midday Mahjong",
+      "description": "🀄️✨Join us for an afternoon of strategy, skill, and socializing! 🀄️✨ Can't make it to our morning or evening session? Pull up a chair for an afternoon of Mahjong fun! Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event This program is for adults aged +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/midday-mahjong-213691",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1799949600,
+      "end": 1799960400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3116,6 +3232,53 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "213581",
+      "series": "https://calendar.lancasterlibraries.org/series/morning-mahjong-manheim-township",
+      "title": "Morning Mahjong",
+      "description": "🀄️✨Join us for a morning of strategy, skill, and socializing! 🀄️✨ Whether you are a seasoned pro or a newcomer looking to practice, come enjoy the classic game of tiles in a friendly atmosphere, every Wednesday from 10-1. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event! This program is for adults ages +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/morning-mahjong-213581",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1800457200,
+      "end": 1800468000,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213640",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-213640",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1800484200,
+      "end": 1800492300,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "185535",
       "series": "https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster",
       "title": "Bad Art Club",
@@ -3136,6 +3299,30 @@
         "Arts & Crafts"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213692",
+      "series": "https://calendar.lancasterlibraries.org/series/midday-mahjong-manheim-township",
+      "title": "Midday Mahjong",
+      "description": "🀄️✨Join us for an afternoon of strategy, skill, and socializing! 🀄️✨ Can't make it to our morning or evening session? Pull up a chair for an afternoon of Mahjong fun! Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event This program is for adults aged +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/midday-mahjong-213692",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1800554400,
+      "end": 1800565200,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3160,6 +3347,29 @@
         "Community"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213398",
+      "series": "https://calendar.lancasterlibraries.org/series/swoon-squad-a-romance-tbr-book-club-manheim-township",
+      "title": "Swoon Squad: A Romance TBR Book Club",
+      "description": "Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ January 25: 🕰️Historical Romance🕰️ February 22: 💍Fake Dating / Marriage of Convenience💍 March 29:⏳Second Chance Romance⏳ April 26: 💎Billionaire Romance💎 May 31: 🏡Small Town Romance🏡 June 28: ☀️Summer Fling☀️ July 26: 🐉Romantasy🐉 August 30: 💼Workplace Romance💼 September 27: 🛡️Romantic Suspense / Bodyguard🛡️ October 25: 🔮Witchy / Gothic Romance🔮 November 29: 🚫Forbidden Romance / Brother's Best Friend🚫 December 27:🎁Holiday Romance🎁",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-213398",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1800918000,
+      "end": 1800925200,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3210,6 +3420,53 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "213583",
+      "series": "https://calendar.lancasterlibraries.org/series/morning-mahjong-manheim-township",
+      "title": "Morning Mahjong",
+      "description": "🀄️✨Join us for a morning of strategy, skill, and socializing! 🀄️✨ Whether you are a seasoned pro or a newcomer looking to practice, come enjoy the classic game of tiles in a friendly atmosphere, every Wednesday from 10-1. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event! This program is for adults ages +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/morning-mahjong-213583",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1801666800,
+      "end": 1801677600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213642",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-213642",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1801693800,
+      "end": 1801701900,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "198221",
       "series": "https://calendar.lancasterlibraries.org/series/game-of-tomes-fantasy-book-club-lancaster",
       "title": "Game of Tomes Fantasy Book Club",
@@ -3230,6 +3487,30 @@
         "Book Club"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213694",
+      "series": "https://calendar.lancasterlibraries.org/series/midday-mahjong-manheim-township",
+      "title": "Midday Mahjong",
+      "description": "🀄️✨Join us for an afternoon of strategy, skill, and socializing! 🀄️✨ Can't make it to our morning or evening session? Pull up a chair for an afternoon of Mahjong fun! Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event This program is for adults aged +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/midday-mahjong-213694",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1801764000,
+      "end": 1801774800,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3274,6 +3555,53 @@
       ],
       "program_types": [
         "Book Club"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213584",
+      "series": "https://calendar.lancasterlibraries.org/series/morning-mahjong-manheim-township",
+      "title": "Morning Mahjong",
+      "description": "🀄️✨Join us for a morning of strategy, skill, and socializing! 🀄️✨ Whether you are a seasoned pro or a newcomer looking to practice, come enjoy the classic game of tiles in a friendly atmosphere, every Wednesday from 10-1. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event! This program is for adults ages +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/morning-mahjong-213584",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802271600,
+      "end": 1802282400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213643",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-213643",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802298600,
+      "end": 1802306700,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
       ],
       "branch": "Manheim Township"
     },
@@ -3346,6 +3674,30 @@
         "Book Club"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213695",
+      "series": "https://calendar.lancasterlibraries.org/series/midday-mahjong-manheim-township",
+      "title": "Midday Mahjong",
+      "description": "🀄️✨Join us for an afternoon of strategy, skill, and socializing! 🀄️✨ Can't make it to our morning or evening session? Pull up a chair for an afternoon of Mahjong fun! Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event This program is for adults aged +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/midday-mahjong-213695",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802368800,
+      "end": 1802379600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3438,6 +3790,29 @@
         "Fundraiser"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "198031",
+      "series": "https://calendar.lancasterlibraries.org/series/coterie-book-club-manheim-township",
+      "title": "Coterie Book Club",
+      "description": "Join us for engaging discussions and a shared love of reading! The Coterie Book Club gathers monthly to explore a diverse range of titles, from historical fiction to gripping true crime. Whether you’re a lifelong reader or looking to get back into the habit, all are welcome. Coterie Book Club meets the third Tuesday of each month from 1-2pm Registration is encouraged September: Daughter of Egypt by Marie Benedict October: The Lion Women of Tehran by Marjan Kamali November: An American Girl by Richard Fellinger January: Theo of Golden by Allen Levi February: The Measure by Nikki Erlick March: The Correspondent by Virginia Evans April: The Beast in the Clouds by Nathalia Holt May: The Lies They Told by Ellen Marie Wiseman",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/coterie-book-club-198031",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802800800,
+      "end": 1802804400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Manheim Township"
     }
   ]
 }

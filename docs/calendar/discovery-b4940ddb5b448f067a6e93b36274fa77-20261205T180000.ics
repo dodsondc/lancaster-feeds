@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-b4940ddb5b448f067a6e93b36274fa77-20261205T180000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261118T192509Z
+LAST-MODIFIED:20261118T192509Z
+SEQUENCE:0
+DTSTART:20261205T180000Z
+DTEND:20261205T190000Z
+SUMMARY:Gallery Talk - John David Wissler: I Often Find Myself There
+DESCRIPTION:Join us for a gallery talk with Joyce Heberlein\, Bill Kocher\,
+  Michael Allen\, and Jay Noble to learn more about the works on view in Jo
+ hn David Wissler: I Often Find Myself There.\n\nPrice: Not supplied by thi
+ s source\; check event details\n\nSchedule listed: Dec 05\, 2026 · 01:00 
+ PM EST – 02:00 PM EST\n\nSchedule supplied by Demuth Museum\n\nTimes con
+ verted from America/New_York to UTC for calendar compatibility.\n\n\n\nReg
+ istration: https://www.demuth.org/events/gallery-talk-wissler\n\nAdding th
+ is calendar item does not register you. Check the original listing for cha
+ nges\; imported events do not automatically stay in sync.
+LOCATION:Demuth on Lime | 135 North Lime Street\, 135 North Lime Street\, L
+ ancaster\, PA\, 17602
+URL:https://www.demuth.org/events/gallery-talk-wissler
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

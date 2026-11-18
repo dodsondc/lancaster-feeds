@@ -1,5 +1,5 @@
 {
-  "checked_at": 1794945084.70467,
+  "checked_at": 1795029909.48148,
   "events": [
     {
       "source": "Visit Lancaster City",
@@ -13,36 +13,6 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1794009600,
       "end": 1795383000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1116/29915910/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1116",
-      "title": "Midlife Cafe",
-      "description": "Join facilitator Dawn Lagunas on Tuesday, November 17th 5:30pm - 7pm for a meeting of Midlife Cafe at Pocket Books- a supportive community for people in perimenopause/menopause to share, learn and flourish (no age cap but 40-60 generally). This event is free but RSVPs are required as space is limited. November's topic of discussion will be: Perimenopause/Menopause Myths & Realities",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1116/1794954600000",
-      "location": "Pocket Books Shop, 903 Wheatland Avenue, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794954600,
-      "end": 1794960000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1080/29916000/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1080",
-      "title": "Disposable Humanity",
-      "description": "Join us at the Ware Center for a free screening of the film Disposable Humanity—plus a community discussion panel and a Q&A with the filmmakers. The Mitchell family—esteemed Disability Studies scholars and filmmakers—delve into the chilling legacy of the Nazi Aktion T4 program. This investigative documentary recounts the long-obscured history of how over 300,000 disabled individuals became the initial victims of the Third Reich. Targeted by the T4 program as having a “life unworthy of living,” their murders laid the groundwork for the Holocaust that followed. 6:15 PM • Pre-show community panel discussion Post-show • Q&A with director Cameron S. Mitchell Co-presented by the MU Disability Film Festival and Congregation Shaarai Shomayim.",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1080/1794960000000",
-      "location": "Ware Center for the Arts, 42 North Prince Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1794960000,
-      "end": 1794970800,
       "all_day": false,
       "status": "CONFIRMED"
     },
