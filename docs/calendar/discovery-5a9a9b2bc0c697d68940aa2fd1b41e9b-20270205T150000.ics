@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-5a9a9b2bc0c697d68940aa2fd1b41e9b-20270205T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261119T194031Z
+LAST-MODIFIED:20261119T194031Z
+SEQUENCE:3
+DTSTART:20270205T150000Z
+DTEND:20270205T170000Z
+SUMMARY:Common Thread Crafting Club
+DESCRIPTION:Unravel your creativity and connect at Common Thread Crafting C
+ lub! Whether you’re a master of the needles or just starting your first 
+ row\, join our bimonthly gathering for all things crafty. From knitting an
+ d crochet to felting and cross-stitch\, bring your current project and enj
+ oy an afternoon of shared patterns\, helpful tips\, and great conversation
+ . No matter your craft\, we’re all tied together by a love for making. D
+ rop in anytime\, registration is not required!\n\nPrice: Not supplied by t
+ his calendar\; check event details\n\nSchedule listed: Feb 05\, 2027 · 10
+ :00 AM EST – 12:00 PM EST\n\nSchedule supplied by Lancaster Libraries\n\
+ nTimes converted from America/New_York to UTC for calendar compatibility.\
+ n\n\n\nRegistration: https://calendar.lancasterlibraries.org/event/common-
+ thread-crafting-club-213967\n\nAdding this calendar item does not register
+  you. Check the original listing for changes\; imported events do not auto
+ matically stay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center A\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/common-thread-crafting-cl
+ ub-213967
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

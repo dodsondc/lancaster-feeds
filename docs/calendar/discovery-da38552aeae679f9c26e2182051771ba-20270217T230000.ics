@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-da38552aeae679f9c26e2182051771ba-20270217T230000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261119T194031Z
+LAST-MODIFIED:20261119T194031Z
+SEQUENCE:3
+DTSTART:20270217T230000Z
+DTEND:20270218T010000Z
+SUMMARY:Bad Art Club
+DESCRIPTION:Give yourself permission to play\, make mistakes\, have fun\, a
+ nd just make bad art. Whether you’re a seasoned creative struggling with
+  art block or an arts enthusiast who's never picked up a pencil\, Bad Art 
+ Club encourages you to release your fears\, doubts and/or perfectionistic 
+ tendencies. THANK YOU for registering -- it will help us determine how man
+ y supplies we need! · Ages 18+ Monthly Projects: January: Vision Bingo Ca
+ rds\n\nPrice: Free\n\nSchedule listed: Feb 17\, 2027 · 06:00 PM EST – 0
+ 8:00 PM EST\n\nSchedule supplied by Lancaster Libraries\n\nTimes converted
+  from America/New_York to UTC for calendar compatibility.\n\n\n\nRegistrat
+ ion: https://calendar.lancasterlibraries.org/event/bad-art-club-185536\n\n
+ Adding this calendar item does not register you. Check the original listin
+ g for changes\; imported events do not automatically stay in sync.
+LOCATION:Lancaster Library\, LPL Community Room\, 151 North Queen Street\, 
+ Lancaster\, PA\, 17603
+URL:https://calendar.lancasterlibraries.org/event/bad-art-club-185536
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

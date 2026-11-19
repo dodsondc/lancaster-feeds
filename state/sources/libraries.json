@@ -1,143 +1,6 @@
 {
-  "checked_at": 1795029909.48148,
+  "checked_at": 1795117231.91592,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "187740",
-      "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
-      "title": "PA 211 Resource Table",
-      "description": "PA 211 staff will provide easily accessible walk-up assistance in the library's front lobby. Assistance includes information and referrals for a broad range of services: childcare, after-school programs, food banks, elder care, basic needs, health services, and more. PA 211 staff can also provide housing and homelessness intake screenings for residents of Berks and Lancaster counties. Monday, Wednesday, Thursday: 9am-5pm First Thursday: 9am-3:30pm",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/pa-211-resource-table-187740",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795010400,
-      "end": 1795039200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "165131",
-      "series": "https://calendar.lancasterlibraries.org/series/tabletop-rpgs-for-adults-manheim-township",
-      "title": "Tabletop RPGs for Adults",
-      "description": "Join local GM Matt as he runs a variety of Tabletop Role Playing Games that rotate each month. No experience in any system is required and anyone interested in dipping their toes into the TTRPG world are welcomed and encouraged to join in on the fun! This month's game is Mothership! An Anti-Corporate Suicide Run The stars were a dream for us all - unlimited freedom in every direction imaginable. What we got instead was a corporate hellscape expanding exponentially, forever. Now it comes for the Dream. Prospero’s Dream is a space station of enormous scale. Once owned by corporate interests and now ferociously independent, it is not a nice place to live, but those that live there are free from the corporate yoke. At least they were. First welcomed as a partner in stability and profit within Prospero’s Dream, METAStatic, Inc. has spread and festered, bloating within every crack it can find in the station. They promised to stabilize the station’s O2 shortage. Instead, they found an unlimited labor source in The Choke, taking debtors on their last legs and turning them into debt slaves. The station is being flooded with pro-corporate propaganda and the presence of MSI’s private military force, the Peacemakers, is an ever more common sight. Execs walk around in premium sleeves while people beg for a handful of credits to fill their O2 credsticks. All that power, all that entitlement, all focused in a single corporate megabuilding at the heart of the dream. You are the lit match and this tower is the tinder. Burn it all down. Give the Dream a fresh start. Even if you're not there to see it. Registration is required. This group is for adults only.",
-      "categories": "Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/tabletop-rpgs-adults-165131",
-      "location": "Manheim Township Library, MTP Study Room #119, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1795039200,
-      "end": 1795050000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults"
-      ],
-      "program_types": [
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "210029",
-      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
-      "title": "Mahjong After Dark",
-      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
-      "categories": "Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-210029",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1795041000,
-      "end": 1795049100,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "153032",
-      "series": "https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster",
-      "title": "Bad Art Club",
-      "description": "Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards",
-      "categories": "Arts & Crafts",
-      "url": "https://calendar.lancasterlibraries.org/event/bad-art-club-153032",
-      "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Free",
-      "start": 1795042800,
-      "end": 1795050000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Arts & Crafts"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "157247",
-      "series": "https://calendar.lancasterlibraries.org/series/toastmasters-international-manheim-township",
-      "title": "Toastmasters International",
-      "description": "Afraid of public speaking? Looking to improve your communication skills at work? Come join us as we improve our speaking and leadership skills in a friendly, supportive environment! The Conestoga Toastmasters Club meets the first, third, and fifth Wednesday of each month from 6:30 p.m. to 7:45 p.m. New members and guests are always welcome to observe or participate.",
-      "categories": "Business & Career, Discussion",
-      "url": "https://calendar.lancasterlibraries.org/event/toastmasters-international-157247",
-      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1795044600,
-      "end": 1795049100,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Business & Career",
-        "Discussion"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "209432",
-      "series": "https://calendar.lancasterlibraries.org/series/game-day-reads-face-off-by-chelsea-curto-manheim-township",
-      "title": "Game Day Reads: Face Off by Chelsea Curto",
-      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. This November, we’re kicking off the DC Stars series with Face Off by Chelsea Curto. A historic female NHL rookie and the team's hopeless golden-retriever captain agree to keep their fierce chemistry behind closed doors-- an arrangement that immediately backfires when feelings get involved. He falls first, loses his mind over her, and becomes utterly obsessed while she tries to keep her \"black cat\" walls up. It is pure high-spice hockey fluff with zero third-act breakup nonsense! Grab a copy, jump into the lineup, and join us for the discussion! Copies are available for checkout digitally on Hoopla!",
-      "categories": "Book Club",
-      "url": "https://calendar.lancasterlibraries.org/event/game-day-reads-face-chelsea-curto-209432",
-      "location": "Manheim Township Library, MTP Lapp Story Silo, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1795044600,
-      "end": 1795050000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Book Club"
-      ],
-      "branch": "Manheim Township"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "187741",
@@ -154,28 +17,6 @@
       "status": "CONFIRMED",
       "age_groups": [
         "Everyone"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "148311",
-      "series": "https://calendar.lancasterlibraries.org/series/domestic-violence-services-q-a-table-lancaster",
-      "title": "Domestic Violence Services Q&A Table",
-      "description": "If you are a victim of domestic violence, hope and help is out there! Talk to Domestic Violence Services team members from Community Action Partnership to learn about the resources they offer, including crisis intervention, safety planning, safe housing options, and other forms of support.",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/domestic-violence-services-qa-table-148311",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795100400,
-      "end": 1795111200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults"
       ],
       "program_types": [
         "Community"
@@ -2164,6 +2005,29 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "213802",
+      "series": "https://calendar.lancasterlibraries.org/series/game-day-reads-sports-romance-book-club-manheim-township",
+      "title": "Game Day Reads: Sports Romance Book Club",
+      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. Book list TBD",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/game-day-reads-sports-romance-book-club-213802",
+      "location": "Manheim Township Library, MTP Lapp Story Silo, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1797463800,
+      "end": 1797469200,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "187752",
       "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
       "title": "PA 211 Resource Table",
@@ -2838,6 +2702,29 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "213964",
+      "series": "https://calendar.lancasterlibraries.org/series/common-thread-crafting-club-manheim-township",
+      "title": "Common Thread Crafting Club",
+      "description": "Unravel your creativity and connect at Common Thread Crafting Club! Whether you’re a master of the needles or just starting your first row, join our bimonthly gathering for all things crafty. From knitting and crochet to felting and cross-stitch, bring your current project and enjoy an afternoon of shared patterns, helpful tips, and great conversation. No matter your craft, we’re all tied together by a love for making. Drop in anytime, registration is not required!",
+      "categories": "Arts & Crafts",
+      "url": "https://calendar.lancasterlibraries.org/event/common-thread-crafting-club-213964",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1799074800,
+      "end": 1799082000,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Arts & Crafts"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "206535",
       "series": "https://calendar.lancasterlibraries.org/series/penn-medicine-blood-drive-manheim-township",
       "title": "Penn Medicine Blood Drive",
@@ -3048,12 +2935,35 @@
     },
     {
       "source": "Lancaster Libraries",
-      "source_id": "213761",
+      "source_id": "213787",
+      "series": "https://calendar.lancasterlibraries.org/series/mystery-book-club-manheim-township",
+      "title": "Mystery Book Club",
+      "description": "Love a good whodunit? Whether you’re a fan of gritty noir, cozy mysteries, or psychological thrillers, the Mystery Book Club is looking for new investigators to join our ranks for the 2027 season. Join us on the 2nd Monday of each month at 7pm as we dive into a new page-turner, dissect the clues, and see if anyone managed to crack the case before the final chapter. It’s a year of suspense, great conversation, and maybe a few red herrings along the way. Registration is encouraged January 11 - State of Terror by Hillary Rodham Clinton and Louise Penny Rest of book list TBD",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/mystery-book-club-213787",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1799712000,
+      "end": 1799715600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213769",
       "series": "https://calendar.lancasterlibraries.org/series/mtpl-book-discussion-group-manheim-township",
       "title": "MTPL Book Discussion Group",
-      "description": "Start your Wednesday with a side of storytelling. The MTPL Book Discussion Group meets the 2nd Wednesday of each month at 10am to explore new worlds together. It’s more than just a book club-- it’s your monthly morning retreat for thoughtful talk and local connection. We’ve got the books; we just need you! Please register for each meeting, as it allows the library to update you if there are any changes to a meeting due to weather delays, closures, or other circumstances. January 13: Age of Innocence by Edith Wharton February 10: Becoming Madam Secretary by Stephanie Dray March 10: Remarkably Bright Creatures by Shelby Van Pelt April 14: My Ántonia by Willa Cather May 12: Land by Maggie O’Farrell June 9: American Ramble by Neil King Jr. July 14: The God of the Woods by Liz Moore August 11: American Way of Killing by Malcolm Gladwell September 8: John of John by Douglas Stuart October 13: A Woman I Know by Mary Haverstick November 10: Theo of Golden by Allen Levi December 8: How to Read a Book by Monica Wood",
+      "description": "Start your Wednesday with a side of storytelling. The MTPL Book Discussion Group meets the 2nd Wednesday of each month at 10am to explore new worlds together. It’s more than just a book club-- it’s your monthly morning retreat for thoughtful talk and local connection! Please register for each meeting, as it allows the library to update you if there are any changes to a meeting due to weather delays, closures, or other circumstances. January 13: Age of Innocence by Edith Wharton February 10: Becoming Madam Secretary by Stephanie Dray March 10: Remarkably Bright Creatures by Shelby Van Pelt April 14: My Ántonia by Willa Cather May 12: Land by Maggie O’Farrell June 9: American Ramble by Neil King Jr. July 14: The God of the Woods by Liz Moore August 11: American Way of Killing by Malcolm Gladwell September 8: John of John by Douglas Stuart October 13: A Woman I Know by Mary Haverstick November 10: Theo of Golden by Allen Levi December 8: How to Read a Book by Monica Wood",
       "categories": "Book Club",
-      "url": "https://calendar.lancasterlibraries.org/event/mtpl-book-discussion-group-213761",
+      "url": "https://calendar.lancasterlibraries.org/event/mtpl-book-discussion-group-213769",
       "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
       "price": "Free",
       "start": 1799852400,
@@ -3209,6 +3119,29 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "213965",
+      "series": "https://calendar.lancasterlibraries.org/series/common-thread-crafting-club-manheim-township",
+      "title": "Common Thread Crafting Club",
+      "description": "Unravel your creativity and connect at Common Thread Crafting Club! Whether you’re a master of the needles or just starting your first row, join our bimonthly gathering for all things crafty. From knitting and crochet to felting and cross-stitch, bring your current project and enjoy an afternoon of shared patterns, helpful tips, and great conversation. No matter your craft, we’re all tied together by a love for making. Drop in anytime, registration is not required!",
+      "categories": "Arts & Crafts",
+      "url": "https://calendar.lancasterlibraries.org/event/common-thread-crafting-club-213965",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1800025200,
+      "end": 1800032400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Arts & Crafts"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "198030",
       "series": "https://calendar.lancasterlibraries.org/series/coterie-book-club-manheim-township",
       "title": "Coterie Book Club",
@@ -3250,6 +3183,29 @@
       ],
       "program_types": [
         "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213910",
+      "series": "https://calendar.lancasterlibraries.org/series/tabletop-rpgs-for-adults-manheim-township",
+      "title": "Tabletop RPGs (for Adults)",
+      "description": "Join local GM Matt as he runs a variety of Tabletop Role Playing Games that rotate each month. No experience in any system is required and anyone interested in dipping their toes into the TTRPG world are welcomed and encouraged to join in on the fun! Registration is required. This group is for adults (18+) only.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/tabletop-rpgs-adults-213910",
+      "location": "Manheim Township Library, MTP Study Room #119, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1800482400,
+      "end": 1800493200,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
         "Gaming"
       ],
       "branch": "Manheim Township"
@@ -3299,6 +3255,29 @@
         "Arts & Crafts"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213803",
+      "series": "https://calendar.lancasterlibraries.org/series/game-day-reads-sports-romance-book-club-manheim-township",
+      "title": "Game Day Reads: Sports Romance Book Club",
+      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. Book list TBD",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/game-day-reads-sports-romance-book-club-213803",
+      "location": "Manheim Township Library, MTP Lapp Story Silo, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1800487800,
+      "end": 1800493200,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3394,6 +3373,29 @@
         "Community"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213966",
+      "series": "https://calendar.lancasterlibraries.org/series/common-thread-crafting-club-manheim-township",
+      "title": "Common Thread Crafting Club",
+      "description": "Unravel your creativity and connect at Common Thread Crafting Club! Whether you’re a master of the needles or just starting your first row, join our bimonthly gathering for all things crafty. From knitting and crochet to felting and cross-stitch, bring your current project and enjoy an afternoon of shared patterns, helpful tips, and great conversation. No matter your craft, we’re all tied together by a love for making. Drop in anytime, registration is not required!",
+      "categories": "Arts & Crafts",
+      "url": "https://calendar.lancasterlibraries.org/event/common-thread-crafting-club-213966",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1801234800,
+      "end": 1801242000,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Arts & Crafts"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3537,12 +3539,58 @@
     },
     {
       "source": "Lancaster Libraries",
-      "source_id": "213183",
+      "source_id": "213967",
+      "series": "https://calendar.lancasterlibraries.org/series/common-thread-crafting-club-manheim-township",
+      "title": "Common Thread Crafting Club",
+      "description": "Unravel your creativity and connect at Common Thread Crafting Club! Whether you’re a master of the needles or just starting your first row, join our bimonthly gathering for all things crafty. From knitting and crochet to felting and cross-stitch, bring your current project and enjoy an afternoon of shared patterns, helpful tips, and great conversation. No matter your craft, we’re all tied together by a love for making. Drop in anytime, registration is not required!",
+      "categories": "Arts & Crafts",
+      "url": "https://calendar.lancasterlibraries.org/event/common-thread-crafting-club-213967",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1801839600,
+      "end": 1801846800,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Arts & Crafts"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213788",
+      "series": "https://calendar.lancasterlibraries.org/series/mystery-book-club-manheim-township",
+      "title": "Mystery Book Club",
+      "description": "Love a good whodunit? Whether you’re a fan of gritty noir, cozy mysteries, or psychological thrillers, the Mystery Book Club is looking for new investigators to join our ranks for the 2027 season. Join us on the 2nd Monday of each month at 7pm as we dive into a new page-turner, dissect the clues, and see if anyone managed to crack the case before the final chapter. It’s a year of suspense, great conversation, and maybe a few red herrings along the way. Registration is encouraged January 11 - State of Terror by Hillary Rodham Clinton and Louise Penny Rest of book list TBD",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/mystery-book-club-213788",
+      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802131200,
+      "end": 1802134800,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213770",
       "series": "https://calendar.lancasterlibraries.org/series/mtpl-book-discussion-group-manheim-township",
       "title": "MTPL Book Discussion Group",
-      "description": "Start your Wednesday with a side of storytelling. The MTPL Book Discussion Group meets the 2nd Wednesday of each month at 10am to explore new worlds together. It’s more than just a book club-- it’s your monthly morning retreat for thoughtful talk and local connection. We’ve got the books; we just need you! Please register for each meeting, as it allows the library to update you if there are any changes to a meeting due to weather delays, closures, or other circumstances. January 13: Age of Innocence by Edith Wharton February 10: Becoming Madam Secretary by Stephanie Dray March 10: Remarkably Bright Creatures by Shelby Van Pelt April 14: My Ántonia by Willa Cather May 12: Land by Maggie O’Farrell June 9: American Ramble by Neil King Jr. July 14: The God of the Woods by Liz Moore August 11: American Way of Killing by Malcolm Gladwell September 8: John of John by Douglas Stuart October 13: A Woman I Know by Mary Haverstick November 10: Theo of Golden by Allen Levi December 8: How to Read a Book by Monica Wood",
+      "description": "Start your Wednesday with a side of storytelling. The MTPL Book Discussion Group meets the 2nd Wednesday of each month at 10am to explore new worlds together. It’s more than just a book club-- it’s your monthly morning retreat for thoughtful talk and local connection! Please register for each meeting, as it allows the library to update you if there are any changes to a meeting due to weather delays, closures, or other circumstances. January 13: Age of Innocence by Edith Wharton February 10: Becoming Madam Secretary by Stephanie Dray March 10: Remarkably Bright Creatures by Shelby Van Pelt April 14: My Ántonia by Willa Cather May 12: Land by Maggie O’Farrell June 9: American Ramble by Neil King Jr. July 14: The God of the Woods by Liz Moore August 11: American Way of Killing by Malcolm Gladwell September 8: John of John by Douglas Stuart October 13: A Woman I Know by Mary Haverstick November 10: Theo of Golden by Allen Levi December 8: How to Read a Book by Monica Wood",
       "categories": "Book Club",
-      "url": "https://calendar.lancasterlibraries.org/event/mtpl-book-discussion-group-213183",
+      "url": "https://calendar.lancasterlibraries.org/event/mtpl-book-discussion-group-213770",
       "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
       "price": "Free",
       "start": 1802271600,
@@ -3803,6 +3851,122 @@
       "price": "Free",
       "start": 1802800800,
       "end": 1802804400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Book Club"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213585",
+      "series": "https://calendar.lancasterlibraries.org/series/morning-mahjong-manheim-township",
+      "title": "Morning Mahjong",
+      "description": "🀄️✨Join us for a morning of strategy, skill, and socializing! 🀄️✨ Whether you are a seasoned pro or a newcomer looking to practice, come enjoy the classic game of tiles in a friendly atmosphere, every Wednesday from 10-1. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event! This program is for adults ages +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/morning-mahjong-213585",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802876400,
+      "end": 1802887200,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213911",
+      "series": "https://calendar.lancasterlibraries.org/series/tabletop-rpgs-for-adults-manheim-township",
+      "title": "Tabletop RPGs (for Adults)",
+      "description": "Join local GM Matt as he runs a variety of Tabletop Role Playing Games that rotate each month. No experience in any system is required and anyone interested in dipping their toes into the TTRPG world are welcomed and encouraged to join in on the fun! Registration is required. This group is for adults (18+) only.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/tabletop-rpgs-adults-213911",
+      "location": "Manheim Township Library, MTP Study Room #119, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802901600,
+      "end": 1802912400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213644",
+      "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+      "title": "Mahjong After Dark",
+      "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+      "categories": "Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-213644",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802903400,
+      "end": 1802911500,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "185536",
+      "series": "https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster",
+      "title": "Bad Art Club",
+      "description": "Give yourself permission to play, make mistakes, have fun, and just make bad art. Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil, Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: Vision Bingo Cards",
+      "categories": "Arts & Crafts",
+      "url": "https://calendar.lancasterlibraries.org/event/bad-art-club-185536",
+      "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
+      "price": "Free",
+      "start": 1802905200,
+      "end": 1802912400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Arts & Crafts"
+      ],
+      "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213804",
+      "series": "https://calendar.lancasterlibraries.org/series/game-day-reads-sports-romance-book-club-manheim-township",
+      "title": "Game Day Reads: Sports Romance Book Club",
+      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. Book list TBD",
+      "categories": "Book Club",
+      "url": "https://calendar.lancasterlibraries.org/event/game-day-reads-sports-romance-book-club-213804",
+      "location": "Manheim Township Library, MTP Lapp Story Silo, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802907000,
+      "end": 1802912400,
       "all_day": false,
       "status": "CONFIRMED",
       "age_groups": [

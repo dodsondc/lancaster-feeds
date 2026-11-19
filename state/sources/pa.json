@@ -1,21 +1,6 @@
 {
-  "checked_at": 1795029909.48148,
+  "checked_at": 1795117231.91592,
   "events": [
-    {
-      "source": "LancasterPA",
-      "source_id": "10054018",
-      "series": "https://lancasterpa.com/events-calendar/christmas-in-perfect-harmony-joy-has-come-at-the-barn-at-paradise-station/",
-      "title": "Christmas in Perfect Harmony: Joy Has Come! at The Barn at Paradise Station",
-      "description": "All new for 2026! This original concert experience is sure to be an unforgettable part of your holiday season and become a new tradition! Half-part musical theater nostalgia, half-part worship concert, Perfect Harmony sings stunning original arrangements of favorite holiday classics in (of course) three-part PERFECT HARMONY. Complete with beautiful costumes, theatrical sets, lighting, sound, and a live band, this fully immersive experience will have you feeling the true Spirit of the Season! Playing at The Barn at Paradise Station in Lancaster County, PA, select dates November 11-December 30, 2026 and to select touring locations. Run time is approximately 1 hour and 45 minutes with one 15 minute intermission. Hot chocolate and light concessions, as well as Perfect Harmony merchandise will be available for sale during the performance. ​The Barn at Paradise Station is fully climate-controlled, ADA with elevator available and restrooms. Ample bus parking. Special group pricing available. Call to inquire. Come Explore Our Lancaster Theaters and the Arts Live Theater Live Entertainment Live Music Dinner Theaters Murder Mysteries Things To Do Artisan Collectives Art Galleries Events Calendar",
-      "categories": "Children & Family Events, Christmas Events in Lancaster County, Christmas Shows in Lancaster PA, Entertainment, Holiday, Live Music, Musical Events, Paradise, Strasburg, PA, Thanksgiving, Theatrical Events, Winter",
-      "url": "https://lancasterpa.com/events-calendar/christmas-in-perfect-harmony-joy-has-come-at-the-barn-at-paradise-station/2026-11-18/",
-      "location": "The Barn at Paradise Station, 312 Paradise Lane, Ronks, PA, 17572",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795048200,
-      "end": 1795055400,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
     {
       "source": "LancasterPA",
       "source_id": "10045317",
@@ -23088,6 +23073,21 @@
     },
     {
       "source": "LancasterPA",
+      "source_id": "10056488",
+      "series": "https://lancasterpa.com/events-calendar/lancaster-city-scavenger-hunt/",
+      "title": "Lancaster City Scavenger Hunt",
+      "description": "The Ultimate Lancaster Scavenger Hunt – Adventure, History & Hidden Gems! This is the best way to explore Lancaster City – hands down! Grab your friends or family, join our app, and get ready for a really fun time. The start time of this event is between 12:00 PM and 1:15 pm. You can complete all 3 hours of hands-on activities or stop whenever you are ready. The longer you stay in the game, the more freebies and local treats you earn from small businesses in downtown. Children under 6 years old are free with an adult ticket",
+      "categories": "Children & Family Events, Lancaster City, Tour",
+      "url": "https://lancasterpa.com/events-calendar/lancaster-city-scavenger-hunt/2028-11-18/",
+      "location": "Unique Lancaster, 23 N Walnut Street, Lancaster, 17603",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1858136400,
+      "end": 1858222799,
+      "all_day": true,
+      "status": "CONFIRMED"
+    },
+    {
+      "source": "LancasterPA",
       "source_id": "10051904",
       "series": "https://lancasterpa.com/events-calendar/night-before-christmas-strasburg-rail-road/",
       "title": "Night Before Christmas at Strasburg Rail Road",
@@ -27198,6 +27198,21 @@
     },
     {
       "source": "LancasterPA",
+      "source_id": "10052178",
+      "series": "https://lancasterpa.com/events-calendar/night-before-christmas-strasburg-rail-road/",
+      "title": "Night Before Christmas at Strasburg Rail Road",
+      "description": "Join us at Strasburg Rail Road for a cozy evening tradition that has been around for almost 15 years and is certain to become a yearly ritual for your family as well! Our Night Before Christmas trains will put you in the holiday spirit as our talented cast recites the classic poem by Clement Clarke Moore as well as other festive Christmas stories. Your family will also be regaled by a troupe of carolers singing and dancing to a medley of your favorite Christmas carols. But the night would not be complete without the timeless combination of milk and cookies and perhaps even a glimpse of Santa Claus himself hurriedly preparing for his most important night of the year! You definitely don’t want to miss out on experiencing this special holiday train ride, so book your tickets now! What to expect upon arrival: Be sure to arrive at least 30 minutes early, as the train will begin boarding 15 minutes before departure. You can check in at our station box office between platforms 3 & 4. All aboard!",
+      "categories": "Children & Family Events, Christmas Events in Lancaster County, Railroad, Strasburg, PA",
+      "url": "https://lancasterpa.com/events-calendar/night-before-christmas-strasburg-rail-road/2028-11-18/",
+      "location": "Strasburg Rail Road, 301 Gap Road, Ronks, PA, 17572",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1858203000,
+      "end": 1858212000,
+      "all_day": false,
+      "status": "CONFIRMED"
+    },
+    {
+      "source": "LancasterPA",
       "source_id": "10052663",
       "series": "https://lancasterpa.com/events-calendar/amish-butter-churning-old-windmill-farm/",
       "title": "Amish Butter Churning at Old Windmill Farm",
@@ -28558,6 +28573,21 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1857531600,
       "end": 1857617999,
+      "all_day": true,
+      "status": "CONFIRMED"
+    },
+    {
+      "source": "LancasterPA",
+      "source_id": "10052754",
+      "series": "https://lancasterpa.com/events-calendar/amish-butter-churning-old-windmill-farm/",
+      "title": "Amish Butter Churning at Old Windmill Farm",
+      "description": "Free for children 4 & under – half-pound of butter per person to take home Churn butter by hand the way our family has for generations – then take home a half-pound of your own to enjoy. Hand-churn fresh butter A generations-old tradition Take home ½ lb per person Fun for all ages Book This Tour",
+      "categories": "Amish, Autumn, Children & Family Events, Classes, Fun on the Farm, Outdoor Activities, Spring, Strasburg, PA, Summer, Tour, Winter",
+      "url": "https://lancasterpa.com/events-calendar/amish-butter-churning-old-windmill-farm/2028-11-18/",
+      "location": "Old Windmill Farm, 262 Paradise Lane, Ronks, PA, 17572",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1858136400,
+      "end": 1858222799,
       "all_day": true,
       "status": "CONFIRMED"
     },
@@ -30119,6 +30149,21 @@
       "start": 1858050000,
       "end": 1858136399,
       "all_day": true,
+      "status": "CONFIRMED"
+    },
+    {
+      "source": "LancasterPA",
+      "source_id": "10054018",
+      "series": "https://lancasterpa.com/events-calendar/christmas-in-perfect-harmony-joy-has-come-at-the-barn-at-paradise-station/",
+      "title": "Christmas in Perfect Harmony: Joy Has Come! at The Barn at Paradise Station",
+      "description": "All new for 2026! This original concert experience is sure to be an unforgettable part of your holiday season and become a new tradition! Half-part musical theater nostalgia, half-part worship concert, Perfect Harmony sings stunning original arrangements of favorite holiday classics in (of course) three-part PERFECT HARMONY. Complete with beautiful costumes, theatrical sets, lighting, sound, and a live band, this fully immersive experience will have you feeling the true Spirit of the Season! Playing at The Barn at Paradise Station in Lancaster County, PA, select dates November 11-December 30, 2026 and to select touring locations. Run time is approximately 1 hour and 45 minutes with one 15 minute intermission. Hot chocolate and light concessions, as well as Perfect Harmony merchandise will be available for sale during the performance. ​The Barn at Paradise Station is fully climate-controlled, ADA with elevator available and restrooms. Ample bus parking. Special group pricing available. Call to inquire. Come Explore Our Lancaster Theaters and the Arts Live Theater Live Entertainment Live Music Dinner Theaters Murder Mysteries Things To Do Artisan Collectives Art Galleries Events Calendar",
+      "categories": "Children & Family Events, Christmas Events in Lancaster County, Christmas Shows in Lancaster PA, Entertainment, Holiday, Live Music, Musical Events, Paradise, Strasburg, PA, Thanksgiving, Theatrical Events, Winter",
+      "url": "https://lancasterpa.com/events-calendar/christmas-in-perfect-harmony-joy-has-come-at-the-barn-at-paradise-station/2026-11-18/",
+      "location": "The Barn at Paradise Station, 312 Paradise Lane, Ronks, PA, 17572",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1795048200,
+      "end": 1795055400,
+      "all_day": false,
       "status": "CONFIRMED"
     }
   ]
