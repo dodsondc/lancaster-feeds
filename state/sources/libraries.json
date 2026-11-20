@@ -1,198 +1,6 @@
 {
-  "checked_at": 1795117231.91592,
+  "checked_at": 1795202391.94398,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "187741",
-      "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
-      "title": "PA 211 Resource Table",
-      "description": "PA 211 staff will provide easily accessible walk-up assistance in the library's front lobby. Assistance includes information and referrals for a broad range of services: childcare, after-school programs, food banks, elder care, basic needs, health services, and more. PA 211 staff can also provide housing and homelessness intake screenings for residents of Berks and Lancaster counties. Monday, Wednesday, Thursday: 9am-5pm First Thursday: 9am-3:30pm",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/pa-211-resource-table-187741",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795096800,
-      "end": 1795125600,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "158312",
-      "series": "https://calendar.lancasterlibraries.org/series/medicare-review-with-office-of-aging-pa-medi-manheim-township",
-      "title": "Medicare Review with Office of Aging PA-MEDI",
-      "description": "Understanding Medicare can be difficult. PA-MEDI is here to help! We provide free, unbiased help to Medicare beneficiaries in Pennsylvania. We can assist individuals with: Eligibility & Enrollment Notices of Cost Original Medicare Medigap Medicare Advantage Prescription Drug (Part D) Benefits Switching & Comparing Plans Appeals Medicare Savings Programs Please call 717-299-7979 to set up an appointment. We will meet with you individually & confidentially to go over your Medicare questions.",
-      "categories": "Community, Health & Wellness",
-      "url": "https://calendar.lancasterlibraries.org/event/medicare-review-office-aging-pa-medi-158312",
-      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795100400,
-      "end": 1795122000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Health & Wellness"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "179912",
-      "series": "https://calendar.lancasterlibraries.org/series/midday-mahjong-manheim-township",
-      "title": "Midday Mahjong",
-      "description": "🀄️✨Join us for an afternoon of strategy, skill, and socializing! 🀄️✨ Can't make it to our morning session? Pull up a chair for an afternoon of Mahjong fun! Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event This program is for adults aged +18",
-      "categories": "Community, Gaming",
-      "url": "https://calendar.lancasterlibraries.org/event/midday-mahjong-179912",
-      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1795111200,
-      "end": 1795122000,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Gaming"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "157524",
-      "series": "https://calendar.lancasterlibraries.org/series/well-rooted-genealogy-drop-in-manheim-township",
-      "title": "Well Rooted: Genealogy Drop In",
-      "description": "Are you hitting a \"brick wall\" in your family tree research? Whether you are a seasoned researcher or just starting to wonder about your heritage, the library is here to help! Join us on the 3rd Thursday of every month at 3:00 PM for our Genealogy Drop-In Program. Our volunteers will be on hand to help you navigate databases, interpret census records, and organize your findings. If you have a specific research goal or a particularly tricky question, we encourage you to reach out to us ahead of time. Providing details in advance allows us to prepare resources specifically for your search. Send us an email at info@mtpl.info When: 3rd Thursdays at 3:00 PM Where: Morgan Center B Cost: Free and open to the public",
-      "categories": "Discussion, Presentation",
-      "url": "https://calendar.lancasterlibraries.org/event/well-rooted-genealogy-drop-157524",
-      "location": "Manheim Township Library, MTP Morgan Center B, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1795118400,
-      "end": 1795123800,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Discussion",
-        "Presentation"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "153975",
-      "series": "https://calendar.lancasterlibraries.org/event/lccl-after-school-alliance-153975",
-      "title": "LCCL After School Alliance",
-      "description": "Lancaster County Chooses Love is partnering with the Lancaster Public Library to provide a safe and supportive space for LGBTQIA+ individuals and their families during drop-in office hours. During these informal office hours, an adv",
-      "categories": "Community, Health & Wellness",
-      "url": "https://calendar.lancasterlibraries.org/event/lccl-after-school-alliance-153975",
-      "location": "Lancaster Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795064400,
-      "end": 1795150799,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Children",
-        "Tweens",
-        "Teens",
-        "Adults"
-      ],
-      "program_types": [
-        "Community",
-        "Health & Wellness"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "154298",
-      "series": "https://calendar.lancasterlibraries.org/event/miniature-paint-night-154298",
-      "title": "Miniature Paint Night",
-      "description": "Join Lancaster Public Library and Chris Medalis as he shows you the techniques for painting your favorite characters, but in 1:56 scale! Have you never heard the terms \"dry brush,\" \"layering,\" or \"glazing?\" Then this program is for you!",
-      "categories": "Arts & Crafts, Community",
-      "url": "https://calendar.lancasterlibraries.org/event/miniature-paint-night-154298",
-      "location": "Lancaster Library",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795064400,
-      "end": 1795150799,
-      "all_day": true,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Teens",
-        "Adults"
-      ],
-      "program_types": [
-        "Arts & Crafts",
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "155442",
-      "series": "https://calendar.lancasterlibraries.org/series/common-thread-crafting-club-manheim-township",
-      "title": "Common Thread Crafting Club",
-      "description": "Unravel your creativity and connect at Common Thread Crafting Club! Whether you’re a master of the needles or just starting your first row, join our bimonthly gathering for all things fiber. From knitting and crochet to felting and cross-stitch, bring your current project and enjoy an afternoon of shared patterns, helpful tips, and great conversation. No matter your craft, we’re all tied together by a love for making. Registration is not required",
-      "categories": "Arts & Crafts",
-      "url": "https://calendar.lancasterlibraries.org/event/knitting-club-155442",
-      "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795186800,
-      "end": 1795192200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Arts & Crafts"
-      ],
-      "branch": "Manheim Township"
-    },
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "173923",
-      "series": "https://calendar.lancasterlibraries.org/series/cam-jam-protect-yourself-from-fraud-financial-scams-manheim-township",
-      "title": "$CAM JAM: Protect Yourself from Fraud & Financial Scams",
-      "description": "Hosted in partnership with the Office of State Rep. Nikki Rivera, AARP Pennsylvania, and the PA Department of Banking and Securities, this interactive $CAM JAM is designed to help you safeguard your money and identity. As scammers become more technologically savvy, staying educated is the best way to protect yourself and your loved ones from financial fraud and abuse. What to Expect Expert Presentation: Learn practical tips from the PA Department of Banking on how to spot and avoid common scams. Fraud BINGO: Play a fun, interactive game of Fraud BINGO for a chance to win prizes! Light Refreshments: Complimentary snacks and drinks will be served. Registration Required Space is limited! Register today to reserve your seat! For more information, please contact the Office of State Rep. Nikki Rivera at: 📞 Phone: 717-295-3157 📧 Email: RepRivera@pahouse.net",
-      "categories": "Community, Finance, Presentation",
-      "url": "https://calendar.lancasterlibraries.org/event/cam-jam-173923",
-      "location": "Manheim Township Library, MTP Morgan Center BC, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Free",
-      "start": 1795194000,
-      "end": 1795201200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Adults",
-        "Seniors"
-      ],
-      "program_types": [
-        "Community",
-        "Finance",
-        "Presentation"
-      ],
-      "branch": "Manheim Township"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "208063",
@@ -1609,6 +1417,30 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "214122",
+      "series": "https://calendar.lancasterlibraries.org/series/pinochle-club-manheim-township",
+      "title": "Pinochle Club!",
+      "description": "Ready to bid, meld, and take tricks? Join the library’s new Pinochle Club! This is a casual drop-in meetup for players looking for some friendly competition. Registration is encouraged!",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/pinochle-club-214122",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1797001200,
+      "end": 1797015600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "181458",
       "series": "https://calendar.lancasterlibraries.org/series/find-your-voice-4-weeks-to-fearless-public-speaking-manheim-township",
       "title": "Find Your Voice: 4 Weeks to Fearless Public Speaking",
@@ -2008,7 +1840,7 @@
       "source_id": "213802",
       "series": "https://calendar.lancasterlibraries.org/series/game-day-reads-sports-romance-book-club-manheim-township",
       "title": "Game Day Reads: Sports Romance Book Club",
-      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. Book list TBD",
+      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. Whether you're a die-hard regular or a first-time rookie, you're always welcome on the roster-- each title stands on its own, so there’s no need to have read previous picks to jump into the discussion! December 16: Power Play by Chelsea Curto January 20: Slap Shot by Chelsea Curto February 17: Hat Trick by Chelsea Curto",
       "categories": "Book Club",
       "url": "https://calendar.lancasterlibraries.org/event/game-day-reads-sports-romance-book-club-213802",
       "location": "Manheim Township Library, MTP Lapp Story Silo, 595 Granite Run Drive,  Lancaster, PA, 17601",
@@ -2188,6 +2020,30 @@
       ],
       "program_types": [
         "Arts & Crafts"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "214123",
+      "series": "https://calendar.lancasterlibraries.org/series/pinochle-club-manheim-township",
+      "title": "Pinochle Club!",
+      "description": "Ready to bid, meld, and take tricks? Join the library’s new Pinochle Club! This is a casual drop-in meetup for players looking for some friendly competition. Registration is encouraged!",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/pinochle-club-214123",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1797606000,
+      "end": 1797620400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
       ],
       "branch": "Manheim Township"
     },
@@ -2702,6 +2558,30 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "214125",
+      "series": "https://calendar.lancasterlibraries.org/series/pinochle-club-manheim-township",
+      "title": "Pinochle Club!",
+      "description": "Ready to bid, meld, and take tricks? Join the library’s new Pinochle Club! This is a casual drop-in meetup for players looking for some friendly competition. Registration is encouraged!",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/pinochle-club-214125",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1798815600,
+      "end": 1798830000,
+      "all_day": false,
+      "status": "CANCELLED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "213964",
       "series": "https://calendar.lancasterlibraries.org/series/common-thread-crafting-club-manheim-township",
       "title": "Common Thread Crafting Club",
@@ -2885,6 +2765,30 @@
         "Book Club"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "214126",
+      "series": "https://calendar.lancasterlibraries.org/series/pinochle-club-manheim-township",
+      "title": "Pinochle Club!",
+      "description": "Ready to bid, meld, and take tricks? Join the library’s new Pinochle Club! This is a casual drop-in meetup for players looking for some friendly competition. Registration is encouraged!",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/pinochle-club-214126",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1799420400,
+      "end": 1799434800,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3261,7 +3165,7 @@
       "source_id": "213803",
       "series": "https://calendar.lancasterlibraries.org/series/game-day-reads-sports-romance-book-club-manheim-township",
       "title": "Game Day Reads: Sports Romance Book Club",
-      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. Book list TBD",
+      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. Whether you're a die-hard regular or a first-time rookie, you're always welcome on the roster-- each title stands on its own, so there’s no need to have read previous picks to jump into the discussion! December 16: Power Play by Chelsea Curto January 20: Slap Shot by Chelsea Curto February 17: Hat Trick by Chelsea Curto",
       "categories": "Book Club",
       "url": "https://calendar.lancasterlibraries.org/event/game-day-reads-sports-romance-book-club-213803",
       "location": "Manheim Township Library, MTP Lapp Story Silo, 595 Granite Run Drive,  Lancaster, PA, 17601",
@@ -3326,6 +3230,30 @@
         "Community"
       ],
       "branch": "Lancaster"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "214128",
+      "series": "https://calendar.lancasterlibraries.org/series/pinochle-club-manheim-township",
+      "title": "Pinochle Club!",
+      "description": "Ready to bid, meld, and take tricks? Join the library’s new Pinochle Club! This is a casual drop-in meetup for players looking for some friendly competition. Registration is encouraged!",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/pinochle-club-214128",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1800630000,
+      "end": 1800644400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
     },
     {
       "source": "Lancaster Libraries",
@@ -3960,7 +3888,7 @@
       "source_id": "213804",
       "series": "https://calendar.lancasterlibraries.org/series/game-day-reads-sports-romance-book-club-manheim-township",
       "title": "Game Day Reads: Sports Romance Book Club",
-      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. Book list TBD",
+      "description": "Calling all sports romance fans! Join us for Game Day Reads, MTPL’s monthly book club dedicated entirely to love on the field, court, and rink. Whether you're a die-hard regular or a first-time rookie, you're always welcome on the roster-- each title stands on its own, so there’s no need to have read previous picks to jump into the discussion! December 16: Power Play by Chelsea Curto January 20: Slap Shot by Chelsea Curto February 17: Hat Trick by Chelsea Curto",
       "categories": "Book Club",
       "url": "https://calendar.lancasterlibraries.org/event/game-day-reads-sports-romance-book-club-213804",
       "location": "Manheim Township Library, MTP Lapp Story Silo, 595 Granite Run Drive,  Lancaster, PA, 17601",
@@ -3977,6 +3905,78 @@
         "Book Club"
       ],
       "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213900",
+      "series": "https://calendar.lancasterlibraries.org/series/making-sense-of-medicare-with-pa-medi-manheim-township",
+      "title": "Making Sense of Medicare with PA-MEDI",
+      "description": "Understanding Medicare can be difficult. PA-MEDI is here to help! We provide free, unbiased help to Medicare beneficiaries in Pennsylvania. We can assist individuals with: Eligibility & Enrollment Notices of Cost Original Medicare Medigap Medicare Advantage Prescription Drug (Part D) Benefits Switching & Comparing Plans Appeals Medicare Savings Programs Please call 717-299-7979 to set up an appointment. We will meet with you individually & confidentially to go over your Medicare questions.",
+      "categories": "Community, Health & Wellness",
+      "url": "https://calendar.lancasterlibraries.org/event/medicare-review-office-aging-pa-medi-213900",
+      "location": "Manheim Township Library, MTP Study Room #119, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1802962800,
+      "end": 1802984400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Health & Wellness"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213696",
+      "series": "https://calendar.lancasterlibraries.org/series/midday-mahjong-manheim-township",
+      "title": "Midday Mahjong",
+      "description": "🀄️✨Join us for an afternoon of strategy, skill, and socializing! 🀄️✨ Can't make it to our morning or evening session? Pull up a chair for an afternoon of Mahjong fun! Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event This program is for adults aged +18",
+      "categories": "Community, Gaming",
+      "url": "https://calendar.lancasterlibraries.org/event/midday-mahjong-213696",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1802973600,
+      "end": 1802984400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Gaming"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "212161",
+      "series": "https://calendar.lancasterlibraries.org/event/miniature-paint-night-212161",
+      "title": "Miniature Paint Night",
+      "description": "Join Lancaster Public Library and Chris Medalis as he shows you the techniques for painting your favorite characters, but in 1:56 scale! Have you never heard the terms \"dry brush,\" \"layering,\" or \"glazing?\" Then this program is for you!",
+      "categories": "Arts & Crafts, Community",
+      "url": "https://calendar.lancasterlibraries.org/event/miniature-paint-night-212161",
+      "location": "Lancaster Library",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1802926800,
+      "end": 1803013199,
+      "all_day": true,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Teens",
+        "Adults"
+      ],
+      "program_types": [
+        "Arts & Crafts",
+        "Community"
+      ],
+      "branch": "Lancaster"
     }
   ]
 }

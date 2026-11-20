@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795117231.91592,
+  "checked_at": 1795202391.94398,
   "events": [
     {
       "source": "Visit Lancaster City",
@@ -13,66 +13,6 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1794009600,
       "end": 1795383000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1033/29918820/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1033",
-      "title": "Yoga At The Ballroom",
-      "description": "Join us one evening each month for Yoga in the Stevens School Ballroom - a welcoming, all levels Vinyasa class, designed to help you ground, energize, and restore. Each class begins with a meditation, builds warmth and energy through a thoughtfully sequenced Vinyasa flow, and gradually transitions into a restorative cool down. Come as you are, move at your own pace, and give yourself some dedicated time to pause, breath, move and connect each month. Space is limited; Don't miss this opportunity to nourish your mind, body, and soul!",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1033/1795129200000",
-      "location": "Stevens School Ballroom, 355 West Chestnut Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795129200,
-      "end": 1795132800,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1117/29918850/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1117",
-      "title": "November Supper Club: Conway Steakhouse",
-      "description": "Conway Steakhouse | November Supper Club A great steak dinner is a classic for a reason. This November, The Conway Room’s Supper Club celebrates the timeless American steakhouse: classic cuts, indulgent sides, and the rich traditions of a dinner made to be savored. Join us for Conway Steakhouse on November 19 for an evening inspired by the familiar comforts and enduring appeal of steakhouse dining, brought to life with The Conway Room’s signature touch. Whether it’s a favorite tradition or an excuse to make a night of it, this is your invitation to gather around the table. Event Details Date: November 19 Time: 6:30 PM Location: The Conway Room Tickets are now available. Reserve your seat and join us for Conway Steakhouse.",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1117/1795131000000",
-      "location": "28 E King Street",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795131000,
-      "end": 1795140000,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1127/29918850/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1127",
-      "title": "PDF@Zoetropolis Presents Minari",
-      "description": "Our November America 250 selection, Lee Isaac Chung’s Minari, follows a Korean American family pursuing a new life on a small Arkansas farm in the early 1980s. It is a deeply American story of immigration, land, work, faith, family, and reinvention—but also a searching examination of the costs hidden within the American dream. Who bears the burden of one person’s ambition? Does independence ever exist without care and dependency? What transforms a piece of land into a home? Arriving during harvest and Thanksgiving season, Minari also asks us to think about cultivation and gratitude: whose labor sustains a family, whose histories inhabit the land, and what conditions allow transplanted lives to flourish. Its answer is both modest and profound: nothing grows entirely on its own.",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1127/1795131000000",
-      "location": "Zoetropolis Cinema StillHouse, 112 N Water St, Lancaster, PA 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795131000,
-      "end": 1795141800,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/797/29918910/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/797",
-      "title": "Annie Community Pay-What-You-Want",
-      "description": "For these special performances of each production, you may set your own ticket price. A limited number of seats are set aside for this effort as full-price tickets are also sold for these performances. Sales are in person only, no phone calls. Sales start on the day of the Pay-What-You-Want for Mainstage and Ellen Arnold Groff performances at 4 p.m.Note that a line often forms early and must remain outside of the building. We advise checking the weather prior to arrival so that you are prepared to queue outside. Tickets are sold first come – first served on the day of the performance. Limit of 4 tickets per person in line. (Note that full price tickets may be reserved in advance in any quantity.) These policies are subject to change at any time. Be sure to check this page before you arrive at the theatre. Based on the popular comic strip by Harold Gray, Annie has become a worldwide phenomenon and was the winner of seven Tony Awards, including Best Musical. The beloved book and score by Tony Award winners, Thomas Meehan, Charles Strouse and Martin Charnin, features some of the greatest musical theatre hits ever written, including “Tomorrow.”",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/797/1795134600000",
-      "location": "Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795134600,
-      "end": 1795145400,
       "all_day": false,
       "status": "CONFIRMED"
     },
