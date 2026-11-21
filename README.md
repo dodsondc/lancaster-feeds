@@ -167,8 +167,8 @@ first-detection dates, and revisions. History lasts one year. Existing story GUI
 survive rolling occurrences and additional matching sources. RSS ordering follows
 our existing detection-day / event-date convention; displayed schedules are real
 source dates, while RSS seconds after midnight are synthetic ordering values.
-A broken source retains the previous feed and fails visibly; a successful collection
-with zero keyword matches legitimately creates an empty feed.
+A broken source uses its last good records when available and fails visibly.
+A successful collection with zero matches legitimately creates an empty feed.
 
 The scheduled workflow builds this feed and its calendar files alongside the three
 existing feeds. Subscribe after the first successful run:
@@ -240,22 +240,41 @@ failure, while healthy sources continue to update. All other independent
 collectors still run. Test with `Rscript tests/test-libraries.R`.
 
 
-Direct arts and nature sources
------------------------------
+## Lancaster Performing Arts
 
-`R/direct-sources.R` adds Ware/Millersville (including Winter Center campus
-performances), Prima Theatre, Fulton Theatre, Mickey’s Black Box, Demuth events
-and exhibitions, Ephrata Performing Arts Center, Servant Stage, and Lancaster
-County Bird Club to the same Discoveries feed. These are the first direct-source
-batch; the regional venue shortlist and other nature organizations are not yet
-implemented. CRC/Facebook remains outside this collector.
+Subscribe after the workflow has published both feeds:
 
-Choose sources using `direct_sources` in `R/discovery-preferences.R`. Direct
-sources are eligible without a keyword match, subject to explicit exclusions,
-venue exclusions, and the dance-title rule (preferred venues still override that
-rule). Private-event listings are omitted. Youth performances are public theatre
-productions; library youth audience restrictions apply only to library programs.
-The existing 90-day window remains in effect and includes ongoing engagements.
+`https://raw.githubusercontent.com/dodsondc/lancaster-feeds/main/lancaster_performing_arts.xml`
+
+Performing companies (Fulton Theatre, Prima Theatre, Ephrata Performing Arts
+Center, and Servant Stage) contribute all advertised upcoming productions.
+Presenting venues (Ware/Millersville and Mickey's Black Box) contribute upcoming
+and ongoing events within the 90-day window. Visual-art exhibitions, Demuth
+Museum events, and the Lancaster County Bird Club stay in Discoveries. A
+tourism-only performance stays in Discoveries until it matches a followed
+company or venue listing. Both feeds share deduplication and identity history.
+
+Choose sources using `direct_sources` in `R/discovery-preferences.R`. The direct
+source registry in `R/direct-sources.R` sets the role, city, and refresh interval
+for each arts source. The workflow refreshes performing companies and venues
+every seven days and rebuilds both feeds daily from available records. Scheduled
+venue API requests include one extra week so events can enter the 90-day RSS
+window on days between refreshes. In GitHub Actions, select **Refresh performing
+companies and venues now** when starting a manual run to bypass the schedule.
+Locally, set `REFRESH_PERFORMING_ARTS=true` before running the collector.
+
+Titles identify the company (🎭) or venue (📍). When both list the same
+performance, the company supplies the title label and both source links remain.
+The article can show a source-provided poster, ticket link, and season link when
+available. Existing calendar-link rules apply. Each feed links to its own GitHub
+Pages home page, which declares a separate favicon. Those icons may take time to
+appear in a reader that already has a cached icon.
+
+Direct sources are eligible without a keyword match, subject to explicit
+exclusions, venue exclusions, and the dance-title rule (preferred venues still
+override that rule). Private-event listings are omitted. Youth performances are
+public theatre productions; library youth audience restrictions apply only to
+library programs.
 
 Ware RSS supplies discovery links; each event page supplies its actual date,
 start time, description, venue, and price. Announcements beyond the window are
@@ -289,5 +308,5 @@ are cached for 18 hours under ignored `.cache/direct-http/`; this disposable
 cache is not uploaded. The daily workflow runs at 11:17 UTC. Do not replace
 GitHub’s `state/` directory with an older local copy when uploading this update.
 
-Run all six scripts under `tests/test-*.R`, including
+Run all seven scripts under `tests/test-*.R`, including
 `Rscript tests/test-direct-sources.R`, for offline regression checks.
