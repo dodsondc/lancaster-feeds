@@ -67,5 +67,42 @@ mock_rss<-function()read_xml('<rss><channel/></rss>')
 mock_json<-function(url)list(events=list(list(id=1)),total=2,total_pages=1)
 err<-try(fetch_discovery_pa(as.Date('2026-10-18'),as.Date('2027-01-16'),mock_json,mock_rss),silent=TRUE)
 stopifnot(inherits(err,'try-error'))
+# Build both feeds from the same groups, including touring dates and an early season listing.
+company <- fixture("Winter Concert", "Example Company", "company")
+company$arts_role <- "company"
+company$direct <- TRUE
+company$poster <- "https://example.org/poster.png"
+company$ticket_url <- "https://example.org/tickets"
+venue <- fixture("Winter Concert", "Example Venue", "venue")
+venue$arts_role <- "venue"
+venue$direct <- TRUE
+tourism <- fixture("Winter Concert", series = "tourism")
+other <- fixture("Music Festival", series = "tourism-only")
+far_venue <- fixture("Future Venue Concert", "Example Venue", "far-venue",
+  "2027-03-01", "2027-03-01T20:00:00-05:00")
+far_venue$arts_role <- "venue"
+far_venue$direct <- TRUE
+far_company <- far_venue
+far_company$source <- "Example Company"
+far_company$series <- "far-company"
+far_company$title <- "Future Company Concert"
+far_company$arts_role <- "company"
+before_follow <- build_discoveries(list(tourism), p, now)$events
+built <- build_discoveries(list(venue, tourism, company, other, far_venue, far_company), p, now, before_follow)
+performing <- Filter(function(e) !is.null(e$arts_role), built$events)
+discoveries <- Filter(function(e) is.null(e$arts_role), built$events)
+stopifnot(length(performing) == 2L, length(discoveries) == 1L,
+  discoveries[[1]]$title == other$title, names(before_follow) %in% names(performing))
+merged <- performing[[names(before_follow)[1]]]
+stopifnot(merged$arts_organization == company$source, length(merged$sources) == 3L)
+write_discovery_rss(performing, file.path(tmp, "arts.xml"), tmp, performing = TRUE)
+channel <- xml_find_first(read_xml(file.path(tmp, "arts.xml")), "/rss/channel")
+stopifnot(endsWith(xml_text(xml_find_first(channel, "./link")), "/performing-arts/"))
+article <- xml_find_first(channel, "./item[contains(title, 'Winter Concert')]")
+stopifnot(grepl("🎭 Example Company", xml_text(xml_find_first(article, "./title")), fixed = TRUE))
+body <- read_html(xml_text(xml_find_first(article, "./description")))
+stopifnot(html_attr(html_element(body, "img"), "src") == company$poster,
+  company$ticket_url %in% html_attr(html_elements(body, "a"), "href"),
+  any(grepl("\\.ics$", html_attr(html_elements(body, "a"), "href"))))
 unlink(tmp,recursive=TRUE)
 cat('Discovery tests passed\n')

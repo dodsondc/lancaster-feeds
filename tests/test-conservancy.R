@@ -4,6 +4,15 @@ fixture <- function(name) read_html(file.path("tests","fixtures",name))
 page <- fixture("conservancy-listing.html")
 events <- parse_conservancy_listing(page,as.Date("2026-10-17"))
 stopifnot(length(events)==6L)
+page <- fixture("conservancy-listing.html")
+body <- html_element(page, "body")
+xml_add_child(body, read_html('<div class="vc_inner"><h2>MORE EVENTS COMING SOON!</h2></div>') |>
+  html_element(".vc_inner"))
+stopifnot(identical(names(parse_conservancy_listing(page, as.Date("2026-10-17"))), names(events)))
+xml_add_child(body, read_html('<div class="vc_inner"><h2>Actual event with no date</h2></div>') |>
+  html_element(".vc_inner"))
+missing_date <- tryCatch(parse_conservancy_listing(page, as.Date("2026-10-17")), error = conditionMessage)
+stopifnot(identical(missing_date, "Missing date for Actual event with no date"))
 writing <- events[["eb-1984568437620"]]
 writing <- add_event_details(writing,fixture("conservancy-1984568437620.html"))
 stopifnot(writing$event_date=="2026-10-24",writing$start==publication_time("2026-10-24T09:00:00-04:00"),grepl("Chester",writing$location),grepl("23.18",writing$price))

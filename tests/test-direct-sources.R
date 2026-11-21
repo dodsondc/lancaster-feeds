@@ -37,10 +37,51 @@ cfg<-direct_source_registry()$fulton
 page<-read_html('<body><h1>2026/2027 Season</h1><div class="show-tile"><span class="ft-screen-reader">Annie</span><div class="show-tile__dates">November 20 - December 31</div><a href="https://example.org/shows/annie/">More Info</a></div><div class="show-tile"><span class="ft-screen-reader">Peter Pan</span><div class="show-tile__dates">January 22 - February 14</div><a href="https://example.org/shows/pan/">More Info</a></div></body>')
 shows<-parse_direct_fulton(page,cfg,function(url)read_html('<div class="basic-text__text_rich">A musical production.</div>'))
 stopifnot(substr(local_day(shows[[1]]$start),1,10)=='2026-11-20',substr(local_day(shows[[2]]$start),1,10)=='2027-01-22')
+# EPAC links both season URL styles and repeats links with different hosts.
+cfg <- direct_source_registry()$epac
+epac_home <- read_html('<a href="/2026season/">Current</a><a href="/2027-season/">Next</a>
+  <a href="https://epactheatre.org/2027-season/">Next again</a><a href="/events/">Special</a>')
+epac_old <- read_html('<div class="et_pb_text_inner"><h3>Cinderella</h3><h5>December 4-20, 2026</h5></div>')
+epac_new <- read_html('<div class="et_pb_column">
+  <div class="et_pb_heading"><h5>Anastasia</h5></div>
+  <div class="et_pb_heading"><h6>Young Performers Production</h6></div>
+  <div class="et_pb_heading"><h5>December 3-23</h5></div></div>')
+epac_special <- read_html('<div class="et_pb_text_inner"><h3>The Woman in Black</h3>
+  <h3>October 30-November 1, 2026</h3></div>
+  <div class="et_pb_text_inner"><h3>Undated year</h3><h3>December 23</h3></div>')
+shows <- suppressMessages(fetch_direct_epac(cfg, function(url) {
+  if (identical(url, cfg$url)) return(epac_home)
+  switch(sub(cfg$url, "", url, fixed = TRUE),
+    "2026season/" = epac_old, "2027-season/" = epac_new, "events/" = epac_special,
+    stop("Unexpected EPAC URL: ", url))
+}))
+stopifnot(
+  identical(vapply(shows, `[[`, "", "title"), c("Cinderella", "Anastasia", "The Woman in Black")),
+  identical(vapply(shows, function(e) substr(local_day(e$start), 1, 10), ""),
+    c("2026-12-04", "2027-12-03", "2026-10-30"))
+)
 # Both parenthetical and prefix performance labels survive nested strong/br HTML.
 cfg<-direct_source_registry()$servant
 card<-'<div class="summary-item"><a class="summary-title-link" href="/shows/2027/honk">Honk! JR</a><div class="summary-excerpt"><p><strong>Ages 10-16</strong><br><strong>January 3-21 (Rehearsals)<br>January 22-24 (Performances)</strong></p></div></div>'
 shows<-fetch_direct_servant(cfg,function(url)if(identical(url,cfg$url))list(mainContent=card) else list(item=list(id='honk',body='Public performances.')))
 stopifnot(substr(local_day(shows[[1]]$start),1,10)=='2027-01-22',substr(local_day(shows[[1]]$end),1,10)=='2027-01-24')
+# A weekly source stays available on daily runs, with an explicit refresh override.
+refresh_count <- 0L
+refresh_fixture <- function() {
+  refresh_count <<- refresh_count + 1L
+  list(e)
+}
+collect_weekly <- function(at, force = FALSE) {
+  collect_source_safely("weekly", "Example Arts", root, at, refresh_fixture,
+    refresh_days = 7L, force = force)
+}
+first_week <- collect_weekly(now)
+next_day <- collect_weekly(now + 86400)
+stopifnot(refresh_count == 1L, next_day$health$status == "ok",
+  identical(first_week$health$last_success_utc, next_day$health$last_success_utc),
+  length(next_day$events) == 1L)
+invisible(collect_weekly(now + 7L * 86400))
+invisible(collect_weekly(now + 8L * 86400, force = TRUE))
+stopifnot(refresh_count == 3L)
 unlink(root,recursive=TRUE)
 cat('Direct-source tests passed: date ranges/DST, rehearsal exclusion, start-only calendars, enrichment/deduplication, stable identity, source failure fallback, and season years.\n')
