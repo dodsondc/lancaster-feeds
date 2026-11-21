@@ -2,6 +2,11 @@ name: Refresh Lancaster feeds
 
 on:
   workflow_dispatch:
+    inputs:
+      refresh_performing_arts:
+        description: Refresh performing companies and venues now
+        type: boolean
+        default: false
   schedule:
     # Daily at 11:17 UTC (7:17 AM EDT; 6:17 AM EST).
     - cron: '17 11 * * *'
@@ -60,6 +65,7 @@ jobs:
         env:
           # Set false for Conservancy-only collection (no Eventbrite requests).
           CONSERVANCY_EVENTBRITE: 'true'
+          REFRESH_PERFORMING_ARTS: ${{ inputs.refresh_performing_arts || 'false' }}
         run: Rscript 'Feed Maker.R'
       - name: Publish feed and preserve collection history
         id: publish
@@ -81,6 +87,9 @@ jobs:
           if [ -f lancaster_discoveries.xml ]; then
             git add lancaster_discoveries.xml discovery-review.csv
           fi
+          if [ -f lancaster_performing_arts.xml ]; then
+            git add lancaster_performing_arts.xml
+          fi
           if [ -f source-health.csv ]; then
             git add source-health.csv
           fi
@@ -92,14 +101,14 @@ jobs:
             git push
           fi
       - name: Configure calendar-file hosting
-        if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/calendar/*.ics') != '' }}
+        if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/index.html') != '' }}
         uses: actions/configure-pages@v5
       - name: Upload calendar files
-        if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/calendar/*.ics') != '' }}
+        if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/index.html') != '' }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
       - name: Deploy calendar files
         id: deployment
-        if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/calendar/*.ics') != '' }}
+        if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/index.html') != '' }}
         uses: actions/deploy-pages@v4
