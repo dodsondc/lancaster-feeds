@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795283922.39268,
+  "checked_at": 1795303609.39939,
   "events": [
     {
       "source": "Demuth Museum",
@@ -16,7 +16,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1764687804860-3DOUSVMPA5U8OSVLTURL/Demuth%2BMuseum%2BLegacy%2BGallery.jpg"
     },
     {
       "source": "Demuth Museum",
@@ -33,7 +34,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1677523900848-A83318SBUVB0AITLJTWL/Self%2BPortrait%252C%2B1907%2BEF.jpg"
     },
     {
       "source": "Demuth Museum",
@@ -50,7 +52,8 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1792521737102-JMY0E74JGNEX7H5MIKOV/unsplash-image-SBdmQcW8qag.jpg"
     },
     {
       "source": "Demuth Museum",
@@ -67,7 +70,8 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1795018274195-E0100CGYRIUPB09RLHXO/IMG_0562.png"
     },
     {
       "source": "Demuth Museum",
@@ -84,7 +88,8 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1792526553751-XZQ1R9IN22Y1I8LV789S/Website+Thumbnails+%282%29.png"
     },
     {
       "source": "Demuth Museum",
@@ -101,7 +106,8 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1675180102319-95TXPO11EQNX404HQAJ3/Watercolor%2BThumbnail%2B2.jpg"
     },
     {
       "source": "Demuth Museum",
@@ -118,7 +124,8 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1792775301864-1U1JCFKEVP13W158GLO7/Website+Thumbnails+%283%29.png"
     },
     {
       "source": "Demuth Museum",
@@ -135,7 +142,8 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1788288517113-XNX4OMW4339KG509FXL4/Screenshot%2B2026-09-01%2Bat%2B1.44.44%25E2%2580%25AFPM.png"
     },
     {
       "source": "Demuth Museum",
@@ -152,7 +160,8 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1792085699964-KDJ5M9CSW3ZIWZUCEBEZ/Website+Thumbnails+%281%29.png"
     },
     {
       "source": "Demuth Museum",
@@ -169,7 +178,8 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1792074135739-UHUGPPASF54TGFV5FIFR/William%2BEarly_Lancaster%2BLandscape%2BII.jpg"
     },
     {
       "source": "Demuth Museum",
@@ -186,7 +196,8 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1786042949295-CX9FX9TKU8BVO9WU9TYM/unsplash-image-Ak5c5VTch5E.jpg"
     },
     {
       "source": "Demuth Museum",
@@ -203,7 +214,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1675189454136-PQ9TFB6Y438PZ5ABALMM/Demuth%2BSchool%2Bof%2BArt%2BEvents%2BThumbnail.jpg"
     },
     {
       "source": "Demuth Museum",
@@ -220,7 +232,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1764687804860-3DOUSVMPA5U8OSVLTURL/Demuth%2BMuseum%2BLegacy%2BGallery.jpg"
     }
-  ]
+  ],
+  "scheduled": false
 }

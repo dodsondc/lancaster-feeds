@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795283922.39268,
+  "checked_at": 1795303609.39939,
   "events": [
     {
       "source": "Mickey's Black Box",
@@ -16,7 +16,8 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://mickeysblackbox.com/app/uploads/2024/06/best-friends-Girl-image-scaled.jpg"
     },
     {
       "source": "Mickey's Black Box",
@@ -33,7 +34,8 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://mickeysblackbox.com/app/uploads/2026/10/robs-rock-school-journey-poster-1-scaled-e1792003668769.png"
     },
     {
       "source": "Mickey's Black Box",
@@ -50,7 +52,8 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://mickeysblackbox.com/app/uploads/2026/09/IMG_3030-e1790276034280.png"
     },
     {
       "source": "Mickey's Black Box",
@@ -67,7 +70,8 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://mickeysblackbox.com/app/uploads/2026/08/Untitled-October-14-2026-at-19.31.24-e1792080155815.jpeg"
     },
     {
       "source": "Mickey's Black Box",
@@ -84,7 +88,8 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://mickeysblackbox.com/app/uploads/2025/07/amishoutlawsturkeycrop-scaled.jpg"
     },
     {
       "source": "Mickey's Black Box",
@@ -101,7 +106,8 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://mickeysblackbox.com/app/uploads/2026/10/JLTFBBANNER-1-1.png"
     },
     {
       "source": "Mickey's Black Box",
@@ -118,7 +124,8 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://mickeysblackbox.com/app/uploads/2026/06/IMG_2973.jpeg"
     },
     {
       "source": "Mickey's Black Box",
@@ -135,7 +142,8 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://mickeysblackbox.com/app/uploads/2026/10/BLURRYFACE-MBB-Jan8-website-1920x1005-1.jpg"
     },
     {
       "source": "Mickey's Black Box",
@@ -152,7 +160,8 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://mickeysblackbox.com/app/uploads/2026/11/Untitled-November-29-2025-at-17.38.38-1.jpeg"
     },
     {
       "source": "Mickey's Black Box",
@@ -169,7 +178,8 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://mickeysblackbox.com/app/uploads/2026/11/Untitled-July-08-2025-at-12.53.01-1.jpeg"
     },
     {
       "source": "Mickey's Black Box",
@@ -186,7 +196,9 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://mickeysblackbox.com/app/uploads/2026/09/02_06_27Banner-scaled.png"
     }
-  ]
+  ],
+  "scheduled": true
 }

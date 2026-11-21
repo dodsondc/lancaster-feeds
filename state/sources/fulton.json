@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795283922.39268,
+  "checked_at": 1795303609.39939,
   "events": [
     {
       "source": "Fulton Theatre",
@@ -17,7 +17,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/Ragtime-IndividualShowHeader_v4.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -35,7 +38,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/Annie-IndividualShowHeader_v1.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -53,7 +59,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/PeterPan-IndividualShowHeader_v1.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -71,7 +80,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/ComeFromAway-IndividualShowHeader_v1.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -89,7 +101,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/MyFairLady-IndividualShowHeader_v1.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -107,7 +122,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/Phantom-IndividualShowHeader_v1.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -125,7 +143,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/Ackerton-IndividualShowHeader_v1.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -143,7 +164,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/BigChristmas-IndividualShowHeader_v2.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -161,7 +185,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/Streetcar-IndividualShowHeader_v1.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -179,7 +206,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/Gutenberg-IndividualShowHeader_v1.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -197,7 +227,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/NightBeforeChristmas-IndividualShowHeader_v1.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -215,7 +248,10 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/FrogAndToad-IndividualShowHeader_v1.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     },
     {
       "source": "Fulton Theatre",
@@ -233,7 +269,11 @@
       "end_known": true,
       "status": "CONFIRMED",
       "direct": true,
-      "date_source": "Advertised range in 2026/2027 season"
+      "date_source": "Advertised range in 2026/2027 season",
+      "season_url": "https://thefulton.org/shows/",
+      "poster": "https://thefulton.org/wp-content/uploads/2026/07/LightningThief-IndividualShowHeader_v1.jpg",
+      "ticket_url": "https://thefulton.org/box-office/buy-tickets/"
     }
-  ]
+  ],
+  "scheduled": true
 }

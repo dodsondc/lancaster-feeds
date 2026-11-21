@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795283922.39268,
+  "checked_at": 1795303609.39939,
   "events": [
     {
       "source": "Ware / Millersville",
@@ -16,7 +16,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2027.05.07-Memories.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -33,7 +34,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2027.04.02-Joseph-Roach.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -50,7 +52,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2027.03.05-kristin-hill.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -67,7 +70,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2027.02.05-Kendyll-Hillegas.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -84,7 +88,8 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2027.06.04-Voices-of-Migration-1.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -101,7 +106,8 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2027.05.07-Ripple-Hub.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -118,7 +124,8 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2027.04.02-UnSinkables.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -135,7 +142,8 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2027.03.05-Inheriting-Nina.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -152,7 +160,8 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2027.02.05-Sun-Will-Rise.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -169,7 +178,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2026.12.04-Ross-Junior.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -186,7 +196,8 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2026.12.04-McCaskey.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -203,7 +214,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/2026.11.06-Shauna-Yorty.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -220,7 +232,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/music-of-the-silver-screen-with-reji-woods-friends.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/54094145/music-of-the-silver-screen-with-reji-woods-friends-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -237,7 +251,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/seasons-with-tanner-bingaman-virginia-masland.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/67121509/seasons-with-tanner-bingaman-virginia-masland-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -254,7 +270,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/kita-p-hadassah-edith.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/97599637/kita-phadassah-edith-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -271,7 +289,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/rivers-big-sky-quartet.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/68682136/rivers-big-sky-quartet-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -288,7 +308,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/adult-swing-dance-workshop.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/53372692/adult-swing-dance-workshop-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -305,7 +327,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/vision-board-workshop.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/75385418/vision-board-workshop-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -318,11 +342,12 @@
       "start": 1795287600,
       "end": 1795287600,
       "location": "Winter Visual & Performing Arts Center",
-      "price": "$12 to $15",
+      "price": "Not supplied by this source; check event details",
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/10/les-miserables-in-concert.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -339,7 +364,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Faculty_386341735536501.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/39233474/jazz-ensemblesjazz-java-with-alumni-band-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -356,7 +383,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Faculty_386341735536501.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/59635001/spring-orchestra-concert-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -373,7 +402,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Faculty_386341735536501.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/51058346/fall-orchestra-concert-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -390,7 +421,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Spring_386401735536510.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/38286454/spring-choral-concert-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -407,7 +440,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Spring_386401735536510.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/61672933/spring-choral-concert-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -424,7 +459,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Jazz_592771752659305.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/40063672/jazz-at-the-ville-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -441,7 +478,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Faculty_386341735536501.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/41435205/faculty-recitalbrass-faculty-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -458,7 +497,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Faculty_386341735536501.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/63241635/brass-area-recital-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -475,7 +516,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/07/etix-Glorious_593211752669932.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/47389845/sold-out-glorious-sounds-of-the-season-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -492,7 +535,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/07/etix-Glorious_593211752669932.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/87843009/glorious-sounds-of-the-season-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -509,7 +554,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/07/etix-Glorious_593211752669932.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/77607860/glorious-sounds-of-the-season-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -526,7 +573,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/sallys-iron-mustangs-free.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/41303129/sallys-iron-mustangs-free-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -543,7 +592,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/signs-of-humanity-free.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/75884478/signs-of-humanity-free-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -560,7 +611,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/a-long-way-to-go-free.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/80698712/a-long-way-to-go-free-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -577,7 +630,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Concert_592871752661752.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/98868998/concert-band-wind-ensemble-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -594,7 +649,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Concert_592871752661752.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/35764400/concert-band-wind-ensemble-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -611,7 +668,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Concert_592871752661752.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/51259698/concert-band-wind-ensemble-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -628,7 +687,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/taikoproject.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/93081881/taikoproject-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -645,7 +706,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/09/jazz-at-lincoln-center-presents-world-on-a-string-swinging-songs-of-broadway.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/80820241/jazz-at-lincoln-center-presents-world-on-a-stringswinging-songs-of-broadway-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -662,7 +725,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/terrance-simien-the-zydeco-experience.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/82674707/terrance-simien-the-zydeco-experience-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -679,7 +744,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/cherish-the-ladies.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/47047312/cherish-the-ladies-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -696,7 +763,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/milo-the-magnificent.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/57686638/milo-the-magnificent-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -713,7 +782,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/electric-root-let-love-lead-a-celebration-of-black-music.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/79910725/electric-rootlet-love-leada-celebration-of-black-music-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -730,7 +801,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/branford-marsalis-and-dianne-reeves-celebrate-john-coltrane.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/85423041/branford-marsalis-and-dianne-reeves-celebrate-john-coltrane-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -747,7 +820,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/tommy-dorsey-orchestra-sentimental-for-the-season.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/42584971/tommy-dorsey-orchestra-sentimental-for-the-season-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -764,7 +839,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/the-hot-sardines-holiday-stomp.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/79348382/the-hot-sardines-holiday-stomp-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -781,7 +858,9 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/sean-heelys-celtic-christmas.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/54771302/se%C3%A1n-heelys-celtic-christmas-lancaster-ware-center-for-the-arts?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -794,11 +873,12 @@
       "start": 1795291200,
       "end": 1795291200,
       "location": "The Ware Center",
-      "price": "$10 to $15",
+      "price": "Not supplied by this source; check event details",
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/11/layer-the-walls-turn-of-the-century.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -815,7 +895,10 @@
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://artsmu.com/wp-content/uploads/2026/08/lbbb-presents-our-best-brass-christmas.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/51499096/lbbb-presents-our-best-brass-christmas-lancaster-ware-center-for-the-arts?partner_id=100"
     }
-  ]
+  ],
+  "scheduled": true
 }

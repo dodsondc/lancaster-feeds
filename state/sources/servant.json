@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795283922.39268,
+  "checked_at": 1795303609.39939,
   "events": [
     {
       "source": "Servant Stage",
@@ -16,7 +16,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/1759935526792-UHZLPX2UT6A3LP6EVRIN/19K-logo-lionkingkids-square.png"
     },
     {
       "source": "Servant Stage",
@@ -33,7 +34,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/0650b0a2-ee2d-47c1-928d-b8bbdf21b13d/ss26_joy-to-the-world_color-square.png",
+      "ticket_url": "https://www.zeffy.com/en-US/ticketing/joy-to-the-world-at-lititz-umc-presented-by-servant-stage-company"
     },
     {
       "source": "Servant Stage",
@@ -50,7 +53,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/1791755825490-S5ZVPQKOMH2RU1V7OQ08/HonkJr-Square.png"
     },
     {
       "source": "Servant Stage",
@@ -67,7 +71,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/1786993613000-W41LLHMIWAP1ZYEZG4IL/logo-frozen-SQUARE.png"
     },
     {
       "source": "Servant Stage",
@@ -84,7 +89,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/1790991129419-VRF04N5SAJ3OKKA8AHLN/ss27-forever_plaid_square.png"
     },
     {
       "source": "Servant Stage",
@@ -101,7 +107,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/1791213347283-QZZ4N5VYAZO5WKCCPXMO/Once+Upon+a+Mattress.png"
     },
     {
       "source": "Servant Stage",
@@ -118,7 +125,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://static1.squarespace.com/static/59a5acb52994caf6428a158c/59cdd096e5dd5b22992aa395/6ac3daf56768d77352a5eb04/1792103063977/"
     },
     {
       "source": "Servant Stage",
@@ -135,7 +143,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/1790991223447-ECH4QIF9T789TZTEBC10/ss27-mary_poppins_square.png"
     },
     {
       "source": "Servant Stage",
@@ -152,7 +161,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/1790991400555-Y2KMUBAHIKI83QJ8JRW4/ss27-yagm_charliebrown_square.png"
     },
     {
       "source": "Servant Stage",
@@ -169,7 +179,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/0a6c810d-cb41-4d33-b73f-ba7c2054b932/ss27-les_mis_square.png"
     },
     {
       "source": "Servant Stage",
@@ -186,7 +197,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/1791225597285-41TWHQSSZ16KMFYGFPB2/Aristocats.png"
     },
     {
       "source": "Servant Stage",
@@ -203,7 +215,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/85f2d610-905a-4b5a-a6e8-ad2523e28395/ss27-best_crooners_square.png"
     },
     {
       "source": "Servant Stage",
@@ -220,7 +233,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/59a5acb52994caf6428a158c/1790992708550-98XV0XU2DHRVYIK212K3/ss27-best_pageant-square.png"
     }
-  ]
+  ],
+  "scheduled": true
 }

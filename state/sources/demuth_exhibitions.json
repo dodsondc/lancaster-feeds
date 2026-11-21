@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795283922.39268,
+  "checked_at": 1795303609.39939,
   "events": [
     {
       "source": "Demuth Exhibitions",
@@ -16,7 +16,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1790096231364-AONPLVIWIWAXUKBIZ8MZ/Village%2Bof%2BProvincetown%252C%2B1916.jpg"
     },
     {
       "source": "Demuth Exhibitions",
@@ -33,7 +34,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1791564379724-11HYSMR46ZAU9DRH6LHT/IMG_3376.jpg"
     },
     {
       "source": "Demuth Exhibitions",
@@ -50,7 +52,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1791564739898-YBLDVQ9XLV2LUJITZUJQ/Website+Thumbnails.png"
     },
     {
       "source": "Demuth Exhibitions",
@@ -67,7 +70,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1781797706964-7JAGS75C0F86XJUMAZKU/Website+Thumbnails+%282%29.png"
     },
     {
       "source": "Demuth Exhibitions",
@@ -84,7 +88,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1781797706964-7JAGS75C0F86XJUMAZKU/Website+Thumbnails+%282%29.png"
     },
     {
       "source": "Demuth Exhibitions",
@@ -101,7 +106,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1793218069761-S1E3MQQB5K0IQE683QJG/Kent.png"
     },
     {
       "source": "Demuth Exhibitions",
@@ -118,7 +124,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1794497109539-SKTBTRGFKLOQ6FQ5AE4F/IMG_3579.jpg"
     },
     {
       "source": "Demuth Exhibitions",
@@ -135,7 +142,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1781797706964-7JAGS75C0F86XJUMAZKU/Website+Thumbnails+%282%29.png"
     },
     {
       "source": "Demuth Exhibitions",
@@ -152,7 +160,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f3d65a8b0e9ed3a96b44be6/1784902850202-LN3JRHLFQ4K142U5V9S4/Chmelar.png"
     }
-  ]
+  ],
+  "scheduled": false
 }

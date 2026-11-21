@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795283922.39268,
+  "checked_at": 1795303609.39939,
   "events": [
     {
       "source": "Prima Theatre",
@@ -16,7 +16,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1778866135043-27P8VAWLR7AHWNEFU0VW/26_ILLUMINATION_PIANO_1920x1080.jpg",
+      "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002h2NBMAY"
     },
     {
       "source": "Prima Theatre",
@@ -33,7 +35,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1786644874696-1M00X71HLU0U7PN7JPL3/2.png",
+      "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002lj0XMAQ"
     },
     {
       "source": "Prima Theatre",
@@ -50,7 +54,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1793636743742-QU7R7RQICSOP1AYOCFCE/Crazy+Little+Thing+Updated+1920+x+1080+with+Byline.png",
+      "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002gCwTMAU"
     },
     {
       "source": "Prima Theatre",
@@ -67,7 +73,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1786644901983-0GZOKAUDU1J99CSXLT49/4.png",
+      "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002ly2nMAA"
     },
     {
       "source": "Prima Theatre",
@@ -84,7 +92,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1778867566317-D05GNL9WFHFUD6QC0ZPD/26_GOLDENSPRINGS_1920x1080.jpg",
+      "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002gkYLMAY"
     },
     {
       "source": "Prima Theatre",
@@ -101,7 +111,8 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1778868529171-4ESPODZXDKHNJ4Z1FKOQ/26_PlaywithaPlay_1920x1080.jpg"
     },
     {
       "source": "Prima Theatre",
@@ -118,7 +129,9 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1787580148695-DKMHFNJAWMHV1QI13CG7/8-2026-Prima-StephenSchwartz-6x12.png",
+      "ticket_url": "https://givebutter.com/c/3h4RgZ"
     },
     {
       "source": "Prima Theatre",
@@ -135,7 +148,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1778856251166-H8GNVC1TY8A9QEZJ2QHA/26_BLANK_1920x1080.jpg",
+      "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002gBPJMA2"
     },
     {
       "source": "Prima Theatre",
@@ -152,7 +167,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/36d1d0d7-375d-4fd4-ac40-ef30558537c5/25_MotownClub_1920x1080.jpg",
+      "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000001KDbdMAG"
     },
     {
       "source": "Prima Theatre",
@@ -169,7 +186,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/dfb5d548-17a6-4a96-bf1c-6815c41a0fe4/25_CompleteHistory_1920x1080.jpg",
+      "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000001KCndMAG"
     },
     {
       "source": "Prima Theatre",
@@ -186,7 +205,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/fb619e3f-6663-44f7-82ec-430b47fb1ac1/25_Disenchanted_1920x1080.jpg",
+      "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000001KBy1MAG"
     },
     {
       "source": "Prima Theatre",
@@ -203,7 +224,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1752244129097-OFK06X5163XW805TGJFO/Queen+Journey+2022+-+1920+x+1080+copy.png",
+      "ticket_url": "https://ci.ovationtix.com/36700/production/1213292"
     },
     {
       "source": "Prima Theatre",
@@ -220,7 +243,8 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1744298690568-3XK2A56LQ1270JFAKOEQ/PIANO+MEN+logo.png"
     },
     {
       "source": "Prima Theatre",
@@ -237,7 +261,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1747927001036-IAR07O1MD1WYV9L6A424/80s+1920x1080+no+byline.png",
+      "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/"
     },
     {
       "source": "Prima Theatre",
@@ -254,7 +280,9 @@
       "all_day": true,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1721918027222-YFUHO8NO3MYOGO6KXK2Y/We%27llGetBacktoYou_1920x1080.jpg",
+      "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/"
     },
     {
       "source": "Prima Theatre",
@@ -271,7 +299,9 @@
       "all_day": false,
       "end_known": true,
       "status": "CONFIRMED",
-      "direct": true
+      "direct": true,
+      "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1736793809193-OU5BGYSKERGO6US70QUY/Stage+Brawl+25+1920+x+1080.png"
     }
-  ]
+  ],
+  "scheduled": true
 }

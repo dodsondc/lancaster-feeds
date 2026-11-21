@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795283922.39268,
+  "checked_at": 1795303609.39939,
   "events": [
     {
       "source": "Lancaster County Bird Club",
@@ -16,7 +16,9 @@
       "all_day": false,
       "status": "CONFIRMED",
       "direct": true,
-      "end_known": true
+      "end_known": true,
+      "poster": "https://lancasterbirdclub.org/wp-content/uploads/2025/08/16-9-wide-angle-image-AJM.001.jpeg"
     }
-  ]
+  ],
+  "scheduled": false
 }
