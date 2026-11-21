@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked": 1795303607.85445,
+  "last_checked": 1795304208.52494,
   "items": {
     "lc-trail-fest": {
       "id": "lc-trail-fest",
@@ -100,15 +100,15 @@
       "description": "Contribute to Lancaster Conservancy's phenology project through community-based scientific observations.",
       "url": "https://www.eventbrite.com/e/phenology-hike-at-mill-creek-falls-nature-preserve-tickets-1998971633968",
       "location": "Mill Creek Falls Nature Preserve, 318 East Telegraph Road, Airville, PA 17302, Airville, PA",
-      "price": "Not published; check registration",
+      "price": "USD 7.18",
       "start": 1795269600,
       "end": 1795278600,
       "date_source": "Date and time from public registration data",
       "status": "CONFIRMED",
       "first_seen": 1792275055.2832,
-      "updated_at": 1795303607.85445,
-      "sequence": 1,
-      "signature": "{\"id\":\"eb-1998971633968\",\"title\":\"Phenology Hike at Mill Creek Falls Nature Preserve\",\"event_date\":\"2026-11-21\",\"raw_date\":\"Saturday, November 21 9am-11:30am\\n\",\"description\":\"Contribute to Lancaster Conservancy's phenology project through community-based scientific observations.\",\"url\":\"https://www.eventbrite.com/e/phenology-hike-at-mill-creek-falls-nature-preserve-tickets-1998971633968\",\"location\":\"Mill Creek Falls Nature Preserve, 318 East Telegraph Road, Airville, PA 17302, Airville, PA\",\"price\":\"Not published; check registration\",\"start\":1795269600,\"end\":1795278600,\"date_source\":\"Date and time from public registration data\",\"status\":\"CONFIRMED\",\"first_seen\":1792275055.2832}"
+      "updated_at": 1795304208.52494,
+      "sequence": 2,
+      "signature": "{\"id\":\"eb-1998971633968\",\"title\":\"Phenology Hike at Mill Creek Falls Nature Preserve\",\"event_date\":\"2026-11-21\",\"raw_date\":\"Saturday, November 21 9am-11:30am\\n\",\"description\":\"Contribute to Lancaster Conservancy's phenology project through community-based scientific observations.\",\"url\":\"https://www.eventbrite.com/e/phenology-hike-at-mill-creek-falls-nature-preserve-tickets-1998971633968\",\"location\":\"Mill Creek Falls Nature Preserve, 318 East Telegraph Road, Airville, PA 17302, Airville, PA\",\"price\":\"USD 7.18\",\"start\":1795269600,\"end\":1795278600,\"date_source\":\"Date and time from public registration data\",\"status\":\"CONFIRMED\",\"first_seen\":1792275055.2832}"
     }
   }
 }
