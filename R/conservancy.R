@@ -32,7 +32,10 @@ parse_conservancy_listing <- function(page, today) {
     title <- html_text2(heading)
     column <- html_element(row, ".wpb_text_column")
     raw_date <- html_element(column, "strong") |> html_text2()
-    if (is.na(raw_date)) stop("Missing date for ", title)
+    if (is.na(raw_date) || !nzchar(trimws(raw_date))) {
+      if (grepl("^more events coming soon[!.]*$", trimws(title), ignore.case = TRUE)) next
+      stop("Missing date for ", title)
+    }
     date <- listing_event_date(raw_date, today)
     links <- html_elements(row, "a[href]") |> html_attr("href")
     links <- links[grepl("^https://", links)]

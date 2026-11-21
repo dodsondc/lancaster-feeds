@@ -1,14 +1,14 @@
 # Public venue sources. Each adapter returns the same event records as the
 # discovery collectors. Missing times/prices remain explicit, never guessed.
 direct_source_registry <- function() list(
-  ware=list(name="Ware / Millersville",type="ware",url="https://artsmu.com/events/feed/"),
-  prima=list(name="Prima Theatre",type="squarespace",url="https://www.primatheatre.org/events?format=json",venue="Prima Theatre, 941 Wheatland Avenue, Lancaster, PA"),
+  ware=list(arts_role="venue",city="Lancaster",refresh_days=7L,name="Ware / Millersville",type="ware",url="https://artsmu.com/events/feed/"),
+  prima=list(arts_role="company",city="Lancaster",refresh_days=7L,name="Prima Theatre",type="squarespace",url="https://www.primatheatre.org/events?format=json",venue="Prima Theatre, 941 Wheatland Avenue, Lancaster, PA"),
   demuth=list(name="Demuth Museum",type="squarespace",url="https://www.demuth.org/events?format=json"),
   demuth_exhibitions=list(name="Demuth Exhibitions",type="squarespace",url="https://www.demuth.org/exhibitions?format=json"),
-  fulton=list(name="Fulton Theatre",type="fulton",url="https://thefulton.org/shows/",venue="Fulton Theatre, 12 North Prince Street, Lancaster, PA"),
-  epac=list(name="Ephrata Performing Arts Center",type="epac",url="https://www.ephrataperformingartscenter.com/",venue="Ephrata Performing Arts Center, 320 Cocalico Street, Ephrata, PA"),
-  servant=list(name="Servant Stage",type="servant",url="https://servantstage.org/upcoming-shows?format=json",venue="Multiple touring venues; see the performance itinerary below"),
-  mickey=list(name="Mickey's Black Box",type="tec",url="https://mickeysblackbox.com/wp-json/tribe/events/v1/events"),
+  fulton=list(arts_role="company",city="Lancaster",refresh_days=7L,name="Fulton Theatre",type="fulton",url="https://thefulton.org/shows/",venue="Fulton Theatre, 12 North Prince Street, Lancaster, PA"),
+  epac=list(arts_role="company",city="Ephrata",refresh_days=7L,name="Ephrata Performing Arts Center",type="epac",url="https://www.epactheatre.org/",venue="Ephrata Performing Arts Center, 320 Cocalico Street, Ephrata, PA"),
+  servant=list(arts_role="company",city="Lancaster County",refresh_days=7L,name="Servant Stage",type="servant",url="https://servantstage.org/upcoming-shows?format=json",venue="Multiple touring venues; see the performance itinerary below"),
+  mickey=list(arts_role="venue",city="Lancaster",refresh_days=7L,name="Mickey's Black Box",type="tec",url="https://mickeysblackbox.com/wp-json/tribe/events/v1/events"),
   birdclub=list(name="Lancaster County Bird Club",type="tec",url="https://lancasterbirdclub.org/wp-json/tribe/events/v1/events")
 )
 
@@ -39,6 +39,29 @@ direct_event <- function(source,id,title,url,description,start,end,location="",p
     all_day=all_day,end_known=end_known,status="CONFIRMED",direct=TRUE)
 }
 
+direct_public_url <- function(value, base) {
+  value <- trimws(text_value(value))
+  if (!nzchar(value) || startsWith(value, "#")) return("")
+  url <- xml2::url_absolute(value, base)
+  if (grepl("^https?://[^/]+", url, ignore.case = TRUE)) url else ""
+}
+
+add_direct_article_links <- function(event, page, base, image = NULL) {
+  poster <- direct_public_url(image, base)
+  if (!nzchar(poster)) {
+    meta <- html_element(page, 'meta[property="og:image"]')
+    poster <- direct_public_url(html_attr(meta, "content"), base)
+  }
+  if (nzchar(poster)) event$poster <- poster
+
+  links <- html_elements(page, "a[href]")
+  labels <- html_text2(links)
+  ticket <- links[grepl("^(buy|get|book|purchase|reserve) (your )?tickets|^tickets$", trimws(labels), ignore.case = TRUE)]
+  hrefs <- vapply(html_attr(ticket, "href"), direct_public_url, "", base = base)
+  if (any(nzchar(hrefs))) event$ticket_url <- hrefs[nzchar(hrefs)][1]
+  event
+}
+
 parse_direct_squarespace <- function(x,cfg) {
   if(is.null(x$upcoming)||is.null(x$collection$id))stop("Unrecognized Squarespace calendar: ",cfg$url)
   host<-paste0(httr2::url_parse(cfg$url)$scheme,"://",httr2::url_parse(cfg$url)$hostname)
@@ -51,7 +74,8 @@ parse_direct_squarespace <- function(x,cfg) {
     start<-floor(e$startDate/1000);end<-floor(e$endDate/1000)
     a<-direct_event(cfg$name,e$id,e$title,xml2::url_absolute(e$fullUrl,host),e$body,start,end,location,all_day=end-start>86400)
     a$categories<-paste(unlist(e$categories),collapse=", ")
-    a
+    add_direct_article_links(a, read_html(paste0("<div>", text_value(e$body), "</div>")),
+      a$url, e$assetUrl)
   })
 }
 
@@ -62,7 +86,13 @@ fetch_direct_tec <- function(cfg,today,through,get_json) {
     x<-get_json(url)
     if(is.null(x$events)||is.null(x$total_pages))stop("Unrecognized calendar API: ",cfg$url)
     es<-parse_discovery_pa(x$events)
-    for(i in seq_along(es)){es[[i]]$source<-cfg$name;es[[i]]$direct<-TRUE;es[[i]]$end_known<-TRUE}
+    for (i in seq_along(es)) {
+      es[[i]]$source <- cfg$name
+      es[[i]]$direct <- TRUE
+      es[[i]]$end_known <- TRUE
+      image <- x$events[[i]]$image
+      if (is.list(image)) es[[i]]$poster <- direct_public_url(image$url, es[[i]]$url)
+    }
     result<-c(result,es)
     if(page>=as.integer(x$total_pages))break
     page<-page+1L;if(page>50L)stop("Direct calendar pagination limit: ",cfg$name)
@@ -93,7 +123,8 @@ parse_direct_ware <- function(page,url,source="Ware / Millersville") {
   if(is.na(venue)||!nzchar(venue))stop("Ware venue missing: ",url)
   price<-html_text2(html_element(page,"#RhpEventsSingle .eventCost"))
   if(is.na(price)||!nzchar(price))price<-"Not supplied by this source; check event details"
-  e<-direct_event(source,url,title,url,desc,start,end,venue,price,all_day,end_known);e$categories<-text_value(category);e
+  e<-direct_event(source,url,title,url,desc,start,end,venue,price,all_day,end_known);e$categories<-text_value(category)
+  add_direct_article_links(e, page, url)
 }
 
 fetch_direct_ware <- function(cfg,get_page) {
@@ -119,36 +150,64 @@ parse_direct_fulton <- function(listing,cfg,get_page) {
     detail<-get_page(url);desc<-html_text2(html_element(detail,".basic-text__text_rich"))
     if(is.na(desc)||!nzchar(desc))stop("Fulton description missing: ",url)
     e<-direct_event(cfg$name,url,title,url,desc,r$start,r$end,cfg$venue)
-    e$date_source<-paste("Advertised range in",paste(season[2:3],collapse="/"),"season");e
+    e$date_source<-paste("Advertised range in",paste(season[2:3],collapse="/"),"season")
+    e$season_url <- cfg$url
+    add_direct_article_links(e, detail, url)
   })
 }
 
-parse_direct_epac <- function(page,cfg,url,year=NULL) {
-  blocks<-html_elements(page,".et_pb_text_inner");result<-list()
-  for(block in blocks) {
-    headings<-html_elements(block,"h3");dates<-html_elements(block,"h5")
-    if(!length(headings))next
-    title<-html_text2(headings[1]);date<-if(length(dates))html_text2(dates[1]) else if(length(headings)>1L)html_text2(headings[2]) else ""
-    if(!grepl("[0-9]",date))next
-    r<-direct_date_range(date,year)
-    # The nearest Divi row contains this production's More Info link.
-    row<-xml_find_first(block,"ancestor::*[contains(concat(' ',normalize-space(@class),' '),' et_pb_row ')][1]")
-    # Use a title fragment when a unique detail URL isn't supplied. This also
-    # prevents all shows on a season page becoming one series.
-    link<-paste0(url,"#",gsub(" +","-",discovery_key(title)))
-    e<-direct_event(cfg$name,link,title,link,html_text2(block),r$start,r$end,cfg$venue)
-    result[[length(result)+1L]]<-e
+parse_direct_epac <- function(page, cfg, url, year = NULL) {
+  # Older pages put both headings in a text block. Season cards can also
+  # use individual heading modules within a production column.
+  blocks <- html_elements(page, ".et_pb_text_inner, .et_pb_column")
+  date_pattern <- paste0("(", paste(month.name, collapse = "|"), ") +[0-9]{1,2}")
+  result <- list()
+  for (block in blocks) {
+    is_column <- grepl("\\bet_pb_column\\b", html_attr(block, "class"))
+    selector <- if (is_column) ".et_pb_heading h5" else "h3, h5"
+    headings <- html_text2(html_elements(block, selector))
+    if (length(headings) < 2L) next
+    title <- headings[1]
+    dates <- headings[-1L]
+    dates <- dates[grepl(date_pattern, dates, ignore.case = TRUE)]
+    if (!length(dates)) next
+    date <- dates[1]
+    if (is.null(year) && !grepl("\\b20[0-9]{2}\\b", date)) {
+      message("EPAC: skipping ", title, " because the advertised date has no year")
+      next
+    }
+    range <- direct_date_range(date, year)
+    link <- paste0(url, "#", gsub(" +", "-", discovery_key(title)))
+    event <- direct_event(cfg$name, link, title, link, html_text2(block), range$start, range$end, cfg$venue)
+    if (!is.null(year)) event$season_url <- url
+    scope <- xml_find_first(block, "ancestor-or-self::*[contains(concat(' ',normalize-space(@class),' '),' et_pb_column ')][1]")
+    if (inherits(scope, "xml_missing")) scope <- block
+    poster <- html_attr(html_element(scope, ".et_pb_image img"), "src")
+    links <- html_elements(scope, "a[href]")
+    info <- links[grepl("^more info(?:rmation)?$", trimws(html_text2(links)), ignore.case = TRUE, perl = TRUE)]
+    detail <- direct_public_url(html_attr(info, "href"), url)
+    if (nzchar(detail)) event$url <- detail
+    result[[length(result) + 1L]] <- add_direct_article_links(event, scope, url, poster)
   }
   result
 }
 
-fetch_direct_epac <- function(cfg,get_page) {
-  home<-get_page(cfg$url);urls<-html_attr(html_elements(home,"a[href]"),"href")
-  urls<-unique(xml2::url_absolute(urls[grepl("/[0-9]{4}season/?$|/events/?$",urls)],cfg$url))
-  if(!length(urls))stop("EPAC current season/special event links missing")
-  result<-list()
-  for(url in urls)result<-c(result,parse_direct_epac(get_page(url),cfg,url))
-  if(!length(result))stop("EPAC advertised dates were not recognized")
+fetch_direct_epac <- function(cfg, get_page) {
+  home <- get_page(cfg$url)
+  links <- html_attr(html_elements(home, "a[href]"), "href")
+  urls <- xml2::url_absolute(links, cfg$url)
+  # Menu and body links can point to the same page with different www prefixes.
+  base <- sub("/+$", "", cfg$url)
+  paths <- sub("^https?://(?:www\\.)?epactheatre\\.org(?=/)", "", urls, perl = TRUE)
+  paths <- unique(sub("/+$", "", paths[grepl("^/(?:[0-9]{4}-?season|events)/?$", paths, perl = TRUE)]))
+  if (!length(paths)) stop("EPAC current season/special event links missing")
+  result <- list()
+  for (path in paths) {
+    year <- if (grepl("^/[0-9]{4}", path)) as.integer(substr(path, 2L, 5L)) else NULL
+    url <- paste0(base, path, "/")
+    result <- c(result, parse_direct_epac(get_page(url), cfg, url, year))
+  }
+  if (!length(result)) stop("EPAC advertised dates were not recognized")
   result
 }
 
@@ -186,20 +245,21 @@ fetch_direct_servant <- function(cfg,get_json) {
     price<-if(grepl("pay.what.you.will",discovery_text(item$body),ignore.case=TRUE))"Pay-What-You-Will; check performance details" else "Not supplied by this source; check performance details"
     e<-direct_event(cfg$name,item$id,title,url,item$body,r$start,r$end,cfg$venue,price)
     e$description<-paste(e$description,"Touring locations and individual times are listed above or at the source. The advertised range is not a continuous performance.")
-    result[[length(result)+1L]]<-e
+    result[[length(result)+1L]]<-add_direct_article_links(e,
+      read_html(paste0("<div>", item$body, "</div>")), url, item$assetUrl)
   }
   result
 }
 
 # Cache public responses separately from event identity/history. It also reduces
 # repeated detail-page requests when testing or rerunning a queued workflow.
-direct_http <- function(root,now) {
+direct_http <- function(root,now,force=FALSE) {
   directory<-file.path(root,".cache","direct-http");dir.create(directory,recursive=TRUE,showWarnings=FALSE)
   function(url,xml=FALSE,json=FALSE) {
     f<-tempfile();writeBin(charToRaw(enc2utf8(url)),f);key<-unname(tools::md5sum(f));unlink(f)
     path<-file.path(directory,paste0(key,".json"))
     cache<-if(file.exists(path))read_json(path,simplifyVector=FALSE) else NULL
-    if(is.null(cache)||now-cache$checked_at>18*3600) {
+    if(force||is.null(cache)||now-cache$checked_at>18*3600) {
       response<-fetch_page(url);cache<-list(url=url,checked_at=now,body=resp_body_string(response))
       atomic_json(cache,path)
     }
@@ -222,36 +282,54 @@ seed_source_cache <- function(id,name,root,history,checked_at) {
   invisible(NULL)
 }
 
-collect_source_safely <- function(id,name,root,now,collect) {
+collect_source_safely <- function(id,name,root,now,collect,refresh_days=0L,force=FALSE) {
   path<-file.path(root,"state","sources",paste0(id,".json"))
   old<-if(file.exists(path))read_json(path,simplifyVector=FALSE) else NULL
   error<-NULL
-  events<-tryCatch(collect(),error=function(e){error<<-conditionMessage(e);NULL})
-  if(is.null(error)) {
-    atomic_json(list(checked_at=now,events=events),path);checked<-now;status<-"ok"
+  if (!force && !is.null(old) && isTRUE(old$scheduled) &&
+      now - old$checked_at < refresh_days * 86400) {
+    events <- old$events
+    checked <- old$checked_at
+    status <- "ok"
   } else {
-    events<-if(is.null(old))list() else old$events
-    checked<-if(is.null(old))NA_real_ else old$checked_at;status<-if(is.null(old))"failed" else "stale"
-    message(name,": ",error)
+    events <- tryCatch(collect(), error = function(e) { error <<- conditionMessage(e); NULL })
+    if (is.null(error)) {
+      atomic_json(list(checked_at=now,events=events,scheduled=refresh_days > 0L),path)
+      checked <- now
+      status <- "ok"
+    } else {
+      events <- if (is.null(old)) list() else old$events
+      checked <- if (is.null(old)) NA_real_ else old$checked_at
+      status <- if (is.null(old)) "failed" else "stale"
+      message(name, ": ", error)
+    }
   }
   list(events=events,health=data.frame(source_id=id,source=name,status=status,
     last_success_utc=if(is.na(checked))"" else format(as.POSIXct(checked,origin="1970-01-01",tz="UTC"),"%Y-%m-%d %H:%M UTC"),
     records=length(events),error=if(is.null(error))"" else error,stringsAsFactors=FALSE))
 }
 
-collect_direct_sources <- function(root,today,through,now) {
-  get<-direct_http(root,now)
-  json<-function(url)get(url,json=TRUE)
+collect_direct_sources <- function(root,today,through,now,force=FALSE) {
   results<-list()
   registry<-direct_source_registry()
   enabled<-discovery_preferences$direct_sources
   for(id in names(registry)) {
     if(!id %in% enabled)next
     cfg<-registry[[id]]
+    refresh_days <- if (is.null(cfg$refresh_days)) 0L else cfg$refresh_days
+    force_source <- force && refresh_days > 0L
+    get <- direct_http(root, now, force_source)
+    json <- function(url) get(url, json = TRUE)
     results[[id]]<-collect_source_safely(id,cfg$name,root,now,function()switch(cfg$type,
-      tec=fetch_direct_tec(cfg,today,through,json),squarespace=parse_direct_squarespace(json(cfg$url),cfg),
+      tec=fetch_direct_tec(cfg,today,through+refresh_days,json),squarespace=parse_direct_squarespace(json(cfg$url),cfg),
       ware=fetch_direct_ware(cfg,get),fulton=parse_direct_fulton(get(cfg$url),cfg,get),
-      epac=fetch_direct_epac(cfg,get),servant=fetch_direct_servant(cfg,json),stop("Unknown adapter")))
+      epac=fetch_direct_epac(cfg,get),servant=fetch_direct_servant(cfg,json),stop("Unknown adapter")),
+      refresh_days=refresh_days,force=force_source)
+    if (!is.null(cfg$arts_role)) results[[id]]$events <- lapply(results[[id]]$events, function(event) {
+      visual_art <- grepl("\\b(gallery|exhibitions?)\\b", text_value(event$categories), ignore.case = TRUE)
+      if (!visual_art) event$arts_role <- cfg$arts_role
+      event
+    })
     message(cfg$name,": ",results[[id]]$health$records," source records (",results[[id]]$health$status,")")
   }
   results
