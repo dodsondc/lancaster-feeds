@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-413227471a681ff11baf48e8b09484c4-20270220T010000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261121T175842Z
+LAST-MODIFIED:20261121T175842Z
+SEQUENCE:0
+DTSTART:20270220T010000Z
+DTEND:20270220T033000Z
+SUMMARY:TUSK: The Classic Tribute to Fleetwood Mac at American Music Theatr
+ e
+DESCRIPTION:Tusk is the number one Tribute to Fleetwood Mac in the world. N
+ o fancy tricks\, no gimmicks\, just five musicians recreating the music of
+  Fleetwood Mac to perfection with note for note renditions that no other F
+ leetwood Mac tribute on the touring scene today can come close to duplicat
+ ing. Tusk covers all the great hits of Fleetwood Mac. The five musicians c
+ omprising Tusk have been making music together in various combinations and
+  styles for over 25 years. Authentic-sounding and always respectful\, Tusk
+  leaves no stone unturned in replicating the sounds of one of the world’
+ s best-loved\, top-selling bands. Come Explore Our Lancaster Theaters and 
+ the Arts Live Theater Live Entertainment Live Music Dinner Theaters Murder
+  Mysteries Things To Do Artisan Collectives Art Galleries Events Calendar\
+ n\nPrice: Not supplied by this calendar\; check event details\n\nSchedule 
+ listed: Feb 19\, 2027 · 08:00 PM EST – 10:30 PM EST\n\nSchedule supplie
+ d by LancasterPA\n\nTimes converted from America/New_York to UTC for calen
+ dar compatibility.\n\n\n\nRegistration: https://lancasterpa.com/events-cal
+ endar/tusk-american-music-theatre/\n\nAdding this calendar item does not r
+ egister you. Check the original listing for changes\; imported events do n
+ ot automatically stay in sync.
+LOCATION:American Music Theatre\, 2425 Lincoln Highway East\, Lancaster\, P
+ A\, 17602
+URL:https://lancasterpa.com/events-calendar/tusk-american-music-theatre/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
