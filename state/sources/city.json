@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795304211.13333,
+  "checked_at": 1795371086.36526,
   "events": [
     {
       "source": "Visit Lancaster City",
@@ -43,36 +43,6 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1795221000,
       "end": 1798059600,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1143/29921760/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1143",
-      "title": "Jesse Cook: Forever Live Tour",
-      "description": "Join us for an intimate evening of live music with world renowned Grammy-nominated rumba flamenco guitarist, Jesse Cook. Tickets are limited and are available for purchase here. \"A global artist in every sense of the word, Jesse Cook redefines music’s power to connect people across cultures and continents. Over the last three decades, the Paris-born, Toronto-raised master of the Spanish guitar has built a devoted following for his spellbinding rumba flamenco, routinely selling out performance halls from London to Los Angeles, Milan to Montreal. On stage, Cook radiates infectious energy, collaborating with his band and guest instrumentalists to craft immersive, unforgettable experiences. His concerts are celebrated for their warmth, precision, and emotional depth. Throughout his decades-long career, Jesse Cook has remained devoted to musicalexploration. His boundary-defying artistry has introduced flamenco and world music to wider audiences while maintaining a signature style that is both technically masterful and soulfully expressive. That authenticity has clearly resonated—with over a billion streams and views across platforms to date—proving his sound remains as relevant as it is revered.\"",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1143/1795305600000",
-      "location": "Tellus 360 - The Temple (Seated), 24 East King Street, Lancaster, PA 17602, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795305600,
-      "end": 1795314600,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/800/29921790/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/800",
-      "title": "Annie",
-      "description": "Based on the popular comic strip by Harold Gray, Annie has become a worldwide phenomenon and was the winner of seven Tony Awards, including Best Musical. The beloved book and score by Tony Award winners, Thomas Meehan, Charles Strouse and Martin Charnin, features some of the greatest musical theatre hits ever written, including “Tomorrow.”",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/800/1795307400000",
-      "location": "Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795307400,
-      "end": 1795318200,
       "all_day": false,
       "status": "CONFIRMED"
     },

@@ -3,13 +3,13 @@ VERSION:2.0
 PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:discovery-c1cd5d999baaaedf3167c70264d1bb50-20261020T130000@lancaster-fe
+UID:discovery-c1cd5d999baaaedf3167c70264d1bb50-20270220T140000@lancaster-fe
  eds.dodsondc.github.io
-DTSTAMP:20261018T171704Z
-LAST-MODIFIED:20261018T171704Z
-SEQUENCE:0
-DTSTART:20261020T130000Z
-DTEND:20261020T150000Z
+DTSTAMP:20261122T181126Z
+LAST-MODIFIED:20261122T181126Z
+SEQUENCE:2
+DTSTART:20270220T140000Z
+DTEND:20270220T160000Z
 SUMMARY:Lancaster Breakfast and History Walking Tour
 DESCRIPTION:Searching for a walking history tour in Lancaster? You’re in 
  for a flavorful experience—literally! Introducing the Lancaster History 
@@ -33,16 +33,16 @@ DESCRIPTION:Searching for a walking history tour in Lancaster? You’re in
  ory\, love discovering new flavors\, or just want a memorable way to see t
  he city\, the Lancaster History & Breakfast Tour is a great choice for sol
  o explorers\, couples\, and groups alike.\n\nPrice: Not supplied by this c
- alendar\; check event details\n\nSchedule listed: Tue\, Oct 20\, 2026 09:0
- 0 AM EDT – Tue\, Oct 20\, 2026 11:00 AM EDT\n\nSchedule supplied by Lanc
- asterPA\n\nTimes converted from America/New_York to UTC for calendar compa
- tibility.\n\nRegistration: https://lancasterpa.com/events-calendar/lancast
- er-breakfast-and-history-walking-tour/2026-10-20/\n\nAdding this calendar 
- item does not register you. Check the original listing for changes\; impor
- ted events do not automatically stay in sync.
+ alendar\; check event details\n\nSchedule listed: Feb 20\, 2027 · 09:00 A
+ M EST – 11:00 AM EST\n\nSchedule supplied by LancasterPA\n\nTimes conver
+ ted from America/New_York to UTC for calendar compatibility.\n\n\n\nRegist
+ ration: https://lancasterpa.com/events-calendar/lancaster-breakfast-and-hi
+ story-walking-tour/2027-02-20/\n\nAdding this calendar item does not regis
+ ter you. Check the original listing for changes\; imported events do not a
+ utomatically stay in sync.
 LOCATION:Unique Lancaster\, 23 N Walnut Street\, Lancaster\, 17603
 URL:https://lancasterpa.com/events-calendar/lancaster-breakfast-and-history
- -walking-tour/2026-10-20/
+ -walking-tour/2027-02-20/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT

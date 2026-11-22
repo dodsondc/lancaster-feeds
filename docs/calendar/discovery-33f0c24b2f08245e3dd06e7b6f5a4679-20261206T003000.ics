@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-33f0c24b2f08245e3dd06e7b6f5a4679-20261206T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261122T181126Z
+LAST-MODIFIED:20261122T181126Z
+SEQUENCE:0
+DTSTART:20261206T003000Z
+SUMMARY:Seán Heely’s Celtic Christmas
+DESCRIPTION:Saturday\, December 5\, 2026 • 7:30 PM • Steinman Hall Cele
+ brate the season with U.S. National Scottish Fiddle Champion Seán Heely a
+ nd a cast of nationally acclaimed performers in a festive journey through 
+ the Celtic world. Featuring stirring fiddle and bagpipes\, dazzling Scotti
+ sh and Irish dance\, and a rich tapestry of Gaelic carols\, traditional tu
+ nes\, and familiar holiday favorites\, this joyful production brings Winte
+ r Solstice traditions to life with energy and warmth. Tickets: Adults $35 
+ • Students: $25 ASL interpretation\, sensory-friendly accommodations\, a
+ nd audio description will be available. Interested? Contact Barry Kornhaus
+ er to learn more!\n\nPrice: $25 to $35\n\nSchedule listed: Dec 05\, 2026 
+ · 07:30 PM EST — end time not published\n\nSchedule supplied by Ware / 
+ Millersville\n\nTimes converted from America/New_York to UTC for calendar 
+ compatibility.\n\nNo ending time is published\; your calendar may apply it
+ s own default duration.\n\nRegistration: https://artsmu.com/event/se%c3%a1
+ n-heelys-celtic-christmas/the-ware-center/\n\nAdding this calendar item do
+ es not register you. Check the original listing for changes\; imported eve
+ nts do not automatically stay in sync.
+LOCATION:The Ware Center
+URL:https://artsmu.com/event/se%c3%a1n-heelys-celtic-christmas/the-ware-cen
+ ter/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
