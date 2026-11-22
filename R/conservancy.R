@@ -155,6 +155,55 @@ write_event_ics <- function(event, path) {
   if(!file.rename(tmp,path))stop("Could not replace calendar file")
 }
 
+prune_expired_calendar_files <- function(root, today = as.Date(Sys.time(), tz = "America/New_York"),
+                                         retention_days = 30L, dry_run = FALSE) {
+  directory <- file.path(root, "docs", "calendar")
+  files <- list.files(directory, pattern = "^(discovery-|eb-|lc-)[A-Za-z0-9-]+\\.ics$",
+    full.names = TRUE)
+  if (!length(files)) return(invisible(character()))
+
+  # Retained RSS feeds may still link here after a source fails. Read their
+  # published contents before removing any file.
+  feeds <- list.files(root, pattern = "^lancaster_.*\\.xml$", full.names = TRUE)
+  if (!length(feeds)) return(invisible(character()))
+  feed_text <- vapply(feeds, function(path) as.character(read_xml(path)), "")
+  linked <- vapply(basename(files), function(name) {
+    any(grepl(paste0(calendar_base_url, name), feed_text, fixed = TRUE))
+  }, logical(1))
+
+  expired <- function(path) {
+    symlink <- Sys.readlink(path)
+    if (isTRUE(nzchar(symlink, keepNA = TRUE))) return(FALSE)
+    content <- paste(readLines(path, warn = FALSE), collapse = "\n")
+    lines <- strsplit(gsub("\n[ \t]", "", content), "\n", fixed = TRUE)[[1]]
+    id <- tools::file_path_sans_ext(basename(path))
+    if (!paste0("UID:", id, "@lancaster-feeds.dodsondc.github.io") %in% lines) return(FALSE)
+    dates <- grep("^DTEND[:;]", lines, value = TRUE)
+    if (!length(dates)) dates <- grep("^DTSTART[:;]", lines, value = TRUE)
+    if (length(dates) != 1L) return(FALSE)
+    date <- if (grepl("^DT(START|END);VALUE=DATE:[0-9]{8}$", dates)) {
+      # DATE-valued DTEND is exclusive under iCalendar.
+      last <- as.Date(sub("^.*:", "", dates), format = "%Y%m%d")
+      if (startsWith(dates, "DTEND")) last - 1L else last
+    } else if (grepl("^DT(START|END):[0-9]{8}T[0-9]{6}Z$", dates)) {
+      stamp <- strptime(sub("^.*:", "", dates), "%Y%m%dT%H%M%SZ", tz = "UTC")
+      as.Date(as.POSIXct(stamp), tz = "America/New_York")
+    } else {
+      as.Date(NA_character_)
+    }
+    !is.na(date) && date < today - retention_days
+  }
+
+  unlinked <- files[!linked]
+  remove <- unlinked[vapply(unlinked, expired, logical(1))]
+  if (length(remove) && !dry_run) {
+    removed <- file.remove(remove)
+    if (!all(removed)) stop("Could not remove expired calendar files: ", paste(basename(remove[!removed]), collapse = ", "))
+    message("Removed ", length(remove), " expired calendar files")
+  }
+  invisible(remove)
+}
+
 write_conservancy_rss <- function(events, path) {
   rss <- xml_new_root("rss",version="2.0"); channel <- xml_add_child(rss,"channel")
   xml_add_child(channel,"title","Lancaster Conservancy — Events")

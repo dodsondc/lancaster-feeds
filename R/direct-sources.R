@@ -9,6 +9,12 @@ direct_source_registry <- function() list(
   epac=list(arts_role="company",city="Ephrata",refresh_days=7L,name="Ephrata Performing Arts Center",type="epac",url="https://www.epactheatre.org/",venue="Ephrata Performing Arts Center, 320 Cocalico Street, Ephrata, PA"),
   servant=list(arts_role="company",city="Lancaster County",refresh_days=7L,name="Servant Stage",type="servant",url="https://servantstage.org/upcoming-shows?format=json",venue="Multiple touring venues; see the performance itinerary below"),
   mickey=list(arts_role="venue",city="Lancaster",refresh_days=7L,name="Mickey's Black Box",type="tec",url="https://mickeysblackbox.com/wp-json/tribe/events/v1/events"),
+  symphony=list(arts_role="company",city="Lancaster",refresh_days=7L,name="Lancaster Symphony Orchestra",type="symphony",url="https://www.lancastersymphony.org/tickets",venue=""),
+  allegro=list(arts_role="company",city="Lancaster",refresh_days=7L,name="Allegro Orchestra Lancaster",type="allegro",url="https://www.allegrolancaster.org/upcoming-events",venue=""),
+  susquehanna=list(arts_role="company",city="Marietta",refresh_days=7L,name="Susquehanna Stage",type="susquehanna",url="https://www.susquehannastage.com/shows",venue="Susquehanna Stage, 133 W Market St, Marietta, PA"),
+  shakespeare=list(arts_role="company",city="Lancaster",refresh_days=7L,name="Lancaster Shakespeare Theatre",type="shakespeare",url="https://lancastershakespeare.org/shows/",venue=""),
+  dutch_apple=list(arts_role="company",city="Lancaster",refresh_days=7L,name="Dutch Apple Dinner Theatre",type="dutch_apple",url="https://dutchapple.com/",venue="Dutch Apple Dinner Theatre, 510 Centerville Rd, Lancaster, PA"),
+  gretna=list(arts_role="company",city="Mount Gretna",refresh_days=7L,name="Gretna Theatre",type="gretna",url="https://www.gretnatheatre.org/shows",venue="Mount Gretna Playhouse, Mount Gretna, PA"),
   birdclub=list(name="Lancaster County Bird Club",type="tec",url="https://lancasterbirdclub.org/wp-json/tribe/events/v1/events")
 )
 
@@ -251,6 +257,212 @@ fetch_direct_servant <- function(cfg,get_json) {
   result
 }
 
+# The adapters use advertised dates; a date range is not a timed calendar block.
+company_program <- function(cfg, title, url, description, range, location = cfg$venue, id = url) {
+  event <- direct_event(cfg$name, id, title, url, description, range$start, range$end, location)
+  event$series <- id
+  event
+}
+
+company_date_pattern <- paste0("\\b(", paste(month.name, collapse = "|"), ") +[0-9]{1,2}(?:st|nd|rd|th)?\\b")
+
+company_date_text <- function(text) {
+  gsub("[\u200b\ufeff]", "", gsub("\u00a0", " ", text), perl = TRUE)
+}
+
+company_range_from_days <- function(days) {
+  list(start = publication_time(as.character(min(days))),
+    end = publication_time(as.character(max(days) + 1L)) - 1)
+}
+
+company_require_programs <- function(records, cfg) {
+  if (!length(records)) stop("No dated programs recognized for ", cfg$name)
+  records
+}
+
+fetch_direct_symphony <- function(cfg, get_page) {
+  listing <- get_page(cfg$url)
+  links <- html_elements(listing, ".Header-nav-folder a[href], .Mobile-overlay-folder a[href]")
+  labels <- html_text2(links)
+  shows <- links[grepl("^[A-Za-z]+ +[0-9]+.*\\|", labels)]
+  urls <- xml2::url_absolute(html_attr(shows, "href"), cfg$url)
+  records <- lapply(which(!duplicated(urls)), function(i) {
+    url <- urls[i]
+    page <- get_page(url)
+    main <- html_element(page, "main")
+    headings <- trimws(html_text2(html_elements(main, "h1, h2, h3")))
+    title <- text_value(headings[nzchar(headings)], sub("^.*?\\| +", "", html_text2(shows[i]), perl = TRUE))
+    paragraphs <- company_date_text(html_text2(html_elements(main, "p, h3, h4")))
+    lines <- trimws(unlist(strsplit(paragraphs, "\n", fixed = TRUE)))
+    dates <- grep(paste0("^(?:(?:", paste(c("Monday", "Tuesday", "Wednesday", "Thursday",
+      "Friday", "Saturday", "Sunday"), collapse = "|"), "),? +)?", company_date_pattern,
+      ",? +20[0-9]{2}"), lines, value = TRUE, ignore.case = TRUE, perl = TRUE)
+    if (!length(dates)) {
+      message(cfg$name, ": no explicit dates on ", url)
+      return(NULL)
+    }
+    parsed <- lapply(dates, direct_date_range)
+    days <- as.Date(vapply(parsed, `[[`, "", "date"))
+    place <- grep("Gardner Theat|Convention Center|Presbyterian Church|Lititz Springs Park",
+      lines, value = TRUE, ignore.case = TRUE)
+    location <- if (length(place)) {
+      sub("^.*?\\b(at|in) (the )?", "", place[1], perl = TRUE, ignore.case = TRUE)
+    } else ""
+    if (grepl("Gardner Theat", location, ignore.case = TRUE)) location <- "Gardner Theatre, Lancaster, PA"
+    if (grepl("First Presbyterian Church", location, ignore.case = TRUE)) location <- "First Presbyterian Church, Lancaster, PA"
+    if (grepl("Lancaster County Convention Center", location, ignore.case = TRUE)) location <- "Lancaster County Convention Center, Lancaster, PA"
+    event <- company_program(cfg, title, url, paste(lines[nzchar(lines)], collapse = " "),
+      company_range_from_days(days), location)
+    add_direct_article_links(event, page, url)
+  })
+  company_require_programs(Filter(Negate(is.null), records), cfg)
+}
+
+parse_direct_allegro <- function(page, cfg) {
+  tickets <- html_elements(page, "main a[href*='ticketspice.com']")
+  records <- lapply(tickets, function(ticket) {
+    card <- xml_parent(xml_parent(ticket))
+    paragraphs <- company_date_text(trimws(html_text2(html_elements(card, "p"))))
+    paragraphs <- paragraphs[nzchar(paragraphs)]
+    dates <- which(grepl(paste0(company_date_pattern, ",? +20[0-9]{2}"), paragraphs,
+      ignore.case = TRUE, perl = TRUE))
+    if (!length(dates) || dates[1] < 2L) return(NULL)
+    title <- paragraphs[if (dates[1] > 2L && grepl("^(Allegro Presents|Music in the Round):?$", paragraphs[1])) 2L else 1L]
+    days <- as.Date(vapply(lapply(paragraphs[dates], direct_date_range), `[[`, "", "date"))
+    after <- paragraphs[seq_along(paragraphs) > tail(dates, 1)]
+    location <- text_value(after)
+    ticket_url <- direct_public_url(html_attr(ticket, "href"), cfg$url)
+    section <- xml_find_first(card, "ancestor::*[@id][1]")
+    anchor <- text_value(html_attr(section, "id"))
+    url <- if (nzchar(anchor)) paste0(cfg$url, "#", anchor) else cfg$url
+    id <- paste(discovery_key(title), format(min(days), "%Y"), sep = "-")
+    event <- company_program(cfg, title, url, html_text2(card),
+      company_range_from_days(days), location, id)
+    if (nzchar(ticket_url)) event$ticket_url <- ticket_url
+    event
+  })
+  company_require_programs(Filter(Negate(is.null), records), cfg)
+}
+
+fetch_direct_susquehanna <- function(cfg, get_page, today) {
+  cards <- html_elements(get_page(cfg$url), ".photoGalleryThumbs")
+  records <- lapply(cards, function(card) {
+    title <- html_text2(html_element(card, ".caption-title"))
+    url <- direct_public_url(html_attr(html_element(card, "a[href*='/shows-page/']"), "href"), cfg$url)
+    if (!nzchar(url) || is.na(title)) return(NULL)
+    page <- get_page(url)
+    heading <- html_elements(page, "h4")
+    heading <- heading[trimws(html_text2(heading)) == "Show Dates"]
+    if (!length(heading)) return(NULL)
+    fields <- html_text2(html_elements(xml_parent(xml_parent(heading[[1]])), ".dmNewParagraph"))
+    lines <- trimws(unlist(strsplit(company_date_text(fields), "\n", fixed = TRUE)))
+    dates <- grep(paste0("^[[:alpha:]]+ *, +", company_date_pattern),
+      lines, value = TRUE, ignore.case = TRUE, perl = TRUE)
+    booking <- ""
+    if (length(dates)) {
+      # The detail page gives weekdays, even when the season page omits the year.
+      days <- as.Date(vapply(dates, listing_event_date, "", today = today))
+    } else if (endsWith(url, "/shows-page/charliebrown") &&
+      identical(discovery_key(title), "a charlie brown christmas") && today <= as.Date("2026-12-20")) {
+      # Verified on the theater's official ThunderTix page while its detail page says TBA.
+      days <- as.Date(c("2026-12-11", "2026-12-20"))
+      booking <- "https://susquehannastage.thundertix.com/events/269629"
+    } else {
+      message(cfg$name, ": dates unavailable for ", title)
+      return(NULL)
+    }
+    event <- company_program(cfg, title, url, html_text2(html_element(card, ".caption-text")),
+      company_range_from_days(days))
+    event <- add_direct_article_links(event, page, url)
+    if (nzchar(booking)) event$ticket_url <- booking
+    event
+  })
+  company_require_programs(Filter(Negate(is.null), records), cfg)
+}
+
+fetch_direct_shakespeare <- function(cfg, get_page, today) {
+  page <- get_page(cfg$url)
+  cards <- html_elements(page, ".copy")
+  home <- NULL
+  records <- lapply(cards, function(card) {
+    title <- html_text2(html_element(card, "h2"))
+    paragraphs <- company_date_text(html_text2(html_elements(card, "p")))
+    date <- text_value(grep(paste0("^", company_date_pattern), paragraphs,
+      value = TRUE, ignore.case = TRUE, perl = TRUE))
+    if (is.na(title) || !nzchar(date)) return(NULL)
+    year <- NULL
+    location <- ""
+    if (!grepl("\\b20[0-9]{2}\\b", date)) {
+      if (is.null(home)) home <<- html_element(get_page(xml2::url_absolute("/", cfg$url)), ".next")
+      if (inherits(home, "xml_missing") || !grepl(title, html_text2(home), fixed = TRUE)) return(NULL)
+      date_match <- regmatches(date, regexpr(company_date_pattern, date, perl = TRUE, ignore.case = TRUE))
+      parsed <- direct_date_range(date_match, as.integer(format(today, "%Y")))
+      numeric_date <- format(as.Date(parsed$date), "%m/%d")
+      numeric_date <- gsub("(^|/)0", "\\1", numeric_date)
+      pattern <- paste0("(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), +",
+        numeric_date, "\\b")
+      weekdays <- regmatches(html_text2(home), regexec(pattern, html_text2(home), perl = TRUE))[[1]]
+      if (!length(weekdays)) return(NULL)
+      year <- as.integer(substr(listing_event_date(paste(weekdays[2], date_match), today), 1, 4))
+      address <- grep("Church|Playhouse|Theat(re|er)", html_text2(html_elements(home, ".copy p")),
+        value = TRUE)
+      location <- text_value(address)
+    }
+    id <- paste0(cfg$url, "#", gsub(" +", "-", discovery_key(title)))
+    event <- company_program(cfg, title, cfg$url, html_text2(card),
+      direct_date_range(date, year), location, id)
+    add_direct_article_links(event, card, cfg$url)
+  })
+  if (!length(Filter(Negate(is.null), records)) &&
+      !any(grepl("Stay Tuned|season.*(forthcoming|coming soon)",
+        html_text2(html_elements(page, "h1,h2")), ignore.case = TRUE))) {
+    stop("Lancaster Shakespeare Theatre show listings were not recognized")
+  }
+  Filter(Negate(is.null), records)
+}
+
+fetch_direct_dutch_apple <- function(cfg, get_page) {
+  home <- get_page(cfg$url)
+  links <- html_attr(html_elements(home, "a[href*='/our-shows/']"), "href")
+  urls <- unique(xml2::url_absolute(links[grepl("/(main-theatre|childrens-theatre|concerts)-20[0-9]{2}/?$", links)], cfg$url))
+  records <- list()
+  for (season in urls) {
+    year <- as.integer(sub(".*-(20[0-9]{2})/?$", "\\1", season))
+    page <- get_page(season)
+    cards <- html_elements(page, "a[href*='/shows/']")
+    cards <- cards[!is.na(html_text2(html_element(cards, ".show-info .dates")))]
+    if (!length(cards)) stop("Dutch Apple show cards missing: ", season)
+    for (card in cards) {
+      date <- html_text2(html_element(card, ".dates"))
+      image <- html_element(card, "img")
+      title <- html_attr(image, "alt")
+      url <- direct_public_url(html_attr(card, "href"), season)
+      if (is.na(title) || !nzchar(title)) {
+        title <- html_text2(html_element(get_page(url), "h1.title"))
+      }
+      event <- company_program(cfg, title, url, "", direct_date_range(date, year))
+      event$season_url <- season
+      records[[length(records) + 1L]] <- add_direct_article_links(event, card, url, html_attr(image, "src"))
+    }
+  }
+  company_require_programs(records, cfg)
+}
+
+parse_direct_gretna <- function(page, cfg) {
+  cards <- html_elements(page, ".wixui-repeater__item")
+  records <- lapply(cards, function(card) {
+    title <- html_text2(html_element(card, "h5"))
+    date <- text_value(grep(company_date_pattern, company_date_text(html_text2(html_elements(card, "h6"))),
+      value = TRUE, perl = TRUE, ignore.case = TRUE))
+    if (is.na(title) || !nzchar(date)) return(NULL)
+    url <- direct_public_url(html_attr(html_element(card, "a[href*='/shows/']"), "href"), cfg$url)
+    if (!nzchar(url)) return(NULL)
+    event <- company_program(cfg, title, url, "", direct_date_range(date))
+    add_direct_article_links(event, card, url, html_attr(html_element(card, "img"), "src"))
+  })
+  company_require_programs(Filter(Negate(is.null), records), cfg)
+}
+
 # Cache public responses separately from event identity/history. It also reduces
 # repeated detail-page requests when testing or rerunning a queued workflow.
 direct_http <- function(root,now,force=FALSE) {
@@ -323,7 +535,13 @@ collect_direct_sources <- function(root,today,through,now,force=FALSE) {
     results[[id]]<-collect_source_safely(id,cfg$name,root,now,function()switch(cfg$type,
       tec=fetch_direct_tec(cfg,today,through+refresh_days,json),squarespace=parse_direct_squarespace(json(cfg$url),cfg),
       ware=fetch_direct_ware(cfg,get),fulton=parse_direct_fulton(get(cfg$url),cfg,get),
-      epac=fetch_direct_epac(cfg,get),servant=fetch_direct_servant(cfg,json),stop("Unknown adapter")),
+      epac=fetch_direct_epac(cfg,get),servant=fetch_direct_servant(cfg,json),
+      symphony=fetch_direct_symphony(cfg,get),allegro=parse_direct_allegro(get(cfg$url),cfg),
+      susquehanna=fetch_direct_susquehanna(cfg,get,today),
+      shakespeare=fetch_direct_shakespeare(cfg,get,today),
+      dutch_apple=fetch_direct_dutch_apple(cfg,get),
+      gretna=parse_direct_gretna(get(cfg$url),cfg),
+      stop("Unknown adapter")),
       refresh_days=refresh_days,force=force_source)
     if (!is.null(cfg$arts_role)) results[[id]]$events <- lapply(results[[id]]$events, function(event) {
       visual_art <- grepl("\\b(gallery|exhibitions?)\\b", text_value(event$categories), ignore.case = TRUE)
