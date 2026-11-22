@@ -143,6 +143,10 @@ discovery_title_key <- function(e,prefs) {
   title<-discovery_key(e$title)
   title<-sub("^we the people first friday +","",title)
   title<-sub(" +free$","",title)
+  title <- sub(" with (the )?lancaster symphony orchestra( (and )?choir)?$", "", title)
+  title <- sub(" with lso and the fulton theatre$", "", title)
+  if (title == "messiah by candelight") title <- "messiah by candlelight"
+  if (title == "from solitude to triumph") title <- "solitude to triumph"
   venue<-discovery_venue(e$location,prefs)
   suffix<-paste0(" at ",venue)
   if(nzchar(venue)&&endsWith(title,suffix))title<-substr(title,1,nchar(title)-nchar(suffix))
@@ -332,6 +336,86 @@ write_discovery_rss <- function(events,path,root,performing=FALSE) {
   if(!file.rename(tmp,path))stop("Cannot replace discovery RSS")
 }
 
+write_company_season_grid <- function(records, companies, prefs, today, path) {
+  local_day <- function(time) as.Date(as.POSIXct(time, origin = "1970-01-01",
+    tz = "America/New_York"), tz = "America/New_York")
+  month_label <- function(date) paste(month.abb[as.integer(format(date, "%m"))],
+    as.integer(format(date, "%d")))
+  date_label <- function(first, last) {
+    if (first == last) return(month_label(first))
+    if (format(first, "%Y") != format(last, "%Y")) {
+      return(paste(feed_display_date(as.character(first)), feed_display_date(as.character(last)), sep = "–"))
+    }
+    if (format(first, "%Y-%m") == format(last, "%Y-%m")) {
+      return(paste0(month_label(first), "–", as.integer(format(last, "%d"))))
+    }
+    paste(month_label(first), month_label(last), sep = "–")
+  }
+
+  records <- Filter(function(e) identical(e$arts_role, "company") &&
+    e$source %in% companies && local_day(e$end) >= today &&
+    discovery_match(e, prefs)$keep, records)
+  programs <- lapply(records, function(e) list(
+    title = e$title, source = e$source, url = e$url,
+    first = local_day(e$start), last = local_day(e$end)
+  ))
+  programs <- unique(programs)
+  last_days <- vapply(programs, function(e) as.numeric(e$last), numeric(1))
+  last_day <- as.Date(max(as.numeric(today), last_days), origin = "1970-01-01")
+  first_month <- as.Date(format(today, "%Y-%m-01"))
+  last_month <- as.Date(format(last_day, "%Y-%m-01"))
+  months <- seq(first_month, last_month, by = "month")
+
+  html <- xml_new_root("html", lang = "en")
+  head <- xml_add_child(html, "head")
+  xml_add_child(head, "meta", charset = "utf-8")
+  xml_add_child(head, "meta", name = "viewport", content = "width=device-width, initial-scale=1")
+  xml_add_child(head, "title", "Performing Arts Season Grid")
+  xml_add_child(head, "link", rel = "stylesheet", href = "seasons.css")
+  xml_add_child(head, "link", rel = "icon", type = "image/png", href = "icon.png")
+  main <- xml_add_child(xml_add_child(html, "body"), "main")
+  xml_add_child(xml_add_child(main, "p"), "a", "Lancaster Performing Arts", href = "./")
+  xml_add_child(main, "h1", "Performing Arts Season Grid")
+  xml_add_child(main, "p", "Blank cells have no listed program. Runs spanning months appear in each month.")
+  region <- xml_add_child(main, "div", class = "grid-scroll", tabindex = "0",
+    role = "region", `aria-label` = "Company schedules by month")
+  table <- xml_add_child(region, "table")
+  headings <- xml_add_child(xml_add_child(table, "thead"), "tr")
+  for (label in c("Month", companies)) xml_add_child(headings, "th", label, scope = "col")
+  body <- xml_add_child(table, "tbody")
+  for (month in seq_along(months)) {
+    month_start <- months[month]
+    month_end <- seq(month_start, by = "month", length.out = 2L)[2L] - 1
+    label <- paste(month.name[as.integer(format(month_start, "%m"))], format(month_start, "%Y"))
+    row <- xml_add_child(body, "tr")
+    xml_add_child(row, "th", label, scope = "row")
+    active <- Filter(function(e) e$first <= month_end && e$last >= month_start, programs)
+    for (company in companies) {
+      cell <- xml_add_child(row, "td")
+      listings <- Filter(function(e) identical(e$source, company), active)
+      if (!length(listings)) next
+      order_by_date <- order(vapply(listings, function(e) as.numeric(e$first), numeric(1)),
+        vapply(listings, `[[`, "", "title"))
+      list_node <- xml_add_child(cell, "ul")
+      for (e in listings[order_by_date]) {
+        item <- xml_add_child(list_node, "li")
+        label <- paste(e$title, "·", date_label(e$first, e$last))
+        if (grepl("^https?://[^/]+", e$url, ignore.case = TRUE)) {
+          xml_add_child(item, "a", label, href = e$url)
+        } else {
+          xml_set_text(item, label)
+        }
+      }
+    }
+  }
+
+  dir.create(dirname(path), recursive = TRUE, showWarnings = FALSE)
+  tmp <- tempfile(tmpdir = dirname(path))
+  on.exit(unlink(tmp), add = TRUE)
+  writeLines(c("<!doctype html>", as.character(html)), tmp, useBytes = TRUE)
+  if (!file.rename(tmp, path)) stop("Cannot replace Performing Arts Season Grid")
+}
+
 collect_discoveries <- function(root,now=as.numeric(Sys.time()),
     force_arts=tolower(Sys.getenv("REFRESH_PERFORMING_ARTS","false"))=="true") {
   prefs<-discovery_preferences
@@ -369,6 +453,17 @@ collect_discoveries <- function(root,now=as.numeric(Sys.time()),
   cache<-old;for(id in names(built$events))cache[[id]]<-built$events[[id]]
   cache<-Filter(function(e)e$end>=publication_time(as.character(today-365L)),cache)
   atomic_json(list(version=1L,last_checked=now,items=cache),path)
+  registry <- direct_source_registry()
+  companies <- Filter(function(cfg) identical(cfg$arts_role, "company"),
+    registry[intersect(names(registry), prefs$direct_sources)])
+  if (length(companies)) {
+    grid_path <- file.path(root, "docs", "performing-arts", "seasons.html")
+    company_health <- health[health$source_id %in% names(companies), ]
+    if (any(company_health$status %in% c("ok", "stale")) || !file.exists(grid_path)) {
+      company_names <- sort(vapply(companies, `[[`, "", "name"))
+      write_company_season_grid(records, company_names, prefs, today, grid_path)
+    }
+  }
   message("Discoveries: ",length(records)," source records → ",length(built$events)," filtered listings")
   failed<-health$source[health$status!="ok"]
   if(length(failed))stop("Feed published with source failures (see source-health.csv): ",paste(failed,collapse=", "))
