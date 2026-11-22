@@ -104,5 +104,47 @@ body <- read_html(xml_text(xml_find_first(article, "./description")))
 stopifnot(html_attr(html_element(body, "img"), "src") == company$poster,
   company$ticket_url %in% html_attr(html_elements(body, "a"), "href"),
   any(grepl("\\.ics$", html_attr(html_elements(body, "a"), "href"))))
+# An orchestra listing matches the tourism title that spells out the performer.
+lso <- fixture("Tales & Legends", "Lancaster Symphony Orchestra", "orchestra", venue = "Gardner Theatre, Lancaster")
+lso$arts_role <- "company"
+lso$direct <- TRUE
+lso_tourism <- fixture("Tales & Legends with the Lancaster Symphony Orchestra",
+  venue = "Gardner Theatre at Lancaster Country Day School, Lancaster")
+matched <- build_discoveries(list(lso_tourism, lso), p, now)$events
+stopifnot(length(matched) == 1L, length(matched[[1]]$sources) == 2L,
+  matched[[1]]$arts_organization == lso$source)
+# The season grid uses company listings, including dates past the feed window.
+holiday <- fixture("Holiday Run", "Example Company", "holiday",
+  "2026-12-29T19:00:00-05:00", "2027-01-03T21:00:00-05:00")
+holiday$arts_role <- "company"
+holiday$direct <- TRUE
+grid_path <- file.path(tmp, "docs", "performing-arts", "seasons.html")
+ending_today <- fixture("Ongoing Run", "Example Company", "ongoing",
+  "2026-11-19T19:00:00-05:00", "2026-11-22T21:00:00-05:00")
+ending_today$arts_role <- "company"
+ending_today$direct <- TRUE
+write_company_season_grid(list(venue, company, holiday, holiday, far_company, ending_today),
+  c("Example Company", "Company Without Listings"), p, as.Date("2026-11-22"), grid_path)
+grid <- read_html(grid_path)
+links <- function(query) html_text2(xml_find_all(grid, query))
+stopifnot(
+  length(xml_find_all(grid, "//table")) == 1L,
+  identical(links("//tbody/tr/th"),
+    c("November 2026", "December 2026", "January 2027", "February 2027", "March 2027")),
+  identical(links("//thead/tr[1]/th")[1:3], c("Month", "Example Company", "Company Without Listings")),
+  length(links("//tbody//a[contains(., 'Holiday Run')]")) == 2L,
+  identical(links("//tbody//a[contains(., 'Ongoing Run')]"), "Ongoing Run · Nov 19–22"),
+  !length(links("//tbody//a[contains(., 'Winter Concert')]")),
+  identical(links("//tbody/tr[th='March 2027']/td[1]//a"),
+    "Future Company Concert · Mar 1"),
+  !any(grepl("Example Venue", links("//th"), fixed = TRUE)),
+  html_attr(xml_find_first(grid, "//a[contains(., 'Holiday Run')]"), "href") == holiday$url
+)
+write_company_season_grid(list(), "Example Company", p, as.Date("2026-11-30"), grid_path)
+grid <- read_html(grid_path)
+stopifnot(identical(links("//tbody/tr/th"), "November 2026"))
+write_company_season_grid(list(), "Example Company", p, as.Date("2026-12-01"), grid_path)
+grid <- read_html(grid_path)
+stopifnot(identical(links("//tbody/tr/th"), "December 2026"))
 unlink(tmp,recursive=TRUE)
 cat('Discovery tests passed\n')
