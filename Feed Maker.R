@@ -16,7 +16,7 @@ source(file.path(root, "R", "libraries.R"))
 source(file.path(root, "R", "direct-sources.R"))
 # Independent collectors: a document-page failure should not prevent news updates.
 failures <- character()
-for (collector in c("collect_township_news", "collect_meeting_documents", "collect_county_commissioner_documents", "collect_conservancy_events", "collect_discoveries")) {
+for (collector in c("collect_township_news", "collect_meeting_documents", "collect_county_commissioner_documents", "collect_conservancy_events", "collect_discoveries", "prune_expired_calendar_files")) {
   tryCatch(get(collector)(root), error = function(e) {
     failures <<- c(failures, paste(collector, conditionMessage(e), sep = ": "))
   })

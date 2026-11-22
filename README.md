@@ -104,6 +104,9 @@ Collection starts from the Conservancy's own event listing. Public Eventbrite JS
 
 The collector lists events on or after today's Eastern date. Registration detail failures leave the previous feed/calendar files in place rather than silently inventing details. Structured dates override estimated years; mismatched month/day dates stop publication. Calendar UIDs and RSS identifiers stay stable for Eventbrite events; meaningful detail changes increment the calendar SEQUENCE and update LAST-MODIFIED. Imported calendar entries are individual copies: they do not automatically stay synchronized or register you. Missing-time events are explicitly labeled tentative date reminders, with a transparent all-day placeholder and an exclusive next-day end date. Listing-only times/years remain tentative and labeled. There are no default alarms or attendee invitations.
 
+At the end of a full refresh, generated calendar files that ended more than 30
+days ago are removed if no published feed still links to them.
+
 Calendar files follow RFC 5545: CRLF line endings, UTF-8 octet-aware folding, text escaping, stable UIDs, UTC start/end times converted from Eastern time, and separate date-only reminders. A review/confirmation step in Calendar is expected. iPhone/Safari handling of a hosted `.ics` link still needs an end-to-end test after deployment; valid calendar files alone do not guarantee every browser opens the same import UI.
 
 ### GitHub update for Conservancy
