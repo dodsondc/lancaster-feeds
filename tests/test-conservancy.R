@@ -70,3 +70,35 @@ plain <- collect_conservancy_events(root,now=publication_time("2026-10-17"),enri
 stopifnot(length(plain)==6L,all(vapply(plain,function(e)e$price=="Not published; check registration",logical(1))))
 unlink(root,recursive=TRUE)
 cat("Passed Conservancy-only mode: no Eventbrite requests.\n")
+
+
+# Pruning preserves live links, recent events, and unrelated files.
+root <- tempfile("calendar-prune-")
+dir.create(root)
+calendar <- file.path(root, "docs", "calendar")
+expired <- first[[1]]
+expired$id <- paste0("discovery-", paste(rep("a", 32), collapse = ""), "-20261024T130000")
+expired_path <- file.path(calendar, paste0(expired$id, ".ics"))
+write_event_ics(expired, expired_path)
+linked <- first[[1]]
+linked_path <- file.path(calendar, paste0(linked$id, ".ics"))
+write_event_ics(linked, linked_path)
+write_conservancy_rss(list(linked), file.path(root, "lancaster_conservancy_events.xml"))
+date_only <- reminder
+date_only$event_date <- "2026-10-01"
+date_only$id <- "lc-old-reminder"
+date_path <- file.path(calendar, "lc-old-reminder.ics")
+write_event_ics(date_only, date_path)
+recent <- reminder
+recent$id <- "lc-recent-reminder"
+recent_path <- file.path(calendar, "lc-recent-reminder.ics")
+write_event_ics(recent, recent_path)
+other_path <- file.path(calendar, "lc-custom.ics")
+file.copy(date_path, other_path)
+as_of <- as.Date("2026-12-10")
+stopifnot(setequal(prune_expired_calendar_files(root, as_of, dry_run = TRUE), c(expired_path, date_path)),
+  file.exists(expired_path), file.exists(date_path))
+prune_expired_calendar_files(root, as_of)
+stopifnot(!file.exists(expired_path), !file.exists(date_path), file.exists(linked_path),
+  file.exists(recent_path), file.exists(other_path))
+unlink(root, recursive = TRUE)

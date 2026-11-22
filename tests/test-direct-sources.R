@@ -65,6 +65,34 @@ cfg<-direct_source_registry()$servant
 card<-'<div class="summary-item"><a class="summary-title-link" href="/shows/2027/honk">Honk! JR</a><div class="summary-excerpt"><p><strong>Ages 10-16</strong><br><strong>January 3-21 (Rehearsals)<br>January 22-24 (Performances)</strong></p></div></div>'
 shows<-fetch_direct_servant(cfg,function(url)if(identical(url,cfg$url))list(mainContent=card) else list(item=list(id='honk',body='Public performances.')))
 stopifnot(substr(local_day(shows[[1]]$start),1,10)=='2027-01-22',substr(local_day(shows[[1]]$end),1,10)=='2027-01-24')
+# Upcoming company schedules retain advertised dates and ignore season promos.
+cfg <- direct_source_registry()$gretna
+gretna <- read_html('<div class="wixui-repeater__item"><h5>Season announcement</h5>
+  <h6>Summer 2027</h6><a href="/shows/announcement">More info</a></div>
+  <div class="wixui-repeater__item"><h5>Example Show</h5>
+  <h6>May 27th - June 6th, 2027</h6><a href="/shows/example">More info</a></div>')
+shows <- parse_direct_gretna(gretna, cfg)
+stopifnot(length(shows) == 1L, substr(local_day(shows[[1]]$start), 1, 10) == "2027-05-27",
+  substr(local_day(shows[[1]]$end), 1, 10) == "2027-06-06")
+# Dutch Apple uses the year in each calendar URL for dates without a year.
+cfg <- direct_source_registry()$dutch_apple
+dutch_home <- read_html('<a href="/our-shows/main-theatre-2027/">Main Stage</a>
+  <a href="/our-shows/concerts-2027/">Concerts</a>
+  <a href="/our-shows/childrens-theatre-2027/">Children’s Theatre</a>')
+dutch_calendar <- function(title, slug, date) read_html(sprintf(
+  '<a href="/shows/%s/"><img alt="%s"><div class="show-info"><p class="dates">%s</p></div></a>',
+  slug, title, date))
+shows <- fetch_direct_dutch_apple(cfg, function(url) {
+  if (url == cfg$url) return(dutch_home)
+  switch(basename(sub("/$", "", url)),
+    "main-theatre-2027" = dutch_calendar("Main Stage Show", "show", "January 15 - February 20"),
+    "concerts-2027" = dutch_calendar("March Concert", "concert", "March 22 - March 23"),
+    "childrens-theatre-2027" = dutch_calendar("Family Show", "family", "April 23 - May 14"),
+    stop("Unexpected Dutch Apple URL: ", url))
+})
+stopifnot(identical(vapply(shows, `[[`, "", "title"), c("Main Stage Show", "March Concert", "Family Show")),
+  substr(local_day(shows[[2]]$start), 1, 10) == "2027-03-22",
+  substr(local_day(shows[[2]]$end), 1, 10) == "2027-03-23")
 # A weekly source stays available on daily runs, with an explicit refresh override.
 refresh_count <- 0L
 refresh_fixture <- function() {
