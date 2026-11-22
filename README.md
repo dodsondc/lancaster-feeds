@@ -247,7 +247,10 @@ Subscribe after the workflow has published both feeds:
 `https://raw.githubusercontent.com/dodsondc/lancaster-feeds/main/lancaster_performing_arts.xml`
 
 Performing companies (Fulton Theatre, Prima Theatre, Ephrata Performing Arts
-Center, and Servant Stage) contribute all advertised upcoming productions.
+Center, Servant Stage, Lancaster Symphony Orchestra, Allegro Orchestra Lancaster,
+Susquehanna Stage, Lancaster Shakespeare Theatre, Dutch Apple Dinner Theatre,
+and Gretna Theatre) contribute dated upcoming
+productions from their public listings.
 Presenting venues (Ware/Millersville and Mickey's Black Box) contribute upcoming
 and ongoing events within the 90-day window. Visual-art exhibitions, Demuth
 Museum events, and the Lancaster County Bird Club stay in Discoveries. A
@@ -270,6 +273,13 @@ available. Existing calendar-link rules apply. Each feed links to its own GitHub
 Pages home page, which declares a separate favicon. Those icons may take time to
 appear in a reader that already has a cached icon.
 
+The Performing Arts home page also links to a season grid
+(`docs/performing-arts/seasons.html`). The workflow builds it from the same
+collected company listings, without extra requests. One table shows months from the current
+month through the last listed engagement, with a column per enabled company. Programs link to their source pages,
+and runs spanning months appear in each applicable row. The grid includes
+engagements ending today or later. Presenting venues remain in RSS.
+
 Direct sources are eligible without a keyword match, subject to explicit
 exclusions, venue exclusions, and the dance-title rule (preferred venues still
 override that rule). Private-event listings are omitted. Youth performances are
@@ -286,6 +296,10 @@ uses performance dates, excluding rehearsal and camp-only notices. Touring
 locations and individual show times remain in the description/source when a
 single reliable structured itinerary is unavailable. No ticket purchase platform
 account is needed. Prices omitted by a source remain unknown.
+
+Dutch Apple uses the Main Stage, Concerts, and Children's Theatre calendars.
+The Shakespeare adapter can infer a missing year when the published weekday
+and date establish it.
 
 Matching titles and known venue aliases with overlapping dates merge across
 sources. A few documented title variations (FREE suffix, First Friday prefix,
