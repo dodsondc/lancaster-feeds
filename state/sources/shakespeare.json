@@ -1,0 +1,23 @@
+{
+  "checked_at": 1795372238.23091,
+  "events": [
+    {
+      "source": "Lancaster Shakespeare Theatre",
+      "source_id": "https://lancastershakespeare.org/shows/#riii",
+      "series": "https://lancastershakespeare.org/shows/#riii",
+      "title": "Riii!",
+      "url": "https://lancastershakespeare.org/shows/",
+      "description": "Riii! from the life and DEATH of king richard iii by William Shakespeare February 25 – 28 This 90-minute thrill ride is the true(ish) story of Shakespeare’s twisted usurper hacking his way up the family tree; hell-bent for the throne. A handful of actors bring over 40 characters to life (and death) in one of history’s most sensational bloodbaths: trust no one, watch your back, and hold on. Tickets will go on sale in February",
+      "categories": "",
+      "start": 1803531600,
+      "end": 1803877199,
+      "location": "St. John’s Episcopal Church 321 West Chestnut St. Lancaster, PA 17603 (Entrance for box office is off North Mulberry St)",
+      "price": "Not supplied by this source; check event details",
+      "all_day": true,
+      "end_known": true,
+      "status": "CONFIRMED",
+      "direct": true
+    }
+  ],
+  "scheduled": true
+}
