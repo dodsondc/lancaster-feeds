@@ -1,28 +1,6 @@
 {
-  "checked_at": 1795400264.33731,
+  "checked_at": 1795473513.97511,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "187742",
-      "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
-      "title": "PA 211 Resource Table",
-      "description": "PA 211 staff will provide easily accessible walk-up assistance in the library's front lobby. Assistance includes information and referrals for a broad range of services: childcare, after-school programs, food banks, elder care, basic needs, health services, and more. PA 211 staff can also provide housing and homelessness intake screenings for residents of Berks and Lancaster counties. Monday, Wednesday, Thursday: 9am-5pm First Thursday: 9am-3:30pm",
-      "categories": "Community",
-      "url": "https://calendar.lancasterlibraries.org/event/pa-211-resource-table-187742",
-      "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795442400,
-      "end": 1795471200,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Community"
-      ],
-      "branch": "Lancaster"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "199453",
@@ -2033,7 +2011,7 @@
       "categories": "Arts & Crafts",
       "url": "https://calendar.lancasterlibraries.org/event/reserved-program-210891",
       "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Not supplied by this calendar; check event details",
+      "price": "Free",
       "start": 1797703200,
       "end": 1797710400,
       "all_day": false,
@@ -2559,6 +2537,29 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "213934",
+      "series": "https://calendar.lancasterlibraries.org/series/unbox-your-e-reader-e-book-basics-drop-in-manheim-township",
+      "title": "Unbox Your E-Reader: E-Book Basics Drop In!",
+      "description": "Got a new e-reader or tablet for the holidays? Learn how to borrow thousands of free e-books and audiobooks using your library card! We’ll help you get set up on your device and show you the ropes in a quiet one-on-one setting. No question is too weird! Please bring your charged device, your library card, and any app store passwords.",
+      "categories": "Technology Class",
+      "url": "https://calendar.lancasterlibraries.org/event/unbox-your-e-reader-e-book-basics-drop-213934",
+      "location": "Manheim Township Library, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1799100000,
+      "end": 1799103600,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Technology Class"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "206535",
       "series": "https://calendar.lancasterlibraries.org/series/penn-medicine-blood-drive-manheim-township",
       "title": "Penn Medicine Blood Drive",
@@ -2788,6 +2789,29 @@
       ],
       "program_types": [
         "Book Club"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
+      "source_id": "213935",
+      "series": "https://calendar.lancasterlibraries.org/series/unbox-your-e-reader-e-book-basics-drop-in-manheim-township",
+      "title": "Unbox Your E-Reader: E-Book Basics Drop In!",
+      "description": "Got a new e-reader or tablet for the holidays? Learn how to borrow thousands of free e-books and audiobooks using your library card! We’ll help you get set up on your device and show you the ropes in a quiet one-on-one setting. No question is too weird! Please bring your charged device, your library card, and any app store passwords.",
+      "categories": "Technology Class",
+      "url": "https://calendar.lancasterlibraries.org/event/unbox-your-e-reader-e-book-basics-drop-213935",
+      "location": "Manheim Township Library, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1799704800,
+      "end": 1799708400,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Technology Class"
       ],
       "branch": "Manheim Township"
     },
@@ -3211,10 +3235,33 @@
     },
     {
       "source": "Lancaster Libraries",
+      "source_id": "213937",
+      "series": "https://calendar.lancasterlibraries.org/series/unbox-your-e-reader-e-book-basics-drop-in-manheim-township",
+      "title": "Unbox Your E-Reader: E-Book Basics Drop In!",
+      "description": "Got a new e-reader or tablet for the holidays? Learn how to borrow thousands of free e-books and audiobooks using your library card! We’ll help you get set up on your device and show you the ropes in a quiet one-on-one setting. No question is too weird! Please bring your charged device, your library card, and any app store passwords.",
+      "categories": "Technology Class",
+      "url": "https://calendar.lancasterlibraries.org/event/unbox-your-e-reader-e-book-basics-drop-213937",
+      "location": "Manheim Township Library, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1800914400,
+      "end": 1800918000,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Technology Class"
+      ],
+      "branch": "Manheim Township"
+    },
+    {
+      "source": "Lancaster Libraries",
       "source_id": "213398",
       "series": "https://calendar.lancasterlibraries.org/series/swoon-squad-a-romance-tbr-book-club-manheim-township",
       "title": "Swoon Squad: A Romance TBR Book Club",
-      "description": "Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ January 25: 🕰️Historical Romance🕰️ February 22: 💍Fake Dating / Marriage of Convenience💍 March 29:⏳Second Chance Romance⏳ April 26: 💎Billionaire Romance💎 May 31: 🏡Small Town Romance🏡 June 28: ☀️Summer Fling☀️ July 26: 🐉Romantasy🐉 August 30: 💼Workplace Romance💼 September 27: 🛡️Romantic Suspense / Bodyguard🛡️ October 25: 🔮Witchy / Gothic Romance🔮 November 29: 🚫Forbidden Romance / Brother's Best Friend🚫 December 27:🎁Holiday Romance🎁",
+      "description": "Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ January 25: 🕰️Historical Romance🕰️ February 22: 💍Fake Dating / Marriage of Convenience💍 March 29:⏳Second Chance Romance⏳ April 26: 💎Billionaire Romance💎 May 24: 🏡Small Town Romance🏡 June 28: ☀️Summer Fling☀️ July 26: 🐉Romantasy🐉 August 30: 💼Workplace Romance💼 September 27: 🛡️Romantic Suspense / Bodyguard🛡️ October 25: 🔮Witchy / Gothic Romance🔮 November 29: 🚫Forbidden Romance / Brother's Best Friend🚫 December 27:🎁Holiday Romance🎁",
       "categories": "Book Club",
       "url": "https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-213398",
       "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
