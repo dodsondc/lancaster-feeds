@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795304211.13333,
+  "checked_at": 1795400264.33731,
   "events": [
     {
       "source": "Ware / Millersville",
@@ -333,24 +333,6 @@
     },
     {
       "source": "Ware / Millersville",
-      "source_id": "https://artsmu.com/event/les-mis%c3%a9rables-in-concert/winter-visual-performing-arts-center/",
-      "series": "https://artsmu.com/event/les-mis%c3%a9rables-in-concert/winter-visual-performing-arts-center/",
-      "title": "Les Misérables In Concert",
-      "url": "https://artsmu.com/event/les-mis%c3%a9rables-in-concert/winter-visual-performing-arts-center/",
-      "description": "The All-Campus Musical Organization (ACMO) presents Les Misérables In Concert. MU Students can purchase up to one (1) discounted ticket for $5.00 with a valid MU ID. MU Discounts are NOT available online and must be purchased in-person or by calling any box office location. Venue has limited seating capacity. Advanced ticket reservations are strongly encouraged. MU Discount tickets are subject to availability at the door.",
-      "categories": "ACMO Presents",
-      "start": 1795287600,
-      "end": 1795287600,
-      "location": "Winter Visual & Performing Arts Center",
-      "price": "Not supplied by this source; check event details",
-      "all_day": false,
-      "end_known": false,
-      "status": "CONFIRMED",
-      "direct": true,
-      "poster": "https://artsmu.com/wp-content/uploads/2026/10/les-miserables-in-concert.jpg"
-    },
-    {
-      "source": "Ware / Millersville",
       "source_id": "https://artsmu.com/event/jazz-ensembles-jazz-java-with-alumni-band-3/winter-visual-performing-arts-center/",
       "series": "https://artsmu.com/event/jazz-ensembles-jazz-java-with-alumni-band-3/winter-visual-performing-arts-center/",
       "title": "Jazz Ensembles: Jazz & Java with Alumni Band",
@@ -386,25 +368,6 @@
       "direct": true,
       "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Faculty_386341735536501.jpg",
       "ticket_url": "https://www.etix.com/ticket/p/59635001/spring-orchestra-concert-millersville-winter-visual-performing-arts-center?partner_id=100"
-    },
-    {
-      "source": "Ware / Millersville",
-      "source_id": "https://artsmu.com/event/fall-orchestra-concert/winter-visual-performing-arts-center/",
-      "series": "https://artsmu.com/event/fall-orchestra-concert/winter-visual-performing-arts-center/",
-      "title": "Fall Orchestra Concert",
-      "url": "https://artsmu.com/event/fall-orchestra-concert/winter-visual-performing-arts-center/",
-      "description": "MU Students can receive up to one (1) free ticket with a valid MU ID. MU discounts are NOT available online and must be made in-person or by calling any box office location. Advanced ticket reservations are strongly encouraged. MU discount tickets are subject to availability on the day of the event.",
-      "categories": "",
-      "start": 1795307400,
-      "end": 1795307400,
-      "location": "Winter Visual & Performing Arts Center",
-      "price": "10.00",
-      "all_day": false,
-      "end_known": false,
-      "status": "CONFIRMED",
-      "direct": true,
-      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Faculty_386341735536501.jpg",
-      "ticket_url": "https://www.etix.com/ticket/p/51058346/fall-orchestra-concert-millersville-winter-visual-performing-arts-center?partner_id=100"
     },
     {
       "source": "Ware / Millersville",
@@ -517,8 +480,7 @@
       "end_known": false,
       "status": "CONFIRMED",
       "direct": true,
-      "poster": "https://artsmu.com/wp-content/uploads/2026/07/etix-Glorious_593211752669932.jpg",
-      "ticket_url": "https://www.etix.com/ticket/p/47389845/sold-out-glorious-sounds-of-the-season-millersville-winter-visual-performing-arts-center?partner_id=100"
+      "poster": "https://artsmu.com/wp-content/uploads/2026/07/etix-Glorious_593211752669932.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -664,13 +626,12 @@
       "start": 1795375800,
       "end": 1795375800,
       "location": "Winter Visual & Performing Arts Center",
-      "price": "10.00",
+      "price": "Not supplied by this source; check event details",
       "all_day": false,
       "end_known": false,
       "status": "CONFIRMED",
       "direct": true,
-      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Concert_592871752661752.jpg",
-      "ticket_url": "https://www.etix.com/ticket/p/51259698/concert-band-wind-ensemble-millersville-winter-visual-performing-arts-center?partner_id=100"
+      "poster": "https://artsmu.com/wp-content/uploads/2026/01/etix-Concert_592871752661752.jpg"
     },
     {
       "source": "Ware / Millersville",
@@ -861,24 +822,6 @@
       "direct": true,
       "poster": "https://artsmu.com/wp-content/uploads/2026/08/sean-heelys-celtic-christmas.jpg",
       "ticket_url": "https://www.etix.com/ticket/p/54771302/se%C3%A1n-heelys-celtic-christmas-lancaster-ware-center-for-the-arts?partner_id=100"
-    },
-    {
-      "source": "Ware / Millersville",
-      "source_id": "https://artsmu.com/event/layer-the-walls-turn-of-the-century/the-ware-center/",
-      "series": "https://artsmu.com/event/layer-the-walls-turn-of-the-century/the-ware-center/",
-      "title": "Layer The Walls: Turn of the Century",
-      "url": "https://artsmu.com/event/layer-the-walls-turn-of-the-century/the-ware-center/",
-      "description": "Saturday, November 21, 2026 • 3 PM • Steinman Hall What if the walls of a home could tell the stories of everyone who lived there? In one New York City tenement, forty layers of wallpaper hold traces of the immigrant families who made it their home. Behind each layer is a story of courage, survival, and the search for a better life Through imaginative puppetry, masks, and live performance, Layer the Walls brings these remarkable stories to life—from an Irish immigrant helping build the Brooklyn Bridge to Italian brothers caught in the Great Blizzard of 1888 and Russian Jewish garment workers who stood together to demand safer working conditions. Moving, inventive, and deeply human, Layer the Walls is a story about the people who came before us, and the stories worth remembering. Tickets: Adults $15 | Students $10 Recommended for ages 8 Make an afternoon of it! Free kids’ activities and crafts begin in the lobby at 2 PM ASL interpretation, audio description, sensory-friendly accommodations, and a pre-show touch tour will be available. Interested? Contact Barry Kornhauser to learn more.",
-      "categories": "Family Fun Fest",
-      "start": 1795291200,
-      "end": 1795291200,
-      "location": "The Ware Center",
-      "price": "Not supplied by this source; check event details",
-      "all_day": false,
-      "end_known": false,
-      "status": "CONFIRMED",
-      "direct": true,
-      "poster": "https://artsmu.com/wp-content/uploads/2026/11/layer-the-walls-turn-of-the-century.jpg"
     },
     {
       "source": "Ware / Millersville",
