@@ -26,6 +26,7 @@ listing_event_date <- function(text, today) {
 
 parse_conservancy_listing <- function(page, today) {
   result <- list()
+  coming_soon <- FALSE
   for (row in html_elements(page, ".vc_inner")) {
     heading <- html_elements(row, "h2")
     if (length(heading) != 1L) next
@@ -33,7 +34,10 @@ parse_conservancy_listing <- function(page, today) {
     column <- html_element(row, ".wpb_text_column")
     raw_date <- html_element(column, "strong") |> html_text2()
     if (is.na(raw_date) || !nzchar(trimws(raw_date))) {
-      if (grepl("^more events coming soon[!.]*$", trimws(title), ignore.case = TRUE)) next
+      if (grepl("^more events coming soon[!.]*$", trimws(title), ignore.case = TRUE)) {
+        coming_soon <- TRUE
+        next
+      }
       stop("Missing date for ", title)
     }
     date <- listing_event_date(raw_date, today)
@@ -62,7 +66,7 @@ parse_conservancy_listing <- function(page, today) {
       price="Not published; check registration", start=start, end=end,
       date_source="Year inferred from listing month/day/weekday", status="TENTATIVE")
   }
-  if (!length(result)) stop("No Conservancy events recognized; previous feed retained")
+  if (!length(result) && !coming_soon) stop("No Conservancy events recognized; previous feed retained")
   result
 }
 
@@ -252,8 +256,6 @@ collect_conservancy_events <- function(root, now=as.numeric(Sys.time()), enrich_
     e$signature<-signature
     result[[id]]<-e;cache[[id]]<-e
   }
-  # Zero recognized upcoming entries is a visible failure, not a silently empty feed.
-  if(!length(result))stop("No upcoming Conservancy events; previous feed retained")
   # Fetch and validate all source data before publishing any generated files.
   for(e in result)write_event_ics(e,file.path(root,"docs","calendar",paste0(e$id,".ics")))
   write_conservancy_rss(result,file.path(root,"lancaster_conservancy_events.xml"))
