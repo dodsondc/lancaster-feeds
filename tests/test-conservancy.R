@@ -72,6 +72,27 @@ unlink(root,recursive=TRUE)
 cat("Passed Conservancy-only mode: no Eventbrite requests.\n")
 
 
+# A valid listing may have no upcoming events. Unrecognized pages still fail.
+root <- tempfile("conservancy-empty-")
+dir.create(root)
+response_html <- function(body) httr2::response(200,
+  headers = list(`content-type` = "text/html"), body = charToRaw(body))
+fetch_page <- function(url) response_html(paste(readLines(
+  file.path("tests", "fixtures", "conservancy-listing.html"), warn = FALSE), collapse = "\n"))
+now <- publication_time("2026-11-22")
+empty <- collect_conservancy_events(root, now, enrich_eventbrite = FALSE)
+feed_path <- file.path(root, "lancaster_conservancy_events.xml")
+stopifnot(!length(empty), !length(xml_find_all(read_xml(feed_path), "//item")))
+fetch_page <- function(url) response_html('<div class="vc_inner"><h2>MORE EVENTS COMING SOON!</h2></div>')
+stopifnot(!length(collect_conservancy_events(root, now, enrich_eventbrite = FALSE)))
+before <- readLines(feed_path)
+fetch_page <- function(url) response_html("<p>Unexpected page layout</p>")
+failure <- tryCatch(collect_conservancy_events(root, now, enrich_eventbrite = FALSE),
+  error = conditionMessage)
+stopifnot(grepl("No Conservancy events recognized", failure, fixed = TRUE),
+  identical(before, readLines(feed_path)))
+unlink(root, recursive = TRUE)
+
 # Pruning preserves live links, recent events, and unrelated files.
 root <- tempfile("calendar-prune-")
 dir.create(root)
