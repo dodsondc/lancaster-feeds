@@ -33,7 +33,7 @@ jobs:
     timeout-minutes: 20
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -104,11 +104,20 @@ jobs:
         if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/index.html') != '' }}
         uses: actions/configure-pages@v5
       - name: Upload calendar files
+        id: pages_upload
         if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/index.html') != '' }}
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: docs
       - name: Deploy calendar files
         id: deployment
-        if: ${{ !cancelled() && steps.publish.outcome == 'success' && hashFiles('docs/index.html') != '' }}
+        if: ${{ !cancelled() && steps.pages_upload.outcome == 'success' }}
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - name: Wait before retrying Pages deployment
+        if: ${{ !cancelled() && steps.deployment.outcome == 'failure' }}
+        run: sleep 15
+      - name: Retry calendar-file deployment
+        id: deployment_retry
+        if: ${{ !cancelled() && steps.deployment.outcome == 'failure' }}
         uses: actions/deploy-pages@v4
