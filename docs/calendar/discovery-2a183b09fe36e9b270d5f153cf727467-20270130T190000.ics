@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-2a183b09fe36e9b270d5f153cf727467-20270130T190000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261124T211048Z
+LAST-MODIFIED:20261124T211048Z
+SEQUENCE:1
+DTSTART:20270130T190000Z
+DTEND:20270130T203000Z
+SUMMARY:Book Club
+DESCRIPTION:Book: Life Hacks for a Little Alien by Alice Franklin Chat\, cr
+ aft\, and spend intentional time together! All are welcome! Craft will be 
+ provided\, but you're welcome to bring your own. Snacks to share are also 
+ welcome! January 30\, 2027 2:00 pm\n\nPrice: Free\n\nSchedule listed: Jan 
+ 30\, 2027 · 02:00 PM EST – 03:30 PM EST\n\nSchedule supplied by Lancast
+ er Libraries\n\nTimes converted from America/New_York to UTC for calendar 
+ compatibility.\n\n\n\nRegistration: https://calendar.lancasterlibraries.or
+ g/event/book-club-214615\n\nAdding this calendar item does not register yo
+ u. Check the original listing for changes\; imported events do not automat
+ ically stay in sync.
+LOCATION:Strasburg-Heisler Library\, 143 Precision Avenue\, Strasburg\, PA\
+ , 17579
+URL:https://calendar.lancasterlibraries.org/event/book-club-214615
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-847b1ed23ac6767bcc68790f299f112f-20261211T170000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261124T211048Z
+LAST-MODIFIED:20261124T211048Z
+SEQUENCE:0
+DTSTART:20261211T170000Z
+DTEND:20261211T180000Z
+SUMMARY:Annie Lunchtime Trivia at the Fulton
+DESCRIPTION:Pack your lunch and test your theatre smarts! Join us Friday\, 
+ December 11th at 12:00 PM for our second ever Fulton Trivia Hour\, featuri
+ ng all things Annie! Whether you’re a lifelong Broadway buff or just loo
+ king for a fun midday break\, pull up a chair\, unpack your lunch\, and sh
+ ow off your knowledge. Bring a friend or meet fellow theatre lovers here! 
+ Where: Fulton Theatre Lobby When: Friday\, December 11th at 12:00 PM Detai
+ ls: Free to attend\; just bring your lunch and your trivia brains!\n\nPric
+ e: Not supplied by this calendar\; check event details\n\nSchedule listed:
+  Dec 11\, 2026 · 12:00 PM EST – 01:00 PM EST\n\nSchedule supplied by Vi
+ sit Lancaster City\n\nTimes converted from America/New_York to UTC for cal
+ endar compatibility.\n\n\n\nRegistration: https://calendar.visitlancasterc
+ ity.com/visitlancastercity/detail/1151/1797008400000\n\nAdding this calend
+ ar item does not register you. Check the original listing for changes\; im
+ ported events do not automatically stay in sync.
+LOCATION:Fulton Theatre\, 12 North Prince Street\, Lancaster\, PA 17603\, U
+ SA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1151/
+ 1797008400000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

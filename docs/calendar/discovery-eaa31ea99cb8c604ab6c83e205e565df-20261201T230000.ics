@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-eaa31ea99cb8c604ab6c83e205e565df-20261201T230000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261124T211048Z
+LAST-MODIFIED:20261124T211048Z
+SEQUENCE:0
+DTSTART:20261201T230000Z
+DTEND:20261202T010000Z
+SUMMARY:Grave Concern: Historic Cemetery Preservation in Lancaster County
+DESCRIPTION:Discover the hidden history right beneath our feet! Join Sam Me
+ cum and Kenn Lefever from Grave Concern\, Inc. for an engaging look at the
+  historic burial grounds of Lancaster County and Manheim Township. From fo
+ rgotten family plots to recent preservation efforts at the Meister cemeter
+ y near the Lancaster Airport\, learn how local historians protect these vi
+ tal pieces of our community's heritage-- and what happens when modern deve
+ lopment meets historic sites. Registration is encouraged!\n\nPrice: Free\n
+ \nSchedule listed: Dec 01\, 2026 · 06:00 PM EST – 08:00 PM EST\n\nSched
+ ule supplied by Lancaster Libraries\n\nTimes converted from America/New_Yo
+ rk to UTC for calendar compatibility.\n\n\n\nRegistration: https://calenda
+ r.lancasterlibraries.org/event/grave-concern-preservation-historic-cemeter
+ ies-lancaster-county-209239\n\nAdding this calendar item does not register
+  you. Check the original listing for changes\; imported events do not auto
+ matically stay in sync.
+LOCATION:Manheim Township Library\, MTP Morgan Center C\, 595 Granite Run D
+ rive\,  Lancaster\, PA\, 17601
+URL:https://calendar.lancasterlibraries.org/event/grave-concern-preservatio
+ n-historic-cemeteries-lancaster-county-209239
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

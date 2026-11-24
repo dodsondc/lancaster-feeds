@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-d0882298bc655770cbafaa3711e704da-20270207T190000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261124T211048Z
+LAST-MODIFIED:20261124T211048Z
+SEQUENCE:1
+DTSTART:20270207T190000Z
+DTEND:20270207T210000Z
+SUMMARY:Crazy Little Thing Called Love
+DESCRIPTION:Part concert. Part comedy. Way more fun than couples therapy. C
+ lassic pop-rock favorites burst to life\, woven with intimate\, cabaret-st
+ yle moments where performers share funny\, heartfelt stories about love 
+ — the kind that will have you laughing one minute and leaning a little c
+ loser to the person beside you the next. A powerhouse band fuels iconic an
+ thems with electric sing-along energy\, while those in-between moments mak
+ e it feel personal and quite playful. It’s fresh and yet nostalgic — a
+  celebration of love in all its forms and phases — steady\, surprising\,
+  hard-earned\, and deeply felt… in a concert experience that’ll leave 
+ you glowing. Get tickets at www.primatheatre.org/events/love\n\nPrice: Not
+  supplied by this calendar\; check event details\n\nSchedule listed: Feb 0
+ 7\, 2027 · 02:00 PM EST – 04:00 PM EST\n\nSchedule supplied by Visit La
+ ncaster City\n\nTimes converted from America/New_York to UTC for calendar 
+ compatibility.\n\n\n\nRegistration: https://calendar.visitlancastercity.co
+ m/visitlancastercity/detail/1160/1802026800000/3\n\nAdding this calendar i
+ tem does not register you. Check the original listing for changes\; import
+ ed events do not automatically stay in sync.
+LOCATION:Prima Theatre\, 941 Wheatland Avenue\, Lancaster\, PA 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/
+ 1802026800000/3
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-b0d6fbe528b1de8b93d240d3bb2e6430-20270223T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261124T211048Z
+LAST-MODIFIED:20261124T211048Z
+SEQUENCE:0
+DTSTART:20270223T000000Z
+DTEND:20270223T020000Z
+SUMMARY:Isaiah Bailey from 'The Phantom of the Opera'
+DESCRIPTION:Sponsored by the Melva S. McIlwaine Guest Artist Endowment Fund
+  This singer\, actor\, educator and worship leader is currently starring a
+ s the title role in the North American Tour of Andrew Lloyd Webber’s “
+ The Phantom of the Opera.” Additional credits include “The Lion King\,
+ ” “Beautiful: The Carole King Musical\,” “Jesus Christ Superstar
+ ” and “Come From Away.” Bailey is also an established voice teacher\
+ , vocal coach\, songwriter and masterclass clinician.\n\nPrice: Not suppli
+ ed by this calendar\; check event details\n\nSchedule listed: Feb 22\, 202
+ 7 · 07:00 PM EST – 09:00 PM EST\n\nSchedule supplied by Visit Lancaster
+  City\n\nTimes converted from America/New_York to UTC for calendar compati
+ bility.\n\n\n\nRegistration: https://calendar.visitlancastercity.com/visit
+ lancastercity/detail/709/1803340800000\n\nAdding this calendar item does n
+ ot register you. Check the original listing for changes\; imported events 
+ do not automatically stay in sync.
+LOCATION:The Trust Performing Arts Center\, 37 North Market Street\, Lancas
+ ter\, PA 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/709/1
+ 803340800000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

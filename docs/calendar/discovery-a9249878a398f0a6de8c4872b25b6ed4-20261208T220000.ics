@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-a9249878a398f0a6de8c4872b25b6ed4-20261208T220000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261124T211048Z
+LAST-MODIFIED:20261124T211048Z
+SEQUENCE:0
+DTSTART:20261208T220000Z
+DTEND:20261208T230000Z
+SUMMARY:Fulton Theatre's Holiday Story Time and Sing-a-long
+DESCRIPTION:Celebrate the joy of the season with a special interactive Stor
+ y Time and sing-a-long inspired by the Fulton Theatre's holiday production
+  of Annie. Families are invited to gather for a delightful hour of storyte
+ lling\, imagination\, and connection in one of Lancaster's most beloved cu
+ ltural venues. This free community event offers a fun and engaging experie
+ nce for children and caregivers alike.\n\nPrice: Not supplied by this cale
+ ndar\; check event details\n\nSchedule listed: Dec 08\, 2026 · 05:00 PM E
+ ST – 06:00 PM EST\n\nSchedule supplied by Visit Lancaster City\n\nTimes 
+ converted from America/New_York to UTC for calendar compatibility.\n\n\n\n
+ Registration: https://calendar.visitlancastercity.com/visitlancastercity/d
+ etail/1150/1796767200000\n\nAdding this calendar item does not register yo
+ u. Check the original listing for changes\; imported events do not automat
+ ically stay in sync.
+LOCATION:Castagna Hall in the Fulton Theatre\, 12 North Prince Street\, Lan
+ caster\, PA 17603\, USA
+URL:https://calendar.visitlancastercity.com/visitlancastercity/detail/1150/
+ 1796767200000
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

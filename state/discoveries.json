@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_checked": 1795473513.97511,
+  "last_checked": 1795554648.80152,
   "items": {
     "discovery-4b1b648274ee7364aa4e3c2d534f31f9": {
       "source": "Visit Lancaster City",
@@ -208,15 +208,15 @@
     },
     "discovery-065171142d345945d26f8066f8216007": {
       "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1050/29924640/0/0",
+      "source_id": "TKF/6a345ad0afff871fa5d6af75/1050/29934720/0/0",
       "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1050",
       "title": "Improv 101 with Emily!",
       "description": "Your Journey to the Stage Starts Here! About the Class: This is an 8 week long class that will teach the fundamentals of long form Improv Comedy. Topics covered include agreement with a scene partner, character creation, listening as a character and an actor, and exploring the worlds created in scenes. The class ends with a graduation show where the students can show their friends and family the skills learned. Students must be 18 or older for this class! This Class will run Mondays from 7pm-9pm on the following dates: 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7 . This class has a class show on Saturday 12/12 at 3pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until 11:59pm of Friday 10/16!",
       "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1795478400000",
+      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1796083200000",
       "location": "Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA",
       "price": "Not supplied by this calendar; check event details",
-      "start": 1795478400,
+      "start": 1796083200,
       "end": 1796695200,
       "all_day": false,
       "status": "CONFIRMED",
@@ -226,25 +226,8 @@
       "member_keys": [
         "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/1050"
       ],
-      "kind": "Engagements",
+      "kind": "Events",
       "occurrences": [
-        {
-          "source": "Visit Lancaster City",
-          "source_id": "TKF/6a345ad0afff871fa5d6af75/1050/29924640/0/0",
-          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1050",
-          "title": "Improv 101 with Emily!",
-          "description": "Your Journey to the Stage Starts Here! About the Class: This is an 8 week long class that will teach the fundamentals of long form Improv Comedy. Topics covered include agreement with a scene partner, character creation, listening as a character and an actor, and exploring the worlds created in scenes. The class ends with a graduation show where the students can show their friends and family the skills learned. Students must be 18 or older for this class! This Class will run Mondays from 7pm-9pm on the following dates: 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7 . This class has a class show on Saturday 12/12 at 3pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until 11:59pm of Friday 10/16!",
-          "categories": "",
-          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1795478400000",
-          "location": "Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA",
-          "price": "Not supplied by this calendar; check event details",
-          "start": 1795478400,
-          "end": 1795485600,
-          "all_day": false,
-          "status": "CONFIRMED",
-          "interest": "Title/category: Arts",
-          "venue_key": "lancaster improv players"
-        },
         {
           "source": "Visit Lancaster City",
           "source_id": "TKF/6a345ad0afff871fa5d6af75/1050/29934720/0/0",
@@ -283,10 +266,6 @@
       "sources": [
         {
           "name": "Visit Lancaster City",
-          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1795478400000"
-        },
-        {
-          "name": "Visit Lancaster City",
           "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1796083200000"
         },
         {
@@ -295,21 +274,21 @@
         }
       ],
       "first_seen": 1792341916.8111,
-      "updated_at": 1795371086.36526,
-      "sequence": 2,
-      "signature": "{\"title\":\"Improv 101 with Emily!\",\"description\":\"Your Journey to the Stage Starts Here! About the Class: This is an 8 week long class that will teach the fundamentals of long form Improv Comedy. Topics covered include agreement with a scene partner, character creation, listening as a character and an actor, and exploring the worlds created in scenes. The class ends with a graduation show where the students can show their friends and family the skills learned. Students must be 18 or older for this class! This Class will run Mondays from 7pm-9pm on the following dates: 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7 . This class has a class show on Saturday 12/12 at 3pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until 11:59pm of Friday 10/16!\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1050/29924640/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050\",\"title\":\"Improv 101 with Emily!\",\"description\":\"Your Journey to the Stage Starts Here! About the Class: This is an 8 week long class that will teach the fundamentals of long form Improv Comedy. Topics covered include agreement with a scene partner, character creation, listening as a character and an actor, and exploring the worlds created in scenes. The class ends with a graduation show where the students can show their friends and family the skills learned. Students must be 18 or older for this class! This Class will run Mondays from 7pm-9pm on the following dates: 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7 . This class has a class show on Saturday 12/12 at 3pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until 11:59pm of Friday 10/16!\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1795478400000\",\"location\":\"Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1795478400,\"end\":1795485600,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"lancaster improv players\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1050/29934720/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050\",\"title\":\"Improv 101 with Emily!\",\"description\":\"Your Journey to the Stage Starts Here! About the Class: This is an 8 week long class that will teach the fundamentals of long form Improv Comedy. Topics covered include agreement with a scene partner, character creation, listening as a character and an actor, and exploring the worlds created in scenes. The class ends with a graduation show where the students can show their friends and family the skills learned. Students must be 18 or older for this class! This Class will run Mondays from 7pm-9pm on the following dates: 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7 . This class has a class show on Saturday 12/12 at 3pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until 11:59pm of Friday 10/16!\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1796083200000\",\"location\":\"Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1796083200,\"end\":1796090400,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"lancaster improv players\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1050/29944800/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050\",\"title\":\"Improv 101 with Emily!\",\"description\":\"Your Journey to the Stage Starts Here! About the Class: This is an 8 week long class that will teach the fundamentals of long form Improv Comedy. Topics covered include agreement with a scene partner, character creation, listening as a character and an actor, and exploring the worlds created in scenes. The class ends with a graduation show where the students can show their friends and family the skills learned. Students must be 18 or older for this class! This Class will run Mondays from 7pm-9pm on the following dates: 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7 . This class has a class show on Saturday 12/12 at 3pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until 11:59pm of Friday 10/16!\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1796688000000\",\"location\":\"Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1796688000,\"end\":1796695200,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"lancaster improv players\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1795478400000\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1796083200000\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1796688000000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
+      "updated_at": 1795554648.80152,
+      "sequence": 3,
+      "signature": "{\"title\":\"Improv 101 with Emily!\",\"description\":\"Your Journey to the Stage Starts Here! About the Class: This is an 8 week long class that will teach the fundamentals of long form Improv Comedy. Topics covered include agreement with a scene partner, character creation, listening as a character and an actor, and exploring the worlds created in scenes. The class ends with a graduation show where the students can show their friends and family the skills learned. Students must be 18 or older for this class! This Class will run Mondays from 7pm-9pm on the following dates: 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7 . This class has a class show on Saturday 12/12 at 3pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until 11:59pm of Friday 10/16!\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1050/29934720/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050\",\"title\":\"Improv 101 with Emily!\",\"description\":\"Your Journey to the Stage Starts Here! About the Class: This is an 8 week long class that will teach the fundamentals of long form Improv Comedy. Topics covered include agreement with a scene partner, character creation, listening as a character and an actor, and exploring the worlds created in scenes. The class ends with a graduation show where the students can show their friends and family the skills learned. Students must be 18 or older for this class! This Class will run Mondays from 7pm-9pm on the following dates: 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7 . This class has a class show on Saturday 12/12 at 3pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until 11:59pm of Friday 10/16!\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1796083200000\",\"location\":\"Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1796083200,\"end\":1796090400,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"lancaster improv players\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1050/29944800/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050\",\"title\":\"Improv 101 with Emily!\",\"description\":\"Your Journey to the Stage Starts Here! About the Class: This is an 8 week long class that will teach the fundamentals of long form Improv Comedy. Topics covered include agreement with a scene partner, character creation, listening as a character and an actor, and exploring the worlds created in scenes. The class ends with a graduation show where the students can show their friends and family the skills learned. Students must be 18 or older for this class! This Class will run Mondays from 7pm-9pm on the following dates: 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7 . This class has a class show on Saturday 12/12 at 3pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until 11:59pm of Friday 10/16!\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1796688000000\",\"location\":\"Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1796688000,\"end\":1796695200,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"lancaster improv players\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1796083200000\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1050/1796688000000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
     },
     "discovery-71ac82a470c22aa71a28e4052ee1be55": {
       "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/1047/29924640/0/0",
+      "source_id": "TKF/6a345ad0afff871fa5d6af75/1047/29934720/0/0",
       "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1047",
       "title": "Improv 201 With Scott!",
       "description": "Learned the Basics? Let's Learn How to do a Show! About the Class: Welcome to Lancaster Improv Players' 201 class! This 8-week long course focuses on the more advanced skills of long-form Improv. Students will learn skills which include game of a scene, second beats, heightening, and advanced character work. This class focuses on teaching a ton of scene work skills and will help improvisers think beyond the scene they are in. The class ends with a graduation show where the students can show their friends and family the skills learned. This class does require Improv 101 as a prerequisite or director approval. Class Schedule: This class runs for two and a half (2.5) hours for eight (8) sessions on Mondays from 7pm-9:30pm. Those dates are 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7. The Class Show is on Saturday 12/12 at 4pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until end of day Friday 10/16!",
       "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1795478400000",
+      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1796083200000",
       "location": "Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA",
       "price": "Not supplied by this calendar; check event details",
-      "start": 1795478400,
+      "start": 1796083200,
       "end": 1796697000,
       "all_day": false,
       "status": "CONFIRMED",
@@ -319,25 +298,8 @@
       "member_keys": [
         "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/1047"
       ],
-      "kind": "Engagements",
+      "kind": "Events",
       "occurrences": [
-        {
-          "source": "Visit Lancaster City",
-          "source_id": "TKF/6a345ad0afff871fa5d6af75/1047/29924640/0/0",
-          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1047",
-          "title": "Improv 201 With Scott!",
-          "description": "Learned the Basics? Let's Learn How to do a Show! About the Class: Welcome to Lancaster Improv Players' 201 class! This 8-week long course focuses on the more advanced skills of long-form Improv. Students will learn skills which include game of a scene, second beats, heightening, and advanced character work. This class focuses on teaching a ton of scene work skills and will help improvisers think beyond the scene they are in. The class ends with a graduation show where the students can show their friends and family the skills learned. This class does require Improv 101 as a prerequisite or director approval. Class Schedule: This class runs for two and a half (2.5) hours for eight (8) sessions on Mondays from 7pm-9:30pm. Those dates are 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7. The Class Show is on Saturday 12/12 at 4pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until end of day Friday 10/16!",
-          "categories": "",
-          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1795478400000",
-          "location": "Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA",
-          "price": "Not supplied by this calendar; check event details",
-          "start": 1795478400,
-          "end": 1795487400,
-          "all_day": false,
-          "status": "CONFIRMED",
-          "interest": "Title/category: Arts",
-          "venue_key": "lancaster improv players"
-        },
         {
           "source": "Visit Lancaster City",
           "source_id": "TKF/6a345ad0afff871fa5d6af75/1047/29934720/0/0",
@@ -376,10 +338,6 @@
       "sources": [
         {
           "name": "Visit Lancaster City",
-          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1795478400000"
-        },
-        {
-          "name": "Visit Lancaster City",
           "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1796083200000"
         },
         {
@@ -388,9 +346,9 @@
         }
       ],
       "first_seen": 1792341916.8111,
-      "updated_at": 1795371086.36526,
-      "sequence": 2,
-      "signature": "{\"title\":\"Improv 201 With Scott!\",\"description\":\"Learned the Basics? Let's Learn How to do a Show! About the Class: Welcome to Lancaster Improv Players' 201 class! This 8-week long course focuses on the more advanced skills of long-form Improv. Students will learn skills which include game of a scene, second beats, heightening, and advanced character work. This class focuses on teaching a ton of scene work skills and will help improvisers think beyond the scene they are in. The class ends with a graduation show where the students can show their friends and family the skills learned. This class does require Improv 101 as a prerequisite or director approval. Class Schedule: This class runs for two and a half (2.5) hours for eight (8) sessions on Mondays from 7pm-9:30pm. Those dates are 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7. The Class Show is on Saturday 12/12 at 4pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until end of day Friday 10/16!\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1047/29924640/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047\",\"title\":\"Improv 201 With Scott!\",\"description\":\"Learned the Basics? Let's Learn How to do a Show! About the Class: Welcome to Lancaster Improv Players' 201 class! This 8-week long course focuses on the more advanced skills of long-form Improv. Students will learn skills which include game of a scene, second beats, heightening, and advanced character work. This class focuses on teaching a ton of scene work skills and will help improvisers think beyond the scene they are in. The class ends with a graduation show where the students can show their friends and family the skills learned. This class does require Improv 101 as a prerequisite or director approval. Class Schedule: This class runs for two and a half (2.5) hours for eight (8) sessions on Mondays from 7pm-9:30pm. Those dates are 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7. The Class Show is on Saturday 12/12 at 4pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until end of day Friday 10/16!\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1795478400000\",\"location\":\"Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1795478400,\"end\":1795487400,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"lancaster improv players\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1047/29934720/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047\",\"title\":\"Improv 201 With Scott!\",\"description\":\"Learned the Basics? Let's Learn How to do a Show! About the Class: Welcome to Lancaster Improv Players' 201 class! This 8-week long course focuses on the more advanced skills of long-form Improv. Students will learn skills which include game of a scene, second beats, heightening, and advanced character work. This class focuses on teaching a ton of scene work skills and will help improvisers think beyond the scene they are in. The class ends with a graduation show where the students can show their friends and family the skills learned. This class does require Improv 101 as a prerequisite or director approval. Class Schedule: This class runs for two and a half (2.5) hours for eight (8) sessions on Mondays from 7pm-9:30pm. Those dates are 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7. The Class Show is on Saturday 12/12 at 4pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until end of day Friday 10/16!\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1796083200000\",\"location\":\"Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1796083200,\"end\":1796092200,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"lancaster improv players\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1047/29944800/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047\",\"title\":\"Improv 201 With Scott!\",\"description\":\"Learned the Basics? Let's Learn How to do a Show! About the Class: Welcome to Lancaster Improv Players' 201 class! This 8-week long course focuses on the more advanced skills of long-form Improv. Students will learn skills which include game of a scene, second beats, heightening, and advanced character work. This class focuses on teaching a ton of scene work skills and will help improvisers think beyond the scene they are in. The class ends with a graduation show where the students can show their friends and family the skills learned. This class does require Improv 101 as a prerequisite or director approval. Class Schedule: This class runs for two and a half (2.5) hours for eight (8) sessions on Mondays from 7pm-9:30pm. Those dates are 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7. The Class Show is on Saturday 12/12 at 4pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until end of day Friday 10/16!\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1796688000000\",\"location\":\"Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1796688000,\"end\":1796697000,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"lancaster improv players\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1795478400000\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1796083200000\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1796688000000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
+      "updated_at": 1795554648.80152,
+      "sequence": 3,
+      "signature": "{\"title\":\"Improv 201 With Scott!\",\"description\":\"Learned the Basics? Let's Learn How to do a Show! About the Class: Welcome to Lancaster Improv Players' 201 class! This 8-week long course focuses on the more advanced skills of long-form Improv. Students will learn skills which include game of a scene, second beats, heightening, and advanced character work. This class focuses on teaching a ton of scene work skills and will help improvisers think beyond the scene they are in. The class ends with a graduation show where the students can show their friends and family the skills learned. This class does require Improv 101 as a prerequisite or director approval. Class Schedule: This class runs for two and a half (2.5) hours for eight (8) sessions on Mondays from 7pm-9:30pm. Those dates are 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7. The Class Show is on Saturday 12/12 at 4pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until end of day Friday 10/16!\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1047/29934720/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047\",\"title\":\"Improv 201 With Scott!\",\"description\":\"Learned the Basics? Let's Learn How to do a Show! About the Class: Welcome to Lancaster Improv Players' 201 class! This 8-week long course focuses on the more advanced skills of long-form Improv. Students will learn skills which include game of a scene, second beats, heightening, and advanced character work. This class focuses on teaching a ton of scene work skills and will help improvisers think beyond the scene they are in. The class ends with a graduation show where the students can show their friends and family the skills learned. This class does require Improv 101 as a prerequisite or director approval. Class Schedule: This class runs for two and a half (2.5) hours for eight (8) sessions on Mondays from 7pm-9:30pm. Those dates are 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7. The Class Show is on Saturday 12/12 at 4pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until end of day Friday 10/16!\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1796083200000\",\"location\":\"Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1796083200,\"end\":1796092200,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"lancaster improv players\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1047/29944800/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047\",\"title\":\"Improv 201 With Scott!\",\"description\":\"Learned the Basics? Let's Learn How to do a Show! About the Class: Welcome to Lancaster Improv Players' 201 class! This 8-week long course focuses on the more advanced skills of long-form Improv. Students will learn skills which include game of a scene, second beats, heightening, and advanced character work. This class focuses on teaching a ton of scene work skills and will help improvisers think beyond the scene they are in. The class ends with a graduation show where the students can show their friends and family the skills learned. This class does require Improv 101 as a prerequisite or director approval. Class Schedule: This class runs for two and a half (2.5) hours for eight (8) sessions on Mondays from 7pm-9:30pm. Those dates are 10/19, 10/26, 11/2, 11/9, 11/16, 11/23, 11/30, and 12/7. The Class Show is on Saturday 12/12 at 4pm! Important: Please check your email the week prior to the start date of your class for any updates. To qualify for the class show you must: Adhere to the Lancaster Improv Players' Code of Conduct. Attend at least six of the eight sessions (ideally all eight). Attend at least two improv shows during the length of the class. During the class you receive standby tickets for all of our regular shows. These tickets get you into shows for free so long as the show has not soldout! Tickets are on sale until end of day Friday 10/16!\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1796688000000\",\"location\":\"Lancaster Improv Players, 8 West King Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1796688000,\"end\":1796697000,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts\",\"venue_key\":\"lancaster improv players\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1796083200000\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1047/1796688000000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
     },
     "discovery-4657f9d8b0aaf02ad56127cf922f01fd": {
       "source": "Visit Lancaster City",
@@ -7804,7 +7762,7 @@
       "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
       "price": "Free",
       "start": 1796079600,
-      "end": 1800925200,
+      "end": 1803344400,
       "all_day": false,
       "status": "CONFIRMED",
       "age_groups": [
@@ -7897,6 +7855,31 @@
           "branch": "Manheim Township",
           "interest": "Library topic: History",
           "venue_key": "manheim township library"
+        },
+        {
+          "source": "Lancaster Libraries",
+          "source_id": "213399",
+          "series": "https://calendar.lancasterlibraries.org/series/swoon-squad-a-romance-tbr-book-club-manheim-township",
+          "title": "Swoon Squad: A Romance TBR Book Club",
+          "description": "Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ January 25: 🕰️Historical Romance🕰️ February 22: 💍Fake Dating / Marriage of Convenience💍 March 29:⏳Second Chance Romance⏳ April 26: 💎Billionaire Romance💎 May 24: 🏡Small Town Romance🏡 June 28: ☀️Summer Fling☀️ July 26: 🐉Romantasy🐉 August 30: 💼Workplace Romance💼 September 27: 🛡️Romantic Suspense / Bodyguard🛡️ October 25: 🔮Witchy / Gothic Romance🔮 November 29: 🚫Forbidden Romance / Brother's Best Friend🚫 December 27:🎁Holiday Romance🎁",
+          "categories": "Book Club",
+          "url": "https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-213399",
+          "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
+          "price": "Free",
+          "start": 1803337200,
+          "end": 1803344400,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "age_groups": [
+            "Adults",
+            "Seniors"
+          ],
+          "program_types": [
+            "Book Club"
+          ],
+          "branch": "Manheim Township",
+          "interest": "Library topic: History",
+          "venue_key": "manheim township library"
         }
       ],
       "sources": [
@@ -7911,12 +7894,16 @@
         {
           "name": "Lancaster Libraries",
           "url": "https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-213398"
+        },
+        {
+          "name": "Lancaster Libraries",
+          "url": "https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-213399"
         }
       ],
       "first_seen": 1792345472.71917,
-      "updated_at": 1795473513.97511,
-      "sequence": 2,
-      "signature": "{\"title\":\"Swoon Squad: A Romance TBR Book Club\",\"description\":\"Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ January 25: 🕰️Historical Romance🕰️ February 22: 💍Fake Dating / Marriage of Convenience💍 March 29:⏳Second Chance Romance⏳ April 26: 💎Billionaire Romance💎 May 24: 🏡Small Town Romance🏡 June 28: ☀️Summer Fling☀️ July 26: 🐉Romantasy🐉 August 30: 💼Workplace Romance💼 September 27: 🛡️Romantic Suspense / Bodyguard🛡️ October 25: 🔮Witchy / Gothic Romance🔮 November 29: 🚫Forbidden Romance / Brother's Best Friend🚫 December 27:🎁Holiday Romance🎁\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"176856\",\"series\":\"https://calendar.lancasterlibraries.org/series/swoon-squad-a-romance-tbr-book-club-manheim-township\",\"title\":\"Swoon Squad: A Romance TBR Book Club\",\"description\":\"Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ June 29 - ⚔️Enemies to Lovers ⚔️ July 27 - 🥰😠Grumpy/Sunshine😠🥰 August 31 - 🏆Sports Romance🏆 September 28 - 📖Academic Romance📖 October 26 - 🧛Paranormal Romance🧛 November 30 - 🛏️Forced Proximity🛏️ December 28 - 🎁Holiday Romance🎁\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-176856\",\"location\":\"Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1796079600,\"end\":1796086800,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"176857\",\"series\":\"https://calendar.lancasterlibraries.org/series/swoon-squad-a-romance-tbr-book-club-manheim-township\",\"title\":\"Swoon Squad: A Romance TBR Book Club\",\"description\":\"Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ June 29 - ⚔️Enemies to Lovers ⚔️ July 27 - 🥰😠Grumpy/Sunshine😠🥰 August 31 - 🏆Sports Romance🏆 September 28 - 📖Academic Romance📖 October 26 - 🧛Paranormal Romance🧛 November 30 - 🛏️Forced Proximity🛏️ December 28 - 🎁Holiday Romance🎁\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-176857\",\"location\":\"Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1798498800,\"end\":1798506000,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"213398\",\"series\":\"https://calendar.lancasterlibraries.org/series/swoon-squad-a-romance-tbr-book-club-manheim-township\",\"title\":\"Swoon Squad: A Romance TBR Book Club\",\"description\":\"Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ January 25: 🕰️Historical Romance🕰️ February 22: 💍Fake Dating / Marriage of Convenience💍 March 29:⏳Second Chance Romance⏳ April 26: 💎Billionaire Romance💎 May 24: 🏡Small Town Romance🏡 June 28: ☀️Summer Fling☀️ July 26: 🐉Romantasy🐉 August 30: 💼Workplace Romance💼 September 27: 🛡️Romantic Suspense / Bodyguard🛡️ October 25: 🔮Witchy / Gothic Romance🔮 November 29: 🚫Forbidden Romance / Brother's Best Friend🚫 December 27:🎁Holiday Romance🎁\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-213398\",\"location\":\"Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1800918000,\"end\":1800925200,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-176856\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-176857\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-213398\"}],\"price\":\"Free\"}"
+      "updated_at": 1795554648.80152,
+      "sequence": 3,
+      "signature": "{\"title\":\"Swoon Squad: A Romance TBR Book Club\",\"description\":\"Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ January 25: 🕰️Historical Romance🕰️ February 22: 💍Fake Dating / Marriage of Convenience💍 March 29:⏳Second Chance Romance⏳ April 26: 💎Billionaire Romance💎 May 24: 🏡Small Town Romance🏡 June 28: ☀️Summer Fling☀️ July 26: 🐉Romantasy🐉 August 30: 💼Workplace Romance💼 September 27: 🛡️Romantic Suspense / Bodyguard🛡️ October 25: 🔮Witchy / Gothic Romance🔮 November 29: 🚫Forbidden Romance / Brother's Best Friend🚫 December 27:🎁Holiday Romance🎁\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"176856\",\"series\":\"https://calendar.lancasterlibraries.org/series/swoon-squad-a-romance-tbr-book-club-manheim-township\",\"title\":\"Swoon Squad: A Romance TBR Book Club\",\"description\":\"Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ June 29 - ⚔️Enemies to Lovers ⚔️ July 27 - 🥰😠Grumpy/Sunshine😠🥰 August 31 - 🏆Sports Romance🏆 September 28 - 📖Academic Romance📖 October 26 - 🧛Paranormal Romance🧛 November 30 - 🛏️Forced Proximity🛏️ December 28 - 🎁Holiday Romance🎁\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-176856\",\"location\":\"Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1796079600,\"end\":1796086800,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"176857\",\"series\":\"https://calendar.lancasterlibraries.org/series/swoon-squad-a-romance-tbr-book-club-manheim-township\",\"title\":\"Swoon Squad: A Romance TBR Book Club\",\"description\":\"Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ June 29 - ⚔️Enemies to Lovers ⚔️ July 27 - 🥰😠Grumpy/Sunshine😠🥰 August 31 - 🏆Sports Romance🏆 September 28 - 📖Academic Romance📖 October 26 - 🧛Paranormal Romance🧛 November 30 - 🛏️Forced Proximity🛏️ December 28 - 🎁Holiday Romance🎁\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-176857\",\"location\":\"Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1798498800,\"end\":1798506000,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"213398\",\"series\":\"https://calendar.lancasterlibraries.org/series/swoon-squad-a-romance-tbr-book-club-manheim-township\",\"title\":\"Swoon Squad: A Romance TBR Book Club\",\"description\":\"Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ January 25: 🕰️Historical Romance🕰️ February 22: 💍Fake Dating / Marriage of Convenience💍 March 29:⏳Second Chance Romance⏳ April 26: 💎Billionaire Romance💎 May 24: 🏡Small Town Romance🏡 June 28: ☀️Summer Fling☀️ July 26: 🐉Romantasy🐉 August 30: 💼Workplace Romance💼 September 27: 🛡️Romantic Suspense / Bodyguard🛡️ October 25: 🔮Witchy / Gothic Romance🔮 November 29: 🚫Forbidden Romance / Brother's Best Friend🚫 December 27:🎁Holiday Romance🎁\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-213398\",\"location\":\"Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1800918000,\"end\":1800925200,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"},{\"source\":\"Lancaster Libraries\",\"source_id\":\"213399\",\"series\":\"https://calendar.lancasterlibraries.org/series/swoon-squad-a-romance-tbr-book-club-manheim-township\",\"title\":\"Swoon Squad: A Romance TBR Book Club\",\"description\":\"Swoon Squad is a romance-centered book club with a twist. Instead of everyone reading the same assigned title, we choose a monthly trope and invite you to pick any book that fits the theme! Whether you're into sweet contemporary rom-coms, high-heat historical reads, or paranormal romance, there's a seat for you at our table! How it Works: Pick Your Own Adventure: We announce the month's trope, and you choose a book from your own TBR pile or the library shelves that features it. Low Pressure, High Fun: No more scrambling to finish a specific book you might not even like. Read at your own pace and bring your honest thoughts! The Discussion: We gather to swap recommendations, vent about our favorite (and least favorite) clichés, and discover new authors through each other's picks. Come ready to share your pick, discuss the tropes, and meet fellow romance fans in a comfortable library setting ❤️ January 25: 🕰️Historical Romance🕰️ February 22: 💍Fake Dating / Marriage of Convenience💍 March 29:⏳Second Chance Romance⏳ April 26: 💎Billionaire Romance💎 May 24: 🏡Small Town Romance🏡 June 28: ☀️Summer Fling☀️ July 26: 🐉Romantasy🐉 August 30: 💼Workplace Romance💼 September 27: 🛡️Romantic Suspense / Bodyguard🛡️ October 25: 🔮Witchy / Gothic Romance🔮 November 29: 🚫Forbidden Romance / Brother's Best Friend🚫 December 27:🎁Holiday Romance🎁\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-213399\",\"location\":\"Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1803337200,\"end\":1803344400,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-176856\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-176857\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-213398\"},{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/swoon-squad-romance-tbr-book-club-213399\"}],\"price\":\"Free\"}"
     },
     "discovery-5a9a9b2bc0c697d68940aa2fd1b41e9b": {
       "source": "Lancaster Libraries",
@@ -8813,16 +8800,16 @@
     },
     "discovery-2a183b09fe36e9b270d5f153cf727467": {
       "source": "Lancaster Libraries",
-      "source_id": "205893",
+      "source_id": "214615",
       "series": "https://calendar.lancasterlibraries.org/series/book-club-strasburg-heisler",
       "title": "Book Club",
-      "description": "Book: Such Sharp Teeth by Rachel Harrison Chat, craft, and spend intentional time together! All are welcome! Craft will be provided, but you're welcome to bring your own. Snacks to share are also welcome! November 14, 2026 2:00 pm",
+      "description": "Book: Life Hacks for a Little Alien by Alice Franklin Chat, craft, and spend intentional time together! All are welcome! Craft will be provided, but you're welcome to bring your own. Snacks to share are also welcome! January 30, 2027 2:00 pm",
       "categories": "Book Club",
-      "url": "https://calendar.lancasterlibraries.org/event/book-club-205893",
+      "url": "https://calendar.lancasterlibraries.org/event/book-club-214615",
       "location": "Strasburg-Heisler Library, 143 Precision Avenue, Strasburg, PA, 17579",
       "price": "Free",
-      "start": 1794682800,
-      "end": 1794688200,
+      "start": 1801335600,
+      "end": 1801341000,
       "all_day": false,
       "status": "CONFIRMED",
       "age_groups": [
@@ -8843,16 +8830,16 @@
       "occurrences": [
         {
           "source": "Lancaster Libraries",
-          "source_id": "205893",
+          "source_id": "214615",
           "series": "https://calendar.lancasterlibraries.org/series/book-club-strasburg-heisler",
           "title": "Book Club",
-          "description": "Book: Such Sharp Teeth by Rachel Harrison Chat, craft, and spend intentional time together! All are welcome! Craft will be provided, but you're welcome to bring your own. Snacks to share are also welcome! November 14, 2026 2:00 pm",
+          "description": "Book: Life Hacks for a Little Alien by Alice Franklin Chat, craft, and spend intentional time together! All are welcome! Craft will be provided, but you're welcome to bring your own. Snacks to share are also welcome! January 30, 2027 2:00 pm",
           "categories": "Book Club",
-          "url": "https://calendar.lancasterlibraries.org/event/book-club-205893",
+          "url": "https://calendar.lancasterlibraries.org/event/book-club-214615",
           "location": "Strasburg-Heisler Library, 143 Precision Avenue, Strasburg, PA, 17579",
           "price": "Free",
-          "start": 1794682800,
-          "end": 1794688200,
+          "start": 1801335600,
+          "end": 1801341000,
           "all_day": false,
           "status": "CONFIRMED",
           "age_groups": [
@@ -8870,13 +8857,13 @@
       "sources": [
         {
           "name": "Lancaster Libraries",
-          "url": "https://calendar.lancasterlibraries.org/event/book-club-205893"
+          "url": "https://calendar.lancasterlibraries.org/event/book-club-214615"
         }
       ],
       "first_seen": 1792345472.71917,
-      "updated_at": 1792345472.71917,
-      "sequence": 0,
-      "signature": "{\"title\":\"Book Club\",\"description\":\"Book: Such Sharp Teeth by Rachel Harrison Chat, craft, and spend intentional time together! All are welcome! Craft will be provided, but you're welcome to bring your own. Snacks to share are also welcome! November 14, 2026 2:00 pm\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"205893\",\"series\":\"https://calendar.lancasterlibraries.org/series/book-club-strasburg-heisler\",\"title\":\"Book Club\",\"description\":\"Book: Such Sharp Teeth by Rachel Harrison Chat, craft, and spend intentional time together! All are welcome! Craft will be provided, but you're welcome to bring your own. Snacks to share are also welcome! November 14, 2026 2:00 pm\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/book-club-205893\",\"location\":\"Strasburg-Heisler Library, 143 Precision Avenue, Strasburg, PA, 17579\",\"price\":\"Free\",\"start\":1794682800,\"end\":1794688200,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Strasburg-Heisler\",\"interest\":\"Library topic: Arts\",\"venue_key\":\"strasburg heisler library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/book-club-205893\"}],\"price\":\"Free\"}"
+      "updated_at": 1795554648.80152,
+      "sequence": 1,
+      "signature": "{\"title\":\"Book Club\",\"description\":\"Book: Life Hacks for a Little Alien by Alice Franklin Chat, craft, and spend intentional time together! All are welcome! Craft will be provided, but you're welcome to bring your own. Snacks to share are also welcome! January 30, 2027 2:00 pm\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"214615\",\"series\":\"https://calendar.lancasterlibraries.org/series/book-club-strasburg-heisler\",\"title\":\"Book Club\",\"description\":\"Book: Life Hacks for a Little Alien by Alice Franklin Chat, craft, and spend intentional time together! All are welcome! Craft will be provided, but you're welcome to bring your own. Snacks to share are also welcome! January 30, 2027 2:00 pm\",\"categories\":\"Book Club\",\"url\":\"https://calendar.lancasterlibraries.org/event/book-club-214615\",\"location\":\"Strasburg-Heisler Library, 143 Precision Avenue, Strasburg, PA, 17579\",\"price\":\"Free\",\"start\":1801335600,\"end\":1801341000,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Book Club\"],\"branch\":\"Strasburg-Heisler\",\"interest\":\"Library topic: Arts\",\"venue_key\":\"strasburg heisler library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/book-club-214615\"}],\"price\":\"Free\"}"
     },
     "discovery-9f193cf71a3b301fd8abed978abd6b60": {
       "source": "Lancaster Libraries",
@@ -12932,7 +12919,7 @@
       "description": "For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Purchase individual tickets for each Mixtape performance, or bundle with the February Mixtape show and purchase a subscription to save! Get tickets Get Mixtape Subscription For Mixtape Concerts, libations are available for purchase at the in-theater bar. Stay in the loop: Sign up for Prima emails and be the first to know when tickets drop!",
       "categories": "",
       "start": 1799454600,
-      "end": 1799607600,
+      "end": 1799614800,
       "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA",
       "price": "Not supplied by this source; check event details",
       "all_day": true,
@@ -12942,48 +12929,111 @@
       "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1786644874696-1M00X71HLU0U7PN7JPL3/2.png",
       "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002lj0XMAQ",
       "arts_role": "company",
-      "interest": "Selected direct source: Prima Theatre",
+      "interest": "Description: Arts; Selected direct source: Prima Theatre",
       "venue_key": "prima theatre",
       "arts_organization": "Prima Theatre",
       "id": "discovery-355465fc912456bd8f95cf74e1cec531",
       "member_keys": [
+        "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/1158",
         "Prima Theatre|https://www.primatheatre.org/events/mixtape1"
       ],
       "kind": "Engagements",
       "occurrences": [
         {
-          "source": "Prima Theatre",
-          "source_id": "6a076c1d77270f7508a2fd81",
-          "series": "https://www.primatheatre.org/events/mixtape1",
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1158/29990910/0/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158",
           "title": "Mixtape: Ali Murphy & Joshua William Green",
-          "url": "https://www.primatheatre.org/events/mixtape1",
-          "description": "For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Purchase individual tickets for each Mixtape performance, or bundle with the February Mixtape show and purchase a subscription to save! Get tickets Get Mixtape Subscription For Mixtape Concerts, libations are available for purchase at the in-theater bar. Stay in the loop: Sign up for Prima emails and be the first to know when tickets drop!",
+          "description": "For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Get tickets at https://www.primatheatre.org/mixtape",
           "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799454600000",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
           "start": 1799454600,
-          "end": 1799607600,
-          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA",
-          "price": "Not supplied by this source; check event details",
-          "all_day": true,
-          "end_known": true,
+          "end": 1799461800,
+          "all_day": false,
           "status": "CONFIRMED",
-          "direct": true,
-          "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1786644874696-1M00X71HLU0U7PN7JPL3/2.png",
-          "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002lj0XMAQ",
-          "arts_role": "company",
-          "interest": "Selected direct source: Prima Theatre",
+          "interest": "Description: Arts",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1158/29992020/1/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158",
+          "title": "Mixtape: Ali Murphy & Joshua William Green",
+          "description": "For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Get tickets at https://www.primatheatre.org/mixtape",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799521200000/1",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1799521200,
+          "end": 1799528400,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "Description: Arts",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1158/29992350/2/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158",
+          "title": "Mixtape: Ali Murphy & Joshua William Green",
+          "description": "For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Get tickets at https://www.primatheatre.org/mixtape",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799541000000/2",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1799541000,
+          "end": 1799548200,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "Description: Arts",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1158/29993460/3/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158",
+          "title": "Mixtape: Ali Murphy & Joshua William Green",
+          "description": "For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Get tickets at https://www.primatheatre.org/mixtape",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799607600000/3",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1799607600,
+          "end": 1799614800,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "Description: Arts",
           "venue_key": "prima theatre"
         }
       ],
       "sources": [
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799454600000"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799521200000/1"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799541000000/2"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799607600000/3"
+        },
         {
           "name": "Prima Theatre",
           "url": "https://www.primatheatre.org/events/mixtape1"
         }
       ],
       "first_seen": 1795371086.36526,
-      "updated_at": 1795371086.36526,
-      "sequence": 0,
-      "signature": "{\"title\":\"Mixtape: Ali Murphy & Joshua William Green\",\"description\":\"For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Purchase individual tickets for each Mixtape performance, or bundle with the February Mixtape show and purchase a subscription to save! Get tickets Get Mixtape Subscription For Mixtape Concerts, libations are available for purchase at the in-theater bar. Stay in the loop: Sign up for Prima emails and be the first to know when tickets drop!\",\"occurrences\":[{\"source\":\"Prima Theatre\",\"source_id\":\"6a076c1d77270f7508a2fd81\",\"series\":\"https://www.primatheatre.org/events/mixtape1\",\"title\":\"Mixtape: Ali Murphy & Joshua William Green\",\"url\":\"https://www.primatheatre.org/events/mixtape1\",\"description\":\"For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Purchase individual tickets for each Mixtape performance, or bundle with the February Mixtape show and purchase a subscription to save! Get tickets Get Mixtape Subscription For Mixtape Concerts, libations are available for purchase at the in-theater bar. Stay in the loop: Sign up for Prima emails and be the first to know when tickets drop!\",\"categories\":\"\",\"start\":1799454600,\"end\":1799607600,\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA\",\"price\":\"Not supplied by this source; check event details\",\"all_day\":true,\"end_known\":true,\"status\":\"CONFIRMED\",\"direct\":true,\"poster\":\"https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1786644874696-1M00X71HLU0U7PN7JPL3/2.png\",\"ticket_url\":\"https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002lj0XMAQ\",\"arts_role\":\"company\",\"interest\":\"Selected direct source: Prima Theatre\",\"venue_key\":\"prima theatre\"}],\"sources\":[{\"name\":\"Prima Theatre\",\"url\":\"https://www.primatheatre.org/events/mixtape1\"}],\"price\":\"Not supplied by this source; check event details\"}"
+      "updated_at": 1795554648.80152,
+      "sequence": 1,
+      "signature": "{\"title\":\"Mixtape: Ali Murphy & Joshua William Green\",\"description\":\"For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Purchase individual tickets for each Mixtape performance, or bundle with the February Mixtape show and purchase a subscription to save! Get tickets Get Mixtape Subscription For Mixtape Concerts, libations are available for purchase at the in-theater bar. Stay in the loop: Sign up for Prima emails and be the first to know when tickets drop!\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1158/29990910/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158\",\"title\":\"Mixtape: Ali Murphy & Joshua William Green\",\"description\":\"For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Get tickets at https://www.primatheatre.org/mixtape\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799454600000\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1799454600,\"end\":1799461800,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Description: Arts\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1158/29992020/1/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158\",\"title\":\"Mixtape: Ali Murphy & Joshua William Green\",\"description\":\"For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Get tickets at https://www.primatheatre.org/mixtape\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799521200000/1\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1799521200,\"end\":1799528400,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Description: Arts\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1158/29992350/2/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158\",\"title\":\"Mixtape: Ali Murphy & Joshua William Green\",\"description\":\"For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Get tickets at https://www.primatheatre.org/mixtape\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799541000000/2\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1799541000,\"end\":1799548200,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Description: Arts\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1158/29993460/3/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158\",\"title\":\"Mixtape: Ali Murphy & Joshua William Green\",\"description\":\"For years, Ali Murphy has led from the keys at the heart of Prima’s most iconic experiences. As pianist and music director of ILLUMINATION and numerous other productions, she has shaped the emotional architecture of the room with precision and artistry. Joshua William Green brings rich baritone depth and unmistakable presence. A frequent Prima director who steps into the spotlight when called, he carries both musical craftsmanship and warmth. Together, they curate a mixtape of songs that influenced their journeys — revealing the roots behind the sound audiences have come to love. Get tickets at https://www.primatheatre.org/mixtape\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799607600000/3\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1799607600,\"end\":1799614800,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Description: Arts\",\"venue_key\":\"prima theatre\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799454600000\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799521200000/1\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799541000000/2\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1158/1799607600000/3\"},{\"name\":\"Prima Theatre\",\"url\":\"https://www.primatheatre.org/events/mixtape1\"}],\"price\":\"Not supplied by this source; check event details\"}"
     },
     "discovery-d0882298bc655770cbafaa3711e704da": {
       "source": "Prima Theatre",
@@ -12994,7 +13044,7 @@
       "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get Tickets Subscribe to the 2026-2027 season now to secure the best seats and save over $80! Subscribe Check out the Prima Pours menu and BYOB options! Stay in the loop: Sign up for Prima emails and be the first to know when tickets drop!",
       "categories": "",
       "start": 1801873800,
-      "end": 1803236400,
+      "end": 1803243600,
       "location": "Prima Theatre, 941 Wheatland Avenue , Lancaster, PA, 19602",
       "price": "Not supplied by this source; check event details",
       "all_day": true,
@@ -13004,48 +13054,321 @@
       "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1793636743742-QU7R7RQICSOP1AYOCFCE/Crazy+Little+Thing+Updated+1920+x+1080+with+Byline.png",
       "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002gCwTMAU",
       "arts_role": "company",
-      "interest": "Selected direct source: Prima Theatre",
+      "interest": "No interest or preferred-venue match; Selected direct source: Prima Theatre",
       "venue_key": "prima theatre",
       "arts_organization": "Prima Theatre",
       "id": "discovery-d0882298bc655770cbafaa3711e704da",
       "member_keys": [
+        "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
         "Prima Theatre|https://www.primatheatre.org/events/love"
       ],
       "kind": "Engagements",
       "occurrences": [
         {
-          "source": "Prima Theatre",
-          "source_id": "6a0759bf294ea712db699624",
-          "series": "https://www.primatheatre.org/events/love",
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30031230/0/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
           "title": "Crazy Little Thing Called Love",
-          "url": "https://www.primatheatre.org/events/love",
-          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get Tickets Subscribe to the 2026-2027 season now to secure the best seats and save over $80! Subscribe Check out the Prima Pours menu and BYOB options! Stay in the loop: Sign up for Prima emails and be the first to know when tickets drop!",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
           "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801873800000",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
           "start": 1801873800,
-          "end": 1803236400,
-          "location": "Prima Theatre, 941 Wheatland Avenue , Lancaster, PA, 19602",
-          "price": "Not supplied by this source; check event details",
-          "all_day": true,
-          "end_known": true,
+          "end": 1801881000,
+          "all_day": false,
           "status": "CONFIRMED",
-          "direct": true,
-          "poster": "https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1793636743742-QU7R7RQICSOP1AYOCFCE/Crazy+Little+Thing+Updated+1920+x+1080+with+Byline.png",
-          "ticket_url": "https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002gCwTMAU",
-          "arts_role": "company",
-          "interest": "Selected direct source: Prima Theatre",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30032340/1/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801940400000/1",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1801940400,
+          "end": 1801947600,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30032670/2/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801960200000/2",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1801960200,
+          "end": 1801967400,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30033780/3/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802026800000/3",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1802026800,
+          "end": 1802034000,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30039870/4/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802392200000/4",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1802392200,
+          "end": 1802399400,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30041310/5/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802478600000/5",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1802478600,
+          "end": 1802485800,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30042420/6/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802545200000/6",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1802545200,
+          "end": 1802552400,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30042750/7/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802565000000/7",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1802565000,
+          "end": 1802572200,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30043860/8/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802631600000/8",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1802631600,
+          "end": 1802638800,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30049950/9/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802997000000/9",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1802997000,
+          "end": 1803004200,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30051390/10/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803083400000/10",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1803083400,
+          "end": 1803090600,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30052500/11/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803150000000/11",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1803150000,
+          "end": 1803157200,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30052830/12/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803169800000/12",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1803169800,
+          "end": 1803177000,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
+          "venue_key": "prima theatre"
+        },
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1160/30053940/13/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160",
+          "title": "Crazy Little Thing Called Love",
+          "description": "Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803236400000/13",
+          "location": "Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1803236400,
+          "end": 1803243600,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "No interest or preferred-venue match",
           "venue_key": "prima theatre"
         }
       ],
       "sources": [
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801873800000"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801940400000/1"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801960200000/2"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802026800000/3"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802392200000/4"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802478600000/5"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802545200000/6"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802565000000/7"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802631600000/8"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802997000000/9"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803083400000/10"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803150000000/11"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803169800000/12"
+        },
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803236400000/13"
+        },
         {
           "name": "Prima Theatre",
           "url": "https://www.primatheatre.org/events/love"
         }
       ],
       "first_seen": 1795371086.36526,
-      "updated_at": 1795371086.36526,
-      "sequence": 0,
-      "signature": "{\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get Tickets Subscribe to the 2026-2027 season now to secure the best seats and save over $80! Subscribe Check out the Prima Pours menu and BYOB options! Stay in the loop: Sign up for Prima emails and be the first to know when tickets drop!\",\"occurrences\":[{\"source\":\"Prima Theatre\",\"source_id\":\"6a0759bf294ea712db699624\",\"series\":\"https://www.primatheatre.org/events/love\",\"title\":\"Crazy Little Thing Called Love\",\"url\":\"https://www.primatheatre.org/events/love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get Tickets Subscribe to the 2026-2027 season now to secure the best seats and save over $80! Subscribe Check out the Prima Pours menu and BYOB options! Stay in the loop: Sign up for Prima emails and be the first to know when tickets drop!\",\"categories\":\"\",\"start\":1801873800,\"end\":1803236400,\"location\":\"Prima Theatre, 941 Wheatland Avenue , Lancaster, PA, 19602\",\"price\":\"Not supplied by this source; check event details\",\"all_day\":true,\"end_known\":true,\"status\":\"CONFIRMED\",\"direct\":true,\"poster\":\"https://images.squarespace-cdn.com/content/v1/669f978190c90f72984824b8/1793636743742-QU7R7RQICSOP1AYOCFCE/Crazy+Little+Thing+Updated+1920+x+1080+with+Byline.png\",\"ticket_url\":\"https://prima.my.salesforce-sites.com/ticket/#/events/a0SVb000002gCwTMAU\",\"arts_role\":\"company\",\"interest\":\"Selected direct source: Prima Theatre\",\"venue_key\":\"prima theatre\"}],\"sources\":[{\"name\":\"Prima Theatre\",\"url\":\"https://www.primatheatre.org/events/love\"}],\"price\":\"Not supplied by this source; check event details\"}"
+      "updated_at": 1795554648.80152,
+      "sequence": 1,
+      "signature": "{\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get Tickets Subscribe to the 2026-2027 season now to secure the best seats and save over $80! Subscribe Check out the Prima Pours menu and BYOB options! Stay in the loop: Sign up for Prima emails and be the first to know when tickets drop!\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30031230/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801873800000\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1801873800,\"end\":1801881000,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30032340/1/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801940400000/1\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1801940400,\"end\":1801947600,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30032670/2/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801960200000/2\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1801960200,\"end\":1801967400,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30033780/3/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802026800000/3\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1802026800,\"end\":1802034000,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30039870/4/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802392200000/4\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1802392200,\"end\":1802399400,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30041310/5/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802478600000/5\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1802478600,\"end\":1802485800,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30042420/6/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802545200000/6\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1802545200,\"end\":1802552400,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30042750/7/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802565000000/7\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1802565000,\"end\":1802572200,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30043860/8/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802631600000/8\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1802631600,\"end\":1802638800,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30049950/9/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802997000000/9\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1802997000,\"end\":1803004200,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30051390/10/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803083400000/10\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1803083400,\"end\":1803090600,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30052500/11/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803150000000/11\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1803150000,\"end\":1803157200,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30052830/12/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803169800000/12\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1803169800,\"end\":1803177000,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"},{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1160/30053940/13/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160\",\"title\":\"Crazy Little Thing Called Love\",\"description\":\"Part concert. Part comedy. Way more fun than couples therapy. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get tickets at www.primatheatre.org/events/love\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803236400000/13\",\"location\":\"Prima Theatre, 941 Wheatland Avenue, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1803236400,\"end\":1803243600,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"No interest or preferred-venue match\",\"venue_key\":\"prima theatre\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801873800000\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801940400000/1\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1801960200000/2\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802026800000/3\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802392200000/4\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802478600000/5\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802545200000/6\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802565000000/7\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802631600000/8\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1802997000000/9\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803083400000/10\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803150000000/11\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803169800000/12\"},{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1160/1803236400000/13\"},{\"name\":\"Prima Theatre\",\"url\":\"https://www.primatheatre.org/events/love\"}],\"price\":\"Not supplied by this source; check event details\"}"
     },
     "discovery-d645917fcf1fdf9cecbee8a0aec15bb0": {
       "source": "Prima Theatre",
@@ -18337,6 +18660,230 @@
       "updated_at": 1795473513.97511,
       "sequence": 0,
       "signature": "{\"title\":\"Crazy Little Thing Called Love at Prima\",\"description\":\"Rock classics. Real heart. Big Laughs. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get Tickets Come Explore Our Lancaster Theaters and the Arts Live Theater Live Entertainment Live Music Dinner Theaters Murder Mysteries Things To Do Artisan Collectives Art Galleries Events Calendar\",\"occurrences\":[{\"source\":\"LancasterPA\",\"source_id\":\"271231\",\"series\":\"https://lancasterpa.com/events-calendar/crazy-thing-called-love-prima/\",\"title\":\"Crazy Little Thing Called Love at Prima\",\"description\":\"Rock classics. Real heart. Big Laughs. Classic pop-rock favorites burst to life, woven with intimate, cabaret-style moments where performers share funny, heartfelt stories about love — the kind that will have you laughing one minute and leaning a little closer to the person beside you the next. A powerhouse band fuels iconic anthems with electric sing-along energy, while those in-between moments make it feel personal and quite playful. It’s fresh and yet nostalgic — a celebration of love in all its forms and phases — steady, surprising, hard-earned, and deeply felt… in a concert experience that’ll leave you glowing. Get Tickets Come Explore Our Lancaster Theaters and the Arts Live Theater Live Entertainment Live Music Dinner Theaters Murder Mysteries Things To Do Artisan Collectives Art Galleries Events Calendar\",\"categories\":\"Entertainment, Lancaster City, Musical Events\",\"url\":\"https://lancasterpa.com/events-calendar/crazy-thing-called-love-prima/\",\"location\":\"Prima, 941 Wheatland Ave, Lancaster, PA, 17603\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1801803600,\"end\":1803272399,\"all_day\":true,\"status\":\"CONFIRMED\",\"interest\":\"Title/category: Arts; Description: Concerts\",\"venue_key\":\"prima theatre\"}],\"sources\":[{\"name\":\"LancasterPA\",\"url\":\"https://lancasterpa.com/events-calendar/crazy-thing-called-love-prima/\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
+    },
+    "discovery-a9249878a398f0a6de8c4872b25b6ed4": {
+      "source": "Visit Lancaster City",
+      "source_id": "TKF/6a345ad0afff871fa5d6af75/1150/29946120/0/0",
+      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1150",
+      "title": "Fulton Theatre's Holiday Story Time and Sing-a-long",
+      "description": "Celebrate the joy of the season with a special interactive Story Time and sing-a-long inspired by the Fulton Theatre's holiday production of Annie. Families are invited to gather for a delightful hour of storytelling, imagination, and connection in one of Lancaster's most beloved cultural venues. This free community event offers a fun and engaging experience for children and caregivers alike.",
+      "categories": "",
+      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1150/1796767200000",
+      "location": "Castagna Hall in the Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1796767200,
+      "end": 1796770800,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "interest": "Preferred venue: Fulton Theatre",
+      "venue_key": "castagna hall in the fulton theatre",
+      "id": "discovery-a9249878a398f0a6de8c4872b25b6ed4",
+      "member_keys": [
+        "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/1150"
+      ],
+      "kind": "Events",
+      "occurrences": [
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1150/29946120/0/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1150",
+          "title": "Fulton Theatre's Holiday Story Time and Sing-a-long",
+          "description": "Celebrate the joy of the season with a special interactive Story Time and sing-a-long inspired by the Fulton Theatre's holiday production of Annie. Families are invited to gather for a delightful hour of storytelling, imagination, and connection in one of Lancaster's most beloved cultural venues. This free community event offers a fun and engaging experience for children and caregivers alike.",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1150/1796767200000",
+          "location": "Castagna Hall in the Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1796767200,
+          "end": 1796770800,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "Preferred venue: Fulton Theatre",
+          "venue_key": "castagna hall in the fulton theatre"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1150/1796767200000"
+        }
+      ],
+      "first_seen": 1795554648.80152,
+      "updated_at": 1795554648.80152,
+      "sequence": 0,
+      "signature": "{\"title\":\"Fulton Theatre's Holiday Story Time and Sing-a-long\",\"description\":\"Celebrate the joy of the season with a special interactive Story Time and sing-a-long inspired by the Fulton Theatre's holiday production of Annie. Families are invited to gather for a delightful hour of storytelling, imagination, and connection in one of Lancaster's most beloved cultural venues. This free community event offers a fun and engaging experience for children and caregivers alike.\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1150/29946120/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1150\",\"title\":\"Fulton Theatre's Holiday Story Time and Sing-a-long\",\"description\":\"Celebrate the joy of the season with a special interactive Story Time and sing-a-long inspired by the Fulton Theatre's holiday production of Annie. Families are invited to gather for a delightful hour of storytelling, imagination, and connection in one of Lancaster's most beloved cultural venues. This free community event offers a fun and engaging experience for children and caregivers alike.\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1150/1796767200000\",\"location\":\"Castagna Hall in the Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1796767200,\"end\":1796770800,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Preferred venue: Fulton Theatre\",\"venue_key\":\"castagna hall in the fulton theatre\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1150/1796767200000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
+    },
+    "discovery-847b1ed23ac6767bcc68790f299f112f": {
+      "source": "Visit Lancaster City",
+      "source_id": "TKF/6a345ad0afff871fa5d6af75/1151/29950140/0/0",
+      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1151",
+      "title": "Annie Lunchtime Trivia at the Fulton",
+      "description": "Pack your lunch and test your theatre smarts! Join us Friday, December 11th at 12:00 PM for our second ever Fulton Trivia Hour, featuring all things Annie! Whether you’re a lifelong Broadway buff or just looking for a fun midday break, pull up a chair, unpack your lunch, and show off your knowledge. Bring a friend or meet fellow theatre lovers here! Where: Fulton Theatre Lobby When: Friday, December 11th at 12:00 PM Details: Free to attend; just bring your lunch and your trivia brains!",
+      "categories": "",
+      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1151/1797008400000",
+      "location": "Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1797008400,
+      "end": 1797012000,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "interest": "Preferred venue: Fulton Theatre",
+      "venue_key": "fulton theatre",
+      "id": "discovery-847b1ed23ac6767bcc68790f299f112f",
+      "member_keys": [
+        "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/1151"
+      ],
+      "kind": "Events",
+      "occurrences": [
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/1151/29950140/0/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1151",
+          "title": "Annie Lunchtime Trivia at the Fulton",
+          "description": "Pack your lunch and test your theatre smarts! Join us Friday, December 11th at 12:00 PM for our second ever Fulton Trivia Hour, featuring all things Annie! Whether you’re a lifelong Broadway buff or just looking for a fun midday break, pull up a chair, unpack your lunch, and show off your knowledge. Bring a friend or meet fellow theatre lovers here! Where: Fulton Theatre Lobby When: Friday, December 11th at 12:00 PM Details: Free to attend; just bring your lunch and your trivia brains!",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1151/1797008400000",
+          "location": "Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1797008400,
+          "end": 1797012000,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "Preferred venue: Fulton Theatre",
+          "venue_key": "fulton theatre"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/1151/1797008400000"
+        }
+      ],
+      "first_seen": 1795554648.80152,
+      "updated_at": 1795554648.80152,
+      "sequence": 0,
+      "signature": "{\"title\":\"Annie Lunchtime Trivia at the Fulton\",\"description\":\"Pack your lunch and test your theatre smarts! Join us Friday, December 11th at 12:00 PM for our second ever Fulton Trivia Hour, featuring all things Annie! Whether you’re a lifelong Broadway buff or just looking for a fun midday break, pull up a chair, unpack your lunch, and show off your knowledge. Bring a friend or meet fellow theatre lovers here! Where: Fulton Theatre Lobby When: Friday, December 11th at 12:00 PM Details: Free to attend; just bring your lunch and your trivia brains!\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/1151/29950140/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1151\",\"title\":\"Annie Lunchtime Trivia at the Fulton\",\"description\":\"Pack your lunch and test your theatre smarts! Join us Friday, December 11th at 12:00 PM for our second ever Fulton Trivia Hour, featuring all things Annie! Whether you’re a lifelong Broadway buff or just looking for a fun midday break, pull up a chair, unpack your lunch, and show off your knowledge. Bring a friend or meet fellow theatre lovers here! Where: Fulton Theatre Lobby When: Friday, December 11th at 12:00 PM Details: Free to attend; just bring your lunch and your trivia brains!\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1151/1797008400000\",\"location\":\"Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1797008400,\"end\":1797012000,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Preferred venue: Fulton Theatre\",\"venue_key\":\"fulton theatre\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/1151/1797008400000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
+    },
+    "discovery-b0d6fbe528b1de8b93d240d3bb2e6430": {
+      "source": "Visit Lancaster City",
+      "source_id": "TKF/6a345ad0afff871fa5d6af75/709/30055680/0/0",
+      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/709",
+      "title": "Isaiah Bailey from 'The Phantom of the Opera'",
+      "description": "Sponsored by the Melva S. McIlwaine Guest Artist Endowment Fund This singer, actor, educator and worship leader is currently starring as the title role in the North American Tour of Andrew Lloyd Webber’s “The Phantom of the Opera.” Additional credits include “The Lion King,” “Beautiful: The Carole King Musical,” “Jesus Christ Superstar” and “Come From Away.” Bailey is also an established voice teacher, vocal coach, songwriter and masterclass clinician.",
+      "categories": "",
+      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/709/1803340800000",
+      "location": "The Trust Performing Arts Center, 37 North Market Street, Lancaster, PA 17603, USA",
+      "price": "Not supplied by this calendar; check event details",
+      "start": 1803340800,
+      "end": 1803348000,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "interest": "Description: Arts",
+      "venue_key": "the trust performing arts center",
+      "id": "discovery-b0d6fbe528b1de8b93d240d3bb2e6430",
+      "member_keys": [
+        "Visit Lancaster City|https://calendar.visitlancastercity.com/visitlancastercity/detail/709"
+      ],
+      "kind": "Events",
+      "occurrences": [
+        {
+          "source": "Visit Lancaster City",
+          "source_id": "TKF/6a345ad0afff871fa5d6af75/709/30055680/0/0",
+          "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/709",
+          "title": "Isaiah Bailey from 'The Phantom of the Opera'",
+          "description": "Sponsored by the Melva S. McIlwaine Guest Artist Endowment Fund This singer, actor, educator and worship leader is currently starring as the title role in the North American Tour of Andrew Lloyd Webber’s “The Phantom of the Opera.” Additional credits include “The Lion King,” “Beautiful: The Carole King Musical,” “Jesus Christ Superstar” and “Come From Away.” Bailey is also an established voice teacher, vocal coach, songwriter and masterclass clinician.",
+          "categories": "",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/709/1803340800000",
+          "location": "The Trust Performing Arts Center, 37 North Market Street, Lancaster, PA 17603, USA",
+          "price": "Not supplied by this calendar; check event details",
+          "start": 1803340800,
+          "end": 1803348000,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "interest": "Description: Arts",
+          "venue_key": "the trust performing arts center"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Visit Lancaster City",
+          "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/709/1803340800000"
+        }
+      ],
+      "first_seen": 1795554648.80152,
+      "updated_at": 1795554648.80152,
+      "sequence": 0,
+      "signature": "{\"title\":\"Isaiah Bailey from 'The Phantom of the Opera'\",\"description\":\"Sponsored by the Melva S. McIlwaine Guest Artist Endowment Fund This singer, actor, educator and worship leader is currently starring as the title role in the North American Tour of Andrew Lloyd Webber’s “The Phantom of the Opera.” Additional credits include “The Lion King,” “Beautiful: The Carole King Musical,” “Jesus Christ Superstar” and “Come From Away.” Bailey is also an established voice teacher, vocal coach, songwriter and masterclass clinician.\",\"occurrences\":[{\"source\":\"Visit Lancaster City\",\"source_id\":\"TKF/6a345ad0afff871fa5d6af75/709/30055680/0/0\",\"series\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/709\",\"title\":\"Isaiah Bailey from 'The Phantom of the Opera'\",\"description\":\"Sponsored by the Melva S. McIlwaine Guest Artist Endowment Fund This singer, actor, educator and worship leader is currently starring as the title role in the North American Tour of Andrew Lloyd Webber’s “The Phantom of the Opera.” Additional credits include “The Lion King,” “Beautiful: The Carole King Musical,” “Jesus Christ Superstar” and “Come From Away.” Bailey is also an established voice teacher, vocal coach, songwriter and masterclass clinician.\",\"categories\":\"\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/709/1803340800000\",\"location\":\"The Trust Performing Arts Center, 37 North Market Street, Lancaster, PA 17603, USA\",\"price\":\"Not supplied by this calendar; check event details\",\"start\":1803340800,\"end\":1803348000,\"all_day\":false,\"status\":\"CONFIRMED\",\"interest\":\"Description: Arts\",\"venue_key\":\"the trust performing arts center\"}],\"sources\":[{\"name\":\"Visit Lancaster City\",\"url\":\"https://calendar.visitlancastercity.com/visitlancastercity/detail/709/1803340800000\"}],\"price\":\"Not supplied by this calendar; check event details\"}"
+    },
+    "discovery-eaa31ea99cb8c604ab6c83e205e565df": {
+      "source": "Lancaster Libraries",
+      "source_id": "209239",
+      "series": "https://calendar.lancasterlibraries.org/series/grave-concern-historic-cemetery-preservation-in-lancaster-county-manheim-township",
+      "title": "Grave Concern: Historic Cemetery Preservation in Lancaster County",
+      "description": "Discover the hidden history right beneath our feet! Join Sam Mecum and Kenn Lefever from Grave Concern, Inc. for an engaging look at the historic burial grounds of Lancaster County and Manheim Township. From forgotten family plots to recent preservation efforts at the Meister cemetery near the Lancaster Airport, learn how local historians protect these vital pieces of our community's heritage-- and what happens when modern development meets historic sites. Registration is encouraged!",
+      "categories": "Community, Discussion, Presentation",
+      "url": "https://calendar.lancasterlibraries.org/event/grave-concern-preservation-historic-cemeteries-lancaster-county-209239",
+      "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+      "price": "Free",
+      "start": 1796166000,
+      "end": 1796173200,
+      "all_day": false,
+      "status": "CONFIRMED",
+      "age_groups": [
+        "Adults",
+        "Seniors"
+      ],
+      "program_types": [
+        "Community",
+        "Discussion",
+        "Presentation"
+      ],
+      "branch": "Manheim Township",
+      "interest": "Library topic: History",
+      "venue_key": "manheim township library",
+      "id": "discovery-eaa31ea99cb8c604ab6c83e205e565df",
+      "member_keys": [
+        "Lancaster Libraries|https://calendar.lancasterlibraries.org/series/grave-concern-historic-cemetery-preservation-in-lancaster-county-manheim-township"
+      ],
+      "kind": "Events",
+      "occurrences": [
+        {
+          "source": "Lancaster Libraries",
+          "source_id": "209239",
+          "series": "https://calendar.lancasterlibraries.org/series/grave-concern-historic-cemetery-preservation-in-lancaster-county-manheim-township",
+          "title": "Grave Concern: Historic Cemetery Preservation in Lancaster County",
+          "description": "Discover the hidden history right beneath our feet! Join Sam Mecum and Kenn Lefever from Grave Concern, Inc. for an engaging look at the historic burial grounds of Lancaster County and Manheim Township. From forgotten family plots to recent preservation efforts at the Meister cemetery near the Lancaster Airport, learn how local historians protect these vital pieces of our community's heritage-- and what happens when modern development meets historic sites. Registration is encouraged!",
+          "categories": "Community, Discussion, Presentation",
+          "url": "https://calendar.lancasterlibraries.org/event/grave-concern-preservation-historic-cemeteries-lancaster-county-209239",
+          "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+          "price": "Free",
+          "start": 1796166000,
+          "end": 1796173200,
+          "all_day": false,
+          "status": "CONFIRMED",
+          "age_groups": [
+            "Adults",
+            "Seniors"
+          ],
+          "program_types": [
+            "Community",
+            "Discussion",
+            "Presentation"
+          ],
+          "branch": "Manheim Township",
+          "interest": "Library topic: History",
+          "venue_key": "manheim township library"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Lancaster Libraries",
+          "url": "https://calendar.lancasterlibraries.org/event/grave-concern-preservation-historic-cemeteries-lancaster-county-209239"
+        }
+      ],
+      "first_seen": 1795554648.80152,
+      "updated_at": 1795554648.80152,
+      "sequence": 0,
+      "signature": "{\"title\":\"Grave Concern: Historic Cemetery Preservation in Lancaster County\",\"description\":\"Discover the hidden history right beneath our feet! Join Sam Mecum and Kenn Lefever from Grave Concern, Inc. for an engaging look at the historic burial grounds of Lancaster County and Manheim Township. From forgotten family plots to recent preservation efforts at the Meister cemetery near the Lancaster Airport, learn how local historians protect these vital pieces of our community's heritage-- and what happens when modern development meets historic sites. Registration is encouraged!\",\"occurrences\":[{\"source\":\"Lancaster Libraries\",\"source_id\":\"209239\",\"series\":\"https://calendar.lancasterlibraries.org/series/grave-concern-historic-cemetery-preservation-in-lancaster-county-manheim-township\",\"title\":\"Grave Concern: Historic Cemetery Preservation in Lancaster County\",\"description\":\"Discover the hidden history right beneath our feet! Join Sam Mecum and Kenn Lefever from Grave Concern, Inc. for an engaging look at the historic burial grounds of Lancaster County and Manheim Township. From forgotten family plots to recent preservation efforts at the Meister cemetery near the Lancaster Airport, learn how local historians protect these vital pieces of our community's heritage-- and what happens when modern development meets historic sites. Registration is encouraged!\",\"categories\":\"Community, Discussion, Presentation\",\"url\":\"https://calendar.lancasterlibraries.org/event/grave-concern-preservation-historic-cemeteries-lancaster-county-209239\",\"location\":\"Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601\",\"price\":\"Free\",\"start\":1796166000,\"end\":1796173200,\"all_day\":false,\"status\":\"CONFIRMED\",\"age_groups\":[\"Adults\",\"Seniors\"],\"program_types\":[\"Community\",\"Discussion\",\"Presentation\"],\"branch\":\"Manheim Township\",\"interest\":\"Library topic: History\",\"venue_key\":\"manheim township library\"}],\"sources\":[{\"name\":\"Lancaster Libraries\",\"url\":\"https://calendar.lancasterlibraries.org/event/grave-concern-preservation-historic-cemeteries-lancaster-county-209239\"}],\"price\":\"Free\"}"
     }
   }
 }
