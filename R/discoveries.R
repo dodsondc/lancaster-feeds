@@ -1,6 +1,7 @@
 # Requires news.R (HTTP/XML helpers), conservancy.R (individual calendar writer),
 # discovery-preferences.R, and libraries.R. No credentials or paid services.
 discovery_city_url <- "https://tockify.com/api/feeds/rss/visitlancastercity"
+discover_lancaster_url <- "https://www.discoverlancaster.com/events/"
 discovery_pa_api <- "https://lancasterpa.com/wp-json/tribe/events/v1/events"
 
 # Normalize source descriptions to plain text before building our own article HTML.
@@ -57,6 +58,15 @@ discovery_match <- function(e, prefs) {
   primary <- paste(e$title, e$categories)
   hits <- names(prefs$interests)[vapply(prefs$interests,matches,logical(1),text=primary)]
   description_hits <- names(prefs$description_interests)[vapply(prefs$description_interests,matches,logical(1),text=e$description)]
+  if (identical(e$source, "Discover Lancaster")) {
+    if (matches("\\b(heritage|history)\\b", e$categories)) hits <- union(hits, "History")
+    if (matches("Art Exhibits, Museums", e$categories)) hits <- union(hits, "Arts")
+    if (matches("\\b(wildlife|snowshoe hares?|birding|native plants?|nature)\\b", e$title)) hits <- union(hits, "Environment")
+    if (matches("Classes & Workshops", e$categories) &&
+        matches("\\b(watercolor|painting|pottery|glassblowing|printmaking|sculpture|photography)\\b", e$title)) {
+      hits <- union(hits, "Arts")
+    }
+  }
   reasons <- c(if(length(hits))paste("Title/category:",paste(hits,collapse=", ")),
     if(length(description_hits))paste("Description:",paste(description_hits,collapse=", ")))
   if (!length(reasons)) return(list(keep=FALSE,reason="No interest or preferred-venue match"))
@@ -142,6 +152,71 @@ fetch_discovery_pa <- function(today, through, get_json=function(url) resp_body_
   events[!duplicated(vapply(events,function(e)as.character(e$id),character(1)))]
 }
 
+fetch_discover_lancaster <- function(today, through,
+    get_page = function(url) resp_body_html(fetch_page(url)),
+    search = function(req) resp_body_json(req_perform(req), simplifyVector = FALSE)) {
+  listing <- html_element(get_page(discover_lancaster_url), "[data-listings][data-info][data-config]")
+  info <- fromJSON(html_attr(listing, "data-info"))
+  config <- fromJSON(html_attr(listing, "data-config"))
+  if (!grepl("^[A-Za-z0-9]+$", text_value(info$appId)) ||
+      !grepl("^[A-Za-z0-9_-]+$", text_value(info$index)) ||
+      !nzchar(text_value(info$apiKey)) || !nzchar(text_value(config$filters))) {
+    stop("Discover Lancaster calendar search configuration is missing or invalid")
+  }
+  # The page supplies a public, search-only browser key. Use its calendar
+  # filter and add a bounded date window to the same read-only search.
+  endpoint <- paste0("https://", tolower(info$appId), "-dsn.algolia.net/1/indexes/", info$index, "/query")
+  filters <- c(paste("endDate >=", sprintf("%.0f", publication_time(as.character(today)))),
+    paste("startDate <", sprintf("%.0f", publication_time(as.character(through + 1L)))))
+  fields <- c("id", "title", "uri", "address", "website", "startDate", "endDate",
+    "eventCategories", "readableRepeatRule", "content")
+  hits <- list()
+  page <- 0L
+  repeat {
+    req <- request(endpoint) |>
+      req_headers(`X-Algolia-Application-Id` = info$appId, `X-Algolia-API-Key` = info$apiKey) |>
+      req_body_json(list(query = "", filters = config$filters, numericFilters = filters,
+        hitsPerPage = 250L, page = page, attributesToRetrieve = fields)) |>
+      req_timeout(30) |> req_retry(max_tries = 3)
+    result <- search(req)
+    if (!is.list(result$hits) || length(result$nbPages) != 1L ||
+        !is.numeric(result$nbPages) || !is.finite(result$nbPages) || result$nbPages < 0 ||
+        result$nbPages > 20L || length(result$nbHits) != 1L ||
+        !is.numeric(result$nbHits) || !is.finite(result$nbHits) || result$nbHits < 0) {
+      stop("Unexpected Discover Lancaster search response")
+    }
+    hits <- c(hits, result$hits)
+    page <- page + 1L
+    if (page >= result$nbPages) break
+  }
+  if (length(hits) < as.integer(result$nbHits)) stop("Incomplete Discover Lancaster search results")
+  arts_tags <- c("Art Exhibits, Museums", "Heritage & History", "Outdoor", "Classes & Workshops",
+    "Music & Dance", "Theatre, Film, Performances")
+  hits <- Filter(function(e) any(unlist(e$eventCategories) %in% arts_tags), hits)
+  events <- lapply(hits, function(e) {
+    slug <- text_value(e$uri)
+    title <- discovery_text(e$title)
+    if (!grepl("^/(events/)?[\\p{L}\\p{M}\\p{N}_%-]+/?$", slug, perl = TRUE) || !nzchar(title) ||
+        length(e$startDate) != 1L || length(e$endDate) != 1L ||
+        !is.numeric(e$startDate) || !is.numeric(e$endDate) ||
+        !is.finite(e$startDate) || !is.finite(e$endDate) || e$endDate < e$startDate) {
+      stop("Unrecognized Discover Lancaster event: ", title)
+    }
+    slug <- sub("/$", "", sub("^/(events/)?", "", slug))
+    url <- paste0(discover_lancaster_url, URLencode(enc2utf8(slug), reserved = TRUE), "/")
+    # The index can combine multiple occurrences into one range. Use the
+    # advertised dates and send readers to the event page for exact times.
+    list(source = "Discover Lancaster", source_id = as.character(e$id), series = url,
+      title = title, url = url, website = text_value(e$website),
+      description = paste(discovery_text(e$content), text_value(e$readableRepeatRule)),
+      categories = paste(unlist(e$eventCategories), collapse = ", "),
+      location = discovery_text(paste(unlist(e$address), collapse = ", ")),
+      start = e$startDate, end = e$endDate, all_day = TRUE,
+      status = "CONFIRMED", price = "Not supplied by this calendar; check event details")
+  })
+  unique(events)
+}
+
 # Merge only exact normalized titles at a known matching venue. A single-source
 # series ID also joins occurrences. No fuzzy title or geographic inference.
 discovery_title_key <- function(e,prefs) {
@@ -216,7 +291,7 @@ build_discoveries <- function(events,prefs,now,old=list(),arts_sources=list()) {
     m<-discovery_match(e,prefs)
     in_window <- e$end >= lower && (identical(e$arts_role, "company") || e$start < upper)
     if (!in_window) m <- list(keep=FALSE,reason="Outside date window")
-    tourism <- e$source %in% c("Visit Lancaster City", "LancasterPA")
+    tourism <- e$source %in% c("Visit Lancaster City", "LancasterPA", "Discover Lancaster")
     can_enrich <- tourism && e$end >= lower &&
       !m$reason %in% c("Explicit exclusion", "Excluded title: dance") &&
       !startsWith(m$reason, "Excluded venue:")
@@ -484,13 +559,15 @@ collect_discoveries <- function(root,now=as.numeric(Sys.time()),
   history<-if(file.exists(path))read_json(path,simplifyVector=FALSE) else list()
   old<-if(is.null(history$items))list() else history$items
   checked_at<-if(is.null(history$last_checked))now else history$last_checked
-  for(pair in list(c("city","Visit Lancaster City"),c("pa","LancasterPA"),c("libraries","Lancaster Libraries")))seed_source_cache(pair[1],pair[2],root,old,checked_at)
+  for(pair in list(c("city","Visit Lancaster City"),c("pa","LancasterPA"),c("discover_lancaster","Discover Lancaster"),c("libraries","Lancaster Libraries")))seed_source_cache(pair[1],pair[2],root,old,checked_at)
   # Each source keeps its own last successful records. A failed source cannot
   # freeze healthy sources or silently erase its previously known upcoming items.
   safe<-function(id,name,fn)collect_source_safely(id,name,root,now,fn)
   source_results<-list(
     city=safe("city","Visit Lancaster City",function()parse_discovery_city(resp_body_xml(fetch_page(discovery_city_url)))),
     pa=safe("pa","LancasterPA",function()parse_discovery_pa(fetch_discovery_pa(today,today+prefs$horizon_days))),
+    discover_lancaster=safe("discover_lancaster","Discover Lancaster",
+      function()fetch_discover_lancaster(today,today+prefs$horizon_days)),
     libraries=safe("libraries","Lancaster Libraries",function()fetch_library_events(root,today,today+prefs$horizon_days,prefs,now=now)))
   source_results<-c(source_results,collect_direct_sources(root,today,today+prefs$horizon_days,now,force=force_arts))
   records<-unlist(lapply(source_results,`[[`,"events"),recursive=FALSE)
