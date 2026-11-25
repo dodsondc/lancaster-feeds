@@ -9,7 +9,7 @@ body <- html_element(page, "body")
 xml_add_child(body, read_html('<div class="vc_inner"><h2>MORE EVENTS COMING SOON!</h2></div>') |>
   html_element(".vc_inner"))
 stopifnot(identical(names(parse_conservancy_listing(page, as.Date("2026-10-17"))), names(events)))
-xml_add_child(body, read_html('<div class="vc_inner"><h2>Actual event with no date</h2></div>') |>
+xml_add_child(body, read_html('<div class="vc_inner"><h2>Actual event with no date</h2><a href="/registration">Register</a></div>') |>
   html_element(".vc_inner"))
 missing_date <- tryCatch(parse_conservancy_listing(page, as.Date("2026-10-17")), error = conditionMessage)
 stopifnot(identical(missing_date, "Missing date for Actual event with no date"))
@@ -83,8 +83,15 @@ now <- publication_time("2026-11-22")
 empty <- collect_conservancy_events(root, now, enrich_eventbrite = FALSE)
 feed_path <- file.path(root, "lancaster_conservancy_events.xml")
 stopifnot(!length(empty), !length(xml_find_all(read_xml(feed_path), "//item")))
-fetch_page <- function(url) response_html('<div class="vc_inner"><h2>MORE EVENTS COMING SOON!</h2></div>')
-stopifnot(!length(collect_conservancy_events(root, now, enrich_eventbrite = FALSE)))
+for (body in c(
+  '<div class="vc_inner"><h2>THANK YOU FOR A GREAT YEAR. 2027 EVENTS COMING SOON!</h2></div>',
+  '<div class="vc_inner"><h2>Season update</h2><div class="wpb_text_column"><strong>Check back later.</strong></div></div>',
+  ""
+)) {
+  fetch_page <- function(url) response_html(paste0('<body class="page-id-947">', body, '</body>'))
+  stopifnot(!length(collect_conservancy_events(root, now, enrich_eventbrite = FALSE)),
+    !length(xml_find_all(read_xml(feed_path), "//item")))
+}
 before <- readLines(feed_path)
 fetch_page <- function(url) response_html("<p>Unexpected page layout</p>")
 failure <- tryCatch(collect_conservancy_events(root, now, enrich_eventbrite = FALSE),

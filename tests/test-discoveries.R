@@ -1,4 +1,4 @@
-source('R/news.R');source('R/conservancy.R');source('R/discovery-preferences.R');source('R/discoveries.R')
+source('R/news.R');source('R/conservancy.R');source('R/discovery-preferences.R');source('R/discoveries.R');source('R/direct-sources.R')
 now<-publication_time('2026-10-18T12:00:00-04:00')
 p<-discovery_preferences
 fixture<-function(title='Chamber Music Concert',source='Visit Lancaster City',series='series1',start='2026-11-06T19:00:00-05:00',end='2026-11-06T21:00:00-05:00',venue='Ware Center for the Arts, 42 N Prince St') {
@@ -146,5 +146,37 @@ stopifnot(identical(links("//tbody/tr/th"), "November 2026"))
 write_company_season_grid(list(), "Example Company", p, as.Date("2026-12-01"), grid_path)
 grid <- read_html(grid_path)
 stopifnot(identical(links("//tbody/tr/th"), "December 2026"))
+# The normal collection path puts covered programs in one RSS article.
+local({
+  root <- file.path(tmp, "collection")
+  dir.create(root)
+  company$source <- "Fulton Theatre"
+  venue$title <- "Venue-only Concert"
+  direct_source_registry <- function() list(fulton = list(arts_role = "company", name = company$source))
+  collect_source_safely <- function(id, name, root, now, collect) {
+    list(events = if (id == "city") list(tourism, other) else list(),
+      health = data.frame(source_id = id, source = name, status = "ok"))
+  }
+  collect_direct_sources <- function(root, today, through, now, force) {
+    list(fulton = list(events = list(company, venue),
+      health = data.frame(source_id = "fulton", source = company$source, status = "ok")))
+  }
+  collect <- collect_discoveries
+  environment(collect) <- environment()
+  collect(root, now, force_arts = FALSE)
+  arts <- read_xml(file.path(root, "lancaster_performing_arts.xml"))
+  items <- xml_find_all(arts, "/rss/channel/item")
+  stopifnot(length(items) == 2L,
+    xml_text(xml_find_first(items[[1]], "guid")) == "lancaster:performing-arts-season-grid",
+    grepl("Venue-only Concert", xml_text(xml_find_first(items[[2]], "title")), fixed = TRUE))
+  article <- read_html(xml_text(xml_find_first(items[[1]], "description")))
+  table <- html_element(article, "table")
+  stopifnot(!inherits(table, "xml_missing"),
+    length(xml_find_all(table, ".//a[contains(., 'Winter Concert')]")) == 1L,
+    company$url %in% html_attr(html_elements(table, "a"), "href"))
+  discoveries <- read_xml(file.path(root, "lancaster_discoveries.xml"))
+  stopifnot(length(xml_find_all(discoveries, "/rss/channel/item")) == 1L,
+    grepl(other$title, xml_text(xml_find_first(discoveries, "//item/title")), fixed = TRUE))
+})
 unlink(tmp,recursive=TRUE)
 cat('Discovery tests passed\n')
