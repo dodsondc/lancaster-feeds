@@ -255,10 +255,10 @@ Susquehanna Stage, Lancaster Shakespeare Theatre, Dutch Apple Dinner Theatre,
 and Gretna Theatre) contribute dated upcoming
 productions from their public listings.
 Presenting venues (Ware/Millersville and Mickey's Black Box) contribute upcoming
-and ongoing events within the 90-day window. Visual-art exhibitions, Demuth
-Museum events, and the Lancaster County Bird Club stay in Discoveries. A
-tourism-only performance stays in Discoveries until it matches a followed
-company or venue listing. Both feeds share deduplication and identity history.
+and ongoing events within the 90-day window. Demuth Museum events and the Lancaster County Bird Club stay in Discoveries. Discoveries suppresses listings attributed to a followed company or venue,
+even when the event titles differ. Other tourism listings still follow the
+usual Discoveries filters. Matching listings can enrich Performing Arts
+items, and both feeds share identity history.
 
 Choose sources using `direct_sources` in `R/discovery-preferences.R`. The direct
 source registry in `R/direct-sources.R` sets the role, city, and refresh interval
