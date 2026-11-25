@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-d64445580516810a3262dc14eae4df8f-20261219T140000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261125T180311Z
+LAST-MODIFIED:20261125T180311Z
+SEQUENCE:0
+DTSTART:20261219T140000Z
+DTEND:20261219T160000Z
+SUMMARY:CBC4KIDS (and Adults) – Lancaster Central Park
+DESCRIPTION:John Lahr is the coordinator of this CBC4KIDS (and adults) whic
+ h is designed to introduce young people to winter birding and nature at La
+ ncaster County Central Park. A special event with Lancaster County Parks. 
+ John Lahr is coordinator of this CBC4KIDS (and adults) which is designed t
+ o introduce young people to winter birding and nature at Lancaster County 
+ Central Park. Any adults without children are also encouraged to join the 
+ group to experience the beauty of the park in winter and help provide ment
+ orship. Please contact John (717-205-3030 or johnlahr324@gmail.com) if you
+  have any questions or want to join the group.\n\nPrice: Not supplied by t
+ his calendar\; check event details\n\nSchedule listed: Dec 19\, 2026 · 09
+ :00 AM EST – 11:00 AM EST\n\nSchedule supplied by Lancaster County Bird 
+ Club\n\nTimes converted from America/New_York to UTC for calendar compatib
+ ility.\n\n\n\nRegistration: https://lancasterbirdclub.org/event/cbc4kids-a
+ nd-adults-lancaster-central-park-2/\n\nAdding this calendar item does not 
+ register you. Check the original listing for changes\; imported events do 
+ not automatically stay in sync.
+LOCATION:
+URL:https://lancasterbirdclub.org/event/cbc4kids-and-adults-lancaster-centr
+ al-park-2/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

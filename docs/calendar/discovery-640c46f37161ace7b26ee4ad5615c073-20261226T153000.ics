@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-640c46f37161ace7b26ee4ad5615c073-20261226T153000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261125T180311Z
+LAST-MODIFIED:20261125T180311Z
+SEQUENCE:0
+DTSTART:20261226T153000Z
+DTEND:20261226T173000Z
+SUMMARY:Middle Creek Winter Bird Walk
+DESCRIPTION:This field trip offers a hands-on birding experience that will 
+ allow participants to explore Middle Creek’s winter landscape and observ
+ e the season’s local bird species while gaining insight into the process
+  of counting birds for the Christmas Bird Count (CBC). Whether you’re a 
+ seasoned birder or new to birding and CBCs\, this outing offers a unique o
+ pportunity to connect with nature and learn how birding data is collected 
+ in the field each year for this citizen-science survey. Pre-registration i
+ s required by 5 p.m the day prior for this offering. Contact Ted at tanich
+ olsii@gmail.com or 717-856-3851 if you have questions or want to make a re
+ servation to attend. IMPORTANT NOTE: Attendees must wear blaze orange for 
+ this field trip per new Pennsylvania Game Commission regulations requiring
+  wear on Game Lands Oct. 1 through Jan. 31. Location: Middle Creek Wildlif
+ e Management Area Visitor Center\, 100 Museum Road\, Stevens\, PA 17578 Co
+ ntact: Ted Nichols\, 717-856-3851 or tanicholsii@gmail.com.\n\nPrice: Not 
+ supplied by this calendar\; check event details\n\nSchedule listed: Dec 26
+ \, 2026 · 10:30 AM EST – 12:30 PM EST\n\nSchedule supplied by Lancaster
+  County Bird Club\n\nTimes converted from America/New_York to UTC for cale
+ ndar compatibility.\n\n\n\nRegistration: https://lancasterbirdclub.org/eve
+ nt/middle-creek-winter-walk/\n\nAdding this calendar item does not registe
+ r you. Check the original listing for changes\; imported events do not aut
+ omatically stay in sync.
+LOCATION:Middle Creek Wildlife Management Area Visitor Center\, 100 Museum 
+ Road\, Stevens\, PA\, 17578
+URL:https://lancasterbirdclub.org/event/middle-creek-winter-walk/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

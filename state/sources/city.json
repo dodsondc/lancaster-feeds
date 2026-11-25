@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795554648.80152,
+  "checked_at": 1795629791.41504,
   "events": [
     {
       "source": "Visit Lancaster City",
@@ -13,21 +13,6 @@
       "price": "Not supplied by this calendar; check event details",
       "start": 1795221000,
       "end": 1798059600,
-      "all_day": false,
-      "status": "CONFIRMED"
-    },
-    {
-      "source": "Visit Lancaster City",
-      "source_id": "TKF/6a345ad0afff871fa5d6af75/802/29926110/0/0",
-      "series": "https://calendar.visitlancastercity.com/visitlancastercity/detail/802",
-      "title": "Annie",
-      "description": "Based on the popular comic strip by Harold Gray, Annie has become a worldwide phenomenon and was the winner of seven Tony Awards, including Best Musical. The beloved book and score by Tony Award winners, Thomas Meehan, Charles Strouse and Martin Charnin, features some of the greatest musical theatre hits ever written, including “Tomorrow.”",
-      "categories": "",
-      "url": "https://calendar.visitlancastercity.com/visitlancastercity/detail/802/1795566600000",
-      "location": "Fulton Theatre, 12 North Prince Street, Lancaster, PA 17603, USA",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795566600,
-      "end": 1795577400,
       "all_day": false,
       "status": "CONFIRMED"
     },
