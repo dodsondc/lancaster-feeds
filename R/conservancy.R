@@ -26,22 +26,23 @@ listing_event_date <- function(text, today) {
 
 parse_conservancy_listing <- function(page, today) {
   result <- list()
-  coming_soon <- FALSE
+  events_page <- length(html_elements(page, "body.page-id-947")) > 0L
+  date_pattern <- paste0("(", paste(month.name, collapse = "|"), ") +[0-9]{1,2}")
   for (row in html_elements(page, ".vc_inner")) {
     heading <- html_elements(row, "h2")
     if (length(heading) != 1L) next
     title <- html_text2(heading)
     column <- html_element(row, ".wpb_text_column")
     raw_date <- html_element(column, "strong") |> html_text2()
-    if (is.na(raw_date) || !nzchar(trimws(raw_date))) {
-      if (grepl("^more events coming soon[!.]*$", trimws(title), ignore.case = TRUE)) {
-        coming_soon <- TRUE
-        next
-      }
-      stop("Missing date for ", title)
+    anchors <- html_elements(row, "a[href]")
+    links <- html_attr(anchors, "href")
+    registration <- any(grepl("^https?://([^.]+[.])?eventbrite[.]com/e/", links)) ||
+      any(grepl("\\bregister\\b", html_text2(anchors), ignore.case = TRUE))
+    if (is.na(raw_date) || !grepl(date_pattern, raw_date)) {
+      if (registration) stop("Missing date for ", title)
+      next
     }
     date <- listing_event_date(raw_date, today)
-    links <- html_elements(row, "a[href]") |> html_attr("href")
     links <- links[grepl("^https://", links)]
     url <- if (length(links)) sub("\\?.*$", "", links[1]) else conservancy_url
     # Stable Eventbrite identity survives date changes. No-link announcements use title.
@@ -66,7 +67,7 @@ parse_conservancy_listing <- function(page, today) {
       price="Not published; check registration", start=start, end=end,
       date_source="Year inferred from listing month/day/weekday", status="TENTATIVE")
   }
-  if (!length(result) && !coming_soon) stop("No Conservancy events recognized; previous feed retained")
+  if (!length(result) && !events_page) stop("No Conservancy events recognized; previous feed retained")
   result
 }
 

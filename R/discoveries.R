@@ -268,7 +268,8 @@ discovery_when <- function(e) {
 
 community_feed_base_url <- "https://dodsondc.github.io/lancaster-feeds/"
 
-write_discovery_rss <- function(events,path,root,performing=FALSE) {
+write_discovery_rss <- function(events,path,root,performing=FALSE,
+                                season_table=NULL, now=as.numeric(Sys.time())) {
   old_locale<-Sys.getlocale("LC_TIME")
   on.exit(Sys.setlocale("LC_TIME",old_locale),add=TRUE)
   Sys.setlocale("LC_TIME","C")
@@ -276,7 +277,7 @@ write_discovery_rss <- function(events,path,root,performing=FALSE) {
   title <- if (performing) "Lancaster Performing Arts" else "Lancaster Discoveries — Events & Engagements"
   page <- if (performing) "performing-arts/" else "discoveries/"
   description <- if (performing) {
-    "Upcoming productions from performing companies and events within 90 days at presenting venues."
+    "A season grid for performing companies and individual events at presenting venues."
   } else {
     "Library programs, nature, visual art, and selected events from Lancaster-area calendars."
   }
@@ -285,6 +286,25 @@ write_discovery_rss <- function(events,path,root,performing=FALSE) {
   xml_add_child(channel,"description",description)
   xml_add_child(channel,"language","en-us")
   ordered<-order_feed_records(events,function(e)e$start)
+  if (performing && !is.null(season_table)) {
+    grid_url <- paste0(community_feed_base_url, "performing-arts/seasons.html")
+    item <- xml_add_child(channel, "item")
+    xml_add_child(item, "title", "🎭 Performing Arts Season Grid")
+    xml_add_child(item, "link", grid_url)
+    xml_add_child(item, "guid", "lancaster:performing-arts-season-grid", isPermaLink = "false")
+    latest <- vapply(ordered, `[[`, numeric(1), "feed_sort_time")
+    xml_add_child(item, "pubDate", rss_date(max(now, latest + 1)))
+    body <- xml_new_root("div")
+    xml_add_child(xml_add_child(body, "p"), "a", "Open the grid in your browser", href = grid_url)
+    region <- xml_add_child(body, "div", style = "overflow-x:auto; max-width:100%;")
+    table <- xml_add_child(region, season_table)
+    xml_set_attr(table, "style", "border-collapse:collapse; text-align:left;")
+    for (cell in xml_find_all(table, ".//th | .//td")) {
+      xml_set_attr(cell, "style", "border:1px solid; padding:0.4em; vertical-align:top; min-width:8em;")
+    }
+    for (items in xml_find_all(table, ".//ul")) xml_set_attr(items, "style", "margin:0; padding-left:1em;")
+    xml_add_child(xml_add_child(item, "description"), xml_cdata(as.character(body)))
+  }
   for(e in ordered) {
     item<-xml_add_child(channel,"item");body<-xml_new_root("div")
     day<-function(t)format(as.POSIXct(t,origin="1970-01-01",tz="America/New_York"),"%Y-%m-%d")
@@ -414,6 +434,9 @@ write_company_season_grid <- function(records, companies, prefs, today, path) {
   on.exit(unlink(tmp), add = TRUE)
   writeLines(c("<!doctype html>", as.character(html)), tmp, useBytes = TRUE)
   if (!file.rename(tmp, path)) stop("Cannot replace Performing Arts Season Grid")
+  invisible(list(table = table, member_keys = vapply(records, function(e) {
+    paste(e$source, e$series, sep = "|")
+  }, "")))
 }
 
 collect_discoveries <- function(root,now=as.numeric(Sys.time()),
@@ -439,13 +462,34 @@ collect_discoveries <- function(root,now=as.numeric(Sys.time()),
   if(!length(records))stop("No source data available; previous feed retained")
   built<-build_discoveries(records,prefs,now,old)
   performing <- vapply(built$events, function(e) !is.null(e$arts_role), logical(1))
+  registry <- direct_source_registry()
+  companies <- Filter(function(cfg) identical(cfg$arts_role, "company"),
+    registry[intersect(names(registry), prefs$direct_sources)])
+  season_table <- NULL
+  covered <- rep(FALSE, length(built$events))
+  if (length(companies)) {
+    grid_path <- file.path(root, "docs", "performing-arts", "seasons.html")
+    company_health <- health[health$source_id %in% names(companies), ]
+    if (any(company_health$status %in% c("ok", "stale")) || !file.exists(grid_path)) {
+      company_names <- sort(vapply(companies, `[[`, "", "name"))
+      grid <- write_company_season_grid(records, company_names, prefs, today, grid_path)
+      season_table <- grid$table
+      covered <- vapply(built$events, function(e) {
+        identical(e$arts_role, "company") && any(unlist(e$member_keys) %in% grid$member_keys)
+      }, logical(1))
+    } else {
+      previous_table <- html_element(read_html(grid_path), "table")
+      if (!inherits(previous_table, "xml_missing")) season_table <- previous_table
+    }
+  }
   discovery_path <- file.path(root, "lancaster_discoveries.xml")
   performing_path <- file.path(root, "lancaster_performing_arts.xml")
   discovery_tmp <- tempfile(tmpdir = root)
   performing_tmp <- tempfile(tmpdir = root)
   on.exit(unlink(c(discovery_tmp, performing_tmp)), add = TRUE)
   write_discovery_rss(built$events[!performing], discovery_tmp, root)
-  write_discovery_rss(built$events[performing], performing_tmp, root, performing = TRUE)
+  write_discovery_rss(built$events[performing & !covered], performing_tmp, root,
+    performing = TRUE, season_table = season_table, now = now)
   if (!file.rename(performing_tmp, performing_path)) stop("Cannot replace Performing Arts RSS")
   if (!file.rename(discovery_tmp, discovery_path)) stop("Cannot replace Discoveries RSS")
   write.csv(built$audit,file.path(root,"discovery-review.csv"),row.names=FALSE,na="")
@@ -453,17 +497,6 @@ collect_discoveries <- function(root,now=as.numeric(Sys.time()),
   cache<-old;for(id in names(built$events))cache[[id]]<-built$events[[id]]
   cache<-Filter(function(e)e$end>=publication_time(as.character(today-365L)),cache)
   atomic_json(list(version=1L,last_checked=now,items=cache),path)
-  registry <- direct_source_registry()
-  companies <- Filter(function(cfg) identical(cfg$arts_role, "company"),
-    registry[intersect(names(registry), prefs$direct_sources)])
-  if (length(companies)) {
-    grid_path <- file.path(root, "docs", "performing-arts", "seasons.html")
-    company_health <- health[health$source_id %in% names(companies), ]
-    if (any(company_health$status %in% c("ok", "stale")) || !file.exists(grid_path)) {
-      company_names <- sort(vapply(companies, `[[`, "", "name"))
-      write_company_season_grid(records, company_names, prefs, today, grid_path)
-    }
-  }
   message("Discoveries: ",length(records)," source records → ",length(built$events)," filtered listings")
   failed<-health$source[health$status!="ok"]
   if(length(failed))stop("Feed published with source failures (see source-health.csv): ",paste(failed,collapse=", "))
