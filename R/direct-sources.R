@@ -1,7 +1,7 @@
 # Public venue sources. Each adapter returns the same event records as the
 # discovery collectors. Missing times/prices remain explicit, never guessed.
 direct_source_registry <- function() list(
-  ware=list(arts_role="venue",city="Lancaster",refresh_days=7L,name="Ware / Millersville",type="ware",url="https://artsmu.com/events/feed/"),
+  ware=list(arts_role="venue",city="Lancaster",refresh_days=7L,name="Ware / Millersville",aliases=c("Ware Center", "Winter Center", "Winter Visual and Performing Arts Center"),type="ware",url="https://artsmu.com/events/feed/"),
   prima=list(arts_role="company",city="Lancaster",refresh_days=7L,name="Prima Theatre",type="squarespace",url="https://www.primatheatre.org/events?format=json",venue="Prima Theatre, 941 Wheatland Avenue, Lancaster, PA"),
   demuth=list(name="Demuth Museum",type="squarespace",url="https://www.demuth.org/events?format=json"),
   demuth_exhibitions=list(name="Demuth Exhibitions",type="squarespace",url="https://www.demuth.org/exhibitions?format=json"),

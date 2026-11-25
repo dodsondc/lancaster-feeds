@@ -71,12 +71,15 @@ parse_discovery_city <- function(doc) {
     start <- publication_time(val("startdate")); end <- publication_time(val("enddate"))
     if (!is.finite(start) || !is.finite(end) || end < start) stop("Invalid city event dates: ",val("title"))
     url <- discovery_url(val("link"))
+    raw_location <- text_value(val("location"))
+    location_url <- regmatches(raw_location, regexpr("https?://[^ ,]+", raw_location))
     # Tockify detail ID identifies the series; trailing number identifies a date.
     series <- sub("/detail/([0-9]+)/.*$","/detail/\\1",url)
     list(source="Visit Lancaster City",source_id=val("guid"),series=series,
       title=sub("^: *","",gsub("\\,",",",discovery_text(val("title")),fixed=TRUE)),
       description=discovery_text(val("description")),categories="",url=url,
-      location=discovery_text(sub(", *https?://.*$","",val("location"))),
+      location=discovery_text(sub(", *https?://.*$","",raw_location)),
+      organizers=text_value(val("organizer")), website=text_value(location_url),
       price="Not supplied by this calendar; check event details",start=start,end=end,
       # City RSS does not identify all-day items reliably. Times are as supplied.
       all_day=FALSE,status="CONFIRMED")
@@ -92,12 +95,14 @@ parse_discovery_pa <- function(events) {
     venue <- e$venue
     location <- if (is.list(venue)) paste(unique(Filter(nzchar,vapply(
       c("venue","address","city","state","zip"),function(k)text_value(venue[[k]]),character(1)))),collapse=", ") else ""
+    organizers <- Filter(is.list, e$organizer)
+    organizer_names <- vapply(organizers, function(o) text_value(o$organizer), "")
     url <- discovery_url(e$url)
     list(source="LancasterPA",source_id=as.character(e$id),
       series=sub("/[0-9]{4}-[0-9]{2}-[0-9]{2}/?$","/",url),
       title=discovery_text(e$title),description=discovery_text(e$description),
       categories=paste(vapply(e$categories,function(c)discovery_text(c$name),character(1)),collapse=", "),
-      url=url,location=discovery_text(location),price=if(nzchar(text_value(e$cost)))discovery_text(e$cost) else "Not supplied by this calendar; check event details",
+      url=url,location=discovery_text(location), organizers=unname(organizer_names), website=text_value(e$website),price=if(nzchar(text_value(e$cost)))discovery_text(e$cost) else "Not supplied by this calendar; check event details",
       start=start,end=end,all_day=isTRUE(e$all_day),status="CONFIRMED")
   })
 }
@@ -173,10 +178,40 @@ group_discoveries <- function(events,prefs) {
   groups
 }
 
-build_discoveries <- function(events,prefs,now,old=list()) {
+# Use explicit attribution, not incidental mentions in event descriptions.
+performing_arts_affiliations <- function(sources, prefs) {
+  name_key <- function(value) sub("\\btheater\\b", "theatre", discovery_venue(value, prefs))
+  site_host <- function(url) {
+    if (!grepl("^https?://", url, ignore.case = TRUE)) return("")
+    sub("^www[.]", "", tolower(sub("^https?://([^/:?#]+).*$", "\\1", url, ignore.case = TRUE)))
+  }
+  lookup <- lapply(sources, function(cfg) {
+    names <- c(cfg$name, cfg$venue, cfg$aliases)
+    names <- unique(vapply(names, name_key, ""))
+    list(names = names[nzchar(names)], host = site_host(text_value(cfg$url)),
+      company = identical(cfg$arts_role, "company"))
+  })
+  function(event) {
+    attribution <- c(event$source, event$location, unlist(event$organizers))
+    names <- vapply(attribution, name_key, "")
+    hosts <- vapply(c(event$url, event$website), site_host, "")
+    title <- sub("\\btheater\\b", "theatre", discovery_key(event$title))
+    any(vapply(lookup, function(source) {
+      any(names %in% source$names) ||
+        (nzchar(source$host) && source$host %in% hosts) ||
+        (source$company && any(vapply(source$names, function(name) {
+          grepl(paste0(" (with |presented by )", name, " "), paste0(" ", title, " "), perl = TRUE) ||
+            startsWith(title, paste0(name, " presents "))
+        }, logical(1))))
+    }, logical(1)))
+  }
+}
+
+build_discoveries <- function(events,prefs,now,old=list(),arts_sources=list()) {
   today <- as.Date(format(as.POSIXct(now,origin="1970-01-01",tz="America/New_York"),"%Y-%m-%d"))
   lower <- publication_time(as.character(today)); upper <- publication_time(as.character(today+prefs$horizon_days+1L))
   audit <- list(); selected<-list()
+  covered_by_arts <- performing_arts_affiliations(arts_sources, prefs)
   for(e in events) {
     m<-discovery_match(e,prefs)
     in_window <- e$end >= lower && (identical(e$arts_role, "company") || e$start < upper)
@@ -185,6 +220,8 @@ build_discoveries <- function(events,prefs,now,old=list()) {
     can_enrich <- tourism && e$end >= lower &&
       !m$reason %in% c("Explicit exclusion", "Excluded title: dance") &&
       !startsWith(m$reason, "Excluded venue:")
+    covered <- in_window && is.null(e$arts_role) && covered_by_arts(e)
+    if (covered && m$keep) m <- list(keep=FALSE, reason="Covered by Performing Arts")
     audit[[length(audit)+1L]]<-data.frame(source=e$source,title=e$title,start=format(as.POSIXct(e$start,origin="1970-01-01",tz="America/New_York"),"%Y-%m-%d %H:%M"),location=e$location,age_groups=paste(unlist(e$age_groups),collapse=", "),program_types=paste(unlist(e$program_types),collapse=", "),kept=m$keep,reason=m$reason,url=e$url,stringsAsFactors=FALSE)
     if (m$keep || can_enrich) {
       e$interest <- m$reason
@@ -460,11 +497,12 @@ collect_discoveries <- function(root,now=as.numeric(Sys.time()),
   health<-do.call(rbind,lapply(source_results,`[[`,"health"))
   write.csv(health,file.path(root,"source-health.csv"),row.names=FALSE,na="")
   if(!length(records))stop("No source data available; previous feed retained")
-  built<-build_discoveries(records,prefs,now,old)
-  performing <- vapply(built$events, function(e) !is.null(e$arts_role), logical(1))
   registry <- direct_source_registry()
-  companies <- Filter(function(cfg) identical(cfg$arts_role, "company"),
-    registry[intersect(names(registry), prefs$direct_sources)])
+  enabled <- registry[intersect(names(registry), prefs$direct_sources)]
+  arts_sources <- Filter(function(cfg) !is.null(cfg$arts_role), enabled)
+  built <- build_discoveries(records, prefs, now, old, arts_sources)
+  performing <- vapply(built$events, function(e) !is.null(e$arts_role), logical(1))
+  companies <- Filter(function(cfg) identical(cfg$arts_role, "company"), arts_sources)
   season_table <- NULL
   covered <- rep(FALSE, length(built$events))
   if (length(companies)) {
