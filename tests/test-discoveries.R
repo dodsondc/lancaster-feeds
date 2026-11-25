@@ -113,6 +113,26 @@ lso_tourism <- fixture("Tales & Legends with the Lancaster Symphony Orchestra",
 matched <- build_discoveries(list(lso_tourism, lso), p, now)$events
 stopifnot(length(matched) == 1L, length(matched[[1]]$sources) == 2L,
   matched[[1]]$arts_organization == lso$source)
+# Covered organizations and venues do not need matching event titles.
+sources <- direct_source_registry()[c("ware", "symphony", "mickey")]
+venue_only <- fixture("Chamber Concert at the Arts Center", series = "tourism-venue",
+  venue = "Ware Center for the Arts, 42 North Prince Street")
+winter_only <- fixture("Music Concert", series = "tourism-winter", venue = "Winter Center, Millersville")
+organizer_only <- fixture("Chamber Orchestra Concert", series = "tourism-organizer",
+  venue = "Other Hall")
+organizer_only$organizers <- "Lancaster Symphony Orchestra"
+website_only <- fixture("Jazz Recital", series = "tourism-website", venue = "Another Hall")
+website_only$website <- "https://www.mickeysblackbox.com/events/jazz/"
+uncovered <- fixture("Piano Recital", series = "tourism-uncovered", venue = "Other Hall")
+uncovered$description <- "The pianist previously performed with Lancaster Symphony Orchestra."
+results <- build_discoveries(list(venue_only, winter_only, organizer_only, website_only, uncovered),
+  p, now, arts_sources = sources)
+stopifnot(length(results$events) == 1L, results$events[[1]]$title == uncovered$title,
+  sum(results$audit$reason == "Covered by Performing Arts") == 4L)
+reinstated <- build_discoveries(list(venue_only), p, now, arts_sources = sources["symphony"])
+stopifnot(length(reinstated$events) == 1L)
+merged_arts <- build_discoveries(list(lso, lso_tourism), p, now, arts_sources = sources)
+stopifnot(length(merged_arts$events) == 1L, length(merged_arts$events[[1]]$sources) == 2L)
 # The season grid uses company listings, including dates past the feed window.
 holiday <- fixture("Holiday Run", "Example Company", "holiday",
   "2026-12-29T19:00:00-05:00", "2027-01-03T21:00:00-05:00")
