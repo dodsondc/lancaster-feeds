@@ -124,11 +124,17 @@ Offline checks: `Rscript tests/test-conservancy.R`. All scraping and calendar ge
 
 `lancaster_discoveries.xml` is a separate, personal-interest feed. `R/discoveries.R`
 reads Visit Lancaster City's Tockify RSS schedule, LancasterPA's public Events
-Calendar API, and the shared Lancaster County Library Calendar through `R/libraries.R`. The latter is paginated completely for the next 90 days. Latest RSS
+Calendar API, Discover Lancaster’s county events calendar, and the shared Lancaster County Library Calendar through `R/libraries.R`. The latter is paginated completely for the next 90 days. Latest RSS
 post IDs supplement that window to find ongoing runs that started earlier. This
 is a discovery aid, not a complete Lancaster calendar: sources omit events, the
 ongoing-event supplement covers only their latest 100 RSS posts, and dates and
 prices can be incomplete or incorrect.
+
+Discover Lancaster uses the public search behind its events page, limiting results
+to the Discovery date window and interest filters. History, exhibitions, nature
+and selected art workshops can qualify. The index sometimes reports a single
+range for repeating dates, so its listings link to the event page for individual
+times and do not generate calendar imports on their own.
 
 Edit **`R/discovery-preferences.R`** to change the horizon, interest patterns,
 exclusions, preferred/omitted venues, description patterns, title overrides, or venue aliases. Patterns are case-insensitive R
