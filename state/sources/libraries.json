@@ -1,28 +1,6 @@
 {
-  "checked_at": 1795632120.84439,
+  "checked_at": 1795638520.35504,
   "events": [
-    {
-      "source": "Lancaster Libraries",
-      "source_id": "199468",
-      "series": "https://calendar.lancasterlibraries.org/series/books-bags-silent-auction-manheim-township",
-      "title": "Books & Bags Silent Auction",
-      "description": "Join us for a silent auction featuring gift-ready pairings of books and bags. Creator of the brand Small Batch Bags has designed a line of unique hand-crafted pieces that we have paired with books from every genre for a one-of-a kind gift-buying experience! Starting November 23, bid at our Books & Bags Gift Silent Auction! This pop-up silent auction opens Monday, November 23 and bidding is available throughout all library hours until noon on Saturday, December 5.",
-      "categories": "Fundraiser",
-      "url": "https://calendar.lancasterlibraries.org/event/books-bags-silent-auction-199468",
-      "location": "Manheim Township Library, 595 Granite Run Drive,  Lancaster, PA, 17601",
-      "price": "Not supplied by this calendar; check event details",
-      "start": 1795618800,
-      "end": 1795636800,
-      "all_day": false,
-      "status": "CONFIRMED",
-      "age_groups": [
-        "Everyone"
-      ],
-      "program_types": [
-        "Fundraiser"
-      ],
-      "branch": "Manheim Township"
-    },
     {
       "source": "Lancaster Libraries",
       "source_id": "179913",

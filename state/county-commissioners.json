@@ -1,6 +1,16 @@
 {
   "version": 1,
   "items": {
+    "lancaster-county-commissioners:3:3741:agenda": {
+      "id": "lancaster-county-commissioners:3:3741:agenda",
+      "category": "3",
+      "kind": "Agenda",
+      "date": "2026-12-02",
+      "url": "https://www.co.lancaster.pa.us/AgendaCenter/ViewFile/Agenda/_12022026-3741",
+      "notice": "Posted by county: Nov 25, 2026 · 2:17 PM ET",
+      "first_seen": 1795638518.13267,
+      "activity_at": 1795638518.13267
+    },
     "lancaster-county-commissioners:3:3734:agenda": {
       "id": "lancaster-county-commissioners:3:3734:agenda",
       "category": "3",
@@ -450,6 +460,16 @@
       "notice": "",
       "first_seen": 1794090807.8891,
       "activity_at": 1794090807.8891
+    },
+    "lancaster-county-commissioners:4:3740:agenda": {
+      "id": "lancaster-county-commissioners:4:3740:agenda",
+      "category": "4",
+      "kind": "Agenda",
+      "date": "2026-12-01",
+      "url": "https://www.co.lancaster.pa.us/AgendaCenter/ViewFile/Agenda/_12012026-3740",
+      "notice": "Posted by county: Nov 25, 2026 · 2:15 PM ET",
+      "first_seen": 1795638518.13267,
+      "activity_at": 1795638518.13267
     },
     "lancaster-county-commissioners:4:3732:agenda": {
       "id": "lancaster-county-commissioners:4:3732:agenda",
