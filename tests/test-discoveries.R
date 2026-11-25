@@ -133,6 +133,28 @@ reinstated <- build_discoveries(list(venue_only), p, now, arts_sources = sources
 stopifnot(length(reinstated$events) == 1L)
 merged_arts <- build_discoveries(list(lso, lso_tourism), p, now, arts_sources = sources)
 stopifnot(length(merged_arts$events) == 1L, length(merged_arts$events[[1]]$sources) == 2L)
+# Discover Lancaster reads the public calendar search and keeps date ranges.
+index_page <- read_html('<div data-listings=""></div>')
+listing <- html_element(index_page, "[data-listings]")
+xml_set_attr(listing, "data-info", '{"appId":"EXAMPLE","index":"calendar","apiKey":"public-test"}')
+xml_set_attr(listing, "data-config", '{"filters":"calendarName:Default"}')
+searches <- 0L
+hit <- list(id=42, title="Snowshoe Hares in Pennsylvania", uri="/snowshoe-harés/",
+  address=list("Middle Creek Wildlife Management Area"),
+  startDate=now + 86400, endDate=now + 86400 + 3600, eventCategories=list("Outdoor"))
+discovery_hits <- fetch_discover_lancaster(as.Date("2026-10-18"), as.Date("2026-11-18"),
+  get_page=function(url) index_page, search=function(req) {
+    stopifnot(req$url == "https://example-dsn.algolia.net/1/indexes/calendar/query")
+    searches <<- searches + 1L
+    other <- hit
+    other$id <- 43
+    other$eventCategories <- list("Shopping")
+    list(hits=list(if (searches == 1L) hit else other), nbPages=2L, nbHits=2L)
+  })
+stopifnot(searches == 2L, length(discovery_hits) == 1L,
+  discovery_hits[[1]]$url == paste0(discover_lancaster_url, "snowshoe-har%C3%A9s/"),
+  isTRUE(discovery_hits[[1]]$all_day),
+  discovery_match(discovery_hits[[1]], p)$keep)
 # The season grid uses company listings, including dates past the feed window.
 holiday <- fixture("Holiday Run", "Example Company", "holiday",
   "2026-12-29T19:00:00-05:00", "2027-01-03T21:00:00-05:00")
