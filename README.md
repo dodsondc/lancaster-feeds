@@ -276,6 +276,11 @@ available. Existing calendar-link rules apply. Each feed links to its own GitHub
 Pages home page, which declares a separate favicon. Those icons may take time to
 appear in a reader that already has a cached icon.
 
+In NetNewsWire, open the **Performing Arts Season Grid** article in the Performing
+Arts subscription to read the table. The article keeps the same RSS identifier
+across refreshes. Company programs shown in the grid are omitted from the
+individual articles. Presenting-venue events still appear individually.
+
 The Performing Arts home page also links to a season grid
 (`docs/performing-arts/seasons.html`). The workflow builds it from the same
 collected company listings, without extra requests. One table shows months from the current
