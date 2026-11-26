@@ -1,686 +1,6 @@
 {
   "version": 1,
   "items": {
-    "150397": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "150397",
-        "series": "https://calendar.lancasterlibraries.org/series/young-at-heart-adamstown",
-        "title": "Young at Heart",
-        "description": "REAL Life Community Services invites you to Young at Heart, with free events for anyone age 60 and up. Join us at the library for coffee, chatting, games, crafts, and more on the 1st & 3rd Wednesday of each month. For more information, call 717-336-7797 or visit REALLCS.org",
-        "categories": "Community",
-        "url": "https://calendar.lancasterlibraries.org/event/young-heart-150397",
-        "location": "Adamstown Library, ADM Community Room, 110 W. Main St, Adamstown, PA, 19501",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795010400,
-        "end": 1795017600,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Seniors"
-        ],
-        "program_types": [
-          "Community"
-        ],
-        "branch": "Adamstown"
-      }
-    },
-    "187740": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "187740",
-        "series": "https://calendar.lancasterlibraries.org/series/pa-211-resource-table-lancaster",
-        "title": "PA 211 Resource Table",
-        "description": "PA 211 staff will provide easily accessible walk-up assistance in the library's front lobby. Assistance includes information and referrals for a broad range of services: childcare, after-school programs, food banks, elder care, basic needs, health services, and more. PA 211 staff can also provide housing and homelessness intake screenings for residents of Berks and Lancaster counties. Monday, Wednesday, Thursday: 9am-5pm First Thursday: 9am-3:30pm",
-        "categories": "Community",
-        "url": "https://calendar.lancasterlibraries.org/event/pa-211-resource-table-187740",
-        "location": "Lancaster Library, LPL Lobby, 151 North Queen Street, Lancaster, PA, 17603",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795010400,
-        "end": 1795039200,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Everyone"
-        ],
-        "program_types": [
-          "Community"
-        ],
-        "branch": "Lancaster"
-      }
-    },
-    "166698": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "166698",
-        "series": "https://calendar.lancasterlibraries.org/series/fairmount-homes-333-wheat-ridge-dr-ephrata-pa-17522-bookmobile",
-        "title": "Fairmount Homes - 333 Wheat Ridge Dr. Ephrata, PA 17522",
-        "description": "This stop is ONLY for seniors and staff at Fairmount Homes. The Bookmobile first stops at Crest View to drop off holds and pick up returns, and then goes over to the main office for the deposit holds and returns. At this stop, patrons can register for a library card, check out or return materials, and request holds for future stops.",
-        "categories": "",
-        "url": "https://calendar.lancasterlibraries.org/event/fairmount-homes-333-wheat-ridge-dr-ephrata-pa-17522-166698",
-        "location": "Bookmobile Library",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795011300,
-        "end": 1795013100,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [],
-        "branch": "Bookmobile"
-      }
-    },
-    "167445": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "167445",
-        "series": "https://calendar.lancasterlibraries.org/series/zerbe-retirement-community-2499-zerbe-rd-narvon-pa-17555-bookmobile",
-        "title": "Zerbe Retirement Community - 2499 Zerbe Rd Narvon, PA 17555",
-        "description": "This stop is ONLY for seniors and staff at Zerbe. This stop is just a drop off and pick up at the main entrance.",
-        "categories": "",
-        "url": "https://calendar.lancasterlibraries.org/event/zerbe-retirement-community-2499-zerbe-rd-narvon-pa-17555-167445",
-        "location": "Bookmobile Library",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795014000,
-        "end": 1795015800,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [],
-        "branch": "Bookmobile"
-      }
-    },
-    "199184": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "199184",
-        "series": "https://calendar.lancasterlibraries.org/series/hive-resource-coordinator-ephrata",
-        "title": "Hive Resource Coordinator",
-        "description": "A Hive Resource Coordinator is available to answer questions, connect people with resources, or schedule appointments on the 1st and 3rd Wednesday of each month from 10am to 2pm at the tables in front of the Library's circulation desk. No appointment required.",
-        "categories": "Community",
-        "url": "https://calendar.lancasterlibraries.org/event/hive-resource-coordinator-199184",
-        "location": "Ephrata Library, 550 South Reading Rd., Ephrata, PA, 17522",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795014000,
-        "end": 1795021200,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Everyone"
-        ],
-        "program_types": [
-          "Community"
-        ],
-        "branch": "Ephrata"
-      }
-    },
-    "165071": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "165071",
-        "series": "https://calendar.lancasterlibraries.org/series/morning-mahjong-manheim-township",
-        "title": "Morning Mahjong",
-        "description": "🀄️✨Join us for a morning of strategy, skill, and socializing! 🀄️✨ Whether you are a seasoned pro or a newcomer looking to practice, come enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 10-1 in Morgan Center C. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event! This program is for adults ages +18",
-        "categories": "Community, Gaming",
-        "url": "https://calendar.lancasterlibraries.org/event/morning-mahjong-165071",
-        "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
-        "price": "Free",
-        "start": 1795014000,
-        "end": 1795024800,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [
-          "Community",
-          "Gaming"
-        ],
-        "branch": "Manheim Township"
-      }
-    },
-    "206336": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "206336",
-        "series": "https://calendar.lancasterlibraries.org/series/family-story-time-milanof-schock",
-        "title": "Family Story Time",
-        "description": "Family Storytime is an interactive program designed for children and their caregivers together, featuring songs, stories, and a themed craft! Adult participation and supervision are expected throughout the program to help create a fun, safe, and welcoming environment for all families. November 4 - Space November 11 - Friendship November 18 - Miss Katelyn's Favorites November 25 - Thanksgiving",
-        "categories": "Storytime",
-        "url": "https://calendar.lancasterlibraries.org/event/family-story-time-206336",
-        "location": "Milanof-Schock Library, MJY Engle Room Large, 1184 Anderson Ferry Road, Mount Joy, PA, 17552",
-        "price": "Free",
-        "start": 1795015800,
-        "end": 1795018500,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Everyone"
-        ],
-        "program_types": [
-          "Storytime"
-        ],
-        "branch": "Milanof-Schock"
-      }
-    },
-    "167539": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "167539",
-        "series": "https://calendar.lancasterlibraries.org/series/welsh-mountain-home-567-springville-rd-new-holland-pa-17557-bookmobile",
-        "title": "Welsh Mountain Home - 567 Springville Rd, New Holland, PA 17557",
-        "description": "This stop is ONLY for seniors and staff at Welsh Mountain. At this stop, patrons can register for a library card, check out or return materials, and request holds for future stops.",
-        "categories": "",
-        "url": "https://calendar.lancasterlibraries.org/event/welsh-mountain-home-567-springville-rd-new-holland-pa-17557-167539",
-        "location": "Bookmobile Library",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795017600,
-        "end": 1795019400,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [],
-        "branch": "Bookmobile"
-      }
-    },
-    "150421": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "150421",
-        "series": "https://calendar.lancasterlibraries.org/series/connect-with-a-social-worker-at-the-library-adamstown",
-        "title": "Connect with a Social Worker at the Library",
-        "description": "Are you facing challenges or seeking support in your life? A licensed social worker from REAL Life Community Services is here to help! Regular hours are every other Wednesday from 11:30-2 p.m. in the library community room. To make an appointment, call Becca at 717-336-7797 or email her at becca@reallcs.org. REAL Life Community Services serves residents of Cocalico School District.",
-        "categories": "Community",
-        "url": "https://calendar.lancasterlibraries.org/event/connect-social-worker-library-150421",
-        "location": "Adamstown Library, ADM Community Room, 110 W. Main St, Adamstown, PA, 19501",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795019400,
-        "end": 1795028400,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors",
-          "Everyone"
-        ],
-        "program_types": [
-          "Community"
-        ],
-        "branch": "Adamstown"
-      }
-    },
-    "167632": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "167632",
-        "series": "https://calendar.lancasterlibraries.org/series/mountain-view-terrace-apartments-566-springville-rd-new-holland-pa-17557-bookmobile",
-        "title": "Mountain View Terrace Apartments - 566 Springville Rd, New Holland, PA 17557",
-        "description": "This stop is ONLY for seniors and staff at Mountain View. At this stop, patrons can register for a library card, check out or return materials, and request holds for future stops.",
-        "categories": "",
-        "url": "https://calendar.lancasterlibraries.org/event/mountain-view-terrace-apartments-566-springville-rd-new-holland-pa-17557-167632",
-        "location": "Bookmobile Library",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795020300,
-        "end": 1795022100,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [],
-        "branch": "Bookmobile"
-      }
-    },
-    "186104": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "186104",
-        "series": "https://calendar.lancasterlibraries.org/series/pinochle-party-ephrata",
-        "title": "Pinochle Party",
-        "description": "Meld, bid, marriage, trump? You’re speaking our language! Join us every for an afternoon of pinochle. This program runs until 3 p.m. Seniors.",
-        "categories": "Gaming",
-        "url": "https://calendar.lancasterlibraries.org/event/pinochle-party-186104",
-        "location": "Ephrata Library, EPH 1/2 Multipurpose Room Projector Side, 550 South Reading Rd., Ephrata, PA, 17522",
-        "price": "Free",
-        "start": 1795023000,
-        "end": 1795032000,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [
-          "Gaming"
-        ],
-        "branch": "Ephrata"
-      }
-    },
-    "171929": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "171929",
-        "series": "https://calendar.lancasterlibraries.org/series/cloister-heights-apartments-830-west-main-street-ephrata-bookmobile",
-        "title": "Cloister Heights Apartments-830 West Main Street, Ephrata",
-        "description": "This stop is open to the public, stopped within Cloister Heights Apartments parking lot. At this stop, patrons can register for a library card, check out or return materials, and request holds for future stops. The materials at this stop are checked out for a full month (until the next BKM visit) and can be returned at any library within the Library System of Lancaster County.",
-        "categories": "",
-        "url": "https://calendar.lancasterlibraries.org/event/cloister-heights-apartments-830-west-main-street-ephrata-171929",
-        "location": "Bookmobile Library",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795024800,
-        "end": 1795028400,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Everyone"
-        ],
-        "program_types": [],
-        "branch": "Bookmobile"
-      }
-    },
-    "200188": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "200188",
-        "series": "https://calendar.lancasterlibraries.org/series/conversations-about-getting-older-quarryville",
-        "title": "Conversations about getting older",
-        "description": "Be a part of this recurring social small-group discussion as we share: our food favorites, traditions, recipes, and experiences (week 1 November 11) sharing past travel experiences (week 2 November 25) interesting family stories and histories (week 3 December 2). Walk-ins are welcome as space permits.",
-        "categories": "Discussion, Health & Wellness",
-        "url": "https://calendar.lancasterlibraries.org/event/conversations-about-getting-older-200188",
-        "location": "Quarryville Library, QVL Pennington Family Conference Room, 357 Buck Road,  Quarryville , PA, 17566",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795024800,
-        "end": 1795028400,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [
-          "Discussion",
-          "Health & Wellness"
-        ],
-        "branch": "Quarryville"
-      }
-    },
-    "191991": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "191991",
-        "series": "https://calendar.lancasterlibraries.org/series/google-calendar-ephrata",
-        "title": "Google Calendar",
-        "description": "Participants will be able to add, edit, and delete events in various formats, create notifications, invite others to calendar events, share and view other calendars, personalize the interface and create work tasks for the person and professional setting. Participants should already have a Google account. This class is supported by a grant from the Members 1st Charitable Foundation. Ages 18+.",
-        "categories": "Technology Class",
-        "url": "https://calendar.lancasterlibraries.org/event/google-calendar-191991",
-        "location": "Ephrata Library, EPH Conference Room, 550 South Reading Rd., Ephrata, PA, 17522",
-        "price": "Free",
-        "start": 1795024800,
-        "end": 1795030200,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [
-          "Technology Class"
-        ],
-        "branch": "Ephrata"
-      }
-    },
-    "202314": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "202314",
-        "series": "https://calendar.lancasterlibraries.org/series/friends-of-msl-adult-bingo-milanof-schock",
-        "title": "Friends of MSL Adult Bingo",
-        "description": "Enjoy a few rounds of Bingo and earn vouchers for books (from our lobby racks) as prizes! This Bingo session is led by the Friends of Milanof-Schock Library!",
-        "categories": "Gaming",
-        "url": "https://calendar.lancasterlibraries.org/event/friends-msl-adult-bingo-202314",
-        "location": "Milanof-Schock Library, MJY Engle Room Large, 1184 Anderson Ferry Road, Mount Joy, PA, 17552",
-        "price": "Free",
-        "start": 1795028400,
-        "end": 1795032000,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults"
-        ],
-        "program_types": [
-          "Gaming"
-        ],
-        "branch": "Milanof-Schock"
-      }
-    },
-    "152691": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "152691",
-        "series": "https://calendar.lancasterlibraries.org/series/craft-cafe-quarryville",
-        "title": "Craft Cafe",
-        "description": "Are you a crafter? Consider dropping in to our Craft Cafe! This program will meet most months (dates may vary) and our goal is to offer a relaxed environment for adults to work on their own craft projects or participate in a provided craft activity. Light snacks and beverages are available, and if you'd like to bring a snack to share we appreciate that as well! Thanks to the Britton family for being our Adult Program sponsor!",
-        "categories": "Arts & Crafts",
-        "url": "https://calendar.lancasterlibraries.org/event/craft-cafe-152691",
-        "location": "Quarryville Library, QVL C.X. Carlson Cultural Room, 357 Buck Road,  Quarryville , PA, 17566",
-        "price": "Free",
-        "start": 1795028400,
-        "end": 1795035600,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [
-          "Arts & Crafts"
-        ],
-        "branch": "Quarryville"
-      }
-    },
-    "168412": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "168412",
-        "series": "https://calendar.lancasterlibraries.org/series/keystone-villa-100-n-state-st-ephrata-bookmobile",
-        "title": "Keystone Villa - 100 N. State St, Ephrata",
-        "description": "This stop is open to the residents and staff of Keystone Villa. At this stop, patrons can register for a library card, check out or return materials, and request holds for future stops. The materials at this stop are checked out for a full month (until the next BKM visit) and can be returned at any library within the Library System of Lancaster County.",
-        "categories": "",
-        "url": "https://calendar.lancasterlibraries.org/event/keystone-villa-100-state-street-ephrata-168412",
-        "location": "Bookmobile Library",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795030200,
-        "end": 1795033800,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [],
-        "branch": "Bookmobile"
-      }
-    },
-    "154115": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "154115",
-        "series": "https://calendar.lancasterlibraries.org/series/adult-game-night-milanof-schock",
-        "title": "Adult Game Night",
-        "description": "Are you an adult who loves board games but don't have anyone to play them with? Come to the Library the first and third Wednesdays of every month for a couple hours of casual competition...a variety games are available. No need to register.",
-        "categories": "Gaming",
-        "url": "https://calendar.lancasterlibraries.org/event/adult-game-night-154115",
-        "location": "Milanof-Schock Library, 1184 Anderson Ferry Road, Mount Joy, PA, 17552",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795039200,
-        "end": 1795049100,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults"
-        ],
-        "program_types": [
-          "Gaming"
-        ],
-        "branch": "Milanof-Schock"
-      }
-    },
-    "165131": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "165131",
-        "series": "https://calendar.lancasterlibraries.org/series/tabletop-rpgs-for-adults-manheim-township",
-        "title": "Tabletop RPGs for Adults",
-        "description": "Join local GM Matt as he runs a variety of Tabletop Role Playing Games that rotate each month. No experience in any system is required and anyone interested in dipping their toes into the TTRPG world are welcomed and encouraged to join in on the fun! Registration is required. This group is for adults only.",
-        "categories": "Gaming",
-        "url": "https://calendar.lancasterlibraries.org/event/tabletop-rpgs-adults-165131",
-        "location": "Manheim Township Library, MTP Study Room #119, 595 Granite Run Drive,  Lancaster, PA, 17601",
-        "price": "Free",
-        "start": 1795039200,
-        "end": 1795050000,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults"
-        ],
-        "program_types": [
-          "Gaming"
-        ],
-        "branch": "Manheim Township"
-      }
-    },
-    "191997": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "191997",
-        "series": "https://calendar.lancasterlibraries.org/series/emailing-like-a-pro-gmail-ephrata",
-        "title": "Emailing Like a Pro: Gmail",
-        "description": "Learn advanced features of Gmail including notifications, read receipts, scheduling messages, creating rules and creating labels. The class will evaluate the challenges and strengths of these functions in a personal and professional setting. Participants should already have a Google account. Funded through a grant from the Members 1st Charitable Foundation. Ages 18+.",
-        "categories": "Technology Class",
-        "url": "https://calendar.lancasterlibraries.org/event/emailing-pro-gmail-191997",
-        "location": "Ephrata Library, EPH Conference Room, 550 South Reading Rd., Ephrata, PA, 17522",
-        "price": "Free",
-        "start": 1795041000,
-        "end": 1795046400,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [
-          "Technology Class"
-        ],
-        "branch": "Ephrata"
-      }
-    },
-    "196142": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "196142",
-        "series": "https://calendar.lancasterlibraries.org/series/mahjong-at-inspiration-brewing-company-ephrata",
-        "title": "Mahjong at Inspiration Brewing Company",
-        "description": "Join us for an evening of American Mahjong at Inspiration Brewing Company. All skill levels are welcome! No registration necessary. Please bring your National American Mahjong card and set if you have them. Ages 18+.",
-        "categories": "Gaming",
-        "url": "https://calendar.lancasterlibraries.org/event/mahjong-inspiration-brewing-company-196142",
-        "location": "Ephrata Library, EPH Outside, 550 South Reading Rd., Ephrata, PA, 17522",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795041000,
-        "end": 1795048200,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults"
-        ],
-        "program_types": [
-          "Gaming"
-        ],
-        "branch": "Ephrata"
-      }
-    },
-    "153032": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "153032",
-        "series": "https://calendar.lancasterlibraries.org/series/bad-art-club-lancaster",
-        "title": "Bad Art Club",
-        "description": "Whether you’re a seasoned creative struggling with art block or an arts enthusiast who's never picked up a pencil. Bad Art Club encourages you to release your fears, doubts and/or perfectionistic tendencies. Instead, give yourself permission to play, make mistakes, have fun, and just make bad art. THANK YOU for registering -- it will help us determine how many supplies we need! · Ages 18+ Monthly Projects: January: A game of Pictionary (to celebrate the first club meet-up) February: Collage Night: Our Inner Garden March: Paint and Swap Night April: Found Poetry May: Play with Clay Dough June: Blind Contour Art Challenge July: Painted Paper Collage August: Zine Night (Theme: “Current Obsessions) September: Blind Contour Portraits October: Exquisite Corpse November: DIY mini card deck December: -No Meetup- January: Vision Bingo Cards",
-        "categories": "Arts & Crafts",
-        "url": "https://calendar.lancasterlibraries.org/event/bad-art-club-153032",
-        "location": "Lancaster Library, LPL Community Room, 151 North Queen Street, Lancaster, PA, 17603",
-        "price": "Free",
-        "start": 1795042800,
-        "end": 1795050000,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [
-          "Arts & Crafts"
-        ],
-        "branch": "Lancaster"
-      }
-    },
-    "190905": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "190905",
-        "series": "https://calendar.lancasterlibraries.org/series/board-games-for-adults-ephrata",
-        "title": "Board Games for Adults",
-        "description": "Tired of the same old Wednesday evening routine? Here’s your chance to go from bored to BOARD! Come enjoy an evening of board games with your friends at the Library. Ages 18+.",
-        "categories": "Gaming",
-        "url": "https://calendar.lancasterlibraries.org/event/board-games-adults-190905",
-        "location": "Ephrata Library, EPH 1/2 Multipurpose Room Projector Side, 550 South Reading Rd., Ephrata, PA, 17522",
-        "price": "Free",
-        "start": 1795042800,
-        "end": 1795050000,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [
-          "Gaming"
-        ],
-        "branch": "Ephrata"
-      }
-    },
-    "190508": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "190508",
-        "series": "https://calendar.lancasterlibraries.org/series/easy-writer-writing-group-milanof-schock",
-        "title": "Easy Writer Writing Group",
-        "description": "Attention passionate writers of all levels - beginners to published. Our writer's circle club for adults gathers the third Wednesday of each month @ 6:30pm. As this is a club, registration is not required (nor is a Library card) ... just show up and bring a piece of writing to share with the group.",
-        "categories": "",
-        "url": "https://calendar.lancasterlibraries.org/event/easy-writer-writing-group-190508",
-        "location": "Milanof-Schock Library, MJY Engle Room Small, 1184 Anderson Ferry Road, Mount Joy, PA, 17552",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795044600,
-        "end": 1795049100,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults"
-        ],
-        "program_types": [],
-        "branch": "Milanof-Schock"
-      }
-    },
-    "157247": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "157247",
-        "series": "https://calendar.lancasterlibraries.org/series/toastmasters-international-manheim-township",
-        "title": "Toastmasters International",
-        "description": "Afraid of public speaking? Looking to improve your communication skills at work? Come join us as we improve our speaking and leadership skills in a friendly, supportive environment! The Conestoga Toastmasters Club meets the first, third, and fifth Wednesday of each month from 6:30 p.m. to 7:45 p.m. New members and guests are always welcome to observe or participate.",
-        "categories": "Business & Career, Discussion",
-        "url": "https://calendar.lancasterlibraries.org/event/toastmasters-international-157247",
-        "location": "Manheim Township Library, MTP Morgan Center A, 595 Granite Run Drive,  Lancaster, PA, 17601",
-        "price": "Free",
-        "start": 1795044600,
-        "end": 1795049100,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors"
-        ],
-        "program_types": [
-          "Business & Career",
-          "Discussion"
-        ],
-        "branch": "Manheim Township"
-      }
-    },
-    "151848": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "151848",
-        "series": "https://calendar.lancasterlibraries.org/series/library-board-meeting-adamstown",
-        "title": "Library Board Meeting",
-        "description": "Adamstown Area Library Board of Directors meets on the third Wednesday of each month at 6:30 pm",
-        "categories": "",
-        "url": "https://calendar.lancasterlibraries.org/event/library-board-meeting-151848",
-        "location": "Adamstown Library, ADM Community Room, 110 W. Main St, Adamstown, PA, 19501",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795044600,
-        "end": 1795050000,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults"
-        ],
-        "program_types": [],
-        "branch": "Adamstown"
-      }
-    },
-    "157171": {
-      "checked_at": 1792344821.36641,
-      "event": {
-        "source": "Lancaster Libraries",
-        "source_id": "157171",
-        "series": "https://calendar.lancasterlibraries.org/series/elanco-library-board-meeting-eastern-lancaster-county",
-        "title": "ELANCO Library Board Meeting",
-        "description": "Notice is hereby given that the Board of Trustees of the Eastern Lancaster County Library will hold regular monthly meetings in 2026 at 7:00 P.M. (prevailing time): January 21, February 18, March 18, April 15, May 20, June 17, July 15, August 19, September 16, October 21, November 18, December 16, and January 20, 2027. The Library will hold its regular Annual Meeting at 6:00 P.M. on January 20, 2027. Meetings will be held at 11 Chestnut Drive, New Holland, PA, 17557 or, if conditions require, virtually. Visit elancolibrary.org for location information. All meetings are open to the public.",
-        "categories": "Community",
-        "url": "https://calendar.lancasterlibraries.org/event/elanco-library-board-meeting-157171",
-        "location": "Eastern Lancaster County Library, NHD Activity Room, 11 Chestnut Drive, New Holland, PA, 17557",
-        "price": "Not supplied by this calendar; check event details",
-        "start": 1795046400,
-        "end": 1795050000,
-        "all_day": false,
-        "status": "CONFIRMED",
-        "age_groups": [
-          "Adults",
-          "Seniors",
-          "Everyone"
-        ],
-        "program_types": [
-          "Community"
-        ],
-        "branch": "Eastern Lancaster County"
-      }
-    },
     "187741": {
       "checked_at": 1792344821.36641,
       "event": {
@@ -1977,7 +1297,7 @@
       }
     },
     "179913": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179913",
@@ -2027,7 +1347,7 @@
       }
     },
     "199469": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199469",
@@ -2052,7 +1372,7 @@
       }
     },
     "181456": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "181456",
@@ -2103,7 +1423,7 @@
       }
     },
     "176666": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "176666",
@@ -2155,7 +1475,7 @@
       }
     },
     "187745": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187745",
@@ -2180,7 +1500,7 @@
       }
     },
     "199471": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199471",
@@ -2256,7 +1576,7 @@
       }
     },
     "176856": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "176856",
@@ -2306,7 +1626,7 @@
       }
     },
     "199472": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199472",
@@ -2405,7 +1725,7 @@
       }
     },
     "147888": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "147888",
@@ -2558,7 +1878,7 @@
       }
     },
     "187746": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187746",
@@ -2606,7 +1926,7 @@
       }
     },
     "165073": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165073",
@@ -2633,7 +1953,7 @@
       }
     },
     "199473": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199473",
@@ -2861,7 +2181,7 @@
       }
     },
     "206598": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "206598",
@@ -2887,7 +2207,7 @@
       }
     },
     "198219": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198219",
@@ -2913,7 +2233,7 @@
       }
     },
     "157248": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "157248",
@@ -2940,7 +2260,7 @@
       }
     },
     "187672": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187672",
@@ -2993,7 +2313,7 @@
       }
     },
     "199474": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199474",
@@ -3092,7 +2412,7 @@
       }
     },
     "179914": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179914",
@@ -3193,7 +2513,7 @@
       }
     },
     "155443": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "155443",
@@ -3270,7 +2590,7 @@
       }
     },
     "199477": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199477",
@@ -3295,7 +2615,7 @@
       }
     },
     "198216": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198216",
@@ -3321,7 +2641,7 @@
       }
     },
     "189392": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "189392",
@@ -3346,7 +2666,7 @@
       }
     },
     "152913": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "152913",
@@ -3371,7 +2691,7 @@
       }
     },
     "195904": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "195904",
@@ -3397,7 +2717,7 @@
       }
     },
     "154849": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "154849",
@@ -3420,7 +2740,7 @@
       }
     },
     "199478": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "199478",
@@ -3445,7 +2765,7 @@
       }
     },
     "186343": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "186343",
@@ -3470,7 +2790,7 @@
       }
     },
     "181457": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "181457",
@@ -3496,7 +2816,7 @@
       }
     },
     "153584": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "153584",
@@ -3523,7 +2843,7 @@
       }
     },
     "198217": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198217",
@@ -3575,7 +2895,7 @@
       }
     },
     "187747": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187747",
@@ -3700,7 +3020,7 @@
       }
     },
     "206409": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "206409",
@@ -3726,7 +3046,7 @@
       }
     },
     "160165": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "160165",
@@ -3952,7 +3272,7 @@
       }
     },
     "187748": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187748",
@@ -4028,7 +3348,7 @@
       }
     },
     "155713": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "155713",
@@ -4054,7 +3374,7 @@
       }
     },
     "165074": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165074",
@@ -4281,7 +3601,7 @@
       }
     },
     "152939": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "152939",
@@ -4306,7 +3626,7 @@
       }
     },
     "207277": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "207277",
@@ -4329,7 +3649,7 @@
       }
     },
     "187749": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187749",
@@ -4377,7 +3697,7 @@
       }
     },
     "146163": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "146163",
@@ -4425,7 +3745,7 @@
       }
     },
     "158313": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "158313",
@@ -4452,7 +3772,7 @@
       }
     },
     "165793": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165793",
@@ -4532,7 +3852,7 @@
       }
     },
     "179915": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179915",
@@ -4630,7 +3950,7 @@
       }
     },
     "156594": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "156594",
@@ -4731,7 +4051,7 @@
       }
     },
     "206379": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "206379",
@@ -4781,7 +4101,7 @@
       }
     },
     "176667": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "176667",
@@ -4830,7 +4150,7 @@
       }
     },
     "187750": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187750",
@@ -4952,7 +4272,7 @@
       }
     },
     "153013": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "153013",
@@ -5002,7 +4322,7 @@
       }
     },
     "200760": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "200760",
@@ -5105,7 +4425,7 @@
       }
     },
     "155477": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "155477",
@@ -5179,7 +4499,7 @@
       }
     },
     "154635": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "154635",
@@ -5333,7 +4653,7 @@
       }
     },
     "202541": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "202541",
@@ -5384,7 +4704,7 @@
       }
     },
     "187751": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187751",
@@ -5457,7 +4777,7 @@
       }
     },
     "165075": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165075",
@@ -5708,7 +5028,7 @@
       }
     },
     "165132": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165132",
@@ -5733,7 +5053,7 @@
       }
     },
     "160330": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "160330",
@@ -5782,7 +5102,7 @@
       }
     },
     "157249": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "157249",
@@ -5859,7 +5179,7 @@
       }
     },
     "187752": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187752",
@@ -5884,7 +5204,7 @@
       }
     },
     "148312": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "148312",
@@ -5935,7 +5255,7 @@
       }
     },
     "179916": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179916",
@@ -6012,7 +5332,7 @@
       }
     },
     "157525": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "157525",
@@ -6167,7 +5487,7 @@
       }
     },
     "155444": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "155444",
@@ -6268,7 +5588,7 @@
       }
     },
     "187753": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187753",
@@ -6422,7 +5742,7 @@
       }
     },
     "154556": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "154556",
@@ -6475,7 +5795,7 @@
       }
     },
     "176805": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "176805",
@@ -6524,7 +5844,7 @@
       }
     },
     "187754": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187754",
@@ -6574,7 +5894,7 @@
       }
     },
     "165076": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165076",
@@ -6752,7 +6072,7 @@
       }
     },
     "187756": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187756",
@@ -6802,7 +6122,7 @@
       }
     },
     "176857": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "176857",
@@ -6854,7 +6174,7 @@
       }
     },
     "187757": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187757",
@@ -6879,7 +6199,7 @@
       }
     },
     "165077": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165077",
@@ -6906,7 +6226,7 @@
       }
     },
     "157250": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "157250",
@@ -6933,7 +6253,7 @@
       }
     },
     "187758": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "187758",
@@ -7182,7 +6502,7 @@
       }
     },
     "206535": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "206535",
@@ -7355,7 +6675,7 @@
       }
     },
     "165078": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "165078",
@@ -7559,7 +6879,7 @@
       }
     },
     "198220": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198220",
@@ -7708,7 +7028,7 @@
       }
     },
     "204694": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "204694",
@@ -7812,7 +7132,7 @@
       }
     },
     "204690": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "204690",
@@ -8570,7 +7890,7 @@
       }
     },
     "209239": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "209239",
@@ -8598,7 +7918,7 @@
       }
     },
     "210030": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "210030",
@@ -8624,7 +7944,7 @@
       }
     },
     "209792": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "209792",
@@ -8650,7 +7970,7 @@
       }
     },
     "214122": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "214122",
@@ -8677,7 +7997,7 @@
       }
     },
     "181458": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "181458",
@@ -8703,7 +8023,7 @@
       }
     },
     "213802": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213802",
@@ -8729,7 +8049,7 @@
       }
     },
     "214123": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "214123",
@@ -8756,7 +8076,7 @@
       }
     },
     "181459": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "181459",
@@ -8782,7 +8102,7 @@
       }
     },
     "210891": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "210891",
@@ -8808,7 +8128,7 @@
       }
     },
     "213636": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213636",
@@ -8834,7 +8154,7 @@
       }
     },
     "179917": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179917",
@@ -8861,7 +8181,7 @@
       }
     },
     "213637": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213637",
@@ -8887,7 +8207,7 @@
       }
     },
     "179918": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "179918",
@@ -8914,7 +8234,7 @@
       }
     },
     "214125": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "214125",
@@ -8941,7 +8261,7 @@
       }
     },
     "213964": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213964",
@@ -8967,7 +8287,7 @@
       }
     },
     "211270": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "211270",
@@ -8993,7 +8313,7 @@
       }
     },
     "213638": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213638",
@@ -9019,7 +8339,7 @@
       }
     },
     "213690": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213690",
@@ -9046,7 +8366,7 @@
       }
     },
     "214126": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "214126",
@@ -9073,7 +8393,7 @@
       }
     },
     "213210": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213210",
@@ -9099,7 +8419,7 @@
       }
     },
     "213787": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213787",
@@ -9125,7 +8445,7 @@
       }
     },
     "213769": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213769",
@@ -9151,7 +8471,7 @@
       }
     },
     "213580": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213580",
@@ -9178,7 +8498,7 @@
       }
     },
     "213639": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213639",
@@ -9204,7 +8524,7 @@
       }
     },
     "212145": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "212145",
@@ -9229,7 +8549,7 @@
       }
     },
     "208553": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "208553",
@@ -9254,7 +8574,7 @@
       }
     },
     "213691": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213691",
@@ -9281,7 +8601,7 @@
       }
     },
     "211864": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "211864",
@@ -9307,7 +8627,7 @@
       }
     },
     "213965": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213965",
@@ -9333,7 +8653,7 @@
       }
     },
     "198030": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198030",
@@ -9359,7 +8679,7 @@
       }
     },
     "213581": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213581",
@@ -9386,7 +8706,7 @@
       }
     },
     "213910": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213910",
@@ -9412,7 +8732,7 @@
       }
     },
     "213640": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213640",
@@ -9438,7 +8758,7 @@
       }
     },
     "185535": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "185535",
@@ -9464,7 +8784,7 @@
       }
     },
     "213803": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213803",
@@ -9490,7 +8810,7 @@
       }
     },
     "213692": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213692",
@@ -9517,7 +8837,7 @@
       }
     },
     "214128": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "214128",
@@ -9544,7 +8864,7 @@
       }
     },
     "213398": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213398",
@@ -9570,7 +8890,7 @@
       }
     },
     "206933": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "206933",
@@ -9597,7 +8917,7 @@
       }
     },
     "213966": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213966",
@@ -9623,7 +8943,7 @@
       }
     },
     "211271": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "211271",
@@ -9649,7 +8969,7 @@
       }
     },
     "213583": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213583",
@@ -9676,7 +8996,7 @@
       }
     },
     "213642": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213642",
@@ -9702,7 +9022,7 @@
       }
     },
     "198221": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198221",
@@ -9728,7 +9048,7 @@
       }
     },
     "213694": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213694",
@@ -9755,7 +9075,7 @@
       }
     },
     "204695": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "204695",
@@ -9781,7 +9101,7 @@
       }
     },
     "213967": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213967",
@@ -9807,7 +9127,7 @@
       }
     },
     "213788": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213788",
@@ -9833,7 +9153,7 @@
       }
     },
     "213770": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213770",
@@ -9859,7 +9179,7 @@
       }
     },
     "213584": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213584",
@@ -9886,7 +9206,7 @@
       }
     },
     "213643": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213643",
@@ -9912,7 +9232,7 @@
       }
     },
     "212146": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "212146",
@@ -9937,7 +9257,7 @@
       }
     },
     "208554": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "208554",
@@ -9962,7 +9282,7 @@
       }
     },
     "213695": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213695",
@@ -9989,7 +9309,7 @@
       }
     },
     "204661": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "204661",
@@ -10015,7 +9335,7 @@
       }
     },
     "204662": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "204662",
@@ -10041,7 +9361,7 @@
       }
     },
     "213211": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213211",
@@ -10067,7 +9387,7 @@
       }
     },
     "204663": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "204663",
@@ -10093,7 +9413,7 @@
       }
     },
     "198031": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "198031",
@@ -10119,7 +9439,7 @@
       }
     },
     "213585": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213585",
@@ -10146,7 +9466,7 @@
       }
     },
     "213911": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213911",
@@ -10172,7 +9492,7 @@
       }
     },
     "213644": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213644",
@@ -10198,7 +9518,7 @@
       }
     },
     "185536": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "185536",
@@ -10224,7 +9544,7 @@
       }
     },
     "213804": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213804",
@@ -10250,7 +9570,7 @@
       }
     },
     "213900": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213900",
@@ -10277,7 +9597,7 @@
       }
     },
     "213696": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213696",
@@ -10304,7 +9624,7 @@
       }
     },
     "213968": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213968",
@@ -10330,7 +9650,7 @@
       }
     },
     "213934": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213934",
@@ -10356,7 +9676,7 @@
       }
     },
     "213935": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213935",
@@ -10382,7 +9702,7 @@
       }
     },
     "213937": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213937",
@@ -10408,7 +9728,7 @@
       }
     },
     "214615": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "214615",
@@ -10434,7 +9754,7 @@
       }
     },
     "213399": {
-      "checked_at": 1795629791.41504,
+      "checked_at": 1795723854.08826,
       "event": {
         "source": "Lancaster Libraries",
         "source_id": "213399",
@@ -10455,6 +9775,85 @@
         ],
         "program_types": [
           "Book Club"
+        ],
+        "branch": "Manheim Township"
+      }
+    },
+    "213586": {
+      "checked_at": 1795723854.08826,
+      "event": {
+        "source": "Lancaster Libraries",
+        "source_id": "213586",
+        "series": "https://calendar.lancasterlibraries.org/series/morning-mahjong-manheim-township",
+        "title": "Morning Mahjong",
+        "description": "🀄️✨Join us for a morning of strategy, skill, and socializing! 🀄️✨ Whether you are a seasoned pro or a newcomer looking to practice, come enjoy the classic game of tiles in a friendly atmosphere, every Wednesday from 10-1. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines Be Welcoming: We all started as beginners! Please be patient with those still learning to play The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play Fair Play: Tables are available on a first-come, first-served basis Please keep talk inclusive and the atmosphere kind Registration is Required for this event! This program is for adults ages +18",
+        "categories": "Community, Gaming",
+        "url": "https://calendar.lancasterlibraries.org/event/morning-mahjong-213586",
+        "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+        "price": "Free",
+        "start": 1803481200,
+        "end": 1803492000,
+        "all_day": false,
+        "status": "CONFIRMED",
+        "age_groups": [
+          "Adults",
+          "Seniors"
+        ],
+        "program_types": [
+          "Community",
+          "Gaming"
+        ],
+        "branch": "Manheim Township"
+      }
+    },
+    "214414": {
+      "checked_at": 1795723854.08826,
+      "event": {
+        "source": "Lancaster Libraries",
+        "source_id": "214414",
+        "series": "https://calendar.lancasterlibraries.org/series/mtpl-board-meeting-manheim-township",
+        "title": "MTPL Board Meeting",
+        "description": "Manheim Township Public Library Board Meeting The meeting will be held in person in the Morgan Center. If you have questions about the meeting, please Contact Us with any questions. Click here to view all Manheim Township Board Minutes and Agendas",
+        "categories": "Community, Discussion",
+        "url": "https://calendar.lancasterlibraries.org/event/mtpl-board-meeting-214414",
+        "location": "Manheim Township Library, 595 Granite Run Drive,  Lancaster, PA, 17601",
+        "price": "Not supplied by this calendar; check event details",
+        "start": 1803508200,
+        "end": 1803511800,
+        "all_day": false,
+        "status": "CONFIRMED",
+        "age_groups": [
+          "Everyone"
+        ],
+        "program_types": [
+          "Community",
+          "Discussion"
+        ],
+        "branch": "Manheim Township"
+      }
+    },
+    "213645": {
+      "checked_at": 1795723854.08826,
+      "event": {
+        "source": "Lancaster Libraries",
+        "source_id": "213645",
+        "series": "https://calendar.lancasterlibraries.org/series/mahjong-after-dark-manheim-township",
+        "title": "Mahjong After Dark",
+        "description": "🀄️️🌙 Join us for an evening of strategy, skill, and socializing! 🀄️🌙 Whether you are a seasoned pro or a newcomer looking to practice, come unwind and enjoy the classic game of tiles in a friendly, community-led atmosphere, every Wednesday from 5:30-7:45 PM in the MTPL's Morgan Center. Note: This is a self-directed community group. While no formal instructor is provided, players of all levels are welcome to learn from one another. What to Bring: Sets and racks (at least one per four players) Your current 2026 National Mah Jongg League card A friendly, patient attitude! Community Guidelines: Be Welcoming: We all started as beginners! Please be patient with those still learning to play. The \"Rule of Five\": If a fifth player joins your table, we suggest the \"East Sits Out\" rotation—the player in the East position rotates out for one hand so everyone gets to play. Fair Play: Tables are available on a first-come, first-served basis. Please keep talk inclusive and the atmosphere kind. Evening Pace: To ensure everyone finishes smoothly before closing, no new games should start after 7:25 PM. Registration is Required for this event! This program is for adults ages +18.",
+        "categories": "Gaming",
+        "url": "https://calendar.lancasterlibraries.org/event/mahjong-after-dark-213645",
+        "location": "Manheim Township Library, MTP Morgan Center C, 595 Granite Run Drive,  Lancaster, PA, 17601",
+        "price": "Free",
+        "start": 1803508200,
+        "end": 1803516300,
+        "all_day": false,
+        "status": "CONFIRMED",
+        "age_groups": [
+          "Adults",
+          "Seniors"
+        ],
+        "program_types": [
+          "Gaming"
         ],
         "branch": "Manheim Township"
       }
