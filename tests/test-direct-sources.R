@@ -111,5 +111,54 @@ stopifnot(refresh_count == 1L, next_day$health$status == "ok",
 invisible(collect_weekly(now + 7L * 86400))
 invisible(collect_weekly(now + 8L * 86400, force = TRUE))
 stopifnot(refresh_count == 3L)
+# West Art uses the display category, which can differ from the document type.
+west_cfg <- direct_source_registry()$west_art
+west_entry <- function(id, category, title, day, time, manual = list(), excluded = list(),
+    frequency = "No") {
+  list(id = id, url = paste0("/event/", id), type = "event", data = list(type = category,
+    title = title, date = day, time = time, manual_dates = manual, excluded_dates = excluded,
+    repeated = frequency, location = "City Hall"))
+}
+west_documents <- list(
+  west_entry("quartet", "Concerts", "West Art Presents: String Quartet", "2026-11-28",
+    "6:00 - 7:30 PM & 8:30 - 10:00 PM"),
+  west_entry("swap", "Events", "Sunday Swap", "2026-10-18", "10:00 - 3:00 PM",
+    manual = list(list(date = "2026-12-06"))),
+  west_entry("mic", "Events", "Open Mic", "2026-11-18", "7:00 - 9:00 PM",
+    excluded = list(list(date = "2026-12-02")), frequency = "Weekly"),
+  west_entry("watercolor", "Clubs", "Watercolor Club", "2026-11-28", "10 AM"),
+  west_entry("yoga", "Wellness", "Yoga", "2026-11-28", "10 AM"))
+west_json <- jsonlite::toJSON(list(events = west_documents), auto_unbox = TRUE)
+west_script <- jsonlite::toJSON(list(1L, paste0("24:", west_json)), auto_unbox = TRUE)
+west_page <- read_html(paste0("<script>self.__next_f.push(", west_script, ")</script>"))
+west <- parse_direct_west_art(west_page, west_cfg, as.Date("2026-11-27"), as.Date("2026-12-10"))
+stopifnot(identical(vapply(west, function(e) local_day(e$start), ""),
+  c("2026-11-28 18:00:00", "2026-11-28 20:30:00", "2026-12-06 10:00:00", "2026-12-09 19:00:00")))
+venue <- west[[1]]
+venue$arts_role <- west_cfg$arts_role
+tourism <- venue
+tourism$direct <- FALSE
+tourism$arts_role <- NULL
+tourism$source <- "Discover Lancaster"
+tourism$title <- "String Quartet at West Art"
+tourism$location <- "West Art Lancaster"
+tourism$categories <- "Music & Dance"
+tourism$url <- tourism$series <- "https://www.discoverlancaster.com/events/string-quartet/"
+workshop <- tourism
+workshop$title <- "Watercolor workshop"
+workshop$categories <- "Classes & Workshops"
+workshop$url <- workshop$series <- "https://www.discoverlancaster.com/events/watercolor/"
+west_now <- publication_time("2026-11-27")
+west_built <- build_discoveries(list(tourism, workshop, venue), discovery_preferences,
+  west_now, arts_sources = list(west_art = west_cfg))$events
+stopifnot(length(west_built) == 2L,
+  sum(vapply(west_built, function(e) identical(e$arts_role, "venue") && length(e$sources) == 2L, logical(1))) == 1L)
+company <- venue
+company$source <- "Lancaster Symphony Orchestra"
+company$arts_role <- "company"
+company$url <- company$series <- "https://www.lancastersymphony.org/quartet"
+west_overlap <- build_discoveries(list(tourism, venue, company), discovery_preferences,
+  west_now, arts_sources = direct_source_registry()[c("west_art", "symphony")])$events
+stopifnot(length(west_overlap) == 1L, isTRUE(west_overlap[[1]]$covered_company))
 unlink(root,recursive=TRUE)
 cat('Direct-source tests passed: date ranges/DST, rehearsal exclusion, start-only calendars, enrichment/deduplication, stable identity, source failure fallback, and season years.\n')
