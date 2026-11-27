@@ -260,11 +260,14 @@ Center, Servant Stage, Lancaster Symphony Orchestra, Allegro Orchestra Lancaster
 Susquehanna Stage, Lancaster Shakespeare Theatre, Dutch Apple Dinner Theatre,
 and Gretna Theatre) contribute dated upcoming
 productions from their public listings.
-Presenting venues (Ware/Millersville and Mickey's Black Box) contribute upcoming
+Presenting venues (Ware/Millersville, Mickey's Black Box, American Music
+Theatre, and West Art) contribute upcoming
 and ongoing events within the 90-day window. Demuth Museum events and the Lancaster County Bird Club stay in Discoveries. Discoveries suppresses listings attributed to a followed company or venue,
-even when the event titles differ. Other tourism listings still follow the
-usual Discoveries filters. Matching listings can enrich Performing Arts
-items, and both feeds share identity history.
+even when the event titles differ. West Art contributes its Events and Concerts
+categories only. Its tourism listings are moved when their events match the
+venue calendar. Other tourism listings still follow the usual Discoveries filters. Matching listings can enrich Performing Arts
+items. An individual program link can match a differently titled listing when
+their dates overlap. Both feeds share identity history.
 
 Choose sources using `direct_sources` in `R/discovery-preferences.R`. The direct
 source registry in `R/direct-sources.R` sets the role, city, and refresh interval
@@ -284,8 +287,9 @@ appear in a reader that already has a cached icon.
 
 In NetNewsWire, open the **Performing Arts Season Grid** article in the Performing
 Arts subscription to read the table. The article keeps the same RSS identifier
-across refreshes. Company programs shown in the grid are omitted from the
-individual articles. Presenting-venue events still appear individually.
+across refreshes. Individual listings attributed to a followed company are suppressed, including
+listings from venue or tourism calendars. Other presenting-venue events appear
+individually.
 
 The Performing Arts home page also links to a season grid
 (`docs/performing-arts/seasons.html`). The workflow builds it from the same
@@ -304,7 +308,9 @@ Ware RSS supplies discovery links; each event page supplies its actual date,
 start time, description, venue, and price. Announcements beyond the window are
 excluded. Ware’s gallery description can supply an exhibition range instead of
 only opening night. Prima/Demuth use public Squarespace calendar JSON;
-Mickey’s/Bird Club use their public Events Calendar API. Fulton uses its explicit
+Mickey’s/Bird Club use their public Events Calendar API. West Art uses the data
+embedded in its public calendar, including manual dates and weekly repeats.
+Fulton uses its explicit
 season years; EPAC uses advertised season/special-event ranges. Servant Stage
 uses performance dates, excluding rehearsal and camp-only notices. Touring
 locations and individual show times remain in the description/source when a
