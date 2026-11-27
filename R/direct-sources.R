@@ -9,6 +9,9 @@ direct_source_registry <- function() list(
   epac=list(arts_role="company",city="Ephrata",refresh_days=7L,name="Ephrata Performing Arts Center",type="epac",url="https://www.epactheatre.org/",venue="Ephrata Performing Arts Center, 320 Cocalico Street, Ephrata, PA"),
   servant=list(arts_role="company",city="Lancaster County",refresh_days=7L,name="Servant Stage",type="servant",url="https://servantstage.org/upcoming-shows?format=json",venue="Multiple touring venues; see the performance itinerary below"),
   mickey=list(arts_role="venue",city="Lancaster",refresh_days=7L,name="Mickey's Black Box",type="tec",url="https://mickeysblackbox.com/wp-json/tribe/events/v1/events"),
+  american_music_theatre=list(arts_role="venue",city="Lancaster",refresh_days=7L,name="American Music Theatre",type="tec",url="https://amtshows.com/wp-json/tribe/events/v1/events"),
+  west_art=list(arts_role="venue",city="Lancaster",refresh_days=7L,name="West Art",
+    type="west_art",url="https://www.westartlanc.com/events",event_matches_only=TRUE),
   symphony=list(arts_role="company",city="Lancaster",refresh_days=7L,name="Lancaster Symphony Orchestra",type="symphony",url="https://www.lancastersymphony.org/tickets",venue=""),
   allegro=list(arts_role="company",city="Lancaster",refresh_days=7L,name="Allegro Orchestra Lancaster",type="allegro",url="https://www.allegrolancaster.org/upcoming-events",venue=""),
   susquehanna=list(arts_role="company",city="Marietta",refresh_days=7L,name="Susquehanna Stage",type="susquehanna",url="https://www.susquehannastage.com/shows",venue="Susquehanna Stage, 133 W Market St, Marietta, PA"),
@@ -137,6 +140,99 @@ fetch_direct_ware <- function(cfg,get_page) {
   rss<-get_page(cfg$url,xml=TRUE);urls<-unique(xml_text(xml_find_all(rss,"/rss/channel/item/link")))
   if(!length(urls))stop("Ware RSS contains no event links")
   lapply(urls,function(url)parse_direct_ware(get_page(url),url,cfg$name))
+}
+
+# The calendar embeds its full event list for client-side filters and "See more".
+parse_direct_west_art <- function(page, cfg, today, through) {
+  find_calendar <- function(node) {
+    if (!is.list(node)) return(NULL)
+    if (is.list(node[["events"]])) return(node[["events"]])
+    for (child in node) {
+      calendar <- find_calendar(child)
+      if (!is.null(calendar)) return(calendar)
+    }
+    NULL
+  }
+  scripts <- html_text(html_elements(page, "script"))
+  prefix <- "self.__next_f.push("
+  scripts <- scripts[startsWith(scripts, prefix)]
+  calendar <- NULL
+  for (script in scripts) {
+    if (!grepl('\\"events\\":[', script, fixed = TRUE)) next
+    chunk <- jsonlite::fromJSON(sub("\\)$", "", substring(script, nchar(prefix) + 1L)), simplifyVector = FALSE)
+    lines <- strsplit(text_value(chunk[[2]]), "\n", fixed = TRUE)[[1]]
+    for (line in lines[grepl('"events":[', lines, fixed = TRUE)]) {
+      tree <- jsonlite::fromJSON(sub("^[[:xdigit:]]+:", "", line), simplifyVector = FALSE)
+      calendar <- find_calendar(tree)
+      if (!is.null(calendar)) break
+    }
+    if (!is.null(calendar)) break
+  }
+  if (is.null(calendar) ||
+      !all(vapply(calendar, function(e) is.list(e$data) && nzchar(text_value(e$data$type)), logical(1)))) {
+    stop("West Art calendar data missing or invalid")
+  }
+
+  clock_minutes <- function(time, suffix = "") {
+    time <- toupper(gsub("[[:space:].]", "", time))
+    if (time %in% c("MIDNIGHT", "NOON")) return(if (time == "NOON") 720 else 0)
+    if (!grepl("^[0-9]{1,2}(:[0-5][0-9])?(AM|PM)?$", time)) return(NA_real_)
+    if (!grepl("[AP]M$", time)) time <- paste0(time, suffix)
+    if (!grepl("[AP]M$", time)) return(NA_real_)
+    hour <- as.integer(sub("^([0-9]+).*$", "\\1", time))
+    if (hour < 1L || hour > 12L) return(NA_real_)
+    minute <- if (grepl(":", time, fixed = TRUE)) as.integer(sub(".*:([0-9]{2}).*", "\\1", time)) else 0L
+    (hour %% 12L + 12L * endsWith(time, "PM")) * 60L + minute
+  }
+
+  records <- list()
+  for (entry in calendar) {
+    data <- entry$data
+    if (!text_value(data$type) %in% c("Events", "Concerts")) next
+    dates <- function(rows) Filter(nzchar, vapply(rows, function(row) text_value(row$date), ""))
+    days <- c(text_value(data$date), dates(data$manual_dates))
+    if (!all(is.finite(vapply(days, publication_time, numeric(1))))) {
+      stop("Invalid West Art event date: ", text_value(data$title))
+    }
+    days <- as.Date(days)
+    frequency <- text_value(data$repeated)
+    if (frequency == "Weekly" && days[1] <= through) {
+      first <- days[1] + 7L * max(0, ceiling(as.numeric(today - days[1]) / 7))
+      if (first <= through) days <- c(days, seq(first, through, by = "week"))
+    }
+    days <- sort(unique(days[days >= today & days <= through & !as.character(days) %in% dates(data$excluded_dates)]))
+    url <- direct_public_url(entry$url, cfg$url)
+    location <- paste(c(cfg$name, Filter(nzchar, text_value(data$location))), collapse = ", ")
+    description <- paste(vapply(data$description, function(block) text_value(block$text), ""), collapse = " ")
+    time <- sub("!$", "", trimws(text_value(data$time)))
+    sessions <- strsplit(time, "\\s*&\\s*", perl = TRUE)[[1]]
+    if (!length(sessions)) sessions <- ""
+    for (day in as.character(days)) {
+      for (session in sessions) {
+        times <- trimws(strsplit(session, "[-–—]")[[1]])
+        start_label <- text_value(times[1])
+        end_label <- text_value(times[2])
+        end_minutes <- clock_minutes(end_label)
+        suffix <- if (is.na(end_minutes)) "" else if (end_minutes >= 720) "PM" else "AM"
+        start_minutes <- clock_minutes(start_label, suffix)
+        if (nzchar(suffix) && !grepl("[AP]M$", start_label, ignore.case = TRUE) &&
+            is.finite(start_minutes) && start_minutes >= end_minutes) start_minutes <- (start_minutes - 720) %% 1440
+        at <- function(minutes, day) publication_time(sprintf("%s %02d:%02d", day, minutes %/% 60, minutes %% 60))
+        start <- if (is.finite(start_minutes)) at(start_minutes, day) else publication_time(day)
+        end_day <- as.character(as.Date(day) + 1L)
+        end_known <- is.finite(start_minutes) && is.finite(end_minutes)
+        end <- if (end_known) at(end_minutes, if (end_minutes < start_minutes) end_day else day) else
+          if (is.finite(start_minutes)) start else publication_time(end_day) - 1
+        event <- direct_event(cfg$name, entry$id, text_value(data$title), url, description,
+          start, end, location, all_day = !is.finite(start_minutes), end_known = end_known)
+        event$categories <- data$type
+        event$poster <- direct_public_url(data$image$url, url)
+        event$ticket_url <- direct_public_url(data$link$url, url)
+        records[[length(records) + 1L]] <- event
+      }
+    }
+  }
+  records
 }
 
 parse_direct_fulton <- function(listing,cfg,get_page) {
@@ -534,6 +630,7 @@ collect_direct_sources <- function(root,today,through,now,force=FALSE) {
     json <- function(url) get(url, json = TRUE)
     results[[id]]<-collect_source_safely(id,cfg$name,root,now,function()switch(cfg$type,
       tec=fetch_direct_tec(cfg,today,through+refresh_days,json),squarespace=parse_direct_squarespace(json(cfg$url),cfg),
+      west_art=parse_direct_west_art(get(cfg$url),cfg,today,through+refresh_days),
       ware=fetch_direct_ware(cfg,get),fulton=parse_direct_fulton(get(cfg$url),cfg,get),
       epac=fetch_direct_epac(cfg,get),servant=fetch_direct_servant(cfg,json),
       symphony=fetch_direct_symphony(cfg,get),allegro=parse_direct_allegro(get(cfg$url),cfg),

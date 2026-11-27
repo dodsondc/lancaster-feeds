@@ -43,6 +43,9 @@ discovery_match <- function(e, prefs) {
   venue_hits <- function(patterns) names(patterns)[vapply(patterns,matches,logical(1),text=venue_text)]
   excluded <- venue_hits(prefs$excluded_venues)
   if(length(excluded))return(list(keep=FALSE,reason=paste("Excluded venue:",paste(excluded,collapse=", "))))
+  if (identical(e$source, "West Art") && identical(e$arts_role, "venue")) {
+    return(list(keep=TRUE, reason="West Art calendar"))
+  }
   preferred <- venue_hits(prefs$preferred_venues)
   if(length(preferred))return(list(keep=TRUE,reason=paste("Preferred venue:",paste(preferred,collapse=", "))))
   if (matches(prefs$exclude_title,e$title)) return(list(keep=FALSE,reason="Excluded title: dance"))
@@ -228,21 +231,43 @@ discovery_title_key <- function(e,prefs) {
   if (title == "messiah by candelight") title <- "messiah by candlelight"
   if (title == "from solitude to triumph") title <- "solitude to triumph"
   venue<-discovery_venue(e$location,prefs)
+  if (venue == "west art") title <- sub("^west art( and wxpn)? (presents|welcomes) ", "", title)
   suffix<-paste0(" at ",venue)
   if(nzchar(venue)&&endsWith(title,suffix))title<-substr(title,1,nchar(title)-nchar(suffix))
   title
 }
+discovery_program_link <- function(url) {
+  url <- sub("^https?://(?:www[.])?", "", discovery_url(text_value(url)),
+    ignore.case = TRUE, perl = TRUE)
+  url <- sub("/+$", "", url)
+  # A calendar, ticket landing page, or home page can be shared by many programs.
+  if (!grepl("^[^/]+/.+", url) || grepl("/(events|shows|tickets|calendar|upcoming-events|[0-9]{4}-?season)$", url,
+    ignore.case = TRUE)) return("")
+  url
+}
+
 group_discoveries <- function(events,prefs) {
   groups <- list()
   for(e in events) {
     e$venue_key <- discovery_venue(e$location,prefs)
     e$group_title_key <- discovery_title_key(e,prefs)
+    e$program_link <- discovery_program_link(e$url)
+    e$website_link <- discovery_program_link(e$website)
     candidates <- which(vapply(groups,function(g) {
       same_series <- any(vapply(g,function(x) identical(x$source,e$source)&&identical(x$series,e$series),logical(1)))
       same_named <- nzchar(e$venue_key)&&identical(g[[1]]$group_title_key,e$group_title_key)&&identical(g[[1]]$venue_key,e$venue_key)
       # Different sources must have overlapping advertised dates to merge.
       overlap <- any(vapply(g,function(x)x$start<=e$end&&e$start<=x$end,logical(1)))
-      same_series || (same_named && (overlap || all(vapply(g,function(x)identical(x$source,e$source),logical(1)))))
+      shared_program <- any(vapply(g, function(x) {
+        if (identical(x$source, e$source) || x$start > e$end || e$start > x$end) return(FALSE)
+        if (!is.null(x$arts_role) && is.null(e$arts_role)) {
+          return(nzchar(x$program_link) && x$program_link %in% c(e$program_link, e$website_link))
+        }
+        !is.null(e$arts_role) && is.null(x$arts_role) && nzchar(e$program_link) &&
+          e$program_link %in% c(x$program_link, x$website_link)
+      }, logical(1)))
+      same_series || shared_program ||
+        (same_named && (overlap || all(vapply(g,function(x)identical(x$source,e$source),logical(1)))))
     },logical(1)))
     if(length(candidates)) {
       k<-candidates[1];groups[[k]]<-c(groups[[k]],list(e))
@@ -270,12 +295,17 @@ performing_arts_affiliations <- function(sources, prefs) {
     attribution <- c(event$source, event$location, unlist(event$organizers))
     names <- vapply(attribution, name_key, "")
     hosts <- vapply(c(event$url, event$website), site_host, "")
-    title <- sub("\\btheater\\b", "theatre", discovery_key(event$title))
+    title <- sub("\\btheater\\b", "theatre", discovery_key(
+      gsub("['’]s\\b", " presents", event$title, ignore.case = TRUE)))
+    venue <- name_key(event$location)
     any(vapply(lookup, function(source) {
       any(names %in% source$names) ||
+        any(vapply(source$names, function(name) {
+          grepl(paste0(" (at|in) (the )?", name, "$"), venue, perl = TRUE)
+        }, logical(1))) ||
         (nzchar(source$host) && source$host %in% hosts) ||
         (source$company && any(vapply(source$names, function(name) {
-          grepl(paste0(" (with |presented by )", name, " "), paste0(" ", title, " "), perl = TRUE) ||
+          grepl(paste0(" (with |presented by |featuring )(the )?", name, " "), paste0(" ", title, " "), perl = TRUE) ||
             startsWith(title, paste0(name, " presents "))
         }, logical(1))))
     }, logical(1)))
@@ -286,7 +316,11 @@ build_discoveries <- function(events,prefs,now,old=list(),arts_sources=list()) {
   today <- as.Date(format(as.POSIXct(now,origin="1970-01-01",tz="America/New_York"),"%Y-%m-%d"))
   lower <- publication_time(as.character(today)); upper <- publication_time(as.character(today+prefs$horizon_days+1L))
   audit <- list(); selected<-list()
-  covered_by_arts <- performing_arts_affiliations(arts_sources, prefs)
+  # Scoped venue calendars move only matched programs out of Discoveries.
+  covered_by_arts <- performing_arts_affiliations(
+    Filter(function(cfg) !isTRUE(cfg$event_matches_only), arts_sources), prefs)
+  company_sources <- Filter(function(cfg) identical(cfg$arts_role, "company"), arts_sources)
+  covered_by_company <- performing_arts_affiliations(company_sources, prefs)
   for(e in events) {
     m<-discovery_match(e,prefs)
     in_window <- e$end >= lower && (identical(e$arts_role, "company") || e$start < upper)
@@ -313,6 +347,8 @@ build_discoveries <- function(events,prefs,now,old=list(),arts_sources=list()) {
     if (!length(g)) next
     g <- lapply(g, function(e) {
       e$group_title_key <- NULL
+      e$program_link <- NULL
+      e$website_link <- NULL
       e$enrichment_only <- NULL
       e
     })
@@ -356,6 +392,7 @@ build_discoveries <- function(events,prefs,now,old=list(),arts_sources=list()) {
         if (any(nzchar(values))) e[[field]] <- values[nzchar(values)][1]
       }
     }
+    e$covered_company <- length(companies) > 0L || any(vapply(g, covered_by_company, logical(1)))
     e$id<-id;e$member_keys<-as.list(unique(c(member_keys,unlist(lapply(previous,`[[`,"member_keys")))))
     e$kind<-kind;e$start<-min(starts);e$end<-max(ends)
     e$occurrences<-occurrences;e$sources<-lapply(g,function(x)list(name=x$source,url=x$url))
@@ -546,9 +583,7 @@ write_company_season_grid <- function(records, companies, prefs, today, path) {
   on.exit(unlink(tmp), add = TRUE)
   writeLines(c("<!doctype html>", as.character(html)), tmp, useBytes = TRUE)
   if (!file.rename(tmp, path)) stop("Cannot replace Performing Arts Season Grid")
-  invisible(list(table = table, member_keys = vapply(records, function(e) {
-    paste(e$source, e$series, sep = "|")
-  }, "")))
+  invisible(table)
 }
 
 collect_discoveries <- function(root,now=as.numeric(Sys.time()),
@@ -581,17 +616,13 @@ collect_discoveries <- function(root,now=as.numeric(Sys.time()),
   performing <- vapply(built$events, function(e) !is.null(e$arts_role), logical(1))
   companies <- Filter(function(cfg) identical(cfg$arts_role, "company"), arts_sources)
   season_table <- NULL
-  covered <- rep(FALSE, length(built$events))
+  covered <- vapply(built$events, function(e) isTRUE(e$covered_company), logical(1))
   if (length(companies)) {
     grid_path <- file.path(root, "docs", "performing-arts", "seasons.html")
     company_health <- health[health$source_id %in% names(companies), ]
     if (any(company_health$status %in% c("ok", "stale")) || !file.exists(grid_path)) {
       company_names <- sort(vapply(companies, `[[`, "", "name"))
-      grid <- write_company_season_grid(records, company_names, prefs, today, grid_path)
-      season_table <- grid$table
-      covered <- vapply(built$events, function(e) {
-        identical(e$arts_role, "company") && any(unlist(e$member_keys) %in% grid$member_keys)
-      }, logical(1))
+      season_table <- write_company_season_grid(records, company_names, prefs, today, grid_path)
     } else {
       previous_table <- html_element(read_html(grid_path), "table")
       if (!inherits(previous_table, "xml_missing")) season_table <- previous_table
