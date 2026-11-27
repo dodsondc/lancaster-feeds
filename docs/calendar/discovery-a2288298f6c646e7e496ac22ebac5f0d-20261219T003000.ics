@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-a2288298f6c646e7e496ac22ebac5f0d-20261219T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261219T003000Z
+DTEND:20261219T020000Z
+SUMMARY:West Art Presents Vivace Live: Holiday Strings by Candlelight!
+DESCRIPTION:A Candlelit Holiday evening with Vivace Live—where seasonal f
+ avorites meet jazz\, Celtic melodies\, and pop hits. Join us as we welcome
+  Vivace Live back to West Art’s beautiful City Hall for an intimate holi
+ day concert. Performing in the round among the audience\, Vivace Live brin
+ gs the music close\, blending Christmas classics with lively jazz\, Celtic
+  melodies\, and familiar pop favorites to create the warmth of a cozy holi
+ day gathering with friends. With candlelight glowing against the stained g
+ lass\, it’s the perfect setting for a snowy-evening feeling and a little
+  romantic Christmas magic. Space is limited\, and their last concert sold 
+ out\, so reserve your tickets early. We can’t wait to celebrate the seas
+ on with you!\n\nPrice: Not supplied by this source\; check event details\n
+ \nSchedule listed: Dec 18\, 2026 · 07:30 PM EST – 09:00 PM EST\n\nSched
+ ule supplied by West Art\n\nTimes converted from America/New_York to UTC f
+ or calendar compatibility.\n\n\n\nRegistration: https://www.westartlanc.co
+ m/concert/vivace-live\n\nAdding this calendar item does not register you. 
+ Check the original listing for changes\; imported events do not automatica
+ lly stay in sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/concert/vivace-live
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

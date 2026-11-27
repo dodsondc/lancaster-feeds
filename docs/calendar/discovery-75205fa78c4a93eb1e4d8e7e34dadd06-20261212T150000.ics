@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-75205fa78c4a93eb1e4d8e7e34dadd06-20261212T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261212T150000Z
+DTEND:20261212T154500Z
+SUMMARY:Kindermusik Special Class
+DESCRIPTION:Kindermusik is a globally loved early childhood music-and-movem
+ ent program focused on experiential learning\, process over product\, and 
+ joyful\, community-centered play. Fiona Gillespie is a licensed Kindermusi
+ k educator\, professional singer and instrumentalist\, and longtime advoca
+ te for community-centered arts. With 12+ years of teaching experience—fr
+ om toddlers to college students—she brings warmth\, musicality\, and a d
+ eep understanding of child-led learning. Special offerings: 12/12 Holiday 
+ Special Class MUSIC TRANSFORMS THE MIND! Studies show that music activates
+  more areas of the brain than anything else we experience. Adding music to
+  other activities\, such as moving\, drawing\, playing\, or reading\, enha
+ nces a child's whole learning process. Engaging with music doesn't need to
+  exist in isolation! Nurture your child's inborn love of music. Bring musi
+ c into everyday life. Individual Class Tickets and Bundled Enrollment Regi
+ stration are both available via the link below.\n\nPrice: Not supplied by 
+ this source\; check event details\n\nSchedule listed: Dec 12\, 2026 · 10:
+ 00 AM EST – 10:45 AM EST\n\nSchedule supplied by West Art\n\nTimes conve
+ rted from America/New_York to UTC for calendar compatibility.\n\n\n\nRegis
+ tration: https://www.westartlanc.com/event/events_kindermusik-special-clas
+ s\n\nAdding this calendar item does not register you. Check the original l
+ isting for changes\; imported events do not automatically stay in sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/event/events_kindermusik-special-class
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

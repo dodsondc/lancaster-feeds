@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-80b9d4601146efe3309119b32f178f89-20270110T010000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20270110T010000Z
+DTEND:20270110T030000Z
+SUMMARY:West Art Presents: A Wild Kindness - A Tribute To David Berman
+DESCRIPTION:During the week of what would've been his 60th birthday\, West 
+ Art will be celebrating the legacy of one of America's most distinctive vo
+ ices\, David Berman. The evening will feature an all-star lineup of local 
+ and regional musicians\, including Jordan and JW of the Nielsen Family Ban
+ d\, Elephant 6's Giant Day\, and Cozy Galaxies (with their first performan
+ ce since 2012)\, all performing songs from the Silver Jews and Purple Moun
+ tains catalogs. Also performing: Super Infinity (Rob Grote of The District
+ s)\, Dustin White (American Motors)\, Ben Roth (Sleepy Limbs / The Kaleido
+ scope)\, Raf Diaz (We Were Skeletons)\, Nate Yeager (The Scouts)\, Kevin S
+ tairiker (Traffic Nightmare)\, Jesse Barki (Sun Not Yellow)\, and Adam Ozi
+ mek and Thaddeus Passerieb (Uncle Brothers)\, and more! Poetry readings by
+  Katie Rineer and Derek Zanetti. Wear a corduroy suit. We'll see you there
+ !\n\nPrice: Not supplied by this source\; check event details\n\nSchedule 
+ listed: Jan 09\, 2027 · 08:00 PM EST – 10:00 PM EST\n\nSchedule supplie
+ d by West Art\n\nTimes converted from America/New_York to UTC for calendar
+  compatibility.\n\n\n\nRegistration: https://www.westartlanc.com/concert/d
+ avid-berman\n\nAdding this calendar item does not register you. Check the 
+ original listing for changes\; imported events do not automatically stay i
+ n sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/concert/david-berman
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

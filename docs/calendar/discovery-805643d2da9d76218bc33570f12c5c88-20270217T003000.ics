@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-805643d2da9d76218bc33570f12c5c88-20270217T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20270217T003000Z
+DTEND:20270217T030000Z
+SUMMARY:West Art and WXPN Welcome Shovels & Rope: Bare Bones
+DESCRIPTION:West Art is thrilled to welcome Shovels & Rope to Lancaster! Th
+ e Charleston-based duo of Cary Ann Hearst and Michael Trent has spent the 
+ better part of two decades building a massive reputation for their raw and
+  rootsy blend of folk\, rock\, and Americana! Fueled by powerful harmonies
+  and undeniable chemistry\, Shovels & Rope are bringing an evening of unfo
+ rgettable stories\, songs\, and moments\, and we want you to be there! Tic
+ kets are going to move fast\, and we fully expect this show to sell out!\n
+ \nPrice: Not supplied by this source\; check event details\n\nSchedule lis
+ ted: Feb 16\, 2027 · 07:30 PM EST – 10:00 PM EST\n\nSchedule supplied b
+ y West Art\n\nTimes converted from America/New_York to UTC for calendar co
+ mpatibility.\n\n\n\nRegistration: https://www.westartlanc.com/concert/shov
+ els-and-ropes\n\nAdding this calendar item does not register you. Check th
+ e original listing for changes\; imported events do not automatically stay
+  in sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/concert/shovels-and-ropes
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

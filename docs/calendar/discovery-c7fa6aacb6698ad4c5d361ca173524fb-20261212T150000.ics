@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-c7fa6aacb6698ad4c5d361ca173524fb-20261212T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261212T150000Z
+DTEND:20261212T200000Z
+SUMMARY:Good Goods Market
+DESCRIPTION:Join us for one of Lancaster's most well-loved markets curated 
+ by our favorite trio— Murphy\, Holly & Jaimi. Because we were so busy la
+ st year we are offering Good Goods Holiday Market over two weekends in Dec
+ ember. A perfect way to stock up on holiday gifts & stocking stuffers!\n\n
+ Price: Not supplied by this source\; check event details\n\nSchedule liste
+ d: Dec 12\, 2026 · 10:00 AM EST – 03:00 PM EST\n\nSchedule supplied by 
+ West Art\n\nTimes converted from America/New_York to UTC for calendar comp
+ atibility.\n\n\n\nRegistration: https://www.westartlanc.com/event/goodgood
+ s-market\n\nAdding this calendar item does not register you. Check the ori
+ ginal listing for changes\; imported events do not automatically stay in s
+ ync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/event/goodgoods-market
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

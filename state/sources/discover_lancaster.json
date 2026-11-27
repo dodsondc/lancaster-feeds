@@ -1,5 +1,5 @@
 {
-  "checked_at": 1795723854.08826,
+  "checked_at": 1795806856.65535,
   "events": [
     {
       "source": "Discover Lancaster",
@@ -5789,6 +5789,22 @@
       "location": "260 Granite Run Dr., Lancaster, PA 17601",
       "start": 1803308400,
       "end": 1803312000,
+      "all_day": true,
+      "status": "CONFIRMED",
+      "price": "Not supplied by this calendar; check event details"
+    },
+    {
+      "source": "Discover Lancaster",
+      "source_id": "6868629",
+      "series": "https://www.discoverlancaster.com/events/menopause-the-musical-25th-anniversary-tour/",
+      "title": "Menopause The Musical®: 25th Anniversary Tour",
+      "url": "https://www.discoverlancaster.com/events/menopause-the-musical-25th-anniversary-tour/",
+      "website": "https://amtshows.com/show/menopause-the-musical/",
+      "description": "Join the celebration as Menopause The Musical® marks 25 years of laughter, music, and sisterhood! This hilarious musical parody brings together four women at a lingerie sale with seemingly nothing in common but a black lace bra — and the all-too-relatable experiences of memory loss, hot flashes, night sweats, romance, relationships, and “The Change.” Set to classic hits from the ’60s, ’70s, and ’80s, this laugh-out-loud show will have you cheering, singing along, and dancing in the aisles. See why more than 17 million women and fans worldwide have been laughing for 25 years at this joyful celebration of women and The Change!® Two performances: 2pm and 7:30pm",
+      "categories": "Music & Dance, Theatre, Film, Performances",
+      "location": "American Music Theatre, 2425 Lincoln Highway East, Lancaster, PA 17602",
+      "start": 1803531600,
+      "end": 1803617999,
       "all_day": true,
       "status": "CONFIRMED",
       "price": "Not supplied by this calendar; check event details"

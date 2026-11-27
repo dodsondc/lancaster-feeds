@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-9fc2022a77c7a860a5b3540d6701ab81-20261208T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261208T000000Z
+DTEND:20261208T013000Z
+SUMMARY:West Art Presents: Ryan Kauffman Album Release Show!
+DESCRIPTION:West Art welcomes saxophonist Ryan Kauffman to The Sanctuary fo
+ r a special performance celebrating his new album\, By Design. Featuring e
+ ight original compositions performed alongside a quintet of Central PA’s
+  finest musicians\, the album blends jazz and concert influences into a be
+ autifully lyrical sound rooted in improvisation\, collaboration\, and musi
+ cal expression. This will be the first live performance of the new record 
+ in its entirety\, so don’t miss it!\n\nPrice: Not supplied by this sourc
+ e\; check event details\n\nSchedule listed: Dec 07\, 2026 · 07:00 PM EST 
+ – 08:30 PM EST\n\nSchedule supplied by West Art\n\nTimes converted from 
+ America/New_York to UTC for calendar compatibility.\n\n\n\nRegistration: h
+ ttps://www.westartlanc.com/concert/ryan-kauffman\n\nAdding this calendar i
+ tem does not register you. Check the original listing for changes\; import
+ ed events do not automatically stay in sync.
+LOCATION:West Art\, Sanctuary
+URL:https://www.westartlanc.com/concert/ryan-kauffman
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

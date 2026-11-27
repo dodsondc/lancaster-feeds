@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-164c091e19d26485d40b34f7bd55e21e-20261206T200000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261206T200000Z
+DTEND:20261206T220000Z
+SUMMARY:West Art Presents: An Afternoon with Goodnight Moonshine feat. Moll
+ y Venter of Red Molly\, with support from Old Sleepers
+DESCRIPTION:West Art is thrilled to announce that Goodnight Moonshine is ta
+ king over Sanctuary! They're no strangers to Lancaster\, and they're bring
+ ing a captivating blend of folk\, jazz\, and Americana to West Art! Featur
+ ing the soulful vocals of Molly Venter and the inventive guitar work of Eb
+ en Pariser\, the duo delivers rich harmonies\, heartfelt songwriting\, and
+  an intimate\, genre-bending sound. Opening the night is Olds Sleeper\, th
+ e solo project of Heath James Hardin\, with songs derived from the landsca
+ pes and people of rural Pennsylvania. Employing banjo\, resonator guitar\,
+  acoustic guitar\, mandolin and ukelele\, Hardin writes songs that challen
+ ge stereotypical country and folk styles! Join us for an intimate afternoo
+ n of songs and stories under the stained glass!\n\nPrice: Not supplied by 
+ this source\; check event details\n\nSchedule listed: Dec 06\, 2026 · 03:
+ 00 PM EST – 05:00 PM EST\n\nSchedule supplied by West Art\n\nTimes conve
+ rted from America/New_York to UTC for calendar compatibility.\n\n\n\nRegis
+ tration: https://www.westartlanc.com/concert/goodnight-moonshine\n\nAdding
+  this calendar item does not register you. Check the original listing for 
+ changes\; imported events do not automatically stay in sync.
+LOCATION:West Art\, Sanctuary
+URL:https://www.westartlanc.com/concert/goodnight-moonshine
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

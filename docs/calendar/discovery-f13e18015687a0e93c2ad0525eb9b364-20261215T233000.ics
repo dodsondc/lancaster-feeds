@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-f13e18015687a0e93c2ad0525eb9b364-20261215T233000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261215T233000Z
+DTEND:20261216T013000Z
+SUMMARY:Line Dance w/ JW!
+DESCRIPTION:Come join us for an evening of guided line dance with the your 
+ ever-gracious host JW. This is for all levels\, whether you’re just begi
+ nning or looking to brush the dust off your boots. We’ll do a line danci
+ ng lesson at 6\, and the dancing will start at 6:30. This will take place 
+ in the lovely City Hall at West Art- and the Coffee Bar will be open w/ a 
+ full selection of espresso drinks\, beer\, wine\, cocktails\, and lots of 
+ great non -boozey options as well. Yee-haw! Cost: $10 suggested donation a
+ t the door (cash or venmo)\n\nPrice: Not supplied by this source\; check e
+ vent details\n\nSchedule listed: Dec 15\, 2026 · 06:30 PM EST – 08:30 P
+ M EST\n\nSchedule supplied by West Art\n\nTimes converted from America/New
+ _York to UTC for calendar compatibility.\n\n\n\nRegistration: https://www.
+ westartlanc.com/event/linedance\n\nAdding this calendar item does not regi
+ ster you. Check the original listing for changes\; imported events do not 
+ automatically stay in sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/event/linedance
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

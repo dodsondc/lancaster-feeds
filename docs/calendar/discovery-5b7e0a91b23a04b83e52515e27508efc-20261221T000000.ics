@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-5b7e0a91b23a04b83e52515e27508efc-20261221T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261221T000000Z
+DTEND:20261221T020000Z
+SUMMARY:Jazz Night in the Art Bar!
+DESCRIPTION:Join us for live jazz in the Art Bar! Enjoy standards featuring
+  Cory Paternoster\, Liam Galiano\, Anthony Pieruccini\, and Brandon Hollin
+ ger!\n\nPrice: Not supplied by this source\; check event details\n\nSchedu
+ le listed: Dec 20\, 2026 · 07:00 PM EST – 09:00 PM EST\n\nSchedule supp
+ lied by West Art\n\nTimes converted from America/New_York to UTC for calen
+ dar compatibility.\n\n\n\nRegistration: https://www.westartlanc.com/event/
+ event_sunday-jazz\n\nAdding this calendar item does not register you. Chec
+ k the original listing for changes\; imported events do not automatically 
+ stay in sync.
+LOCATION:West Art\, Art Bar
+URL:https://www.westartlanc.com/event/event_sunday-jazz
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-7539499b8cf06ea435438d7b3b6701d0-20270101T020000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20270101T020000Z
+DTEND:20270101T050000Z
+SUMMARY:West Art and WXPN Welcome Low Cut Connie's New Years Eve Rock N Rol
+ l Shindig!
+DESCRIPTION:Get ready for a New Year’s Eve celebration like no other! Low
+  Cut Connie is bringing their electrifying blend of rock ’n’ roll\, so
+ ul\, blues\, and good old-fashioned piano-pounding chaos back to West Art\
+ , and we couldn't be more excited! Known for their unforgettable live show
+ s and frontman Adam Weiner’s larger-than-life energy\, Low Cut Connie tu
+ rns every room into a party\, and there’s no better night to join in tha
+ n New Year’s Eve! Joining them this year is Lancaster's own Slimfit! Gra
+ b your friends\, put on your dancing shoes\, and raise a glass as we count
+  down to 2027. New year. New memories. Same old West Art chaos!\n\nPrice: 
+ Not supplied by this source\; check event details\n\nSchedule listed: Dec 
+ 31\, 2026 · 09:00 PM EST – Jan 01\, 2027 · 12:00 AM EST\n\nSchedule su
+ pplied by West Art\n\nTimes converted from America/New_York to UTC for cal
+ endar compatibility.\n\n\n\nRegistration: https://www.westartlanc.com/conc
+ ert/low-cut-connie-nye\n\nAdding this calendar item does not register you.
+  Check the original listing for changes\; imported events do not automatic
+ ally stay in sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/concert/low-cut-connie-nye
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-3d68bfab05c070ce8085716f5c14fca2-20261206T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261206T000000Z
+DTEND:20261206T030000Z
+SUMMARY:10 Years of Hot Dad Calendar! With Sun Not Yellow and Sweaty Money!
+DESCRIPTION:Oh man! We're excited to announce that Hot Dad Calendar is hitt
+ ing their 10 year anniversary\, and they're taking over City Hall! Born in
+  Reading\, PA\, and raised throughout the Central PA/Greater Philadelphia 
+ Area\, Hot Dad Calendar is the authentic result of three friends combining
+  their distinctive styles and personalities to bring a fresh\, nostalgic s
+ ound to the alternative/indie rock scene. With heavy tones and even heavie
+ r subject matter\, this gritty trio embodies the belief that being a Hot D
+ ad is not just about aesthetics or fatherhood\; It's about earnestly confr
+ onting what makes you who you are... while also being really Hot \;) Joini
+ ng them are Sun Not Yellow and Sweaty Money\, two of the finest rock and r
+ ollers around! It's gonna get sweaty\, it's gonna be loud\, and it's gonna
+  be HOT! Grab your friends\, get your tickets\, and join us!\n\nPrice: Not
+  supplied by this source\; check event details\n\nSchedule listed: Dec 05\
+ , 2026 · 07:00 PM EST – 10:00 PM EST\n\nSchedule supplied by West Art\n
+ \nTimes converted from America/New_York to UTC for calendar compatibility.
+ \n\n\n\nRegistration: https://www.westartlanc.com/concert/hot-dad-calendar
+ \n\nAdding this calendar item does not register you. Check the original li
+ sting for changes\; imported events do not automatically stay in sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/concert/hot-dad-calendar
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

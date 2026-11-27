@@ -920,26 +920,6 @@
       "notice": "",
       "first_seen": 1794090807.8891,
       "activity_at": 1794090807.8891
-    },
-    "lancaster-county-commissioners:4:3620:agenda": {
-      "id": "lancaster-county-commissioners:4:3620:agenda",
-      "category": "4",
-      "kind": "Agenda",
-      "date": "2026-05-26",
-      "url": "https://www.co.lancaster.pa.us/AgendaCenter/ViewFile/Agenda/_05262026-3620",
-      "notice": "Posted by county: May 26, 2026 · 1:51 PM ET",
-      "first_seen": 1794090807.8891,
-      "activity_at": 1794090807.8891
-    },
-    "lancaster-county-commissioners:4:3620:minutes": {
-      "id": "lancaster-county-commissioners:4:3620:minutes",
-      "category": "4",
-      "kind": "Minutes",
-      "date": "2026-05-26",
-      "url": "https://www.co.lancaster.pa.us/AgendaCenter/ViewFile/Minutes/_05262026-3620",
-      "notice": "",
-      "first_seen": 1794090807.8891,
-      "activity_at": 1794090807.8891
     }
   }
 }

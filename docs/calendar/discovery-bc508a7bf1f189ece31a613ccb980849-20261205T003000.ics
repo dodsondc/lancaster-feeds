@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-bc508a7bf1f189ece31a613ccb980849-20261205T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261205T003000Z
+DTEND:20261205T023000Z
+SUMMARY:West Art Presents: An Evening with Elizabeth Cook!
+DESCRIPTION:West Art is thrilled to welcome Nashville-based singer-songwrit
+ er Elizabeth Cook to Lancaster! With her new album\, Great Television!\, C
+ ook shines a light on the overlooked stories\, untold histories\, and huma
+ n experiences that shape the American narrative. By blending her sharp per
+ spective with heartfelt storytelling\, Cook brings a fresh lens to the liv
+ es that are too often left out of the spotlight. And now\, she's bringing 
+ those stories to The Sanctuary. Join us for this special evening with Eliz
+ abeth Cook!\n\nPrice: Not supplied by this source\; check event details\n\
+ nSchedule listed: Dec 04\, 2026 · 07:30 PM EST – 09:30 PM EST\n\nSchedu
+ le supplied by West Art\n\nTimes converted from America/New_York to UTC fo
+ r calendar compatibility.\n\n\n\nRegistration: https://www.westartlanc.com
+ /concert/elizabeth-cook\n\nAdding this calendar item does not register you
+ . Check the original listing for changes\; imported events do not automati
+ cally stay in sync.
+LOCATION:West Art\, Sanctuary
+URL:https://www.westartlanc.com/concert/elizabeth-cook
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-b3b543ea07c3735396dbcf1d92e1c40d-20261206T180000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261206T180000Z
+DTEND:20261206T183000Z
+SUMMARY:Sunday Swap Series
+DESCRIPTION:A casual women's meetup in Lancaster to share\, connect\, and e
+ xchange items in a relaxed park setting. Bring up to 12 items you'd like t
+ o share with the group. Items can be a mix of categories that fit a season
+ al theme or simply be things you enjoy making\, collecting\, growing\, or 
+ giving. We'll set everything out\, walk around the table together\, and ta
+ ke turns choosing items from each other's collections. This is a low-press
+ ure\, creative exchange designed to meet new women in Lancaster in a more 
+ intentional way than typical networking or sitting-at-a-table events. Idea
+ s: Plants or cuttings Baked goods Home decor Artwork or prints Handmade cr
+ afts Small thrifted finds Garden-related items Seasonal favorites Looking 
+ forward to seeing both familiar and new faces! *11/25/26 event is at 11AM\
+ n\nPrice: Not supplied by this source\; check event details\n\nSchedule li
+ sted: Dec 06\, 2026 · 01:00 PM EST – 01:30 PM EST\n\nSchedule supplied 
+ by West Art\n\nTimes converted from America/New_York to UTC for calendar c
+ ompatibility.\n\n\n\nRegistration: https://www.westartlanc.com/event/event
+ _sunday-swap-series\n\nAdding this calendar item does not register you. Ch
+ eck the original listing for changes\; imported events do not automaticall
+ y stay in sync.
+LOCATION:West Art\, Art Bar
+URL:https://www.westartlanc.com/event/event_sunday-swap-series
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

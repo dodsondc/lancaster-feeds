@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-de751c62781159472d9ac201eb6f8a49-20261224T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261224T000000Z
+DTEND:20261224T020000Z
+SUMMARY:West Art Open Mics
+DESCRIPTION:Looking to get some experience playing your music in front of a
+  supportive\, listening audience? Are you interested in meeting other loca
+ l musicians and listening to their hand-crafted songs? If so\, come out to
+  West Art's open mic nights! 1st and 3rd Wednesday from 7:00 pm to 9:00 pm
+  - Acoustic Open Mic with local songwriter Andrew Pauls. This open mic wil
+ l take place in the Art Bar and is focused on acoustic music (i.e.\, no dr
+ um kit or amps). West Art will provide up to three inputs for your instrum
+ ent and voice. Original songs are encouraged\, but cover songs are always 
+ welcome! Each performer will have enough time to play 2-3 songs (10-15 min
+ utes). Sign-ups at 6:30 pm! 2nd and 4th Wednesday from 7:00 - 9:00 pm - BL
+ AST OFF Open Mic with Emily Siegrist. (18+ Recommended) Emily Siegrist has
+  been hosting open mics known as BLAST OFF in different locations in Lanca
+ ster City since 2013\, aiming to build confidence and motivation for local
+  musicians\, rappers\, poets\, and comedians to reach their goals in the p
+ erforming arts. This open mic is located in the Art Bar and takes place ev
+ ery 2nd and 4th Wednesday. Doors and signups are at 7 pm! This event is re
+ commended for ages 18+ due to possible adult themes. If you come to play\,
+  come to listen! Be prepared to be an attentive audience member and suppor
+ t the other performers.\n\nPrice: Not supplied by this source\; check even
+ t details\n\nSchedule listed: Dec 23\, 2026 · 07:00 PM EST – 09:00 PM E
+ ST\n\nSchedule supplied by West Art\n\nTimes converted from America/New_Yo
+ rk to UTC for calendar compatibility.\n\n\n\nRegistration: https://www.wes
+ tartlanc.com/event/events_open-mic\n\nAdding this calendar item does not r
+ egister you. Check the original listing for changes\; imported events do n
+ ot automatically stay in sync.
+LOCATION:West Art\, Art Bar
+URL:https://www.westartlanc.com/event/events_open-mic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

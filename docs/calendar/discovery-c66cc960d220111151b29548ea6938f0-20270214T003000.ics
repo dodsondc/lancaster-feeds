@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-c66cc960d220111151b29548ea6938f0-20270214T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20270214T003000Z
+DTEND:20270214T030000Z
+SUMMARY:West Art Presents: The Grateful Allman Band Experience!
+DESCRIPTION:West Art is excited to welcome The Grateful Allman Band Experie
+ nce (GABE)\, bringing together the legendary music of The Grateful Dead\, 
+ The Allman Brothers Band\, and The Band—three giants of American rock wh
+ ose influence continues to resonate across generations. Featuring an all-s
+ tar lineup drawn from notable Mid-Atlantic touring groups including Danger
+  Bird\, Covered with Jam\, Montgomery Warlocks\, and The Crimestoppers\; G
+ ABE creates a vibrant\, improvisation-driven concert experience inspired b
+ y the spirit of the iconic Watkins Glen Summer Jam. Join us!\n\nPrice: Not
+  supplied by this source\; check event details\n\nSchedule listed: Feb 13\
+ , 2027 · 07:30 PM EST – 10:00 PM EST\n\nSchedule supplied by West Art\n
+ \nTimes converted from America/New_York to UTC for calendar compatibility.
+ \n\n\n\nRegistration: https://www.westartlanc.com/concert/gabe\n\nAdding t
+ his calendar item does not register you. Check the original listing for ch
+ anges\; imported events do not automatically stay in sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/concert/gabe
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

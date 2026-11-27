@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-b88901e604e64a82e218866ca69a012c-20270112T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20270112T000000Z
+DTEND:20270112T020000Z
+SUMMARY:Photo Jam
+DESCRIPTION:Molly Schlachter is a Lancaster photographer and founder of Pho
+ to Jam\, the creative community she built around curiosity\, connection\, 
+ and the joy of seeing the world more beautiful. She's been making pictures
+  for more than 20 years and believes a camera is a pretty excellent excuse
+  to pay attention\, get out of your own head\, and occasionally talk to st
+ rangers.\n\nPrice: Not supplied by this source\; check event details\n\nSc
+ hedule listed: Jan 11\, 2027 · 07:00 PM EST – 09:00 PM EST\n\nSchedule 
+ supplied by West Art\n\nTimes converted from America/New_York to UTC for c
+ alendar compatibility.\n\n\n\nRegistration: https://www.westartlanc.com/ev
+ ent/events-photo_jam\n\nAdding this calendar item does not register you. C
+ heck the original listing for changes\; imported events do not automatical
+ ly stay in sync.
+LOCATION:West Art\, Art Bar
+URL:https://www.westartlanc.com/event/events-photo_jam
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-301d398cc07bcadb3e2b9ed9af660b9a-20261130T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261130T000000Z
+DTEND:20261130T023000Z
+SUMMARY:West Art Welcomes Vinegar Creek Constituency & Makeshift Hammer
+DESCRIPTION:Make way! Vinegar Creek Constituency is coming to town! The Pen
+ nsylvania Dutch Country's swashbuckling\, pseudo-legendary pioneers of the
+  Amerikindasorta style of string band music is ready to channel the venera
+ ble old ghosts of American folk music tradition through imaginative\, emot
+ ive original songs delivered with rock n roll intensity. Full of shouting\
+ , floorboard- stomping soul\, their live performances are uplifting\, high
+ -energy events with fans dancing in the aisles and clapping\, stomping\, a
+ nd singing along! Joining them is Makeshift Hammer (formerly Driftwood Sol
+ dier)\, which makes gutter-folk music\, a blend of bittersweet ballads\, c
+ rooked stories\, and thumping blue rants on mandolin\, bass guitar\, and j
+ unk drums\, described by WXPN as "a bluesy version of Nick Cave with a nod
+  to Tom Waits!"\n\nPrice: Not supplied by this source\; check event detail
+ s\n\nSchedule listed: Nov 29\, 2026 · 07:00 PM EST – 09:30 PM EST\n\nSc
+ hedule supplied by West Art\n\nTimes converted from America/New_York to UT
+ C for calendar compatibility.\n\n\n\nRegistration: https://www.westartlanc
+ .com/concert/vinegar-creek-constituency\n\nAdding this calendar item does 
+ not register you. Check the original listing for changes\; imported events
+  do not automatically stay in sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/concert/vinegar-creek-constituency
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

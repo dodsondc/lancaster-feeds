@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-70d94740b007d4852c591c6a658ce0e9-20261128T170000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261128T170000Z
+DTEND:20261129T030000Z
+SUMMARY:Various Artist Festival
+DESCRIPTION:The very first Various Artists Festival by Sort of Vain is comi
+ ng to Lancaster\, PA on November 28th at our city’s most exciting new pe
+ rformance venue\, West Art. Various Artists Festival will be a full-day ev
+ ent\, across multiple stages\, all in one venue - featuring one of a kind 
+ performances by local and regional musicians\, comedians\, and other genre
+ -bending artists. Our team is dedicated to producing an unforgettable expe
+ rience that is full of surprises\; where artists can come together in mutu
+ al appreciation and audiences can discover something new.\n\nPrice: Not su
+ pplied by this source\; check event details\n\nSchedule listed: Nov 28\, 2
+ 026 · 12:00 PM EST – 10:00 PM EST\n\nSchedule supplied by West Art\n\nT
+ imes converted from America/New_York to UTC for calendar compatibility.\n\
+ n\n\nRegistration: https://www.westartlanc.com/event/variousartistsfestiva
+ l\n\nAdding this calendar item does not register you. Check the original l
+ isting for changes\; imported events do not automatically stay in sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/event/variousartistsfestival
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-095f55ea6db5469b89f9708cc5e5e2b1-20261220T170000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261220T170000Z
+DTEND:20261220T220000Z
+SUMMARY:Witches Brew Makers Market
+DESCRIPTION:Join us for our local makers market celebrating Lancaster's cre
+ atives!\n\nPrice: Not supplied by this source\; check event details\n\nSch
+ edule listed: Dec 20\, 2026 · 12:00 PM EST – 05:00 PM EST\n\nSchedule s
+ upplied by West Art\n\nTimes converted from America/New_York to UTC for ca
+ lendar compatibility.\n\n\n\nRegistration: https://www.westartlanc.com/eve
+ nt/witchesbrewmarket\n\nAdding this calendar item does not register you. C
+ heck the original listing for changes\; imported events do not automatical
+ ly stay in sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/event/witchesbrewmarket
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

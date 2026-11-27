@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-570923b4dad280559df41afe2aa3d9a1-20261217T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261217T003000Z
+DTEND:20261217T030000Z
+SUMMARY:Haley Heynderickx w/ John Roseboro
+DESCRIPTION:Haley Heynderickx makes the kind of music that makes you want t
+ o slow down and pay attention. With a voice that is both intimate and capt
+ ivating\, her songs find beauty in the everyday while exploring identity\,
+  belonging\, nature\, and all the uncertainty that comes with being human.
+  We're thrilled to have her taking over our City Hall stage! Tender\, thou
+ ghtful\, and quietly spellbinding\, Heynderickx’s live performances crea
+ te an experience that feels less like a concert and more like stepping int
+ o a brand new story. Join us and leave with just a little more room for wo
+ nder! Opening the evening is John Roseboro! Based in Brooklyn\, New York\,
+  Roseboro has cultivated a sound that exists outside conventional genre bo
+ undaries—melding Brazilian bossa nova and MPB\, indie folk\, jazz\, soul
+ \, alternative rock\, and devotional music into what he has described as "
+ post-bossa."\n\nPrice: Not supplied by this source\; check event details\n
+ \nSchedule listed: Dec 16\, 2026 · 07:30 PM EST – 10:00 PM EST\n\nSched
+ ule supplied by West Art\n\nTimes converted from America/New_York to UTC f
+ or calendar compatibility.\n\n\n\nRegistration: https://www.westartlanc.co
+ m/concert/haley-heynderickx\n\nAdding this calendar item does not register
+  you. Check the original listing for changes\; imported events do not auto
+ matically stay in sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/concert/haley-heynderickx
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

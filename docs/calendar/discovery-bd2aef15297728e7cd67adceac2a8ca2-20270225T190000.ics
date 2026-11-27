@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-bd2aef15297728e7cd67adceac2a8ca2-20270225T190000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20270225T190000Z
+DTEND:20270225T213000Z
+SUMMARY:Menopause The Musical at American Music Theatre
+DESCRIPTION:Menopause The Musical®: 25th Anniversary Tour Join the celebra
+ tion as Menopause The Musical® marks 25 years of laughter\, music\, and s
+ isterhood! This hilarious musical parody brings together four women at a l
+ ingerie sale with seemingly nothing in common but a black lace bra — and
+  the all-too-relatable experiences of memory loss\, hot flashes\, night sw
+ eats\, romance\, relationships\, and “The Change.” Set to classic hits
+  from the ’60s\, ’70s\, and ’80s\, this laugh-out-loud show will hav
+ e you cheering\, singing along\, and dancing in the aisles. See why more t
+ han 17 million women and fans worldwide have been laughing for 25 years at
+  this joyful celebration of women and The Change!® Come Explore Our Lanca
+ ster Theaters and the Arts Live Theater Live Entertainment Live Music Dinn
+ er Theaters Murder Mysteries Things To Do Artisan Collectives Art Gallerie
+ s Events Calendar\n\nPrice: Not supplied by this calendar\; check event de
+ tails\n\nSchedule listed: Feb 25\, 2027 · 02:00 PM EST – 04:30 PM EST\n
+ \nSchedule supplied by LancasterPA\n\nTimes converted from America/New_Yor
+ k to UTC for calendar compatibility.\n\n\n\nRegistration: https://lancaste
+ rpa.com/events-calendar/menopause-the-musical-american-music-theatre/\n\nA
+ dding this calendar item does not register you. Check the original listing
+  for changes\; imported events do not automatically stay in sync.
+LOCATION:American Music Theatre\, 2425 Lincoln Highway East\, Lancaster\, P
+ A\, 17602
+URL:https://lancasterpa.com/events-calendar/menopause-the-musical-american-
+ music-theatre/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

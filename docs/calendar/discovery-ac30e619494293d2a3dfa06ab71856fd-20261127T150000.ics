@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-ac30e619494293d2a3dfa06ab71856fd-20261127T150000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261127T150000Z
+DTEND:20261127T200000Z
+SUMMARY:West Art Flea
+DESCRIPTION:Join us for the West Art Flea Market curated by Holly Farrell.\
+ n\nPrice: Not supplied by this source\; check event details\n\nSchedule li
+ sted: Nov 27\, 2026 · 10:00 AM EST – 03:00 PM EST\n\nSchedule supplied 
+ by West Art\n\nTimes converted from America/New_York to UTC for calendar c
+ ompatibility.\n\n\n\nRegistration: https://www.westartlanc.com/event/westa
+ rtflea\n\nAdding this calendar item does not register you. Check the origi
+ nal listing for changes\; imported events do not automatically stay in syn
+ c.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/event/westartflea
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

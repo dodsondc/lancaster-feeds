@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-258fd90db0929e4520efb94753bb3003-20261223T000000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261223T000000Z
+DTEND:20261223T023000Z
+SUMMARY:West Art - Ballroom Dance Classes
+DESCRIPTION:Join us for an evening of music\, movement\, and connection at 
+ our upcoming Social Ballroom Dance! Whether you're stepping onto the dance
+  floor for the very first time or you've been dancing for years\, this eve
+ nt is designed for all. Enjoy a relaxed\, welcoming atmosphere where you c
+ an practice your favorite dances\, learn some new moves\, meet new people\
+ , and have fun. No partner is required—just bring your enthusiasm and co
+ mfortable shoes. Come dance\, learn\, and make memories with us! Doors ope
+ n at 6:30 pm\, with lessons starting at 7 pm! Bring your dancing shoes!\n\
+ nPrice: Not supplied by this source\; check event details\n\nSchedule list
+ ed: Dec 22\, 2026 · 07:00 PM EST – 09:30 PM EST\n\nSchedule supplied by
+  West Art\n\nTimes converted from America/New_York to UTC for calendar com
+ patibility.\n\n\n\nRegistration: https://www.westartlanc.com/event/ballroo
+ m-social-dance\n\nAdding this calendar item does not register you. Check t
+ he original listing for changes\; imported events do not automatically sta
+ y in sync.
+LOCATION:West Art\, Sanctuary
+URL:https://www.westartlanc.com/event/ballroom-social-dance
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

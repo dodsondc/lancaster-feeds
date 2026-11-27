@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lancaster Community Feeds//Conservancy Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:discovery-1449af1413b3bca4cbb2eacce95facbd-20261216T003000@lancaster-fe
+ eds.dodsondc.github.io
+DTSTAMP:20261127T191416Z
+LAST-MODIFIED:20261127T191416Z
+SEQUENCE:0
+DTSTART:20261216T003000Z
+DTEND:20261216T023000Z
+SUMMARY:West Art and WXPN Welcome Angela Autumn and Florry!
+DESCRIPTION:What does a porch-swing folk singer and a seven-piece cosmic co
+ untry collective have in common? A lot more than you'd think. Pennsylvania
+ 's Angela Autumn and Florry each draw from the rich traditions of American
+  folk and country music\, but neither is interested in simply retelling ol
+ d tales of the past. Angela Autumn's thoughtful songwriting combines warm 
+ melodies with deeply personal storytelling\, while Florry transforms twang
+ \, indie rock\, and psychedelic country into a freewheeling experience tha
+ t's earned them a devoted following. Together\, these two are bringing an 
+ evening full of intimate moments\, sprawling jams\, and modern Americana i
+ n a different light. Whether you're a long-term fan\, or just hearing thei
+ r names for the first time\, this isn't a show you want to miss\, so grab 
+ your denim (and maybe your dads old cowboy hat)\, and join us.\n\nPrice: N
+ ot supplied by this source\; check event details\n\nSchedule listed: Dec 1
+ 5\, 2026 · 07:30 PM EST – 09:30 PM EST\n\nSchedule supplied by West Art
+ \n\nTimes converted from America/New_York to UTC for calendar compatibilit
+ y.\n\n\n\nRegistration: https://www.westartlanc.com/concert/angela-autumn-
+ and-florry\n\nAdding this calendar item does not register you. Check the o
+ riginal listing for changes\; imported events do not automatically stay in
+  sync.
+LOCATION:West Art\, City Hall
+URL:https://www.westartlanc.com/concert/angela-autumn-and-florry
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
